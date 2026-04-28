@@ -12,10 +12,6 @@ from dataclasses import dataclass
 from pathlib import Path
 from urllib.parse import urlparse
 
-from faster_whisper import WhisperModel
-from tqdm import tqdm
-
-
 DEFAULT_FEED_URL = "https://think-ai.podigee.io/feed/mp3"
 NS = {
     "content": "http://purl.org/rss/1.0/modules/content/",
@@ -101,6 +97,8 @@ def timestamp(seconds):
 
 
 def download_episode(episode, audio_dir):
+    from tqdm import tqdm
+
     audio_dir.mkdir(parents=True, exist_ok=True)
     extension = Path(urlparse(episode.audio_url).path).suffix or ".mp3"
     audio_path = audio_dir / f"{episode.index:03d}{extension}"
@@ -179,6 +177,8 @@ def write_markdown(episode, transcript_path, segments, info, feed_url, model_siz
 
 
 def transcribe_episode(args):
+    from faster_whisper import WhisperModel
+
     episodes = parse_feed(args.feed_url)
     selected = [episode for episode in episodes if episode.index == args.episode_index]
     if not selected:
