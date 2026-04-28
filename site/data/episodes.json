@@ -2,7 +2,7 @@
   "feedUrl": "https://think-ai.podigee.io/feed/mp3",
   "generatedAt": "",
   "episodeCount": 37,
-  "availableTranscriptCount": 20,
+  "availableTranscriptCount": 22,
   "episodes": [
     {
       "index": 1,
@@ -199,8 +199,8 @@
       "pageUrl": "https://think-ai.podigee.io/19-2025-wrapped",
       "imageUrl": "https://images.podigee-cdn.net/0x,s5GHYnXu3ZW9xNKD-16p5W9Nv1yY1H3L4ssI6sabf3g4=/https://main.podigee-cdn.net/uploads/u73317/55323e46-a44d-4ab7-aff4-9f74fa3d1806.jpg",
       "audioUrl": "https://audio.podigee-cdn.net/2261485-m-d19d786b849ada08f828cd348c91793d.mp3?source=feed",
-      "transcriptAvailable": false,
-      "transcriptPath": ""
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/018 - 2025 Wrapped.md"
     },
     {
       "index": 19,
@@ -243,8 +243,8 @@
       "pageUrl": "https://think-ai.podigee.io/22-ces-2026",
       "imageUrl": "https://images.podigee-cdn.net/0x,s5iHUzdhKv2a9Nz5bIAKU4nA8ReG9rmoep-H9zpZ96_s=/https://main.podigee-cdn.net/uploads/u73317/6841b674-8960-411b-932a-acacb9017a2b.jpg",
       "audioUrl": "https://audio.podigee-cdn.net/2301431-m-aa3ec424bcd05fa8e3c85dd5b4574406.mp3?source=feed",
-      "transcriptAvailable": false,
-      "transcriptPath": ""
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/022 - CES 2026.md"
     },
     {
       "index": 23,
