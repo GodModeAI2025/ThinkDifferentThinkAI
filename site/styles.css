@@ -281,19 +281,27 @@ a {
 .reader-header {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 92px;
+  grid-template-areas:
+    "heading cover"
+    "actions actions";
   align-items: start;
   gap: 24px;
   margin: 0 auto 24px;
   max-width: 980px;
+  width: 100%;
 }
 
 .episode-heading {
+  grid-area: heading;
   min-width: 0;
+  padding-left: 8px;
 }
 
 .selected-cover {
+  grid-area: cover;
   width: 92px;
   aspect-ratio: 1;
+  justify-self: end;
   border: 4px solid #00093d;
   background: #06145f;
   object-fit: cover;
@@ -312,7 +320,7 @@ a {
 
 h1 {
   margin: 0;
-  max-width: 760px;
+  max-width: 100%;
   font-size: 34px;
   line-height: 1.1;
   letter-spacing: 0;
@@ -324,9 +332,10 @@ h1 {
 .actions {
   display: flex;
   flex-wrap: wrap;
-  grid-column: 1 / -1;
+  grid-area: actions;
   justify-content: flex-start;
   gap: 10px;
+  padding-left: 8px;
 }
 
 .transcript {
@@ -434,12 +443,14 @@ h1 {
   .reader-header {
     display: grid;
     grid-template-columns: minmax(0, 1fr) 72px;
+    grid-template-areas:
+      "heading cover"
+      "actions actions";
     gap: 14px;
   }
 
   .actions {
     justify-content: flex-start;
-    grid-column: 1 / -1;
   }
 
   .selected-cover {
