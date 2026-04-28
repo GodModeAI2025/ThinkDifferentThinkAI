@@ -76,6 +76,13 @@ a {
   white-space: nowrap;
 }
 
+.topnav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
 .header-link,
 .button {
   display: inline-flex;
@@ -273,21 +280,25 @@ a {
 
 .reader-header {
   display: grid;
-  grid-template-columns: 156px minmax(0, 1fr) auto;
-  align-items: flex-start;
+  grid-template-columns: minmax(0, 1fr) 92px;
+  align-items: start;
   gap: 24px;
   margin: 0 auto 24px;
   max-width: 980px;
 }
 
+.episode-heading {
+  min-width: 0;
+}
+
 .selected-cover {
-  width: 156px;
+  width: 92px;
   aspect-ratio: 1;
   border: 4px solid #00093d;
   background: #06145f;
   object-fit: cover;
   image-rendering: pixelated;
-  box-shadow: var(--shadow);
+  box-shadow: 5px 5px 0 rgba(0, 9, 70, 0.9);
 }
 
 .eyebrow {
@@ -313,7 +324,8 @@ h1 {
 .actions {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  grid-column: 1 / -1;
+  justify-content: flex-start;
   gap: 10px;
 }
 
@@ -373,7 +385,18 @@ h1 {
 
 @media (max-width: 860px) {
   .topbar {
+    height: auto;
+    min-height: 72px;
     padding: 0 16px;
+    flex-wrap: wrap;
+    row-gap: 12px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+  }
+
+  .topnav {
+    width: 100%;
+    justify-content: flex-start;
   }
 
   .layout {
@@ -410,7 +433,8 @@ h1 {
 
   .reader-header {
     display: grid;
-    grid-template-columns: 96px minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1fr) 72px;
+    gap: 14px;
   }
 
   .actions {
@@ -419,7 +443,7 @@ h1 {
   }
 
   .selected-cover {
-    width: 96px;
+    width: 72px;
   }
 
   h1 {
