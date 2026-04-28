@@ -14,7 +14,7 @@ transcribed_at: "2026-04-28T20:15:38+00:00"
 
 # KI als Kunde
 
-**Veröffentlicht:** Mon, 21 Jul 2025 20:58:12 +0000
+**Veroeffentlicht:** Mon, 21 Jul 2025 20:58:12 +0000
 **Dauer:** 3136
 **Audio:** https://audio.podigee-cdn.net/2027676-m-ce7d3c6c2388ba282768114b860d5bc1.mp3?source=feed
 

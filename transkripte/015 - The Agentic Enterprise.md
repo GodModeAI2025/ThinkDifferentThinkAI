@@ -14,7 +14,7 @@ transcribed_at: "2026-04-28T20:45:13+00:00"
 
 # The Agentic Enterprise
 
-**Veröffentlicht:** Fri, 28 Nov 2025 12:34:00 +0000
+**Veroeffentlicht:** Fri, 28 Nov 2025 12:34:00 +0000
 **Dauer:** 3542
 **Audio:** https://audio.podigee-cdn.net/2225028-m-e758df208906ee61e56292b1355db85f.mp3?source=feed
 

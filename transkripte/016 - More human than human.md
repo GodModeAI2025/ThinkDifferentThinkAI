@@ -14,7 +14,7 @@ transcribed_at: "2026-04-28T20:41:44+00:00"
 
 # More human than human.
 
-**Veröffentlicht:** Mon, 01 Dec 2025 10:59:00 +0000
+**Veroeffentlicht:** Mon, 01 Dec 2025 10:59:00 +0000
 **Dauer:** 2327
 **Audio:** https://audio.podigee-cdn.net/2232429-m-15d3f2bdecafd27a2e3b790a9b64ed1e.mp3?source=feed
 

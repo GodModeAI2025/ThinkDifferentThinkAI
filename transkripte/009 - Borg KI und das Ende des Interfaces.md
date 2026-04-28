@@ -14,7 +14,7 @@ transcribed_at: "2026-04-28T20:34:26+00:00"
 
 # Borg KI und das Ende des Interfaces
 
-**Veröffentlicht:** Mon, 13 Oct 2025 18:43:00 +0000
+**Veroeffentlicht:** Mon, 13 Oct 2025 18:43:00 +0000
 **Dauer:** 3286
 **Audio:** https://audio.podigee-cdn.net/2158100-m-6a9f266f3bc732470dfc330d916afc65.mp3?source=feed
 

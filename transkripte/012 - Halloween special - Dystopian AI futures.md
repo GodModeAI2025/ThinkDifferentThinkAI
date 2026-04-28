@@ -14,7 +14,7 @@ transcribed_at: "2026-04-28T20:26:43+00:00"
 
 # Halloween special: Dystopian AI futures
 
-**Veröffentlicht:** Fri, 31 Oct 2025 14:20:00 +0000
+**Veroeffentlicht:** Fri, 31 Oct 2025 14:20:00 +0000
 **Dauer:** 2524
 **Audio:** https://audio.podigee-cdn.net/2182587-m-b0acae85d007ad519a8ec0e406e06e3f.mp3?source=feed
 

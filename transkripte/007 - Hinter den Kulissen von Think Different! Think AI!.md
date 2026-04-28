@@ -14,7 +14,7 @@ transcribed_at: "2026-04-28T20:07:01+00:00"
 
 # Hinter den Kulissen von Think Different! Think AI!
 
-**Veröffentlicht:** Mon, 15 Sep 2025 02:22:00 +0000
+**Veroeffentlicht:** Mon, 15 Sep 2025 02:22:00 +0000
 **Dauer:** 1058
 **Audio:** https://audio.podigee-cdn.net/2110798-m-efcdc703dc8e31c1ebc943a1bba6f0c2.mp3?source=feed
 

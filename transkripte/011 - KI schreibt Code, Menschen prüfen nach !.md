@@ -14,7 +14,7 @@ transcribed_at: "2026-04-28T20:34:10+00:00"
 
 # KI schreibt Code, Menschen prüfen nach !
 
-**Veröffentlicht:** Sun, 26 Oct 2025 10:27:00 +0000
+**Veroeffentlicht:** Sun, 26 Oct 2025 10:27:00 +0000
 **Dauer:** 4017
 **Audio:** https://audio.podigee-cdn.net/2171698-m-c8203b56088c5d2054b7dd409251e4b2.mp3?source=feed
 

@@ -14,7 +14,7 @@ transcribed_at: "2026-04-28T20:40:21+00:00"
 
 # Weihnachtsmagie
 
-**Veröffentlicht:** Mon, 22 Dec 2025 13:50:00 +0000
+**Veroeffentlicht:** Mon, 22 Dec 2025 13:50:00 +0000
 **Dauer:** 1762
 **Audio:** https://audio.podigee-cdn.net/2247473-m-af62a4f153faeb5241296bb6a8e84c25.mp3?source=feed
 

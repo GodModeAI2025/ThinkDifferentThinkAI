@@ -14,7 +14,7 @@ transcribed_at: "2026-04-28T20:13:09+00:00"
 
 # Zwischen Bots, Agenten und 20 Kilo Fleisch
 
-**Veröffentlicht:** Mon, 28 Jul 2025 16:24:19 +0000
+**Veroeffentlicht:** Mon, 28 Jul 2025 16:24:19 +0000
 **Dauer:** 2364
 **Audio:** https://audio.podigee-cdn.net/2038530-m-c9462ec01bf63e20b44a8bc09c656060.mp3?source=feed
 

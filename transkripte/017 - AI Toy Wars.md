@@ -14,7 +14,7 @@ transcribed_at: "2026-04-28T20:39:45+00:00"
 
 # AI Toy Wars
 
-**Veröffentlicht:** Mon, 08 Dec 2025 17:37:48 +0000
+**Veroeffentlicht:** Mon, 08 Dec 2025 17:37:48 +0000
 **Dauer:** 2079
 **Audio:** https://audio.podigee-cdn.net/2247288-m-363d408faaf74ccf28ed29fed90216b2.mp3?source=feed
 

@@ -14,7 +14,7 @@ transcribed_at: "2026-04-28T20:13:41+00:00"
 
 # AI ADVISORY BOARD
 
-**Veröffentlicht:** Mon, 29 Sep 2025 20:11:00 +0000
+**Veroeffentlicht:** Mon, 29 Sep 2025 20:11:00 +0000
 **Dauer:** 2785
 **Audio:** https://audio.podigee-cdn.net/2135780-m-16e47ab9701c9ff3a408ce7a3c4018e7.mp3?source=feed
 

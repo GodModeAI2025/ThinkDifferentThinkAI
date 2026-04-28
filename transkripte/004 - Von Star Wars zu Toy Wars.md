@@ -14,7 +14,7 @@ transcribed_at: "2026-04-28T20:13:54+00:00"
 
 # Von Star Wars zu Toy Wars
 
-**Veröffentlicht:** Mon, 18 Aug 2025 18:29:00 +0000
+**Veroeffentlicht:** Mon, 18 Aug 2025 18:29:00 +0000
 **Dauer:** 2791
 **Audio:** https://audio.podigee-cdn.net/2069503-m-df9880a35ce1100e460dc1e01140468b.mp3?source=feed
 

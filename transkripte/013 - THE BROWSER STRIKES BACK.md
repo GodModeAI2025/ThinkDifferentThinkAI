@@ -14,7 +14,7 @@ transcribed_at: "2026-04-28T20:33:41+00:00"
 
 # THE BROWSER STRIKES BACK
 
-**Veröffentlicht:** Mon, 03 Nov 2025 04:32:00 +0000
+**Veroeffentlicht:** Mon, 03 Nov 2025 04:32:00 +0000
 **Dauer:** 3960
 **Audio:** https://audio.podigee-cdn.net/2182841-m-93a4ae534ba7c92f1ba9568c320cf162.mp3?source=feed
 
