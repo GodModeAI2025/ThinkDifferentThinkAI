@@ -202,10 +202,10 @@ a {
 
 .episode-button {
   display: grid;
-  grid-template-columns: 44px minmax(0, 1fr);
+  grid-template-columns: 54px 44px minmax(0, 1fr);
   gap: 12px;
   width: 100%;
-  min-height: 72px;
+  min-height: 84px;
   padding: 14px 20px;
   border: 0;
   border-bottom: 3px solid #00093d;
@@ -214,6 +214,17 @@ a {
   text-align: left;
   cursor: pointer;
   font-family: inherit;
+}
+
+.episode-cover {
+  width: 54px;
+  height: 54px;
+  align-self: start;
+  border: 3px solid #00093d;
+  background: #06145f;
+  object-fit: cover;
+  image-rendering: pixelated;
+  box-shadow: 3px 3px 0 #00093d;
 }
 
 .episode-button:hover,
@@ -261,12 +272,22 @@ a {
 }
 
 .reader-header {
-  display: flex;
+  display: grid;
+  grid-template-columns: 156px minmax(0, 1fr) auto;
   align-items: flex-start;
-  justify-content: space-between;
   gap: 24px;
   margin: 0 auto 24px;
   max-width: 980px;
+}
+
+.selected-cover {
+  width: 156px;
+  aspect-ratio: 1;
+  border: 4px solid #00093d;
+  background: #06145f;
+  object-fit: cover;
+  image-rendering: pixelated;
+  box-shadow: var(--shadow);
 }
 
 .eyebrow {
@@ -389,10 +410,16 @@ h1 {
 
   .reader-header {
     display: grid;
+    grid-template-columns: 96px minmax(0, 1fr);
   }
 
   .actions {
     justify-content: flex-start;
+    grid-column: 1 / -1;
+  }
+
+  .selected-cover {
+    width: 96px;
   }
 
   h1 {

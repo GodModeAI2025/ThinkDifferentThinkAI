@@ -12,6 +12,8 @@ const meta = document.querySelector("#episodeMeta");
 const transcript = document.querySelector("#transcript");
 const transcriptLink = document.querySelector("#transcriptLink");
 const playerLink = document.querySelector("#playerLink");
+const selectedCover = document.querySelector("#selectedCover");
+const defaultCover = "https://images.podigee-cdn.net/0x,sL3rd-8gIENV0jDGxTRhEKOYzoUhn4Sgs9-d3rsTM_Hk=/https://main.podigee-cdn.net/uploads/u73317/3c6e6a97-b38f-40cb-8890-7ce7916cb31c.jpg";
 
 function padEpisode(value) {
   return String(value).padStart(3, "0");
@@ -70,10 +72,12 @@ function renderList() {
   episodeList.innerHTML = "";
 
   for (const episode of episodes) {
+    const imageUrl = episode.imageUrl || defaultCover;
     const button = document.createElement("button");
     button.type = "button";
     button.className = `episode-button${episode.transcriptAvailable ? "" : " missing"}${state.selected?.index === episode.index ? " active" : ""}`;
     button.innerHTML = `
+      <img class="episode-cover" src="${escapeHtml(imageUrl)}" alt="">
       <span class="episode-number">${padEpisode(episode.index)}</span>
       <span>
         <span class="episode-title">${escapeHtml(episode.title)}</span>
@@ -92,6 +96,8 @@ async function selectEpisode(episode) {
   title.textContent = episode.title;
   meta.textContent = `Folge ${padEpisode(episode.index)}${episode.duration ? ` · ${episode.duration}` : ""}`;
   playerLink.href = episode.pageUrl || "https://think-ai.podigee.io/";
+  selectedCover.src = episode.imageUrl || defaultCover;
+  selectedCover.alt = `Cover: ${episode.title}`;
 
   if (!episode.transcriptAvailable) {
     transcriptLink.href = episode.pageUrl || "#";

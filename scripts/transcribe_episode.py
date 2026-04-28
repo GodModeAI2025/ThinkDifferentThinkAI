@@ -24,6 +24,7 @@ class Episode:
     index: int
     title: str
     page_url: str
+    image_url: str
     pub_date: str
     duration: str
     description: str
@@ -50,6 +51,10 @@ def parse_feed(feed_url):
     channel = root.find("channel")
     if channel is None:
         raise RuntimeError("RSS feed has no channel element")
+    channel_image = channel.find("itunes:image", NS)
+    fallback_image_url = ""
+    if channel_image is not None:
+        fallback_image_url = html.unescape(channel_image.attrib.get("href", "")).strip()
 
     episodes = []
     for index, item in enumerate(reversed(channel.findall("item")), start=1):
@@ -58,11 +63,16 @@ def parse_feed(feed_url):
             continue
 
         length = enclosure.attrib.get("length", "0")
+        item_image = item.find("itunes:image", NS)
+        image_url = fallback_image_url
+        if item_image is not None:
+            image_url = html.unescape(item_image.attrib.get("href", "")).strip() or fallback_image_url
         episodes.append(
             Episode(
                 index=index,
                 title=text_of(item, "title", "Untitled episode"),
                 page_url=text_of(item, "link"),
+                image_url=image_url,
                 pub_date=text_of(item, "pubDate"),
                 duration=text_of(item, "itunes:duration"),
                 description=text_of(item, "content:encoded") or text_of(item, "description"),
@@ -146,6 +156,7 @@ def write_markdown(episode, transcript_path, segments, info, feed_url, model_siz
         f'published: "{episode.pub_date}"',
         f'duration: "{episode.duration}"',
         f'page_url: "{episode.page_url}"',
+        f'image_url: "{episode.image_url}"',
         f'audio_url: "{episode.audio_url}"',
         f'guid: "{episode.guid}"',
         f'source_feed: "{feed_url}"',
@@ -165,6 +176,8 @@ def write_markdown(episode, transcript_path, segments, info, feed_url, model_siz
         lines.append(f"**Dauer:** {episode.duration}")
     if episode.page_url:
         lines.append(f"**Webplayer:** {episode.page_url}")
+    if episode.image_url:
+        lines.append(f"**Cover:** {episode.image_url}")
     lines.append(f"**Audio:** {episode.audio_url}")
     lines.append("")
 

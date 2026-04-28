@@ -20,6 +20,7 @@ def build_manifest(feed_url, transcript_dir):
                 "published": episode.pub_date,
                 "duration": episode.duration,
                 "pageUrl": episode.page_url,
+                "imageUrl": episode.image_url,
                 "audioUrl": episode.audio_url,
                 "transcriptAvailable": available,
                 "transcriptPath": str(transcript_path).replace("\\", "/") if available else "",
