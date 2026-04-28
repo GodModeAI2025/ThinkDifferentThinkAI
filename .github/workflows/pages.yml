@@ -28,6 +28,9 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
       - name: Build episode data
         run: |
           python scripts/build_site_manifest.py
