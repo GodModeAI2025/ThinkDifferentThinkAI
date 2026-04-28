@@ -14,7 +14,7 @@ transcribed_at: "2026-04-28T20:53:45+00:00"
 
 # Skills Not Hacks!
 
-**Veroeffentlicht:** Mon, 23 Feb 2026 20:48:07 +0000
+**Veröffentlicht:** Mon, 23 Feb 2026 20:48:07 +0000
 **Dauer:** 2118
 **Audio:** https://audio.podigee-cdn.net/2371082-m-8ebcaf2f208d0560668bb1e81d5169b9.mp3?source=feed
 

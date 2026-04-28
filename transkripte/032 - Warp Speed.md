@@ -14,7 +14,7 @@ transcribed_at: "2026-04-28T21:03:22+00:00"
 
 # Warp Speed
 
-**Veroeffentlicht:** Mon, 23 Mar 2026 14:59:00 +0000
+**Veröffentlicht:** Mon, 23 Mar 2026 14:59:00 +0000
 **Dauer:** 2596
 **Audio:** https://audio.podigee-cdn.net/2405643-m-cd61244828c763519faf08b7c909a622.mp3?source=feed
 

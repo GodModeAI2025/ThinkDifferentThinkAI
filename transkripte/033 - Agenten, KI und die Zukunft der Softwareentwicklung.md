@@ -14,7 +14,7 @@ transcribed_at: "2026-04-28T21:06:26+00:00"
 
 # Agenten, KI und die Zukunft der Softwareentwicklung
 
-**Veroeffentlicht:** Mon, 30 Mar 2026 16:08:00 +0000
+**Veröffentlicht:** Mon, 30 Mar 2026 16:08:00 +0000
 **Dauer:** 3602
 **Audio:** https://audio.podigee-cdn.net/2417572-m-91adb6cd7036afc5e7400bf4fa464a7b.mp3?source=feed
 

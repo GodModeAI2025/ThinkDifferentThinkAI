@@ -14,7 +14,7 @@ transcribed_at: "2026-04-28T20:34:41+00:00"
 
 # Automation trifft Organisation: n8n × Notion
 
-**Veroeffentlicht:** Sun, 19 Oct 2025 02:55:00 +0000
+**Veröffentlicht:** Sun, 19 Oct 2025 02:55:00 +0000
 **Dauer:** 4253
 **Audio:** https://audio.podigee-cdn.net/2160435-m-68cc27d9dd04b9b4b792179852421201.mp3?source=feed
 

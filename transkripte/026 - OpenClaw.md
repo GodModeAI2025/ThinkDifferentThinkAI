@@ -14,7 +14,7 @@ transcribed_at: "2026-04-28T20:51:41+00:00"
 
 # OpenClaw
 
-**Veroeffentlicht:** Mon, 09 Feb 2026 17:34:00 +0000
+**Veröffentlicht:** Mon, 09 Feb 2026 17:34:00 +0000
 **Dauer:** 2325
 **Audio:** https://audio.podigee-cdn.net/2348874-m-e1a28d343042dab243a88d8f3b197701.mp3?source=feed
 

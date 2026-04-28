@@ -14,7 +14,7 @@ transcribed_at: "2026-04-28T20:31:38+00:00"
 
 # Robot Slavery
 
-**Veroeffentlicht:** Mon, 10 Nov 2025 09:39:00 +0000
+**Veröffentlicht:** Mon, 10 Nov 2025 09:39:00 +0000
 **Dauer:** 3438
 **Audio:** https://audio.podigee-cdn.net/2199009-m-fecde03f2d48c5f3b3edde901cc14feb.mp3?source=feed
 

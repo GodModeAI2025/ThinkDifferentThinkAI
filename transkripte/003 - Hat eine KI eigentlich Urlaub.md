@@ -14,7 +14,7 @@ transcribed_at: "2026-04-28T20:13:03+00:00"
 
 # Hat eine KI eigentlich Urlaub?
 
-**Veroeffentlicht:** Mon, 04 Aug 2025 00:27:00 +0000
+**Veröffentlicht:** Mon, 04 Aug 2025 00:27:00 +0000
 **Dauer:** 2409
 **Audio:** https://audio.podigee-cdn.net/2042157-m-6f09c8ffe04a1b6f53b6a5ac0651d4e3.mp3?source=feed
 

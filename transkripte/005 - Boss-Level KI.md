@@ -14,7 +14,7 @@ transcribed_at: "2026-04-28T20:32:34+00:00"
 
 # Boss-Level KI
 
-**Veroeffentlicht:** Thu, 28 Aug 2025 12:05:00 +0000
+**Veröffentlicht:** Thu, 28 Aug 2025 12:05:00 +0000
 **Dauer:** 3566
 **Audio:** https://audio.podigee-cdn.net/2080048-m-40ea98c612b0b00ed651959be0581543.mp3?source=feed
 

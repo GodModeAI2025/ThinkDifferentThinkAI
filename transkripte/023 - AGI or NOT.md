@@ -14,7 +14,7 @@ transcribed_at: "2026-04-28T20:52:13+00:00"
 
 # AGI or NOT
 
-**Veroeffentlicht:** Mon, 19 Jan 2026 21:04:44 +0000
+**Veröffentlicht:** Mon, 19 Jan 2026 21:04:44 +0000
 **Dauer:** 2970
 **Audio:** https://audio.podigee-cdn.net/2312827-m-e8685457056d14e806ac2ba42e3b475a.mp3?source=feed
 

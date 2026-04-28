@@ -14,7 +14,7 @@ transcribed_at: "2026-04-28T21:10:35+00:00"
 
 # Das strategische Gold
 
-**Veroeffentlicht:** Mon, 20 Apr 2026 14:59:00 +0000
+**Veröffentlicht:** Mon, 20 Apr 2026 14:59:00 +0000
 **Dauer:** 3412
 **Audio:** https://audio.podigee-cdn.net/2449676-m-dfce48265ddf95aa1ab0f9c9fe9281b3.mp3?source=feed
 

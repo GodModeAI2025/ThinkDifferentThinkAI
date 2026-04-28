@@ -14,7 +14,7 @@ transcribed_at: "2026-04-28T20:54:23+00:00"
 
 # TikTok AI Coach
 
-**Veroeffentlicht:** Mon, 02 Feb 2026 21:04:32 +0000
+**Veröffentlicht:** Mon, 02 Feb 2026 21:04:32 +0000
 **Dauer:** 3230
 **Audio:** https://audio.podigee-cdn.net/2337279-m-eee85333e1be5d29858946a3024f3970.mp3?source=feed
 

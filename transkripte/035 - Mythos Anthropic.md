@@ -14,7 +14,7 @@ transcribed_at: "2026-04-28T21:07:54+00:00"
 
 # Mythos Anthropic
 
-**Veroeffentlicht:** Sun, 12 Apr 2026 23:59:00 +0000
+**Veröffentlicht:** Sun, 12 Apr 2026 23:59:00 +0000
 **Dauer:** 3357
 **Audio:** https://audio.podigee-cdn.net/2442712-m-82fe18ce5b8f2e0c9d331fc080e5d909.mp3?source=feed
 

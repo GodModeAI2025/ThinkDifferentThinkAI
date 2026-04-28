@@ -14,7 +14,7 @@ transcribed_at: "2026-04-28T20:55:58+00:00"
 
 # Wie KI unser Arbeitsleben verändert!
 
-**Veroeffentlicht:** Tue, 17 Feb 2026 09:28:10 +0000
+**Veröffentlicht:** Tue, 17 Feb 2026 09:28:10 +0000
 **Dauer:** 3195
 **Audio:** https://audio.podigee-cdn.net/2360415-m-6d3d5c3e28d769e1c76a37c25379928f.mp3?source=feed
 

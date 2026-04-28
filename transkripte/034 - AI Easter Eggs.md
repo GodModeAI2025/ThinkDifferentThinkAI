@@ -14,7 +14,7 @@ transcribed_at: "2026-04-28T21:03:46+00:00"
 
 # AI Easter Eggs
 
-**Veroeffentlicht:** Mon, 06 Apr 2026 10:59:00 +0000
+**Veröffentlicht:** Mon, 06 Apr 2026 10:59:00 +0000
 **Dauer:** 2326
 **Audio:** https://audio.podigee-cdn.net/2429189-m-1eda09e0bfeee120c8cd3fc67d5474a1.mp3?source=feed
 

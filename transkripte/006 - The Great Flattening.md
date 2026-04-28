@@ -14,7 +14,7 @@ transcribed_at: "2026-04-28T20:32:12+00:00"
 
 # The Great Flattening
 
-**Veroeffentlicht:** Mon, 01 Sep 2025 16:22:21 +0000
+**Veröffentlicht:** Mon, 01 Sep 2025 16:22:21 +0000
 **Dauer:** 3458
 **Audio:** https://audio.podigee-cdn.net/2090721-m-24d1bdfa8f73505d993da264223122a3.mp3?source=feed
 

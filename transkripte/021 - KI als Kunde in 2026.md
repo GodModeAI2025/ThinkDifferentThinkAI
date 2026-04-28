@@ -14,7 +14,7 @@ transcribed_at: "2026-04-28T20:43:18+00:00"
 
 # KI als Kunde in 2026
 
-**Veroeffentlicht:** Mon, 05 Jan 2026 21:48:31 +0000
+**Veröffentlicht:** Mon, 05 Jan 2026 21:48:31 +0000
 **Dauer:** 2825
 **Audio:** https://audio.podigee-cdn.net/2291173-m-562ab9459c25a565996e9916f906830b.mp3?source=feed
 

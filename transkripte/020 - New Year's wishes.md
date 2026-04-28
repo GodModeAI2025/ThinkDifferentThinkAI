@@ -14,7 +14,7 @@ transcribed_at: "2026-04-28T20:40:45+00:00"
 
 # New Year's wishes
 
-**Veroeffentlicht:** Mon, 29 Dec 2025 14:03:00 +0000
+**Veröffentlicht:** Mon, 29 Dec 2025 14:03:00 +0000
 **Dauer:** 1497
 **Audio:** https://audio.podigee-cdn.net/2261536-m-2d348e909e017eb359b542542a3c8977.mp3?source=feed
 

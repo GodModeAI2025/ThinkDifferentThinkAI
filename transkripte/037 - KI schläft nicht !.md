@@ -14,7 +14,7 @@ transcribed_at: "2026-04-28T21:11:52+00:00"
 
 # KI schläft nicht !
 
-**Veroeffentlicht:** Mon, 27 Apr 2026 12:59:00 +0000
+**Veröffentlicht:** Mon, 27 Apr 2026 12:59:00 +0000
 **Dauer:** 3270
 **Audio:** https://audio.podigee-cdn.net/2461048-m-ea147867a9b710d8e5a622dc74e07142.mp3?source=feed
 

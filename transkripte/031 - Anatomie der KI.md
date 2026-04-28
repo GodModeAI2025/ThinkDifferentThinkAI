@@ -14,7 +14,7 @@ transcribed_at: "2026-04-28T21:02:08+00:00"
 
 # Anatomie der KI
 
-**Veroeffentlicht:** Mon, 16 Mar 2026 15:59:00 +0000
+**Veröffentlicht:** Mon, 16 Mar 2026 15:59:00 +0000
 **Dauer:** 2660
 **Audio:** https://audio.podigee-cdn.net/2394491-m-beaaae30a2bf806c0ea14cae438b74bc.mp3?source=feed
 

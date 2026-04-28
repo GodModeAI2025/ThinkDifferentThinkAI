@@ -14,7 +14,7 @@ transcribed_at: "2026-04-28T20:52:07+00:00"
 
 # Clawdbot
 
-**Veroeffentlicht:** Mon, 26 Jan 2026 20:21:14 +0000
+**Veröffentlicht:** Mon, 26 Jan 2026 20:21:14 +0000
 **Dauer:** 2796
 **Audio:** https://audio.podigee-cdn.net/2325284-m-7d5eb009fb9d4ead331d2292ab1399cb.mp3?source=feed
 

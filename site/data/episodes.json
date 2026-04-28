@@ -2,7 +2,7 @@
   "feedUrl": "https://think-ai.podigee.io/feed/mp3",
   "generatedAt": "",
   "episodeCount": 37,
-  "availableTranscriptCount": 22,
+  "availableTranscriptCount": 37,
   "episodes": [
     {
       "index": 1,
@@ -254,8 +254,8 @@
       "pageUrl": "https://think-ai.podigee.io/23-agi-or-not",
       "imageUrl": "https://images.podigee-cdn.net/0x,sx0BzQljTEOeNvgd_fn6jA0yGodp-uL4o3O7hnv570YA=/https://main.podigee-cdn.net/uploads/u73317/b641957d-90fe-4b9c-878c-07f17cf231f1.jpg",
       "audioUrl": "https://audio.podigee-cdn.net/2312827-m-e8685457056d14e806ac2ba42e3b475a.mp3?source=feed",
-      "transcriptAvailable": false,
-      "transcriptPath": ""
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/023 - AGI or NOT.md"
     },
     {
       "index": 24,
@@ -265,8 +265,8 @@
       "pageUrl": "https://think-ai.podigee.io/24-clawdbot",
       "imageUrl": "https://images.podigee-cdn.net/0x,sPAJFiFMdF0Qgj5xNLYkLG_BNx64h0IpXcxmCj3yFSX0=/https://main.podigee-cdn.net/uploads/u73317/c5baca29-cad8-4513-a1d3-98b00bc75c3e.jpg",
       "audioUrl": "https://audio.podigee-cdn.net/2325284-m-7d5eb009fb9d4ead331d2292ab1399cb.mp3?source=feed",
-      "transcriptAvailable": false,
-      "transcriptPath": ""
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/024 - Clawdbot.md"
     },
     {
       "index": 25,
@@ -276,8 +276,8 @@
       "pageUrl": "https://think-ai.podigee.io/25-riverside-backup-video-thinkdifferent",
       "imageUrl": "https://images.podigee-cdn.net/0x,sP19FhHejpxKYq6oYt-pGGoRo0sLdWA6787asB3_MvKg=/https://main.podigee-cdn.net/uploads/u73317/b61edfda-f344-47c5-a37e-360f5a5b9e03.jpeg",
       "audioUrl": "https://audio.podigee-cdn.net/2337279-m-eee85333e1be5d29858946a3024f3970.mp3?source=feed",
-      "transcriptAvailable": false,
-      "transcriptPath": ""
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/025 - TikTok AI Coach.md"
     },
     {
       "index": 26,
@@ -287,8 +287,8 @@
       "pageUrl": "https://think-ai.podigee.io/26-openclaw-extreme",
       "imageUrl": "https://images.podigee-cdn.net/0x,stv69H_7Sr9Rv_8ieQFYNC7MQYULsHJrUjyoDpB7gvpo=/https://main.podigee-cdn.net/uploads/u73317/cb4e843a-882a-4fd4-9444-a1572af8a877.jpg",
       "audioUrl": "https://audio.podigee-cdn.net/2348874-m-e1a28d343042dab243a88d8f3b197701.mp3?source=feed",
-      "transcriptAvailable": false,
-      "transcriptPath": ""
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/026 - OpenClaw.md"
     },
     {
       "index": 27,
@@ -298,8 +298,8 @@
       "pageUrl": "https://think-ai.podigee.io/27-wie-ki-unser-arbeitsleben-verandert",
       "imageUrl": "https://images.podigee-cdn.net/0x,snW_G170wGhm4JnjQ0L-kU_gq7mN4queOa89iUIFFESw=/https://main.podigee-cdn.net/uploads/u73317/28bee8fd-4231-48ee-ac35-d69bd0cc205f.jpeg",
       "audioUrl": "https://audio.podigee-cdn.net/2360415-m-6d3d5c3e28d769e1c76a37c25379928f.mp3?source=feed",
-      "transcriptAvailable": false,
-      "transcriptPath": ""
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/027 - Wie KI unser Arbeitsleben verändert!.md"
     },
     {
       "index": 28,
@@ -309,8 +309,8 @@
       "pageUrl": "https://think-ai.podigee.io/28-skills-not-hacks",
       "imageUrl": "https://images.podigee-cdn.net/0x,sOy8cI9fRVYhq4g_DNdAQShz36hxbO-HCo26DaPeX_5c=/https://main.podigee-cdn.net/uploads/u73317/0709ce13-47d9-4fef-92b7-139a77c780a3.jpeg",
       "audioUrl": "https://audio.podigee-cdn.net/2371082-m-8ebcaf2f208d0560668bb1e81d5169b9.mp3?source=feed",
-      "transcriptAvailable": false,
-      "transcriptPath": ""
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/028 - Skills Not Hacks!.md"
     },
     {
       "index": 29,
@@ -320,8 +320,8 @@
       "pageUrl": "https://think-ai.podigee.io/29-age-of-empire",
       "imageUrl": "https://images.podigee-cdn.net/0x,sd-yIrMLAQ_F6kpC48HZ9KJr6Q4lhg6okPEGP11MoRtE=/https://main.podigee-cdn.net/uploads/u73317/246c7161-2291-4614-a0c1-46ee381d487e.jpeg",
       "audioUrl": "https://audio.podigee-cdn.net/2381794-m-d7c482dddf5cf5c319f57e1e2fa44ea1.mp3?source=feed",
-      "transcriptAvailable": false,
-      "transcriptPath": ""
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/029 - Age of Agents.md"
     },
     {
       "index": 30,
@@ -331,8 +331,8 @@
       "pageUrl": "https://think-ai.podigee.io/30-krieg-der-agenten",
       "imageUrl": "https://images.podigee-cdn.net/0x,s9qkK2ViH-HXFvxXIWrGTTS_iqPyVQTLKTZFoIGkrtvg=/https://main.podigee-cdn.net/uploads/u73317/616b116f-9f2f-4724-9ae9-005c89cf8009.jpg",
       "audioUrl": "https://audio.podigee-cdn.net/2392503-m-9f0261cca83ac6fbc80d935e15ce4e9c.mp3?source=feed",
-      "transcriptAvailable": false,
-      "transcriptPath": ""
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/030 - Krieg der Agenten.md"
     },
     {
       "index": 31,
@@ -342,8 +342,8 @@
       "pageUrl": "https://think-ai.podigee.io/31-anatomie-der-ki",
       "imageUrl": "https://images.podigee-cdn.net/0x,smKWGAVTmm8X1R-VstU3NwvDXBq2lWWlcGOEfc9vBnyA=/https://main.podigee-cdn.net/uploads/u73317/ae789241-c5a3-4d4c-a8d8-00ec02531feb.jpg",
       "audioUrl": "https://audio.podigee-cdn.net/2394491-m-beaaae30a2bf806c0ea14cae438b74bc.mp3?source=feed",
-      "transcriptAvailable": false,
-      "transcriptPath": ""
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/031 - Anatomie der KI.md"
     },
     {
       "index": 32,
@@ -353,8 +353,8 @@
       "pageUrl": "https://think-ai.podigee.io/32-warp-speed",
       "imageUrl": "https://images.podigee-cdn.net/0x,svaObtqpmbSkqwoka0afoJ1qWhvzUdzW8HjHLzwS5Uzo=/https://main.podigee-cdn.net/uploads/u73317/203d8bb0-1d99-456a-8180-827551bdcbce.jpg",
       "audioUrl": "https://audio.podigee-cdn.net/2405643-m-cd61244828c763519faf08b7c909a622.mp3?source=feed",
-      "transcriptAvailable": false,
-      "transcriptPath": ""
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/032 - Warp Speed.md"
     },
     {
       "index": 33,
@@ -364,8 +364,8 @@
       "pageUrl": "https://think-ai.podigee.io/34-agenten-ki-und-die-zukunft-der-softwareentwicklung",
       "imageUrl": "https://images.podigee-cdn.net/0x,smN-Py41p8bWL5tvlGO61OMifwwvBjNvnm_v73KwOwiE=/https://main.podigee-cdn.net/uploads/u73317/bda58661-2863-4a29-9a4c-92bef43b9ac5.jpeg",
       "audioUrl": "https://audio.podigee-cdn.net/2417572-m-91adb6cd7036afc5e7400bf4fa464a7b.mp3?source=feed",
-      "transcriptAvailable": false,
-      "transcriptPath": ""
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/033 - Agenten, KI und die Zukunft der Softwareentwicklung.md"
     },
     {
       "index": 34,
@@ -375,8 +375,8 @@
       "pageUrl": "https://think-ai.podigee.io/35-ai-easter-eggs",
       "imageUrl": "https://images.podigee-cdn.net/0x,sq9XyA8-5CUWFOdOOjr1Q8TMafOk-5Zpncqtjr6Xq7hY=/https://main.podigee-cdn.net/uploads/u73317/7f809f11-a71c-4313-8994-0e730686723c.jpeg",
       "audioUrl": "https://audio.podigee-cdn.net/2429189-m-1eda09e0bfeee120c8cd3fc67d5474a1.mp3?source=feed",
-      "transcriptAvailable": false,
-      "transcriptPath": ""
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/034 - AI Easter Eggs.md"
     },
     {
       "index": 35,
@@ -386,8 +386,8 @@
       "pageUrl": "https://think-ai.podigee.io/36-mythos-anthropic",
       "imageUrl": "https://images.podigee-cdn.net/0x,sTymNBylRpqRaNALgrW934iAcc-vChcG5-9XHfPcbbUo=/https://main.podigee-cdn.net/uploads/u73317/87971e32-62fc-450d-8049-0dd51f145314.jpg",
       "audioUrl": "https://audio.podigee-cdn.net/2442712-m-82fe18ce5b8f2e0c9d331fc080e5d909.mp3?source=feed",
-      "transcriptAvailable": false,
-      "transcriptPath": ""
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/035 - Mythos Anthropic.md"
     },
     {
       "index": 36,
@@ -397,8 +397,8 @@
       "pageUrl": "https://think-ai.podigee.io/37-das-strategische-gold",
       "imageUrl": "https://images.podigee-cdn.net/0x,sQt3Vhyud2oITfCWxd-HQZYPatSszjC4eTbfFIXi08kQ=/https://main.podigee-cdn.net/uploads/u73317/3ebbc11a-a04d-4caf-b488-811be9099402.jpg",
       "audioUrl": "https://audio.podigee-cdn.net/2449676-m-dfce48265ddf95aa1ab0f9c9fe9281b3.mp3?source=feed",
-      "transcriptAvailable": false,
-      "transcriptPath": ""
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/036 - Das strategische Gold.md"
     },
     {
       "index": 37,
@@ -408,8 +408,8 @@
       "pageUrl": "https://think-ai.podigee.io/38-ki-schlaeft-nicht",
       "imageUrl": "https://images.podigee-cdn.net/0x,sw9bGXWe36CJEvsaODttKNj_roynzep0wCVVoABfFxJQ=/https://main.podigee-cdn.net/uploads/u73317/bb47965d-03af-4913-8f61-dd8d1721837d.jpg",
       "audioUrl": "https://audio.podigee-cdn.net/2461048-m-ea147867a9b710d8e5a622dc74e07142.mp3?source=feed",
-      "transcriptAvailable": false,
-      "transcriptPath": ""
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/037 - KI schläft nicht !.md"
     }
   ]
 }
