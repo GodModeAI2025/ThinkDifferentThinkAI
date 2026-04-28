@@ -1,0 +1,57 @@
+#!/usr/bin/env python3
+import argparse
+import json
+import sys
+from pathlib import Path
+
+from transcribe_episode import DEFAULT_FEED_URL, parse_feed, safe_filename
+
+
+def build_manifest(feed_url, transcript_dir):
+    episodes = parse_feed(feed_url)
+    items = []
+    for episode in episodes:
+        transcript_path = transcript_dir / safe_filename(episode)
+        available = transcript_path.exists()
+        items.append(
+            {
+                "index": episode.index,
+                "title": episode.title,
+                "published": episode.pub_date,
+                "duration": episode.duration,
+                "pageUrl": episode.page_url,
+                "audioUrl": episode.audio_url,
+                "transcriptAvailable": available,
+                "transcriptPath": str(transcript_path).replace("\\", "/") if available else "",
+            }
+        )
+
+    return {
+        "feedUrl": feed_url,
+        "generatedAt": "",
+        "episodeCount": len(items),
+        "availableTranscriptCount": sum(1 for item in items if item["transcriptAvailable"]),
+        "episodes": items,
+    }
+
+
+def build_parser():
+    parser = argparse.ArgumentParser(description="Build static landing page data for podcast transcripts.")
+    parser.add_argument("--feed-url", default=DEFAULT_FEED_URL)
+    parser.add_argument("--transcript-dir", default="transkripte")
+    parser.add_argument("--output", default="site/data/episodes.json")
+    return parser
+
+
+def main(argv=None):
+    args = build_parser().parse_args(argv)
+    manifest = build_manifest(args.feed_url, Path(args.transcript_dir))
+    output = Path(args.output)
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"Wrote {output} with {manifest['availableTranscriptCount']} of {manifest['episodeCount']} transcripts.")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

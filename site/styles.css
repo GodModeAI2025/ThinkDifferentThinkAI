@@ -1,0 +1,298 @@
+:root {
+  color-scheme: light;
+  --bg: #f7f7f4;
+  --panel: #ffffff;
+  --ink: #181818;
+  --muted: #64645f;
+  --line: #deded7;
+  --accent: #0d6f68;
+  --accent-ink: #ffffff;
+  --warn: #8b5a00;
+  --shadow: 0 16px 40px rgba(22, 24, 26, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  letter-spacing: 0;
+}
+
+a {
+  color: inherit;
+}
+
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  height: 72px;
+  padding: 0 28px;
+  background: rgba(247, 247, 244, 0.94);
+  border-bottom: 1px solid var(--line);
+  backdrop-filter: blur(16px);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+  color: var(--ink);
+  font-weight: 750;
+  text-decoration: none;
+}
+
+.brand img {
+  width: 42px;
+  height: 42px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.brand span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.header-link,
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 0 14px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--panel);
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.button.primary {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: minmax(280px, 380px) minmax(0, 1fr);
+  min-height: calc(100vh - 72px);
+}
+
+.sidebar {
+  border-right: 1px solid var(--line);
+  background: #eeeeea;
+}
+
+.search-row {
+  position: sticky;
+  top: 72px;
+  z-index: 2;
+  display: grid;
+  gap: 10px;
+  padding: 20px;
+  background: #eeeeea;
+  border-bottom: 1px solid var(--line);
+}
+
+.search-row label {
+  font-size: 13px;
+  font-weight: 750;
+  color: var(--muted);
+  text-transform: uppercase;
+}
+
+.search-row input {
+  width: 100%;
+  min-height: 42px;
+  padding: 0 12px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--panel);
+  color: var(--ink);
+  font: inherit;
+}
+
+.meta-line {
+  padding: 12px 20px;
+  color: var(--muted);
+  font-size: 13px;
+  border-bottom: 1px solid var(--line);
+}
+
+.episode-list {
+  display: grid;
+}
+
+.episode-button {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr);
+  gap: 12px;
+  width: 100%;
+  min-height: 72px;
+  padding: 14px 20px;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  background: transparent;
+  color: var(--ink);
+  text-align: left;
+  cursor: pointer;
+}
+
+.episode-button:hover,
+.episode-button.active {
+  background: var(--panel);
+}
+
+.episode-number {
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.episode-title {
+  display: block;
+  overflow-wrap: anywhere;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.episode-status {
+  display: block;
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.episode-button.missing .episode-status {
+  color: var(--warn);
+}
+
+.reader {
+  min-width: 0;
+  padding: 32px;
+}
+
+.reader-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  margin: 0 auto 24px;
+  max-width: 980px;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 750;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0;
+  max-width: 760px;
+  font-size: 34px;
+  line-height: 1.1;
+  letter-spacing: 0;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.transcript {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+}
+
+.transcript h1,
+.transcript h2 {
+  margin: 26px 0 12px;
+  font-size: 22px;
+}
+
+.transcript p {
+  margin: 0 0 14px;
+  color: #282824;
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+.transcript .timestamp {
+  color: var(--accent);
+  font-weight: 800;
+}
+
+.empty-state {
+  color: var(--muted);
+}
+
+@media (max-width: 860px) {
+  .topbar {
+    padding: 0 16px;
+  }
+
+  .layout {
+    display: block;
+  }
+
+  .sidebar {
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .search-row {
+    top: 72px;
+  }
+
+  .episode-list {
+    max-height: 42vh;
+    overflow: auto;
+  }
+
+  .reader {
+    padding: 22px 16px;
+  }
+
+  .reader-header {
+    display: grid;
+  }
+
+  .actions {
+    justify-content: flex-start;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .transcript {
+    padding: 20px;
+  }
+}

@@ -1,0 +1,378 @@
+{
+  "feedUrl": "https://think-ai.podigee.io/feed/mp3",
+  "generatedAt": "",
+  "episodeCount": 37,
+  "availableTranscriptCount": 6,
+  "episodes": [
+    {
+      "index": 1,
+      "title": "KI als Kunde",
+      "published": "Mon, 21 Jul 2025 20:58:12 +0000",
+      "duration": "3136",
+      "pageUrl": "https://think-ai.podigee.io/1-ki-als-kunde",
+      "audioUrl": "https://audio.podigee-cdn.net/2027676-m-ce7d3c6c2388ba282768114b860d5bc1.mp3?source=feed",
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/001 - KI als Kunde.md"
+    },
+    {
+      "index": 2,
+      "title": "Zwischen Bots, Agenten und 20 Kilo Fleisch",
+      "published": "Mon, 28 Jul 2025 16:24:19 +0000",
+      "duration": "2364",
+      "pageUrl": "https://think-ai.podigee.io/2-zwischen-bots-agenten-und-20-kilo-fleisch",
+      "audioUrl": "https://audio.podigee-cdn.net/2038530-m-c9462ec01bf63e20b44a8bc09c656060.mp3?source=feed",
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/002 - Zwischen Bots, Agenten und 20 Kilo Fleisch.md"
+    },
+    {
+      "index": 3,
+      "title": "Hat eine KI eigentlich Urlaub?",
+      "published": "Mon, 04 Aug 2025 00:27:00 +0000",
+      "duration": "2409",
+      "pageUrl": "https://think-ai.podigee.io/3-new-episode",
+      "audioUrl": "https://audio.podigee-cdn.net/2042157-m-6f09c8ffe04a1b6f53b6a5ac0651d4e3.mp3?source=feed",
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/003 - Hat eine KI eigentlich Urlaub.md"
+    },
+    {
+      "index": 4,
+      "title": "Von Star Wars zu Toy Wars",
+      "published": "Mon, 18 Aug 2025 18:29:00 +0000",
+      "duration": "2791",
+      "pageUrl": "https://think-ai.podigee.io/4-neue-episode",
+      "audioUrl": "https://audio.podigee-cdn.net/2069503-m-df9880a35ce1100e460dc1e01140468b.mp3?source=feed",
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/004 - Von Star Wars zu Toy Wars.md"
+    },
+    {
+      "index": 5,
+      "title": "Boss-Level KI",
+      "published": "Thu, 28 Aug 2025 12:05:00 +0000",
+      "duration": "3566",
+      "pageUrl": "https://think-ai.podigee.io/5-boss-level-ki",
+      "audioUrl": "https://audio.podigee-cdn.net/2080048-m-40ea98c612b0b00ed651959be0581543.mp3?source=feed",
+      "transcriptAvailable": false,
+      "transcriptPath": ""
+    },
+    {
+      "index": 6,
+      "title": "The Great Flattening",
+      "published": "Mon, 01 Sep 2025 16:22:21 +0000",
+      "duration": "3458",
+      "pageUrl": "https://think-ai.podigee.io/6-the-great-flattening",
+      "audioUrl": "https://audio.podigee-cdn.net/2090721-m-24d1bdfa8f73505d993da264223122a3.mp3?source=feed",
+      "transcriptAvailable": false,
+      "transcriptPath": ""
+    },
+    {
+      "index": 7,
+      "title": "Hinter den Kulissen von Think Different! Think AI!",
+      "published": "Mon, 15 Sep 2025 02:22:00 +0000",
+      "duration": "1058",
+      "pageUrl": "https://think-ai.podigee.io/7-neue-episode",
+      "audioUrl": "https://audio.podigee-cdn.net/2110798-m-efcdc703dc8e31c1ebc943a1bba6f0c2.mp3?source=feed",
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/007 - Hinter den Kulissen von Think Different! Think AI!.md"
+    },
+    {
+      "index": 8,
+      "title": "AI ADVISORY BOARD",
+      "published": "Mon, 29 Sep 2025 20:11:00 +0000",
+      "duration": "2785",
+      "pageUrl": "https://think-ai.podigee.io/8-ai-advisory-board",
+      "audioUrl": "https://audio.podigee-cdn.net/2135780-m-16e47ab9701c9ff3a408ce7a3c4018e7.mp3?source=feed",
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/008 - AI ADVISORY BOARD.md"
+    },
+    {
+      "index": 9,
+      "title": "Borg KI und das Ende des Interfaces",
+      "published": "Mon, 13 Oct 2025 18:43:00 +0000",
+      "duration": "3286",
+      "pageUrl": "https://think-ai.podigee.io/9-borg-ki-und-das-ende-des-interfaces",
+      "audioUrl": "https://audio.podigee-cdn.net/2158100-m-6a9f266f3bc732470dfc330d916afc65.mp3?source=feed",
+      "transcriptAvailable": false,
+      "transcriptPath": ""
+    },
+    {
+      "index": 10,
+      "title": "Automation trifft Organisation: n8n × Notion",
+      "published": "Sun, 19 Oct 2025 02:55:00 +0000",
+      "duration": "4253",
+      "pageUrl": "https://think-ai.podigee.io/10-new-episode",
+      "audioUrl": "https://audio.podigee-cdn.net/2160435-m-68cc27d9dd04b9b4b792179852421201.mp3?source=feed",
+      "transcriptAvailable": false,
+      "transcriptPath": ""
+    },
+    {
+      "index": 11,
+      "title": "KI schreibt Code, Menschen prüfen nach !",
+      "published": "Sun, 26 Oct 2025 10:27:00 +0000",
+      "duration": "4017",
+      "pageUrl": "https://think-ai.podigee.io/11-ki-schreibt-code-menschen-prufen-nach",
+      "audioUrl": "https://audio.podigee-cdn.net/2171698-m-c8203b56088c5d2054b7dd409251e4b2.mp3?source=feed",
+      "transcriptAvailable": false,
+      "transcriptPath": ""
+    },
+    {
+      "index": 12,
+      "title": "Halloween special: Dystopian AI futures",
+      "published": "Fri, 31 Oct 2025 14:20:00 +0000",
+      "duration": "2524",
+      "pageUrl": "https://think-ai.podigee.io/12-block",
+      "audioUrl": "https://audio.podigee-cdn.net/2182587-m-b0acae85d007ad519a8ec0e406e06e3f.mp3?source=feed",
+      "transcriptAvailable": false,
+      "transcriptPath": ""
+    },
+    {
+      "index": 13,
+      "title": "THE BROWSER STRIKES BACK",
+      "published": "Mon, 03 Nov 2025 04:32:00 +0000",
+      "duration": "3960",
+      "pageUrl": "https://think-ai.podigee.io/13-new-episode",
+      "audioUrl": "https://audio.podigee-cdn.net/2182841-m-93a4ae534ba7c92f1ba9568c320cf162.mp3?source=feed",
+      "transcriptAvailable": false,
+      "transcriptPath": ""
+    },
+    {
+      "index": 14,
+      "title": "Robot Slavery",
+      "published": "Mon, 10 Nov 2025 09:39:00 +0000",
+      "duration": "3438",
+      "pageUrl": "https://think-ai.podigee.io/14-riverside-jens-raw-audio-thinkdifferent-0098-bearbeiten",
+      "audioUrl": "https://audio.podigee-cdn.net/2199009-m-fecde03f2d48c5f3b3edde901cc14feb.mp3?source=feed",
+      "transcriptAvailable": false,
+      "transcriptPath": ""
+    },
+    {
+      "index": 15,
+      "title": "The Agentic Enterprise",
+      "published": "Fri, 28 Nov 2025 12:34:00 +0000",
+      "duration": "3542",
+      "pageUrl": "https://think-ai.podigee.io/15-the-agentic-enterprise",
+      "audioUrl": "https://audio.podigee-cdn.net/2225028-m-e758df208906ee61e56292b1355db85f.mp3?source=feed",
+      "transcriptAvailable": false,
+      "transcriptPath": ""
+    },
+    {
+      "index": 16,
+      "title": "More human than human.",
+      "published": "Mon, 01 Dec 2025 10:59:00 +0000",
+      "duration": "2327",
+      "pageUrl": "https://think-ai.podigee.io/16-more-human-than-human",
+      "audioUrl": "https://audio.podigee-cdn.net/2232429-m-15d3f2bdecafd27a2e3b790a9b64ed1e.mp3?source=feed",
+      "transcriptAvailable": false,
+      "transcriptPath": ""
+    },
+    {
+      "index": 17,
+      "title": "AI Toy Wars",
+      "published": "Mon, 08 Dec 2025 17:37:48 +0000",
+      "duration": "2079",
+      "pageUrl": "https://think-ai.podigee.io/17-ai-toy-wars",
+      "audioUrl": "https://audio.podigee-cdn.net/2247288-m-363d408faaf74ccf28ed29fed90216b2.mp3?source=feed",
+      "transcriptAvailable": false,
+      "transcriptPath": ""
+    },
+    {
+      "index": 18,
+      "title": "2025 Wrapped",
+      "published": "Mon, 15 Dec 2025 21:30:00 +0000",
+      "duration": "2881",
+      "pageUrl": "https://think-ai.podigee.io/19-2025-wrapped",
+      "audioUrl": "https://audio.podigee-cdn.net/2261485-m-d19d786b849ada08f828cd348c91793d.mp3?source=feed",
+      "transcriptAvailable": false,
+      "transcriptPath": ""
+    },
+    {
+      "index": 19,
+      "title": "Weihnachtsmagie",
+      "published": "Mon, 22 Dec 2025 13:50:00 +0000",
+      "duration": "1762",
+      "pageUrl": "https://think-ai.podigee.io/18-weihnachtsmagie",
+      "audioUrl": "https://audio.podigee-cdn.net/2247473-m-af62a4f153faeb5241296bb6a8e84c25.mp3?source=feed",
+      "transcriptAvailable": false,
+      "transcriptPath": ""
+    },
+    {
+      "index": 20,
+      "title": "New Year's wishes",
+      "published": "Mon, 29 Dec 2025 14:03:00 +0000",
+      "duration": "1497",
+      "pageUrl": "https://think-ai.podigee.io/20-new-year-s-wishes",
+      "audioUrl": "https://audio.podigee-cdn.net/2261536-m-2d348e909e017eb359b542542a3c8977.mp3?source=feed",
+      "transcriptAvailable": false,
+      "transcriptPath": ""
+    },
+    {
+      "index": 21,
+      "title": "KI als Kunde in 2026",
+      "published": "Mon, 05 Jan 2026 21:48:31 +0000",
+      "duration": "2825",
+      "pageUrl": "https://think-ai.podigee.io/21-ki-als-kunde-in-2026",
+      "audioUrl": "https://audio.podigee-cdn.net/2291173-m-562ab9459c25a565996e9916f906830b.mp3?source=feed",
+      "transcriptAvailable": false,
+      "transcriptPath": ""
+    },
+    {
+      "index": 22,
+      "title": "CES 2026",
+      "published": "Mon, 12 Jan 2026 21:37:39 +0000",
+      "duration": "2900",
+      "pageUrl": "https://think-ai.podigee.io/22-ces-2026",
+      "audioUrl": "https://audio.podigee-cdn.net/2301431-m-aa3ec424bcd05fa8e3c85dd5b4574406.mp3?source=feed",
+      "transcriptAvailable": false,
+      "transcriptPath": ""
+    },
+    {
+      "index": 23,
+      "title": "AGI or NOT",
+      "published": "Mon, 19 Jan 2026 21:04:44 +0000",
+      "duration": "2970",
+      "pageUrl": "https://think-ai.podigee.io/23-agi-or-not",
+      "audioUrl": "https://audio.podigee-cdn.net/2312827-m-e8685457056d14e806ac2ba42e3b475a.mp3?source=feed",
+      "transcriptAvailable": false,
+      "transcriptPath": ""
+    },
+    {
+      "index": 24,
+      "title": "Clawdbot",
+      "published": "Mon, 26 Jan 2026 20:21:14 +0000",
+      "duration": "2796",
+      "pageUrl": "https://think-ai.podigee.io/24-clawdbot",
+      "audioUrl": "https://audio.podigee-cdn.net/2325284-m-7d5eb009fb9d4ead331d2292ab1399cb.mp3?source=feed",
+      "transcriptAvailable": false,
+      "transcriptPath": ""
+    },
+    {
+      "index": 25,
+      "title": "TikTok AI Coach",
+      "published": "Mon, 02 Feb 2026 21:04:32 +0000",
+      "duration": "3230",
+      "pageUrl": "https://think-ai.podigee.io/25-riverside-backup-video-thinkdifferent",
+      "audioUrl": "https://audio.podigee-cdn.net/2337279-m-eee85333e1be5d29858946a3024f3970.mp3?source=feed",
+      "transcriptAvailable": false,
+      "transcriptPath": ""
+    },
+    {
+      "index": 26,
+      "title": "OpenClaw",
+      "published": "Mon, 09 Feb 2026 17:34:00 +0000",
+      "duration": "2325",
+      "pageUrl": "https://think-ai.podigee.io/26-openclaw-extreme",
+      "audioUrl": "https://audio.podigee-cdn.net/2348874-m-e1a28d343042dab243a88d8f3b197701.mp3?source=feed",
+      "transcriptAvailable": false,
+      "transcriptPath": ""
+    },
+    {
+      "index": 27,
+      "title": "Wie KI unser Arbeitsleben verändert!",
+      "published": "Tue, 17 Feb 2026 09:28:10 +0000",
+      "duration": "3195",
+      "pageUrl": "https://think-ai.podigee.io/27-wie-ki-unser-arbeitsleben-verandert",
+      "audioUrl": "https://audio.podigee-cdn.net/2360415-m-6d3d5c3e28d769e1c76a37c25379928f.mp3?source=feed",
+      "transcriptAvailable": false,
+      "transcriptPath": ""
+    },
+    {
+      "index": 28,
+      "title": "Skills Not Hacks!",
+      "published": "Mon, 23 Feb 2026 20:48:07 +0000",
+      "duration": "2118",
+      "pageUrl": "https://think-ai.podigee.io/28-skills-not-hacks",
+      "audioUrl": "https://audio.podigee-cdn.net/2371082-m-8ebcaf2f208d0560668bb1e81d5169b9.mp3?source=feed",
+      "transcriptAvailable": false,
+      "transcriptPath": ""
+    },
+    {
+      "index": 29,
+      "title": "Age of Agents",
+      "published": "Mon, 02 Mar 2026 20:36:55 +0000",
+      "duration": "3152",
+      "pageUrl": "https://think-ai.podigee.io/29-age-of-empire",
+      "audioUrl": "https://audio.podigee-cdn.net/2381794-m-d7c482dddf5cf5c319f57e1e2fa44ea1.mp3?source=feed",
+      "transcriptAvailable": false,
+      "transcriptPath": ""
+    },
+    {
+      "index": 30,
+      "title": "Krieg der Agenten",
+      "published": "Mon, 09 Mar 2026 20:27:45 +0000",
+      "duration": "3589",
+      "pageUrl": "https://think-ai.podigee.io/30-krieg-der-agenten",
+      "audioUrl": "https://audio.podigee-cdn.net/2392503-m-9f0261cca83ac6fbc80d935e15ce4e9c.mp3?source=feed",
+      "transcriptAvailable": false,
+      "transcriptPath": ""
+    },
+    {
+      "index": 31,
+      "title": "Anatomie der KI",
+      "published": "Mon, 16 Mar 2026 15:59:00 +0000",
+      "duration": "2660",
+      "pageUrl": "https://think-ai.podigee.io/31-anatomie-der-ki",
+      "audioUrl": "https://audio.podigee-cdn.net/2394491-m-beaaae30a2bf806c0ea14cae438b74bc.mp3?source=feed",
+      "transcriptAvailable": false,
+      "transcriptPath": ""
+    },
+    {
+      "index": 32,
+      "title": "Warp Speed",
+      "published": "Mon, 23 Mar 2026 14:59:00 +0000",
+      "duration": "2596",
+      "pageUrl": "https://think-ai.podigee.io/32-warp-speed",
+      "audioUrl": "https://audio.podigee-cdn.net/2405643-m-cd61244828c763519faf08b7c909a622.mp3?source=feed",
+      "transcriptAvailable": false,
+      "transcriptPath": ""
+    },
+    {
+      "index": 33,
+      "title": "Agenten, KI und die Zukunft der Softwareentwicklung",
+      "published": "Mon, 30 Mar 2026 16:08:00 +0000",
+      "duration": "3602",
+      "pageUrl": "https://think-ai.podigee.io/34-agenten-ki-und-die-zukunft-der-softwareentwicklung",
+      "audioUrl": "https://audio.podigee-cdn.net/2417572-m-91adb6cd7036afc5e7400bf4fa464a7b.mp3?source=feed",
+      "transcriptAvailable": false,
+      "transcriptPath": ""
+    },
+    {
+      "index": 34,
+      "title": "AI Easter Eggs",
+      "published": "Mon, 06 Apr 2026 10:59:00 +0000",
+      "duration": "2326",
+      "pageUrl": "https://think-ai.podigee.io/35-ai-easter-eggs",
+      "audioUrl": "https://audio.podigee-cdn.net/2429189-m-1eda09e0bfeee120c8cd3fc67d5474a1.mp3?source=feed",
+      "transcriptAvailable": false,
+      "transcriptPath": ""
+    },
+    {
+      "index": 35,
+      "title": "Mythos Anthropic",
+      "published": "Sun, 12 Apr 2026 23:59:00 +0000",
+      "duration": "3357",
+      "pageUrl": "https://think-ai.podigee.io/36-mythos-anthropic",
+      "audioUrl": "https://audio.podigee-cdn.net/2442712-m-82fe18ce5b8f2e0c9d331fc080e5d909.mp3?source=feed",
+      "transcriptAvailable": false,
+      "transcriptPath": ""
+    },
+    {
+      "index": 36,
+      "title": "Das strategische Gold",
+      "published": "Mon, 20 Apr 2026 14:59:00 +0000",
+      "duration": "3412",
+      "pageUrl": "https://think-ai.podigee.io/37-das-strategische-gold",
+      "audioUrl": "https://audio.podigee-cdn.net/2449676-m-dfce48265ddf95aa1ab0f9c9fe9281b3.mp3?source=feed",
+      "transcriptAvailable": false,
+      "transcriptPath": ""
+    },
+    {
+      "index": 37,
+      "title": "KI schläft nicht !",
+      "published": "Mon, 27 Apr 2026 12:59:00 +0000",
+      "duration": "3270",
+      "pageUrl": "https://think-ai.podigee.io/38-ki-schlaeft-nicht",
+      "audioUrl": "https://audio.podigee-cdn.net/2461048-m-ea147867a9b710d8e5a622dc74e07142.mp3?source=feed",
+      "transcriptAvailable": false,
+      "transcriptPath": ""
+    }
+  ]
+}

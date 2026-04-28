@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Think Different. Think AI. Transkripte</title>
+    <meta name="description" content="Auswahl und Suche in den Transkripten des Podcasts Think Different. Think AI.">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="Startseite">
+        <img src="https://images.podigee-cdn.net/0x,sL3rd-8gIENV0jDGxTRhEKOYzoUhn4Sgs9-d3rsTM_Hk=/https://main.podigee-cdn.net/uploads/u73317/3c6e6a97-b38f-40cb-8890-7ce7916cb31c.jpg" alt="">
+        <span>Think Different. Think AI.</span>
+      </a>
+      <a class="header-link" href="https://think-ai.podigee.io/" target="_blank" rel="noreferrer">Podcast</a>
+    </header>
+
+    <main class="layout">
+      <aside class="sidebar" aria-label="Folgen">
+        <div class="search-row">
+          <label for="search">Transkript auswählen</label>
+          <input id="search" type="search" autocomplete="off" placeholder="Folge suchen">
+        </div>
+        <div class="meta-line" id="summary">Lade Folgen...</div>
+        <div class="episode-list" id="episodeList"></div>
+      </aside>
+
+      <section class="reader" aria-live="polite">
+        <div class="reader-header">
+          <div>
+            <p class="eyebrow" id="episodeMeta"></p>
+            <h1 id="episodeTitle">Transkripte</h1>
+          </div>
+          <div class="actions">
+            <a class="button" id="transcriptLink" href="#" target="_blank" rel="noreferrer">Markdown</a>
+            <a class="button primary" id="playerLink" href="https://think-ai.podigee.io/" target="_blank" rel="noreferrer">Webplayer</a>
+          </div>
+        </div>
+        <article class="transcript" id="transcript">
+          <p>Wähle links eine Folge aus. Verfügbare Transkripte werden hier direkt angezeigt.</p>
+        </article>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

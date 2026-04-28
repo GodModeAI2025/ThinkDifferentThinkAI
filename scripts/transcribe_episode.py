@@ -23,6 +23,7 @@ NS = {
 class Episode:
     index: int
     title: str
+    page_url: str
     pub_date: str
     duration: str
     description: str
@@ -61,6 +62,7 @@ def parse_feed(feed_url):
             Episode(
                 index=index,
                 title=text_of(item, "title", "Untitled episode"),
+                page_url=text_of(item, "link"),
                 pub_date=text_of(item, "pubDate"),
                 duration=text_of(item, "itunes:duration"),
                 description=text_of(item, "content:encoded") or text_of(item, "description"),
@@ -143,6 +145,7 @@ def write_markdown(episode, transcript_path, segments, info, feed_url, model_siz
         f"episode_index: {episode.index}",
         f'published: "{episode.pub_date}"',
         f'duration: "{episode.duration}"',
+        f'page_url: "{episode.page_url}"',
         f'audio_url: "{episode.audio_url}"',
         f'guid: "{episode.guid}"',
         f'source_feed: "{feed_url}"',
@@ -160,6 +163,8 @@ def write_markdown(episode, transcript_path, segments, info, feed_url, model_siz
         lines.append(f"**Veroeffentlicht:** {episode.pub_date}")
     if episode.duration:
         lines.append(f"**Dauer:** {episode.duration}")
+    if episode.page_url:
+        lines.append(f"**Webplayer:** {episode.page_url}")
     lines.append(f"**Audio:** {episode.audio_url}")
     lines.append("")
 
