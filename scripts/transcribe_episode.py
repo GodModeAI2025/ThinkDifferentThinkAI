@@ -160,7 +160,7 @@ def write_markdown(episode, transcript_path, segments, info, feed_url, model_siz
     ]
 
     if episode.pub_date:
-        lines.append(f"**Veroeffentlicht:** {episode.pub_date}")
+        lines.append(f"**Veröffentlicht:** {episode.pub_date}")
     if episode.duration:
         lines.append(f"**Dauer:** {episode.duration}")
     if episode.page_url:
