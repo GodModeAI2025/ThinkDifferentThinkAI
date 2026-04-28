@@ -150,6 +150,7 @@ jobs:
       - name: Commit transcripts
         run: |
           mkdir -p transkripte
+          git pull --rebase origin main
           find .downloaded-transcripts -type f -name '*.md' -exec cp {} transkripte/ \;
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
