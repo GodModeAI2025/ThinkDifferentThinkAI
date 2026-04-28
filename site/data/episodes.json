@@ -2,7 +2,7 @@
   "feedUrl": "https://think-ai.podigee.io/feed/mp3",
   "generatedAt": "",
   "episodeCount": 37,
-  "availableTranscriptCount": 6,
+  "availableTranscriptCount": 20,
   "episodes": [
     {
       "index": 1,
@@ -56,8 +56,8 @@
       "pageUrl": "https://think-ai.podigee.io/5-boss-level-ki",
       "imageUrl": "https://images.podigee-cdn.net/0x,sJZ_MVt8Y29FR2hSteNMhvnlYfbkI4e-dac62dYkE4bg=/https://main.podigee-cdn.net/uploads/u73317/475dc1f3-09f7-4687-acd5-9c7b110e07d6.jpg",
       "audioUrl": "https://audio.podigee-cdn.net/2080048-m-40ea98c612b0b00ed651959be0581543.mp3?source=feed",
-      "transcriptAvailable": false,
-      "transcriptPath": ""
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/005 - Boss-Level KI.md"
     },
     {
       "index": 6,
@@ -67,8 +67,8 @@
       "pageUrl": "https://think-ai.podigee.io/6-the-great-flattening",
       "imageUrl": "https://images.podigee-cdn.net/0x,s0-Pmf-2PRdrt49-_NK1UVqLmjFsXOm0gHFOsmyOffKg=/https://main.podigee-cdn.net/uploads/u73317/5d13ca4c-2f79-4a4d-b736-7c1d46e1310f.jpeg",
       "audioUrl": "https://audio.podigee-cdn.net/2090721-m-24d1bdfa8f73505d993da264223122a3.mp3?source=feed",
-      "transcriptAvailable": false,
-      "transcriptPath": ""
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/006 - The Great Flattening.md"
     },
     {
       "index": 7,
@@ -100,8 +100,8 @@
       "pageUrl": "https://think-ai.podigee.io/9-borg-ki-und-das-ende-des-interfaces",
       "imageUrl": "https://images.podigee-cdn.net/0x,stoKHMYAhCVhit5OSRfaIj9hW8LNVd6EZucA20Y5mQ04=/https://main.podigee-cdn.net/uploads/u73317/788a2883-1e3e-46b3-9780-ae908e8f4c28.jpg",
       "audioUrl": "https://audio.podigee-cdn.net/2158100-m-6a9f266f3bc732470dfc330d916afc65.mp3?source=feed",
-      "transcriptAvailable": false,
-      "transcriptPath": ""
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/009 - Borg KI und das Ende des Interfaces.md"
     },
     {
       "index": 10,
@@ -111,8 +111,8 @@
       "pageUrl": "https://think-ai.podigee.io/10-new-episode",
       "imageUrl": "https://images.podigee-cdn.net/0x,sBusD2wQ9f3h3mJRcwmzBhRBV182TproH9QxI8C3ZAXo=/https://main.podigee-cdn.net/uploads/u73317/e322bec5-8990-4b5c-b838-9309dffbc634.jpeg",
       "audioUrl": "https://audio.podigee-cdn.net/2160435-m-68cc27d9dd04b9b4b792179852421201.mp3?source=feed",
-      "transcriptAvailable": false,
-      "transcriptPath": ""
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/010 - Automation trifft Organisation - n8n × Notion.md"
     },
     {
       "index": 11,
@@ -122,8 +122,8 @@
       "pageUrl": "https://think-ai.podigee.io/11-ki-schreibt-code-menschen-prufen-nach",
       "imageUrl": "https://images.podigee-cdn.net/0x,swNeyauDaZUPukmlPwOfNIGhd_3texS0lT_tbB41l250=/https://main.podigee-cdn.net/uploads/u73317/b8a39e5a-5134-4dd0-bd33-32687799d0ca.jpg",
       "audioUrl": "https://audio.podigee-cdn.net/2171698-m-c8203b56088c5d2054b7dd409251e4b2.mp3?source=feed",
-      "transcriptAvailable": false,
-      "transcriptPath": ""
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/011 - KI schreibt Code, Menschen prüfen nach !.md"
     },
     {
       "index": 12,
@@ -133,8 +133,8 @@
       "pageUrl": "https://think-ai.podigee.io/12-block",
       "imageUrl": "https://images.podigee-cdn.net/0x,sN4oHQJDcCRRnqV6LrCDgm4XaeUr4VGEymupmgTKR9_0=/https://main.podigee-cdn.net/uploads/u73317/edbacd01-25ae-457f-9c02-738bdcf93bf0.jpeg",
       "audioUrl": "https://audio.podigee-cdn.net/2182587-m-b0acae85d007ad519a8ec0e406e06e3f.mp3?source=feed",
-      "transcriptAvailable": false,
-      "transcriptPath": ""
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/012 - Halloween special - Dystopian AI futures.md"
     },
     {
       "index": 13,
@@ -144,8 +144,8 @@
       "pageUrl": "https://think-ai.podigee.io/13-new-episode",
       "imageUrl": "https://images.podigee-cdn.net/0x,sParVUSQntoOGJM20VUwW1VweIp_mHy-5LRn-3xQN_wU=/https://main.podigee-cdn.net/uploads/u73317/4468bf74-3da6-4fc5-adb4-3117bd7a0386.jpeg",
       "audioUrl": "https://audio.podigee-cdn.net/2182841-m-93a4ae534ba7c92f1ba9568c320cf162.mp3?source=feed",
-      "transcriptAvailable": false,
-      "transcriptPath": ""
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/013 - THE BROWSER STRIKES BACK.md"
     },
     {
       "index": 14,
@@ -155,8 +155,8 @@
       "pageUrl": "https://think-ai.podigee.io/14-riverside-jens-raw-audio-thinkdifferent-0098-bearbeiten",
       "imageUrl": "https://images.podigee-cdn.net/0x,sgIMohXK3TI9cCE1G4-07wxXMZKnX1xPMAuBSFfpc7bM=/https://main.podigee-cdn.net/uploads/u73317/ccb47e86-1f0a-49af-87cd-aac4729e5eec.jpeg",
       "audioUrl": "https://audio.podigee-cdn.net/2199009-m-fecde03f2d48c5f3b3edde901cc14feb.mp3?source=feed",
-      "transcriptAvailable": false,
-      "transcriptPath": ""
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/014 - Robot Slavery.md"
     },
     {
       "index": 15,
@@ -166,8 +166,8 @@
       "pageUrl": "https://think-ai.podigee.io/15-the-agentic-enterprise",
       "imageUrl": "https://images.podigee-cdn.net/0x,s9DgA8XWoxarOS1Ijc-QvqXZMlzbVVZqmSxlWxT4slzI=/https://main.podigee-cdn.net/uploads/u73317/3644231d-c6ae-463d-83a1-22f01c2bfd82.jpeg",
       "audioUrl": "https://audio.podigee-cdn.net/2225028-m-e758df208906ee61e56292b1355db85f.mp3?source=feed",
-      "transcriptAvailable": false,
-      "transcriptPath": ""
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/015 - The Agentic Enterprise.md"
     },
     {
       "index": 16,
@@ -177,8 +177,8 @@
       "pageUrl": "https://think-ai.podigee.io/16-more-human-than-human",
       "imageUrl": "https://images.podigee-cdn.net/0x,s7AqbXhIhnMmwE13TUCSA9KOgy8H1gbvbZFEo_rzowZQ=/https://main.podigee-cdn.net/uploads/u73317/dd7ff596-38f7-4607-a0a1-a587e1ba40bc.jpg",
       "audioUrl": "https://audio.podigee-cdn.net/2232429-m-15d3f2bdecafd27a2e3b790a9b64ed1e.mp3?source=feed",
-      "transcriptAvailable": false,
-      "transcriptPath": ""
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/016 - More human than human.md"
     },
     {
       "index": 17,
@@ -188,8 +188,8 @@
       "pageUrl": "https://think-ai.podigee.io/17-ai-toy-wars",
       "imageUrl": "https://images.podigee-cdn.net/0x,sfG0OSujumcQoYIYWkFVaZhZKjL6cFLC98j_FXGk642E=/https://main.podigee-cdn.net/uploads/u73317/44b2bcd7-9584-4143-8541-e664df686a84.jpeg",
       "audioUrl": "https://audio.podigee-cdn.net/2247288-m-363d408faaf74ccf28ed29fed90216b2.mp3?source=feed",
-      "transcriptAvailable": false,
-      "transcriptPath": ""
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/017 - AI Toy Wars.md"
     },
     {
       "index": 18,
@@ -210,8 +210,8 @@
       "pageUrl": "https://think-ai.podigee.io/18-weihnachtsmagie",
       "imageUrl": "https://images.podigee-cdn.net/0x,sFsWYV7GuHcBNkvJuNxLP4F85UddMFpUIunSJZER5zSI=/https://main.podigee-cdn.net/uploads/u73317/0d21299a-cd52-4fb6-ac67-311ce9a7edf0.jpeg",
       "audioUrl": "https://audio.podigee-cdn.net/2247473-m-af62a4f153faeb5241296bb6a8e84c25.mp3?source=feed",
-      "transcriptAvailable": false,
-      "transcriptPath": ""
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/019 - Weihnachtsmagie.md"
     },
     {
       "index": 20,
@@ -221,8 +221,8 @@
       "pageUrl": "https://think-ai.podigee.io/20-new-year-s-wishes",
       "imageUrl": "https://images.podigee-cdn.net/0x,sN8E7GxDdxs4UBbiX7lrN4fgQR9hgIDUZSE_OmnvVaR4=/https://main.podigee-cdn.net/uploads/u73317/e727f7f8-2d74-42b5-9672-d60e547f5277.jpeg",
       "audioUrl": "https://audio.podigee-cdn.net/2261536-m-2d348e909e017eb359b542542a3c8977.mp3?source=feed",
-      "transcriptAvailable": false,
-      "transcriptPath": ""
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/020 - New Year's wishes.md"
     },
     {
       "index": 21,
@@ -232,8 +232,8 @@
       "pageUrl": "https://think-ai.podigee.io/21-ki-als-kunde-in-2026",
       "imageUrl": "https://images.podigee-cdn.net/0x,smrXYYYRG6MIwTVuSWZxooQyqEewwj7K5ebPR-Ybxusk=/https://main.podigee-cdn.net/uploads/u73317/56bb7a35-38e6-43a5-8427-ee09a719156d.jpeg",
       "audioUrl": "https://audio.podigee-cdn.net/2291173-m-562ab9459c25a565996e9916f906830b.mp3?source=feed",
-      "transcriptAvailable": false,
-      "transcriptPath": ""
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/021 - KI als Kunde in 2026.md"
     },
     {
       "index": 22,
