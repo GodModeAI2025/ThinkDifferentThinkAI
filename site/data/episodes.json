@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 37,
   "availableTranscriptCount": 37,
-  "availableEnglishTranscriptCount": 13,
+  "availableEnglishTranscriptCount": 14,
   "episodes": [
     {
       "index": 1,
@@ -760,16 +760,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2405643-m-cd61244828c763519faf08b7c909a622.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/032 - Warp Speed.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/032 - Warp Speed.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/032 - Warp Speed.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/032 - Warp Speed.md"
         }
       }
     },
