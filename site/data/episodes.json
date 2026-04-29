@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 37,
   "availableTranscriptCount": 37,
-  "availableEnglishTranscriptCount": 17,
+  "availableEnglishTranscriptCount": 18,
   "episodes": [
     {
       "index": 1,
@@ -88,16 +88,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2069503-m-df9880a35ce1100e460dc1e01140468b.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/004 - Von Star Wars zu Toy Wars.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/004 - Von Star Wars zu Toy Wars.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/004 - Von Star Wars zu Toy Wars.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/004 - Von Star Wars zu Toy Wars.md"
         }
       }
     },
