@@ -3,6 +3,7 @@ const state = {
   selected: null,
   query: "",
   language: "de",
+  requestId: 0,
 };
 
 const episodeList = document.querySelector("#episodeList");
@@ -83,6 +84,11 @@ function renderMarkdown(markdown) {
   }
 
   return body.join("");
+}
+
+function titleFromMarkdown(markdown) {
+  const heading = markdown.split(/\r?\n/).find((line) => line.startsWith("# "));
+  return heading ? heading.slice(2).trim() : "";
 }
 
 function submitFeedback(event) {
@@ -189,17 +195,20 @@ function renderList() {
 }
 
 async function selectEpisode(episode) {
+  const requestId = state.requestId + 1;
+  state.requestId = requestId;
   state.selected = episode;
   if (state.language === "en" && !hasEnglishTranscript(episode)) {
     state.language = "de";
   }
+  const requestLanguage = state.language;
   updateLanguageSwitch(episode);
   renderList();
 
   title.textContent = episode.title;
-  meta.textContent = `Folge ${padEpisode(episode.index)}${episode.duration ? ` · ${episode.duration}` : ""}`;
+  meta.textContent = `${requestLanguage === "en" ? "Episode" : "Folge"} ${padEpisode(episode.index)}${episode.duration ? ` · ${episode.duration}` : ""}`;
   playerLink.href = episode.pageUrl || "https://think-ai.podigee.io/";
-  playerLink.hidden = state.language !== "de";
+  playerLink.hidden = requestLanguage !== "de";
   selectedCover.src = episode.imageUrl || defaultCover;
   selectedCover.alt = `Cover: ${episode.title}`;
   renderPodcastPlayer(episode);
@@ -216,14 +225,21 @@ async function selectEpisode(episode) {
 
   transcriptLink.removeAttribute("aria-disabled");
   transcriptLink.href = selectedTranscript.path;
-  transcript.innerHTML = `<p class="empty-state">Lade Transkript...</p>`;
+  transcript.innerHTML = requestLanguage === "en"
+    ? `<p class="empty-state">Loading transcript...</p>`
+    : `<p class="empty-state">Lade Transkript...</p>`;
 
   try {
     const response = await fetch(selectedTranscript.path);
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const markdown = await response.text();
+    if (state.requestId !== requestId || state.selected !== episode || state.language !== requestLanguage) return;
+    if (requestLanguage === "en") {
+      title.textContent = titleFromMarkdown(markdown) || episode.title;
+    }
     transcript.innerHTML = renderMarkdown(markdown);
   } catch (error) {
+    if (state.requestId !== requestId || state.selected !== episode || state.language !== requestLanguage) return;
     transcript.innerHTML = `<p class="empty-state">Das Transkript konnte nicht geladen werden. Öffne die Markdown-Datei direkt über den Link oben.</p>`;
   }
 }
