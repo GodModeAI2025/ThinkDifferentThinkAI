@@ -27,6 +27,25 @@ function escapeHtml(value) {
     .replaceAll('"', "&quot;");
 }
 
+function linkifyUrls(value) {
+  return value.replace(/https?:\/\/[^\s<]+/g, (match) => {
+    let url = match;
+    let suffix = "";
+    while (/[.,!?;:)\]]$/.test(url)) {
+      suffix = `${url.slice(-1)}${suffix}`;
+      url = url.slice(0, -1);
+    }
+    const href = url.replaceAll("&amp;", "&");
+    return `<a href="${escapeHtml(href)}" target="_blank" rel="noreferrer">${url}</a>${suffix}`;
+  });
+}
+
+function renderInlineMarkdown(value) {
+  const withTimestamps = escapeHtml(value).replace(/\*\*\[(\d\d:\d\d:\d\d)\]\*\*/g, '<span class="timestamp">[$1]</span>');
+  const withStrong = withTimestamps.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
+  return linkifyUrls(withStrong);
+}
+
 function renderMarkdown(markdown) {
   const lines = markdown.split(/\r?\n/);
   const body = [];
@@ -51,9 +70,7 @@ function renderMarkdown(markdown) {
       body.push(`<h2>${escapeHtml(line.slice(3))}</h2>`);
       continue;
     }
-    const withTimestamps = escapeHtml(line).replace(/\*\*\[(\d\d:\d\d:\d\d)\]\*\*/g, '<span class="timestamp">[$1]</span>');
-    const withStrong = withTimestamps.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
-    body.push(`<p>${withStrong}</p>`);
+    body.push(`<p>${renderInlineMarkdown(line)}</p>`);
   }
 
   return body.join("");
