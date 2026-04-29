@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 37,
   "availableTranscriptCount": 37,
-  "availableEnglishTranscriptCount": 7,
+  "availableEnglishTranscriptCount": 8,
   "episodes": [
     {
       "index": 1,
@@ -616,16 +616,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2348874-m-e1a28d343042dab243a88d8f3b197701.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/026 - OpenClaw.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/026 - OpenClaw.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/026 - OpenClaw.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/026 - OpenClaw.md"
         }
       }
     },
