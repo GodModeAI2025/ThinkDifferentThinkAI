@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 37,
   "availableTranscriptCount": 37,
-  "availableEnglishTranscriptCount": 22,
+  "availableEnglishTranscriptCount": 23,
   "episodes": [
     {
       "index": 1,
@@ -16,16 +16,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2027676-m-ce7d3c6c2388ba282768114b860d5bc1.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/001 - KI als Kunde.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/001 - KI als Kunde.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/001 - KI als Kunde.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/001 - KI als Kunde.md"
         }
       }
     },
