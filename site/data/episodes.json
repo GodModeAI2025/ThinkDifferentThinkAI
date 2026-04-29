@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 37,
   "availableTranscriptCount": 37,
-  "availableEnglishTranscriptCount": 36,
+  "availableEnglishTranscriptCount": 37,
   "episodes": [
     {
       "index": 1,
@@ -136,16 +136,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2090721-m-24d1bdfa8f73505d993da264223122a3.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/006 - The Great Flattening.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/006 - The Great Flattening.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/006 - The Great Flattening.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/006 - The Great Flattening.md"
         }
       }
     },
