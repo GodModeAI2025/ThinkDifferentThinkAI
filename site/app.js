@@ -125,7 +125,7 @@ async function init() {
     const response = await fetch("data/episodes.json", { cache: "no-store" });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const data = await response.json();
-    state.episodes = data.episodes;
+    state.episodes = data.episodes.slice().sort((a, b) => b.index - a.index);
     summary.textContent = `${data.availableTranscriptCount} von ${data.episodeCount} Transkripten verfügbar`;
     renderList();
 
