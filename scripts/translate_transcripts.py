@@ -174,29 +174,34 @@ class OpenAITranslator:
             )
 
     def translate_markdown_chunk(self, lines):
-        source = "\n".join(lines)
+        if not any(line.strip() for line in lines):
+            return lines
         payload = {
             "model": self.model_name,
             "instructions": (
-                "Translate this German podcast transcript Markdown to natural English. "
-                "Preserve Markdown structure, every timestamp marker like **[00:00:00]**, URLs, code-like tokens, "
-                "brand names, and speaker names Mark Zimmermann and Jens Scharnetzki. "
+                "Translate each German podcast transcript Markdown line to natural English. "
+                "Return exactly the same number of lines in the same order. Preserve blank lines, Markdown structure, "
+                "every timestamp marker like **[00:00:00]**, URLs, code-like tokens, brand names, and speaker names "
+                "Mark Zimmermann and Jens Scharnetzki. Do not add timestamps to lines that do not already have them. "
                 "Do not add commentary, summaries, or new sections. Return only JSON matching the schema."
             ),
-            "input": source,
+            "input": json.dumps({"lines": lines}, ensure_ascii=False),
             "max_output_tokens": self.max_output_tokens,
             "text": {
                 "format": {
                     "type": "json_schema",
-                    "name": "markdown_translation",
+                    "name": "markdown_line_translation",
                     "strict": True,
                     "schema": {
                         "type": "object",
                         "additionalProperties": False,
                         "properties": {
-                            "markdown": {"type": "string"},
+                            "lines": {
+                                "type": "array",
+                                "items": {"type": "string"},
+                            },
                         },
-                        "required": ["markdown"],
+                        "required": ["lines"],
                     },
                 }
             },
@@ -207,11 +212,14 @@ class OpenAITranslator:
         except json.JSONDecodeError as error:
             raise MarkdownValidationError(f"OpenAI response was not valid JSON: {error}") from error
 
-        markdown = parsed.get("markdown", "")
-        if not isinstance(markdown, str) or not markdown.strip():
-            raise MarkdownValidationError("OpenAI response did not include translated markdown")
-        validate_preserved_markers(source, markdown)
-        return markdown.splitlines()
+        translated_lines = parsed.get("lines", [])
+        if not isinstance(translated_lines, list) or not all(isinstance(line, str) for line in translated_lines):
+            raise MarkdownValidationError("OpenAI response did not include translated lines")
+        if len(translated_lines) != len(lines):
+            raise MarkdownValidationError(f"Line count mismatch: expected {len(lines)}, got {len(translated_lines)}")
+        for source_line, translated_line in zip(lines, translated_lines):
+            validate_preserved_markers(source_line, translated_line)
+        return translated_lines
 
 
 class TranslationCountError(RuntimeError):
