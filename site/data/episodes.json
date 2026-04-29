@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 37,
   "availableTranscriptCount": 37,
-  "availableEnglishTranscriptCount": 20,
+  "availableEnglishTranscriptCount": 21,
   "episodes": [
     {
       "index": 1,
@@ -520,16 +520,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2301431-m-aa3ec424bcd05fa8e3c85dd5b4574406.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/022 - CES 2026.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/022 - CES 2026.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/022 - CES 2026.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/022 - CES 2026.md"
         }
       }
     },
