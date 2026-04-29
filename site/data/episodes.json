@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 37,
   "availableTranscriptCount": 37,
-  "availableEnglishTranscriptCount": 25,
+  "availableEnglishTranscriptCount": 26,
   "episodes": [
     {
       "index": 1,
@@ -112,16 +112,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2080048-m-40ea98c612b0b00ed651959be0581543.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/005 - Boss-Level KI.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/005 - Boss-Level KI.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/005 - Boss-Level KI.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/005 - Boss-Level KI.md"
         }
       }
     },
