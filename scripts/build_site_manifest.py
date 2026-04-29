@@ -15,6 +15,12 @@ def transcript_item(path):
     }
 
 
+def embed_url_for(page_url):
+    if not page_url:
+        return ""
+    return f"{page_url.rstrip('/')}/embed?context=external"
+
+
 def build_manifest(feed_url, transcript_dir, english_transcript_dir):
     episodes = parse_feed(feed_url)
     items = []
@@ -30,6 +36,7 @@ def build_manifest(feed_url, transcript_dir, english_transcript_dir):
                 "published": episode.pub_date,
                 "duration": episode.duration,
                 "pageUrl": episode.page_url,
+                "embedUrl": embed_url_for(episode.page_url),
                 "imageUrl": episode.image_url,
                 "audioUrl": episode.audio_url,
                 "transcriptAvailable": german_transcript["available"],

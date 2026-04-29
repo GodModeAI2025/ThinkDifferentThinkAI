@@ -13,6 +13,7 @@ const meta = document.querySelector("#episodeMeta");
 const transcript = document.querySelector("#transcript");
 const transcriptLink = document.querySelector("#transcriptLink");
 const playerLink = document.querySelector("#playerLink");
+const podcastPlayer = document.querySelector("#podcastPlayer");
 const selectedCover = document.querySelector("#selectedCover");
 const languageButtons = Array.from(document.querySelectorAll("[data-language]"));
 const feedbackForm = document.querySelector("#feedbackForm");
@@ -20,6 +21,7 @@ const feedbackTitle = document.querySelector("#feedbackTitle");
 const feedbackMessage = document.querySelector("#feedbackMessage");
 const defaultCover = "https://images.podigee-cdn.net/0x,sL3rd-8gIENV0jDGxTRhEKOYzoUhn4Sgs9-d3rsTM_Hk=/https://main.podigee-cdn.net/uploads/u73317/3c6e6a97-b38f-40cb-8890-7ce7916cb31c.jpg";
 const feedbackRecipient = "charta.ei.4z@icloud.com";
+const podigeePlayerScript = "https://player.podigee-cdn.net/podcast-player/javascripts/podigee-podcast-player.js";
 
 function padEpisode(value) {
   return String(value).padStart(3, "0");
@@ -97,6 +99,25 @@ function submitFeedback(event) {
   window.location.href = mailto;
 }
 
+function playerEmbedUrl(episode) {
+  if (episode.embedUrl) return episode.embedUrl;
+  if (!episode.pageUrl) return "";
+  return `${episode.pageUrl.replace(/\/$/, "")}/embed?context=external`;
+}
+
+function renderPodcastPlayer(episode) {
+  podcastPlayer.replaceChildren();
+  const embedUrl = playerEmbedUrl(episode);
+  podcastPlayer.hidden = !embedUrl;
+  if (!embedUrl) return;
+
+  const script = document.createElement("script");
+  script.className = "podigee-podcast-player";
+  script.src = podigeePlayerScript;
+  script.setAttribute("data-configuration", embedUrl);
+  podcastPlayer.append(script);
+}
+
 function transcriptFor(episode, language = state.language) {
   if (episode.transcripts?.[language]) return episode.transcripts[language];
   if (language === "en") {
@@ -162,6 +183,7 @@ async function selectEpisode(episode) {
   playerLink.href = episode.pageUrl || "https://think-ai.podigee.io/";
   selectedCover.src = episode.imageUrl || defaultCover;
   selectedCover.alt = `Cover: ${episode.title}`;
+  renderPodcastPlayer(episode);
 
   const selectedTranscript = transcriptFor(episode);
   if (!selectedTranscript.available) {
