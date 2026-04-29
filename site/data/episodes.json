@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 37,
   "availableTranscriptCount": 37,
-  "availableEnglishTranscriptCount": 2,
+  "availableEnglishTranscriptCount": 3,
   "episodes": [
     {
       "index": 1,
@@ -448,16 +448,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2247473-m-af62a4f153faeb5241296bb6a8e84c25.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/019 - Weihnachtsmagie.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/019 - Weihnachtsmagie.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/019 - Weihnachtsmagie.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/019 - Weihnachtsmagie.md"
         }
       }
     },
