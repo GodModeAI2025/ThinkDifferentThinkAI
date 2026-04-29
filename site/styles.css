@@ -205,10 +205,50 @@ a {
   box-shadow: 2px 2px 0 #00093d;
 }
 
+.feedback-panel {
+  margin-top: 16px;
+}
+
+.feedback-panel summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 42px;
+  padding: 0 12px;
+  border: 3px solid #00093d;
+  background: var(--accent-hot);
+  color: #1b0700;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 800;
+  list-style: none;
+  text-transform: uppercase;
+  box-shadow: 4px 4px 0 #00093d;
+}
+
+.feedback-panel summary::-webkit-details-marker {
+  display: none;
+}
+
+.feedback-panel summary::after {
+  content: "+";
+  font-size: 18px;
+  line-height: 1;
+}
+
+.feedback-panel[open] summary::after {
+  content: "-";
+}
+
+.feedback-panel summary:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 #00093d;
+}
+
 .feedback-form {
   display: grid;
   gap: 10px;
-  margin-top: 16px;
+  margin-top: 14px;
 }
 
 .feedback-form label {

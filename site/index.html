@@ -34,13 +34,16 @@
             <a href="https://www.linkedin.com/in/mark-zimmermann-5a005123/" target="_blank" rel="noreferrer">Mark Zimmermann</a>
             <a href="https://www.linkedin.com/in/scharnetzki/" target="_blank" rel="noreferrer">Jens Scharnetzki</a>
           </div>
-          <form class="feedback-form" id="feedbackForm" action="mailto:charta.ei.4z@icloud.com?subject=PODCAST%20FEEDBACK" method="post" enctype="text/plain">
-            <label for="feedbackTitle">Titel</label>
-            <input id="feedbackTitle" name="Titel" type="text" autocomplete="off" required>
-            <label for="feedbackMessage">Nachricht</label>
-            <textarea id="feedbackMessage" name="Nachricht" rows="4" required></textarea>
-            <button type="submit">Feedback senden</button>
-          </form>
+          <details class="feedback-panel">
+            <summary>Feedback</summary>
+            <form class="feedback-form" id="feedbackForm" action="mailto:charta.ei.4z@icloud.com?subject=PODCAST%20FEEDBACK" method="post" enctype="text/plain">
+              <label for="feedbackTitle">Titel</label>
+              <input id="feedbackTitle" name="Titel" type="text" autocomplete="off" required>
+              <label for="feedbackMessage">Nachricht</label>
+              <textarea id="feedbackMessage" name="Nachricht" rows="4" required></textarea>
+              <button type="submit">Feedback senden</button>
+            </form>
+          </details>
         </section>
         <div class="search-row">
           <label for="search">Transkript auswählen</label>
