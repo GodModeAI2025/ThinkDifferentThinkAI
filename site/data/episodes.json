@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 37,
   "availableTranscriptCount": 37,
-  "availableEnglishTranscriptCount": 26,
+  "availableEnglishTranscriptCount": 27,
   "episodes": [
     {
       "index": 1,
@@ -832,16 +832,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2442712-m-82fe18ce5b8f2e0c9d331fc080e5d909.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/035 - Mythos Anthropic.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/035 - Mythos Anthropic.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/035 - Mythos Anthropic.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/035 - Mythos Anthropic.md"
         }
       }
     },
