@@ -107,6 +107,11 @@ function playerEmbedUrl(episode) {
 
 function renderPodcastPlayer(episode) {
   podcastPlayer.replaceChildren();
+  if (state.language !== "de") {
+    podcastPlayer.hidden = true;
+    return;
+  }
+
   const embedUrl = playerEmbedUrl(episode);
   podcastPlayer.hidden = !embedUrl;
   if (!embedUrl) return;
@@ -181,6 +186,7 @@ async function selectEpisode(episode) {
   title.textContent = episode.title;
   meta.textContent = `Folge ${padEpisode(episode.index)}${episode.duration ? ` · ${episode.duration}` : ""}`;
   playerLink.href = episode.pageUrl || "https://think-ai.podigee.io/";
+  playerLink.hidden = state.language !== "de";
   selectedCover.src = episode.imageUrl || defaultCover;
   selectedCover.alt = `Cover: ${episode.title}`;
   renderPodcastPlayer(episode);
@@ -190,7 +196,7 @@ async function selectEpisode(episode) {
     transcriptLink.href = episode.pageUrl || "#";
     transcriptLink.setAttribute("aria-disabled", "true");
     transcript.innerHTML = state.language === "en"
-      ? `<p class="empty-state">English translation is not available for this episode yet. The German transcript and web player are available.</p>`
+      ? `<p class="empty-state">English translation is not available for this episode yet. The German transcript is available.</p>`
       : `<p class="empty-state">Für diese Folge liegt noch kein Markdown-Transkript vor. Der Webplayer ist bereits verfügbar.</p>`;
     return;
   }
