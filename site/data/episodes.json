@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 37,
   "availableTranscriptCount": 37,
-  "availableEnglishTranscriptCount": 14,
+  "availableEnglishTranscriptCount": 15,
   "episodes": [
     {
       "index": 1,
@@ -568,16 +568,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2325284-m-7d5eb009fb9d4ead331d2292ab1399cb.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/024 - Clawdbot.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/024 - Clawdbot.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/024 - Clawdbot.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/024 - Clawdbot.md"
         }
       }
     },
