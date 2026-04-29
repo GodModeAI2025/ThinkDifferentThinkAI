@@ -12,8 +12,13 @@ from pathlib import Path
 
 DEFAULT_LOCAL_MODEL = "Helsinki-NLP/opus-mt-de-en"
 DEFAULT_OPENAI_MODEL = "gpt-4o-mini"
+DEFAULT_OPENAI_CHUNK_MAX_CHARS = 12000
+DEFAULT_OPENAI_CHUNK_MAX_LINES = 180
+DEFAULT_OPENAI_MAX_OUTPUT_TOKENS = 12000
 OPENAI_RESPONSES_URL = "https://api.openai.com/v1/responses"
 TIMESTAMP_RE = re.compile(r"^(\*\*\[\d\d:\d\d:\d\d\]\*\*\s*)(.*)$")
+TIMESTAMP_MARKER_RE = re.compile(r"\*\*\[\d\d:\d\d:\d\d\]\*\*")
+URL_RE = re.compile(r"https?://[^\s)>\"]+")
 META_LABELS = {
     "Veröffentlicht": "Published",
     "Dauer": "Duration",
@@ -51,13 +56,53 @@ class LocalTranslator:
 
 
 class OpenAITranslator:
-    def __init__(self, model_name, batch_size, api_key, max_retries=3):
+    def __init__(
+        self,
+        model_name,
+        batch_size,
+        api_key,
+        max_retries=3,
+        chunk_max_chars=DEFAULT_OPENAI_CHUNK_MAX_CHARS,
+        chunk_max_lines=DEFAULT_OPENAI_CHUNK_MAX_LINES,
+        max_output_tokens=DEFAULT_OPENAI_MAX_OUTPUT_TOKENS,
+    ):
         if not api_key:
             raise RuntimeError("OPENAI_API_KEY is required for --provider openai")
         self.model_name = model_name
         self.batch_size = batch_size
         self.api_key = api_key
         self.max_retries = max_retries
+        self.chunk_max_chars = chunk_max_chars
+        self.chunk_max_lines = chunk_max_lines
+        self.max_output_tokens = max_output_tokens
+
+    def request_json(self, payload):
+        data = json.dumps(payload).encode("utf-8")
+        request = urllib.request.Request(
+            OPENAI_RESPONSES_URL,
+            data=data,
+            method="POST",
+            headers={
+                "Authorization": f"Bearer {self.api_key}",
+                "Content-Type": "application/json",
+            },
+        )
+
+        last_error = None
+        for attempt in range(1, self.max_retries + 1):
+            try:
+                with urllib.request.urlopen(request, timeout=120) as response:
+                    return json.loads(response.read().decode("utf-8"))
+            except urllib.error.HTTPError as error:
+                detail = safe_error_body(error)
+                last_error = RuntimeError(f"OpenAI HTTP {error.code}: {detail}")
+                if error.code in {400, 401, 402, 403, 404}:
+                    break
+            except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, RuntimeError) as error:
+                last_error = error
+            if attempt < self.max_retries:
+                time.sleep(attempt * 3)
+        raise last_error or RuntimeError("OpenAI translation failed")
 
     def translate_many(self, values):
         results = []
@@ -100,41 +145,80 @@ class OpenAITranslator:
                 }
             },
         }
-        data = json.dumps(payload).encode("utf-8")
-        request = urllib.request.Request(
-            OPENAI_RESPONSES_URL,
-            data=data,
-            method="POST",
-            headers={
-                "Authorization": f"Bearer {self.api_key}",
-                "Content-Type": "application/json",
-            },
-        )
+        body = self.request_json(payload)
+        output_text = extract_openai_output_text(body)
+        parsed = json.loads(output_text)
+        translations = parsed.get("translations", [])
+        if len(translations) != len(values):
+            raise TranslationCountError(f"Expected {len(values)} translations, got {len(translations)}")
+        return translations
 
-        last_error = None
-        for attempt in range(1, self.max_retries + 1):
-            try:
-                with urllib.request.urlopen(request, timeout=120) as response:
-                    body = json.loads(response.read().decode("utf-8"))
-                output_text = extract_openai_output_text(body)
-                parsed = json.loads(output_text)
-                translations = parsed.get("translations", [])
-                if len(translations) != len(values):
-                    raise TranslationCountError(f"Expected {len(values)} translations, got {len(translations)}")
-                return translations
-            except urllib.error.HTTPError as error:
-                detail = safe_error_body(error)
-                last_error = RuntimeError(f"OpenAI HTTP {error.code}: {detail}")
-                if error.code in {400, 401, 402, 403, 404}:
-                    break
-            except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, RuntimeError) as error:
-                last_error = error
-            if attempt < self.max_retries:
-                time.sleep(attempt * 3)
-        raise last_error or RuntimeError("OpenAI translation failed")
+    def translate_body_lines(self, lines):
+        normalized_lines = normalize_static_markdown_lines(lines)
+        translated = []
+        chunks = list(chunk_lines(normalized_lines, self.chunk_max_chars, self.chunk_max_lines))
+        for index, chunk in enumerate(chunks, start=1):
+            print(f"Translating chunk {index}/{len(chunks)} ({len(chunk)} lines)", flush=True)
+            translated.extend(self.translate_markdown_lines_with_fallback(chunk))
+        return translated
+
+    def translate_markdown_lines_with_fallback(self, lines):
+        try:
+            return self.translate_markdown_chunk(lines)
+        except MarkdownValidationError:
+            if len(lines) <= 1:
+                raise
+            middle = len(lines) // 2
+            return self.translate_markdown_lines_with_fallback(lines[:middle]) + self.translate_markdown_lines_with_fallback(
+                lines[middle:]
+            )
+
+    def translate_markdown_chunk(self, lines):
+        source = "\n".join(lines)
+        payload = {
+            "model": self.model_name,
+            "instructions": (
+                "Translate this German podcast transcript Markdown to natural English. "
+                "Preserve Markdown structure, every timestamp marker like **[00:00:00]**, URLs, code-like tokens, "
+                "brand names, and speaker names Mark Zimmermann and Jens Scharnetzki. "
+                "Do not add commentary, summaries, or new sections. Return only JSON matching the schema."
+            ),
+            "input": source,
+            "max_output_tokens": self.max_output_tokens,
+            "text": {
+                "format": {
+                    "type": "json_schema",
+                    "name": "markdown_translation",
+                    "strict": True,
+                    "schema": {
+                        "type": "object",
+                        "additionalProperties": False,
+                        "properties": {
+                            "markdown": {"type": "string"},
+                        },
+                        "required": ["markdown"],
+                    },
+                }
+            },
+        }
+        body = self.request_json(payload)
+        try:
+            parsed = json.loads(extract_openai_output_text(body))
+        except json.JSONDecodeError as error:
+            raise MarkdownValidationError(f"OpenAI response was not valid JSON: {error}") from error
+
+        markdown = parsed.get("markdown", "")
+        if not isinstance(markdown, str) or not markdown.strip():
+            raise MarkdownValidationError("OpenAI response did not include translated markdown")
+        validate_preserved_markers(source, markdown)
+        return markdown.splitlines()
 
 
 class TranslationCountError(RuntimeError):
+    pass
+
+
+class MarkdownValidationError(RuntimeError):
     pass
 
 
@@ -202,6 +286,54 @@ def is_translatable(line):
     if re.match(r"^\*\*(Webplayer|Cover|Audio):\*\*\s+https?://", stripped):
         return False
     return True
+
+
+def normalize_static_markdown_lines(lines):
+    normalized = []
+    for line in lines:
+        heading = re.match(r"^(#+)\s+(.+)$", line)
+        if heading:
+            level, text = heading.groups()
+            normalized.append(f"{level} {HEADINGS.get(text, text)}")
+            continue
+
+        meta = re.match(r"^\*\*([^:]+):\*\*\s*(.*)$", line)
+        if meta:
+            label, value = meta.groups()
+            normalized.append(f"**{META_LABELS.get(label, label)}:** {value}".rstrip())
+            continue
+
+        normalized.append(line)
+    return normalized
+
+
+def chunk_lines(lines, max_chars, max_lines):
+    chunk = []
+    chunk_chars = 0
+    for line in lines:
+        line_chars = len(line) + 1
+        if chunk and (chunk_chars + line_chars > max_chars or len(chunk) >= max_lines):
+            yield chunk
+            chunk = []
+            chunk_chars = 0
+        chunk.append(line)
+        chunk_chars += line_chars
+    if chunk:
+        yield chunk
+
+
+def validate_preserved_markers(source, translated):
+    source_timestamps = TIMESTAMP_MARKER_RE.findall(source)
+    translated_timestamps = TIMESTAMP_MARKER_RE.findall(translated)
+    if source_timestamps != translated_timestamps:
+        raise MarkdownValidationError(
+            f"Timestamp mismatch: expected {len(source_timestamps)}, got {len(translated_timestamps)}"
+        )
+
+    source_urls = URL_RE.findall(source)
+    translated_urls = URL_RE.findall(translated)
+    if source_urls != translated_urls:
+        raise MarkdownValidationError(f"URL mismatch: expected {len(source_urls)}, got {len(translated_urls)}")
 
 
 def prepare_body(lines):
@@ -285,9 +417,12 @@ def translate_file(source_path, target_path, error_path, translator, provider, f
     translated_frontmatter = (
         translate_frontmatter(frontmatter, source_path, translator.model_name, provider) if frontmatter else []
     )
-    prepared, texts = prepare_body(body)
-    translations = translator.translate_many(texts) if texts else []
-    translated_body = render_body(prepared, translations)
+    if hasattr(translator, "translate_body_lines"):
+        translated_body = translator.translate_body_lines(body)
+    else:
+        prepared, texts = prepare_body(body)
+        translations = translator.translate_many(texts) if texts else []
+        translated_body = render_body(prepared, translations)
 
     target_path.parent.mkdir(parents=True, exist_ok=True)
     output_lines = translated_frontmatter + translated_body
@@ -300,7 +435,14 @@ def translate_file(source_path, target_path, error_path, translator, provider, f
 def build_translator(args):
     if args.provider == "openai":
         model = args.model or os.environ.get("OPENAI_TRANSLATION_MODEL") or DEFAULT_OPENAI_MODEL
-        return OpenAITranslator(model, args.batch_size, os.environ.get("OPENAI_API_KEY", ""))
+        return OpenAITranslator(
+            model,
+            args.batch_size,
+            os.environ.get("OPENAI_API_KEY", ""),
+            chunk_max_chars=args.chunk_max_chars,
+            chunk_max_lines=args.chunk_max_lines,
+            max_output_tokens=args.max_output_tokens,
+        )
     model = args.model or DEFAULT_LOCAL_MODEL
     return LocalTranslator(model, args.batch_size)
 
@@ -313,6 +455,9 @@ def build_parser():
     parser.add_argument("--provider", choices=["local", "openai"], default="local")
     parser.add_argument("--model", default="")
     parser.add_argument("--batch-size", type=int, default=8)
+    parser.add_argument("--chunk-max-chars", type=int, default=DEFAULT_OPENAI_CHUNK_MAX_CHARS)
+    parser.add_argument("--chunk-max-lines", type=int, default=DEFAULT_OPENAI_CHUNK_MAX_LINES)
+    parser.add_argument("--max-output-tokens", type=int, default=DEFAULT_OPENAI_MAX_OUTPUT_TOKENS)
     parser.add_argument("--force", action="store_true")
     parser.add_argument("--limit", type=int, default=0)
     parser.add_argument("--max-errors", type=int, default=5)
@@ -341,22 +486,27 @@ def main(argv=None):
     changed = 0
     errors = 0
     for source_path in retry_files:
+        print(f"Translating {source_path}", flush=True)
         target_path = output_dir / source_path.name
         error_path = error_path_for(source_path, error_dir)
         try:
             result = translate_file(source_path, target_path, error_path, translator, args.provider, force=args.force)
             if result == "translated":
                 changed += 1
-                print(f"Wrote {target_path}")
+                print(f"Wrote {target_path}", flush=True)
         except Exception as error:
             errors += 1
             write_error(error_path, source_path, error)
-            print(f"Translation failed for {source_path}: {error}", file=sys.stderr)
+            print(f"Translation failed for {source_path}: {error}", file=sys.stderr, flush=True)
             if errors >= args.max_errors:
-                print(f"Stopped after {errors} translation error(s). Later runs will retry missing files.", file=sys.stderr)
+                print(
+                    f"Stopped after {errors} translation error(s). Later runs will retry missing files.",
+                    file=sys.stderr,
+                    flush=True,
+                )
                 break
 
-    print(f"Translated {changed} transcript file(s). Recorded {errors} error(s).")
+    print(f"Translated {changed} transcript file(s). Recorded {errors} error(s).", flush=True)
     if errors and args.fail_on_error:
         return 1
     return 0

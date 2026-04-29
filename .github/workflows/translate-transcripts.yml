@@ -24,6 +24,7 @@ jobs:
     timeout-minutes: 360
     env:
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      PYTHONUNBUFFERED: "1"
 
     steps:
       - name: Check out repository
