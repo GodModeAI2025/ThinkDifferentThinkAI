@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 37,
   "availableTranscriptCount": 37,
-  "availableEnglishTranscriptCount": 21,
+  "availableEnglishTranscriptCount": 22,
   "episodes": [
     {
       "index": 1,
@@ -688,16 +688,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2381794-m-d7c482dddf5cf5c319f57e1e2fa44ea1.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/029 - Age of Agents.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/029 - Age of Agents.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/029 - Age of Agents.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/029 - Age of Agents.md"
         }
       }
     },
