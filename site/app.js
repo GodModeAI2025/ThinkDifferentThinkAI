@@ -15,6 +15,7 @@ const transcriptLink = document.querySelector("#transcriptLink");
 const playerLink = document.querySelector("#playerLink");
 const podcastPlayer = document.querySelector("#podcastPlayer");
 const selectedCover = document.querySelector("#selectedCover");
+const languageSwitch = document.querySelector(".language-switch");
 const languageButtons = Array.from(document.querySelectorAll("[data-language]"));
 const feedbackForm = document.querySelector("#feedbackForm");
 const feedbackTitle = document.querySelector("#feedbackTitle");
@@ -137,7 +138,15 @@ function transcriptFor(episode, language = state.language) {
   };
 }
 
-function updateLanguageSwitch() {
+function hasEnglishTranscript(episode) {
+  return Boolean(episode && transcriptFor(episode, "en").available);
+}
+
+function updateLanguageSwitch(episode = state.selected) {
+  if (languageSwitch) {
+    languageSwitch.hidden = !hasEnglishTranscript(episode);
+  }
+
   for (const button of languageButtons) {
     const language = button.dataset.language;
     button.classList.toggle("active", language === state.language);
@@ -181,6 +190,10 @@ function renderList() {
 
 async function selectEpisode(episode) {
   state.selected = episode;
+  if (state.language === "en" && !hasEnglishTranscript(episode)) {
+    state.language = "de";
+  }
+  updateLanguageSwitch(episode);
   renderList();
 
   title.textContent = episode.title;
