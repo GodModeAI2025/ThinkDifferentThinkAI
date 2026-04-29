@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 37,
   "availableTranscriptCount": 37,
-  "availableEnglishTranscriptCount": 9,
+  "availableEnglishTranscriptCount": 10,
   "episodes": [
     {
       "index": 1,
@@ -736,16 +736,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2394491-m-beaaae30a2bf806c0ea14cae438b74bc.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/031 - Anatomie der KI.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/031 - Anatomie der KI.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/031 - Anatomie der KI.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/031 - Anatomie der KI.md"
         }
       }
     },
