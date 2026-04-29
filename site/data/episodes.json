@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 37,
   "availableTranscriptCount": 37,
-  "availableEnglishTranscriptCount": 27,
+  "availableEnglishTranscriptCount": 28,
   "episodes": [
     {
       "index": 1,
@@ -784,16 +784,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2417572-m-91adb6cd7036afc5e7400bf4fa464a7b.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/033 - Agenten, KI und die Zukunft der Softwareentwicklung.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/033 - Agenten, KI und die Zukunft der Softwareentwicklung.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/033 - Agenten, KI und die Zukunft der Softwareentwicklung.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/033 - Agenten, KI und die Zukunft der Softwareentwicklung.md"
         }
       }
     },
