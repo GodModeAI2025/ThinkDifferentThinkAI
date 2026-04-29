@@ -69,17 +69,20 @@ jobs:
             return 1
           }
 
-          for SOURCE_FILE in transkripte/*.md; do
+          while IFS= read -r SOURCE_FILE; do
             python scripts/translate_transcripts.py \
               --provider openai \
               --input-dir transkripte \
               --output-dir transkripte-en \
               --source-file "$SOURCE_FILE" \
+              --chunk-max-chars 6000 \
+              --chunk-max-lines 90 \
+              --max-output-tokens 8000 \
               --max-errors 1 \
               $FORCE_ARG
             python scripts/build_site_manifest.py
             commit_changes "Add English transcript: $(basename "$SOURCE_FILE" .md)"
-          done
+          done < <(find transkripte -maxdepth 1 -type f -name '*.md' -printf '%s\t%p\n' | sort -n | cut -f2-)
 
       - name: Cache Hugging Face models
         if: ${{ env.OPENAI_API_KEY == '' }}
