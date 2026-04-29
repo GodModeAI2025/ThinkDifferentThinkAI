@@ -12,6 +12,7 @@ on:
         type: boolean
 
 permissions:
+  actions: write
   contents: write
 
 concurrency:
@@ -23,6 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 360
     env:
+      GH_TOKEN: ${{ github.token }}
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       PYTHONUNBUFFERED: "1"
 
@@ -62,6 +64,7 @@ jobs:
             git commit -m "$message"
             for attempt in 1 2 3; do
               if git push; then
+                gh workflow run pages.yml --ref main || echo "Could not trigger Pages deploy."
                 return 0
               fi
               git pull --rebase origin main
@@ -122,4 +125,5 @@ jobs:
           else
             git commit -m "Add English podcast transcript translations"
             git push
+            gh workflow run pages.yml --ref main || echo "Could not trigger Pages deploy."
           fi
