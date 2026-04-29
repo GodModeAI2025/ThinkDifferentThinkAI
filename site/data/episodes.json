@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 37,
   "availableTranscriptCount": 37,
-  "availableEnglishTranscriptCount": 29,
+  "availableEnglishTranscriptCount": 30,
   "episodes": [
     {
       "index": 1,
@@ -592,16 +592,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2337279-m-eee85333e1be5d29858946a3024f3970.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/025 - TikTok AI Coach.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/025 - TikTok AI Coach.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/025 - TikTok AI Coach.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/025 - TikTok AI Coach.md"
         }
       }
     },
