@@ -63,7 +63,13 @@ class OpenAITranslator:
         results = []
         for start in range(0, len(values), self.batch_size):
             batch = values[start : start + self.batch_size]
-            results.extend(self.translate_batch(batch))
+            try:
+                results.extend(self.translate_batch(batch))
+            except TranslationCountError:
+                if len(batch) == 1:
+                    raise
+                for value in batch:
+                    results.extend(self.translate_batch([value]))
         return results
 
     def translate_batch(self, values):
@@ -114,7 +120,7 @@ class OpenAITranslator:
                 parsed = json.loads(output_text)
                 translations = parsed.get("translations", [])
                 if len(translations) != len(values):
-                    raise RuntimeError(f"Expected {len(values)} translations, got {len(translations)}")
+                    raise TranslationCountError(f"Expected {len(values)} translations, got {len(translations)}")
                 return translations
             except urllib.error.HTTPError as error:
                 detail = safe_error_body(error)
@@ -126,6 +132,10 @@ class OpenAITranslator:
             if attempt < self.max_retries:
                 time.sleep(attempt * 3)
         raise last_error or RuntimeError("OpenAI translation failed")
+
+
+class TranslationCountError(RuntimeError):
+    pass
 
 
 def safe_error_body(error):
