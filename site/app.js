@@ -13,7 +13,11 @@ const transcript = document.querySelector("#transcript");
 const transcriptLink = document.querySelector("#transcriptLink");
 const playerLink = document.querySelector("#playerLink");
 const selectedCover = document.querySelector("#selectedCover");
+const feedbackForm = document.querySelector("#feedbackForm");
+const feedbackTitle = document.querySelector("#feedbackTitle");
+const feedbackMessage = document.querySelector("#feedbackMessage");
 const defaultCover = "https://images.podigee-cdn.net/0x,sL3rd-8gIENV0jDGxTRhEKOYzoUhn4Sgs9-d3rsTM_Hk=/https://main.podigee-cdn.net/uploads/u73317/3c6e6a97-b38f-40cb-8890-7ce7916cb31c.jpg";
+const feedbackRecipient = "charta.ei.4z@icloud.com";
 
 function padEpisode(value) {
   return String(value).padStart(3, "0");
@@ -74,6 +78,21 @@ function renderMarkdown(markdown) {
   }
 
   return body.join("");
+}
+
+function submitFeedback(event) {
+  event.preventDefault();
+  if (!feedbackForm.reportValidity()) return;
+
+  const body = [
+    "Titel:",
+    feedbackTitle.value.trim(),
+    "",
+    "Nachricht:",
+    feedbackMessage.value.trim(),
+  ].join("\n");
+  const mailto = `mailto:${feedbackRecipient}?subject=${encodeURIComponent("PODCAST FEEDBACK")}&body=${encodeURIComponent(body)}`;
+  window.location.href = mailto;
 }
 
 function filteredEpisodes() {
@@ -158,5 +177,7 @@ search.addEventListener("input", (event) => {
   state.query = event.target.value;
   renderList();
 });
+
+feedbackForm.addEventListener("submit", submitFeedback);
 
 init();
