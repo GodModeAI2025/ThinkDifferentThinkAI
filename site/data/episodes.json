@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 37,
   "availableTranscriptCount": 37,
-  "availableEnglishTranscriptCount": 23,
+  "availableEnglishTranscriptCount": 24,
   "episodes": [
     {
       "index": 1,
@@ -880,16 +880,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2461048-m-ea147867a9b710d8e5a622dc74e07142.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/037 - KI schläft nicht !.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/037 - KI schläft nicht !.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/037 - KI schläft nicht !.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/037 - KI schläft nicht !.md"
         }
       }
     }
