@@ -10,6 +10,11 @@ on:
         required: true
         default: false
         type: boolean
+      priority:
+        description: Optional comma-separated episode numbers to translate first
+        required: false
+        default: ""
+        type: string
 
 permissions:
   actions: write
@@ -85,7 +90,11 @@ jobs:
               $FORCE_ARG
             python scripts/build_site_manifest.py
             commit_changes "Add English transcript: $(basename "$SOURCE_FILE" .md)"
-          done < <(find transkripte -maxdepth 1 -type f -name '*.md' -printf '%s\t%p\n' | sort -n | cut -f2-)
+          done < <(python scripts/list_translation_sources.py \
+            --input-dir transkripte \
+            --output-dir transkripte-en \
+            --error-dir transkripte-en/.errors \
+            --priority "${{ github.event.inputs.priority }}")
 
       - name: Cache Hugging Face models
         if: ${{ env.OPENAI_API_KEY == '' }}
