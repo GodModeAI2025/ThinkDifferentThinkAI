@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 37,
   "availableTranscriptCount": 37,
-  "availableEnglishTranscriptCount": 10,
+  "availableEnglishTranscriptCount": 11,
   "episodes": [
     {
       "index": 1,
@@ -64,16 +64,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2042157-m-6f09c8ffe04a1b6f53b6a5ac0651d4e3.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/003 - Hat eine KI eigentlich Urlaub.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/003 - Hat eine KI eigentlich Urlaub.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/003 - Hat eine KI eigentlich Urlaub.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/003 - Hat eine KI eigentlich Urlaub.md"
         }
       }
     },
