@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 37,
   "availableTranscriptCount": 37,
-  "availableEnglishTranscriptCount": 34,
+  "availableEnglishTranscriptCount": 35,
   "episodes": [
     {
       "index": 1,
@@ -232,16 +232,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2160435-m-68cc27d9dd04b9b4b792179852421201.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/010 - Automation trifft Organisation - n8n × Notion.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/010 - Automation trifft Organisation - n8n × Notion.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/010 - Automation trifft Organisation - n8n × Notion.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/010 - Automation trifft Organisation - n8n × Notion.md"
         }
       }
     },
