@@ -25,7 +25,7 @@ Poisoning Attacks on LLMs Require a Near-constant Number of Poison Samples http
 
 ## Transkript
 
-**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Marc und Jens.
+**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Mark und Jens.
 
 **[00:00:07]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 
@@ -109,7 +109,7 @@ Poisoning Attacks on LLMs Require a Near-constant Number of Poison Samples http
 
 **[00:03:48]** lass mal so formulieren wie der Titel, ich leg den Titel jetzt fest,
 
-**[00:03:52]** Marc, unabgesprochen, Box, KI und das Ende des Interfaces.
+**[00:03:52]** Mark, unabgesprochen, Box, KI und das Ende des Interfaces.
 
 **[00:03:58]** Oh, ja, also ich meine, als wir uns auf die Folge vorbereitet haben,
 
@@ -1495,7 +1495,7 @@ Poisoning Attacks on LLMs Require a Near-constant Number of Poison Samples http
 
 **[00:54:08]** Abonniert uns und wir hören uns das nächste Mal. Bis dann, ciao.
 
-**[00:54:14]** Willkommen bei ThinkDifferent, ThinkAI, dem Podcast von Marc und Jens.
+**[00:54:14]** Willkommen bei ThinkDifferent, ThinkAI, dem Podcast von Mark und Jens.
 
 **[00:54:20]** Zwei technologieverliebte Köpfe,
 

@@ -36,7 +36,7 @@ Original-Quellen:
 
 ## Transkript
 
-**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Marc und Jens.
+**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Mark und Jens.
 
 **[00:00:07]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 
@@ -1140,7 +1140,7 @@ Original-Quellen:
 
 **[00:40:54]** Schleit gesund!
 
-**[00:40:56]** Willkommen bei ThinkDifferent, ThinkAI, dem Podcast von Marc und Jens.
+**[00:40:56]** Willkommen bei ThinkDifferent, ThinkAI, dem Podcast von Mark und Jens.
 
 **[00:41:37]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 

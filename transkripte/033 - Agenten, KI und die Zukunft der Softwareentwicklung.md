@@ -64,7 +64,7 @@ https://developer.apple.com/xcode-cloud/
 
 ## Transkript
 
-**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Marc und Jens.
+**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Mark und Jens.
 
 **[00:00:07]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 
@@ -98,11 +98,11 @@ https://developer.apple.com/xcode-cloud/
 
 **[00:01:13]** Alex. Ich mache bei einem bekannten deutschen Unternehmen, was mit Plattformen und KI und
 
-**[00:01:20]** Arbeitsweise, genau. Und bin darüber mit dem Marc und dem Klaus in Kontakt gekommen.
+**[00:01:20]** Arbeitsweise, genau. Und bin darüber mit dem Mark und dem Klaus in Kontakt gekommen.
 
 **[00:01:27]** Ich finde das schön, als er sagte so, hallo, dachte ich so, das ist so wie so eine
 
-**[00:01:31]** begrüßtungsgruppe, so eine selbsthilfe Gruppe, ne? Hallo Alex, hallo Marc, ja, hallo in die
+**[00:01:31]** begrüßtungsgruppe, so eine selbsthilfe Gruppe, ne? Hallo Alex, hallo Mark, ja, hallo in die
 
 **[00:01:36]** Hunde. Na ja, ist ja auch ein bisschen so, oder? Ja, vielleicht sollte man den Podcast
 
@@ -192,7 +192,7 @@ https://developer.apple.com/xcode-cloud/
 
 **[00:05:49]** geschickt. Klaus, wie ist es bei dir? Jetzt kommt erst mal mein Standard-Einwand. Wo ist der Unterschied zu
 
-**[00:05:55]** nichtagentischen Programmierern? Und ich wollte zu deiner Frage noch sagen, Marc, manchmal hilft es,
+**[00:05:55]** nichtagentischen Programmierern? Und ich wollte zu deiner Frage noch sagen, Mark, manchmal hilft es,
 
 **[00:06:03]** nicht so schnell zu sein. Ich weiß, dass du im Herbst ja voll auf NNN gegangen bist und ich
 
@@ -338,7 +338,7 @@ https://developer.apple.com/xcode-cloud/
 
 **[00:12:06]** ihm sagen hier macht das jetzt einmal, aber du kannst es halt eben auch als Wiederkehrenden Job machen und
 
-**[00:12:12]** Ich behaupte mal, Marc, wenn du gar keine Ahnung von Softwareentwicklung hast, dann wirst du da ganz schnell auf böhmische Dörfer stoßen.
+**[00:12:12]** Ich behaupte mal, Mark, wenn du gar keine Ahnung von Softwareentwicklung hast, dann wirst du da ganz schnell auf böhmische Dörfer stoßen.
 
 **[00:12:21]** Also alleine sowas wie MCP-Konfiguration oder ich bin gerade eben in den Talk hier reingekommen und habe gesagt, ich habe mich tierisch geärgert, weil ich mir so ein Weekly-Review zusammengebaut habe.
 
@@ -474,7 +474,7 @@ https://developer.apple.com/xcode-cloud/
 
 **[00:17:32]** damit.
 
-**[00:17:33]** Meine Partnerin ist jetzt an ihr Token-Limit gestoßen, nicht wahr, Marc, kennst du auch?
+**[00:17:33]** Meine Partnerin ist jetzt an ihr Token-Limit gestoßen, nicht wahr, Mark, kennst du auch?
 
 **[00:17:38]** Schöne Grüße, Max, Limit von Claude, 20-fache Leistung und das Ding hat mich heute gebremst.
 
@@ -1202,7 +1202,7 @@ https://developer.apple.com/xcode-cloud/
 
 **[00:47:53]** Entwicklungsumgebung von Apple, kann ich ja nativ Cloud Code benutzen und grundsätzlich
 
-**[00:47:59]** bei der Programmierung gebe ich dir Recht, Marc, aber Feinheiten wie, jetzt machen
+**[00:47:59]** bei der Programmierung gebe ich dir Recht, Mark, aber Feinheiten wie, jetzt machen
 
 **[00:48:05]** wir mal bitte die Tapper wirklich im Liquid Glass Layout oder mach irgendwelche Plattformspezifika,
 
@@ -1230,7 +1230,7 @@ https://developer.apple.com/xcode-cloud/
 
 **[00:49:20]** wirklich eine polierte App haben willst, solltest du schon die Details kennen.
 
-**[00:49:25]** Grundsätzlich gebe ich dir aber recht, Marc. Und das war ja auch in dem letzten Podcast, in dem
+**[00:49:25]** Grundsätzlich gebe ich dir aber recht, Mark. Und das war ja auch in dem letzten Podcast, in dem
 
 **[00:49:30]** uns und habe ich ja auch die These mitgebracht, dass das Ende der Programmiersprachen zumindest
 
@@ -1258,7 +1258,7 @@ https://developer.apple.com/xcode-cloud/
 
 **[00:50:32]** Aber wenn ich mir angucke, wo wir im letzten Jahr waren und wo wir in diesem Jahr sind,
 
-**[00:50:36]** bin ich schon grundsätzlich bei dir, Marc.
+**[00:50:36]** bin ich schon grundsätzlich bei dir, Mark.
 
 **[00:50:39]** Das ist die Zukunft definitiv.
 
@@ -1422,7 +1422,7 @@ https://developer.apple.com/xcode-cloud/
 
 **[00:57:29]** Aber er hat mich auch eine andere Schilderung. Es schaukelt sich hoch und wir haben länger
 
-**[00:57:36]** diskutiert, er hat das einfach nicht gemacht. Wir drei waren uns einig, also Alex, Marc und ich,
+**[00:57:36]** diskutiert, er hat das einfach nicht gemacht. Wir drei waren uns einig, also Alex, Mark und ich,
 
 **[00:57:42]** dass es auch lustig in Zukunft wird, wenn dann der Agent sagt, nö, dieses Feature baue ich nicht
 
@@ -1468,7 +1468,7 @@ https://developer.apple.com/xcode-cloud/
 
 **[00:59:27]** Danke euch.
 
-**[00:59:28]** Willkommen bei Think Different, Think AI, dem Podcast von Marc und Jens.
+**[00:59:28]** Willkommen bei Think Different, Think AI, dem Podcast von Mark und Jens.
 
 **[00:59:36]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern
 

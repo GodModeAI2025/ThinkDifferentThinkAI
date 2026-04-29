@@ -25,7 +25,7 @@ In dieser Episode tauchen wir tief in die Welt der Skills ein und zeigen, warum 
 
 ## Transkript
 
-**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Marc und Jens.
+**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Mark und Jens.
 
 **[00:00:07]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 
@@ -43,7 +43,7 @@ In dieser Episode tauchen wir tief in die Welt der Skills ein und zeigen, warum 
 
 **[00:00:52]** aber dafür mit Jens. Hallo Jens, schön, dass du da bist.
 
-**[00:00:56]** Hallo Marc, ja, ab und zu kommt es ja noch vor, dass ich mal in einer Folge nicht dabei sein kann.
+**[00:00:56]** Hallo Mark, ja, ab und zu kommt es ja noch vor, dass ich mal in einer Folge nicht dabei sein kann.
 
 **[00:01:02]** Ich freue mich schon auf die Folge, wenn ich mal alleine dann hier sein werde und eine Folge mache.
 
@@ -51,7 +51,7 @@ In dieser Episode tauchen wir tief in die Welt der Skills ein und zeigen, warum 
 
 **[00:01:09]** Ich weiß noch nicht das Thema, aber mir fällt etwas ein.
 
-**[00:01:11]** Diesmal bin ich wirklich auch wieder froh, dass ich dabei sein kann, Marc.
+**[00:01:11]** Diesmal bin ich wirklich auch wieder froh, dass ich dabei sein kann, Mark.
 
 **[00:01:14]** Und wir haben wirklich so ein spannendes Thema,
 
@@ -777,7 +777,7 @@ In dieser Episode tauchen wir tief in die Welt der Skills ein und zeigen, warum 
 
 **[00:32:50]** unterwegs sind.
 
-**[00:32:51]** Und was Marc und ich jetzt in den letzten Wochen schon beobachtet haben, ist so ein Trend
+**[00:32:51]** Und was Mark und ich jetzt in den letzten Wochen schon beobachtet haben, ist so ein Trend
 
 **[00:32:55]** im Netz, dass dann manche von diesen Kollegen, die dann auch mal 15, 16 KI-Agenten parallel
 
@@ -833,7 +833,7 @@ In dieser Episode tauchen wir tief in die Welt der Skills ein und zeigen, warum 
 
 **[00:34:46]** Willkommen bei Think Different, Think AI.
 
-**[00:34:49]** Den Podcast von Marc und Jens.
+**[00:34:49]** Den Podcast von Mark und Jens.
 
 **[00:34:52]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 

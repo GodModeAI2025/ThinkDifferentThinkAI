@@ -63,7 +63,7 @@ Linkbeschreibung
 
 ## Transkript
 
-**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Marc und Jens.
+**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Mark und Jens.
 
 **[00:00:07]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 
@@ -167,7 +167,7 @@ Linkbeschreibung
 
 **[00:04:03]** So, was funktioniert einfach nicht, ne?
 
-**[00:04:05]** Und da, Marc, da gibt es natürlich mit untas der Eben,
+**[00:04:05]** Und da, Mark, da gibt es natürlich mit untas der Eben,
 
 **[00:04:09]** das ist dann schon ein gigantischer Sprung von der Ein- und das Eben,
 
@@ -543,7 +543,7 @@ Linkbeschreibung
 
 **[00:20:02]** mit der besseren Aussprache.
 
-**[00:20:03]** Marc und ich haben in unserem Vorgespräch schon überlegt, wie diese verschiedenen
+**[00:20:03]** Mark und ich haben in unserem Vorgespräch schon überlegt, wie diese verschiedenen
 
 **[00:20:07]** Sachen sich eigentlich phonetisch anders anhören. Wir wissen es aber wirklich nicht ganz genau. Ist
 
@@ -637,7 +637,7 @@ Linkbeschreibung
 
 **[00:23:32]** Dach sein lassen.
 
-**[00:23:33]** Dann mache erstmal die Folge mit Marc und gucke erst mal, wie wir das einordnen können
+**[00:23:33]** Dann mache erstmal die Folge mit Mark und gucke erst mal, wie wir das einordnen können
 
 **[00:23:37]** und dann überlege ich mir auch nicht, wenn Mac Mini noch holt oder nicht.
 
@@ -925,7 +925,7 @@ Linkbeschreibung
 
 **[00:35:42]** werden, damit ich dann auch nochmal persönlichen Assistenten installieren kann. Das Ding
 
-**[00:35:46]** ist so, wie Marc das auch gerade schon zwar einmal gesagt hat, das ist jetzt auch etwas,
+**[00:35:46]** ist so, wie Mark das auch gerade schon zwar einmal gesagt hat, das ist jetzt auch etwas,
 
 **[00:35:49]** wo man sagen muss, ein bisschen vorsichtig sein. Also jetzt nicht irgendwie Claude Wott oder auf
 
@@ -1185,7 +1185,7 @@ Linkbeschreibung
 
 **[00:44:43]** das wirklich ein spannendes Feld. Da beschäftige ich mich wirklich tatsächlich gerade mit,
 
-**[00:44:45]** danke Marc, war noch für die Nimbus. Und, was so gerade anläutig ist, ist,
+**[00:44:45]** danke Mark, war noch für die Nimbus. Und, was so gerade anläutig ist, ist,
 
 **[00:44:50]** wir wollten ja mal eine Folge wirklich über diese Orchestrieren machen, dass man sagt,
 

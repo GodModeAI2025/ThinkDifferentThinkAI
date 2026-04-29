@@ -60,7 +60,7 @@ https://crea.ai/
 
 ## Transkript
 
-**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Marc und Jens.
+**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Mark und Jens.
 
 **[00:00:07]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 
@@ -76,7 +76,7 @@ https://crea.ai/
 
 **[00:00:43]** Der Jens ist bei mir. Hallo Jens, schön, dass du da bist.
 
-**[00:00:46]** Hallo Marc, schön, dass ich da bin und schön, dass du da bist.
+**[00:00:46]** Hallo Mark, schön, dass ich da bin und schön, dass du da bist.
 
 **[00:00:50]** Ja, das ist toll, ne? Wir machen das jetzt zehn Minuten lang und dann legen wir auf.
 
@@ -758,7 +758,7 @@ https://crea.ai/
 
 **[00:25:46]** Was ja auch kompletiert sein könnte, falls er selbst berechnen muss.
 
-**[00:25:49]** Genau, das wäre eine Entscheidung, was er müsste ja sagen, ne, sorry Marc, was soll
+**[00:25:49]** Genau, das wäre eine Entscheidung, was er müsste ja sagen, ne, sorry Mark, was soll
 
 **[00:25:53]** das?
 
@@ -964,7 +964,7 @@ https://crea.ai/
 
 **[00:33:20]** Spätestens im Jahreswechsel schicken wir die raus.
 
-**[00:33:23]** Nein, das ist viel zu spät, Marc. Die muss jetzt abwarten und dann das Licht der Welt erblicken.
+**[00:33:23]** Nein, das ist viel zu spät, Mark. Die muss jetzt abwarten und dann das Licht der Welt erblicken.
 
 **[00:33:28]** Ich hab das Gefühl, die Geschwindigkeit, wie gesagt, der Redner immer wieder drüber,
 
@@ -1484,7 +1484,7 @@ https://crea.ai/
 
 **[00:53:54]** Ciao.
 
-**[00:53:57]** Willkommen bei Think Different, Think AI, dem Podcast von Marc und Jens.
+**[00:53:57]** Willkommen bei Think Different, Think AI, dem Podcast von Mark und Jens.
 
 **[00:54:03]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 

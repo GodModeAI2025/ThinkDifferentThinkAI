@@ -73,7 +73,7 @@ https://www.handelsblatt.com/
 
 ## Transkript
 
-**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Marc und Jens.
+**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Mark und Jens.
 
 **[00:00:07]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 
@@ -175,7 +175,7 @@ https://www.handelsblatt.com/
 
 **[00:04:00]** Und da hast du ja, glaube ich, auch ein schönes Experiment gestartet.
 
-**[00:04:05]** Ich habe das bei Link-Inner-Apozum ein bisschen verfolgt, Marc.
+**[00:04:05]** Ich habe das bei Link-Inner-Apozum ein bisschen verfolgt, Mark.
 
 **[00:04:08]** Meine soziale Plattform sagt auch alles über mich,
 
@@ -249,9 +249,9 @@ https://www.handelsblatt.com/
 
 **[00:06:18]** Wir beide sind echt gerade. Das, was wir gerade erzählen, ist echt. Es wird nochmal, also
 
-**[00:06:24]** hört euch die Folge gerne antwort, Marc, es wird im Hintergrund ein wenig KI verbessert,
+**[00:06:24]** hört euch die Folge gerne antwort, Mark, es wird im Hintergrund ein wenig KI verbessert,
 
-**[00:06:31]** Ems und Ös und hast du nicht gesehen, Pausen und sowas. Lasst dein lieber Marc rein
+**[00:06:31]** Ems und Ös und hast du nicht gesehen, Pausen und sowas. Lasst dein lieber Mark rein
 
 **[00:06:35]** noch ausarbeiten. Ich bin jetzt heute auch in der Situation, wo mein Mikrofon nicht
 
@@ -259,7 +259,7 @@ https://www.handelsblatt.com/
 
 **[00:06:45]** gesprochenen Wortes bis mindestens zu 99 Prozent wirklich noch menschlich. Was wir hier machen und
 
-**[00:06:50]** Marc hat da auch umgibt sich dann mit Podcast-Kollegenden, die nur noch KI generiert sind und aber
+**[00:06:50]** Mark hat da auch umgibt sich dann mit Podcast-Kollegenden, die nur noch KI generiert sind und aber
 
 **[00:06:58]** auf der anderen Seite, wie gesagt, hast du auch einen Advisory Board, wo du Themen diskutierst mit,
 
@@ -1177,7 +1177,7 @@ https://www.handelsblatt.com/
 
 **[00:45:52]** Willkommen bei ThinkDifferent, ThinkAI,
 
-**[00:45:56]** dem Podcast von Marc und Jens.
+**[00:45:56]** dem Podcast von Mark und Jens.
 
 **[00:45:58]** Zwei technologieverliebte Köpfe,
 

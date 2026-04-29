@@ -34,7 +34,7 @@ Conversations about Software Engineering
 
 **[00:00:06]** Meinungen entsprechend nicht automatisch der Sicht unserer Arbeitgeber.
 
-**[00:00:10]** Willkommen bei Think Different, Think AI, dem Podcast von Marc und Jens. Zwei technologieverliebte
+**[00:00:10]** Willkommen bei Think Different, Think AI, dem Podcast von Mark und Jens. Zwei technologieverliebte
 
 **[00:00:20]** Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben. Hier gibt es klare
 
@@ -90,7 +90,7 @@ Conversations about Software Engineering
 
 **[00:02:39]** Alex, magst du auch noch zwei, drei Sätze zu dir sagen?
 
-**[00:02:41]** Ja, dann nochmal vielen Dank für die Einladung, lieber Marc.
+**[00:02:41]** Ja, dann nochmal vielen Dank für die Einladung, lieber Mark.
 
 **[00:02:46]** Alex Häusingfeldt, mein Name. Ich bin selber Podcaster im Conversations about Software Engineering Podcast.
 
@@ -114,7 +114,7 @@ Conversations about Software Engineering
 
 **[00:03:33]** Und ich hoffe, ihr habt alle einen Thermomix.
 
-**[00:03:37]** Aber Marc, du wolltest was sagen.
+**[00:03:37]** Aber Mark, du wolltest was sagen.
 
 **[00:03:39]** Ja, ich wollte gerade überlegen, ob ich jetzt, also eigentlich wollte ich ja dann noch Alex ein Podcast an die Show Notes packen.
 
@@ -1162,7 +1162,7 @@ Conversations about Software Engineering
 
 **[00:46:41]** Es könnte sein, dass jemand so einen Spotify auf Android hat oder so, ja?
 
-**[00:46:44]** Also, ich würde den Podcast so machen, Marc.
+**[00:46:44]** Also, ich würde den Podcast so machen, Mark.
 
 **[00:46:49]** Das mag sein.
 
@@ -1360,7 +1360,7 @@ Conversations about Software Engineering
 
 **[00:52:43]** Willkommen bei Think Different, Think AI,
 
-**[00:52:46]** den Podcast von Marc und Jens.
+**[00:52:46]** den Podcast von Mark und Jens.
 
 **[00:52:49]** Zwei technologieverliebte Köpfe,
 

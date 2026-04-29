@@ -31,7 +31,7 @@ Apple zeigt Roboter-Tischlampe im Stil der Pixar-Lampe Luxo
 
 ## Transkript
 
-**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Marc und Jens.
+**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Mark und Jens.
 
 **[00:00:07]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 
@@ -331,7 +331,7 @@ Apple zeigt Roboter-Tischlampe im Stil der Pixar-Lampe Luxo
 
 **[00:11:27]** Und dementsprechend ist es ehrlich, ich finde es ganz charmant in diesem Aspekt.
 
-**[00:11:30]** Und ich fand es so, ich bin auf das Thema gekommen, lasst mich da kurz ausholen, Marc.
+**[00:11:30]** Und ich fand es so, ich bin auf das Thema gekommen, lasst mich da kurz ausholen, Mark.
 
 **[00:11:34]** Ich bin auf das Thema gekommen durch einen Artikel, den ich vor einem guten Jahr oder sowas mal gelesen hatte.
 
@@ -1255,13 +1255,13 @@ Apple zeigt Roboter-Tischlampe im Stil der Pixar-Lampe Luxo
 
 **[00:45:45]** Das ist ein schönes Schluss für heute. Jens, war schön mit dir.
 
-**[00:45:49]** Danke, Marc. Bis zum nächsten Mal.
+**[00:45:49]** Danke, Mark. Bis zum nächsten Mal.
 
 **[00:45:51]** Ich verabschiede mich.
 
 **[00:45:53]** Bis dann, ciao.
 
-**[00:45:55]** Willkommen bei ThinkDifferent, ThinkAI, den Podcast von Marc und Jens.
+**[00:45:55]** Willkommen bei ThinkDifferent, ThinkAI, den Podcast von Mark und Jens.
 
 **[00:46:04]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden,
 

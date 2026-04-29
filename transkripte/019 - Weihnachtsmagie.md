@@ -46,7 +46,7 @@ https://www.nvidia.com/de-de/
 
 ## Transkript
 
-**[00:00:00]** Willkommen bei ThinkDifferent, ThinkAI, dem Podcast von Marc und Jens.
+**[00:00:00]** Willkommen bei ThinkDifferent, ThinkAI, dem Podcast von Mark und Jens.
 
 **[00:00:07]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 
@@ -212,7 +212,7 @@ https://www.nvidia.com/de-de/
 
 **[00:07:16]** in Summe all meiner Berufserfahrungsjahre nicht so lang, wie jetzt dank der
 
-**[00:07:21]** regelmäßigen Podcast-Satze von der Seite. Danke Marc!
+**[00:07:21]** regelmäßigen Podcast-Satze von der Seite. Danke Mark!
 
 **[00:07:26]** So, sehr schön, nachdem sich jetzt alle überlegen, guck mal, die beiden
 
@@ -300,7 +300,7 @@ https://www.nvidia.com/de-de/
 
 **[00:11:01]** wird. Ho, ho, ho! Nun aber genug davon, ich muss sehen, ob die Rentiere schon ihr Abendessen
 
-**[00:11:09]** hatten. Ja, und, Marc, ich sag mal, wenn nicht so ein bisschen Seele, Herz mit dabei ist,
+**[00:11:09]** hatten. Ja, und, Mark, ich sag mal, wenn nicht so ein bisschen Seele, Herz mit dabei ist,
 
 **[00:11:17]** dann ist es halt so, dann ist es manchmal auch ein bisschen oberflächlich. Und ich glaube nicht
 

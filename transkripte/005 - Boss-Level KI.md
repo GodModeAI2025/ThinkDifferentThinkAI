@@ -84,7 +84,7 @@ https://de.wikipedia.org/wiki/Andrew_Ng
 
 ## Transkript
 
-**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Marc und Jens.
+**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Mark und Jens.
 
 **[00:00:07]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 
@@ -112,7 +112,7 @@ https://de.wikipedia.org/wiki/Andrew_Ng
 
 **[00:01:16]** meldet euch gerne, kommentiert es. Wir fuzzeln dann ein anderes Mal, was ich aber gerne noch mal kurz
 
-**[00:01:21]** auftreifen möchte, Marc, wo du das sagtest mit dem Star Wars Folge. Die ist gut angekommen bei den
+**[00:01:21]** auftreifen möchte, Mark, wo du das sagtest mit dem Star Wars Folge. Die ist gut angekommen bei den
 
 **[00:01:27]** Leuten und es gab Diskussionen auch da rum, ob jetzt Star Wars oder Star Trek eigentlich das
 
@@ -842,7 +842,7 @@ https://de.wikipedia.org/wiki/Andrew_Ng
 
 **[00:28:35]** Und jetzt erst mal ich kann noch weiter reden, aber es macht erst wieder leid. Ja, ja ich überlege gerade
 
-**[00:28:39]** Also Marc, musst du ganz kurz reagieren, weil ich bin mir nicht 100% sicher ob ich
+**[00:28:39]** Also Mark, musst du ganz kurz reagieren, weil ich bin mir nicht 100% sicher ob ich
 
 **[00:28:43]** das komplett mitgerenne, weil ich war immer das und engineering hat mich von Anfang an in marschland so ein bisschen gestört
 
@@ -1604,7 +1604,7 @@ https://de.wikipedia.org/wiki/Andrew_Ng
 
 **[00:56:56]** Ich weiß, dass ich nach der Aufnahme der Folge verschiedene Aufgaben habe und ich Bücher recherchier für die Sohnot und die Folge schneiden.
 
-**[00:57:03]** Ja, definitiv. Ich kann mich dann anschließen, Marc, hat mit dir wieder Spaß gemacht, René, das hat mit dir auch sehr viel Spaß gemacht heute.
+**[00:57:03]** Ja, definitiv. Ich kann mich dann anschließen, Mark, hat mit dir wieder Spaß gemacht, René, das hat mit dir auch sehr viel Spaß gemacht heute.
 
 **[00:57:10]** Ich glaube, wir können da auch nochmal beim Café noch viel, viel weiter diskutieren.
 
@@ -1638,7 +1638,7 @@ https://de.wikipedia.org/wiki/Andrew_Ng
 
 **[00:58:29]** Sehr schön, dann wie gesagt, wie immer noch am Ende, folgt uns, abonniert uns, kommentiert
 
-**[00:58:35]** uns, lasst Feedback zurück, wir freuen uns über Feedback, weil wie gesagt, Marc und
+**[00:58:35]** uns, lasst Feedback zurück, wir freuen uns über Feedback, weil wie gesagt, Mark und
 
 **[00:58:39]** ich haben schon viele, viele To-Do's, die wir haben, was wir so alles besser machen
 
@@ -1650,7 +1650,7 @@ https://de.wikipedia.org/wiki/Andrew_Ng
 
 **[00:58:51]** Ciao.
 
-**[00:58:52]** Willkommen bei ThinkDifferent, ThinkAI, dem Podcast von Marc und Jens.
+**[00:58:52]** Willkommen bei ThinkDifferent, ThinkAI, dem Podcast von Mark und Jens.
 
 **[00:59:00]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden,
 

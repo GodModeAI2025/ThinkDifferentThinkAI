@@ -64,7 +64,7 @@ https://huggingface.co/
 
 ## Transkript
 
-**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Marc und Jens.
+**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Mark und Jens.
 
 **[00:00:07]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 
@@ -82,7 +82,7 @@ https://huggingface.co/
 
 **[00:00:46]** Hallo Jens.
 
-**[00:00:47]** Hallo Marc.
+**[00:00:47]** Hallo Mark.
 
 **[00:00:48]** Wir haben uns überlegt, dass wir ab und an überaktuelle Dinge sprechen, weil wir uns
 
@@ -1064,7 +1064,7 @@ https://huggingface.co/
 
 **[00:36:55]** langsam zu so einem Puzzle werden.
 
-**[00:36:58]** und Marc Dortz ist das im Vorgespräch gesagt, nicht mehr es gar nicht mehr so wichtig machen
+**[00:36:58]** und Mark Dortz ist das im Vorgespräch gesagt, nicht mehr es gar nicht mehr so wichtig machen
 
 **[00:37:03]** ist irgendwann das eine Modell des AGI-Thema, weißte, kommt irgendwo durch ein Modell auf
 

@@ -55,7 +55,7 @@ https://de.wikipedia.org/wiki/Raumpatrouille%E2%80%93DiephantastischenAbenteuerd
 
 ## Transkript
 
-**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Marc und Jens.
+**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Mark und Jens.
 
 **[00:00:07]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 
@@ -91,7 +91,7 @@ https://de.wikipedia.org/wiki/Raumpatrouille%E2%80%93DiephantastischenAbenteuerd
 
 **[00:01:59]** Announcement von größeren Playern auf der Welt, dass sie vor der Auslieferung von
 
-**[00:02:05]** Haushaltsrobotern stehen, die auch tatsächlich, Marc, wenn ich es richtig verstanden habe,
+**[00:02:05]** Haushaltsrobotern stehen, die auch tatsächlich, Mark, wenn ich es richtig verstanden habe,
 
 **[00:02:10]** auch schon bestellt werden von den ersten, vor allem Amerikanern, glaube ich, die immer
 
@@ -1369,7 +1369,7 @@ https://de.wikipedia.org/wiki/Raumpatrouille%E2%80%93DiephantastischenAbenteuerd
 
 **[00:56:33]** gefahren und von der Seite sage ich Tschüss in die Runde. Hasta la vista.
 
-**[00:56:46]** Willkommen bei ThinkDifferent, ThinkAI, dem Podcast von Marc und Jens. Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
+**[00:56:46]** Willkommen bei ThinkDifferent, ThinkAI, dem Podcast von Mark und Jens. Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 
 **[00:56:58]** Hier gibt es klare Einordnungen, echte Praxis-Einblicke und einen frischen Blick auf das, was möglich ist.
 

@@ -93,6 +93,10 @@ def clean_html(value):
     return value.strip()
 
 
+def apply_known_transcript_corrections(value):
+    return re.sub(r"\bMarc\b", "Mark", value)
+
+
 def safe_filename(episode):
     title = html.unescape(episode.title).strip()
     title = title.replace("/", "-").replace("\\", "-").replace(":", " -")
@@ -147,7 +151,7 @@ def write_markdown(episode, transcript_path, segments, info, feed_url, model_siz
     transcribed_at = dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat()
     language = getattr(info, "language", "")
     language_probability = getattr(info, "language_probability", "")
-    description = clean_html(episode.description)
+    description = apply_known_transcript_corrections(clean_html(episode.description))
 
     lines = [
         "---",
@@ -186,7 +190,7 @@ def write_markdown(episode, transcript_path, segments, info, feed_url, model_siz
 
     lines.extend(["## Transkript", ""])
     for segment in segments:
-        text = segment.text.strip()
+        text = apply_known_transcript_corrections(segment.text.strip())
         if text:
             lines.append(f"**[{timestamp(segment.start)}]** {text}")
             lines.append("")

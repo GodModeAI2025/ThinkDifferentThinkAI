@@ -27,7 +27,7 @@ Gast: Dirk Beckmann
 
 ## Transkript
 
-**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Marc und Jens.
+**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Mark und Jens.
 
 **[00:00:07]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 
@@ -49,17 +49,17 @@ Gast: Dirk Beckmann
 
 **[00:00:57]** in Corona angefangen habe und immer noch sporadisch weiterführe. Heute mit einer
 
-**[00:01:02]** besonderen Folge, Marc hat sie eben Crossover genannt und mag das der Name des Gastes in
+**[00:01:02]** besonderen Folge, Mark hat sie eben Crossover genannt und mag das der Name des Gastes in
 
 **[00:01:07]** dieser Folge, die digitale Zeit heute mit Themen wie Notion, N8N, Workfloss und dem allgegenwärtigen
 
-**[00:01:17]** Thema KI. Willkommen, Marc. Ja, willkommen, Dirk. Ich fand die Idee tatsächlich mit so einer
+**[00:01:17]** Thema KI. Willkommen, Mark. Ja, willkommen, Dirk. Ich fand die Idee tatsächlich mit so einer
 
 **[00:01:23]** Cross-Over-Folge bindert verrückt, aber wenigstens sind unsere Podcasts, können wir halten und
 
 **[00:01:28]** schalten. Wie der Dachdecker, wie wir es so wollen. Ich habe angefangen, also frage ich
 
-**[00:01:33]** zuerst, Marc, so kurz was zu dir erzählen, bevor ich mich vielleicht bei euch auch vorstellen darf.
+**[00:01:33]** zuerst, Mark, so kurz was zu dir erzählen, bevor ich mich vielleicht bei euch auch vorstellen darf.
 
 **[00:01:38]** Ja, sehr gerne. Ich bin Dirk, ich bin Geschäftsführer und Gründer von Art und Weise,
 
@@ -73,9 +73,9 @@ Gast: Dirk Beckmann
 
 **[00:02:23]** Also ich bin sozusagen im echten dem Geschäft zu einer Digitalagentur namens Art und Weise,
 
-**[00:02:28]** 60 Mitarbeitende in Bremen und jetzt zu dir Marc, wer bist du denn eigentlich?
+**[00:02:28]** 60 Mitarbeitende in Bremen und jetzt zu dir Mark, wer bist du denn eigentlich?
 
-**[00:02:33]** Ja, also für die Hörer deines Podcasts, Marc Magzerman, ich bin bei der NBW angestellt,
+**[00:02:33]** Ja, also für die Hörer deines Podcasts, Mark Magzerman, ich bin bei der NBW angestellt,
 
 **[00:02:41]** verantwortet dort alles, was das Thema Mobile Loss Entwickler angeht, also alle Apps für
 
@@ -1707,7 +1707,7 @@ Gast: Dirk Beckmann
 
 **[01:10:21]** Willkommen bei Think Different, Think AI.
 
-**[01:10:24]** Den Podcast von Marc und Jens.
+**[01:10:24]** Den Podcast von Mark und Jens.
 
 **[01:10:26]** Zwei technologieverliebte Köpfe,
 

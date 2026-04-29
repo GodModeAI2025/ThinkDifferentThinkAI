@@ -75,7 +75,7 @@ https://www.cisco.com/c/de_de/index.html
 
 ## Transkript
 
-**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Marc und Jens.
+**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Mark und Jens.
 
 **[00:00:07]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 
@@ -89,9 +89,9 @@ https://www.cisco.com/c/de_de/index.html
 
 **[00:00:39]** Mit mir dabei ist wieder Jens, hallo Jens.
 
-**[00:00:42]** Hallo Marc.
+**[00:00:42]** Hallo Mark.
 
-**[00:00:43]** Und das Thema der Folge, ja. Abgesehen davon, dass Marc jetzt schon ein leichter Sprachfehler hatte.
+**[00:00:43]** Und das Thema der Folge, ja. Abgesehen davon, dass Mark jetzt schon ein leichter Sprachfehler hatte.
 
 **[00:00:50]** Geht schon richtig gut los. Lassen wir auch drin, keine Sorge.
 
@@ -231,7 +231,7 @@ https://www.cisco.com/c/de_de/index.html
 
 **[00:06:05]** habe ich quasi mit Open Cloud per API angebunden.
 
-**[00:06:09]** Und, Marc, sorry, da muss ich noch ganz kurz los werden.
+**[00:06:09]** Und, Mark, sorry, da muss ich noch ganz kurz los werden.
 
 **[00:06:12]** Und letzte Woche voll die Kohle bezahlt.
 
@@ -1227,7 +1227,7 @@ https://www.cisco.com/c/de_de/index.html
 
 **[00:44:44]** Was das auch immer bedeutet, ehrlich verweise ich, es springt meine Vorstellungskraft gebenfalls schon und die ist groß, wie ihr wisst, aber das wird wild, was da vielleicht dann auf uns zukommt.
 
-**[00:44:54]** Und Marc, weil du es gerade aufgerippt hast mit dem Altern, natürlich, wir hatten in deiner Folge auch über das Thema Fliegengehirn, das in ein digitales Gehirn hochgeladen worden ist geredet, ja.
+**[00:44:54]** Und Mark, weil du es gerade aufgerippt hast mit dem Altern, natürlich, wir hatten in deiner Folge auch über das Thema Fliegengehirn, das in ein digitales Gehirn hochgeladen worden ist geredet, ja.
 
 **[00:45:06]** Ich sage mal, wenn wir das jetzt schon können, das konnten wir schon, glaube ich, das ist irgendwie 25 oder 24 Jahre schon passiert, ja.
 
@@ -1311,7 +1311,7 @@ https://www.cisco.com/c/de_de/index.html
 
 **[00:47:09]** Ich glaube, wir werden da noch einmal drüber reden.
 
-**[00:47:11]** Ansonsten, Marc, würde ich sagen, hast du noch was?
+**[00:47:11]** Ansonsten, Mark, würde ich sagen, hast du noch was?
 
 **[00:47:16]** Weil dieser Folge haben wir ja in Tropic gewidmet.
 

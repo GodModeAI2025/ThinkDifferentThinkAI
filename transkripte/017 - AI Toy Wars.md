@@ -55,7 +55,7 @@ https://suno.ai/
 
 ## Transkript
 
-**[00:00:00]** Willkommen bei ThinkDifferent, ThinkAI, dem Podcast von Marc und Jens.
+**[00:00:00]** Willkommen bei ThinkDifferent, ThinkAI, dem Podcast von Mark und Jens.
 
 **[00:00:07]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 
@@ -73,7 +73,7 @@ https://suno.ai/
 
 **[00:00:48]** Das heißt, wir streben schon seit langer Zeit an, im wöchentlichen Rhythmus das zu tun.
 
-**[00:00:53]** Wir haben es ehrlicherweise seit diesem Sommer, seitdem wir gestartet sind, Marc.
+**[00:00:53]** Wir haben es ehrlicherweise seit diesem Sommer, seitdem wir gestartet sind, Mark.
 
 **[00:00:58]** War es geschafft?
 
@@ -89,9 +89,9 @@ https://suno.ai/
 
 **[00:01:18]** Ja, aber nicht schlimm. Erstmal herzlich willkommen an euch, die uns abonniert habt, an die neuen
 
-**[00:01:32]** Hörer, die dabei sind. Ihr seid Gastgrade in dem Podcast von Marc und mir zum Thema KI.
+**[00:01:32]** Hörer, die dabei sind. Ihr seid Gastgrade in dem Podcast von Mark und mir zum Thema KI.
 
-**[00:01:39]** Der heißt Think Different, Think AI. Marc und ich sind lange Arbeitskollegen schon,
+**[00:01:39]** Der heißt Think Different, Think AI. Mark und ich sind lange Arbeitskollegen schon,
 
 **[00:01:44]** uns in diesem Sommer entschieden, den Podcast zu machen. Wir reden gerne über KI, wir machen das
 
@@ -733,7 +733,7 @@ https://suno.ai/
 
 **[00:27:25]** gucken, dass man hoppen meint, das ist in diese Richtung, schaut euch die Sache weiter an, hört
 
-**[00:27:29]** weiter unseren Podcast und ansonsten würde ich sagen, Marc, dir viel Spaß beim Geschenk
+**[00:27:29]** weiter unseren Podcast und ansonsten würde ich sagen, Mark, dir viel Spaß beim Geschenk
 
 **[00:27:34]** kaufen oder generieren, sagt man ja heute vielleicht. Witzig, ne? Und muss gar nicht mehr
 

@@ -89,7 +89,7 @@ Gast : Klaus Rodewig
 
 ## Transkript
 
-**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Marc und Jens.
+**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Mark und Jens.
 
 **[00:00:07]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 
@@ -107,7 +107,7 @@ Gast : Klaus Rodewig
 
 **[00:00:56]** gegen Klaus. Wer bist du, stell dich mal vor und warum gehen mein Perplexity nicht?
 
-**[00:01:01]** Ja, ich bin der Klaus und wir kennen uns schon furchtbar lange, der liebe Marc und ich.
+**[00:01:01]** Ja, ich bin der Klaus und wir kennen uns schon furchtbar lange, der liebe Mark und ich.
 
 **[00:01:07]** Uns verbindet eine lange Apple-Historie, Apple-Security und Apple-Entwicklung und ja,
 
@@ -217,7 +217,7 @@ Gast : Klaus Rodewig
 
 **[00:05:44]** Das ist dadurch, dass ich einen schönen Übergang, genau, so, jetzt sind wir im Thema, jetzt
 
-**[00:05:52]** du Marc, genau.
+**[00:05:52]** du Mark, genau.
 
 **[00:05:53]** Also erzähl doch mal, wir hatten da uns vorher uns überlegt über welches Thema wollen wir
 
@@ -1139,7 +1139,7 @@ Gast : Klaus Rodewig
 
 **[00:43:15]** So, dann hast du die Beschreibung, die Spezifikation, du hast den Test und
 
-**[00:43:21]** Und dann kannst du diese Horde von Agenten, von den Tatjana Della und Marc Sackaberg auf
+**[00:43:21]** Und dann kannst du diese Horde von Agenten, von den Tatjana Della und Mark Sackaberg auf
 
 **[00:43:28]** der letzten, ich glaube das war die Metaconferenz gesprochen haben, als sie sagten, die Zukunft
 
@@ -1155,7 +1155,7 @@ Gast : Klaus Rodewig
 
 **[00:43:55]** dass du dich dann hinlegen kannst und nach einem Tag kommen die Agenten zurück und sagen,
 
-**[00:44:00]** alle Tests sind grün, lieber Marc, die Software ist fertig.
+**[00:44:00]** alle Tests sind grün, lieber Mark, die Software ist fertig.
 
 **[00:44:04]** Nerds unter uns, sorry, dass ich dir ins Wortfall, das ist jetzt extrem unprofessionell,
 
@@ -1271,7 +1271,7 @@ Gast : Klaus Rodewig
 
 **[00:49:23]** eine Erfahrung, was du nicht wissen möchtest.
 
-**[00:49:25]** Aber wenn ich jetzt sagen würde, lieber Marc, dann schreib mir doch mal eine iOS-App in
+**[00:49:25]** Aber wenn ich jetzt sagen würde, lieber Mark, dann schreib mir doch mal eine iOS-App in
 
 **[00:49:29]** Assembler, würd zu sagen, kann man machen, kann man aber auch bleiben lassen.
 

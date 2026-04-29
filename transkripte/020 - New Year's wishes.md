@@ -60,7 +60,7 @@ https://de.wikipedia.org/wiki/Luxo_Jr.
 
 ## Transkript
 
-**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Marc und Jens.
+**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Mark und Jens.
 
 **[00:00:07]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 
@@ -324,7 +324,7 @@ https://de.wikipedia.org/wiki/Luxo_Jr.
 
 **[00:10:11]** wäre es perfekt, wenn sie natürlich dadurch, dass ich dann mit dir rede,
 
-**[00:10:15]** also Hallo Marc sage, na, dir schon ein Zuwinker oder irgendwas anderes,
+**[00:10:15]** also Hallo Mark sage, na, dir schon ein Zuwinker oder irgendwas anderes,
 
 **[00:10:19]** dass ich da, dass sie dadurch mitkriegt, dass ich jetzt in einem anderen Interaktionspattern,
 
@@ -338,11 +338,11 @@ https://de.wikipedia.org/wiki/Luxo_Jr.
 
 **[00:10:40]** dann reagiert und dass die Interaktion so gestaltet, dass ich weiß, okay, die
 
-**[00:10:44]** Arbeitungspase ist zu Ende. Ich kann also nachdem Marc mich dann im Park voll gelabert hat.
+**[00:10:44]** Arbeitungspase ist zu Ende. Ich kann also nachdem Mark mich dann im Park voll gelabert hat.
 
 **[00:10:49]** Kann ich dann das Gespräch mit meiner Liebenkai dann danach weiterführen, weil sie ist schon
 
-**[00:10:57]** mit dem Ergebnis parat, sobald das Gespräch mit Marc zu Ende ist. Und ich glaube so was,
+**[00:10:57]** mit dem Ergebnis parat, sobald das Gespräch mit Mark zu Ende ist. Und ich glaube so was,
 
 **[00:11:02]** jetzt ist natürlich auch so eine Darkenschutzperspektive und alles, was wir jetzt hier irgendwie
 
@@ -350,7 +350,7 @@ https://de.wikipedia.org/wiki/Luxo_Jr.
 
 **[00:11:11]** müssen sich ausbrechen. Mit all dem Beiberg, was dann kommen muss, das ist natürlich das Gespräch,
 
-**[00:11:15]** das ich mit Marc führe, definitiv nicht aufgenommen werden kann, während ich quasi
+**[00:11:15]** das ich mit Mark führe, definitiv nicht aufgenommen werden kann, während ich quasi
 
 **[00:11:19]** mein Mikrofon offen hatte, damit die KI mit mir interagieren kann. Das muss direkt wieder
 
@@ -582,7 +582,7 @@ https://de.wikipedia.org/wiki/Luxo_Jr.
 
 **[00:20:33]** den Befehl gegeben, dass ich jetzt wieder täglich zusammenstellen muss. Das sind so Sachen,
 
-**[00:20:35]** oh, Marc, also wirklich, da muss ich sagen, nee, das ärgert mich und das will ich im nächsten
+**[00:20:35]** oh, Mark, also wirklich, da muss ich sagen, nee, das ärgert mich und das will ich im nächsten
 
 **[00:20:41]** nicht mehr haben. Wir klagen auf einem sehr hohen Niveau. Von einem Jahr hatten wir ganz andere Sorgen.
 
@@ -650,7 +650,7 @@ https://de.wikipedia.org/wiki/Luxo_Jr.
 
 **[00:22:42]** nächstes Jahr.
 
-**[00:22:44]** Vielen Dank, Marc. Ich kann mich auch nur anschließen. Es hat super Spaß gemacht, dieses
+**[00:22:44]** Vielen Dank, Mark. Ich kann mich auch nur anschließen. Es hat super Spaß gemacht, dieses
 
 **[00:22:48]** erste gemeinsame Jahr unserer Podcast-Historie. Ich freue mich auf unser zweites Jahr
 

@@ -27,7 +27,7 @@ Link : https://x.com/michakaufman/status/1909610844008161380?s=46
 
 ## Transkript
 
-**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Marc und Jens.
+**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Mark und Jens.
 
 **[00:00:07]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 
@@ -1005,7 +1005,7 @@ Link : https://x.com/michakaufman/status/1909610844008161380?s=46
 
 **[00:36:24]** der KI bringst du es einmal bei und dann weiß die 24.7, was sie sagen soll.
 
-**[00:36:29]** Wenn ich jetzt dir Marc als Geschäftsführer erklär, ja pass mal auf, wenn jemand anruft und nach der Kundennummer fragt,
+**[00:36:29]** Wenn ich jetzt dir Mark als Geschäftsführer erklär, ja pass mal auf, wenn jemand anruft und nach der Kundennummer fragt,
 
 **[00:36:35]** dann steht dir irgendwo, aber du bist ja auch mal krank, oder hast Urlaub, oder hast Feierabend.
 
@@ -1049,7 +1049,7 @@ Link : https://x.com/michakaufman/status/1909610844008161380?s=46
 
 **[00:38:07]** auch wieder gruselig, aber das ist der nächste Evolutionsschritt, dass du mal sagst...
 
-**[00:38:11]** Das ist unsere Lieblingsthemen von Marc und mir. Wir reden gerne über den KI als Kunde,
+**[00:38:11]** Das ist unsere Lieblingsthemen von Mark und mir. Wir reden gerne über den KI als Kunde,
 
 **[00:38:15]** also das heißt, wenn die KI dann tatsächlich quasi für dich die Verhandlung durchführt,
 
@@ -1077,7 +1077,7 @@ Link : https://x.com/michakaufman/status/1909610844008161380?s=46
 
 **[00:39:09]** Das kriege ich selbst an einem Tag nicht erzählt.
 
-**[00:39:11]** So, jetzt kommt da Marc und sagt so, ich bin eine Firma, die Komplexität meiner Firma
+**[00:39:11]** So, jetzt kommt da Mark und sagt so, ich bin eine Firma, die Komplexität meiner Firma
 
 **[00:39:16]** und die Komplexität dieser Stelle, inklusive Team, Führungskraft, also alles, was da
 
@@ -1453,7 +1453,7 @@ Link : https://x.com/michakaufman/status/1909610844008161380?s=46
 
 **[00:53:11]** Sind sie spätestens dafür? Bis dahin sage ich noch mal danke. Ciao, tschau.
 
-**[00:53:18]** Willkommen bei ThinkDifferent, ThinkAI, dem Podcast von Marc und Jens.
+**[00:53:18]** Willkommen bei ThinkDifferent, ThinkAI, dem Podcast von Mark und Jens.
 
 **[00:53:24]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 

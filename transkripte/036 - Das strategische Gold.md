@@ -52,7 +52,7 @@ https://github.com/openclaw/openclaw
 
 ## Transkript
 
-**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Marc und Jens.
+**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Mark und Jens.
 
 **[00:00:07]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 
@@ -90,7 +90,7 @@ https://github.com/openclaw/openclaw
 
 **[00:01:39]** und nicht alles irgendwie in einem Rund reinzuhauen, brauchen die Dinger gute Skills.
 
-**[00:01:42]** Und ich freue mich, dass du da bist. Ich freue mich, dass mein Co-host Marc mit dabei ist.
+**[00:01:42]** Und ich freue mich, dass du da bist. Ich freue mich, dass mein Co-host Mark mit dabei ist.
 
 **[00:01:47]** Und das wird wieder eine gute Folge, denke ich mal. Wir haben echt Picklepacker voll mit viele Themen, die wir besprechen können.
 
@@ -120,7 +120,7 @@ https://github.com/openclaw/openclaw
 
 **[00:02:40]** Nee, ich glaube nicht, oder?
 
-**[00:02:41]** Nee, du, Marc, wenn du mal überlegst, als wir angefangen haben, haben wir beide von Nautchen beschwernt.
+**[00:02:41]** Nee, du, Mark, wenn du mal überlegst, als wir angefangen haben, haben wir beide von Nautchen beschwernt.
 
 **[00:02:46]** Das war damals, das war urplötzlich ganz neu, wie der in Datenbanken Verbindung gebaut hat und wie er ganz schnell dir Content gebaut hat.
 
@@ -794,7 +794,7 @@ https://github.com/openclaw/openclaw
 
 **[00:29:38]** Und ich glaube, da kann KI echt helfen.
 
-**[00:29:41]** Ich glaube, Marc, weil noch etwas Positives zu fragen.
+**[00:29:41]** Ich glaube, Mark, weil noch etwas Positives zu fragen.
 
 **[00:29:44]** Ich habe nämlich noch zwei kritische Themen da.
 
@@ -882,7 +882,7 @@ https://github.com/openclaw/openclaw
 
 **[00:33:08]** Weil das ist schon ein anderes Output.
 
-**[00:33:10]** Ob es jetzt Marc, René, du oder ich irgendwie mit einer KI redest
+**[00:33:10]** Ob es jetzt Mark, René, du oder ich irgendwie mit einer KI redest
 
 **[00:33:14]** oder mit unseren KI unsere Vertrauensreden,
 
@@ -1326,7 +1326,7 @@ https://github.com/openclaw/openclaw
 
 **[00:51:00]** Ja, genau. Aber ich will doch einen Punkt. Warum? Also, es ist gar nicht so nördig.
 
-**[00:51:06]** Marc und ich, wir sind natürlich die Mega-Nerds, klar. Ich prüge mir auch die ganze Zeit vor mich hin.
+**[00:51:06]** Mark und ich, wir sind natürlich die Mega-Nerds, klar. Ich prüge mir auch die ganze Zeit vor mich hin.
 
 **[00:51:10]** Aber ich glaube, für die Welt draußen, für die Menschen ist es wichtig, souverän zu bleiben.
 
@@ -1478,7 +1478,7 @@ https://github.com/openclaw/openclaw
 
 **[00:56:17]** Ciao.
 
-**[00:56:19]** Willkommen bei ThinkDifferent, ThinkAI, dem Podcast von Marc und Jens.
+**[00:56:19]** Willkommen bei ThinkDifferent, ThinkAI, dem Podcast von Mark und Jens.
 
 **[00:56:25]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 

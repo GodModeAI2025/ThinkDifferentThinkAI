@@ -27,7 +27,7 @@ Jens und ich diskutieren, wie diese neuen Agenten nicht nur Aufgaben automatisie
 
 ## Transkript
 
-**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Marc und Jens.
+**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Mark und Jens.
 
 **[00:00:07]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 
@@ -47,7 +47,7 @@ Jens und ich diskutieren, wie diese neuen Agenten nicht nur Aufgaben automatisie
 
 **[00:00:53]** Persönliche Assistenten, die verrückte Sachen auf ihrem Rechner machen.
 
-**[00:00:58]** Also eigentlich, wenn du so willst, Marc,
+**[00:00:58]** Also eigentlich, wenn du so willst, Mark,
 
 **[00:01:00]** das tatsächliche KI-Zeitalter, was wir uns erwünscht haben,
 
@@ -189,11 +189,11 @@ Jens und ich diskutieren, wie diese neuen Agenten nicht nur Aufgaben automatisie
 
 **[00:05:28]** mit so ein paar Security-Warm-Kreisen anfangen. Wir haben keine Angst, wir drehen das hinterher. Ihr
 
-**[00:05:34]** wisst, Marc und ich sind durch und durch Optimisten, was das Thema betrifft, und sehr offen gegenüber
+**[00:05:34]** wisst, Mark und ich sind durch und durch Optimisten, was das Thema betrifft, und sehr offen gegenüber
 
 **[00:05:40]** Experimenten. Aber ich glaube, man sollte trotzdem da nochmal so ein bisschen ein paar Themen beleuchten,
 
-**[00:05:45]** weil, Marc, was du wieder sagst, ist, damit dieser Assistent eigentlich auch gut funktioniert,
+**[00:05:45]** weil, Mark, was du wieder sagst, ist, damit dieser Assistent eigentlich auch gut funktioniert,
 
 **[00:05:50]** macht das nur Sinn, wenn der auch auf alle möglichen Daten von einem selber zugreifen kann,
 
@@ -1043,7 +1043,7 @@ Jens und ich diskutieren, wie diese neuen Agenten nicht nur Aufgaben automatisie
 
 **[00:38:05]** In diesem Sinne, lasst euch gut gehen, bis zum nächsten Mal, ciao!
 
-**[00:38:09]** Willkommen bei ThinkDifferent, ThinkAI, dem Podcast von Marc und Jens.
+**[00:38:09]** Willkommen bei ThinkDifferent, ThinkAI, dem Podcast von Mark und Jens.
 
 **[00:38:19]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden,
 

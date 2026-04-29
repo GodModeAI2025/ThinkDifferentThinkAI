@@ -33,7 +33,7 @@ https://arxiv.org/abs/2603.01213
 
 ## Transkript
 
-**[00:00:00]** Willkommen bei ThinkDifferent, ThinkAI, dem Podcast von Marc und Jens.
+**[00:00:00]** Willkommen bei ThinkDifferent, ThinkAI, dem Podcast von Mark und Jens.
 
 **[00:00:07]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 
@@ -43,7 +43,7 @@ https://arxiv.org/abs/2603.01213
 
 **[00:00:24]** Hadi zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
 
-**[00:00:29]** Herzlich Willkommen zu Think The Front Think AI. Heute wieder mit dem Jens und dem Marc.
+**[00:00:29]** Herzlich Willkommen zu Think The Front Think AI. Heute wieder mit dem Jens und dem Mark.
 
 **[00:00:40]** Das letzte mal hat Jens auch uns bei vollem Namen genannt, wen das interessiert, kann
 
@@ -105,7 +105,7 @@ https://arxiv.org/abs/2603.01213
 
 **[00:02:40]** gerade dran, reden wir aber auch heute nicht so viel mehr drüber über diese Installation,
 
-**[00:02:45]** die ich da mache, das können wir gerne beim nächsten Mal machen, Marc. Aber nicht so
+**[00:02:45]** die ich da mache, das können wir gerne beim nächsten Mal machen, Mark. Aber nicht so
 
 **[00:02:49]** trotz ist unser Thema heute Krieg der Agenten und Open Claw, ist mitten drin, und würde
 
@@ -511,7 +511,7 @@ https://arxiv.org/abs/2603.01213
 
 **[00:18:59]** Menschlicher sich dieser Chat anfühlt. Umso mehr könntest du vielleicht auch Gefahr laufen, dass wenn du denkst, du tättest mit deinem besten Kumpel, dass da gar kein bester Kumpel dahinter ist. Aber gut, wir hatten das Thema gesagt.
 
-**[00:19:11]** Ich bin ja immer noch froh, dass wir beide noch real sind. Wir sehen uns deshalb auch extra nahe. Also Marc und ich haben uns früh dafür entschieden immer diesen Podcast, wenn wir den aufnehmen und den nicht vor Ort aufnehmen, dass wir trotzdem unser Video laufen lassen.
+**[00:19:11]** Ich bin ja immer noch froh, dass wir beide noch real sind. Wir sehen uns deshalb auch extra nahe. Also Mark und ich haben uns früh dafür entschieden immer diesen Podcast, wenn wir den aufnehmen und den nicht vor Ort aufnehmen, dass wir trotzdem unser Video laufen lassen.
 
 **[00:19:21]** Auch das könnte natürlich gefegt werden, haben wir auch schon in folgenden Folgen geredet,
 
@@ -1411,7 +1411,7 @@ https://arxiv.org/abs/2603.01213
 
 **[00:54:10]** Also, ich kann nicht...
 
-**[00:54:11]** Also, Marc, wir beide, wie gesagt, denken schon viel über diese Themen nach, ich würde
+**[00:54:11]** Also, Mark, wir beide, wie gesagt, denken schon viel über diese Themen nach, ich würde
 
 **[00:54:15]** auch von mir nicht irgendwie behaupten, dass ich irgendeine Art vorhersage mache,
 

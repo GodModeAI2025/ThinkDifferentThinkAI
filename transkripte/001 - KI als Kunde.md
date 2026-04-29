@@ -61,7 +61,7 @@ https://de.wikipedia.org/wiki/ELIZA
 
 ## Transkript
 
-**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Marc und Jens.
+**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Mark und Jens.
 
 **[00:00:07]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 
@@ -83,7 +83,7 @@ https://de.wikipedia.org/wiki/ELIZA
 
 **[00:00:55]** Prämierenfolge ohne, ohne Generalprobe. Geilerweise. Also seid gespannt, was
 
-**[00:00:59]** ohne roten Teppich der ausgerollt ist. Aber ja, Abdel haben Marc und ich uns
+**[00:00:59]** ohne roten Teppich der ausgerollt ist. Aber ja, Abdel haben Mark und ich uns
 
 **[00:01:06]** einfach immer mal vor gar nicht allzu langer Zeit bei einem
 
@@ -871,7 +871,7 @@ https://de.wikipedia.org/wiki/ELIZA
 
 **[00:30:55]** Ich meine, stell dir das mal vor. Überall sprichst du davon, wie eventuell KI helfen kann, am Telefon, den Telefon kahlst.
 
-**[00:31:02]** Vorzufüllte noch keine Ahnung, weiß ich, stell dir mal vor, die KI ruft einen so und gundt, hallo, mein Name ist Marc Søhrmann, ich hätte gerne.
+**[00:31:02]** Vorzufüllte noch keine Ahnung, weiß ich, stell dir mal vor, die KI ruft einen so und gundt, hallo, mein Name ist Mark Søhrmann, ich hätte gerne.
 
 **[00:31:08]** Und dann ruft die vielleicht keine Ahnung, dreimal an, weil der KI ist erst auch Schnuppe, im Verhältnis zu den Aufwand.
 
@@ -1263,7 +1263,7 @@ https://de.wikipedia.org/wiki/ELIZA
 
 **[00:45:09]** tun. Also, dass wir das Video sehen und uns unterhalten können. Ich glaube, da sind
 
-**[00:45:13]** so viele Themen, Marc, die wir da noch haben. Den Satz will ich jetzt auch noch loswerden.
+**[00:45:13]** so viele Themen, Mark, die wir da noch haben. Den Satz will ich jetzt auch noch loswerden.
 
 **[00:45:17]** Ja, dann macht auch den.
 
@@ -1411,7 +1411,7 @@ https://de.wikipedia.org/wiki/ELIZA
 
 **[00:50:55]** also Danke fürs Zuhören, sage ich mal.
 
-**[00:50:57]** Danke, Marc, dass wir beide uns mal wiedergefunden haben, um über Themen zu reden, weil ich
+**[00:50:57]** Danke, Mark, dass wir beide uns mal wiedergefunden haben, um über Themen zu reden, weil ich
 
 **[00:51:04]** glaube, das ist, so wie du gesagt hast, Gedanken anstoßend und das ist, glaube ich,
 
@@ -1437,7 +1437,7 @@ https://de.wikipedia.org/wiki/ELIZA
 
 **[00:51:42]** Willkommen bei Think Different, Think AI,
 
-**[00:51:47]** dem Podcast von Marc und Jens.
+**[00:51:47]** dem Podcast von Mark und Jens.
 
 **[00:51:50]** Zwei technologieverliebte Köpfe,
 

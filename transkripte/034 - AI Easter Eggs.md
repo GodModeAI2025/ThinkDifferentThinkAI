@@ -72,7 +72,7 @@ https://www.oreilly.de/buecher/16447/biologie-der-ki/
 
 ## Transkript
 
-**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Marc und Jens.
+**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Mark und Jens.
 
 **[00:00:07]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 
@@ -94,11 +94,11 @@ https://www.oreilly.de/buecher/16447/biologie-der-ki/
 
 **[00:00:56]** Besuch hatte mal wieder ein Abwesen von Jens. Wie gesagt haben Menschen's Kinder. Wie fängt
 
-**[00:01:02]** der Jens? Eigentlich so einen Rage wieder ein, wenn der Marc über Kopilot schimpft. Heute schimpft
+**[00:01:02]** der Jens? Eigentlich so einen Rage wieder ein, wenn der Mark über Kopilot schimpft. Heute schimpft
 
 **[00:01:07]** wir nicht über Kopilot. Heute haben wir ein anderes Thema. Jens, schön, dass du da bist. Was ist
 
-**[00:01:11]** unser Thema? Marc, du hast ja gerade schon einen kleinen Hint gegeben, was das Thema sein
+**[00:01:11]** unser Thema? Mark, du hast ja gerade schon einen kleinen Hint gegeben, was das Thema sein
 
 **[00:01:16]** Ich könnte mit einer kleinen Hasenreferenz, dem Pro, ja, ja, ja, vielleicht nicht sehen
 
@@ -868,7 +868,7 @@ https://www.oreilly.de/buecher/16447/biologie-der-ki/
 
 **[00:28:21]** ist das eines auch der schönsten und interessantesten und gefährlichsten Easter Eggs, die wir so haben,
 
-**[00:28:26]** das Thema der Halluzination bei den LL1s. Haben wir noch ein anderes Easter Egg, Marc?
+**[00:28:26]** das Thema der Halluzination bei den LL1s. Haben wir noch ein anderes Easter Egg, Mark?
 
 **[00:28:31]** Ja, das kennen wir alle, aber ich finde die Beispiele schön und zwar der Ja-Sage-Effekt.
 
@@ -1134,7 +1134,7 @@ https://www.oreilly.de/buecher/16447/biologie-der-ki/
 
 **[00:38:10]** Ciao.
 
-**[00:38:14]** Willkommen bei ThinkDifferent, ThinkAI, dem Podcast von Marc und Jens.
+**[00:38:14]** Willkommen bei ThinkDifferent, ThinkAI, dem Podcast von Mark und Jens.
 
 **[00:38:20]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden,
 

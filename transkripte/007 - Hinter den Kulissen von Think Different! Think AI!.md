@@ -64,7 +64,7 @@ Kopf und KI: https://kopf-und-ki.podigee.io
 
 ## Transkript
 
-**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Marc und Jens.
+**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Mark und Jens.
 
 **[00:00:07]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 
@@ -430,7 +430,7 @@ Kopf und KI: https://kopf-und-ki.podigee.io
 
 **[00:16:59]** Think AI. Und wie gesagt, wenn es euch gefällt, gerne weitersagen.
 
-**[00:17:03]** Willkommen bei ThinkDifferent, ThinkAI, dem Podcast von Marc und Jens.
+**[00:17:03]** Willkommen bei ThinkDifferent, ThinkAI, dem Podcast von Mark und Jens.
 
 **[00:17:11]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden,
 

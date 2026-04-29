@@ -60,7 +60,7 @@ https://de.wikipedia.org/wiki/Jurassic_Park_(Film)
 
 ## Transkript
 
-**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Marc und Jens.
+**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Mark und Jens.
 
 **[00:00:07]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 
@@ -98,7 +98,7 @@ https://de.wikipedia.org/wiki/Jurassic_Park_(Film)
 
 **[00:01:53]** und ich sowas noch mit seriellem Kabel zwischen zwei Rechnern gespielt habe.
 
-**[00:01:58]** Hallo Marc, danke für die Einleitung.
+**[00:01:58]** Hallo Mark, danke für die Einleitung.
 
 **[00:02:02]** Ich hatte kurz panik, dass du auf mein Leistungskurs Biologie zurück gelten wolltest und dich ehrliche Sachen noch sagen müsst.
 
@@ -1020,7 +1020,7 @@ https://de.wikipedia.org/wiki/Jurassic_Park_(Film)
 
 **[00:39:12]** ist wissenschaftlich fundiert oder immer anders, sondern auch diese soll im Prinzip nur Gedanken
 
-**[00:39:20]** anregen. Bei uns hat es das, glaube ich, wieder getan, Marc, aber auch bei euch draußen, weil ich glaube,
+**[00:39:20]** anregen. Bei uns hat es das, glaube ich, wieder getan, Mark, aber auch bei euch draußen, weil ich glaube,
 
 **[00:39:28]** Wie sagt, wir holen uns da noch einen Löcher.
 

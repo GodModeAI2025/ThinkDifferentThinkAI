@@ -64,7 +64,7 @@ https://nordburg.ai/
 
 ## Transkript
 
-**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Marc und Jens.
+**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Mark und Jens.
 
 **[00:00:07]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 
@@ -324,7 +324,7 @@ https://nordburg.ai/
 
 **[00:11:47]** Und einfach, wenn es dann wieder gibt, dass man dann halt merkt, euah, da hat
 
-**[00:11:51]** der Marc jetzt aber auch ein bisschen weit gedehnt, was da passt und was
+**[00:11:51]** der Mark jetzt aber auch ein bisschen weit gedehnt, was da passt und was
 
 **[00:11:55]** da nicht. Wir sind es halt beim Mensch mittlerweile gewohnt. Ich weiß zu
 
@@ -566,7 +566,7 @@ https://nordburg.ai/
 
 **[00:20:48]** da stehen und sagen, passt, passt, passt. So wie früher in der Automobilindustrie,
 
-**[00:20:51]** früher waren die Menschen am Wand. Ja, aber wann ist der Punkt, Marc? Wann ist dieser Punkt
+**[00:20:51]** früher waren die Menschen am Wand. Ja, aber wann ist der Punkt, Mark? Wann ist dieser Punkt
 
 **[00:20:56]** dann überschritten und in welcher Situation ist überschritten? Wir müssen jetzt mal,
 

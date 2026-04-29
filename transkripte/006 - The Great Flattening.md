@@ -35,7 +35,7 @@ Advisory Board: LinkedIn Post von Mark
 
 ## Transkript
 
-**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Marc und Jens.
+**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Mark und Jens.
 
 **[00:00:07]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 
@@ -45,7 +45,7 @@ Advisory Board: LinkedIn Post von Mark
 
 **[00:00:24]** KI zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
 
-**[00:00:35]** Es ist wieder soweit, eine neue Podcast-Folge von Marc und mir.
+**[00:00:35]** Es ist wieder soweit, eine neue Podcast-Folge von Mark und mir.
 
 **[00:00:40]** Wir sind, wie immer, durch eine wilde Woche gegangen, was die ganzen Tag KI-Themen betrifft.
 
@@ -81,7 +81,7 @@ Advisory Board: LinkedIn Post von Mark
 
 **[00:01:46]** Arbeitsumfeld, in der Gesellschaft, wo sehe ich sie dann vielleicht in unserem Org-Chart an der
 
-**[00:01:51]** ein oder anderen Stelle, oder das ist ein bisschen das Thema der heutigen Folge, wo wir darüber reden wollten, Marc?
+**[00:01:51]** ein oder anderen Stelle, oder das ist ein bisschen das Thema der heutigen Folge, wo wir darüber reden wollten, Mark?
 
 **[00:01:55]** Ja, genau. Also das war ja sehr inspirierend und informativ. Die letzte Woche mit René, an der Stelle nochmal herzlichen Dank.
 
@@ -139,7 +139,7 @@ Advisory Board: LinkedIn Post von Mark
 
 **[00:03:52]** verzeihbar, weil wir ja noch ganz neue Stars am Podcast Himmel sind und dementsprechend
 
-**[00:03:56]** kann das einfach mal passieren. Und zwar dir, Marc, du hast ein wunderbares
+**[00:03:56]** kann das einfach mal passieren. Und zwar dir, Mark, du hast ein wunderbares
 
 **[00:04:00]** Stiefenmittel benutzt beim letzten Mal und zwar eine persönliche Geschichte
 
@@ -239,7 +239,7 @@ Advisory Board: LinkedIn Post von Mark
 
 **[00:07:37]** und der in den Bett vielleicht für den einzelnen persönlich nicht eintritt und da würde ich
 
-**[00:07:41]** glaube ich mal an dich, bei so bei Werfen und Fragen, wie du das so siehst, Marc.
+**[00:07:41]** glaube ich mal an dich, bei so bei Werfen und Fragen, wie du das so siehst, Mark.
 
 **[00:07:46]** Also auf Gefahr hin, ich weiß noch, weil du weißt, dass du ihn fängst, ja?
 
@@ -1459,7 +1459,7 @@ Advisory Board: LinkedIn Post von Mark
 
 **[00:54:44]** Schaunots rein, gerne mal ausprobieren.
 
-**[00:54:46]** Weshalb ich den Switch gemacht habe, Marc, und dann beenden wir die Folge jetzt auch noch,
+**[00:54:46]** Weshalb ich den Switch gemacht habe, Mark, und dann beenden wir die Folge jetzt auch noch,
 
 **[00:54:52]** wie häufig mit einem Ausblick auf irgendwann mal, weil gerade von dem Memory gesprochen
 
@@ -1471,7 +1471,7 @@ Advisory Board: LinkedIn Post von Mark
 
 **[00:55:08]** von mir.
 
-**[00:55:09]** Ich würde gerne mal eine Folge irgendwann machen, Marc, wo wir darüber reden, wie können
+**[00:55:09]** Ich würde gerne mal eine Folge irgendwann machen, Mark, wo wir darüber reden, wie können
 
 **[00:55:15]** wir eigentlich vielleicht ewig leben durch KI. Also sprich wie können wir etwas erzeugen, was dann
 
@@ -1531,7 +1531,7 @@ Advisory Board: LinkedIn Post von Mark
 
 **[00:57:06]** Willkommen bei Think Different, Think AI,
 
-**[00:57:09]** dem Podcast von Marc und Jens.
+**[00:57:09]** dem Podcast von Mark und Jens.
 
 **[00:57:12]** Zwei technologieverliebte Köpfe,
 

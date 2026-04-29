@@ -51,7 +51,7 @@ Das Buch: https://novagentica.com/
 
 ## Transkript
 
-**[00:00:00]** Willkommen bei ThinkDifferent, ThinkAI, dem Podcast von Marc und Jens.
+**[00:00:00]** Willkommen bei ThinkDifferent, ThinkAI, dem Podcast von Mark und Jens.
 
 **[00:00:07]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 
@@ -69,7 +69,7 @@ Das Buch: https://novagentica.com/
 
 **[00:00:55]** wir alle kennen Martin. Wer bist du? Was machst du? Wie beschäftigst du dich mit dem Thema AI?
 
-**[00:01:00]** Hallo Marc, hallo Jens. Eine Ehre und Freude hier teilzunehmen in diesem Podcast. Wer ich
+**[00:01:00]** Hallo Mark, hallo Jens. Eine Ehre und Freude hier teilzunehmen in diesem Podcast. Wer ich
 
 **[00:01:07]** bin, die Kurzversion, Martin Wurzmann, ich war sehr lange bei Volksbaden, 9 Jahre der
 
@@ -779,7 +779,7 @@ Das Buch: https://novagentica.com/
 
 **[00:25:50]** der Spiel ist wichtig, definitiv gar keine Frage müssen das machen. Ich meine, das ist ja auch eine
 
-**[00:25:54]** der Grunde, Marc und ich spielen ja auch Podcast, um uns mit dem Thema zu beschäftigen auch. Das
+**[00:25:54]** der Grunde, Mark und ich spielen ja auch Podcast, um uns mit dem Thema zu beschäftigen auch. Das
 
 **[00:26:00]** ist ja auch ein Art Spiel, das wir betreiben, um uns tiefer mit diesen Themen zu beschäftigen,
 
@@ -1145,7 +1145,7 @@ Das Buch: https://novagentica.com/
 
 **[00:39:03]** Richtung ich glaube wir sind da manchmal zu ängstlich ich glaube gerade das
 
-**[00:39:07]** was du sagst, Marc, ist so eine klassische Denkweise, die uns, glaube ich, natürlich bist du mutig
+**[00:39:07]** was du sagst, Mark, ist so eine klassische Denkweise, die uns, glaube ich, natürlich bist du mutig
 
 **[00:39:13]** in den Anwendungen, die du er tust und du treibst ja auch, treibst uns ja auch an vielen Stellen voran.
 

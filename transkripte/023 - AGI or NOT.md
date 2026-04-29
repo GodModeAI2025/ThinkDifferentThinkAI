@@ -21,7 +21,7 @@ transcribed_at: "2026-04-28T20:52:13+00:00"
 ## Beschreibung
 
 Neuvermessung der Intelligenz
-In dieser Folge wagen wir den Blick über den Tellerrand: Haben wir bereits eine echte Superintelligenz im Labor – oder ist künstliche Intelligenz noch weit von der menschlichen Denkfähigkeit entfernt? Wir, Marc und ich, hinterfragen, was Intelligenz wirklich bedeutet, diskutieren die Definition von AGI und beleuchten, wie Evolution, ob biologisch oder technisch, Intelligenz vorantreibt.
+In dieser Folge wagen wir den Blick über den Tellerrand: Haben wir bereits eine echte Superintelligenz im Labor – oder ist künstliche Intelligenz noch weit von der menschlichen Denkfähigkeit entfernt? Wir, Mark und ich, hinterfragen, was Intelligenz wirklich bedeutet, diskutieren die Definition von AGI und beleuchten, wie Evolution, ob biologisch oder technisch, Intelligenz vorantreibt.
 
 Wir teilen aktuelle Gerüchte aus der KI-Szene, reflektieren skurrile und verblüffende Verhaltensweisen moderner Modelle und stellen die große Frage: Was passiert, wenn die Singularität eintritt? Begleite uns auf einer spannenden Reise zwischen Hoffnung, Bedenken und Visionen für eine Zukunft, in der Mensch und Maschine gemeinsam wachsen oder konkurrieren.
 
@@ -64,7 +64,7 @@ Reveal Internal Conflict in Frontier Models
 
 ## Transkript
 
-**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Marc und Jens.
+**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Mark und Jens.
 
 **[00:00:07]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 
@@ -74,7 +74,7 @@ Reveal Internal Conflict in Frontier Models
 
 **[00:00:24]** HDI zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
 
-**[00:00:34]** Hallo zusammen zu einer neuen Folge von ThinkDeFanThinkAI mit Marc und mir.
+**[00:00:34]** Hallo zusammen zu einer neuen Folge von ThinkDeFanThinkAI mit Mark und mir.
 
 **[00:00:42]** Wir hatten das in den letzten Folgen schon mal so angedeutet, dass sich in den einschlägigen Netzwerken,
 
@@ -88,9 +88,9 @@ Reveal Internal Conflict in Frontier Models
 
 **[00:01:17]** hitzige Diskussion, die auch in der Weihnachtsphase nicht abgenommen haben in den verschiedenen Kanälen.
 
-**[00:01:23]** Und dementsprechend haben Marc und ich uns vorgenommen, heute mal, da war zu reden, unter dem Titel
+**[00:01:23]** Und dementsprechend haben Mark und ich uns vorgenommen, heute mal, da war zu reden, unter dem Titel
 
-**[00:01:29]** Neuvermessung der Intelligenz. Marc, was sagst du denn dazu? Neuvermessung der Intelligenz. Weißt du,
+**[00:01:29]** Neuvermessung der Intelligenz. Mark, was sagst du denn dazu? Neuvermessung der Intelligenz. Weißt du,
 
 **[00:01:36]** die ganze Zeit habe ich gedacht, ich jaja, über das Thema wollen wir reden. Aber unter dem Titel
 
@@ -160,7 +160,7 @@ Reveal Internal Conflict in Frontier Models
 
 **[00:03:46]** Das hätte jetzt im Prinzip niemals, das ist eine KI, die konnte sich da drin gut bewegen in diesem Themengebiet,
 
-**[00:03:52]** aber eben nicht so generell wie Marc das gerade sagt, die kann dann halt nicht irgendwie darauf reagieren,
+**[00:03:52]** aber eben nicht so generell wie Mark das gerade sagt, die kann dann halt nicht irgendwie darauf reagieren,
 
 **[00:03:58]** Wenn dann auf einmal ein Sebelzahntiger um die Ecke kommt oder ich eine E-Mail verschicken muss an Kunden oder sowas, das hätte dann im Prinzip dieses Modell nicht gekonnt.
 
@@ -1002,13 +1002,13 @@ Reveal Internal Conflict in Frontier Models
 
 **[00:37:17]** sehen, was dann passiert, aber kannst du ja dann in einer der nächsten Folgen von
 
-**[00:37:20]** erzählen, Marc.
+**[00:37:20]** erzählen, Mark.
 
-**[00:37:21]** Ja, das wäre auch schön nach dem Motto, ja heute ohne Marc, weil leider ging das
+**[00:37:21]** Ja, das wäre auch schön nach dem Motto, ja heute ohne Mark, weil leider ging das
 
 **[00:37:27]** schief.
 
-**[00:37:28]** Ja, Marc ist auf der Flucht.
+**[00:37:28]** Ja, Mark ist auf der Flucht.
 
 **[00:37:29]** Schauen wir mal.
 
@@ -1300,7 +1300,7 @@ Reveal Internal Conflict in Frontier Models
 
 **[00:48:57]** Willkommen bei ThinkDifferent, ThinkAI.
 
-**[00:49:01]** dem Podcast von Marc und Jens.
+**[00:49:01]** dem Podcast von Mark und Jens.
 
 **[00:49:03]** Zwei technologieverliebte Köpfe,
 

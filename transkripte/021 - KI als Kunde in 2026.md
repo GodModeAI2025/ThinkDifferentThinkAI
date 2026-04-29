@@ -66,7 +66,7 @@ https://www.precedenceresearch.com/ai-shopping-assistant-market
 
 ## Transkript
 
-**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Marc und Jens.
+**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Mark und Jens.
 
 **[00:00:07]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 
@@ -120,7 +120,7 @@ https://www.precedenceresearch.com/ai-shopping-assistant-market
 
 **[00:02:12]** wieder ein Thema dieser Folge, wenn die der Kunde eigentlich nicht mehr die KI ist.
 
-**[00:02:17]** Und Marc, wie gesagt, wenn du dir jetzt so vorstellst, dein nächster Kunde ist halt nicht
+**[00:02:17]** Und Mark, wie gesagt, wenn du dir jetzt so vorstellst, dein nächster Kunde ist halt nicht
 
 **[00:02:21]** einfach genervt, ungeduldig oder emotional, sondern einfach extrem gut vorbereitet.
 
@@ -676,7 +676,7 @@ https://www.precedenceresearch.com/ai-shopping-assistant-market
 
 **[00:23:34]** Unsere Schnittstellen so bauen müssen, dass sie auch optimal anderen KI-Agenten antworten, weil das eben auch
 
-**[00:23:40]** Teil der Kundenzufriedenheit sein wird, ehrlicherweise, Marc, weil
+**[00:23:40]** Teil der Kundenzufriedenheit sein wird, ehrlicherweise, Mark, weil
 
 **[00:23:43]** wenn ich mich jetzt nehme, dann bin ich halt auch enttäuscht
 
@@ -854,7 +854,7 @@ https://www.precedenceresearch.com/ai-shopping-assistant-market
 
 **[00:30:55]** Bots mit Bots mit Bots reden. Ja, an dieser Stelle, man kann es erzählen, ich habe ja
 
-**[00:30:58]** immer früher ein Praktikum bei D-IBM gemacht, host 3270-Immolation. Ja, Marc erzählt von
+**[00:30:58]** immer früher ein Praktikum bei D-IBM gemacht, host 3270-Immolation. Ja, Mark erzählt von
 
 **[00:31:04]** früher, warum mache ich das? Na ja, wir haben uns damals einen Spaß gemacht. Wir kennen
 
@@ -940,7 +940,7 @@ https://www.precedenceresearch.com/ai-shopping-assistant-market
 
 **[00:34:06]** in dem Moment ist.
 
-**[00:34:07]** Aber du, Marc, ist ganz aufgeregt.
+**[00:34:07]** Aber du, Mark, ist ganz aufgeregt.
 
 **[00:34:08]** Ja, ja.
 
@@ -1290,7 +1290,7 @@ https://www.precedenceresearch.com/ai-shopping-assistant-market
 
 **[00:46:26]** Sternchen da lassen und von der Seite würde ich sagen, tschüss, bis zum nächsten
 
-**[00:46:30]** Willkommen bei ThinkDifferent, ThinkAI, dem Podcast von Marc und Jens.
+**[00:46:30]** Willkommen bei ThinkDifferent, ThinkAI, dem Podcast von Mark und Jens.
 
 **[00:46:37]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 

@@ -69,7 +69,7 @@ https://de.wikipedia.org/wiki/Netscape_Navigator
 
 ## Transkript
 
-**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Marc und Jens.
+**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Mark und Jens.
 
 **[00:00:07]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 
@@ -331,7 +331,7 @@ https://de.wikipedia.org/wiki/Netscape_Navigator
 
 **[00:08:13]** ich, mal so ein guter Punkt, wo wir einsteigen können. Ich glaube, der eine oder andere,
 
-**[00:08:17]** der gerade zugeliebt hat und jetzt auch sich an den Fehler von Marc gerade erinnert
+**[00:08:17]** der gerade zugeliebt hat und jetzt auch sich an den Fehler von Mark gerade erinnert
 
 **[00:08:20]** hat, war OpenAI und Manus zu verwechseln oder der Fehler, der mir verwendet.
 
@@ -1295,7 +1295,7 @@ https://de.wikipedia.org/wiki/Netscape_Navigator
 
 **[00:38:48]** Tschau.
 
-**[00:38:54]** den Podcast von Marc und Jens. Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
+**[00:38:54]** den Podcast von Mark und Jens. Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 
 **[00:39:04]** Hier gibt es klare Einordnungen, echte Praxiseinblicke und einen frischen Blick auf das, was möglich ist.
 

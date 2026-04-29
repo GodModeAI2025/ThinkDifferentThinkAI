@@ -49,7 +49,7 @@ CloudFactory. (2025, 24. Oktober). Why Enterprises Can’t Ignore OpenAI Atlas B
 
 ## Transkript
 
-**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Marc und Jens.
+**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Mark und Jens.
 
 **[00:00:07]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 
@@ -139,17 +139,17 @@ CloudFactory. (2025, 24. Oktober). Why Enterprises Can’t Ignore OpenAI Atlas B
 
 **[00:03:40]** Aber ich glaube, bevor wir noch tiefer in dieses Thema einsteigen, hat mein lieber
 
-**[00:03:47]** Kollege und Partner, der liebe Marc Zimmermann, geschätzter Start-Wake Nerd bis vor kurzem
+**[00:03:47]** Kollege und Partner, der liebe Mark Zimmermann, geschätzter Start-Wake Nerd bis vor kurzem
 
 **[00:03:55]** noch, bis die Telefone aus seiner Start-up-Community nicht mehr stirgestanden hat, weil er einen
 
 **[00:04:01]** Fehler begangen hat in unserer Borg-Folge, den er unbedingt nochmal gerade fuzzeln wollte.
 
-**[00:04:07]** Wir wollen ja immer wieder ein Fuzzle-Check machen. Marc hat dafür gesorgt, dass wir
+**[00:04:07]** Wir wollen ja immer wieder ein Fuzzle-Check machen. Mark hat dafür gesorgt, dass wir
 
 **[00:04:11]** wieder einen tun können und machen dürfen. Ich freue mich sehr darüber. Herzlich willkommen.
 
-**[00:04:15]** Marc nochmal, bitte, Deit.
+**[00:04:15]** Mark nochmal, bitte, Deit.
 
 **[00:04:17]** Ja, also ich wurde nach der letzten Folge damit konfrontiert, dass ich die falsche
 
@@ -1621,7 +1621,7 @@ CloudFactory. (2025, 24. Oktober). Why Enterprises Can’t Ignore OpenAI Atlas B
 
 **[01:02:13]** Richtung gehen, dann gerne mal ein Tipp in die Kommentare hinterlassen. Ansonsten
 
-**[01:02:19]** Freu ich mich, dass wir auch wieder einen Technik-Tipp mal gemacht haben, Marc.
+**[01:02:19]** Freu ich mich, dass wir auch wieder einen Technik-Tipp mal gemacht haben, Mark.
 
 **[01:02:22]** Deshalb haben wir uns in der zweiten oder dritten Folge, glaube ich, vorgenommen,
 
@@ -1711,7 +1711,7 @@ CloudFactory. (2025, 24. Oktober). Why Enterprises Can’t Ignore OpenAI Atlas B
 
 **[01:04:59]** Dann machen wir den Sack zu, oder?
 
-**[01:05:01]** Tolle Folge, Marc. Bis zum nächsten Mal.
+**[01:05:01]** Tolle Folge, Mark. Bis zum nächsten Mal.
 
 **[01:05:03]** Dann geht es um Roboter.
 
@@ -1735,7 +1735,7 @@ CloudFactory. (2025, 24. Oktober). Why Enterprises Can’t Ignore OpenAI Atlas B
 
 **[01:05:25]** Ciao.
 
-**[01:05:28]** Willkommen bei Think Different, Think AI, dem Podcast von Marc und Jens.
+**[01:05:28]** Willkommen bei Think Different, Think AI, dem Podcast von Mark und Jens.
 
 **[01:05:34]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 

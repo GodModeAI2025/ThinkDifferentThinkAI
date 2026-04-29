@@ -33,7 +33,7 @@ https://x.com/idosal1/status/2021661865588535599?s=46
 
 ## Transkript
 
-**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Marc und Jens.
+**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Mark und Jens.
 
 **[00:00:07]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 
@@ -45,7 +45,7 @@ https://x.com/idosal1/status/2021661865588535599?s=46
 
 **[00:00:33]** Hallo, willkommen zurück zu einer neuen Folge vom Think Different, Think AI.
 
-**[00:00:38]** Heute mit dem allseits bekannten und auch immer anwesenden Marc Zimmermann
+**[00:00:38]** Heute mit dem allseits bekannten und auch immer anwesenden Mark Zimmermann
 
 **[00:00:43]** und meiner Person Jens Schanecki.
 
@@ -101,7 +101,7 @@ https://x.com/idosal1/status/2021661865588535599?s=46
 
 **[00:02:08]** Ja, es gibt auch eine fast perfekte Vorhersage, die in den letzten Tagen passiert ist.
 
-**[00:02:13]** Da wolltest du was von mir zählen, Marc.
+**[00:02:13]** Da wolltest du was von mir zählen, Mark.
 
 **[00:02:16]** Also ist jetzt in dem Sinn nicht humoristisch, aber nichtsdestotrotz, ich sage mal beeindruckend,
 
@@ -925,7 +925,7 @@ https://x.com/idosal1/status/2021661865588535599?s=46
 
 **[00:33:59]** solchen Fall quasi eine visuelle Andeutung einer Gefahr. Und das kannst du natürlich mit solchen
 
-**[00:34:06]** Gaming-Oberflächen wunderbar lösen. Marc, ich wollte nochmal ganz kurz, bevor wir weitergehen,
+**[00:34:06]** Gaming-Oberflächen wunderbar lösen. Mark, ich wollte nochmal ganz kurz, bevor wir weitergehen,
 
 **[00:34:10]** weil ich das gerade aufrufen habe. Ich will dann ganz kurz mal diese beiden Begriffe, die ich
 
@@ -1333,7 +1333,7 @@ https://x.com/idosal1/status/2021661865588535599?s=46
 
 **[00:50:36]** ihn das Wort. Ich bin schon mal raus. Ciao.
 
-**[00:50:39]** Danke, Marc. Und danke auch für den letzten Satz. Den kann ich mir nicht nehmen lassen,
+**[00:50:39]** Danke, Mark. Und danke auch für den letzten Satz. Den kann ich mir nicht nehmen lassen,
 
 **[00:50:44]** Weil der eine oder andere kennt mich und mag es ja gerade auch noch mal gesagt, dass mit
 
@@ -1363,7 +1363,7 @@ https://x.com/idosal1/status/2021661865588535599?s=46
 
 **[00:51:37]** lasst uns da durchzuhören in unserem schönen, netten Podcast dran arbeiten.
 
-**[00:51:43]** Marc und ich arbeiten dran, indem wir über die ganze Szene diskutieren, über Nachdenken.
+**[00:51:43]** Mark und ich arbeiten dran, indem wir über die ganze Szene diskutieren, über Nachdenken.
 
 **[00:51:47]** Wir versuchen das in unsere private Welt, in unsere Arbeitswelt mit reinzunehmen.
 
@@ -1373,7 +1373,7 @@ https://x.com/idosal1/status/2021661865588535599?s=46
 
 **[00:51:55]** Euch eine schöne Woche und bis bald.
 
-**[00:52:00]** Willkommen bei Think Different, Think AI, dem Podcast von Marc und Jens.
+**[00:52:00]** Willkommen bei Think Different, Think AI, dem Podcast von Mark und Jens.
 
 **[00:52:06]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 

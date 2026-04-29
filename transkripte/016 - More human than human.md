@@ -49,7 +49,7 @@ https://de.wikipedia.org/wiki/Neuromancer
 
 ## Transkript
 
-**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Marc und Jens.
+**[00:00:00]** Willkommen bei Think Different, Think AI, dem Podcast von Mark und Jens.
 
 **[00:00:07]** Zwei technologieverliebte Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 
@@ -61,9 +61,9 @@ https://de.wikipedia.org/wiki/Neuromancer
 
 **[00:00:34]** So, hallo und herzlich willkommen zu einer neuen Episode von Think Different, Think AI.
 
-**[00:00:41]** Ich bin Jens, ich bin Marc.
+**[00:00:41]** Ich bin Jens, ich bin Mark.
 
-**[00:00:44]** Ich freue mich auf diese neue Folge, die wir heute vorhaben, Marc,
+**[00:00:44]** Ich freue mich auf diese neue Folge, die wir heute vorhaben, Mark,
 
 **[00:00:47]** weil es einer meiner liebsten, liebsten Deine Herzenswünsche.
 
@@ -165,7 +165,7 @@ https://de.wikipedia.org/wiki/Neuromancer
 
 **[00:04:46]** weiter draufgelegt.
 
-**[00:04:47]** Touring-Test für den Zuhörer, da geht es drum, Marc, was macht man beim Touring-Test?
+**[00:04:47]** Touring-Test für den Zuhörer, da geht es drum, Mark, was macht man beim Touring-Test?
 
 **[00:04:51]** Wenn die Maschinen nämlich so lange so belügen kann, dass ich nicht erkennen, dass
 
@@ -917,7 +917,7 @@ https://de.wikipedia.org/wiki/Neuromancer
 
 **[00:37:51]** Sterne da, kommentiert, verbreitert es auf Social Media und, ja, ich würde sagen bis zum
 
-**[00:37:57]** nächsten Mal hier ins Dankeschön. Dank dir, Marc. Ich würde noch ansteh'n in der schönen
+**[00:37:57]** nächsten Mal hier ins Dankeschön. Dank dir, Mark. Ich würde noch ansteh'n in der schönen
 
 **[00:38:03]** dunklen Zeit. Wenn ihr Blade Runner nicht gesehen habt, guckt ihn euch im Original an. Super
 
@@ -925,7 +925,7 @@ https://de.wikipedia.org/wiki/Neuromancer
 
 **[00:38:12]** Ciao!
 
-**[00:38:13]** Willkommen bei ThinkDifferent, ThinkAI, dem Podcast von Marc und Jens. Zwei technologieverliebte
+**[00:38:13]** Willkommen bei ThinkDifferent, ThinkAI, dem Podcast von Mark und Jens. Zwei technologieverliebte
 
 **[00:38:22]** Köpfe, die nicht nur über künstliche Intelligenz reden, sondern sie leben. Hier gibt's
 
