@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 37,
   "availableTranscriptCount": 37,
-  "availableEnglishTranscriptCount": 8,
+  "availableEnglishTranscriptCount": 9,
   "episodes": [
     {
       "index": 1,
@@ -808,16 +808,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2429189-m-1eda09e0bfeee120c8cd3fc67d5474a1.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/034 - AI Easter Eggs.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/034 - AI Easter Eggs.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/034 - AI Easter Eggs.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/034 - AI Easter Eggs.md"
         }
       }
     },
