@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 37,
   "availableTranscriptCount": 37,
-  "availableEnglishTranscriptCount": 30,
+  "availableEnglishTranscriptCount": 31,
   "episodes": [
     {
       "index": 1,
@@ -352,16 +352,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2225028-m-e758df208906ee61e56292b1355db85f.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/015 - The Agentic Enterprise.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/015 - The Agentic Enterprise.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/015 - The Agentic Enterprise.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/015 - The Agentic Enterprise.md"
         }
       }
     },
