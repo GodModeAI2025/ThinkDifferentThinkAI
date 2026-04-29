@@ -14,6 +14,7 @@ const meta = document.querySelector("#episodeMeta");
 const transcript = document.querySelector("#transcript");
 const transcriptLink = document.querySelector("#transcriptLink");
 const playerLink = document.querySelector("#playerLink");
+const shareButton = document.querySelector("#shareButton");
 const podcastPlayer = document.querySelector("#podcastPlayer");
 const selectedCover = document.querySelector("#selectedCover");
 const languageSwitch = document.querySelector(".language-switch");
@@ -24,6 +25,8 @@ const feedbackMessage = document.querySelector("#feedbackMessage");
 const defaultCover = "https://images.podigee-cdn.net/0x,sL3rd-8gIENV0jDGxTRhEKOYzoUhn4Sgs9-d3rsTM_Hk=/https://main.podigee-cdn.net/uploads/u73317/3c6e6a97-b38f-40cb-8890-7ce7916cb31c.jpg";
 const feedbackRecipient = "charta.ei.4z@icloud.com";
 const podigeePlayerScript = "https://player.podigee-cdn.net/podcast-player/javascripts/podigee-podcast-player.js";
+const shareButtonLabel = shareButton?.textContent || "Teilen";
+let shareResetTimer = 0;
 
 function padEpisode(value) {
   return String(value).padStart(3, "0");
@@ -148,6 +151,43 @@ function hasEnglishTranscript(episode) {
   return Boolean(episode && transcriptFor(episode, "en").available);
 }
 
+function episodeUrl(episode = state.selected, language = state.language) {
+  const url = new URL(window.location.href);
+  if (episode) {
+    url.searchParams.set("episode", padEpisode(episode.index));
+  }
+  url.searchParams.set("lang", language === "en" && hasEnglishTranscript(episode) ? "en" : "de");
+  url.hash = "";
+  return url.toString();
+}
+
+function updateAddress(episode = state.selected, language = state.language, mode = "replace") {
+  if (!episode || !window.history?.replaceState) return;
+  const nextUrl = episodeUrl(episode, language);
+  if (nextUrl === window.location.href) return;
+
+  const payload = { episode: episode.index, language };
+  if (mode === "push" && window.history.pushState) {
+    window.history.pushState(payload, "", nextUrl);
+    return;
+  }
+  window.history.replaceState(payload, "", nextUrl);
+}
+
+function episodeFromLocation() {
+  const params = new URLSearchParams(window.location.search);
+  const hashEpisode = window.location.hash.match(/\d+/)?.[0] || "";
+  const rawEpisode = params.get("episode") || params.get("folge") || params.get("e") || hashEpisode;
+  const episodeIndex = parseInt(rawEpisode, 10);
+  return state.episodes.find((episode) => episode.index === episodeIndex) || null;
+}
+
+function languageFromLocation(episode) {
+  const params = new URLSearchParams(window.location.search);
+  const requested = (params.get("lang") || params.get("language") || "").toLowerCase();
+  return requested === "en" && hasEnglishTranscript(episode) ? "en" : "de";
+}
+
 function updateLanguageSwitch(episode = state.selected) {
   if (languageSwitch) {
     languageSwitch.hidden = !hasEnglishTranscript(episode);
@@ -189,12 +229,63 @@ function renderList() {
         <span class="episode-status">${statusText}</span>
       </span>
     `;
-    button.addEventListener("click", () => selectEpisode(episode));
+    button.addEventListener("click", () => selectEpisode(episode, { historyMode: "push" }));
     episodeList.append(button);
   }
 }
 
-async function selectEpisode(episode) {
+function setShareStatus(label) {
+  if (!shareButton) return;
+  window.clearTimeout(shareResetTimer);
+  shareButton.textContent = label;
+  shareResetTimer = window.setTimeout(() => {
+    shareButton.textContent = shareButtonLabel;
+  }, 1800);
+}
+
+function copyText(value) {
+  if (navigator.clipboard?.writeText && window.isSecureContext) {
+    return navigator.clipboard.writeText(value);
+  }
+
+  const textarea = document.createElement("textarea");
+  textarea.value = value;
+  textarea.setAttribute("readonly", "");
+  textarea.style.position = "fixed";
+  textarea.style.left = "-9999px";
+  document.body.append(textarea);
+  textarea.select();
+  const copied = document.execCommand("copy");
+  textarea.remove();
+  if (!copied) throw new Error("Copy failed");
+  return Promise.resolve();
+}
+
+async function shareSelectedEpisode() {
+  if (!state.selected) return;
+  const url = episodeUrl();
+  const label = `${state.selected.title} - Think Different. Think AI.`;
+
+  if (navigator.share) {
+    try {
+      await navigator.share({ title: label, text: label, url });
+      setShareStatus("Geteilt");
+      return;
+    } catch (error) {
+      if (error.name === "AbortError") return;
+    }
+  }
+
+  try {
+    await copyText(url);
+    setShareStatus("Link kopiert");
+  } catch (error) {
+    setShareStatus("Nicht kopiert");
+  }
+}
+
+async function selectEpisode(episode, options = {}) {
+  const { historyMode = "replace", updateUrl = true } = options;
   const requestId = state.requestId + 1;
   state.requestId = requestId;
   state.selected = episode;
@@ -202,6 +293,7 @@ async function selectEpisode(episode) {
     state.language = "de";
   }
   const requestLanguage = state.language;
+  if (updateUrl) updateAddress(episode, requestLanguage, historyMode);
   updateLanguageSwitch(episode);
   renderList();
 
@@ -254,8 +346,13 @@ async function init() {
     updateLanguageSwitch();
     renderList();
 
+    const linkedEpisode = episodeFromLocation();
     const firstAvailable = state.episodes.find((episode) => episode.transcriptAvailable) || state.episodes[0];
-    if (firstAvailable) selectEpisode(firstAvailable);
+    const selectedEpisode = linkedEpisode || firstAvailable;
+    if (selectedEpisode) {
+      state.language = languageFromLocation(selectedEpisode);
+      selectEpisode(selectedEpisode);
+    }
   } catch (error) {
     summary.textContent = "Daten konnten nicht geladen werden";
     transcript.innerHTML = `<p class="empty-state">Die Episodendaten sind nicht verfügbar.</p>`;
@@ -271,10 +368,17 @@ for (const button of languageButtons) {
   button.addEventListener("click", () => {
     state.language = button.dataset.language;
     updateLanguageSwitch();
-    if (state.selected) selectEpisode(state.selected);
+    if (state.selected) selectEpisode(state.selected, { historyMode: "push" });
   });
 }
 
 feedbackForm.addEventListener("submit", submitFeedback);
+shareButton?.addEventListener("click", shareSelectedEpisode);
+window.addEventListener("popstate", () => {
+  const episode = episodeFromLocation();
+  if (!episode) return;
+  state.language = languageFromLocation(episode);
+  selectEpisode(episode, { updateUrl: false });
+});
 
 init();
