@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 37,
   "availableTranscriptCount": 37,
-  "availableEnglishTranscriptCount": 12,
+  "availableEnglishTranscriptCount": 13,
   "episodes": [
     {
       "index": 1,
@@ -40,16 +40,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2038530-m-c9462ec01bf63e20b44a8bc09c656060.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/002 - Zwischen Bots, Agenten und 20 Kilo Fleisch.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/002 - Zwischen Bots, Agenten und 20 Kilo Fleisch.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/002 - Zwischen Bots, Agenten und 20 Kilo Fleisch.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/002 - Zwischen Bots, Agenten und 20 Kilo Fleisch.md"
         }
       }
     },
