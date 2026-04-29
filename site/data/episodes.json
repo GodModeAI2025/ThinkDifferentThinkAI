@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 37,
   "availableTranscriptCount": 37,
-  "availableEnglishTranscriptCount": 4,
+  "availableEnglishTranscriptCount": 5,
   "episodes": [
     {
       "index": 1,
@@ -664,16 +664,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2371082-m-8ebcaf2f208d0560668bb1e81d5169b9.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/028 - Skills Not Hacks!.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/028 - Skills Not Hacks!.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/028 - Skills Not Hacks!.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/028 - Skills Not Hacks!.md"
         }
       }
     },
