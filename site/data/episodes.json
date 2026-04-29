@@ -3,6 +3,7 @@
   "generatedAt": "",
   "episodeCount": 37,
   "availableTranscriptCount": 37,
+  "availableEnglishTranscriptCount": 0,
   "episodes": [
     {
       "index": 1,
@@ -13,7 +14,19 @@
       "imageUrl": "https://images.podigee-cdn.net/0x,sdzPIWXCJgf8DQYGpcJzRXE8jSSLTKiu56qX8vJ1zlBs=/https://main.podigee-cdn.net/uploads/u73317/5d4adc28-0919-4b20-b1ca-2c8f6556f210.jpeg",
       "audioUrl": "https://audio.podigee-cdn.net/2027676-m-ce7d3c6c2388ba282768114b860d5bc1.mp3?source=feed",
       "transcriptAvailable": true,
-      "transcriptPath": "transkripte/001 - KI als Kunde.md"
+      "transcriptPath": "transkripte/001 - KI als Kunde.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/001 - KI als Kunde.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
+        }
+      }
     },
     {
       "index": 2,
@@ -24,7 +37,19 @@
       "imageUrl": "https://images.podigee-cdn.net/0x,siLOeibr2QYZykXl5uMJ23sX9TiLJUCAyqekilUOc7lM=/https://main.podigee-cdn.net/uploads/u73317/d44f5a84-41bd-44a9-b6bb-2fa631f4f2a1.png",
       "audioUrl": "https://audio.podigee-cdn.net/2038530-m-c9462ec01bf63e20b44a8bc09c656060.mp3?source=feed",
       "transcriptAvailable": true,
-      "transcriptPath": "transkripte/002 - Zwischen Bots, Agenten und 20 Kilo Fleisch.md"
+      "transcriptPath": "transkripte/002 - Zwischen Bots, Agenten und 20 Kilo Fleisch.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/002 - Zwischen Bots, Agenten und 20 Kilo Fleisch.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
+        }
+      }
     },
     {
       "index": 3,
@@ -35,7 +60,19 @@
       "imageUrl": "https://images.podigee-cdn.net/0x,spyUMoSHcT1CpT_hwhSe1JBG_TQH7W44a-IB05R64yZI=/https://main.podigee-cdn.net/uploads/u73317/a69cb8e6-3d27-4a42-b024-766e700f5d84.png",
       "audioUrl": "https://audio.podigee-cdn.net/2042157-m-6f09c8ffe04a1b6f53b6a5ac0651d4e3.mp3?source=feed",
       "transcriptAvailable": true,
-      "transcriptPath": "transkripte/003 - Hat eine KI eigentlich Urlaub.md"
+      "transcriptPath": "transkripte/003 - Hat eine KI eigentlich Urlaub.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/003 - Hat eine KI eigentlich Urlaub.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
+        }
+      }
     },
     {
       "index": 4,
@@ -46,7 +83,19 @@
       "imageUrl": "https://images.podigee-cdn.net/0x,sKnFb569fXuj6yWWx5x9Fde65-zlNBZzVMUkeJzH1CRM=/https://main.podigee-cdn.net/uploads/u73317/fe09a780-5aae-4467-befc-48d221e2c7af.png",
       "audioUrl": "https://audio.podigee-cdn.net/2069503-m-df9880a35ce1100e460dc1e01140468b.mp3?source=feed",
       "transcriptAvailable": true,
-      "transcriptPath": "transkripte/004 - Von Star Wars zu Toy Wars.md"
+      "transcriptPath": "transkripte/004 - Von Star Wars zu Toy Wars.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/004 - Von Star Wars zu Toy Wars.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
+        }
+      }
     },
     {
       "index": 5,
@@ -57,7 +106,19 @@
       "imageUrl": "https://images.podigee-cdn.net/0x,sJZ_MVt8Y29FR2hSteNMhvnlYfbkI4e-dac62dYkE4bg=/https://main.podigee-cdn.net/uploads/u73317/475dc1f3-09f7-4687-acd5-9c7b110e07d6.jpg",
       "audioUrl": "https://audio.podigee-cdn.net/2080048-m-40ea98c612b0b00ed651959be0581543.mp3?source=feed",
       "transcriptAvailable": true,
-      "transcriptPath": "transkripte/005 - Boss-Level KI.md"
+      "transcriptPath": "transkripte/005 - Boss-Level KI.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/005 - Boss-Level KI.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
+        }
+      }
     },
     {
       "index": 6,
@@ -68,7 +129,19 @@
       "imageUrl": "https://images.podigee-cdn.net/0x,s0-Pmf-2PRdrt49-_NK1UVqLmjFsXOm0gHFOsmyOffKg=/https://main.podigee-cdn.net/uploads/u73317/5d13ca4c-2f79-4a4d-b736-7c1d46e1310f.jpeg",
       "audioUrl": "https://audio.podigee-cdn.net/2090721-m-24d1bdfa8f73505d993da264223122a3.mp3?source=feed",
       "transcriptAvailable": true,
-      "transcriptPath": "transkripte/006 - The Great Flattening.md"
+      "transcriptPath": "transkripte/006 - The Great Flattening.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/006 - The Great Flattening.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
+        }
+      }
     },
     {
       "index": 7,
@@ -79,7 +152,19 @@
       "imageUrl": "https://images.podigee-cdn.net/0x,sW-azBe2Z4z-3AoTrm5GN4_ZOstt6Rzcw836GRVUPoZ0=/https://main.podigee-cdn.net/uploads/u73317/9eb309df-b1b8-4236-95b1-b8b0d74ba903.jpg",
       "audioUrl": "https://audio.podigee-cdn.net/2110798-m-efcdc703dc8e31c1ebc943a1bba6f0c2.mp3?source=feed",
       "transcriptAvailable": true,
-      "transcriptPath": "transkripte/007 - Hinter den Kulissen von Think Different! Think AI!.md"
+      "transcriptPath": "transkripte/007 - Hinter den Kulissen von Think Different! Think AI!.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/007 - Hinter den Kulissen von Think Different! Think AI!.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
+        }
+      }
     },
     {
       "index": 8,
@@ -90,7 +175,19 @@
       "imageUrl": "https://images.podigee-cdn.net/0x,sJrQWMKRqJQbml4y6_KLJk17mBSDZ3YSX3rcVzIBnFZM=/https://main.podigee-cdn.net/uploads/u73317/970e5064-6065-45b7-8e20-010dde372a55.png",
       "audioUrl": "https://audio.podigee-cdn.net/2135780-m-16e47ab9701c9ff3a408ce7a3c4018e7.mp3?source=feed",
       "transcriptAvailable": true,
-      "transcriptPath": "transkripte/008 - AI ADVISORY BOARD.md"
+      "transcriptPath": "transkripte/008 - AI ADVISORY BOARD.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/008 - AI ADVISORY BOARD.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
+        }
+      }
     },
     {
       "index": 9,
@@ -101,7 +198,19 @@
       "imageUrl": "https://images.podigee-cdn.net/0x,stoKHMYAhCVhit5OSRfaIj9hW8LNVd6EZucA20Y5mQ04=/https://main.podigee-cdn.net/uploads/u73317/788a2883-1e3e-46b3-9780-ae908e8f4c28.jpg",
       "audioUrl": "https://audio.podigee-cdn.net/2158100-m-6a9f266f3bc732470dfc330d916afc65.mp3?source=feed",
       "transcriptAvailable": true,
-      "transcriptPath": "transkripte/009 - Borg KI und das Ende des Interfaces.md"
+      "transcriptPath": "transkripte/009 - Borg KI und das Ende des Interfaces.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/009 - Borg KI und das Ende des Interfaces.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
+        }
+      }
     },
     {
       "index": 10,
@@ -112,7 +221,19 @@
       "imageUrl": "https://images.podigee-cdn.net/0x,sBusD2wQ9f3h3mJRcwmzBhRBV182TproH9QxI8C3ZAXo=/https://main.podigee-cdn.net/uploads/u73317/e322bec5-8990-4b5c-b838-9309dffbc634.jpeg",
       "audioUrl": "https://audio.podigee-cdn.net/2160435-m-68cc27d9dd04b9b4b792179852421201.mp3?source=feed",
       "transcriptAvailable": true,
-      "transcriptPath": "transkripte/010 - Automation trifft Organisation - n8n × Notion.md"
+      "transcriptPath": "transkripte/010 - Automation trifft Organisation - n8n × Notion.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/010 - Automation trifft Organisation - n8n × Notion.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
+        }
+      }
     },
     {
       "index": 11,
@@ -123,7 +244,19 @@
       "imageUrl": "https://images.podigee-cdn.net/0x,swNeyauDaZUPukmlPwOfNIGhd_3texS0lT_tbB41l250=/https://main.podigee-cdn.net/uploads/u73317/b8a39e5a-5134-4dd0-bd33-32687799d0ca.jpg",
       "audioUrl": "https://audio.podigee-cdn.net/2171698-m-c8203b56088c5d2054b7dd409251e4b2.mp3?source=feed",
       "transcriptAvailable": true,
-      "transcriptPath": "transkripte/011 - KI schreibt Code, Menschen prüfen nach !.md"
+      "transcriptPath": "transkripte/011 - KI schreibt Code, Menschen prüfen nach !.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/011 - KI schreibt Code, Menschen prüfen nach !.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
+        }
+      }
     },
     {
       "index": 12,
@@ -134,7 +267,19 @@
       "imageUrl": "https://images.podigee-cdn.net/0x,sN4oHQJDcCRRnqV6LrCDgm4XaeUr4VGEymupmgTKR9_0=/https://main.podigee-cdn.net/uploads/u73317/edbacd01-25ae-457f-9c02-738bdcf93bf0.jpeg",
       "audioUrl": "https://audio.podigee-cdn.net/2182587-m-b0acae85d007ad519a8ec0e406e06e3f.mp3?source=feed",
       "transcriptAvailable": true,
-      "transcriptPath": "transkripte/012 - Halloween special - Dystopian AI futures.md"
+      "transcriptPath": "transkripte/012 - Halloween special - Dystopian AI futures.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/012 - Halloween special - Dystopian AI futures.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
+        }
+      }
     },
     {
       "index": 13,
@@ -145,7 +290,19 @@
       "imageUrl": "https://images.podigee-cdn.net/0x,sParVUSQntoOGJM20VUwW1VweIp_mHy-5LRn-3xQN_wU=/https://main.podigee-cdn.net/uploads/u73317/4468bf74-3da6-4fc5-adb4-3117bd7a0386.jpeg",
       "audioUrl": "https://audio.podigee-cdn.net/2182841-m-93a4ae534ba7c92f1ba9568c320cf162.mp3?source=feed",
       "transcriptAvailable": true,
-      "transcriptPath": "transkripte/013 - THE BROWSER STRIKES BACK.md"
+      "transcriptPath": "transkripte/013 - THE BROWSER STRIKES BACK.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/013 - THE BROWSER STRIKES BACK.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
+        }
+      }
     },
     {
       "index": 14,
@@ -156,7 +313,19 @@
       "imageUrl": "https://images.podigee-cdn.net/0x,sgIMohXK3TI9cCE1G4-07wxXMZKnX1xPMAuBSFfpc7bM=/https://main.podigee-cdn.net/uploads/u73317/ccb47e86-1f0a-49af-87cd-aac4729e5eec.jpeg",
       "audioUrl": "https://audio.podigee-cdn.net/2199009-m-fecde03f2d48c5f3b3edde901cc14feb.mp3?source=feed",
       "transcriptAvailable": true,
-      "transcriptPath": "transkripte/014 - Robot Slavery.md"
+      "transcriptPath": "transkripte/014 - Robot Slavery.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/014 - Robot Slavery.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
+        }
+      }
     },
     {
       "index": 15,
@@ -167,7 +336,19 @@
       "imageUrl": "https://images.podigee-cdn.net/0x,s9DgA8XWoxarOS1Ijc-QvqXZMlzbVVZqmSxlWxT4slzI=/https://main.podigee-cdn.net/uploads/u73317/3644231d-c6ae-463d-83a1-22f01c2bfd82.jpeg",
       "audioUrl": "https://audio.podigee-cdn.net/2225028-m-e758df208906ee61e56292b1355db85f.mp3?source=feed",
       "transcriptAvailable": true,
-      "transcriptPath": "transkripte/015 - The Agentic Enterprise.md"
+      "transcriptPath": "transkripte/015 - The Agentic Enterprise.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/015 - The Agentic Enterprise.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
+        }
+      }
     },
     {
       "index": 16,
@@ -178,7 +359,19 @@
       "imageUrl": "https://images.podigee-cdn.net/0x,s7AqbXhIhnMmwE13TUCSA9KOgy8H1gbvbZFEo_rzowZQ=/https://main.podigee-cdn.net/uploads/u73317/dd7ff596-38f7-4607-a0a1-a587e1ba40bc.jpg",
       "audioUrl": "https://audio.podigee-cdn.net/2232429-m-15d3f2bdecafd27a2e3b790a9b64ed1e.mp3?source=feed",
       "transcriptAvailable": true,
-      "transcriptPath": "transkripte/016 - More human than human.md"
+      "transcriptPath": "transkripte/016 - More human than human.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/016 - More human than human.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
+        }
+      }
     },
     {
       "index": 17,
@@ -189,7 +382,19 @@
       "imageUrl": "https://images.podigee-cdn.net/0x,sfG0OSujumcQoYIYWkFVaZhZKjL6cFLC98j_FXGk642E=/https://main.podigee-cdn.net/uploads/u73317/44b2bcd7-9584-4143-8541-e664df686a84.jpeg",
       "audioUrl": "https://audio.podigee-cdn.net/2247288-m-363d408faaf74ccf28ed29fed90216b2.mp3?source=feed",
       "transcriptAvailable": true,
-      "transcriptPath": "transkripte/017 - AI Toy Wars.md"
+      "transcriptPath": "transkripte/017 - AI Toy Wars.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/017 - AI Toy Wars.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
+        }
+      }
     },
     {
       "index": 18,
@@ -200,7 +405,19 @@
       "imageUrl": "https://images.podigee-cdn.net/0x,s5GHYnXu3ZW9xNKD-16p5W9Nv1yY1H3L4ssI6sabf3g4=/https://main.podigee-cdn.net/uploads/u73317/55323e46-a44d-4ab7-aff4-9f74fa3d1806.jpg",
       "audioUrl": "https://audio.podigee-cdn.net/2261485-m-d19d786b849ada08f828cd348c91793d.mp3?source=feed",
       "transcriptAvailable": true,
-      "transcriptPath": "transkripte/018 - 2025 Wrapped.md"
+      "transcriptPath": "transkripte/018 - 2025 Wrapped.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/018 - 2025 Wrapped.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
+        }
+      }
     },
     {
       "index": 19,
@@ -211,7 +428,19 @@
       "imageUrl": "https://images.podigee-cdn.net/0x,sFsWYV7GuHcBNkvJuNxLP4F85UddMFpUIunSJZER5zSI=/https://main.podigee-cdn.net/uploads/u73317/0d21299a-cd52-4fb6-ac67-311ce9a7edf0.jpeg",
       "audioUrl": "https://audio.podigee-cdn.net/2247473-m-af62a4f153faeb5241296bb6a8e84c25.mp3?source=feed",
       "transcriptAvailable": true,
-      "transcriptPath": "transkripte/019 - Weihnachtsmagie.md"
+      "transcriptPath": "transkripte/019 - Weihnachtsmagie.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/019 - Weihnachtsmagie.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
+        }
+      }
     },
     {
       "index": 20,
@@ -222,7 +451,19 @@
       "imageUrl": "https://images.podigee-cdn.net/0x,sN8E7GxDdxs4UBbiX7lrN4fgQR9hgIDUZSE_OmnvVaR4=/https://main.podigee-cdn.net/uploads/u73317/e727f7f8-2d74-42b5-9672-d60e547f5277.jpeg",
       "audioUrl": "https://audio.podigee-cdn.net/2261536-m-2d348e909e017eb359b542542a3c8977.mp3?source=feed",
       "transcriptAvailable": true,
-      "transcriptPath": "transkripte/020 - New Year's wishes.md"
+      "transcriptPath": "transkripte/020 - New Year's wishes.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/020 - New Year's wishes.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
+        }
+      }
     },
     {
       "index": 21,
@@ -233,7 +474,19 @@
       "imageUrl": "https://images.podigee-cdn.net/0x,smrXYYYRG6MIwTVuSWZxooQyqEewwj7K5ebPR-Ybxusk=/https://main.podigee-cdn.net/uploads/u73317/56bb7a35-38e6-43a5-8427-ee09a719156d.jpeg",
       "audioUrl": "https://audio.podigee-cdn.net/2291173-m-562ab9459c25a565996e9916f906830b.mp3?source=feed",
       "transcriptAvailable": true,
-      "transcriptPath": "transkripte/021 - KI als Kunde in 2026.md"
+      "transcriptPath": "transkripte/021 - KI als Kunde in 2026.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/021 - KI als Kunde in 2026.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
+        }
+      }
     },
     {
       "index": 22,
@@ -244,7 +497,19 @@
       "imageUrl": "https://images.podigee-cdn.net/0x,s5iHUzdhKv2a9Nz5bIAKU4nA8ReG9rmoep-H9zpZ96_s=/https://main.podigee-cdn.net/uploads/u73317/6841b674-8960-411b-932a-acacb9017a2b.jpg",
       "audioUrl": "https://audio.podigee-cdn.net/2301431-m-aa3ec424bcd05fa8e3c85dd5b4574406.mp3?source=feed",
       "transcriptAvailable": true,
-      "transcriptPath": "transkripte/022 - CES 2026.md"
+      "transcriptPath": "transkripte/022 - CES 2026.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/022 - CES 2026.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
+        }
+      }
     },
     {
       "index": 23,
@@ -255,7 +520,19 @@
       "imageUrl": "https://images.podigee-cdn.net/0x,sx0BzQljTEOeNvgd_fn6jA0yGodp-uL4o3O7hnv570YA=/https://main.podigee-cdn.net/uploads/u73317/b641957d-90fe-4b9c-878c-07f17cf231f1.jpg",
       "audioUrl": "https://audio.podigee-cdn.net/2312827-m-e8685457056d14e806ac2ba42e3b475a.mp3?source=feed",
       "transcriptAvailable": true,
-      "transcriptPath": "transkripte/023 - AGI or NOT.md"
+      "transcriptPath": "transkripte/023 - AGI or NOT.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/023 - AGI or NOT.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
+        }
+      }
     },
     {
       "index": 24,
@@ -266,7 +543,19 @@
       "imageUrl": "https://images.podigee-cdn.net/0x,sPAJFiFMdF0Qgj5xNLYkLG_BNx64h0IpXcxmCj3yFSX0=/https://main.podigee-cdn.net/uploads/u73317/c5baca29-cad8-4513-a1d3-98b00bc75c3e.jpg",
       "audioUrl": "https://audio.podigee-cdn.net/2325284-m-7d5eb009fb9d4ead331d2292ab1399cb.mp3?source=feed",
       "transcriptAvailable": true,
-      "transcriptPath": "transkripte/024 - Clawdbot.md"
+      "transcriptPath": "transkripte/024 - Clawdbot.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/024 - Clawdbot.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
+        }
+      }
     },
     {
       "index": 25,
@@ -277,7 +566,19 @@
       "imageUrl": "https://images.podigee-cdn.net/0x,sP19FhHejpxKYq6oYt-pGGoRo0sLdWA6787asB3_MvKg=/https://main.podigee-cdn.net/uploads/u73317/b61edfda-f344-47c5-a37e-360f5a5b9e03.jpeg",
       "audioUrl": "https://audio.podigee-cdn.net/2337279-m-eee85333e1be5d29858946a3024f3970.mp3?source=feed",
       "transcriptAvailable": true,
-      "transcriptPath": "transkripte/025 - TikTok AI Coach.md"
+      "transcriptPath": "transkripte/025 - TikTok AI Coach.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/025 - TikTok AI Coach.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
+        }
+      }
     },
     {
       "index": 26,
@@ -288,7 +589,19 @@
       "imageUrl": "https://images.podigee-cdn.net/0x,stv69H_7Sr9Rv_8ieQFYNC7MQYULsHJrUjyoDpB7gvpo=/https://main.podigee-cdn.net/uploads/u73317/cb4e843a-882a-4fd4-9444-a1572af8a877.jpg",
       "audioUrl": "https://audio.podigee-cdn.net/2348874-m-e1a28d343042dab243a88d8f3b197701.mp3?source=feed",
       "transcriptAvailable": true,
-      "transcriptPath": "transkripte/026 - OpenClaw.md"
+      "transcriptPath": "transkripte/026 - OpenClaw.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/026 - OpenClaw.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
+        }
+      }
     },
     {
       "index": 27,
@@ -299,7 +612,19 @@
       "imageUrl": "https://images.podigee-cdn.net/0x,snW_G170wGhm4JnjQ0L-kU_gq7mN4queOa89iUIFFESw=/https://main.podigee-cdn.net/uploads/u73317/28bee8fd-4231-48ee-ac35-d69bd0cc205f.jpeg",
       "audioUrl": "https://audio.podigee-cdn.net/2360415-m-6d3d5c3e28d769e1c76a37c25379928f.mp3?source=feed",
       "transcriptAvailable": true,
-      "transcriptPath": "transkripte/027 - Wie KI unser Arbeitsleben verändert!.md"
+      "transcriptPath": "transkripte/027 - Wie KI unser Arbeitsleben verändert!.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/027 - Wie KI unser Arbeitsleben verändert!.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
+        }
+      }
     },
     {
       "index": 28,
@@ -310,7 +635,19 @@
       "imageUrl": "https://images.podigee-cdn.net/0x,sOy8cI9fRVYhq4g_DNdAQShz36hxbO-HCo26DaPeX_5c=/https://main.podigee-cdn.net/uploads/u73317/0709ce13-47d9-4fef-92b7-139a77c780a3.jpeg",
       "audioUrl": "https://audio.podigee-cdn.net/2371082-m-8ebcaf2f208d0560668bb1e81d5169b9.mp3?source=feed",
       "transcriptAvailable": true,
-      "transcriptPath": "transkripte/028 - Skills Not Hacks!.md"
+      "transcriptPath": "transkripte/028 - Skills Not Hacks!.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/028 - Skills Not Hacks!.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
+        }
+      }
     },
     {
       "index": 29,
@@ -321,7 +658,19 @@
       "imageUrl": "https://images.podigee-cdn.net/0x,sd-yIrMLAQ_F6kpC48HZ9KJr6Q4lhg6okPEGP11MoRtE=/https://main.podigee-cdn.net/uploads/u73317/246c7161-2291-4614-a0c1-46ee381d487e.jpeg",
       "audioUrl": "https://audio.podigee-cdn.net/2381794-m-d7c482dddf5cf5c319f57e1e2fa44ea1.mp3?source=feed",
       "transcriptAvailable": true,
-      "transcriptPath": "transkripte/029 - Age of Agents.md"
+      "transcriptPath": "transkripte/029 - Age of Agents.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/029 - Age of Agents.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
+        }
+      }
     },
     {
       "index": 30,
@@ -332,7 +681,19 @@
       "imageUrl": "https://images.podigee-cdn.net/0x,s9qkK2ViH-HXFvxXIWrGTTS_iqPyVQTLKTZFoIGkrtvg=/https://main.podigee-cdn.net/uploads/u73317/616b116f-9f2f-4724-9ae9-005c89cf8009.jpg",
       "audioUrl": "https://audio.podigee-cdn.net/2392503-m-9f0261cca83ac6fbc80d935e15ce4e9c.mp3?source=feed",
       "transcriptAvailable": true,
-      "transcriptPath": "transkripte/030 - Krieg der Agenten.md"
+      "transcriptPath": "transkripte/030 - Krieg der Agenten.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/030 - Krieg der Agenten.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
+        }
+      }
     },
     {
       "index": 31,
@@ -343,7 +704,19 @@
       "imageUrl": "https://images.podigee-cdn.net/0x,smKWGAVTmm8X1R-VstU3NwvDXBq2lWWlcGOEfc9vBnyA=/https://main.podigee-cdn.net/uploads/u73317/ae789241-c5a3-4d4c-a8d8-00ec02531feb.jpg",
       "audioUrl": "https://audio.podigee-cdn.net/2394491-m-beaaae30a2bf806c0ea14cae438b74bc.mp3?source=feed",
       "transcriptAvailable": true,
-      "transcriptPath": "transkripte/031 - Anatomie der KI.md"
+      "transcriptPath": "transkripte/031 - Anatomie der KI.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/031 - Anatomie der KI.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
+        }
+      }
     },
     {
       "index": 32,
@@ -354,7 +727,19 @@
       "imageUrl": "https://images.podigee-cdn.net/0x,svaObtqpmbSkqwoka0afoJ1qWhvzUdzW8HjHLzwS5Uzo=/https://main.podigee-cdn.net/uploads/u73317/203d8bb0-1d99-456a-8180-827551bdcbce.jpg",
       "audioUrl": "https://audio.podigee-cdn.net/2405643-m-cd61244828c763519faf08b7c909a622.mp3?source=feed",
       "transcriptAvailable": true,
-      "transcriptPath": "transkripte/032 - Warp Speed.md"
+      "transcriptPath": "transkripte/032 - Warp Speed.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/032 - Warp Speed.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
+        }
+      }
     },
     {
       "index": 33,
@@ -365,7 +750,19 @@
       "imageUrl": "https://images.podigee-cdn.net/0x,smN-Py41p8bWL5tvlGO61OMifwwvBjNvnm_v73KwOwiE=/https://main.podigee-cdn.net/uploads/u73317/bda58661-2863-4a29-9a4c-92bef43b9ac5.jpeg",
       "audioUrl": "https://audio.podigee-cdn.net/2417572-m-91adb6cd7036afc5e7400bf4fa464a7b.mp3?source=feed",
       "transcriptAvailable": true,
-      "transcriptPath": "transkripte/033 - Agenten, KI und die Zukunft der Softwareentwicklung.md"
+      "transcriptPath": "transkripte/033 - Agenten, KI und die Zukunft der Softwareentwicklung.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/033 - Agenten, KI und die Zukunft der Softwareentwicklung.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
+        }
+      }
     },
     {
       "index": 34,
@@ -376,7 +773,19 @@
       "imageUrl": "https://images.podigee-cdn.net/0x,sq9XyA8-5CUWFOdOOjr1Q8TMafOk-5Zpncqtjr6Xq7hY=/https://main.podigee-cdn.net/uploads/u73317/7f809f11-a71c-4313-8994-0e730686723c.jpeg",
       "audioUrl": "https://audio.podigee-cdn.net/2429189-m-1eda09e0bfeee120c8cd3fc67d5474a1.mp3?source=feed",
       "transcriptAvailable": true,
-      "transcriptPath": "transkripte/034 - AI Easter Eggs.md"
+      "transcriptPath": "transkripte/034 - AI Easter Eggs.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/034 - AI Easter Eggs.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
+        }
+      }
     },
     {
       "index": 35,
@@ -387,7 +796,19 @@
       "imageUrl": "https://images.podigee-cdn.net/0x,sTymNBylRpqRaNALgrW934iAcc-vChcG5-9XHfPcbbUo=/https://main.podigee-cdn.net/uploads/u73317/87971e32-62fc-450d-8049-0dd51f145314.jpg",
       "audioUrl": "https://audio.podigee-cdn.net/2442712-m-82fe18ce5b8f2e0c9d331fc080e5d909.mp3?source=feed",
       "transcriptAvailable": true,
-      "transcriptPath": "transkripte/035 - Mythos Anthropic.md"
+      "transcriptPath": "transkripte/035 - Mythos Anthropic.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/035 - Mythos Anthropic.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
+        }
+      }
     },
     {
       "index": 36,
@@ -398,7 +819,19 @@
       "imageUrl": "https://images.podigee-cdn.net/0x,sQt3Vhyud2oITfCWxd-HQZYPatSszjC4eTbfFIXi08kQ=/https://main.podigee-cdn.net/uploads/u73317/3ebbc11a-a04d-4caf-b488-811be9099402.jpg",
       "audioUrl": "https://audio.podigee-cdn.net/2449676-m-dfce48265ddf95aa1ab0f9c9fe9281b3.mp3?source=feed",
       "transcriptAvailable": true,
-      "transcriptPath": "transkripte/036 - Das strategische Gold.md"
+      "transcriptPath": "transkripte/036 - Das strategische Gold.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/036 - Das strategische Gold.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
+        }
+      }
     },
     {
       "index": 37,
@@ -409,7 +842,19 @@
       "imageUrl": "https://images.podigee-cdn.net/0x,sw9bGXWe36CJEvsaODttKNj_roynzep0wCVVoABfFxJQ=/https://main.podigee-cdn.net/uploads/u73317/bb47965d-03af-4913-8f61-dd8d1721837d.jpg",
       "audioUrl": "https://audio.podigee-cdn.net/2461048-m-ea147867a9b710d8e5a622dc74e07142.mp3?source=feed",
       "transcriptAvailable": true,
-      "transcriptPath": "transkripte/037 - KI schläft nicht !.md"
+      "transcriptPath": "transkripte/037 - KI schläft nicht !.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/037 - KI schläft nicht !.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
+        }
+      }
     }
   ]
 }

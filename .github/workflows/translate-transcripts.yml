@@ -1,0 +1,93 @@
+name: Translate transcripts
+
+on:
+  schedule:
+    - cron: "0 10 * * 2"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Recreate existing English transcript files
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: translate-transcripts
+  cancel-in-progress: false
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Translate missing transcripts with OpenAI
+        if: ${{ env.OPENAI_API_KEY != '' }}
+        run: |
+          FORCE_ARG=""
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then
+            FORCE_ARG="--force"
+          fi
+          python scripts/translate_transcripts.py \
+            --provider openai \
+            --input-dir transkripte \
+            --output-dir transkripte-en \
+            $FORCE_ARG
+
+      - name: Cache Hugging Face models
+        if: ${{ env.OPENAI_API_KEY == '' }}
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-translation-${{ runner.os }}-opus-mt-de-en
+
+      - name: Install translation dependencies
+        if: ${{ env.OPENAI_API_KEY == '' }}
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements-translate.txt
+
+      - name: Translate missing transcripts locally
+        if: ${{ env.OPENAI_API_KEY == '' }}
+        run: |
+          FORCE_ARG=""
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then
+            FORCE_ARG="--force"
+          fi
+          python scripts/translate_transcripts.py \
+            --provider local \
+            --input-dir transkripte \
+            --output-dir transkripte-en \
+            $FORCE_ARG
+
+      - name: Build episode data
+        run: python scripts/build_site_manifest.py
+
+      - name: Commit translations
+        run: |
+          git pull --rebase origin main
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add transkripte-en site/data/episodes.json
+          if git diff --cached --quiet; then
+            echo "No translation changes to commit."
+          else
+            git commit -m "Add English podcast transcript translations"
+            git push
+          fi

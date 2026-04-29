@@ -36,6 +36,10 @@ jobs:
           python scripts/build_site_manifest.py
           mkdir -p site/transkripte
           find transkripte -maxdepth 1 -type f -name '*.md' -exec cp {} site/transkripte/ \;
+          if [ -d transkripte-en ]; then
+            mkdir -p site/transkripte-en
+            find transkripte-en -maxdepth 1 -type f -name '*.md' -exec cp {} site/transkripte-en/ \;
+          fi
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3

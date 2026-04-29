@@ -479,6 +479,40 @@ h1 {
   padding-left: 8px;
 }
 
+.language-switch {
+  display: inline-flex;
+  min-height: 40px;
+  border: 3px solid #00093d;
+  box-shadow: 4px 4px 0 #00093d;
+}
+
+.language-switch button {
+  min-height: 34px;
+  padding: 0 12px;
+  border: 0;
+  border-right: 3px solid #00093d;
+  background: #d8f8ff;
+  color: #06145f;
+  cursor: pointer;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.language-switch button:last-child {
+  border-right: 0;
+}
+
+.language-switch button.active {
+  background: var(--accent);
+}
+
+.language-switch button:hover {
+  background: var(--accent-hot);
+  color: #1b0700;
+}
+
 .transcript {
   max-width: 980px;
   margin: 0 auto;

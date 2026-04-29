@@ -2,6 +2,7 @@ const state = {
   episodes: [],
   selected: null,
   query: "",
+  language: "de",
 };
 
 const episodeList = document.querySelector("#episodeList");
@@ -13,6 +14,7 @@ const transcript = document.querySelector("#transcript");
 const transcriptLink = document.querySelector("#transcriptLink");
 const playerLink = document.querySelector("#playerLink");
 const selectedCover = document.querySelector("#selectedCover");
+const languageButtons = Array.from(document.querySelectorAll("[data-language]"));
 const feedbackForm = document.querySelector("#feedbackForm");
 const feedbackTitle = document.querySelector("#feedbackTitle");
 const feedbackMessage = document.querySelector("#feedbackMessage");
@@ -95,6 +97,28 @@ function submitFeedback(event) {
   window.location.href = mailto;
 }
 
+function transcriptFor(episode, language = state.language) {
+  if (episode.transcripts?.[language]) return episode.transcripts[language];
+  if (language === "en") {
+    return {
+      available: Boolean(episode.englishTranscriptAvailable),
+      path: episode.englishTranscriptPath || "",
+    };
+  }
+  return {
+    available: Boolean(episode.transcriptAvailable),
+    path: episode.transcriptPath || "",
+  };
+}
+
+function updateLanguageSwitch() {
+  for (const button of languageButtons) {
+    const language = button.dataset.language;
+    button.classList.toggle("active", language === state.language);
+    button.setAttribute("aria-pressed", String(language === state.language));
+  }
+}
+
 function filteredEpisodes() {
   const query = state.query.trim().toLowerCase();
   if (!query) return state.episodes;
@@ -108,16 +132,20 @@ function renderList() {
   episodeList.innerHTML = "";
 
   for (const episode of episodes) {
+    const selectedTranscript = transcriptFor(episode);
+    const statusText = state.language === "en"
+      ? (selectedTranscript.available ? "English transcript" : "English pending")
+      : (selectedTranscript.available ? "Transkript verfügbar" : "Noch kein Transkript");
     const imageUrl = episode.imageUrl || defaultCover;
     const button = document.createElement("button");
     button.type = "button";
-    button.className = `episode-button${episode.transcriptAvailable ? "" : " missing"}${state.selected?.index === episode.index ? " active" : ""}`;
+    button.className = `episode-button${selectedTranscript.available ? "" : " missing"}${state.selected?.index === episode.index ? " active" : ""}`;
     button.innerHTML = `
       <img class="episode-cover" src="${escapeHtml(imageUrl)}" alt="">
       <span class="episode-number">${padEpisode(episode.index)}</span>
       <span>
         <span class="episode-title">${escapeHtml(episode.title)}</span>
-        <span class="episode-status">${episode.transcriptAvailable ? "Transkript verfügbar" : "Noch kein Transkript"}</span>
+        <span class="episode-status">${statusText}</span>
       </span>
     `;
     button.addEventListener("click", () => selectEpisode(episode));
@@ -135,19 +163,22 @@ async function selectEpisode(episode) {
   selectedCover.src = episode.imageUrl || defaultCover;
   selectedCover.alt = `Cover: ${episode.title}`;
 
-  if (!episode.transcriptAvailable) {
+  const selectedTranscript = transcriptFor(episode);
+  if (!selectedTranscript.available) {
     transcriptLink.href = episode.pageUrl || "#";
     transcriptLink.setAttribute("aria-disabled", "true");
-    transcript.innerHTML = `<p class="empty-state">Für diese Folge liegt noch kein Markdown-Transkript vor. Der Webplayer ist bereits verfügbar.</p>`;
+    transcript.innerHTML = state.language === "en"
+      ? `<p class="empty-state">English translation is not available for this episode yet. The German transcript and web player are available.</p>`
+      : `<p class="empty-state">Für diese Folge liegt noch kein Markdown-Transkript vor. Der Webplayer ist bereits verfügbar.</p>`;
     return;
   }
 
   transcriptLink.removeAttribute("aria-disabled");
-  transcriptLink.href = episode.transcriptPath;
+  transcriptLink.href = selectedTranscript.path;
   transcript.innerHTML = `<p class="empty-state">Lade Transkript...</p>`;
 
   try {
-    const response = await fetch(episode.transcriptPath);
+    const response = await fetch(selectedTranscript.path);
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const markdown = await response.text();
     transcript.innerHTML = renderMarkdown(markdown);
@@ -162,7 +193,8 @@ async function init() {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const data = await response.json();
     state.episodes = data.episodes.slice().sort((a, b) => b.index - a.index);
-    summary.textContent = `${data.availableTranscriptCount} von ${data.episodeCount} Transkripten verfügbar`;
+    summary.textContent = `${data.availableTranscriptCount} Deutsch · ${data.availableEnglishTranscriptCount || 0} English · ${data.episodeCount} Folgen`;
+    updateLanguageSwitch();
     renderList();
 
     const firstAvailable = state.episodes.find((episode) => episode.transcriptAvailable) || state.episodes[0];
@@ -177,6 +209,14 @@ search.addEventListener("input", (event) => {
   state.query = event.target.value;
   renderList();
 });
+
+for (const button of languageButtons) {
+  button.addEventListener("click", () => {
+    state.language = button.dataset.language;
+    updateLanguageSwitch();
+    if (state.selected) selectEpisode(state.selected);
+  });
+}
 
 feedbackForm.addEventListener("submit", submitFeedback);
 
