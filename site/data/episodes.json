@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 37,
   "availableTranscriptCount": 37,
-  "availableEnglishTranscriptCount": 5,
+  "availableEnglishTranscriptCount": 6,
   "episodes": [
     {
       "index": 1,
@@ -280,16 +280,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2182587-m-b0acae85d007ad519a8ec0e406e06e3f.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/012 - Halloween special - Dystopian AI futures.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/012 - Halloween special - Dystopian AI futures.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/012 - Halloween special - Dystopian AI futures.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/012 - Halloween special - Dystopian AI futures.md"
         }
       }
     },
