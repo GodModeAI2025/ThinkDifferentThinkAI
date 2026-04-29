@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 37,
   "availableTranscriptCount": 37,
-  "availableEnglishTranscriptCount": 11,
+  "availableEnglishTranscriptCount": 12,
   "episodes": [
     {
       "index": 1,
@@ -184,16 +184,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2135780-m-16e47ab9701c9ff3a408ce7a3c4018e7.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/008 - AI ADVISORY BOARD.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/008 - AI ADVISORY BOARD.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/008 - AI ADVISORY BOARD.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/008 - AI ADVISORY BOARD.md"
         }
       }
     },
