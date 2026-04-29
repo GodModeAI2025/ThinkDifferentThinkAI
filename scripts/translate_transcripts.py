@@ -123,7 +123,8 @@ class OpenAITranslator:
             "instructions": (
                 "Translate the given German podcast transcript strings to natural English. "
                 "Return only JSON matching the schema. Preserve Markdown markers, timestamps, URLs, "
-                "brand names, speaker names Mark Zimmermann and Jens Scharnetzki, and technical product names."
+                "brand names, speaker names Mark Zimmermann, Jens Scharnetzki, and Alexander Heusingfeld, "
+                "and technical product names."
             ),
             "input": json.dumps(values, ensure_ascii=False),
             "text": {
@@ -182,7 +183,8 @@ class OpenAITranslator:
                 "Translate each German podcast transcript Markdown line to natural English. "
                 "Return exactly the same number of lines in the same order. Preserve blank lines, Markdown structure, "
                 "every timestamp marker like **[00:00:00]**, URLs, code-like tokens, brand names, and speaker names "
-                "Mark Zimmermann and Jens Scharnetzki. Do not add timestamps to lines that do not already have them. "
+                "Mark Zimmermann, Jens Scharnetzki, and Alexander Heusingfeld. "
+                "Do not add timestamps to lines that do not already have them. "
                 "Do not add commentary, summaries, or new sections. Return only JSON matching the schema."
             ),
             "input": json.dumps({"lines": lines}, ensure_ascii=False),

@@ -59,7 +59,7 @@ Conversations about Software Engineering
  
 **[00:01:04]** namely not one guest, but two. One of the guests we've actually had here before.
  
-**[00:01:11]** Klaus Rodeweg is back with us today and he will be joined by Alexander Häusingfeld.
+**[00:01:11]** Klaus Rodeweg is back with us today and he will be joined by Alexander Heusingfeld.
 
 **[00:01:19]** And I would simply like to ask you to introduce yourselves briefly, who are you, what do you do, and then
 
@@ -97,7 +97,7 @@ Conversations about Software Engineering
 
 **[00:02:41]** Yes, then once again thank you for the invitation, dear Mark.
 
-**[00:02:46]** My name is Alex Häusingfeldt. I am also a podcaster on the Conversations about Software Engineering Podcast.
+**[00:02:46]** My name is Alex Heusingfeld. I am also a podcaster on the Conversations about Software Engineering Podcast.
 
 **[00:02:53]** And I am Klaus's colleague at Vorwerk, previously also at the Elektro-Werken.
 

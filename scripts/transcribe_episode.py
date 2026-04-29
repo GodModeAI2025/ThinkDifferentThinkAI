@@ -94,7 +94,16 @@ def clean_html(value):
 
 
 def apply_known_transcript_corrections(value):
-    return re.sub(r"\bMarc\b", "Mark", value)
+    corrections = (
+        (r"\bMarc\b", "Mark"),
+        (r"\bHäusingfeldt\b", "Heusingfeld"),
+        (r"\bHäusingfeld\b", "Heusingfeld"),
+        (r"\bHaeusingfeldt\b", "Heusingfeld"),
+        (r"\bHaeusingfeld\b", "Heusingfeld"),
+    )
+    for pattern, replacement in corrections:
+        value = re.sub(pattern, replacement, value)
+    return value
 
 
 def safe_filename(episode):
