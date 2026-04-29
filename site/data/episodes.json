@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 37,
   "availableTranscriptCount": 37,
-  "availableEnglishTranscriptCount": 32,
+  "availableEnglishTranscriptCount": 33,
   "episodes": [
     {
       "index": 1,
@@ -304,16 +304,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2182841-m-93a4ae534ba7c92f1ba9568c320cf162.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/013 - THE BROWSER STRIKES BACK.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/013 - THE BROWSER STRIKES BACK.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/013 - THE BROWSER STRIKES BACK.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/013 - THE BROWSER STRIKES BACK.md"
         }
       }
     },
