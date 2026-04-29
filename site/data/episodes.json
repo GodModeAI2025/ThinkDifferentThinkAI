@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 37,
   "availableTranscriptCount": 37,
-  "availableEnglishTranscriptCount": 24,
+  "availableEnglishTranscriptCount": 25,
   "episodes": [
     {
       "index": 1,
@@ -856,16 +856,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2449676-m-dfce48265ddf95aa1ab0f9c9fe9281b3.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/036 - Das strategische Gold.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/036 - Das strategische Gold.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/036 - Das strategische Gold.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/036 - Das strategische Gold.md"
         }
       }
     },
