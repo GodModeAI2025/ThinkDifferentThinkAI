@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 37,
   "availableTranscriptCount": 37,
-  "availableEnglishTranscriptCount": 16,
+  "availableEnglishTranscriptCount": 17,
   "episodes": [
     {
       "index": 1,
@@ -544,16 +544,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2312827-m-e8685457056d14e806ac2ba42e3b475a.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/023 - AGI or NOT.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/023 - AGI or NOT.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/023 - AGI or NOT.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/023 - AGI or NOT.md"
         }
       }
     },
