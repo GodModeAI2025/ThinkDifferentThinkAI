@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 37,
   "availableTranscriptCount": 37,
-  "availableEnglishTranscriptCount": 33,
+  "availableEnglishTranscriptCount": 34,
   "episodes": [
     {
       "index": 1,
@@ -256,16 +256,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2171698-m-c8203b56088c5d2054b7dd409251e4b2.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/011 - KI schreibt Code, Menschen prüfen nach !.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/011 - KI schreibt Code, Menschen prüfen nach !.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/011 - KI schreibt Code, Menschen prüfen nach !.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/011 - KI schreibt Code, Menschen prüfen nach !.md"
         }
       }
     },
