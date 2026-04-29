@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 37,
   "availableTranscriptCount": 37,
-  "availableEnglishTranscriptCount": 28,
+  "availableEnglishTranscriptCount": 29,
   "episodes": [
     {
       "index": 1,
@@ -712,16 +712,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2392503-m-9f0261cca83ac6fbc80d935e15ce4e9c.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/030 - Krieg der Agenten.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/030 - Krieg der Agenten.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/030 - Krieg der Agenten.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/030 - Krieg der Agenten.md"
         }
       }
     },
