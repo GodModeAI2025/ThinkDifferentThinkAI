@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 37,
   "availableTranscriptCount": 37,
-  "availableEnglishTranscriptCount": 3,
+  "availableEnglishTranscriptCount": 4,
   "episodes": [
     {
       "index": 1,
@@ -400,16 +400,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2247288-m-363d408faaf74ccf28ed29fed90216b2.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/017 - AI Toy Wars.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/017 - AI Toy Wars.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/017 - AI Toy Wars.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/017 - AI Toy Wars.md"
         }
       }
     },
