@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 37,
   "availableTranscriptCount": 37,
-  "availableEnglishTranscriptCount": 31,
+  "availableEnglishTranscriptCount": 32,
   "episodes": [
     {
       "index": 1,
@@ -328,16 +328,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2199009-m-fecde03f2d48c5f3b3edde901cc14feb.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/014 - Robot Slavery.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/014 - Robot Slavery.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/014 - Robot Slavery.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/014 - Robot Slavery.md"
         }
       }
     },
