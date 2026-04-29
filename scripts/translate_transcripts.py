@@ -452,6 +452,7 @@ def build_parser():
     parser.add_argument("--input-dir", default="transkripte")
     parser.add_argument("--output-dir", default="transkripte-en")
     parser.add_argument("--error-dir", default="transkripte-en/.errors")
+    parser.add_argument("--source-file", action="append", default=[])
     parser.add_argument("--provider", choices=["local", "openai"], default="local")
     parser.add_argument("--model", default="")
     parser.add_argument("--batch-size", type=int, default=8)
@@ -470,7 +471,7 @@ def main(argv=None):
     input_dir = Path(args.input_dir)
     output_dir = Path(args.output_dir)
     error_dir = Path(args.error_dir)
-    source_files = sorted(input_dir.glob("*.md"))
+    source_files = [Path(path) for path in args.source_file] if args.source_file else sorted(input_dir.glob("*.md"))
     if args.limit:
         source_files = source_files[: args.limit]
     retry_files = [

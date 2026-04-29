@@ -38,18 +38,48 @@ jobs:
           python-version: "3.11"
           cache: pip
 
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
       - name: Translate missing transcripts with OpenAI
         if: ${{ env.OPENAI_API_KEY != '' }}
         run: |
+          shopt -s nullglob
           FORCE_ARG=""
           if [ "${{ github.event.inputs.force }}" = "true" ]; then
             FORCE_ARG="--force"
           fi
-          python scripts/translate_transcripts.py \
-            --provider openai \
-            --input-dir transkripte \
-            --output-dir transkripte-en \
-            $FORCE_ARG
+
+          commit_changes() {
+            local message="$1"
+            git add transkripte-en site/data/episodes.json
+            if git diff --cached --quiet; then
+              echo "No translation changes to commit."
+              return 0
+            fi
+            git commit -m "$message"
+            for attempt in 1 2 3; do
+              if git push; then
+                return 0
+              fi
+              git pull --rebase origin main
+            done
+            return 1
+          }
+
+          for SOURCE_FILE in transkripte/*.md; do
+            python scripts/translate_transcripts.py \
+              --provider openai \
+              --input-dir transkripte \
+              --output-dir transkripte-en \
+              --source-file "$SOURCE_FILE" \
+              --max-errors 1 \
+              $FORCE_ARG
+            python scripts/build_site_manifest.py
+            commit_changes "Add English transcript: $(basename "$SOURCE_FILE" .md)"
+          done
 
       - name: Cache Hugging Face models
         if: ${{ env.OPENAI_API_KEY == '' }}
@@ -83,8 +113,6 @@ jobs:
       - name: Commit translations
         run: |
           git pull --rebase origin main
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add transkripte-en site/data/episodes.json
           if git diff --cached --quiet; then
             echo "No translation changes to commit."
