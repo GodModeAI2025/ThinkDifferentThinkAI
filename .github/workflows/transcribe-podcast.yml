@@ -22,7 +22,7 @@ on:
 
 permissions:
   contents: write
-  actions: read
+  actions: write
 
 concurrency:
   group: transcribe-podcast
@@ -133,6 +133,8 @@ jobs:
       - discover
       - transcribe
     if: ${{ always() && needs.discover.outputs.has_work == 'true' && needs.transcribe.result == 'success' }}
+    env:
+      GH_TOKEN: ${{ github.token }}
 
     steps:
       - name: Check out repository
@@ -161,6 +163,8 @@ jobs:
           else
             git commit -m "Add podcast transcripts"
             git push
+            gh workflow run pages.yml --ref main || echo "Could not trigger Pages deploy."
+            gh workflow run translate-transcripts.yml --ref main || echo "Could not trigger English translation."
           fi
 
   no-op:
