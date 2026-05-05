@@ -1,8 +1,8 @@
 {
   "feedUrl": "https://think-ai.podigee.io/feed/mp3",
   "generatedAt": "",
-  "episodeCount": 37,
-  "availableTranscriptCount": 37,
+  "episodeCount": 38,
+  "availableTranscriptCount": 38,
   "availableEnglishTranscriptCount": 37,
   "episodes": [
     {
@@ -890,6 +890,30 @@
         "en": {
           "available": true,
           "path": "transkripte-en/037 - KI schläft nicht !.md"
+        }
+      }
+    },
+    {
+      "index": 38,
+      "title": "PM 2.0",
+      "published": "Mon, 04 May 2026 04:25:00 +0000",
+      "duration": "3867",
+      "pageUrl": "https://think-ai.podigee.io/39-pm-2-0",
+      "embedUrl": "https://think-ai.podigee.io/39-pm-2-0/embed?context=external",
+      "imageUrl": "https://images.podigee-cdn.net/0x,sSCwcDPTwzz_qkSGvu01NRn3RIf9zsJzsFYr_q15LV7Q=/https://main.podigee-cdn.net/uploads/u73317/d527ba53-1b7d-4801-a45e-22f347677dd3.jpg",
+      "audioUrl": "https://audio.podigee-cdn.net/2473073-m-7a641f2361c91c0bf0a5132c86307b3a.mp3?source=feed",
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/038 - PM 2.0.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/038 - PM 2.0.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
         }
       }
     }
