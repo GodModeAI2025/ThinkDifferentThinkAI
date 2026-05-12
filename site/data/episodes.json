@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 39,
   "availableTranscriptCount": 39,
-  "availableEnglishTranscriptCount": 38,
+  "availableEnglishTranscriptCount": 39,
   "episodes": [
     {
       "index": 1,
@@ -928,16 +928,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2405648-m-b259ef21689c59bc2d25589f8a3a1d63.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/039 - Termporal UX.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/039 - Termporal UX.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/039 - Termporal UX.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/039 - Termporal UX.md"
         }
       }
     }
