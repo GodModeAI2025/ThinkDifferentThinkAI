@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 40,
   "availableTranscriptCount": 39,
-  "availableEnglishTranscriptCount": 38,
+  "availableEnglishTranscriptCount": 39,
   "episodes": [
     {
       "index": 1,
@@ -952,16 +952,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2480693-m-53f46566187caeadd1bc6793dfb6311e.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/040 - AI und LEGAL.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/040 - AI und LEGAL.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/040 - AI und LEGAL.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/040 - AI und LEGAL.md"
         }
       }
     }
