@@ -1,9 +1,9 @@
 {
   "feedUrl": "https://think-ai.podigee.io/feed/mp3",
   "generatedAt": "",
-  "episodeCount": 39,
+  "episodeCount": 40,
   "availableTranscriptCount": 39,
-  "availableEnglishTranscriptCount": 39,
+  "availableEnglishTranscriptCount": 38,
   "episodes": [
     {
       "index": 1,
@@ -919,25 +919,49 @@
     },
     {
       "index": 39,
-      "title": "Termporal UX",
+      "title": "Temporal UX",
       "published": "Mon, 11 May 2026 02:59:00 +0000",
       "duration": "2628",
       "pageUrl": "https://think-ai.podigee.io/33-termporal-ux",
       "embedUrl": "https://think-ai.podigee.io/33-termporal-ux/embed?context=external",
       "imageUrl": "https://images.podigee-cdn.net/0x,s5_sIyThXo_mPTaFIixCTs-B4U7VQUvVDj3eyt1lQ4fc=/https://main.podigee-cdn.net/uploads/u73317/0069ccc0-1ba4-42b6-942a-a3cc407eabf4.jpg",
       "audioUrl": "https://audio.podigee-cdn.net/2405648-m-b259ef21689c59bc2d25589f8a3a1d63.mp3?source=feed",
+      "transcriptAvailable": false,
+      "transcriptPath": "",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": false,
+          "path": ""
+        },
+        "en": {
+          "available": false,
+          "path": ""
+        }
+      }
+    },
+    {
+      "index": 40,
+      "title": "AI und LEGAL",
+      "published": "Mon, 18 May 2026 03:30:00 +0000",
+      "duration": "2791",
+      "pageUrl": "https://think-ai.podigee.io/40-ai-und-legal",
+      "embedUrl": "https://think-ai.podigee.io/40-ai-und-legal/embed?context=external",
+      "imageUrl": "https://images.podigee-cdn.net/0x,stp2Q430kwsEcWUszMHIau9KnzMvg3UzMUbcmvZHwjx0=/https://main.podigee-cdn.net/uploads/u73317/a4f820d7-dfe3-48ff-8bf6-018d8ed21516.jpg",
+      "audioUrl": "https://audio.podigee-cdn.net/2480693-m-53f46566187caeadd1bc6793dfb6311e.mp3?source=feed",
       "transcriptAvailable": true,
-      "transcriptPath": "transkripte/039 - Termporal UX.md",
-      "englishTranscriptAvailable": true,
-      "englishTranscriptPath": "transkripte-en/039 - Termporal UX.md",
+      "transcriptPath": "transkripte/040 - AI und LEGAL.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
       "transcripts": {
         "de": {
           "available": true,
-          "path": "transkripte/039 - Termporal UX.md"
+          "path": "transkripte/040 - AI und LEGAL.md"
         },
         "en": {
-          "available": true,
-          "path": "transkripte-en/039 - Termporal UX.md"
+          "available": false,
+          "path": ""
         }
       }
     }
