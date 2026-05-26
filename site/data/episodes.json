@@ -1,8 +1,8 @@
 {
   "feedUrl": "https://think-ai.podigee.io/feed/mp3",
   "generatedAt": "",
-  "episodeCount": 40,
-  "availableTranscriptCount": 39,
+  "episodeCount": 41,
+  "availableTranscriptCount": 40,
   "availableEnglishTranscriptCount": 39,
   "episodes": [
     {
@@ -962,6 +962,30 @@
         "en": {
           "available": true,
           "path": "transkripte-en/040 - AI und LEGAL.md"
+        }
+      }
+    },
+    {
+      "index": 41,
+      "title": "Notion übernimmt",
+      "published": "Mon, 25 May 2026 03:59:00 +0000",
+      "duration": "3707",
+      "pageUrl": "https://think-ai.podigee.io/43-notion-uebernimmt",
+      "embedUrl": "https://think-ai.podigee.io/43-notion-uebernimmt/embed?context=external",
+      "imageUrl": "https://images.podigee-cdn.net/0x,sXORXp3kUYGQwj_v7RxTK4j41nepmldGaZH1l-wx9_7M=/https://main.podigee-cdn.net/uploads/u73317/6b236be7-a14b-4011-bd7b-afb7436266b8.jpg",
+      "audioUrl": "https://audio.podigee-cdn.net/2497534-m-1e3bbe292560552329e00be3991c64db.mp3?source=feed",
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/041 - Notion übernimmt.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/041 - Notion übernimmt.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
         }
       }
     }
