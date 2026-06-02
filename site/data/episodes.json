@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 42,
   "availableTranscriptCount": 41,
-  "availableEnglishTranscriptCount": 40,
+  "availableEnglishTranscriptCount": 41,
   "episodes": [
     {
       "index": 1,
@@ -1000,16 +1000,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2485469-m-45907b85ad17b178cb33bdb393ba9946.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/042 - Dark Side of AI.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/042 - Dark Side of AI.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/042 - Dark Side of AI.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/042 - Dark Side of AI.md"
         }
       }
     }
