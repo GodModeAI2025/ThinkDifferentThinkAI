@@ -2,8 +2,8 @@
   "feedUrl": "https://think-ai.podigee.io/feed/mp3",
   "generatedAt": "",
   "episodeCount": 42,
-  "availableTranscriptCount": 41,
-  "availableEnglishTranscriptCount": 41,
+  "availableTranscriptCount": 42,
+  "availableEnglishTranscriptCount": 42,
   "episodes": [
     {
       "index": 1,
@@ -926,18 +926,18 @@
       "embedUrl": "https://think-ai.podigee.io/33-termporal-ux/embed?context=external",
       "imageUrl": "https://images.podigee-cdn.net/0x,s5_sIyThXo_mPTaFIixCTs-B4U7VQUvVDj3eyt1lQ4fc=/https://main.podigee-cdn.net/uploads/u73317/0069ccc0-1ba4-42b6-942a-a3cc407eabf4.jpg",
       "audioUrl": "https://audio.podigee-cdn.net/2405648-m-b259ef21689c59bc2d25589f8a3a1d63.mp3?source=feed",
-      "transcriptAvailable": false,
-      "transcriptPath": "",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/039 - Temporal UX.md",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/039 - Temporal UX.md",
       "transcripts": {
         "de": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte/039 - Temporal UX.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/039 - Temporal UX.md"
         }
       }
     },

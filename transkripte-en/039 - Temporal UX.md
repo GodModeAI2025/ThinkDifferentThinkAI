@@ -1,5 +1,5 @@
 ---
-title: "Termporal UX"
+title: "Temporal UX"
 episode_index: 39
 published: "Mon, 11 May 2026 02:59:00 +0000"
 duration: "2628"
@@ -15,11 +15,11 @@ transcribed_at: "2026-05-12T08:54:17+00:00"
 translated_from_language: "de"
 translation_provider: "openai"
 translation_model: "gpt-4o-mini"
-translated_from_file: "transkripte/039 - Termporal UX.md"
+translated_from_file: "transkripte/039 - Temporal UX.md"
 translated_at: "2026-05-12T08:54:57+00:00"
 ---
 
- # Temporal UX
+# Temporal UX
 
 **Published:** Mon, 11 May 2026 02:59:00 +0000
 **Duration:** 2628

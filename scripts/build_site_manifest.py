@@ -15,6 +15,14 @@ def transcript_item(path):
     }
 
 
+def transcript_path_for(transcript_dir, episode):
+    exact_path = transcript_dir / safe_filename(episode)
+    if exact_path.exists():
+        return exact_path
+    matches = sorted(transcript_dir.glob(f"{episode.index:03d} - *.md"))
+    return matches[0] if matches else exact_path
+
+
 def embed_url_for(page_url):
     if not page_url:
         return ""
@@ -25,8 +33,8 @@ def build_manifest(feed_url, transcript_dir, english_transcript_dir):
     episodes = parse_feed(feed_url)
     items = []
     for episode in episodes:
-        transcript_path = transcript_dir / safe_filename(episode)
-        english_transcript_path = english_transcript_dir / safe_filename(episode)
+        transcript_path = transcript_path_for(transcript_dir, episode)
+        english_transcript_path = transcript_path_for(english_transcript_dir, episode)
         german_transcript = transcript_item(transcript_path)
         english_transcript = transcript_item(english_transcript_path)
         items.append(

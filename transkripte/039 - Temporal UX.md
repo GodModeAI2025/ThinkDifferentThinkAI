@@ -1,5 +1,5 @@
 ---
-title: "Termporal UX"
+title: "Temporal UX"
 episode_index: 39
 published: "Mon, 11 May 2026 02:59:00 +0000"
 duration: "2628"
@@ -14,7 +14,7 @@ language_probability: "1"
 transcribed_at: "2026-05-12T08:54:17+00:00"
 ---
 
-# Termporal UX
+# Temporal UX
 
 **Veröffentlicht:** Mon, 11 May 2026 02:59:00 +0000
 **Dauer:** 2628
