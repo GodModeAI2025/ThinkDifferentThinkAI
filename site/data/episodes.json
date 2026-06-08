@@ -1,8 +1,8 @@
 {
   "feedUrl": "https://think-ai.podigee.io/feed/mp3",
   "generatedAt": "",
-  "episodeCount": 42,
-  "availableTranscriptCount": 42,
+  "episodeCount": 43,
+  "availableTranscriptCount": 43,
   "availableEnglishTranscriptCount": 42,
   "episodes": [
     {
@@ -1010,6 +1010,30 @@
         "en": {
           "available": true,
           "path": "transkripte-en/042 - Dark Side of AI.md"
+        }
+      }
+    },
+    {
+      "index": 43,
+      "title": "Just vibe IT",
+      "published": "Mon, 08 Jun 2026 03:44:00 +0000",
+      "duration": "2196",
+      "pageUrl": "https://think-ai.podigee.io/41-just-vibe-it",
+      "embedUrl": "https://think-ai.podigee.io/41-just-vibe-it/embed?context=external",
+      "imageUrl": "https://images.podigee-cdn.net/0x,spMpsrQvFxNCV2XKgw65UvrHjchWyPfe2tjatJRw8NZM=/https://main.podigee-cdn.net/uploads/u73317/83dba456-dc11-4b39-a949-8aac7944b9b5.jpg",
+      "audioUrl": "https://audio.podigee-cdn.net/2480694-m-8e56e6d7291296a03244f65fa8a3c07c.mp3?source=feed",
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/043 - Just vibe IT.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/043 - Just vibe IT.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
         }
       }
     }
