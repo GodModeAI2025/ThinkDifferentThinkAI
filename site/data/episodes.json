@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 43,
   "availableTranscriptCount": 43,
-  "availableEnglishTranscriptCount": 42,
+  "availableEnglishTranscriptCount": 43,
   "episodes": [
     {
       "index": 1,
@@ -1024,16 +1024,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2480694-m-8e56e6d7291296a03244f65fa8a3c07c.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/043 - Just vibe IT.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/043 - Just vibe IT.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/043 - Just vibe IT.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/043 - Just vibe IT.md"
         }
       }
     }
