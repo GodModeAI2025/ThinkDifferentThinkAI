@@ -1,8 +1,8 @@
 {
   "feedUrl": "https://think-ai.podigee.io/feed/mp3",
   "generatedAt": "",
-  "episodeCount": 43,
-  "availableTranscriptCount": 43,
+  "episodeCount": 44,
+  "availableTranscriptCount": 44,
   "availableEnglishTranscriptCount": 43,
   "episodes": [
     {
@@ -1034,6 +1034,30 @@
         "en": {
           "available": true,
           "path": "transkripte-en/043 - Just vibe IT.md"
+        }
+      }
+    },
+    {
+      "index": 44,
+      "title": "Local First",
+      "published": "Sun, 14 Jun 2026 21:18:00 +0000",
+      "duration": "3856",
+      "pageUrl": "https://think-ai.podigee.io/44-local-first",
+      "embedUrl": "https://think-ai.podigee.io/44-local-first/embed?context=external",
+      "imageUrl": "https://images.podigee-cdn.net/0x,sUv0Ipsy8HltovgFooD16YWBiFzmFdObQHHbijqQEpec=/https://main.podigee-cdn.net/uploads/u73317/d27894f2-e789-44b7-bc94-607c4f0d4820.jpg",
+      "audioUrl": "https://audio.podigee-cdn.net/2515533-m-5ccbaaa2031339d6992e6dd7e8a8ea30.mp3?source=feed",
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/044 - Local First.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/044 - Local First.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
         }
       }
     }
