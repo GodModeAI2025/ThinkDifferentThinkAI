@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 44,
   "availableTranscriptCount": 44,
-  "availableEnglishTranscriptCount": 43,
+  "availableEnglishTranscriptCount": 44,
   "episodes": [
     {
       "index": 1,
@@ -1048,16 +1048,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2515533-m-5ccbaaa2031339d6992e6dd7e8a8ea30.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/044 - Local First.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/044 - Local First.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/044 - Local First.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/044 - Local First.md"
         }
       }
     }
