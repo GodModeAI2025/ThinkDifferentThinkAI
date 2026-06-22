@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 45,
   "availableTranscriptCount": 45,
-  "availableEnglishTranscriptCount": 44,
+  "availableEnglishTranscriptCount": 45,
   "episodes": [
     {
       "index": 1,
@@ -1072,16 +1072,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2522118-m-40035c184a07d4dd178fe35a4ee4dcec.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/045 - Three Days of Fable.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/045 - Three Days of Fable.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/045 - Three Days of Fable.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/045 - Three Days of Fable.md"
         }
       }
     }
