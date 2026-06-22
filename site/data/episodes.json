@@ -1,8 +1,8 @@
 {
   "feedUrl": "https://think-ai.podigee.io/feed/mp3",
   "generatedAt": "",
-  "episodeCount": 44,
-  "availableTranscriptCount": 44,
+  "episodeCount": 45,
+  "availableTranscriptCount": 45,
   "availableEnglishTranscriptCount": 44,
   "episodes": [
     {
@@ -1058,6 +1058,30 @@
         "en": {
           "available": true,
           "path": "transkripte-en/044 - Local First.md"
+        }
+      }
+    },
+    {
+      "index": 45,
+      "title": "Three Days of Fable",
+      "published": "Sat, 20 Jun 2026 14:59:00 +0000",
+      "duration": "2895",
+      "pageUrl": "https://think-ai.podigee.io/45-three-days-of-fable",
+      "embedUrl": "https://think-ai.podigee.io/45-three-days-of-fable/embed?context=external",
+      "imageUrl": "https://images.podigee-cdn.net/0x,smCDKbFTRI5a1NNXlJD8-GB6n5Qm72nHXLNb-26x2sjU=/https://main.podigee-cdn.net/uploads/u73317/4b1b9da6-ca7a-434e-ade7-6537f826a79e.jpg",
+      "audioUrl": "https://audio.podigee-cdn.net/2522118-m-40035c184a07d4dd178fe35a4ee4dcec.mp3?source=feed",
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/045 - Three Days of Fable.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/045 - Three Days of Fable.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
         }
       }
     }
