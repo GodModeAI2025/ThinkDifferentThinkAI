@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 46,
   "availableTranscriptCount": 46,
-  "availableEnglishTranscriptCount": 45,
+  "availableEnglishTranscriptCount": 46,
   "episodes": [
     {
       "index": 1,
@@ -1096,16 +1096,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2522129-m-18ad0ab42754528ec21892afbf13488b.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/046 - Vibe Consulting & Bonus.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/046 - Vibe Consulting & Bonus.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/046 - Vibe Consulting & Bonus.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/046 - Vibe Consulting & Bonus.md"
         }
       }
     }
