@@ -1,8 +1,8 @@
 {
   "feedUrl": "https://think-ai.podigee.io/feed/mp3",
   "generatedAt": "",
-  "episodeCount": 45,
-  "availableTranscriptCount": 45,
+  "episodeCount": 46,
+  "availableTranscriptCount": 46,
   "availableEnglishTranscriptCount": 45,
   "episodes": [
     {
@@ -1082,6 +1082,30 @@
         "en": {
           "available": true,
           "path": "transkripte-en/045 - Three Days of Fable.md"
+        }
+      }
+    },
+    {
+      "index": 46,
+      "title": "Vibe Consulting & Bonus",
+      "published": "Sun, 28 Jun 2026 11:31:00 +0000",
+      "duration": "3116",
+      "pageUrl": "https://think-ai.podigee.io/46-vibe-consulting-bonus",
+      "embedUrl": "https://think-ai.podigee.io/46-vibe-consulting-bonus/embed?context=external",
+      "imageUrl": "https://images.podigee-cdn.net/0x,sB4ZWDFOEUB-Qswl7_3KPz5Eygbd_bNane5DNb1Qqn0o=/https://main.podigee-cdn.net/uploads/u73317/30edf672-4d2c-456a-bb0e-f94a45b4a872.jpg",
+      "audioUrl": "https://audio.podigee-cdn.net/2522129-m-18ad0ab42754528ec21892afbf13488b.mp3?source=feed",
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/046 - Vibe Consulting & Bonus.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/046 - Vibe Consulting & Bonus.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
         }
       }
     }
