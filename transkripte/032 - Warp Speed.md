@@ -496,7 +496,7 @@ https://huggingface.co/
 
 **[00:16:00]** Open-Source-Modellen oder auch mit Open-Source-Entwicklungen, so was wie Co-Work, Firmtauglich-Hinstellen, weil das gibt es zwar von
 
-**[00:16:07]** Outropic, das hat man vielleicht keine Topic-Vertrag, dann gibt das vielleicht irgendwann vom Microsoft.
+**[00:16:07]** Anthropic, das hat man vielleicht keine Topic-Vertrag, dann gibt das vielleicht irgendwann vom Microsoft.
 
 **[00:16:11]** Ja, schöne Grüße gehen an den E7-Vertrag, da ist auch mal ein bisschen Geld mit verbunden, für die,
 
@@ -666,7 +666,7 @@ https://huggingface.co/
 
 **[00:22:13]** optimiert ist.
 
-**[00:22:14]** Wenn ich jetzt einen Skill in Gemini ausführe, ob May I in Croc oder in Orthropic Modellen,
+**[00:22:14]** Wenn ich jetzt einen Skill in Gemini ausführe, ob May I in Grok oder in Anthropic Modellen,
 
 **[00:22:20]** kann es ja sein, dass der Skill sagt, du passst mal oberhaft, also dass das Ergebnis
 
@@ -958,7 +958,7 @@ https://huggingface.co/
 
 **[00:32:54]** wird mehr unterhaltsam. Und ja, das ist ein Cinema-Video. So von der Seite auch da, ich mach mir keine Sorge um Google. Das war auch nicht der Abgesang nach dem Motto, Google wird das nicht hinkriegen.
 
-**[00:33:03]** Aber es ist erstaunlich, dass jetzt auf einmal Nvidia. Ich meine, die ganze Zeit hieß es, okay, Krug bringt was raus, dann kommt Ausropik, Ausropik, dann kommt Jegebity, Jegebity und dann kommt Gemini.
+**[00:33:03]** Aber es ist erstaunlich, dass jetzt auf einmal Nvidia. Ich meine, die ganze Zeit hieß es, okay, Grok bringt was raus, dann kommt Anthropic, Anthropic, dann kommt GPT, GPT und dann kommt Gemini.
 
 **[00:33:14]** Also ja, entweder Film oder Modelle und Reihenfolge, bitte willkürlich. Und jetzt kommt immer noch Nvidia um die Ecke und schmeißt wieder was vor die Tür.
 

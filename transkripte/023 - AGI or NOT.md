@@ -376,7 +376,7 @@ Reveal Internal Conflict in Frontier Models
 
 **[00:11:40]** Momente, die, ich sag mal so, eingetreten sind. Es gab ja einmal diesen Fall von Claudius,
 
-**[00:11:51]** bei dem Orthropic, dem System, eine Aufgabe gegeben hat, ein Geschäft zu führen. Und
+**[00:11:51]** bei dem Anthropic, dem System, eine Aufgabe gegeben hat, ein Geschäft zu führen. Und
 
 **[00:12:01]** quasi geguckt hat, wie gut ist das Ding, da drin dieses Geschäft zu führen, dafür
 
@@ -440,7 +440,7 @@ Reveal Internal Conflict in Frontier Models
 
 **[00:14:57]** okay gegeben hat, die dann relativ zügig quasi sehr planend, weil sie ein Ziel hatten. An der
 
-**[00:15:04]** Stelle ganz kurz. Grüße gehen ans Pentagon mit Croc. Herzlichen Glückwunsch. Ja, das kann
+**[00:15:04]** Stelle ganz kurz. Grüße gehen ans Pentagon mit Grok. Herzlichen Glückwunsch. Ja, das kann
 
 **[00:15:11]** kann schon schief gehen.
 
@@ -676,7 +676,7 @@ Reveal Internal Conflict in Frontier Models
 
 **[00:23:55]** normalerweise stattfinden dürfte, aber er findet aus irgendwelchen Gründen statt.
 
-**[00:23:59]** Na, er gab es nicht auch mal, auch wieder bei ausropics, so ein Thema, dass
+**[00:23:59]** Na, er gab es nicht auch mal, auch wieder bei anthropic, so ein Thema, dass
 
 **[00:24:04]** Claude haben etwas ermitteln lassen und während er in seinem reasoning war,
 
@@ -860,7 +860,7 @@ Reveal Internal Conflict in Frontier Models
 
 **[00:31:50]** Weißt du, trotzdem, ich hab vor was Angst.
 
-**[00:31:51]** Wir haben jetzt ja die Beispiele aus dem Umfeld von Ausropik genannt und von Claude und das
+**[00:31:51]** Wir haben jetzt ja die Beispiele aus dem Umfeld von Anthropic genannt und von Claude und das
 
 **[00:31:59]** Thema Datenmanglöschen und streitet es ab und streitet sich mit Kollegen.
 

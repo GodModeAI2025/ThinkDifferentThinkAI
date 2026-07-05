@@ -105,21 +105,21 @@ https://x.com/idosal1/status/2021661865588535599?s=46
 
 **[00:02:16]** Also ist jetzt in dem Sinn nicht humoristisch, aber nichtsdestotrotz, ich sage mal beeindruckend,
 
-**[00:02:23]** dass Croc, wir kennen es, ja, die Lieblings-KI von Elon, den Angriff auf den Iran sehr genau
+**[00:02:23]** dass Grok, wir kennen es, ja, die Lieblings-KI von Elon, den Angriff auf den Iran sehr genau
 
 **[00:02:31]** vorhergesagt hat, was den Zeitpunkt angeht, ich konnte es mir dann nicht verknifen und
 
-**[00:02:38]** ein Post zu schreiben, wo drin stand, Croc hat den Zeitpunkt gut vorhergesagt, aber
+**[00:02:38]** ein Post zu schreiben, wo drin stand, Grok hat den Zeitpunkt gut vorhergesagt, aber
 
-**[00:02:45]** Das passiert halt, wenn das Pentagon Croc einsetzt und den Schalter unsere Daten dürfen nicht
+**[00:02:45]** Das passiert halt, wenn das Pentagon Grok einsetzt und den Schalter unsere Daten dürfen nicht
 
 **[00:02:50]** zum Training des Modells genutzt werden, vergisst, umzulegen, ist wahrscheinlich alles
 
 **[00:02:55]** nicht richtig.
 
-**[00:02:56]** Aber ich fand es trotzdem irgendwie eine Ironie, wenn das Kriegsministerium Croc einsetzt und
+**[00:02:56]** Aber ich fand es trotzdem irgendwie eine Ironie, wenn das Kriegsministerium Grok einsetzt und
 
-**[00:03:04]** für den normalsterblichen Croc eine ziemlich exakte Vorhersage über den Eintrittszeitpunkt
+**[00:03:04]** für den normalsterblichen Grok eine ziemlich exakte Vorhersage über den Eintrittszeitpunkt
 
 **[00:03:09]** Ja, das ist schon interessant.
 
@@ -357,7 +357,7 @@ https://x.com/idosal1/status/2021661865588535599?s=46
 
 **[00:12:43]** heißt es dann Skilds und bei JetGPT heißt das kein Ahnowatt, ja, am Arsch die Räuber,
 
-**[00:12:49]** das ist schon irgendwie alles sehr unterschiedlich. Und dazwischen kommt dann Croc, der beantwortet
+**[00:12:49]** das ist schon irgendwie alles sehr unterschiedlich. Und dazwischen kommt dann Grok, der beantwortet
 
 **[00:12:54]** zwar sehr schönen Chemie-Fragen und Fragen des US-amerikanischen Angriffs oder Fragen
 
@@ -441,7 +441,7 @@ https://x.com/idosal1/status/2021661865588535599?s=46
 
 **[00:15:58]** besten helfen kann.
 
-**[00:15:59]** Croc hat ja auch so etwas gemacht, dass jetzt hier so Agents Warm und mit Agenten, die sie separat voneinander anstarten und orchestrieren, weil es ein Orchestrator Agent gibt, der seine Befehle gibt.
+**[00:15:59]** Grok hat ja auch so etwas gemacht, dass jetzt hier so Agents Warm und mit Agenten, die sie separat voneinander anstarten und orchestrieren, weil es ein Orchestrator Agent gibt, der seine Befehle gibt.
 
 **[00:16:15]** Und weil wir es von Claude hatten, ich meine Claude hat jetzt auch, wann war das vorgestern, vorvergestern, ich weiß es schon wieder nicht mehr, haben sie angefangen so etwas zu machen, wie okay, du kannst jetzt Aufgaben planen,
 

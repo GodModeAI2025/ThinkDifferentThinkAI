@@ -483,9 +483,9 @@ https://de.wikipedia.org/wiki/Neuromancer
 
 **[00:19:07]** Aber wenn ihr jetzt mal gerade guckt, so was so die in der jüngsten Vergangenheit passiert ist, dann ist ja gerade auch so etwas wie
 
-**[00:19:16]** Gemini bringt was Neues raus, dann kommt auf einmal Croc bringt was Neues raus, dann kommt Aeropmee, Aeropmee bringt was Neues raus,
+**[00:19:16]** Gemini bringt was Neues raus, dann kommt auf einmal Grok bringt was Neues raus, dann kommt Aeropmee, Aeropmee bringt was Neues raus,
 
-**[00:19:22]** dann kommt Metatropik, die bringt was Neues raus, unter Rad, das Rad, das Rad, das Rad, es dreht sich, dreht sich, dreht sich und ich merke es auch in der Schule meiner Kinder.
+**[00:19:22]** dann kommt Anthropic, die bringt was Neues raus, unter Rad, das Rad, das Rad, das Rad, es dreht sich, dreht sich, dreht sich und ich merke es auch in der Schule meiner Kinder.
 
 **[00:19:30]** dass es einen gewaltigen Unterschied bereits dort gibt, welches Tool habe ich zur Verfügung
 

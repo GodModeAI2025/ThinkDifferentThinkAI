@@ -623,7 +623,7 @@ https://arxiv.org/abs/2603.01213
 
 **[00:23:52]** So könntest du deine Krabbe bitten mit Open Cloud, also Open Cloud ist die Krabbe, Entschuldigung,
 
-**[00:24:00]** mit Cloud Code oder Codex für dich Anwendungen zu bauen, die dann gleich zu deployen und
+**[00:24:00]** mit Claude Code oder Codex für dich Anwendungen zu bauen, die dann gleich zu deployen und
 
 **[00:24:05]** dir dann sagen wir mal einen Link zu schicken nach dem Motto, hier du bin fertig, du
 
@@ -655,7 +655,7 @@ https://arxiv.org/abs/2603.01213
 
 **[00:25:19]** was auch jetzt, glaube ich, eigentlich schon so ein bisschen angekommen ist über das, was auch von
 
-**[00:25:23]** OpenAI kennst, dann hast du dann aber wirklich, dann hast du dann Cloud Code und Cloud Code.
+**[00:25:23]** OpenAI kennst, dann hast du dann aber wirklich, dann hast du dann Claude Code und Claude Code.
 
 **[00:25:31]** Das ist schon mal so, dass du erst Clotcode und dann Clotco-Wirk.
 
@@ -677,7 +677,7 @@ https://arxiv.org/abs/2603.01213
 
 **[00:26:10]** schwarzen Flächen mit Cursor Blinken und du schreibst deine Befehle und der Computer
 
-**[00:26:14]** macht. Um Cloud Code war ja erst im Terminal. Und da ist es ja auch immer noch und da
+**[00:26:14]** macht. Um Claude Code war ja erst im Terminal. Und da ist es ja auch immer noch und da
 
 **[00:26:20]** ist es ja auch, ich sag mal, am performantesten und am weitesten gepflegt und du kannst
 
@@ -685,11 +685,11 @@ https://arxiv.org/abs/2603.01213
 
 **[00:26:30]** das Ding auch in die Web-UI zu packen oder in ihre App-UI, nicht Web-UI, in ihre App-UI. Das ist dann
 
-**[00:26:36]** quasi auch Cloud-Code, aber irgendwie langsamer, weil mit dem Web-Interface dazwischen wird es irgendwie
+**[00:26:36]** quasi auch Claude-Code, aber irgendwie langsamer, weil mit dem Web-Interface dazwischen wird es irgendwie
 
 **[00:26:42]** noch schwierig. Dann war das irgendwie alles ein bisschen kompliziert für den normalen Anwender.
 
-**[00:26:47]** Nach dem Motto Cloud-Code ist ja für den Entwickler, wir brauchen noch was für den
+**[00:26:47]** Nach dem Motto Claude-Code ist ja für den Entwickler, wir brauchen noch was für den
 
 **[00:26:50]** Wissensarbeit und haben sie irgendwie Co-Work rausgehauen. Da siehst du dann auch,
 
@@ -811,7 +811,7 @@ https://arxiv.org/abs/2603.01213
 
 **[00:31:02]** brauche ich das besser in Cloud?
 
-**[00:31:04]** Ist das vielleicht eine Cloud Desktop oder per Plexi-Computer Anwendung, die man da benutzen
+**[00:31:04]** Ist das vielleicht eine Claude Desktop oder per Plexi-Computer Anwendung, die man da benutzen
 
 **[00:31:10]** könnte?
 
@@ -861,9 +861,9 @@ https://arxiv.org/abs/2603.01213
 
 **[00:32:37]** Kleinen gesagt, da kommt auch der Begriff dieser Saas-Pokalypse her, dass jetzt durch
 
-**[00:32:43]** die Tatsache, dass du mit Skills und Cloud Code in der Lage bist, sehr schnell dir
+**[00:32:43]** die Tatsache, dass du mit Skills und Claude Code in der Lage bist, sehr schnell dir
 
-**[00:32:49]** quasi ein Agententeam zusammenzubauen. Ich kann in Cloud Code und auch in Co-Work
+**[00:32:49]** quasi ein Agententeam zusammenzubauen. Ich kann in Claude Code und auch in Co-Work
 
 **[00:32:54]** kann ich Skills definieren. Skill ist ja das besagte Thema mit einer
 
@@ -1079,7 +1079,7 @@ https://arxiv.org/abs/2603.01213
 
 **[00:41:21]** machen sie Nano-Banana. Wenn sie Video wollen, machen sie VO3.1. Wenn sie schnell,
 
-**[00:41:25]** gleichgewichtige Tars haben, nehmen sie Croc. Wenn sie irgendwie Aufgaben haben,
+**[00:41:25]** gleichgewichtige Tars haben, nehmen sie Grok. Wenn sie irgendwie Aufgaben haben,
 
 **[00:41:29]** die einen sehr extra langen Kontext haben, nehmen sie irgendwie GPT52. Und das Ding
 
@@ -1129,7 +1129,7 @@ https://arxiv.org/abs/2603.01213
 
 **[00:43:11]** Und dann möchte ich auch noch mich damit beschäftigen, eigentlich in Zukunft,
 
-**[00:43:16]** ob das jetzt Cloud Code macht, ob das jetzt Cloud Desktop macht oder das normal Chat-Fans
+**[00:43:16]** ob das jetzt Claude Code macht, ob das jetzt Claude Desktop macht oder das normal Chat-Fans
 
 **[00:43:22]** da macht in dem Moment. Ja, also auch das ist im Prinzip immer noch so eine momentane
 
@@ -1373,7 +1373,7 @@ https://arxiv.org/abs/2603.01213
 
 **[00:52:44]** was.
 
-**[00:52:45]** Auch denen geht das verdammt schnell, wenn dann wieder ein Ausropik, ein Perplexity, ein Google,
+**[00:52:45]** Auch denen geht das verdammt schnell, wenn dann wieder ein Anthropic, ein Perplexity, ein Google,
 
 **[00:52:51]** ein Wehrhoch, immer was raushaut und ihre schönen Marketing Slides über das ist unser
 

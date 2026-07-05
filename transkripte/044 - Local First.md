@@ -285,7 +285,7 @@ https://de.root-nation.com/en/articles-en/analytics-en/en-emergence-ai-experimen
 
 **[00:08:46]** ist, wir haben ja auch vor kurzem die Pressemeldung gehabt, dass gerade auch von
 
-**[00:08:50]** an Tropic nochmal das Thema kam, mal egal ob das jetzt, wie sagt man, die Marketing oder
+**[00:08:50]** an Anthropic nochmal das Thema kam, mal egal ob das jetzt, wie sagt man, die Marketing oder
 
 **[00:08:55]** sonst was ist, lasst uns doch bitte mal die Entwicklung der KI-Systeme pausieren oder
 
@@ -1309,7 +1309,7 @@ https://de.root-nation.com/en/articles-en/analytics-en/en-emergence-ai-experimen
 
 **[00:48:42]** durchaus potent genug war, lokale Modelle auszuführen.
 
-**[00:48:46]** Ich sage jetzt mal Croc gebeten haben, mir eine persönliche Lebensempfehlung zu geben.
+**[00:48:46]** Ich sage jetzt mal Grok gebeten haben, mir eine persönliche Lebensempfehlung zu geben.
 
 **[00:48:51]** zu geben. Ja, einfach nur weil du so wegen der Privatenmodelle und des Datenschutzes wollte
 

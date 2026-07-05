@@ -113,7 +113,7 @@ In dieser Episode tauchen wir tief in die Welt der Skills ein und zeigen, warum 
 
 **[00:03:40]** quasi nachgucken kannst. Und ich möchte mal kurz dann zur Technik jetzt mal überschwenken,
 
-**[00:03:44]** ja, weil ich kann jetzt, wenn ich Cloud Code bitte oder ChatGPT backe mir Brot, da kommt
+**[00:03:44]** ja, weil ich kann jetzt, wenn ich Claude Code bitte oder ChatGPT backe mir Brot, da kommt
 
 **[00:03:51]** momentan noch wenig raus. Außer ich hätte den Skill, der ist ja meine Brotbackmaschine
 

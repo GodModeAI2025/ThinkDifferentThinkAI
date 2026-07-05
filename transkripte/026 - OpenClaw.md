@@ -451,7 +451,7 @@ Jens und ich diskutieren, wie diese neuen Agenten nicht nur Aufgaben automatisie
 
 **[00:16:03]** und was nicht, weil, warum sage ich das noch mal explizit, seit dem letzten Mal ist
 
-**[00:16:07]** ja auch von OpenAI das Codex, die Codex App herausgekommen, so ähnlich wie Cloud Desktop,
+**[00:16:07]** ja auch von OpenAI das Codex, die Codex App herausgekommen, so ähnlich wie Claude Desktop,
 
 **[00:16:14]** nur halt von OpenAI und für Codex und auch für Mac. Und die haben jetzt zum Beispiel auch,
 

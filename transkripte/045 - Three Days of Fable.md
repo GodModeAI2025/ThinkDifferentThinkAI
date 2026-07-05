@@ -25,11 +25,11 @@ transcribed_at: "2026-06-22T12:06:23+00:00"
 ## Beschreibung
 
 Context Survives, Models Don’t.
-Entropic veröffentlichte das neue KI-Modell Fable 5, das beeindruckende Ergebnisse erzielt, aber aufgrund von Sicherheitsbedenken nur bis zum 20.12. im Abo verfügbar ist. Der System-Prompt von Fable wurde geleakt, was zu einer Anhörung im Weißen Haus führte. Die Mythos-Klasse, zu der Fable 5 gehört, wurde ursprünglich nur großen Playern wie Amazon und Google zur Verfügung gestellt, da sie Sicherheitslücken aufdeckte.
+Anthropic veröffentlichte das neue KI-Modell Fable 5, das beeindruckende Ergebnisse erzielt, aber aufgrund von Sicherheitsbedenken nur bis zum 20.12. im Abo verfügbar ist. Der System-Prompt von Fable wurde geleakt, was zu einer Anhörung im Weißen Haus führte. Die Mythos-Klasse, zu der Fable 5 gehört, wurde ursprünglich nur großen Playern wie Amazon und Google zur Verfügung gestellt, da sie Sicherheitslücken aufdeckte.
 
-Anthropic hat das Modell Fabel 5 veröffentlicht, das angeblich Sicherheitslücken entdeckt. Nach der Ankündigung wurde das Modell jedoch schnell wieder zurückgezogen, was auf geopolitische Bedenken zurückzuführen ist. Die US-Regierung hat Entropic, dem Unternehmen hinter Anthropic, angewiesen, das Modell nicht mehr amerikanischen Bürgern zur Verfügung zu stellen, was zu Problemen für Nutzer führte.
+Anthropic hat das Modell Fabel 5 veröffentlicht, das angeblich Sicherheitslücken entdeckt. Nach der Ankündigung wurde das Modell jedoch schnell wieder zurückgezogen, was auf geopolitische Bedenken zurückzuführen ist. Die US-Regierung hat Anthropic, dem Unternehmen hinter Anthropic, angewiesen, das Modell nicht mehr amerikanischen Bürgern zur Verfügung zu stellen, was zu Problemen für Nutzer führte.
 
-Die Sperrung von KI-Modellen, wie Entropic, hat weitreichende Konsequenzen für Unternehmen, die auf diese Modelle angewiesen sind. Es wird diskutiert, wie man sich auf solche unvorhergesehenen Brüche in Workflows vorbereiten kann, z.B. durch den Aufbau einer robusten IT-KI-Infrastruktur und die Möglichkeit, schnell auf alternative Modelle umzusteigen. Ein weiteres Thema ist die Abhängigkeit von externen Anbietern und die Frage nach der Kontrolle über den “Harness”, in dem die KI-Modelle laufen.
+Die Sperrung von KI-Modellen, wie Anthropic, hat weitreichende Konsequenzen für Unternehmen, die auf diese Modelle angewiesen sind. Es wird diskutiert, wie man sich auf solche unvorhergesehenen Brüche in Workflows vorbereiten kann, z.B. durch den Aufbau einer robusten IT-KI-Infrastruktur und die Möglichkeit, schnell auf alternative Modelle umzusteigen. Ein weiteres Thema ist die Abhängigkeit von externen Anbietern und die Frage nach der Kontrolle über den “Harness”, in dem die KI-Modelle laufen.
 
 Das Fabel-Modell wurde als schlechtestes Modell im Vergleich zu anderen KI-Modellen bewertet. Die Diskussion drehte sich um die Notwendigkeit eines intelligenten Modell-Switchers und die Speicherung von kontextualem Wissen in einem “Second Brain”, um die Souveränität über das eigene Wissen zu behalten. Ein offenes Wissensformat (OKF) von Google wurde als Lösung für die Speicherung und Verarbeitung von Informationen in einem universellen Format vorgeschlagen.
 
@@ -71,7 +71,7 @@ Es wird diskutiert, ob professionell dokumentierte Informationen auf das Wesentl
 
 **[00:01:22]** ja total langweilig, weil neue Modelle sind natürlich Bandrechen. Neue Modelle sind natürlich
 
-**[00:01:28]** das beste Modell, das wir jemals gebaut haben und so hat Entropic Fable 5 herausgebracht auf Deutsch
+**[00:01:28]** das beste Modell, das wir jemals gebaut haben und so hat Anthropic Fable 5 herausgebracht auf Deutsch
 
 **[00:01:36]** Fabel, also wer weiß ich mir überlegt, Fabel, so nach dem Motto, er birgt eine wahre Geschichte am
 
@@ -93,11 +93,11 @@ Es wird diskutiert, ob professionell dokumentierte Informationen auf das Wesentl
 
 **[00:02:27]** Und darum gibt es weiterhin dieses, ich weiß alles, Mythos-Modell und Fable 5 als ja,
 
-**[00:02:33]** Consumer, Prosumer, professioneller Kunden, wie auch immer Modell im Angebot. Und das hat Entropic
+**[00:02:33]** Consumer, Prosumer, professioneller Kunden, wie auch immer Modell im Angebot. Und das hat Anthropic
 
 **[00:02:41]** uns allen angeboten und hat dabei gesagt Freunde, ihr dürft dieses Modell benutzen, ihr kriegt
 
-**[00:02:47]** ist. Das war schon sehr merkwürdig für Menschen, die so ein Abo-Modell bei Entropic haben.
+**[00:02:47]** ist. Das war schon sehr merkwürdig für Menschen, die so ein Abo-Modell bei Anthropic haben.
 
 **[00:02:51]** Ihr dürft das bis zum Paar 20. im Rahmen eures Abos mitverwenden. Danach wird es wahrscheinlich
 
@@ -181,7 +181,7 @@ Es wird diskutiert, ob professionell dokumentierte Informationen auf das Wesentl
 
 **[00:05:59]** guck mal, was du da verbessern könntest. Was fällt dir auf? Best practice? Keine Ahnung was.
 
-**[00:06:03]** Und ich habe denselben Prompt an Opus und an GPT55. Also Opus, das andere Modell von Intropic und
+**[00:06:03]** Und ich habe denselben Prompt an Opus und an GPT55. Also Opus, das andere Modell von Anthropic und
 
 **[00:06:11]** GPT55, also von Codex. Und Fable war umlängenausführlicher. Er hat allerdings bei mir auch länger
 
@@ -191,7 +191,7 @@ Es wird diskutiert, ob professionell dokumentierte Informationen auf das Wesentl
 
 **[00:06:28]** Und ich hab ihm dann auch sehr viel abverlangen,
 
-**[00:06:31]** so dass ich tatsächlich meinen Wochenlimit bei Entropics verblasen habe an dem ersten Abend.
+**[00:06:31]** so dass ich tatsächlich meinen Wochenlimit bei Anthropic verblasen habe an dem ersten Abend.
 
 **[00:06:37]** Und dann gesperrt wurde bis Sonntag.
 
@@ -227,7 +227,7 @@ Es wird diskutiert, ob professionell dokumentierte Informationen auf das Wesentl
 
 **[00:07:40]** Was ist denn passiert?
 
-**[00:07:42]** Ich habe ja vorhin gesagt, Entropic hat das Modell so verarbeitet, dass es zu Biologie
+**[00:07:42]** Ich habe ja vorhin gesagt, Anthropic hat das Modell so verarbeitet, dass es zu Biologie
 
 **[00:07:48]** und Informationssicherheit keine Auskünfte gibt.
 
@@ -259,7 +259,7 @@ Es wird diskutiert, ob professionell dokumentierte Informationen auf das Wesentl
 
 **[00:08:42]** in Teilen, Security, Haussagen und Feindings findet.
 
-**[00:08:46]** Da gab es jetzt auch wieder eine Anhörung im Weißen Haus von Entropic.
+**[00:08:46]** Da gab es jetzt auch wieder eine Anhörung im Weißen Haus von Anthropic.
 
 **[00:08:50]** Da möchte ich überhaupt nicht zu tief eingehen.
 
@@ -345,7 +345,7 @@ Es wird diskutiert, ob professionell dokumentierte Informationen auf das Wesentl
 
 **[00:12:05]** der Schwachstelle ausgewiesen wird. Ich meine davon hat ja Firefox nix, wenn die
 
-**[00:12:10]** dann schreiben, oh, das war Mythos, ja, der hätte Entropic was schon nach dem Motto
+**[00:12:10]** dann schreiben, oh, das war Mythos, ja, der hätte Anthropic was schon nach dem Motto
 
 **[00:12:15]** guck mal, ist es wirklich so gefährlich. Aber lassen wir mal dahingestellt, es gab
 
@@ -355,11 +355,11 @@ Es wird diskutiert, ob professionell dokumentierte Informationen auf das Wesentl
 
 **[00:12:35]** dass der Verteidigungsminister oder Kriegsminister, ich will es ja niemanden beleidigen,
 
-**[00:12:41]** Das ist der US-Aurikaner, die ja schon Entropic als Lieferkettenrisiko ausgewiesen haben.
+**[00:12:41]** Das ist der US-Aurikaner, die ja schon Anthropic als Lieferkettenrisiko ausgewiesen haben.
 
 **[00:12:49]** Das ist auf einmal von der US-Amerikanin heißt, oh, du passt mal obacht.
 
-**[00:12:54]** Entropic darf das Modell nicht mehr nicht amerikanischen Bürgern zur Verfügung stellen.
+**[00:12:54]** Anthropic darf das Modell nicht mehr nicht amerikanischen Bürgern zur Verfügung stellen.
 
 **[00:13:03]** Ja, das ist nochmal ein krasses Ding.
 
@@ -463,7 +463,7 @@ Es wird diskutiert, ob professionell dokumentierte Informationen auf das Wesentl
 
 **[00:17:03]** was ist denn da los? Im meinem Kopf hatte ich aber noch diese besagte Sperre bis Sonntag,
 
-**[00:17:08]** weil ich mein Wochenlimit aufgebraucht habe. Was ich nie mitgekriegt habe, ist, dass Entropic
+**[00:17:08]** weil ich mein Wochenlimit aufgebraucht habe. Was ich nie mitgekriegt habe, ist, dass Anthropic
 
 **[00:17:12]** hingegangen ist und gesagt hat, so alle Kunden, die in der Zeit von Table 5 ihr Account abgeschlossen
 
@@ -537,7 +537,7 @@ Es wird diskutiert, ob professionell dokumentierte Informationen auf das Wesentl
 
 **[00:20:17]** häufig zitiert, das sprecht durch Fallaus auf. Das hat ja weitreichende Konsequenzen, weil zum einen
 
-**[00:20:23]** das Modell, wenn ein Tropic ist, umsetzen könnte, nur er ist Amerikaner. Und das Zweite ist, was heißt
+**[00:20:23]** das Modell, wenn ein Anthropic ist, umsetzen könnte, nur er ist Amerikaner. Und das Zweite ist, was heißt
 
 **[00:20:29]** das denn für neue Modelle? Ich meine, es steht ja schon im Raum, vielleicht ist das zur Ausstrahlung
 
@@ -667,9 +667,9 @@ Es wird diskutiert, ob professionell dokumentierte Informationen auf das Wesentl
 
 **[00:25:20]** Harnes Engineering ein, weil am Ende vom Tag willst du ja Modell unabhängig werden.
 
-**[00:25:26]** Du willst ja dann, ihr sagt mal, ist ja schön, wenn wir Entropic haben, aber stell dir vor,
+**[00:25:26]** Du willst ja dann, ihr sagt mal, ist ja schön, wenn wir Anthropic haben, aber stell dir vor,
 
-**[00:25:30]** Entropic kriegt den Stecker gezogen, jetzt auch weil, ich habe ja vorhin gesagt, die
+**[00:25:30]** Anthropic kriegt den Stecker gezogen, jetzt auch weil, ich habe ja vorhin gesagt, die
 
 **[00:25:34]** Einstufung als, was die Lieferketten angeht, jetzt stell dir mal vor, du kannst das irgendwie
 
@@ -761,7 +761,7 @@ Es wird diskutiert, ob professionell dokumentierte Informationen auf das Wesentl
 
 **[00:29:53]** und es kommt nie. Es war halt jetzt nur das Favel-Modell und ich bin echt gespannt, ob das Modell
 
-**[00:30:00]** nochmal das Licht der Welt erblickt, wie Entropic damit umgeht, weil wir haben ja mal auch gelernt,
+**[00:30:00]** nochmal das Licht der Welt erblickt, wie Anthropic damit umgeht, weil wir haben ja mal auch gelernt,
 
 **[00:30:05]** Modelle werden nie wieder so schlecht wie heute. Das heißt, Favel ist in dem Blick auf einem halben
 
@@ -1141,13 +1141,13 @@ Es wird diskutiert, ob professionell dokumentierte Informationen auf das Wesentl
 
 **[00:44:45]** Modell wieder online stellen, ob Sie, Sie werden ein Modell online stellen müssen, weil
 
-**[00:44:51]** Entropic kann in Zeiten alle gehen an die Börse, ist sicher auch gar nicht leistend. Stellt
+**[00:44:51]** Anthropic kann in Zeiten alle gehen an die Börse, ist sicher auch gar nicht leistend. Stellt
 
-**[00:44:57]** ihr mal vor, Entropic bliebe gesperrt und OpenAI würde sein neues Modell herausbringen,
+**[00:44:57]** ihr mal vor, Anthropic bliebe gesperrt und OpenAI würde sein neues Modell herausbringen,
 
 **[00:45:03]** 5.6 und nachdem jetzt hier Elon mit SpaceX an die Börse gegangen ist, kommt die
 
-**[00:45:07]** als nächstes und Entropic würde da hin knapsen, so könnte eine Firma auch schnell kaputt gehen,
+**[00:45:07]** als nächstes und Anthropic würde da hin knapsen, so könnte eine Firma auch schnell kaputt gehen,
 
 **[00:45:13]** weil es kostet zwar das viel Geld, was sie machen, aber wenn du halt keine Kunden hast,
 

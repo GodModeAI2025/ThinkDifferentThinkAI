@@ -713,7 +713,7 @@ https://de.wikipedia.org/wiki/Netscape_Navigator
 
 **[00:20:02]** sehr wenig, bis gar keine Ahnung, wie die Original-APs gehen. Kannst du quasi dem System, das war
 
-**[00:20:08]** damals mit Cloud Desktop, wo wir es ausprobiert haben, zugucken, wie der quasi eigenständig
+**[00:20:08]** damals mit Claude Desktop, wo wir es ausprobiert haben, zugucken, wie der quasi eigenständig
 
 **[00:20:14]** sagt, jetzt mal ein Anführungszeichen, man kann es ja nicht sehen, wenn es die Luftgäste
 

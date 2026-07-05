@@ -1007,7 +1007,7 @@ https://www.handelsblatt.com/
 
 **[00:38:45]** die Systeme gelernt haben, sondern es hat auch das, was die Systeme von ihren Herausgebern schon
 
-**[00:38:52]** mitbekommen haben. Also ich meine, wo hier Croc gab es doch mal die Geschichte, dass Croc
+**[00:38:52]** mitbekommen haben. Also ich meine, wo hier Grok gab es doch mal die Geschichte, dass Grok
 
 **[00:38:56]** irgendwie die Anweisung bekommen hat, kritisiere niemals Elon. Wobei ich da mal gegen halt würde,
 

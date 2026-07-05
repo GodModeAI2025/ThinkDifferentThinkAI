@@ -26,7 +26,7 @@ transcribed_at: "2026-06-02T10:38:51+00:00"
 
 Come to the dark side - we have cookies
 Mark holt sich für diese Folge Verstärkung: Thomas Lang, seit 26 Jahren in der IT, davon viele in der Informationssicherheit. Sein Fachgebiet beginnt genau dort, wo niemand sein will — wenn der Hacker schon da war oder wenn man verhindern will, dass er kommt.
-Was als Gespräch über Hackerangriffe beginnt, wird schnell ein Rundgang durch eine veränderte Bedrohungslage. Früher musste ein Angreifer wissen, wie man nmap schreibt, sich unauffällig durch Netzwerke bewegt und Schwachstellen findet. Heute reicht ein Satz an ein Sprachmodell. Cloud-Code, Docker, MCP-Server für Kali Linux und Shodan — die Werkzeugkette steht in fünf Minuten. Die Eintrittshürde fürs Hacker-Handwerk ist drastisch gesunken.
+Was als Gespräch über Hackerangriffe beginnt, wird schnell ein Rundgang durch eine veränderte Bedrohungslage. Früher musste ein Angreifer wissen, wie man nmap schreibt, sich unauffällig durch Netzwerke bewegt und Schwachstellen findet. Heute reicht ein Satz an ein Sprachmodell. Claude-Code, Docker, MCP-Server für Kali Linux und Shodan — die Werkzeugkette steht in fünf Minuten. Die Eintrittshürde fürs Hacker-Handwerk ist drastisch gesunken.
 
 Thomas erzählt aus der Praxis: Wie sich Angreifer 14 Monate lang mit Domain-Admin-Rechten auf einem Terminal Server tummelten. Wie ein Azubi privat Hacker-Skills gelernt und ungestraft im Firmennetz ausprobiert hat. Und warum Unternehmen gegen interne Täter typischerweise viel schlechter geschützt sind als gegen externe.
 
@@ -1046,7 +1046,7 @@ Am Ende steht eine Beobachtung, über die heute morgen bereits eine Bank in Fran
 
 **[00:42:56]** dann auch die Frage stellt, oder einer hat letztens geschrieben, 27, das 27-fache zu
 
-**[00:43:00]** bezahlen für Opus, wo ich dann denk, alter, war nicht von Entropik, war ein
+**[00:43:00]** bezahlen für Opus, wo ich dann denk, alter, war nicht von Anthropic, war ein
 
 **[00:43:05]** anderer Dienstleister, sei mal dahingestellt, wir wurden ja hier niemandem
 
@@ -1086,7 +1086,7 @@ Am Ende steht eine Beobachtung, über die heute morgen bereits eine Bank in Fran
 
 **[00:44:27]** wir eure Beide in Meinungen interessieren. Ich nähere mich jetzt gleich wieder der Staffelstab
 
-**[00:44:31]** Übergabe des gesprochenen Wortes. Entropic gab es ja damals diese Geschichte mit Mythos,
+**[00:44:31]** Übergabe des gesprochenen Wortes. Anthropic gab es ja damals diese Geschichte mit Mythos,
 
 **[00:44:38]** wer aus einer eigenen Sandbox ausgebrochen und hätte seinem Mitarbeitenden eine Mail geschickt.
 
@@ -1126,9 +1126,9 @@ Am Ende steht eine Beobachtung, über die heute morgen bereits eine Bank in Fran
 
 **[00:46:16]** Es hilft halt bei der Einordnung, dass wenn sich Banken mit der Frage beschäftigen,
 
-**[00:46:23]** dann ist ja die Frage egal, ob die Geschichte von Entropic war oder falsch ist. Aber man merkt,
+**[00:46:23]** dann ist ja die Frage egal, ob die Geschichte von Anthropic war oder falsch ist. Aber man merkt,
 
-**[00:46:31]** Wenn sich die Firmen mit der Frage beschäftigen, dass Einschläge kommen könnten, durch Modelle, wie, ob es ein Mythos ist oder ein zukünftiges Krog oder ein chinesisches Modell, ja, ich meine Entropic macht da riesen Wirbel und sagt, okay, hier nur ausgewählte Menschen quasi, ich würde das jetzt nicht jedem zu muten oder sagen, behaupten, dass der das auch so tun wird, ja, also auf einmal tropt irgendwie keine Ahnung, Chemica 8 und dann stehste da.
+**[00:46:31]** Wenn sich die Firmen mit der Frage beschäftigen, dass Einschläge kommen könnten, durch Modelle, wie, ob es ein Mythos ist oder ein zukünftiges Krog oder ein chinesisches Modell, ja, ich meine Anthropic macht da riesen Wirbel und sagt, okay, hier nur ausgewählte Menschen quasi, ich würde das jetzt nicht jedem zu muten oder sagen, behaupten, dass der das auch so tun wird, ja, also auf einmal tropt irgendwie keine Ahnung, Chemica 8 und dann stehste da.
 
 **[00:47:00]** und dann stehst du da und sagst, uch, der fröhliche Chineser von nebenan und ich mache jetzt keine
 

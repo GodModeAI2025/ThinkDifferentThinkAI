@@ -288,7 +288,7 @@ Das Spannende: Notion verkauft eigentlich Tokens („we sell work"). Mit der Wor
 
 **[00:11:09]** Also ich hab selber mir gebaut dieses, also da hab ich dann,
 
-**[00:11:13]** bisschen umständlich mit Cloud Code im,
+**[00:11:13]** bisschen umständlich mit Claude Code im,
 
 **[00:11:15]** also nicht im CLI, sondern eben in diesem, mit dieser App, von Cloud MacOS App,
 
@@ -328,7 +328,7 @@ Das Spannende: Notion verkauft eigentlich Tokens („we sell work"). Mit der Wor
 
 **[00:12:09]** ich das an diesem CLI auch tatsächlich gemacht, also in diesem Terminal immer alles eingegeben.
 
-**[00:12:13]** Das hat super geklappt. Dann habe ich das Cloud Code auf Terminal genutzt und nicht auf Desktop.
+**[00:12:13]** Das hat super geklappt. Dann habe ich das Claude Code auf Terminal genutzt und nicht auf Desktop.
 
 **[00:12:19]** Und das hat auch alles geklappt. Und jetzt habe ich einen Worker, der regelmäßig in dem Fall
 
@@ -460,7 +460,7 @@ Das Spannende: Notion verkauft eigentlich Tokens („we sell work"). Mit der Wor
 
 **[00:17:14]** zwar vorher auch mit anderen KI-System tun, ja, ich meine mein drittliebstes Hobby oder
 
-**[00:17:19]** so, sind ja Skills in Cloud Code und so. Aber das war schon beeindruckend zu sehen und dann
+**[00:17:19]** so, sind ja Skills in Claude Code und so. Aber das war schon beeindruckend zu sehen und dann
 
 **[00:17:25]** habe ich mir auch gedacht, wenn du jetzt jemand bist, der seine Firma in Notion hat, der,
 
@@ -676,7 +676,7 @@ Das Spannende: Notion verkauft eigentlich Tokens („we sell work"). Mit der Wor
 
 **[00:26:19]** Und eben, weil du es gesagt hast, hier Claude Cote, wäre so, ich sag mal das maß der Dinge,
 
-**[00:26:25]** das ist ja auch so ein stetig tränender Kreis. Also es gibt dann Croc und dann gibt es Entropic und
+**[00:26:25]** das ist ja auch so ein stetig tränender Kreis. Also es gibt dann Grok und dann gibt es Anthropic und
 
 **[00:26:31]** dann gibt es, die geben sich alle nix und jeder bringt ein neues Modell raus. Vielleicht an
 
@@ -686,9 +686,9 @@ Das Spannende: Notion verkauft eigentlich Tokens („we sell work"). Mit der Wor
 
 **[00:26:48]** gell ja genau genau und du kannst die auch wieder gegen clotcode koppeln also
 
-**[00:26:55]** gegen dieses cli von entropic kannst du gehen und sagen okay wir nehmen jetzt
+**[00:26:55]** gegen dieses cli von anthropic kannst du gehen und sagen okay wir nehmen jetzt
 
-**[00:27:00]** nicht die opost modelle von entropic usa wir nehmen auch nicht die entropic
+**[00:27:00]** nicht die opost modelle von anthropic usa wir nehmen auch nicht die anthropic
 
 **[00:27:06]** modelle die vielleicht bei amazon bedrock in der eu 200 frankfurt gehostet
 
@@ -704,19 +704,19 @@ Das Spannende: Notion verkauft eigentlich Tokens („we sell work"). Mit der Wor
 
 **[00:27:44]** dann gibt es so einen sogenannten Proxy, ist jetzt nicht in drei Sekunden erklärt, aber es gibt
 
-**[00:27:50]** Anleitung im Netz und es wird auch von Entropic unterstützt. Die erklären das auch in ihren
+**[00:27:50]** Anleitung im Netz und es wird auch von Anthropic unterstützt. Die erklären das auch in ihren
 
 **[00:27:55]** entsprechenden Dokumenten und dann kannst du selbst das Ding gegen lokale Modelle laufen lassen.
 
 **[00:28:00]** Allerdings natürlich wird dann auch nicht alles ganz genauso funktionieren, wie man es
 
-**[00:28:05]** vielleicht mit den Entropic-Modellen in der Cloud hat. Aber auch hier merkt man die Hersteller,
+**[00:28:05]** vielleicht mit den Anthropic-Modellen in der Cloud hat. Aber auch hier merkt man die Hersteller,
 
 **[00:28:10]** ich will jetzt nicht sagen, topidieren ein eigenes Geschäftsmodell, aber so wie Notion sagt,
 
 **[00:28:17]** naja gut, wir wollen zwar Arbeit verkaufen, aber hier ist eine alternative günstigere Lösung,
 
-**[00:28:22]** kommt auf einmal Entropic um die Ecke und sagt, du findest unser CLI gut,
+**[00:28:22]** kommt auf einmal Anthropic um die Ecke und sagt, du findest unser CLI gut,
 
 **[00:28:26]** du findest unsere Anwendung gut, ja, du kannst auch etwas anderes hinten dran nehmen. Das ist
 
@@ -728,7 +728,7 @@ Das Spannende: Notion verkauft eigentlich Tokens („we sell work"). Mit der Wor
 
 **[00:28:37]** Genau, und wenn du überlegst, was die alle, also jetzt, es gibt ja die einen, die wirklich
 
-**[00:28:42]** investieren und investieren in die, in Modelle und Modelle rausbringen wie in Tropic oder
+**[00:28:42]** investieren und investieren in die, in Modelle und Modelle rausbringen wie in Anthropic oder
 
 **[00:28:48]** Google und so weiter und da gibt es die anderen, die das nutzen, nämlich so wie Apple das
 
@@ -790,13 +790,13 @@ Das Spannende: Notion verkauft eigentlich Tokens („we sell work"). Mit der Wor
 
 **[00:31:22]** jetzt mein Kollege, der Claude Agent, irgendwo dran. Und das ist echt gut gemacht. Also
 
-**[00:31:28]** das fand ich sehr beeindruckend. Entropic hat das, was du beschrieben hast von
+**[00:31:28]** das fand ich sehr beeindruckend. Anthropic hat das, was du beschrieben hast von
 
 **[00:31:35]** gewissen Zeit angekündigt und hatte bei der Ankündigung erwähnt, dass Notion einer der
 
-**[00:31:41]** ersten ist, die das mit unterstützen und du kannst bei Entropic quasi Cloud Infrastruktur von
+**[00:31:41]** ersten ist, die das mit unterstützen und du kannst bei Anthropic quasi Cloud Infrastruktur von
 
-**[00:31:48]** Entropic nutzen, in denen dann von dir gebaute KI-Agenten laufen. Also das ist jetzt nicht,
+**[00:31:48]** Anthropic nutzen, in denen dann von dir gebaute KI-Agenten laufen. Also das ist jetzt nicht,
 
 **[00:31:56]** dass du da was programmierst, im deterministischen Sinne, wie die Worker selbst,
 
@@ -814,9 +814,9 @@ Das Spannende: Notion verkauft eigentlich Tokens („we sell work"). Mit der Wor
 
 **[00:32:38]** von ihnen will, die quasi jederzeit parat stehen.
 
-**[00:32:42]** Bei Entropik gibt es für die Berechnung die üblichen Tokenpreise plus einen ganz
+**[00:32:42]** Bei Anthropic gibt es für die Berechnung die üblichen Tokenpreise plus einen ganz
 
-**[00:32:49]** kleinen Opulus, den man auf den Top bezahlen muss. Entropic betreibt diese Infrastruktur auch
+**[00:32:49]** kleinen Opulus, den man auf den Top bezahlen muss. Anthropic betreibt diese Infrastruktur auch
 
 **[00:32:55]** mit ganz speziellen Sandboxen, also dass das Ding nicht ausbricht, dass der nicht Amok läuft
 
@@ -902,7 +902,7 @@ Das Spannende: Notion verkauft eigentlich Tokens („we sell work"). Mit der Wor
 
 **[00:36:38]** es ein privates Githubprojekt ist, muss ich da Geld zahlen. Und solche Dinge kannst du
 
-**[00:36:42]** dann halt schon Entropic machen lassen. Der tut quasi was mit Dingen, die online erreichbar
+**[00:36:42]** dann halt schon Anthropic machen lassen. Der tut quasi was mit Dingen, die online erreichbar
 
 **[00:36:49]** sind, ohne dass du dein Rechner aufhaben musst. Damit sticht und ergreifen, KI dann auch dann
 
@@ -914,9 +914,9 @@ Das Spannende: Notion verkauft eigentlich Tokens („we sell work"). Mit der Wor
 
 **[00:37:16]** den Antwort zurück. Das würde der Agent in Notion auch tun, wenn
 
-**[00:37:21]** der Recher zu ist. Ja, nur, dass der Agent in Notion existiert und Entropic auch
+**[00:37:21]** der Recher zu ist. Ja, nur, dass der Agent in Notion existiert und Anthropic auch
 
-**[00:37:26]** noch andere Kunden als Notion hat. Entropic hat ja auch Anwender, die nicht nur...
+**[00:37:26]** noch andere Kunden als Notion hat. Anthropic hat ja auch Anwender, die nicht nur...
 
 **[00:37:32]** Nicht mein Andersrum. Also die Möglichkeit, die jetzt seit der
 
@@ -964,11 +964,11 @@ Das Spannende: Notion verkauft eigentlich Tokens („we sell work"). Mit der Wor
 
 **[00:39:09]** habe.
 
-**[00:39:10]** Agent ist ja in der Benutzeroberfläche und eine Funktion, die in Notion läuft und der Entropic
+**[00:39:10]** Agent ist ja in der Benutzeroberfläche und eine Funktion, die in Notion läuft und der Anthropic
 
 **[00:39:16]** Manage Agents oder wie man das Ding, ja Manage Agents, ist quasi die dahinter liegende Cloud
 
-**[00:39:23]** Infrastruktur, die von Entropic da geboten wird. Ich bin mir gar nicht so sicher, ob diese
+**[00:39:23]** Infrastruktur, die von Anthropic da geboten wird. Ich bin mir gar nicht so sicher, ob diese
 
 **[00:39:29]** Agenten von Notion nicht sogar da laufen. Wie weit du das dann für dich als Anwender brauchst,
 
@@ -980,7 +980,7 @@ Das Spannende: Notion verkauft eigentlich Tokens („we sell work"). Mit der Wor
 
 **[00:39:53]** macht ja sowas wie Texterstellen, Datenbankpflegen, Notion-Seiten, analysieren und ein Managed
 
-**[00:40:02]** Agent bei Entropic, kann außerhalb von Notion arbeiten. Ihr kann außerhalb von Notion-Dinger
+**[00:40:02]** Agent bei Anthropic, kann außerhalb von Notion arbeiten. Ihr kann außerhalb von Notion-Dinger
 
 **[00:40:10]** adressieren. Ihr kann außerhalb von Notion und in Notion-Rechtigungen pflegen. Also ich glaube,
 
@@ -1050,7 +1050,7 @@ Das Spannende: Notion verkauft eigentlich Tokens („we sell work"). Mit der Wor
 
 **[00:42:39]** Ja, da kannst du sagen, was will möchte ich? Du kannst ihm dort schon direkt prompt zum Skills geben oder dich quasi durch ein Frage-Anfortspiegel zu diesem Managed Agent hinleiten lassen.
 
-**[00:42:50]** Und du kannst da auch Ergebnisse, die du in Cloud Code machst, auch hochladen, sinngemäß und sagen, hier, mach was draus, hat mir da schon ausführliche Gedanken gemacht, hier liegt was auf der Platte, ich hab hier, wie gesagt, Skills, ich hab hier keine Ahnung, was.
+**[00:42:50]** Und du kannst da auch Ergebnisse, die du in Claude Code machst, auch hochladen, sinngemäß und sagen, hier, mach was draus, hat mir da schon ausführliche Gedanken gemacht, hier liegt was auf der Platte, ich hab hier, wie gesagt, Skills, ich hab hier keine Ahnung, was.
 
 **[00:43:03]** Dann betreibt ihr die dort und macht ihr auch sowas wie eine kostenkontrolle.
 
@@ -1058,7 +1058,7 @@ Das Spannende: Notion verkauft eigentlich Tokens („we sell work"). Mit der Wor
 
 **[00:43:16]** Und das macht halt über dieses interface und wie gesagt da konnte man ganz viele sachen hochladen und bereitstellen und soweit ich das mitbekomme kannst
 
-**[00:43:25]** Das ist mittlerweile von Cloud Code aus, aus der CLI heraus auch befeuern, direkt befeuern
+**[00:43:25]** Das ist mittlerweile von Claude Code aus, aus der CLI heraus auch befeuern, direkt befeuern
 
 **[00:43:30]** und dass du irgendwie Copy-Paste in dieses Web-Interface machen musst und daher wäre
 
@@ -1368,7 +1368,7 @@ Das Spannende: Notion verkauft eigentlich Tokens („we sell work"). Mit der Wor
 
 **[00:55:58]** Und das finde ich tatsächlich, das geht sehr stark unter, weil die meisten, die hören, oh,
 
-**[00:56:02]** Entropica hat schon wieder ein Update geschippt. Ja, oh, die wollen hier Erwachsenen, Chat und
+**[00:56:02]** Anthropic hat schon wieder ein Update geschippt. Ja, oh, die wollen hier Erwachsenen, Chat und
 
 **[00:56:08]** keine Ahnung war es, das ist ja alles, bleh. So, und Google, ah, jetzt haben sie, jetzt hat
 

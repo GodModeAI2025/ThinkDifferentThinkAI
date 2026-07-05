@@ -445,7 +445,7 @@ CloudFactory. (2025, 24. Oktober). Why Enterprises Can’t Ignore OpenAI Atlas B
 
 **[00:15:38]** Reflex und jetzt auch Reflex oder geifend in dem Chat mit einer ChatGPT zum Beispiel oder auch
 
-**[00:15:42]** mit der Manus oder einen Cloud Scheiß egal, dass er sagen kann, je besser natürlich der
+**[00:15:42]** mit der Manus oder einen Claude Scheiß egal, dass er sagen kann, je besser natürlich der
 
 **[00:15:47]** Kontext verstanden wird, indem ich mich persönlich befinde, desto besser ist natürlich auch der
 

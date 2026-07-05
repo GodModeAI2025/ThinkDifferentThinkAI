@@ -667,7 +667,7 @@ Advisory Board: LinkedIn Post von Mark
 
 **[00:23:37]** aber auch beim Prompten ändert es sich ja, weil beispielsweise jetzt auch GPT5 und GPT4 und
 
-**[00:23:44]** Claude und Croc und wie sie alle heißen schon auch mit anderen System Prompten, also mit
+**[00:23:44]** Claude und Grok und wie sie alle heißen schon auch mit anderen System Prompten, also mit
 
 **[00:23:49]** anderen Vorgaben ans Rennen gehen und du auch so ein bisschen ein Gefühl dafür haben musst.
 

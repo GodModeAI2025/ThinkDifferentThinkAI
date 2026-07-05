@@ -191,7 +191,7 @@ Das Buch: https://novagentica.com/
 
 **[00:05:08]** neuen Features, die von OpenAI kommen. Und kaum hat das OpenAI am nächsten Tag, wenn
 
-**[00:05:14]** es gekonnt hat, kommt Google um die Ecke oder Entropic oder Microsoft oder oder oder.
+**[00:05:14]** es gekonnt hat, kommt Google um die Ecke oder Anthropic oder Microsoft oder oder oder.
 
 **[00:05:20]** Und deswegen ist das so schnell, ich höre mir ja einige Podcasts an und merke, wie jeder das gleiche Problem hat, wie helst du einfach mit den schnellen, kurzen Züklern einfach am Ball zu bleiben. Das ist schon eine Herausforderung.
 

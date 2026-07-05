@@ -166,9 +166,9 @@ Pausen sind erlaubt. Vibe Coding hat einen Suchtfaktor.
 
 **[00:03:41]** knacken wollten. Und wenn ihr den Podcast verfolgt habt, dann wisst ihr, naja, wir schwärmen immer ganz
 
-**[00:03:47]** viel von Grotkot und Entropik und den Opus-Modellen. Und so fing auch mein Tag heute an. Ich habe viel
+**[00:03:47]** viel von Grotkot und Anthropic und den Opus-Modellen. Und so fing auch mein Tag heute an. Ich habe viel
 
-**[00:03:54]** mit Entropik, mit Opus gearbeitet. Wir haben das bei uns über MS & Bedrock im Bezug. Und das hat
+**[00:03:54]** mit Anthropic, mit Opus gearbeitet. Wir haben das bei uns über MS & Bedrock im Bezug. Und das hat
 
 **[00:04:01]** auch alles soweit wunderbar funktioniert. Aber ich hatte eine Nuss, die die Software-Herstellung
 
@@ -184,7 +184,7 @@ Pausen sind erlaubt. Vibe Coding hat einen Suchtfaktor.
 
 **[00:04:29]** Modell. Ja, gut. Jetzt gibt es da ein schönes Plug-in. Da kannst du sagen, ich möchte
 
-**[00:04:34]** include code von mitentropic modellen zusätzlich zum beispiel ein review also
+**[00:04:34]** include code von mit anthropic modellen zusätzlich zum beispiel ein review also
 
 **[00:04:41]** eine überprüfung meines codes durch codex machen lassen codex seines zeichens
 
@@ -650,7 +650,7 @@ Pausen sind erlaubt. Vibe Coding hat einen Suchtfaktor.
 
 **[00:20:40]** Tipp ist, da muss ich ja meine eigene Nase packen, holt euch kein, wenn ihr privat
 
-**[00:20:46]** coded Modell, das, ich sag jetzt mal so wie bei Entropic, Max 20 ist. Max 20 ist für
+**[00:20:46]** coded Modell, das, ich sag jetzt mal so wie bei Anthropic, Max 20 ist. Max 20 ist für
 
 **[00:20:52]** Reiche, ja, wir hatten letztens gehört, dass der Jens mit seiner Open-Client-Situation
 
@@ -748,7 +748,7 @@ Pausen sind erlaubt. Vibe Coding hat einen Suchtfaktor.
 
 **[00:24:33]** sich nicht die Blöße zu geben und zu denken, oh verdammter Axt, das ist ja so ein Textfenster.
 
-**[00:24:38]** Und egal wie das heißt, ja, Langdog und Entropic und Open AI und Gemini und wie es alles heißt,
+**[00:24:38]** Und egal wie das heißt, ja, Langdog und Anthropic und Open AI und Gemini und wie es alles heißt,
 
 **[00:24:44]** es kann auch gut sein, dass man irgendwann sich mal auf eine Lösung einlassen muss
 

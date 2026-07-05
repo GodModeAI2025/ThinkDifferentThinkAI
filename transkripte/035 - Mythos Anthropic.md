@@ -21,7 +21,7 @@ transcribed_at: "2026-04-28T21:07:54+00:00"
 ## Beschreibung
 
 Managed Agents, Mythos und mehr 
-In dieser Folge nehmen wir euch mit in die aufregende Welt rund um Anthropic, Claude und den spektakulären Cloud-Code-Leak. Wir sprechen offen darüber, wie uns Token-Kosten und System-Prompts an die Grenzen treiben, was hinter dem Mythos-Modell steckt und warum Managed Agents plötzlich das neue große Ding sind. Ihr erfahrt, wie ein versehentlicher Code-Release die Entwickler-Community aufrüttelt und welche Chancen – aber auch Risiken – KI-Systeme für Security und Automatisierung bieten. Wir diskutieren die rasante Entwicklung hin zur AGI, teilen persönliche Anekdoten und stellen uns die Frage: Wer kommt in diesem Rennen noch mit?
+In dieser Folge nehmen wir euch mit in die aufregende Welt rund um Anthropic, Claude und den spektakulären Claude-Code-Leak. Wir sprechen offen darüber, wie uns Token-Kosten und System-Prompts an die Grenzen treiben, was hinter dem Mythos-Modell steckt und warum Managed Agents plötzlich das neue große Ding sind. Ihr erfahrt, wie ein versehentlicher Code-Release die Entwickler-Community aufrüttelt und welche Chancen – aber auch Risiken – KI-Systeme für Security und Automatisierung bieten. Wir diskutieren die rasante Entwicklung hin zur AGI, teilen persönliche Anekdoten und stellen uns die Frage: Wer kommt in diesem Rennen noch mit?
 
 Ob Skills, Sandbox-Ausbruch oder der nächste große Durchbruch – wir zeigen, warum es sich lohnt, am Puls der KI-Zeit zu bleiben. Hört rein, wenn ihr wissen wollt, wie ihr euch im KI-Dschungel nicht abhängen lasst und warum die Zukunft vielleicht schneller kommt, als wir denken.
 
@@ -95,21 +95,21 @@ https://www.cisco.com/c/de_de/index.html
 
 **[00:00:50]** Geht schon richtig gut los. Lassen wir auch drin, keine Sorge.
 
-**[00:00:52]** Ist unser Leben mit Orthropic.
+**[00:00:52]** Ist unser Leben mit Anthropic.
 
 **[00:00:56]** Keine Sorge, wir sind nicht fremdgegangen, aber wir wollen noch ein bisschen heute den Schwerpunkt auf das, was so mit und uns und bei uns und mit
 
-**[00:01:06]** ausropik als Firma, was da so grundsätzlich passiert.
+**[00:01:06]** anthropic als Firma, was da so grundsätzlich passiert.
 
-**[00:01:10]** Und bevor ich, wie es sich gehört, auch den Jens mal so Wort kommen lasse, möchte ich einfach damit einsteigen, dass mich ausropik ganz schön geärgert hat.
+**[00:01:10]** Und bevor ich, wie es sich gehört, auch den Jens mal so Wort kommen lasse, möchte ich einfach damit einsteigen, dass mich anthropic ganz schön geärgert hat.
 
 **[00:01:19]** Die letzten Tage, weil etwas passiert ist, dass mir eigentlich hätte verständlich sein sollen, aber ist mir gar nicht so
 
 **[00:01:25]** verständlich dann in dem Moment war. Und zwar, ich probiere auch beruflich ganz
 
-**[00:01:31]** viel mit Ausropic aus und habe ganz viel mit Claude Co. Das ist ja das
+**[00:01:31]** viel mit Anthropic aus und habe ganz viel mit Claude Co. Das ist ja das
 
-**[00:01:35]** Kommando-Zahlen-Interface von Ausropic, um mit den Modellen zu interagieren.
+**[00:01:35]** Kommando-Zahlen-Interface von Anthropic, um mit den Modellen zu interagieren.
 
 **[00:01:40]** Kommando-Zahlen-Interface, eine CLI, um damit wir einfach mal wieder auch ein paar Begriffe
 
@@ -123,7 +123,7 @@ https://www.cisco.com/c/de_de/index.html
 
 **[00:02:04]** sage, wie ist das Wetter in Karlsruhe, immer unabhängig davon, dass er dann
 
-**[00:02:07]** Webrecherche machen muss und sowas, ist der Tockenverbrauch in Clot-Code, in
+**[00:02:07]** Webrecherche machen muss und sowas, ist der Tockenverbrauch in Claude-Code, in
 
 **[00:02:12]** der Terminaloberfläche, viel geringer, als wenn ich über die API gehe. Den
 
@@ -131,7 +131,7 @@ https://www.cisco.com/c/de_de/index.html
 
 **[00:02:23]** guten Fernsehfolge und jetzt zur Werbung. Werbung bist du Jens? Was fällt denn dir ein mit das Leben
 
-**[00:02:28]** mit Othropic? Ich überlege die ganze Zeit, ist es Othropic oder ist es Anthropic? Der, der
+**[00:02:28]** mit Anthropic? Ich überlege die ganze Zeit, ist es Anthropic oder ist es Anthropic? Der, der
 
 **[00:02:36]** es bezahlt, darf auch sagen, wie es heißt. Das ist so bei mir auch die Regel, wenn ich irgendein
 
@@ -193,9 +193,9 @@ https://www.cisco.com/c/de_de/index.html
 
 **[00:04:47]** wo ich mir so ein bisschen drüber nachgedacht habe, arbeite ich weiter mit dieser Chat-Oberfläche
 
-**[00:04:51]** zusammen oder probiere ich nicht andere Funktualitäten aus, wie zum Beispiel den Cloud Desktop oder
+**[00:04:51]** zusammen oder probiere ich nicht andere Funktualitäten aus, wie zum Beispiel den Claude Desktop oder
 
-**[00:04:57]** Cloud Code, wie er heißt, den man sich dann auch über entweder als Applikation installieren kann
+**[00:04:57]** Claude Code, wie er heißt, den man sich dann auch über entweder als Applikation installieren kann
 
 **[00:05:04]** oder eben auch, wie der Markt das gerade beschrieben hat, oder so ein Terminal, kann man sich das auch
 
@@ -287,7 +287,7 @@ https://www.cisco.com/c/de_de/index.html
 
 **[00:08:01]** schreibe, hallo Welt, wie ist das Wetter, oder sonst was, das Ausdruck rum noch ganz
 
-**[00:08:05]** viel passiert. Und die Software, die Orthropic uns dahin stellt, die Mach-Caching, die Mach-System-Proms,
+**[00:08:05]** viel passiert. Und die Software, die Anthropic uns dahin stellt, die Mach-Caching, die Mach-System-Proms,
 
 **[00:08:13]** die haut noch ein ganzes Sack von Informationen mit, die bei mir natürlich völlig unoptimiert
 
@@ -325,7 +325,7 @@ https://www.cisco.com/c/de_de/index.html
 
 **[00:09:42]** das Empfinden.
 
-**[00:09:43]** Und was ja auch passiert ist mit Ostropic, sie haben ja für Open Claw beziehungsweise
+**[00:09:43]** Und was ja auch passiert ist mit Anthropic, sie haben ja für Open Claw beziehungsweise
 
 **[00:09:49]** allgemein für die aus ihrer Sichtzweckentfremdung ihre Subscription Keys, ja auch jetzt entweder
 
@@ -337,7 +337,7 @@ https://www.cisco.com/c/de_de/index.html
 
 **[00:10:12]** rein, damit schön warm ist oder damit schöne Dinge ausgerechnet werden, dass das jetzt nicht ganz
 
-**[00:10:17]** das Geschäftsmodell ist von Astropic, dass jeder User, egal welchen Plan er abschließt,
+**[00:10:17]** das Geschäftsmodell ist von Anthropic, dass jeder User, egal welchen Plan er abschließt,
 
 **[00:10:22]** diesen bis zum Maximum auch ausnutzt. Ja, wo du gerade 5000 Tokens hast, ich kann das
 
@@ -425,13 +425,13 @@ https://www.cisco.com/c/de_de/index.html
 
 **[00:13:35]** hier. Danke schön. Du hattest jetzt wegen hier über welche Begrifflichkeiten man
 
-**[00:13:41]** Stolpert und das Thema Agente Carnes ist dieses ist ja auch was das ich sag mal gerade jetzt auch mit aus tropik die letzten
+**[00:13:41]** Stolpert und das Thema Agente Carnes ist dieses ist ja auch was das ich sag mal gerade jetzt auch mit aus anthropic die letzten
 
 **[00:13:49]** Tage als bevor wir aufgenommen haben oder wochen noch mal durch den ertag geisterte weil 31. März
 
 **[00:13:57]** 2026
 
-**[00:13:58]** hat aus tropik ein fehler begangen also es gab einen ich sag jetzt mal menschliches versagen wir können darüber vielleicht noch mal genau
+**[00:13:58]** hat aus anthropic ein fehler begangen also es gab einen ich sag jetzt mal menschliches versagen wir können darüber vielleicht noch mal genau
 
 **[00:14:06]** unterhalten weil nämlich versehentlich
 
@@ -471,7 +471,7 @@ https://www.cisco.com/c/de_de/index.html
 
 **[00:15:29]** sinngemäß hier findest du Claude Code und haben das mit Melvair infiziert und so ein Download angeboten.
 
-**[00:15:35]** Und was halt das krasse ist, mal unabhängig davon, dass das ein Fehler war, der nur für ganz, ganz kurze Zeit bestand, das wurde relativ schnell wieder gefixt, das ganze Problem, also die öffentliche Verfügbarmachung, die Leute haben es ja trotzdem studiert, es gibt Artikel darüber, wo man lesen kann, wie entwickelt, aus Thropic und dass die auch nur mit Wasser kochen, aber teilweise schon Kohleansätze haben, die Prompts, mit denen sie gegen die Maschinen gehen, ist veröffentlicht worden, wie sie mit Tools,
+**[00:15:35]** Und was halt das krasse ist, mal unabhängig davon, dass das ein Fehler war, der nur für ganz, ganz kurze Zeit bestand, das wurde relativ schnell wieder gefixt, das ganze Problem, also die öffentliche Verfügbarmachung, die Leute haben es ja trotzdem studiert, es gibt Artikel darüber, wo man lesen kann, wie entwickelt, aus Anthropic und dass die auch nur mit Wasser kochen, aber teilweise schon Kohleansätze haben, die Prompts, mit denen sie gegen die Maschinen gehen, ist veröffentlicht worden, wie sie mit Tools,
 
 **[00:16:04]** Also MCP und wie der ganze krames arbeitendes veröffentlicht worden, wie sie mit Speichermanagement umgehen ist veröffentlicht worden, wie sie Multiagentensteuerung machen, das ein Agent, ein Skill abarbeitet und dann mehrere Agents heraus spawnen, dass es ein Kairos-Modell gibt, ein automatisierten Daemon, nicht Daemon in Form von Lucifer, sondern Daemon in Form von ein Dienst, der automatisiert im Hintergrund läuft, der Dinge aufräumt und vorbereitet und hast nicht gesehen.
 
@@ -669,17 +669,17 @@ https://www.cisco.com/c/de_de/index.html
 
 **[00:23:24]** einen Blick werfen konnte und das Thema Security damit jetzt, wie sagt man es da eingehend
 
-**[00:23:28]** angeschnitten ist, dass dieses Geheimnis von Ausropic veröffentlicht wurde, nicht Kundendaten
+**[00:23:28]** angeschnitten ist, dass dieses Geheimnis von Anthropic veröffentlicht wurde, nicht Kundendaten
 
-**[00:23:33]** und sowas, aber das Geheimnis von Ostropics.
+**[00:23:33]** und sowas, aber das Geheimnis von Anthropic.
 
-**[00:23:35]** Was erreicht mich jetzt quasi im Newsfeed ganz frisch, die Meldung, dass Ostropic Managed
+**[00:23:35]** Was erreicht mich jetzt quasi im Newsfeed ganz frisch, die Meldung, dass Anthropic Managed
 
 **[00:23:42]** Agents anbietet.
 
 **[00:23:43]** Also eine Suite von APIs, damit Entwickler in der Lage sind, Gehostete-Karrieren zu erstellen.
 
-**[00:23:53]** Das heißt, Ostropic stellt dir eine Sandbox, also dass das Ding quasi nicht ausbricht und
+**[00:23:53]** Das heißt, Anthropic stellt dir eine Sandbox, also dass das Ding quasi nicht ausbricht und
 
 **[00:23:59]** in einer sicheren Umgebung läuft, dass keiner reinguckt, mit State Management, also dass
 
@@ -907,7 +907,7 @@ https://www.cisco.com/c/de_de/index.html
 
 **[00:32:42]** sind überall nicht nur so ein Tickende besser, sondern so richtig besser.
 
-**[00:32:47]** Und das bringt einen auch so ein bisschen zu dem Projekt, das Autropic aus dem Adter
+**[00:32:47]** Und das bringt einen auch so ein bisschen zu dem Projekt, das Anthropic aus dem Adter
 
 **[00:32:56]** gestampft hat, weil dieses Modell augenscheinlich, sei es in experimentellen Situationen,
 
@@ -947,11 +947,11 @@ https://www.cisco.com/c/de_de/index.html
 
 **[00:34:55]** auch gute Modelle im Kästchen haben, also ich meine Gemini-Arbeit garantiert und
 
-**[00:34:58]** Croc und Open AI, aber aus Schropik ist damit jetzt an die Öffentlichkeit
+**[00:34:58]** Grok und Open AI, aber aus Anthropic ist damit jetzt an die Öffentlichkeit
 
 **[00:35:02]** gegangen, weil zum einen ist Mythos herausgeputzt, als Begriff durch den
 
-**[00:35:07]** Cloud Code League und zum anderen haben sie jetzt ein Projekt gestartet und
+**[00:35:07]** Claude Code League und zum anderen haben sie jetzt ein Projekt gestartet und
 
 **[00:35:11]** vielleicht magst du uns etwas zu diesem Projekt erzählen? Ja gerne, wobei ich auch
 
@@ -1083,7 +1083,7 @@ https://www.cisco.com/c/de_de/index.html
 
 **[00:40:35]** dass wir die Welt sicherer machen, anstatt die Angradfahrer zu machen, ist schon ein gutes Vorgehen.
 
-**[00:40:39]** Bevor noch eine Meldung vom Ostropik die Runde macht, noch vielleicht eine witzige Anekdote,
+**[00:40:39]** Bevor noch eine Meldung vom Anthropic die Runde macht, noch vielleicht eine witzige Anekdote,
 
 **[00:40:46]** ich meine auch hier, hören sagen, irgendwo habe ich gelesen, dass sie davon mitbekommen
 
@@ -1097,7 +1097,7 @@ https://www.cisco.com/c/de_de/index.html
 
 **[00:41:17]** wirklich passiert, das ist schon ein bisschen spooky vor allen Dingen, wenn du dann hörst,
 
-**[00:41:21]** dass jetzt auch die Tage von Outzropic die Meldung kamen, wir sind nur noch sechs Monate
+**[00:41:21]** dass jetzt auch die Tage von Anthropic die Meldung kamen, wir sind nur noch sechs Monate
 
 **[00:41:28]** von der AGI entfernt. Und dann stehst du ganz kurz da und guckst in den Spiegel und denkst
 
@@ -1313,7 +1313,7 @@ https://www.cisco.com/c/de_de/index.html
 
 **[00:47:11]** Ansonsten, Mark, würde ich sagen, hast du noch was?
 
-**[00:47:16]** Weil dieser Folge haben wir ja in Tropic gewidmet.
+**[00:47:16]** Weil dieser Folge haben wir ja in Anthropic gewidmet.
 
 **[00:47:19]** Ohne, dass wir gesponsert werden von Ihnen, muss ich auch nochmal kurz sagen.
 
@@ -1321,7 +1321,7 @@ https://www.cisco.com/c/de_de/index.html
 
 **[00:47:25]** Einfach aus unserer persönlichen Erfahrung statt mit diesen...
 
-**[00:47:28]** Möchte aus tropik das ändern ja würde ich sie auch richtig aussprechen bitte an uns eine entsprechende Nachricht zukommen lassen
+**[00:47:28]** Möchte aus anthropic das ändern ja würde ich sie auch richtig aussprechen bitte an uns eine entsprechende Nachricht zukommen lassen
 
 **[00:47:37]** Nein, wir bleiben unabhängig erst mal. Ja, also wir sprechen wir bleiben unabhängig. Wir haben uns gemerkt, dass ich ja unabhängig berichten
 

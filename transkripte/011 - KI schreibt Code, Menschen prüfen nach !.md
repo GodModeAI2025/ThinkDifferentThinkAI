@@ -393,7 +393,7 @@ Gast : Klaus Rodewig
 
 **[00:13:19]** würde mal sagen, je genauer du halt mit der Maschine sprichst, geben sich diese Modelle,
 
-**[00:13:24]** soll es hier Sonnetwas 4.5 oder Croc Code Fast irgendwas oder Codex oder wie der ganze
+**[00:13:24]** soll es hier Sonnetwas 4.5 oder Grok Code Fast irgendwas oder Codex oder wie der ganze
 
 **[00:13:32]** Gram auch heißt, die geben sich dann glaube ich alle gar nicht mehr so viel, wenn du damit
 

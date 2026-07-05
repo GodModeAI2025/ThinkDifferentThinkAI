@@ -1202,7 +1202,7 @@ https://github.com/openclaw/openclaw
 
 **[00:46:20]** und das muss man einfach wissen, was man da tut. Aber sich zum Beispiel mal für
 
-**[00:46:24]** ein Wochenende mit einem Trophic, mit Cloud Code auseinanderzusetzen und mal ihn
+**[00:46:24]** ein Wochenende mit einem Trophic, mit Claude Code auseinanderzusetzen und mal ihn
 
 **[00:46:29]** zu bitten oder auch auf dem i-codex oder oder oder google i studio und mal ein
 
@@ -1292,7 +1292,7 @@ https://github.com/openclaw/openclaw
 
 **[00:49:59]** Ja, ich, dass ich es jetzt mache, ist dann einfach einfach dem Thema
 
-**[00:50:02]** wie schuldet, dass es einfach einfacher ist, mit dem Cloud Code Agent
+**[00:50:02]** wie schuldet, dass es einfach einfacher ist, mit dem Claude Code Agent
 
 **[00:50:05]** auch als Terminalfenster zu arbeiten, um dann von einem Terminalfenster als andere die Sachen
 

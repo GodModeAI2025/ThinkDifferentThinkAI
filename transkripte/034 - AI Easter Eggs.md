@@ -710,7 +710,7 @@ https://www.oreilly.de/buecher/16447/biologie-der-ki/
 
 **[00:21:55]** Vielleicht ist da Claude und Gemini und Open Air unterschiedlich. Ich bin ja aktuell mehr so
 
-**[00:22:00]** Team Orthropic, also Claude. Aber trotzdem, das ist ein Thema und die KI ist ja so nett und
+**[00:22:00]** Team Anthropic, also Claude. Aber trotzdem, das ist ein Thema und die KI ist ja so nett und
 
 **[00:22:07]** freundlich und lässt sich das so erst mal gar nicht wissen, dass sie da vielleicht über
 
@@ -912,7 +912,7 @@ https://www.oreilly.de/buecher/16447/biologie-der-ki/
 
 **[00:29:57]** ihn nicht von vornherein mitgibst, sei kritisch. Also ich zum Beispiel habe, ich nutze ja eigentlich
 
-**[00:30:03]** kein Croc, auf der anderen Seite schon, weil mein Auto hat Croc. Eigentlich leider, aber eigentlich auch
+**[00:30:03]** kein Grok, auf der anderen Seite schon, weil mein Auto hat Grok. Eigentlich leider, aber eigentlich auch
 
 **[00:30:11]** zum Glück im Auto integriert, ja. Das heißt, ich kann mit meinem Tesla auch sagen, du fahr
 

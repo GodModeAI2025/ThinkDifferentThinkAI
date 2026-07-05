@@ -29,7 +29,7 @@ https://github.com/craft-ai/craft-agents
 OpenClaw
 https://github.com/openclaw/openclaw
 
-Cloud Code
+Claude Code
 https://cloud.google.com/code
 
 Adam Shostack – Four Question Framework
@@ -304,7 +304,7 @@ https://developer.apple.com/xcode-cloud/
 
 **[00:10:37]** die dahinter steckt, die du damit machen kannst, eine gute Mischung aus. Ich bin nicht so
 
-**[00:10:43]** nördig, dass ich auf die Kommando-Zahne für Cloud Code muss. Ich kriege eine grafische
+**[00:10:43]** nördig, dass ich auf die Kommando-Zahne für Claude Code muss. Ich kriege eine grafische
 
 **[00:10:47]** Oberfläche, in der ich mich verlieren kann, aber auch mit dem Haken, dass ich mich
 
@@ -938,7 +938,7 @@ https://developer.apple.com/xcode-cloud/
 
 **[00:36:42]** Aber ich änderte mal so faszinierend beim Programmieren,
 
-**[00:36:45]** das mit Cloud Code, wenn du ihn ein Konzept erstellen lässt
+**[00:36:45]** das mit Claude Code, wenn du ihn ein Konzept erstellen lässt
 
 **[00:36:48]** und erne die Zeitabschätzung macht.
 
@@ -1200,7 +1200,7 @@ https://developer.apple.com/xcode-cloud/
 
 **[00:47:44]** Also, ich habe, ich habe gerade wieder eine App Endens zurgestellt, dank xCode 26.3 der
 
-**[00:47:53]** Entwicklungsumgebung von Apple, kann ich ja nativ Cloud Code benutzen und grundsätzlich
+**[00:47:53]** Entwicklungsumgebung von Apple, kann ich ja nativ Claude Code benutzen und grundsätzlich
 
 **[00:47:59]** bei der Programmierung gebe ich dir Recht, Mark, aber Feinheiten wie, jetzt machen
 
@@ -1384,7 +1384,7 @@ https://developer.apple.com/xcode-cloud/
 
 **[00:55:54]** Genau, dieses Dev-Container und Sichermachen und ab wann kann ich das eigentlich auf meinem eigenen Rechner laufen lassen?
 
-**[00:56:01]** Ich habe Cloud Code auf meinem Rechner laufen, Open Cloud nicht.
+**[00:56:01]** Ich habe Claude Code auf meinem Rechner laufen, Open Cloud nicht.
 
 **[00:56:05]** Du brauchst nur das Handbox, Alex.
 

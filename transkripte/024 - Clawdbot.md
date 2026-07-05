@@ -185,7 +185,7 @@ Linkbeschreibung
 
 **[00:04:36]** starten kann.
 
-**[00:04:37]** Vielleicht zu erklären, man hat ein paar Sachen, die man so mit Cloud Code machen kann.
+**[00:04:37]** Vielleicht zu erklären, man hat ein paar Sachen, die man so mit Claude Code machen kann.
 
 **[00:04:41]** Wir müssen so ein bisschen auf die Naming Sachen aufpassen, weil wir haben später auch
 
@@ -211,7 +211,7 @@ Linkbeschreibung
 
 **[00:05:21]** lasst da mal die Finger. Von irgendwann habe ich dann mitbekommen, dass im Internet so diverse
 
-**[00:05:26]** Videos kursierten, dass die Menschen Cloud Code, also auf Terminal-Ebene, das Ding starten können.
+**[00:05:26]** Videos kursierten, dass die Menschen Claude Code, also auf Terminal-Ebene, das Ding starten können.
 
 **[00:05:32]** Man kann ihm sagen, dass er in dem Verzeichnis, in dem er gestartet wird, Dinge machen kann,
 
@@ -249,7 +249,7 @@ Linkbeschreibung
 
 **[00:06:42]** Und naja, wie das dann halt so ist, das ging dann irgendwie, ich sag mal, ziemlich steil bergauf, was das Thema
 
-**[00:06:50]** Sichtbarkeit in Social Media angeht und scheinbar hat auch Stropic das dann auch bemerkt und hat dann
+**[00:06:50]** Sichtbarkeit in Social Media angeht und scheinbar hat auch Anthropic das dann auch bemerkt und hat dann
 
 **[00:06:57]** so Menschen wie mir, die dann, oh, ich starte auf den Terminal und kriege den Brauseinig zum Fliegen,
 
@@ -327,7 +327,7 @@ Linkbeschreibung
 
 **[00:10:02]** was ich damit tue. Und auch dieses Skills stehen dir nicht nur in dem klassischen Cloud, sondern
 
-**[00:10:08]** dann zum Beispiel auch in diesem Co-Work oder in Cloud Code zur Verfügung und er kann sie
+**[00:10:08]** dann zum Beispiel auch in diesem Co-Work oder in Claude Code zur Verfügung und er kann sie
 
 **[00:10:14]** entweder eigenständig ziehen oder du kannst ihn anweisen, für bestimmte Dinge dieses
 
@@ -373,9 +373,9 @@ Linkbeschreibung
 
 **[00:11:59]** die halt die Welt verstehen und mit uns ganz witzig reden können. Und dann gibt es auch für
 
-**[00:12:05]** mich noch mal erklärt, gibt es Cloud Code. Was ist jetzt der Unterschied zwischen der
+**[00:12:05]** mich noch mal erklärt, gibt es Claude Code. Was ist jetzt der Unterschied zwischen der
 
-**[00:12:11]** normalen Cloud Anwendung und der Cloud Code Anwendung? Ja, bei der normalen Cloud Anwendung sagst du,
+**[00:12:11]** normalen Cloud Anwendung und der Claude Code Anwendung? Ja, bei der normalen Cloud Anwendung sagst du,
 
 **[00:12:18]** ich möchte jetzt einen Text geschrieben kriegen, mach mir mal irgendwas, während die
 
@@ -413,7 +413,7 @@ Linkbeschreibung
 
 **[00:13:41]** Damit gab es dann auch schon immer die Themen, das ich finde jetzt irgendwie blender als 3D-Programm zum Beispiel nehme,
 
-**[00:13:46]** dass ich sowohl aus Cloud selber, aus Cloud Code, aber auch gerne dann im Prinzip auf diesen MCP-Server zugreifen kann
+**[00:13:46]** dass ich sowohl aus Cloud selber, aus Claude Code, aber auch gerne dann im Prinzip auf diesen MCP-Server zugreifen kann
 
 **[00:13:52]** Und in dem quasi, also ich sage meinem Modell einfach, baue mir eine 3D-Burg und dann hat er diese Burg in dem Blender Tool gebaut, also aus echtem 3D-Gemodel.
 
@@ -493,21 +493,21 @@ Linkbeschreibung
 
 **[00:17:30]** Okay, damit kann der Elefant gelangt sein, damit ich hier konsistent bleibe.
 
-**[00:17:35]** Das geht bei Cloud Code. Mir gelangt das aber erst bei Cloud Codework,
+**[00:17:35]** Das geht bei Claude Code. Mir gelangt das aber erst bei Claude Codework,
 
 **[00:17:41]** weil der hat mir eine Fehlermeldung gegeben, mit der ich etwas anfangen konnte.
 
-**[00:17:44]** Cloud Code hatte das nicht getan. Aber ich überlasse jetzt wieder die Struktur.
+**[00:17:44]** Claude Code hatte das nicht getan. Aber ich überlasse jetzt wieder die Struktur.
 
 **[00:17:47]** Okay, dann wahl das gerade nochmal ein Gespräch.
 
-**[00:17:50]** Cloud Codework im Vergleich zu Cloud Code.
+**[00:17:50]** Claude Codework im Vergleich zu Claude Code.
 
 **[00:17:55]** Also jetzt müsste man dazu sagen, wahrscheinlich kommen jetzt hier fünf Menschen, die sagen,
 
-**[00:18:01]** also bei Cloud Code geht das und das und das noch viel besser als bei Co-Work.
+**[00:18:01]** also bei Claude Code geht das und das und das noch viel besser als bei Co-Work.
 
-**[00:18:06]** Man sagt ja so, Cloud Code ist für Entwickler, Code Co-Work für die Wissensarbeiter,
+**[00:18:06]** Man sagt ja so, Claude Code ist für Entwickler, Code Co-Work für die Wissensarbeiter,
 
 **[00:18:11]** bietet mir quasi in der Cloud App auf einem Apple Macintosh die Möglichkeit zu sagen,
 
@@ -557,7 +557,7 @@ Linkbeschreibung
 
 **[00:20:38]** sehr sehr selbstständig um diese themen die wir gerade mal so angedeutet haben
 
-**[00:20:43]** ich geb dem cloud code zum beispiel skills damit er etwas macht wenn ich es
+**[00:20:43]** ich geb dem Claude code zum beispiel skills damit er etwas macht wenn ich es
 
 **[00:20:50]** richtig verstanden habe und mag ich habe du hast schon damit rumgespielt und ich
 
@@ -659,7 +659,7 @@ Linkbeschreibung
 
 **[00:24:35]** unterm Strich hast du eigentlich das Besseres allen Welten. Du hast ein bisschen dieses Thema,
 
-**[00:24:40]** was du, was wir eben auch von Cloud Code und Codework haben, aber ohne die Begrenzung eines
+**[00:24:40]** was du, was wir eben auch von Claude Code und Codework haben, aber ohne die Begrenzung eines
 
 **[00:24:45]** Parteisystems in eines Ordners, weil du kannst das Ding auf die komplette Maschine mit allem,
 
@@ -829,7 +829,7 @@ Linkbeschreibung
 
 **[00:32:33]** das darf ich sagen, Verfahren wie man bei Cloudco tasks abarbeitet, ohne dass der Kontext
 
-**[00:32:40]** kaputt gehen. Ja, genau, weil Cloud Code hatte das nicht. Dann ist es manchmal so, dann programmierte
+**[00:32:40]** kaputt gehen. Ja, genau, weil Claude Code hatte das nicht. Dann ist es manchmal so, dann programmierte
 
 **[00:32:45]** bis jetzt immer eine KI so fröhlich vor sich hin und versucht dann immer, jetzt mal ganz platt gesagt,
 

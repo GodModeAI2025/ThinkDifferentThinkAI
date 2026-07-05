@@ -256,7 +256,7 @@ https://crea.ai/
 
 **[00:06:56]** Man hat es schon gesagt, dass wir hatten
 
-**[00:06:58]** vor kurzem eine Folge, die hieß Mythos Entropic, Entropic Mythos.
+**[00:06:58]** vor kurzem eine Folge, die hieß Mythos Anthropic, Anthropic Mythos.
 
 **[00:07:02]** Und jetzt auf einmal kam nicht Mythos raus,
 
@@ -302,7 +302,7 @@ https://crea.ai/
 
 **[00:08:04]** Was sie jetzt, letzte Woche Freitag, also sprich, hier mitten im April releaset
 
-**[00:08:10]** haben ist das Thema Cloud Design. Das heißt, neben Cloud Work, Cloud Code, Cloud Chat, wie
+**[00:08:10]** haben ist das Thema Cloud Design. Das heißt, neben Cloud Work, Claude Code, Cloud Chat, wie
 
 **[00:08:17]** sie alle heißen, gibt es jetzt auch noch Cloud Design. Ich habe es in meiner Applikation
 
@@ -622,7 +622,7 @@ https://crea.ai/
 
 **[00:20:25]** Zeit und mit der Geduld. Und jetzt beschwiege ich die ganze Zeit im Kugeln, was könnte ich ja
 
-**[00:20:29]** noch reinmachen. Und dabei hat mir dann das andere geholfen, was hier einen Tropic rausgebracht
+**[00:20:29]** noch reinmachen. Und dabei hat mir dann das andere geholfen, was hier einen Anthropic rausgebracht
 
 **[00:20:34]** hat. Ja, gut, es hätte mit der vorigen Version wahrscheinlich auch geklappt, weil sie haben
 
@@ -642,9 +642,9 @@ https://crea.ai/
 
 **[00:21:17]** wie viel Mühe sich quasi das Modell gibt, um es mal sehr einfach auszudrücken.
 
-**[00:21:21]** Da war Entropic ja auch zuletzt in der Kritik, weil sie haben den Modus ja auf den Effort auf Medium gesetzt.
+**[00:21:21]** Da war Anthropic ja auch zuletzt in der Kritik, weil sie haben den Modus ja auf den Effort auf Medium gesetzt.
 
-**[00:21:27]** Man vermutet ja, dass Entropic leichte Rechenzentrums Probleme mit Kapazitäten hat
+**[00:21:27]** Man vermutet ja, dass Anthropic leichte Rechenzentrums Probleme mit Kapazitäten hat
 
 **[00:21:33]** und dass sie deswegen quasi alle mögliche Modelle auf Medium gesetzt haben im Standard, das
 
@@ -682,7 +682,7 @@ https://crea.ai/
 
 **[00:22:53]** dann natürlich schon krass, wenn du dann vielleicht als Firma sagst, okay gut, ich gehe jetzt hier
 
-**[00:22:57]** auf Entropic oder weil ich es im EU-Datenraum bei Google oder Amazon Bedrock betreiben will und
+**[00:22:57]** auf Anthropic oder weil ich es im EU-Datenraum bei Google oder Amazon Bedrock betreiben will und
 
 **[00:23:03]** dann auf einmal kriegst du mal so ein 40 Prozent Bonus aufschlag. Da musst du dir schon noch überlegen,
 
@@ -696,7 +696,7 @@ https://crea.ai/
 
 **[00:23:28]** sie nix in der Welt. Und in dem Fall dann auch Tokens. Und während alle sich dann feiern
 
-**[00:23:33]** nach dem Motto, guck mal Entropik, was für ein Dufteladen, der lässt hier die Preise
+**[00:23:33]** nach dem Motto, guck mal Anthropic, was für ein Dufteladen, der lässt hier die Preise
 
 **[00:23:38]** für Input, Output, Tokens gleich, ist es natürlich eine Milchmädchenrechnung, wenn
 
@@ -706,7 +706,7 @@ https://crea.ai/
 
 **[00:23:58]** Togens eine spannende Geschichte dahingehend, dass wir erst mal gut findet, dass es so nach
 
-**[00:24:05]** Optimium sich auch erinnert von auf der Seite von Tropic, dass man sagt, wir sehen, dass wir
+**[00:24:05]** Optimium sich auch erinnert von auf der Seite von Anthropic, dass man sagt, wir sehen, dass wir
 
 **[00:24:12]** sehen, dass im Prinzip nicht immer das gleiche Modell sein muss, deshalb kann ich nichts
 
@@ -798,7 +798,7 @@ https://crea.ai/
 
 **[00:27:15]** ist natürlich für die Firmen, die vielleicht weniger Geld ausgeben wollen, oder für die
 
-**[00:27:17]** Privatperson. Und das andere ist Entropic freut sich, glaube ich, wenn die Rechenzentren
+**[00:27:17]** Privatperson. Und das andere ist Anthropic freut sich, glaube ich, wenn die Rechenzentren
 
 **[00:27:22]** nicht immer laufen, 100 Prozent laufen. Woran er das dann schlussendlich fest macht,
 
@@ -1030,7 +1030,7 @@ https://crea.ai/
 
 **[00:35:51]** Und man hat immer dieses Problem, wie läuft es in der Weite.
 
-**[00:35:54]** Das hat dann Entropic initial so ein bisschen unterstützt mit, es gibt verschiedene Parameter,
+**[00:35:54]** Das hat dann Anthropic initial so ein bisschen unterstützt mit, es gibt verschiedene Parameter,
 
 **[00:35:59]** mit denen du Cloud Coach starten kannst. Die heißen teilweise Dangerous irgendwas,
 

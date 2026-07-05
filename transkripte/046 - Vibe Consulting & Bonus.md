@@ -1134,7 +1134,7 @@ Mobile × AI bei adesso mobile solutions, spezialisiert auf On-Device AI, Agent 
 
 **[00:40:05]** Muskel. Man muss mal fairhalber sagen, geht so ein bisschen mehr in die Richtung wie
 
-**[00:40:10]** Stropic damals, als dieses Thema Skills aufkam, das Ganze definiert hat, daran
+**[00:40:10]** Anthropic damals, als dieses Thema Skills aufkam, das Ganze definiert hat, daran
 
 **[00:40:16]** orientiere ich mich schon sehr stark. Also wenn man mich fragt, was sind Skills,
 
@@ -1152,7 +1152,7 @@ Mobile × AI bei adesso mobile solutions, spezialisiert auf On-Device AI, Agent 
 
 **[00:40:46]** zu tun. Manche Dinge muss er wirklich ganz exakt ausführen, da kann man in Skills, wenn man
 
-**[00:40:53]** den Entropic, was du eben gesagt hast, die Definition nimmt mit entsprechenden Skripten
+**[00:40:53]** den Anthropic, was du eben gesagt hast, die Definition nimmt mit entsprechenden Skripten
 
 **[00:40:58]** für Determinismus, also für Testes, Abfolgen von Vorgaben einsetzen und da, wo die KI ihre Stärke
 
@@ -1262,7 +1262,7 @@ Mobile × AI bei adesso mobile solutions, spezialisiert auf On-Device AI, Agent 
 
 **[00:44:54]** Harnis mit einem KI-System. Am einen ist es die Co-Pilot-Oberfläche, beim anderen
 
-**[00:44:59]** ist es diese Codex-App von OpenAI, Cloud Code, Co-Work-App. Dementsprechend ist die
+**[00:44:59]** ist es diese Codex-App von OpenAI, Claude Code, Co-Work-App. Dementsprechend ist die
 
 **[00:45:06]** Distribution von Hannes, wenn man mich fragt, die Umgebung, in der ein Modell eingebettet ist.
 
@@ -1272,11 +1272,11 @@ Mobile × AI bei adesso mobile solutions, spezialisiert auf On-Device AI, Agent 
 
 **[00:45:21]** kriegt ihr komplett andere Ergebnisse. Das ist ja auch der Grund, warum sowas wie
 
-**[00:45:25]** Cloud Code. Wenn man sich dann so in Social Media und so weiter umguckt, wenn Menschen sagen,
+**[00:45:25]** Claude Code. Wenn man sich dann so in Social Media und so weiter umguckt, wenn Menschen sagen,
 
 **[00:45:30]** ich habe mein eigenes Modell hinten dran, dann agiert auf dieses eigene Modell, dass die hinten
 
-**[00:45:35]** dran hängen, dass dann nicht aus dem Hause ein Job bekommt, ganz anders mit Cloud Code,
+**[00:45:35]** dran hängen, dass dann nicht aus dem Hause ein Job bekommt, ganz anders mit Claude Code,
 
 **[00:45:40]** als wenn man das Modell in was anderes einhängt. Von der Seite, auch wir bei uns in der Firma
 

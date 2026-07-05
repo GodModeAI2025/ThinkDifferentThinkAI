@@ -851,7 +851,7 @@ Link : https://x.com/michakaufman/status/1909610844008161380?s=46
 
 **[00:30:47]** und überhaupt, dann machst du das und siehst den nächsten Berg. Dann siehst du halt so
 
-**[00:30:50]** als wie N8N. Na ja, dann gehst du da drüber, dann hast du auf einmal Clot, Code und Codework
+**[00:30:50]** als wie N8N. Na ja, dann gehst du da drüber, dann hast du auf einmal Claude, Code und Codework
 
 **[00:30:53]** und wieder ganze Gramme, dann schmeißt du an der N8N Workfluss weg und machst dann
 
