@@ -84,7 +84,7 @@ In fünf Jahren prüft kein Jurist mehr Verträge. Was bleibt, ist Erfahrung, St
 
 **[00:00:24]** Hadi zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
 
-**[00:00:29]** Herzlich willkommen bei Sink Different, Sink AI und ich glaube, ich habe heute das kurze
+**[00:00:29]** Herzlich willkommen bei Think Different, Think AI und ich glaube, ich habe heute das kurze
 
 **[00:00:38]** Streichholz mal wieder gezogen, dass ich die Begrüßung machen darf.
 
@@ -202,7 +202,7 @@ In fünf Jahren prüft kein Jurist mehr Verträge. Was bleibt, ist Erfahrung, St
 
 **[00:05:56]** KI hat aber auf der anderen Seite auch so ein bisschen, ich sage jetzt mal so dieses ominöse Damokleschwerfer.
 
-**[00:06:02]** Wenn ich in einem Produkt nenne, das Makopilot, eine Präsentation mache, der da drin oben haluziniert.
+**[00:06:02]** Wenn ich in einem Produkt nenne, das Copilot, eine Präsentation mache, der da drin oben haluziniert.
 
 **[00:06:09]** Und dann wird diese Folie verschickt. Also dann hast du einen Mitarbeiter oder eine Person,
 

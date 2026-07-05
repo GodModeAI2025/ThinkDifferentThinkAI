@@ -82,7 +82,7 @@ Pausen sind erlaubt. Vibe Coding hat einen Suchtfaktor.
 
 **[00:00:24]** Hadi zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
 
-**[00:00:29]** Herzlich Willkommen bei einer neuen Folge von Zink Different, Zink AI.
+**[00:00:29]** Herzlich Willkommen bei einer neuen Folge von Think Different, Think AI.
 
 **[00:00:37]** Heute bei euch hier im Call ist nur der Mark und Jens.
 
@@ -146,7 +146,7 @@ Pausen sind erlaubt. Vibe Coding hat einen Suchtfaktor.
 
 **[00:02:56]** ein bisschen mit der Maschine rieche. Das ist jetzt mal so die Jens Stanetski Definition
 
-**[00:03:01]** von Vibe Coding, Mark. An dieser Stelle bräuchten wir ein Schingle. Jens Stanetski Definiert.
+**[00:03:01]** von Vibe Coding, Mark. An dieser Stelle bräuchten wir ein Jingle. Jens Stanetski Definiert.
 
 **[00:03:07]** Ja, mal überlegen, vielleicht fällt mir da was ein. Ja, also ich meine, der Punkt
 
@@ -166,7 +166,7 @@ Pausen sind erlaubt. Vibe Coding hat einen Suchtfaktor.
 
 **[00:03:41]** knacken wollten. Und wenn ihr den Podcast verfolgt habt, dann wisst ihr, naja, wir schwärmen immer ganz
 
-**[00:03:47]** viel von Grotkot und Anthropic und den Opus-Modellen. Und so fing auch mein Tag heute an. Ich habe viel
+**[00:03:47]** viel von Grok und Anthropic und den Opus-Modellen. Und so fing auch mein Tag heute an. Ich habe viel
 
 **[00:03:54]** mit Anthropic, mit Opus gearbeitet. Wir haben das bei uns über MS & Bedrock im Bezug. Und das hat
 
@@ -282,7 +282,7 @@ Pausen sind erlaubt. Vibe Coding hat einen Suchtfaktor.
 
 **[00:07:55]** Das ist alles aussprechen.
 
-**[00:07:56]** Open Claw, Claw Bot, Claw Cod, Codex.
+**[00:07:56]** Open Claw, Claw Bot, Claude Code, Codex.
 
 **[00:08:01]** Also das ist ja wirklich alles sehr, sehr nah aneinander.
 
@@ -410,15 +410,15 @@ Pausen sind erlaubt. Vibe Coding hat einen Suchtfaktor.
 
 **[00:12:29]** Ich wollte aber noch etwas fuzzeln, auch direkt in dieser Folge, weil auch das habe
 
-**[00:12:32]** ich direkt zu bekommen, und zwar ist es so, dass der Kapafi das im Februar gesagt
+**[00:12:32]** ich direkt zu bekommen, und zwar ist es so, dass der Karpathy das im Februar gesagt
 
-**[00:12:38]** und nicht im Herbst 2025. Also den Begriff Weibkoding gibt es seit Februar 2025. Damit haben wir das
+**[00:12:38]** und nicht im Herbst 2025. Also den Begriff Vibe Coding gibt es seit Februar 2025. Damit haben wir das
 
-**[00:12:44]** auch schon direkt aufgelöst und brauchen nicht auf die nächste Folge warten. Weibkoding. Ja,
+**[00:12:44]** auch schon direkt aufgelöst und brauchen nicht auf die nächste Folge warten. Vibe Coding. Ja,
 
 **[00:12:49]** ich habe es ja gerade schon erwähnt. Natürlich, was der Mark gesagt hat, ist ein sinnvolles Thema,
 
-**[00:12:53]** dass wir uns viele Sachen aufschreiben, damit wir die hinterher im Weibkoding so ein bisschen an
+**[00:12:53]** dass wir uns viele Sachen aufschreiben, damit wir die hinterher im Vibe Coding so ein bisschen an
 
 **[00:12:57]** der Hand haben, wenn wir strukturiert vorgehen wollen und halt nicht einfach nur in die Maschine
 
@@ -640,7 +640,7 @@ Pausen sind erlaubt. Vibe Coding hat einen Suchtfaktor.
 
 **[00:20:14]** jetzt dann quasi wieder aufgegriffen. Und ich habe mir wirklich jetzt mittlerweile angewöhnt,
 
-**[00:20:20]** jeden Abend zu sagen, wenn ich weibgecoated, engineered, die Maschine angeschrien habe,
+**[00:20:20]** jeden Abend zu sagen, wenn ich vibegecoded, engineered, die Maschine angeschrien habe,
 
 **[00:20:25]** damit sie mir etwas baut, dass sie quasi aufschreibt, was hat sie getan, dass sie diesen kritischen
 
@@ -652,7 +652,7 @@ Pausen sind erlaubt. Vibe Coding hat einen Suchtfaktor.
 
 **[00:20:46]** coded Modell, das, ich sag jetzt mal so wie bei Anthropic, Max 20 ist. Max 20 ist für
 
-**[00:20:52]** Reiche, ja, wir hatten letztens gehört, dass der Jens mit seiner Open-Client-Situation
+**[00:20:52]** Reiche, ja, wir hatten letztens gehört, dass der Jens mit seiner OpenClaw-Situation
 
 **[00:20:56]** jetzt von den Multimillionären gehört und einfach nur aus gut Will und Gönnerhaftigkeit
 
@@ -702,7 +702,7 @@ Pausen sind erlaubt. Vibe Coding hat einen Suchtfaktor.
 
 **[00:22:42]** Ich natürlich auch gerne weitertreiben und ich hatte das in der einen oder anderen Folge auch schon
 
-**[00:22:46]** mehr erwähnt. Ich habe meine persönliche Open Cloud Installation soweit. Das ist die aufgrund
+**[00:22:46]** mehr erwähnt. Ich habe meine persönliche OpenClaw-Installation soweit. Das ist die aufgrund
 
 **[00:22:51]** ihres Soul-MDs, also das Files, der so ein bisschen beschreibt, wie sie sich zu verhalten hat.
 
@@ -844,7 +844,7 @@ Pausen sind erlaubt. Vibe Coding hat einen Suchtfaktor.
 
 **[00:27:50]** ein bisschen einfacher quasi Anwendung auch bauen kann.
 
-**[00:27:53]** Und ich glaube, das ist so ein Ding, man kann da einfach mal als White Coding-Anfänger so ein bisschen was ausprobieren erstmal.
+**[00:27:53]** Und ich glaube, das ist so ein Ding, man kann da einfach mal als Vibe-Coding-Anfänger so ein bisschen was ausprobieren erstmal.
 
 **[00:28:00]** Das ist, glaube ich, das Wichtige und dabei lernen, wie denn eigentlich programmieren so funktioniert.
 
@@ -910,13 +910,13 @@ Pausen sind erlaubt. Vibe Coding hat einen Suchtfaktor.
 
 **[00:30:08]** viele Sachen machen kann, wieder ein Schwank aus dem Leben und eine Sache passend zum Podcast.
 
-**[00:30:12]** Der Schwank aus dem Leben war, ich bin damals der Meinung gewesen, dass Philips U-Lampen
+**[00:30:12]** Der Schwank aus dem Leben war, ich bin damals der Meinung gewesen, dass Philips-Hue-Lampen
 
-**[00:30:19]** total toll sind und ich habe mir von Philips U verschiedene Sachen geholt, Bewegungsmelde
+**[00:30:19]** total toll sind und ich habe mir von Philips Hue verschiedene Sachen geholt, Bewegungsmelde
 
-**[00:30:24]** im Haus, Lampen. Das ganze Haus ist mit Philipsiolampen voll, ja. Und der Keller hat Bewegungsmelder
+**[00:30:24]** im Haus, Lampen. Das ganze Haus ist mit Philips-Hue-Lampen voll, ja. Und der Keller hat Bewegungsmelder
 
-**[00:30:29]** von Philipsiol. Und ich habe dann irgendwann bereut, Philipsiol gekauft zu haben, weil
+**[00:30:29]** von Philips Hue. Und ich habe dann irgendwann bereut, Philips Hue gekauft zu haben, weil
 
 **[00:30:34]** der Bewegungsmelder im Keller, der hat die Eigenschaft, dass wenn der Bewegung registriert
 
@@ -932,11 +932,11 @@ Pausen sind erlaubt. Vibe Coding hat einen Suchtfaktor.
 
 **[00:30:59]** mir vielleicht recherchieren, ob es da irgendwas gibt. Und dann haben wir ein bisschen hergeschrieben
 
-**[00:31:03]** und dann Finger an, so nach dem Motto, drück doch mal jetzt bitte auf deiner Philips-View
+**[00:31:03]** und dann Finger an, so nach dem Motto, drück doch mal jetzt bitte auf deiner Philips Hue
 
-**[00:31:08]** auf den Knopf. Und dann gehst du auf die Philips-View, drückst auf den Knopf und
+**[00:31:08]** auf den Knopf. Und dann gehst du auf die Philips Hue, drückst auf den Knopf und
 
-**[00:31:12]** dann sag, Claude, so, hab mich mit deiner Philips-View verbunden, was wollen wir
+**[00:31:12]** dann sag, Claude, so, hab mich mit deiner Philips Hue verbunden, was wollen wir
 
 **[00:31:15]** jetzt machen. Und dann hat er mein Bewegungsmelden im Keller beigebracht, dass das Licht
 
@@ -954,7 +954,7 @@ Pausen sind erlaubt. Vibe Coding hat einen Suchtfaktor.
 
 **[00:31:48]** Smart Home ist immer irgendwie Pain hinzustellen, wenn du dir eine Mischung von Anbietern hast.
 
-**[00:31:53]** Also Apple, HomeKit und Philips U und ZigBee und HomeKit, da bist du ja am Ende.
+**[00:31:53]** Also Apple, HomeKit und Philips Hue und ZigBee und HomeKit, da bist du ja am Ende.
 
 **[00:31:59]** Aber dann hast du auf einmal eine Möglichkeit, dass das Ding nimmt dir die Komplexität weg.
 
@@ -996,7 +996,7 @@ Pausen sind erlaubt. Vibe Coding hat einen Suchtfaktor.
 
 **[00:33:34]** echt durch ich bin glaube ich auch so weit durch also außerdem dass ich nochmal wiederholen
 
-**[00:33:40]** will, dass ihr nicht, Weitkoning muss nicht dafür da sein, dass ihr die nächste neue Super-App
+**[00:33:40]** will, dass ihr nicht, Vibe Coding muss nicht dafür da sein, dass ihr die nächste neue Super-App
 
 **[00:33:46]** oder etwas anderes macht. Es ist vielleicht auch einfach...
 
@@ -1050,7 +1050,7 @@ Pausen sind erlaubt. Vibe Coding hat einen Suchtfaktor.
 
 **[00:35:21]** Marco unsere Fortausfolge verlinken, ich kenn ihn ja eigentlich sonst über sein,
 
-**[00:35:25]** also kenn nicht, ne, ich hab ja sonst schon mit den Kengerokroniken und so einen
+**[00:35:25]** also kenn nicht, ne, ich hab ja sonst schon mit den Känguru-Chroniken und so einen
 
 **[00:35:28]** Kram zu tun.
 

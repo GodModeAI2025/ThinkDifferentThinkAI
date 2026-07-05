@@ -37,7 +37,7 @@ Apple zeigt Roboter-Tischlampe im Stil der Pixar-Lampe Luxo
 
 **[00:00:14]** Hier gibt es klare Einordnungen, echte Praxiseinblicke und einen frischen Blick auf das, was möglich ist.
 
-**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinker.
+**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinkern.
 
 **[00:00:24]** Da läuft es mir immer noch kalt den Rücken runter, aber es geht heute nicht nur um Star
 
@@ -1271,6 +1271,6 @@ Apple zeigt Roboter-Tischlampe im Stil der Pixar-Lampe Luxo
 
 **[00:46:14]** und einen frischen Blick auf das, was möglich ist.
 
-**[00:46:17]** Verständlich, kritisch und immer mit einem Augenzwinker.
+**[00:46:17]** Verständlich, kritisch und immer mit einem Augenzwinkern.
 
-**[00:46:20]** zum Augenzwinker, K.I. zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
+**[00:46:20]** zum Augenzwinkern, K.I. zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.

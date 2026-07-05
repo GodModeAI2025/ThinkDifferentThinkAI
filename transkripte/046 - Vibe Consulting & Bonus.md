@@ -52,11 +52,11 @@ Mobile × AI bei adesso mobile solutions, spezialisiert auf On-Device AI, Agent 
 
 **[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinker.
 
-**[00:00:24]** KD zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
+**[00:00:24]** KI zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
 
 **[00:00:33]** Heute ist eine ganz besondere Folge.
 
-**[00:00:35]** Im ersten Teil haben Jens und ich ein Gast, Volker Brun, von der Adesso.
+**[00:00:35]** Im ersten Teil haben Jens und ich ein Gast, Volker Gruhn, von der Adesso.
 
 **[00:00:41]** Er wird sich gleich selbst vorstellen.
 
@@ -64,9 +64,9 @@ Mobile × AI bei adesso mobile solutions, spezialisiert auf On-Device AI, Agent 
 
 **[00:00:45]** Ich durfte den Adesso Digital Day 2026 in Düsseldorf besuchen
 
-**[00:00:52]** und habe die Chancs genutzt, mit Stefan Kämpf zusammen eine Live-Folge auszunehmen.
+**[00:00:52]** und habe die Chancs genutzt, mit Stephane Kempf zusammen eine Live-Folge auszunehmen.
 
-**[00:00:59]** Wir reden über Skills, über Agent Harness und über die Frage Meg Orbei.
+**[00:00:59]** Wir reden über Skills, über Agent Harness und über die Frage Make-or-Buy.
 
 **[00:01:04]** Von der Seite ist heute etwas Besonderes. Ihr bekommt quasi eine Doppelfolge, eine Spezialfolge.
 
@@ -76,7 +76,7 @@ Mobile × AI bei adesso mobile solutions, spezialisiert auf On-Device AI, Agent 
 
 **[00:01:16]** An aus der Rundfunkanstalt wollte ich jetzt schon fast sagen, aber ich merke so
 
-**[00:01:20]** ein bisschen der Resturlaub hängt mir noch im Lacken. Willkommen bei ThinkDiffin,
+**[00:01:20]** ein bisschen der Resturlaub hängt mir noch im Lacken. Willkommen bei Think Different,
 
 **[00:01:24]** ThinkAI und in guter alter Traditionen haben der Jens und ich uns heute mal
 
@@ -90,7 +90,7 @@ Mobile × AI bei adesso mobile solutions, spezialisiert auf On-Device AI, Agent 
 
 **[00:01:49]** Podcast sprechen durfte. Ich wusste nicht, wie ich das besser kriege. Bei mir oder bei uns heute in
 
-**[00:01:56]** unserem virtuellen Studio ist der Volker Kuhn zu Gast und Volker. Ich finde das total schön,
+**[00:01:56]** unserem virtuellen Studio ist der Volker Gruhn zu Gast und Volker. Ich finde das total schön,
 
 **[00:02:03]** dass du da bist. Danke fürs kommen. Ja, Mark Jens, danke schön. Auch euch einen schönen Abend.
 
@@ -104,7 +104,7 @@ Mobile × AI bei adesso mobile solutions, spezialisiert auf On-Device AI, Agent 
 
 **[00:02:29]** Zuhörer kennen dich vielleicht nicht. Magst du vielleicht zwei, drei Sätze sagen, wer du bist,
 
-**[00:02:33]** was du machst? Tu ich gerne. Volker Grun, Dortmunder Informatiker, ein zweigeteiltes
+**[00:02:33]** was du machst? Tu ich gerne. Volker Gruhn, Dortmunder Informatiker, ein zweigeteiltes
 
 **[00:02:39]** Arbeitsleben, im herzenden Job und im Hauptjob bin ich Hochschullehrer an der Uni
 
@@ -114,7 +114,7 @@ Mobile × AI bei adesso mobile solutions, spezialisiert auf On-Device AI, Agent 
 
 **[00:02:51]** Sowas Ähnliches tue ich schon lange, circa 30 Jahre an verschiedenen Universitäten und
 
-**[00:02:57]** eine Nebentätigkeit, eine Nebenbeschäftigung ist bei media.desus.edich vor knapp 30 Jahren
+**[00:02:57]** eine Nebentätigkeit, eine Nebenbeschäftigung ist bei adesso, die vor knapp 30 Jahren
 
 **[00:03:02]** mal mitgegründet habe und war ich der ich heute Vorsitzender des Aufsichtsrats bin.
 
@@ -200,7 +200,7 @@ Mobile × AI bei adesso mobile solutions, spezialisiert auf On-Device AI, Agent 
 
 **[00:05:56]** maßgeblich vereinfacht. Und ich glaube, da steckt auch was drin. Ich glaube jetzt nicht daran, dass per
 
-**[00:06:02]** Wipecoding Menschen große Stücke Software entwickeln können, wenn sie nicht gewohnt sind, gewohnt sind,
+**[00:06:02]** Vibe Coding Menschen große Stücke Software entwickeln können, wenn sie nicht gewohnt sind, gewohnt sind,
 
 **[00:06:11]** in Softwarestrukturen zu denken und abstrahieren, strukturieren, generalisieren irgendwie für
 
@@ -208,7 +208,7 @@ Mobile × AI bei adesso mobile solutions, spezialisiert auf On-Device AI, Agent 
 
 **[00:06:21]** glaube ich, das nicht mehr. Ich glaube, da noch für so Spielzeuganwendung. Ich glaube, per
 
-**[00:06:25]** Wipe-Coding sind ganz viele Anwendungen bisher entstanden, die man auch im App Store für
+**[00:06:25]** Vibe-Coding sind ganz viele Anwendungen bisher entstanden, die man auch im App Store für
 
 **[00:06:29]** 1.9.19 im Monat hätte kaufen können und dann ist eine Nacht damit verbringen und Token
 
@@ -252,7 +252,7 @@ Mobile × AI bei adesso mobile solutions, spezialisiert auf On-Device AI, Agent 
 
 **[00:07:50]** Aber du stellst etwas hin, die Leute nehmen optisch wahr, wow.
 
-**[00:07:55]** Und dann heißt es im Umkehrschluss, White Coding hat die Welt gerettet.
+**[00:07:55]** Und dann heißt es im Umkehrschluss, Vibe Coding hat die Welt gerettet.
 
 **[00:07:59]** Ich meine, das kennt man ja sowohl aus der Softwareentwicklung oder auch aus anderen
 
@@ -270,7 +270,7 @@ Mobile × AI bei adesso mobile solutions, spezialisiert auf On-Device AI, Agent 
 
 **[00:08:25]** Und jetzt mit KI ist ja noch schlimmer.
 
-**[00:08:26]** Jetzt mit KI heißt das, hast doch e-Gewipe gekodet.
+**[00:08:26]** Jetzt mit KI heißt das, hast du eh gevibecodet.
 
 **[00:08:29]** Haust ein Prompt rein, kommt was raus.
 
@@ -334,13 +334,13 @@ Mobile × AI bei adesso mobile solutions, spezialisiert auf On-Device AI, Agent 
 
 **[00:10:03]** man das auch an der Seite sieht.
 
-**[00:10:05]** Nein, nein, aber man kann mit Wipecoding, ich tue mich schwer mit dem Begriff Wipecoding
+**[00:10:05]** Nein, nein, aber man kann mit Vibe Coding, ich tue mich schwer mit dem Begriff Vibe Coding
 
 **[00:10:09]** im klassischen Sinne, da hängt hier irgendwie drin, man lässt sich auf sein Gefühl fürs
 
 **[00:10:13]** Problem ein und abstrahiert von der Lösung so komplett, deshalb tue ich mich ein klein
 
-**[00:10:17]** bisschen schwer mit dem Wipecoding, aber sagen wir mal, ich prompte Software-Systeme
+**[00:10:17]** bisschen schwer mit dem Vibe Coding, aber sagen wir mal, ich prompte Software-Systeme
 
 **[00:10:22]** oder mache das mit einer schmalen Spezifikation, die irgendwie zustande kommt, vielleicht
 
@@ -936,7 +936,7 @@ Mobile × AI bei adesso mobile solutions, spezialisiert auf On-Device AI, Agent 
 
 **[00:34:15]** viel, viel besser werden. Die Modelle werden besser werden, wir werden noch wahnsinnige
 
-**[00:34:18]** Sachen sehen, was alles funktioniert, wenn wir jetzt an die letzten Entroffekt-Modelle
+**[00:34:18]** Sachen sehen, was alles funktioniert, wenn wir jetzt an die letzten Anthropic-Modelle
 
 **[00:34:22]** und so etwas gucken, die kurz mal da fahren und wieder weg sind.
 
@@ -1038,7 +1038,7 @@ Mobile × AI bei adesso mobile solutions, spezialisiert auf On-Device AI, Agent 
 
 **[00:37:20]** Alle KI dürfen das hier gerne abonnieren.
 
-**[00:37:22]** Und ansonsten freuen wir uns auch, wenn ihr das nächste Mal wieder einschaltet, bei Zinkdifferent, Zink AI.
+**[00:37:22]** Und ansonsten freuen wir uns auch, wenn ihr das nächste Mal wieder einschaltet, bei Think Different, Think AI.
 
 **[00:37:28]** Danke und ciao.
 
@@ -1048,7 +1048,7 @@ Mobile × AI bei adesso mobile solutions, spezialisiert auf On-Device AI, Agent 
 
 **[00:37:32]** Ciao.
 
-**[00:37:34]** Wir laufen im Podcast Zinkdifferent, Zink AI, wo wir uns immer über die fabelhafte Welt der AI unterhalten.
+**[00:37:34]** Wir laufen im Podcast Think Different, Think AI, wo wir uns immer über die fabelhafte Welt der AI unterhalten.
 
 **[00:37:41]** Und wir haben uns gesagt, warum nutzen wir nicht einstatt dieses Auditorium,
 
@@ -1062,7 +1062,7 @@ Mobile × AI bei adesso mobile solutions, spezialisiert auf On-Device AI, Agent 
 
 **[00:37:55]** Ja, wunderschönen guten Tag.
 
-**[00:37:56]** Ich freue mich, heute hier leiden zu dürfen in diesem Podcast, Stefan Kemp, hier bei
+**[00:37:56]** Ich freue mich, heute hier leiden zu dürfen in diesem Podcast, Stephane Kempf, hier bei
 
 **[00:38:00]** der ADESSO jetzt seit anderthalb Jahren als Consultant für Mobile-Lösung und in der
 
@@ -1070,7 +1070,7 @@ Mobile × AI bei adesso mobile solutions, spezialisiert auf On-Device AI, Agent 
 
 **[00:38:09]** Gut.
 
-**[00:38:10]** Und daher lasst uns einsteigen bei SyncDivision, SyncAI.
+**[00:38:10]** Und daher lasst uns einsteigen bei Think Different, Think AI.
 
 **[00:38:13]** Stefan, wir haben ja uns heute das ein oder andere überlegt,
 
@@ -1094,19 +1094,19 @@ Mobile × AI bei adesso mobile solutions, spezialisiert auf On-Device AI, Agent 
 
 **[00:38:39]** ja, lasst uns doch bitte mal über Skills unterhalten.
 
-**[00:38:42]** Und dann kriegt man manchmal Menschen, die so leichtes Zucken in der Nippe haben oder eine Augenpaue hochziehen.
+**[00:38:42]** Und dann kriegt man manchmal Menschen, die so leichtes Zucken in der Lippe haben oder eine Augenpaue hochziehen.
 
-**[00:38:47]** Man fragt sich, warum, weil Menschen, die nicht jetzt vielleicht dieser KI-Babel, IT-Babel leben, sagen, Skilz?
+**[00:38:47]** Man fragt sich, warum, weil Menschen, die nicht jetzt vielleicht dieser KI-Babel, IT-Babel leben, sagen, Skills?
 
 **[00:38:55]** Das sind doch für Mitarbeiter-Entwicklungsthemen.
 
-**[00:38:57]** Warum reden die jetzt hier über Skilz, wenn die IT im Raum ist?
+**[00:38:57]** Warum reden die jetzt hier über Skills, wenn die IT im Raum ist?
 
-**[00:39:00]** Von der Seite Stefan, was sind denn Skilz?
+**[00:39:00]** Von der Seite Stefan, was sind denn Skills?
 
-**[00:39:03]** Ja, das sind Skilz. Das ist so die grundlegende Frage.
+**[00:39:03]** Ja, das sind Skills. Das ist so die grundlegende Frage.
 
-**[00:39:07]** Ich definiere Skilz für mich vielleicht auch ein bisschen anders als die meisten.
+**[00:39:07]** Ich definiere Skills für mich vielleicht auch ein bisschen anders als die meisten.
 
 **[00:39:11]** Also ich nutze Skills erstmal, um ganz plump zum Beispiel jetzt eine Powerpoint-State zu machen.
 
@@ -1164,7 +1164,7 @@ Mobile × AI bei adesso mobile solutions, spezialisiert auf On-Device AI, Agent 
 
 **[00:41:20]** ein Zip und das gibt man dann zum Beispiel, ich meine bei Google heißt das dann irgendwie
 
-**[00:41:24]** wie Jamst und bei Claude heißt das dann Skills, bei Open AI heißt das dann auch Skills, aber
+**[00:41:24]** wie Gems und bei Claude heißt das dann Skills, bei Open AI heißt das dann auch Skills, aber
 
 **[00:41:30]** lange rede kurz als Sinn. Am Ende vom Tag ist es ein Markdown-File, dass man auch als Mensch
 
@@ -1220,7 +1220,7 @@ Mobile × AI bei adesso mobile solutions, spezialisiert auf On-Device AI, Agent 
 
 **[00:43:44]** Warum das wichtig ist, bevor du den nächsten Punkt aufmachst?
 
-**[00:43:47]** Wenn ihr das Experiment macht und ihr fragt JetGPT,
+**[00:43:47]** Wenn ihr das Experiment macht und ihr fragt ChatGPT,
 
 **[00:43:50]** ist es eine gute Idee, meine Fäkalien in der Innenstadt zum Verkauf anzubieten.
 
@@ -1238,11 +1238,11 @@ Mobile × AI bei adesso mobile solutions, spezialisiert auf On-Device AI, Agent 
 
 **[00:44:12]** Darf die mir? Okay, Skills. Wir haben ja auf der Agenda drei Punkte stehen, also drei Ebenen.
 
-**[00:44:17]** Skills, das nächste ist der Harnis. Was mich jetzt interessieren würde, weil ich mich
+**[00:44:17]** Skills, das nächste ist der Harness. Was mich jetzt interessieren würde, weil ich mich
 
 **[00:44:20]** mit diesem Thema gerade im Prinzipienbereich gerade sehr, sehr, sehr stark auseinandersetze,
 
-**[00:44:24]** wer von euch kann was mit dem Begriff Harnis anfangen?
+**[00:44:24]** wer von euch kann was mit dem Begriff Harness anfangen?
 
 **[00:44:29]** Ja, das ist auch die Adesso-Kollegin. Das sagt die Handthemen, das versteht man
 
@@ -1254,17 +1254,17 @@ Mobile × AI bei adesso mobile solutions, spezialisiert auf On-Device AI, Agent 
 
 **[00:44:38]** Jetzt aber die Frage an dich, weil das eben den Punkt ist, den denke ich doch wenige kennen.
 
-**[00:44:44]** Was ist ein Harnis, ein Agent-Harnis?
+**[00:44:44]** Was ist ein Harness, ein Agent-Harness?
 
 **[00:44:47]** Ich ist es immer wieder ganz lustig, ne? Wenn man sich auch überlegt, was es dann vielleicht
 
 **[00:44:50]** im Deutschen bedeutet. Die meisten von euch interagieren ja tatsächlich über einen
 
-**[00:44:54]** Harnis mit einem KI-System. Am einen ist es die Co-Pilot-Oberfläche, beim anderen
+**[00:44:54]** Harness mit einem KI-System. Am einen ist es die Co-Pilot-Oberfläche, beim anderen
 
 **[00:44:59]** ist es diese Codex-App von OpenAI, Claude Code, Co-Work-App. Dementsprechend ist die
 
-**[00:45:06]** Distribution von Hannes, wenn man mich fragt, die Umgebung, in der ein Modell eingebettet ist.
+**[00:45:06]** Distribution von Harness, wenn man mich fragt, die Umgebung, in der ein Modell eingebettet ist.
 
 **[00:45:11]** Weil das Modell alleine, manche sagen dann auch, okay, das Modell alleine mit einem System Prompt,
 
@@ -1280,11 +1280,11 @@ Mobile × AI bei adesso mobile solutions, spezialisiert auf On-Device AI, Agent 
 
 **[00:45:40]** als wenn man das Modell in was anderes einhängt. Von der Seite, auch wir bei uns in der Firma
 
-**[00:45:46]** bauen unseren eigenen Harnes, weil wir sagen, das Modell ist das eine und dass man sich
+**[00:45:46]** bauen unseren eigenen Harness, weil wir sagen, das Modell ist das eine und dass man sich
 
 **[00:45:52]** Tools. Da kommen dann ganz schnell solche Begriffe wie A2A, MCP, die stehen ja gar nicht auf
 
-**[00:45:56]** unsere Agenda heute. Von der Seite, wir könnten auch eine Stunde filmen. Aber einen Harnis, der mir
+**[00:45:56]** unsere Agenda heute. Von der Seite, wir könnten auch eine Stunde filmen. Aber einen Harness, der mir
 
 **[00:46:01]** erlaubt, wie denkt das Modell? Was gebe ich dem Modell mit? Wie sorge ich dafür, dass die Ergebnisse
 
@@ -1304,7 +1304,7 @@ Mobile × AI bei adesso mobile solutions, spezialisiert auf On-Device AI, Agent 
 
 **[00:46:42]** für 7 Euro hat noch keine anständige Folie erzeugt. Wenn man jetzt sich aber überlegt,
 
-**[00:46:47]** Was kann ich denn eventuell über einen Harnis in Vorhinein mitgeben, damit der Tokenverbrauch
+**[00:46:47]** Was kann ich denn eventuell über einen Harness in Vorhinein mitgeben, damit der Tokenverbrauch
 
 **[00:46:53]** reduziert ist?
 
@@ -1312,17 +1312,17 @@ Mobile × AI bei adesso mobile solutions, spezialisiert auf On-Device AI, Agent 
 
 **[00:46:58]** komischen Tulsen wie Caveman oder was da in Social Media alles herumkursiert ist, habe
 
-**[00:47:03]** ich die Möglichkeit mit einem Harnis dafür zu sorgen, dass ich diesen sogenannten Agingloop-Steuere
+**[00:47:03]** ich die Möglichkeit mit einem Harness dafür zu sorgen, dass ich diesen sogenannten Agingloop-Steuere
 
 **[00:47:09]** bevor er startet, nachdem er fertig ist, während er arbeitet, dass ich ihm sage, welche
 
-**[00:47:14]** Modelle, welche Tiefe, welche Effizienz. Und das ist für mich der Harnis, der das alles in einer
+**[00:47:14]** Modelle, welche Tiefe, welche Effizienz. Und das ist für mich der Harness, der das alles in einer
 
 **[00:47:20]** Anwendung vereint und quasi einen zu Hause bietet, auch wenn zu Hause nicht die Übersetzung ist.
 
 **[00:47:26]** Ich erinnere mich daran, als wir das Buch zusammengeschrieben haben und für die erste Idee
 
-**[00:47:30]** hatten, was wir vollend draufpacken auf das Buch, wie dieser Harnis aussehen könnte und wir einfach
+**[00:47:30]** hatten, was wir vollend draufpacken auf das Buch, wie dieser Harness aussehen könnte und wir einfach
 
 **[00:47:35]** keine Visual gefunden haben, weil das Wort ansicht, muss ich ganz ehrlich zugeben, ich will sagen
 
@@ -1330,11 +1330,11 @@ Mobile × AI bei adesso mobile solutions, spezialisiert auf On-Device AI, Agent 
 
 **[00:47:44]** vermittelt irgendwie einen anderen Content, als das ganze Thema vielleicht bedeuten würde.
 
-**[00:47:49]** Aber wenn man ist von Hannes, ich habe ja gerade gesagt, Hannes, also wir setzen uns hin und bauen
+**[00:47:49]** Aber wenn man ist von Harness, ich habe ja gerade gesagt, Harness, also wir setzen uns hin und bauen
 
 **[00:47:53]** uns quasi einen, entwickeln einen. Das kommt ja ganz schnell zu der Frage,
 
-**[00:47:58]** wieso baut ihr einen Hannes? Also wir haben es heute, heute Morgen in der
+**[00:47:58]** wieso baut ihr einen Harness? Also wir haben es heute, heute Morgen in der
 
 **[00:48:01]** Keynote ja auch gehört, wenn man darauf stolz ist, etwas selbst zu bauen,
 
@@ -1382,7 +1382,7 @@ Mobile × AI bei adesso mobile solutions, spezialisiert auf On-Device AI, Agent 
 
 **[00:49:40]** Backlog komischerweise Montagabend leer ist, und dementsprechend muss man halt immer
 
-**[00:49:44]** wieder gucken, wie man Melk or Bye bewertet, aber es ist halt nicht mehr so wie früher.
+**[00:49:44]** wieder gucken, wie man Make-or-Buy bewertet, aber es ist halt nicht mehr so wie früher.
 
 **[00:49:49]** Ich würde schon sagen, dass es aktuell noch so ist wie früher, aber wir merken das
 
@@ -1396,7 +1396,7 @@ Mobile × AI bei adesso mobile solutions, spezialisiert auf On-Device AI, Agent 
 
 **[00:50:10]** geht. Aber wobei, ich hätte noch ein Beratungsfeld, je nachdem, welche Firma da vielleicht, oder
 
-**[00:50:15]** welche Menschen Ermeinungen sind, aufgrund eines YouTube-Clo-Code-Konsult-Diensts, selbst
+**[00:50:15]** welche Menschen Ermeinungen sind, aufgrund eines YouTube-Claude-Code-Consulting-Diensts, selbst
 
 **[00:50:19]** Dinge zu bauen. Das ist ein riesiges Beratungsfeld, weil irgendeiner muss es ja nachher wieder
 
@@ -1422,19 +1422,19 @@ Mobile × AI bei adesso mobile solutions, spezialisiert auf On-Device AI, Agent 
 
 **[00:50:49]** wie ihr gerne arbeiten möchtet und arbeiten könnt in eurem Umfeld.
 
-**[00:50:53]** Sorg bitte, bitte, bitte, bitte dafür, dass er drum ein Harnes packt.
+**[00:50:53]** Sorg bitte, bitte, bitte, bitte dafür, dass er drum ein Harness packt.
 
 **[00:50:57]** Weil ich glaub, wir hatten es gerade eben schon, das Modell ist am Ende von Tag fast schon egal.
 
-**[00:51:02]** Wenn der Harnes drumherum stimmt, das Modell könnte ja austauschen mit ein paar kleinen
+**[00:51:02]** Wenn der Harness drumherum stimmt, das Modell könnte ja austauschen mit ein paar kleinen
 
 **[00:51:06]** Ecken und Kanten hier, an dem man ein bisschen rumschrauben muss.
 
-**[00:51:09]** Aber wenn der Harnes stimmt, wenn, ja, dann stimmt's.
+**[00:51:09]** Aber wenn der Harness stimmt, wenn, ja, dann stimmt's.
 
 **[00:51:13]** Ich finde, das ist also fürstige, hätte man es nicht zu Ende bringen können.
 
-**[00:51:16]** Mark Zimmermann und Stefan Kämpf!
+**[00:51:16]** Mark Zimmermann und Stephane Kempf!
 
 **[00:51:28]** von Mark und Jens. Zwei technologieverliebte Köpfe, die nicht nur über künstliche
 
@@ -1442,4 +1442,4 @@ Mobile × AI bei adesso mobile solutions, spezialisiert auf On-Device AI, Agent 
 
 **[00:51:40]** und einen frischen Blick auf das, was möglich ist. Verständlich, kritisch und immer mit
 
-**[00:51:45]** einem Augenzwinker. HI zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
+**[00:51:45]** einem Augenzwinker. KI zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.

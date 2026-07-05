@@ -46,7 +46,7 @@ Am Ende steht eine Beobachtung, über die heute morgen bereits eine Bank in Fran
 
 **[00:00:24]** Hadi zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
 
-**[00:00:29]** Herzlich Willkommen bei einer neuen Folge von Zinkdiffern Zink AI.
+**[00:00:29]** Herzlich Willkommen bei einer neuen Folge von Think Different, Think AI.
 
 **[00:00:37]** Ich weiß auch nicht, was passiert ist.
 
@@ -272,11 +272,11 @@ Am Ende steht eine Beobachtung, über die heute morgen bereits eine Bank in Fran
 
 **[00:09:36]** Dankeschön. Hab ich gedacht, okay, gut, was gibt es denn da und wie geht denn das?
 
-**[00:09:40]** Alleine wenn du dir überlegst wie schnell so ein Claude Code mit dem Docker, der jetzt auch per se MCP kann, sich in Kali Linux installiert, sich in Schodern besorgt, also Dinge besorgt, von denen ich jetzt mal alleinhafter Meinung und der Meinung bin, okay, das ist gut zu erkennen von wo ist denn gerade vielleicht ein entigitales Türchen offen, wenn ich es dann, also nach dem Motto mit Schodern finde ich was, mit Kali scann ich was, also so ganz plump ausgedrückt, ja?
+**[00:09:40]** Alleine wenn du dir überlegst wie schnell so ein Claude Code mit dem Docker, der jetzt auch per se MCP kann, sich in Kali Linux installiert, sich in Shodan besorgt, also Dinge besorgt, von denen ich jetzt mal alleinhafter Meinung und der Meinung bin, okay, das ist gut zu erkennen von wo ist denn gerade vielleicht ein entigitales Türchen offen, wenn ich es dann, also nach dem Motto mit Shodan finde ich was, mit Kali scann ich was, also so ganz plump ausgedrückt, ja?
 
 **[00:10:07]** dann habe ich die ganze Zeit immer, wenn ich mir das angeschaut habe.
 
-**[00:10:10]** Kardia ist eine Linux-Distribution mit Pentest Tools.
+**[00:10:10]** Kali ist eine Linux-Distribution mit Pentest Tools.
 
 **[00:10:13]** Ist das so eine nette Beschreibung, mit der man da durchkommt?
 
@@ -350,7 +350,7 @@ Am Ende steht eine Beobachtung, über die heute morgen bereits eine Bank in Fran
 
 **[00:13:01]** Werkzeug an die Hand gestellt kriegen. Aber würden die, deiner Meinung nach, mit so was
 
-**[00:13:07]** sie auch mehr iCloud, Gemini oder sonst was handieren, oder gibt es da auch noch, ich sage jetzt mal,
+**[00:13:07]** sie auch mehr Claude, Gemini oder sonst was handieren, oder gibt es da auch noch, ich sage jetzt mal,
 
 **[00:13:12]** also beim iPhone würde ich es gelbreak nennen und bei Android würde ich es routing nennen,
 
@@ -360,7 +360,7 @@ Am Ende steht eine Beobachtung, über die heute morgen bereits eine Bank in Fran
 
 **[00:13:35]** Ja, aber in der Tat, wenn du dich zum Beispiel, du hast von der Dark Side, glaube ich am Anfang gesprochen, wenn du dich mal im Darknet umguckst,
 
-**[00:13:44]** guckst, dann findest du halt schon so Sachen wie Fisch GPT oder Fraud GPT. Das sind dann
+**[00:13:44]** guckst, dann findest du halt schon so Sachen wie WormGPT oder Fraud GPT. Das sind dann
 
 **[00:13:53]** schon spannende Modelle, die damit werben, dass sie frei von ethischen Beschränkungen sind
 
@@ -418,7 +418,7 @@ Am Ende steht eine Beobachtung, über die heute morgen bereits eine Bank in Fran
 
 **[00:16:33]** ein bisschen zweckentfremdet oder sind das dann ganz speziell trainierte Modelle, die, also habe ich da
 
-**[00:16:38]** so ein Chatchie-Beat am anderen Ende, dass irgendwie keine Ahnung, mit dem J-Bright-Promp dazu gebracht wird,
+**[00:16:38]** so ein ChatGPT am anderen Ende, dass irgendwie keine Ahnung, mit dem Jailbreak-Prompt dazu gebracht wird,
 
 **[00:16:43]** sehr freizügig zu sein oder sind das wirklich trainierte Modelle, die dann ja nur auf
 
@@ -458,7 +458,7 @@ Am Ende steht eine Beobachtung, über die heute morgen bereits eine Bank in Fran
 
 **[00:18:28]** die wir allen Mitarbeiterinnen und Mitarbeitern an die Hand geben, in Form von Open AI oder
 
-**[00:18:35]** Cloud oder whatever, einfach auch dem ganzen Tür und Tor öffnen. Und wenn dann mal einer
+**[00:18:35]** Claude oder whatever, einfach auch dem ganzen Tür und Tor öffnen. Und wenn dann mal einer
 
 **[00:18:43]** vielleicht aus versehen, das muss ja gar nicht immer der frustrierte Abteilungsleiter
 
@@ -520,7 +520,7 @@ Am Ende steht eine Beobachtung, über die heute morgen bereits eine Bank in Fran
 
 **[00:21:02]** an weiteren Sachen runter, die mir gar nicht so richtig klar sind? Also jetzt mal eine
 
-**[00:21:05]** open-claw-Institution, die ich dann eben im internen Netzwerk machen würde.
+**[00:21:05]** OpenClaw-Installation, die ich dann eben im internen Netzwerk machen würde.
 
 **[00:21:08]** Zunefällig habe ich die auf dem Rechner, ne?
 

@@ -55,9 +55,9 @@ CloudFactory. (2025, 24. Oktober). Why Enterprises Can’t Ignore OpenAI Atlas B
 
 **[00:00:14]** Hier gibt es klare Einordnungen, echte Praxiseinblicke und einen frischen Blick auf das, was möglich ist.
 
-**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinker.
+**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinkern.
 
-**[00:00:24]** Karin zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
+**[00:00:24]** KI zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
 
 **[00:00:34]** Ehrlich, ich verstehe absolut null von Technik.
 
@@ -113,7 +113,7 @@ CloudFactory. (2025, 24. Oktober). Why Enterprises Can’t Ignore OpenAI Atlas B
 
 **[00:02:26]** Ja, alt war ich, bin ich heute, damals fühlte ich mich hit und jung.
 
-**[00:02:32]** Heute, glaube ich, war das sehr nördig, weil keiner unserer Zuhörer, jüngeren Althaus, wird irgendwie wissen, wovon dir beide gerade lieben.
+**[00:02:32]** Heute, glaube ich, war das sehr nerdig, weil keiner unserer Zuhörer, jüngeren Althaus, wird irgendwie wissen, wovon dir beide gerade lieben.
 
 **[00:02:43]** Das ist nicht im Grundstück. Aber wir machen den Übergang gleich zu der heutigen Folge.
 
@@ -139,9 +139,9 @@ CloudFactory. (2025, 24. Oktober). Why Enterprises Can’t Ignore OpenAI Atlas B
 
 **[00:03:40]** Aber ich glaube, bevor wir noch tiefer in dieses Thema einsteigen, hat mein lieber
 
-**[00:03:47]** Kollege und Partner, der liebe Mark Zimmermann, geschätzter Start-Wake Nerd bis vor kurzem
+**[00:03:47]** Kollege und Partner, der liebe Mark Zimmermann, geschätzter Star-Trek-Nerd bis vor kurzem
 
-**[00:03:55]** noch, bis die Telefone aus seiner Start-up-Community nicht mehr stirgestanden hat, weil er einen
+**[00:03:55]** noch, bis die Telefone aus seiner Star-Trek-Community nicht mehr stillgestanden hat, weil er einen
 
 **[00:04:01]** Fehler begangen hat in unserer Borg-Folge, den er unbedingt nochmal gerade fuzzeln wollte.
 
@@ -189,7 +189,7 @@ CloudFactory. (2025, 24. Oktober). Why Enterprises Can’t Ignore OpenAI Atlas B
 
 **[00:06:05]** natürlich den Borg groß falsch wiedergegeben, ja, die biologischen Besonderheiten ihrer
 
-**[00:06:13]** Aufzunehmen zu assimilieren. Aber das wollte ich mit der Folge von James The Crock, das wollte
+**[00:06:13]** Aufzunehmen zu assimilieren. Aber das wollte ich mit der Folge von James T. Kirk, das wollte
 
 **[00:06:19]** zum Besten. Na, danke. Gerne. Die Folge, auf die wir Bezug genommen haben, ist die
 
@@ -221,7 +221,7 @@ CloudFactory. (2025, 24. Oktober). Why Enterprises Can’t Ignore OpenAI Atlas B
 
 **[00:07:32]** Nerd in einem zuschlägt, dann will dieses Kind, auch wenn er mal älter ist, bedient
 
-**[00:07:37]** werden. Brauser. Brauser, was passiert, wenn der Browser nicht mehr nur noch ein Werkzeug ist,
+**[00:07:37]** werden. Browser. Browser, was passiert, wenn der Browser nicht mehr nur noch ein Werkzeug ist,
 
 **[00:07:45]** sondern selber zum Oktober wird? Das sehen wir jetzt gerade. Ich glaube, wir sollten erst mal
 
@@ -355,7 +355,7 @@ CloudFactory. (2025, 24. Oktober). Why Enterprises Can’t Ignore OpenAI Atlas B
 
 **[00:12:24]** was für mich und benutze dazu. Manus für tiefgehendere Analysen und dann
 
-**[00:12:28]** hast du gesehen, wie sich quasi der Brauser, die Brauserspeite rechts mit
+**[00:12:28]** hast du gesehen, wie sich quasi der Browser, die Brauserspeite rechts mit
 
 **[00:12:33]** mit den Brauserkonten links, das wird dann so ein bisschen eingefärbt und dann siehst du so eine Art Kachelmuster,
 
@@ -369,7 +369,7 @@ CloudFactory. (2025, 24. Oktober). Why Enterprises Can’t Ignore OpenAI Atlas B
 
 **[00:12:56]** die sie ja gesucht haben, um im Prinzip so ein bisschen Interaktion zu zeigen.
 
-**[00:12:59]** Also wer das noch nicht gesehen hat, der Abgas-Bauser versucht so, wenn er mit einer Website zu interagiert,
+**[00:12:59]** Also wer das noch nicht gesehen hat, der Abgas-Browser versucht so, wenn er mit einer Website zu interagiert,
 
 **[00:13:04]** dann ist so über so einen weiteren Mayor, sind so ein paar Hologrammeffekte eingeblendet,
 
@@ -505,13 +505,13 @@ CloudFactory. (2025, 24. Oktober). Why Enterprises Can’t Ignore OpenAI Atlas B
 
 **[00:18:03]** Ich fand dich erstaunlich. Teilweise hat es mich auch, ich sag jetzt mal genervt, weil ich sag mal so,
 
-**[00:18:10]** um alles, was zu Tachibiti halt vorwirft, merkt er sich, um versuchter Rostinger abzuleiten und
+**[00:18:10]** um alles, was zu ChatGPT halt vorwirft, merkt er sich, um versuchter Rostinger abzuleiten und
 
-**[00:18:15]** wenn du halt nicht mit so ein Projektruck tun und so arbeitest, was du ja bei Tachibiti im
+**[00:18:15]** wenn du halt nicht mit so ein Projektruck tun und so arbeitest, was du ja bei ChatGPT im
 
 **[00:18:19]** Interface auch machen kannst, dann wird das ja quasi alles der gemeinsamen Gedächtnis zu
 
-**[00:18:26]** zugetragen. Mittlerweile kannst du ja auch ein Chatshipity-Projekt erstellen und die Memory-Funktion
+**[00:18:26]** zugetragen. Mittlerweile kannst du ja auch ein ChatGPT-Projekt erstellen und die Memory-Funktion
 
 **[00:18:33]** ist dann auch Projekt-Only. Das ist schon mal ganz nett, ne? Falls du dann halt schon keine Ahnung,
 
@@ -519,7 +519,7 @@ CloudFactory. (2025, 24. Oktober). Why Enterprises Can’t Ignore OpenAI Atlas B
 
 **[00:18:44]** Angeboten kriegst, wo der nächste Psychiater ist, wäre ja schon sehr merkwürdig und gleich ist
 
-**[00:18:49]** halt jetzt auch, wenn der Brauser da reinkommt, weil wenn du dein Leben im Brauser
+**[00:18:49]** halt jetzt auch, wenn der Browser da reinkommt, weil wenn du dein Leben im Browser
 
 **[00:18:54]** abwickelst und du Webseiten absichtlich, unabsichtlich ansprichst, andere Menschen
 
@@ -601,7 +601,7 @@ CloudFactory. (2025, 24. Oktober). Why Enterprises Can’t Ignore OpenAI Atlas B
 
 **[00:22:07]** sich das ein bisschen drehen, bleibt aber abzuwarten. Ich bin dann noch nicht ganz so euphorisch,
 
-**[00:22:13]** dass selbst diese KI-Brauser jetzt die Brauserzeit wieder komplett zurückbringen.
+**[00:22:13]** dass selbst diese KI-Browser jetzt die Brauserzeit wieder komplett zurückbringen.
 
 **[00:22:19]** Nein, ich glaube aber, dass die Art, wie wir mit der Maschine interagieren, hat immer
 
@@ -665,7 +665,7 @@ CloudFactory. (2025, 24. Oktober). Why Enterprises Can’t Ignore OpenAI Atlas B
 
 **[00:24:46]** nachgucken müssen, was auch immer uns so einfällt, dass das im Prinzip der Browser
 
-**[00:24:50]** dann einfach mal von, also der KI-Brauser für Sie.
+**[00:24:50]** dann einfach mal von, also der KI-Browser für Sie.
 
 **[00:24:53]** Das ist eben das LinkedIn-Beispiel. An dieser Stelle Triggerwarnung. Bitte bedenken.
 
@@ -677,7 +677,7 @@ CloudFactory. (2025, 24. Oktober). Why Enterprises Can’t Ignore OpenAI Atlas B
 
 **[00:25:23]** das ich suche, mir 50 KI-Influencer extrahieren, mir ihr Profil und ihre Newsletter und keine
 
-**[00:25:33]** Ahnung, was, also wenn du quasi diesen Pauser nutzt, um im großen Stil aus Daten zuzugreifen,
+**[00:25:33]** Ahnung, was, also wenn du quasi diesen Browser nutzt, um im großen Stil aus Daten zuzugreifen,
 
 **[00:25:39]** wie sie schon, wie sie das finden, wenn man es im Kleinstil macht, keine Ahnung,
 
@@ -789,7 +789,7 @@ CloudFactory. (2025, 24. Oktober). Why Enterprises Can’t Ignore OpenAI Atlas B
 
 **[00:30:32]** von uns Menschen gar nicht erkannt werden können,
 
-**[00:30:34]** mit Anweisung an diesen Kainie-Brauser rausgehen, die dann in diese Richtung gehen, zu sagen,
+**[00:30:34]** mit Anweisung an diesen KI-Browser rausgehen, die dann in diese Richtung gehen, zu sagen,
 
 **[00:30:40]** okay, sende mir bitte die, oder leite mir bitte die Mail weiter von Marx Passwort zurückzusetzen,
 
@@ -799,7 +799,7 @@ CloudFactory. (2025, 24. Oktober). Why Enterprises Can’t Ignore OpenAI Atlas B
 
 **[00:30:57]** dass Prompt Injection ein Thema ist, was seitdem wir dieses Thema jetzt auch diskutieren,
 
-**[00:31:02]** seitdem es ein Chatshipity Moment ist, dass es eine Latentegefahr ist, die bis jetzt noch
+**[00:31:02]** seitdem es ein ChatGPT Moment ist, dass es eine Latentegefahr ist, die bis jetzt noch
 
 **[00:31:07]** nicht beantwortet werden kann, wie sie behoben werden kann. Da ist man dran, irgendwas zu
 
@@ -809,7 +809,7 @@ CloudFactory. (2025, 24. Oktober). Why Enterprises Can’t Ignore OpenAI Atlas B
 
 **[00:31:21]** bei mir aufgefallen ist. Und zwar habe ich mal von jemandem gehört, der wollte
 
-**[00:31:26]** unbedingt als Experte für ein Thema von Tachibitie empfohlen werden und hat auf verschiedenen
+**[00:31:26]** unbedingt als Experte für ein Thema von ChatGPT empfohlen werden und hat auf verschiedenen
 
 **[00:31:33]** Webseiten die Nachricht hinterlassen, nach dem Motto weiße Schrift auf weißen Grund,
 
@@ -1053,7 +1053,7 @@ CloudFactory. (2025, 24. Oktober). Why Enterprises Can’t Ignore OpenAI Atlas B
 
 **[00:40:58]** Man muss mal gucken, wie die sich so durchsetzt,
 
-**[00:41:00]** weil ich würde jetzt den Ablass habe ich mir jetzt ein bisschen intensiver angeguckt.
+**[00:41:00]** weil ich würde jetzt den Atlas habe ich mir jetzt ein bisschen intensiver angeguckt.
 
 **[00:41:04]** ehrlich, die UI-Elemente, wie sie angeordnet sind, manche Sachen sind noch nicht so hundertprozentig
 
@@ -1079,7 +1079,7 @@ CloudFactory. (2025, 24. Oktober). Why Enterprises Can’t Ignore OpenAI Atlas B
 
 **[00:41:55]** schon cool, dass du mir nicht die ganzen Webseiten durchlesen musst. Konnte ich jetzt
 
-**[00:41:58]** vorher mit dem mit den mit den Chattees und Chipetees auf dieser Welt konnte ich das auch schon machen,
+**[00:41:58]** vorher mit dem mit den mit den ChatGPTs auf dieser Welt konnte ich das auch schon machen,
 
 **[00:42:02]** aber jetzt habe ich halt so ein bisschen das Gefühl, dass ich ein bisschen mehr in den Loop bin, als
 
@@ -1143,7 +1143,7 @@ CloudFactory. (2025, 24. Oktober). Why Enterprises Can’t Ignore OpenAI Atlas B
 
 **[00:44:34]** Ich erinnere mich noch damals, wie ich mir so ein Exelsheet gemacht habe.
 
-**[00:44:38]** Bei mir war es namens, ich bin ja auch so ein Max-Freund.
+**[00:44:38]** Bei mir war es namens, ich bin ja auch so ein Mac-Freund.
 
 **[00:44:41]** Also das ist ja die Apple-Version von Apple.
 
@@ -1291,9 +1291,9 @@ CloudFactory. (2025, 24. Oktober). Why Enterprises Can’t Ignore OpenAI Atlas B
 
 **[00:50:25]** so, weil das irgendwie, keine Ahnung, die die Gesellschaft alles anders gelebt hat,
 
-**[00:50:31]** als es der kleine nördige Markt damals für möglich gehalten hat und jetzt reden wir davon,
+**[00:50:31]** als es der kleine nerdige Mark damals für möglich gehalten hat und jetzt reden wir davon,
 
-**[00:50:35]** dass dieser blöde Brauser, der dann auf einmal, ich sag mal, die Art von Weisingen interagiert
+**[00:50:35]** dass dieser blöde Browser, der dann auf einmal, ich sag mal, die Art von Weisingen interagiert
 
 **[00:50:41]** haben, verändert hat, tatsächlich schlau wird.
 
@@ -1377,7 +1377,7 @@ CloudFactory. (2025, 24. Oktober). Why Enterprises Can’t Ignore OpenAI Atlas B
 
 **[00:53:42]** Also sie wird auch in Zukunft natürlich maschinen lesbare Webseiten auch bevorzugt, also Webseiten, die gut gekodet sind, jetzt sich angucken und das bevorzugt.
 
-**[00:53:51]** Sie wird aber im Prinzip auch auf anderen Webseiten, ja tatsächlich, wenn sie sehen kann, wenn sie zugreifen kann, wird sie, weil sie das immer tut, Empathie auch entwickeln für etwas, was dann gut funktioniert und wenn der Bots mit der Interagieren, also ich werde auf jeden Fall nach dieser Folge direkt mal den Ablass eben auch ausprobieren,
+**[00:53:51]** Sie wird aber im Prinzip auch auf anderen Webseiten, ja tatsächlich, wenn sie sehen kann, wenn sie zugreifen kann, wird sie, weil sie das immer tut, Empathie auch entwickeln für etwas, was dann gut funktioniert und wenn der Bots mit der Interagieren, also ich werde auf jeden Fall nach dieser Folge direkt mal den Atlas eben auch ausprobieren,
 
 **[00:54:10]** ob man mit dem einen oder anderen Service Chatbot, der auf der einen oder anderen Webseite
 
@@ -1425,7 +1425,7 @@ CloudFactory. (2025, 24. Oktober). Why Enterprises Can’t Ignore OpenAI Atlas B
 
 **[00:55:20]** Das ist auch eine Frage.
 
-**[00:55:21]** Also, dieses Thema, das ist ja eh schon durch den KI-System und den GPG-Moment
+**[00:55:21]** Also, dieses Thema, das ist ja eh schon durch den KI-System und den ChatGPT-Moment
 
 **[00:55:25]** da sowas von Beutung besser geworden.
 
@@ -1559,7 +1559,7 @@ CloudFactory. (2025, 24. Oktober). Why Enterprises Can’t Ignore OpenAI Atlas B
 
 **[00:59:54]** Dementsprechend, ich bin da beide Seiten in dem Fall,
 
-**[00:59:56]** genau wie ich Startway und Star Wars-Fan bin.
+**[00:59:56]** genau wie ich Star-Trek- und Star-Wars-Fan bin.
 
 **[00:59:59]** Aber das ist ein anderes Thema, aber was Whisperflow macht, ist eigentlich ein bisschen cool.
 
@@ -1663,7 +1663,7 @@ CloudFactory. (2025, 24. Oktober). Why Enterprises Can’t Ignore OpenAI Atlas B
 
 **[01:03:16]** schon cool, ne?
 
-**[01:03:17]** auch ein bisschen Star-Track-Vibes gegeben, aber das sprechen, was ich jetzt gerade tue
+**[01:03:17]** auch ein bisschen Star-Trek-Vibes gegeben, aber das sprechen, was ich jetzt gerade tue
 
 **[01:03:22]** in dieser Geschwindigkeit, dann in einem perfekten Text zu übernehmen, das ging halt
 
@@ -1741,6 +1741,6 @@ CloudFactory. (2025, 24. Oktober). Why Enterprises Can’t Ignore OpenAI Atlas B
 
 **[01:05:40]** Hier gibt es klare Einordnungen, echte Praxiseinblicke und einen frischen Blick auf das, was möglich ist.
 
-**[01:05:47]** Verständlich, kritisch und immer mit einem Augenzwinker.
+**[01:05:47]** Verständlich, kritisch und immer mit einem Augenzwinkern.
 
-**[01:05:51]** HI zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
+**[01:05:51]** KI zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.

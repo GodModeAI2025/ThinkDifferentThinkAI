@@ -58,7 +58,7 @@ https://github.com/openclaw/openclaw
 
 **[00:00:14]** Hier gibt es klare Einordnungen, echte Praxiseinblicke und einen frischen Blick auf das, was möglich ist.
 
-**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinker.
+**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinkern.
 
 **[00:00:24]** Hadi zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
 
@@ -312,7 +312,7 @@ https://github.com/openclaw/openclaw
 
 **[00:10:18]** von Apps, die dieses und jedes können. Ja, ja, das ist wild und das fühlt so ein bisschen auch,
 
-**[00:10:23]** Ich hatte zwei Sachen von Kaperfee. Kaperfee hat die letzte Woche dieses Wikithema nochmal
+**[00:10:23]** Ich hatte zwei Sachen von Karpathy. Karpathy hat die letzte Woche dieses Wikithema nochmal
 
 **[00:10:29]** rausgebracht, wie im Prinzip wissenschaftleriert werden kann. Deshalb sind ja auch viele von
 
@@ -1484,6 +1484,6 @@ https://github.com/openclaw/openclaw
 
 **[00:56:31]** Hier gibt es klare Einordnungen, echte Praxiseinblicke und einen frischen Blick auf das, was möglich ist.
 
-**[00:56:38]** Verständlich, kritisch und immer mit einem Augenzwinker.
+**[00:56:38]** Verständlich, kritisch und immer mit einem Augenzwinkern.
 
 **[00:56:42]** H.I. zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.

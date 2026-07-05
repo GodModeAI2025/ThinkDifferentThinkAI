@@ -70,7 +70,7 @@ Kopf und KI: https://kopf-und-ki.podigee.io
 
 **[00:00:14]** Hier gibt es klare Einordnungen, echte Praxiseinblicke und einen frischen Blick auf das, was möglich ist.
 
-**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinker.
+**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinkern.
 
 **[00:00:24]** KI zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
 
@@ -108,9 +108,9 @@ Kopf und KI: https://kopf-und-ki.podigee.io
 
 **[00:02:13]** der Übersicht. Die Aufnahme selbst machen wir mit riverside.fm. Das ist ein schief
 
-**[00:02:20]** nicht etabliertes Podcast-Tool, das einem ermöglicht, ein virtuelles Studie einzurichten.
+**[00:02:20]** nicht etabliertes Podcast-Tool, das einem ermöglicht, ein virtuelles Studio einzurichten.
 
-**[00:02:28]** In diesem virtuellen Studie kann man Gäste einladen, die sich dann über App oder
+**[00:02:28]** In diesem virtuellen Studio kann man Gäste einladen, die sich dann über App oder
 
 **[00:02:32]** Browser dazuschalten können. Man kann sagen, wer alles moderationsrecht hat,
 
@@ -120,7 +120,7 @@ Kopf und KI: https://kopf-und-ki.podigee.io
 
 **[00:02:48]** gut ausgerichtet sind. Falls man ein Videopodcast machen will, kriegt man auch hier die Unterstützung.
 
-**[00:02:53]** Was an Riverside auch extrem von Vorteil ist, ist die Möglichkeit des Editiens. Klassischer
+**[00:02:53]** Was an Riverside auch extrem von Vorteil ist, ist die Möglichkeit des Editierens. Klassischer
 
 **[00:02:59]** Audioschnitt ist ja wirklich, man hat die Wellenform und versucht dann in dieser Wellenform
 
@@ -186,7 +186,7 @@ Kopf und KI: https://kopf-und-ki.podigee.io
 
 **[00:05:58]** unnützten Pausen, da tut sich der Adobe Podcaster schwer, weil das gar nicht
 
-**[00:06:02]** macht. Auf Honig kann man aus verschiedenen Pre-Sets wählen, man kann die Pre-Sets auch
+**[00:06:02]** macht. Auphonic kann man aus verschiedenen Pre-Sets wählen, man kann die Pre-Sets auch
 
 **[00:06:10]** durch eigene Konfigurationen ersetzen und da hat sich wirklich etabliert zu sagen, lösche
 
@@ -202,7 +202,7 @@ Kopf und KI: https://kopf-und-ki.podigee.io
 
 **[00:06:43]** zu kriegen. Bin ich hingegangen und habe jede Tonspur, also die von René, die von Jens
 
-**[00:06:48]** und die von mir einzeln durch auf Phonic gejagt, in dem Fall aber nicht die, ich
+**[00:06:48]** und die von mir einzeln durch Auphonic gejagt, in dem Fall aber nicht die, ich
 
 **[00:06:55]** jetzt mal Pausen rausschneiden lassen, weil sonst wäre die Audio-Spur ja nicht mehr kompatibel,
 
@@ -210,15 +210,15 @@ Kopf und KI: https://kopf-und-ki.podigee.io
 
 **[00:07:06]** den ich sonst nicht tue, nämlich das ganze nochmal in eine Anwendung zu überführen,
 
-**[00:07:10]** die heißt Farad. Farad läuft auf IOS und da kann man Tonspuren aneinander ausrichten.
+**[00:07:10]** die heißt Ferrite. Ferrite läuft auf iOS und da kann man Tonspuren aneinander ausrichten.
 
-**[00:07:16]** Da habe ich dann quasi erst alle Tonspuren einzeln durch, auch vorne gejagt, dann über
+**[00:07:16]** Da habe ich dann quasi erst alle Tonspuren einzeln durch Auphonic gejagt, dann über
 
-**[00:07:22]** Farad wieder verbunden und dann das Ergebnis nochmal durch auf vorne gejagt, aber diesmal mit dem Hinweis, lasst mal alles, was audio ist so, wie es ist.
+**[00:07:22]** Ferrite wieder verbunden und dann das Ergebnis nochmal durch Auphonic gejagt, aber diesmal mit dem Hinweis, lasst mal alles, was audio ist so, wie es ist.
 
 **[00:07:31]** Lösch aber bitte alle unnötigen Pausen.
 
-**[00:07:35]** Ja, und wenn das Ergebnis fertig ist, nennt man das oft Podigy. Podigy ist eine Distributionsplattform, die Podcasts entgegen nimmt, also Audio-Dateien entgegen nimmt und
+**[00:07:35]** Ja, und wenn das Ergebnis fertig ist, nennt man das oft Podigee. Podigee ist eine Distributionsplattform, die Podcasts entgegen nimmt, also Audio-Dateien entgegen nimmt und
 
 **[00:07:46]** distributiert. Distributieren heißt dann zum Beispiel zu euch nach Spotify, Amazon Musik,
 
@@ -230,7 +230,7 @@ Kopf und KI: https://kopf-und-ki.podigee.io
 
 **[00:08:09]** das ich vorhin erwähnt habe, das Jens Breit stellt hinein. Und dann kann man anhaken,
 
-**[00:08:14]** dass PolyG nicht nur die Distribution übernimmt, sondern auch noch mal eine Transkription.
+**[00:08:14]** dass Podigee nicht nur die Distribution übernimmt, sondern auch noch mal eine Transkription.
 
 **[00:08:21]** Das ist dann der Grund, dass ihr in jedlichen Player oder auch im Webinterface dann auch
 
@@ -244,7 +244,7 @@ Kopf und KI: https://kopf-und-ki.podigee.io
 
 **[00:08:48]** keine gegenseitige Freigabe mehr. Das heißt, wenn nur wir beide zu Gast sind, wird das Ganze
 
-**[00:08:52]** dann online geschaltet. Online-Schalten heißt, dann drückt Empodigy auf Publizieren. Man
+**[00:08:52]** dann online geschaltet. Online-Schalten heißt, dann drückt man bei Podigee auf Publizieren. Man
 
 **[00:08:57]** hätte auch ein Datum eingeben können, zu wann der Podcast publiziert werden soll. Das wäre
 
@@ -298,13 +298,13 @@ Kopf und KI: https://kopf-und-ki.podigee.io
 
 **[00:10:58]** besagt.
 
-**[00:10:59]** Wenn nicht gerade Fähen sind, man muss zugeben, Fähen sind ein bisschen der Download-Knick,
+**[00:10:59]** Wenn nicht gerade Ferien sind, man muss zugeben, Ferien sind ein bisschen der Download-Knick,
 
-**[00:11:05]** was die PolyG-Download-Zahlen angeht.
+**[00:11:05]** was die Podigee-Download-Zahlen angeht.
 
-**[00:11:09]** Apropos PolyG-Download-Zahlen, PolyG macht nicht nur Distribution, PolyG macht auch Statistik,
+**[00:11:09]** Apropos Podigee-Download-Zahlen, Podigee macht nicht nur Distribution, Podigee macht auch Statistik,
 
-**[00:11:16]** Das heißt, wenn ich mir zum Beispiel anschaue, jetzt hier Zink Different, Zink AI, hat dann
+**[00:11:16]** Das heißt, wenn ich mir zum Beispiel anschaue, jetzt hier Think Different, Think AI, hat dann
 
 **[00:11:23]** quasi, ich gucke jetzt gerade mal seit Veröffentlichung beispielsweise Boss Level KI, über 100
 
@@ -338,13 +338,13 @@ Kopf und KI: https://kopf-und-ki.podigee.io
 
 **[00:12:39]** Kopf und KI ist für mich so ein bisschen der Versuch, ein bisschen mehr über KI zu lernen.
 
-**[00:12:44]** Ich habe Manos gesagt, mach doch bitte jede Woche eine Folge und publiziere die, damit ich ein bisschen,
+**[00:12:44]** Ich habe Manus gesagt, mach doch bitte jede Woche eine Folge und publiziere die, damit ich ein bisschen,
 
 **[00:12:52]** damit auch ich ein bisschen besser noch in das Thema KI reinkomme, ist es ganz lustig.
 
 **[00:12:56]** Schattenakte, der Fall der Woche, da habe ich mal gesagt, hey, lass uns doch mal gucken.
 
-**[00:13:00]** Manos, ob du es auch hinkriegst, nicht nur eine Comedy-Komödie, also Comedy-Geschichte wie
+**[00:13:00]** Manus, ob du es auch hinkriegst, nicht nur eine Comedy-Komödie, also Comedy-Geschichte wie
 
 **[00:13:06]** 4.04 zu machen mit unterschiedlichen Sprechern und Hilfe von 11 Labs, sondern versuch doch
 
@@ -370,11 +370,11 @@ Kopf und KI: https://kopf-und-ki.podigee.io
 
 **[00:14:02]** anders werden, dass er mehr Guidance kriegt, wie er englische Begriffe aussprechen soll oder nicht.
 
-**[00:14:08]** Sync Different Sync AI, hört ihr ja, das ist ja komplett von Hand generiert. Also ich habe
+**[00:14:08]** Think Different Think AI, hört ihr ja, das ist ja komplett von Hand generiert. Also ich habe
 
-**[00:14:13]** auch bei Sync Different Sync AI noch nie das Thema Voice-Generierung verwendet, außer für
+**[00:14:13]** auch bei Think Different Think AI noch nie das Thema Voice-Generierung verwendet, außer für
 
-**[00:14:20]** unseren Titel. Ihr habt ja bei Sync Different Sync AI das Intro und den Text. Mittlerweile kann
+**[00:14:20]** unseren Titel. Ihr habt ja bei Think Different Think AI das Intro und den Text. Mittlerweile kann
 
 **[00:14:29]** kann man das ja mit Elevenlaps Musik machen. Damals haben wir es noch mit Suno und Musik-GPT
 

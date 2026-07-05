@@ -70,7 +70,7 @@ https://developer.apple.com/xcode-cloud/
 
 **[00:00:14]** Hier gibt es klare Einordnungen, echte Praxiseinblicke und einen frischen Blick auf das, was möglich ist.
 
-**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinker.
+**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinkern.
 
 **[00:00:24]** K.I. zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
 
@@ -1478,6 +1478,6 @@ https://developer.apple.com/xcode-cloud/
 
 **[00:59:48]** ist.
 
-**[00:59:49]** Verständlich, kritisch und immer mit einem Augenzwinker.
+**[00:59:49]** Verständlich, kritisch und immer mit einem Augenzwinkern.
 
 **[00:59:52]** K.I. zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.

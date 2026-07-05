@@ -33,9 +33,9 @@ Jens und ich diskutieren, wie diese neuen Agenten nicht nur Aufgaben automatisie
 
 **[00:00:14]** Hier gibt es klare Einordnungen, echte Praxiseinblicke und einen frischen Blick auf das, was möglich ist.
 
-**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinker.
+**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinkern.
 
-**[00:00:24]** KDI zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
+**[00:00:24]** KI zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
 
 **[00:00:35]** Zwei Wochen sind vergangen, seitdem Mark und ich eine Folge gemacht haben, zum Thema Cloudbot
 
@@ -81,11 +81,11 @@ Jens und ich diskutieren, wie diese neuen Agenten nicht nur Aufgaben automatisie
 
 **[00:01:52]** wird also auch deswegen Zeit, dass wir etwas Neues aufnehmen, mit den Neunnamen zum Zeitpunkt der Aufnahme.
 
-**[00:02:00]** Open Cloud.
+**[00:02:00]** OpenClaw.
 
 **[00:02:01]** Ja, ich glaube, das Ding hat auch zweimal deinen Namen.
 
-**[00:02:03]** Erst hieß es Cloudbot.
+**[00:02:03]** Erst hieß es Clawdbot.
 
 **[00:02:05]** Ich weiß, in der alten Folge haben wir lange darüber geredet.
 
@@ -99,7 +99,7 @@ Jens und ich diskutieren, wie diese neuen Agenten nicht nur Aufgaben automatisie
 
 **[00:02:18]** Jetzt irgendwie...
 
-**[00:02:19]** Jetzt heißt es Open Cloud.
+**[00:02:19]** Jetzt heißt es OpenClaw.
 
 **[00:02:20]** Ich muss dir eben auch noch mal auf die Notiz gucken, ja, weil, was, also alter Verhalter, ja.
 
@@ -251,7 +251,7 @@ Jens und ich diskutieren, wie diese neuen Agenten nicht nur Aufgaben automatisie
 
 **[00:08:24]** Was es alles für Dienste gibt. Das Ding hat ja im Grunde die Möglichkeit über Tools verschiedene
 
-**[00:08:29]** Apicalls zu machen und so zum Beispiel über 11 Labs auf deine Stimme zuzugreifen, falls du die
+**[00:08:29]** Apicalls zu machen und so zum Beispiel über ElevenLabs auf deine Stimme zuzugreifen, falls du die
 
 **[00:08:34]** hinterlegt hast und über Telefonendienst auch Telefonrufe zu machen. An der Stelle ist das Ding
 
@@ -401,7 +401,7 @@ Jens und ich diskutieren, wie diese neuen Agenten nicht nur Aufgaben automatisie
 
 **[00:13:53]** dieser Mensch, wer der diese Aufgabe macht, eben abarbeitet. Und das ist, glaube ich, so
 
-**[00:13:57]** ein großes Paradigmenwechsel, dass wir bei der KI jetzt auch anhand Open Cloud begreifen
+**[00:13:57]** ein großes Paradigmenwechsel, dass wir bei der KI jetzt auch anhand OpenClaw begreifen
 
 **[00:14:02]** müssen. Das ist halt nicht die, was ja die Fließbandarbeit der Prozess ist, den wir
 
@@ -591,7 +591,7 @@ Jens und ich diskutieren, wie diese neuen Agenten nicht nur Aufgaben automatisie
 
 **[00:20:59]** ein extra Hub, wo man sich zusätzlich Skills runterladen kann und dann der Cloudbot sich
 
-**[00:21:03]** oder Open Cloud sich zusätzlich Skills runterladen kann, mit dem er dann mehr Sachen machen
+**[00:21:03]** oder OpenClaw sich zusätzlich Skills runterladen kann, mit dem er dann mehr Sachen machen
 
 **[00:21:09]** kann.
 
@@ -625,7 +625,7 @@ Jens und ich diskutieren, wie diese neuen Agenten nicht nur Aufgaben automatisie
 
 **[00:22:10]** Mit welchen Modellen antworte ich dann besonders schnell in solchen Gesprächs-Situationen?
 
-**[00:22:15]** Und das ging soweit, dass er sich dann auch Innenriffer-Seit angemeldet hat.
+**[00:22:15]** Und das ging soweit, dass er sich dann auch auf einer Fiverr-Seite angemeldet hat.
 
 **[00:22:19]** Und das ist dann schon lustig, weil das ist ja in dem Sinne keine Magie.
 
@@ -673,7 +673,7 @@ Jens und ich diskutieren, wie diese neuen Agenten nicht nur Aufgaben automatisie
 
 **[00:24:05]** oder irgendwas anderes da sind. Und wenn man auch so paar Artikel wieder anguckt, wo jemand
 
-**[00:24:09]** dann sehr positiv über Open Cloud redet, dann kommen natürlich aus allen Ecken wieder
+**[00:24:09]** dann sehr positiv über OpenClaw redet, dann kommen natürlich aus allen Ecken wieder
 
 **[00:24:13]** die IT-Security-Menschen und sagen, oh, das ist aber so gefährlich und dann wird
 
@@ -749,7 +749,7 @@ Jens und ich diskutieren, wie diese neuen Agenten nicht nur Aufgaben automatisie
 
 **[00:26:56]** in Laborbedingungen der älteren Scherziptiv-Variante eben auch die Möglichkeit gegeben
 
-**[00:27:00]** Da hatte er auch Fiber damals zuzugreifen, aus einem Plattform, wo man Aufträge an Menschen geben kann,
+**[00:27:00]** Da hatte er auch auf Fiverr damals zuzugreifen, aus einem Plattform, wo man Aufträge an Menschen geben kann,
 
 **[00:27:06]** ob das Designsachen sind oder irgendwas anderes.
 
@@ -925,13 +925,13 @@ Jens und ich diskutieren, wie diese neuen Agenten nicht nur Aufgaben automatisie
 
 **[00:33:40]** weil sie diese Regeln nicht hat.
 
-**[00:33:42]** Wenn ich jetzt das vergleiche, mit hier Cloud.
+**[00:33:42]** Wenn ich jetzt das vergleiche, mit hier Claude.
 
-**[00:33:44]** Cloud hat ja, also das echte Cloud hat ja auch einen schönen,
+**[00:33:44]** Claude hat ja, also das echte Claude hat ja auch einen schönen,
 
-**[00:33:47]** weil sie diese Regel nicht hat. Wenn ich erst das Vergleiche mit hier clod, das echte clod hat ja auch
+**[00:33:47]** weil sie diese Regel nicht hat. Wenn ich erst das Vergleiche mit hier Claude, das echte Claude hat ja auch
 
-**[00:33:52]** ein schönes Update rausgebracht mit Opus 4.6 und neue Clod Code Funktion. Da kannst du jetzt ja auch
+**[00:33:52]** ein schönes Update rausgebracht mit Opus 4.6 und neue Claude Code Funktion. Da kannst du jetzt ja auch
 
 **[00:34:02]** richtige Teams formen. Also nicht Agents mit Sub-Agents, sondern du kannst wirklich eigene
 
@@ -995,7 +995,7 @@ Jens und ich diskutieren, wie diese neuen Agenten nicht nur Aufgaben automatisie
 
 **[00:36:25]** sich schon sehr, sehr natürlich an, ehrlicherweise. Aber deshalb ist vielleicht auch jetzt
 
-**[00:36:29]** mein Sturz dazu, ich glaube, Atlantic AI ist nicht mehr so ein Feature-Thema, also irgendwie,
+**[00:36:29]** mein Sturz dazu, ich glaube, Agentic AI ist nicht mehr so ein Feature-Thema, also irgendwie,
 
 **[00:36:34]** das ist ein Tool oder sowas oder Workflows oder ich muss mich da nur so ein bisschen um
 
@@ -1005,7 +1005,7 @@ Jens und ich diskutieren, wie diese neuen Agenten nicht nur Aufgaben automatisie
 
 **[00:36:49]** und aber es ist auch irgendwie, es entsteht eine echte Kultur. Also ich finde so dieses
 
-**[00:36:55]** Samenspiel zwischen Menschmaschine kommt jetzt auf eine neue Ebene durch Open Cloud und ich
+**[00:36:55]** Samenspiel zwischen Menschmaschine kommt jetzt auf eine neue Ebene durch OpenClaw und ich
 
 **[00:37:03]** Ich glaube, da wird in diesem Jahr noch richtig, richtig viel passieren, auch von den anderen großen Playern.
 
@@ -1051,6 +1051,6 @@ Jens und ich diskutieren, wie diese neuen Agenten nicht nur Aufgaben automatisie
 
 **[00:38:25]** Hier gibt es klare Einordnungen, echte Praxis-Einblicke und einen frischen Blick auf das, was möglich ist.
 
-**[00:38:32]** Verständlich, kritisch und immer mit einem Augenzwinker.
+**[00:38:32]** Verständlich, kritisch und immer mit einem Augenzwinkern.
 
-**[00:38:36]** H.I. zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
+**[00:38:36]** KI zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.

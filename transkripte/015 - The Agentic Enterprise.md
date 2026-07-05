@@ -57,7 +57,7 @@ Das Buch: https://novagentica.com/
 
 **[00:00:14]** Hier gibt's klare Einordnungen, echte Praxiseinblicke und einen frischen Blick auf das, was möglich ist.
 
-**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinker.
+**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinkern.
 
 **[00:00:24]** K.I. zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
 
@@ -71,7 +71,7 @@ Das Buch: https://novagentica.com/
 
 **[00:01:00]** Hallo Mark, hallo Jens. Eine Ehre und Freude hier teilzunehmen in diesem Podcast. Wer ich
 
-**[00:01:07]** bin, die Kurzversion, Martin Wurzmann, ich war sehr lange bei Volksbaden, 9 Jahre der
+**[00:01:07]** bin, die Kurzversion, Martin Hofmann, ich war sehr lange bei Volksbaden, 9 Jahre der
 
 **[00:01:14]** Grupps-CIO, hab da kennengelernt, wie Großkonzerne funktionieren, wie Transformation funktionieren
 
@@ -287,7 +287,7 @@ Das Buch: https://novagentica.com/
 
 **[00:08:43]** statistisch, was Daten zu sagen haben.
 
-**[00:08:45]** Der zweite Schritt war dann Sheen Learning,
+**[00:08:45]** Der zweite Schritt war dann Machine Learning,
 
 **[00:08:48]** wo es dann schon in die Prognose ging.
 
@@ -305,11 +305,11 @@ Das Buch: https://novagentica.com/
 
 **[00:09:18]** geben. Isachwas, nüchrigst ne Antwort. Das sind die Chatbots, ChatGPT. Der nächste Evolutionsprung
 
-**[00:09:26]** war dann ein Schritt danach. Agendic AI heißt, ich hab das LLM-Modell, aber ich kann kommunizieren
+**[00:09:26]** war dann ein Schritt danach. Agentic AI heißt, ich hab das LLM-Modell, aber ich kann kommunizieren
 
 **[00:09:34]** mit einem Algorithmus. Isachwas und kriegt was zurück. Aber der zweite Schritt ist, dass
 
-**[00:09:39]** dieses Modell zugreifen kann auf alle möglichen Daten. MCG, dieses Model Context Protocol,
+**[00:09:39]** dieses Modell zugreifen kann auf alle möglichen Daten. MCP, dieses Model Context Protocol,
 
 **[00:09:46]** Technik, Technologie, wo ich dann auf einmal andere Datenquellen ansapfeln kann.
 
@@ -491,7 +491,7 @@ Das Buch: https://novagentica.com/
 
 **[00:15:47]** Das ist der Grund, warum sich viele schwer tun. Gleichzeitig merke ich auch, es gibt eine
 
-**[00:15:53]** neue Art von Neugier, weil wir alle rumspielen auf VAT-Leute zu Hause mit JETSCHIPETI,
+**[00:15:53]** neue Art von Neugier, weil wir alle rumspielen auf VAT-Leute zu Hause mit ChatGPT,
 
 **[00:15:57]** morgens Büro kommen, jeder denkt doch automatisch, manch wie könnte ich das irgendwie einsetzen
 
@@ -575,7 +575,7 @@ Das Buch: https://novagentica.com/
 
 **[00:19:01]** Ich schreibe ja in den Buch momentan und da ist eines meiner Kapitel, ich liebe das auch,
 
-**[00:19:06]** das Ancient Factory. Und das ist ein Konzept. Die Idee ist einfach, diese Neugier zu
+**[00:19:06]** die Agent Factory. Und das ist ein Konzept. Die Idee ist einfach, diese Neugier zu
 
 **[00:19:12]** nutzen, dass du nimmst Mitarbeiter und gibst sie in die Aufgabe, die Agenten selbst zu
 
@@ -667,7 +667,7 @@ Das Buch: https://novagentica.com/
 
 **[00:22:26]** gesagt, ein neuer Major Release kommt. Also ich glaube, das verschwimmen. Ich glaube auch,
 
-**[00:22:31]** das ist die Chance für cross-functionale Teams. Also ein Ancient Studio, Design Studio, wo
+**[00:22:31]** das ist die Chance für cross-functionale Teams. Also ein Agent Studio, Design Studio, wo
 
 **[00:22:38]** was zusammensitzt, ja. Da ist dann wurscht, ob der eine aufs IT kommt und der andere
 
@@ -871,7 +871,7 @@ Das Buch: https://novagentica.com/
 
 **[00:29:08]** keine Emotionen und die müssen knallhart kontrolliert werden. Wie macht man das?
 
-**[00:29:14]** Es gibt zum Beispiel einen Agendic Journal. Es heißt, der Agent schreibt permanent
+**[00:29:14]** Es gibt zum Beispiel einen Agentic Journal. Es heißt, der Agent schreibt permanent
 
 **[00:29:18]** in einer Datenbahn permanent jeden Schritt in ergemacht.
 
@@ -1649,7 +1649,7 @@ Das Buch: https://novagentica.com/
 
 **[00:56:29]** Satz zu dieser Folge. Was du gerade sagst, dass mit dem Thema dein Sohn soll, ruhig Mathematik
 
-**[00:56:33]** studieren. Als dieser Chatsy-Petit-Moment war, habe ich tatsächlich angefangen, Grundlagen
+**[00:56:33]** studieren. Als dieser ChatGPT-Moment war, habe ich tatsächlich angefangen, Grundlagen
 
 **[00:56:39]** der Physik mir durchzulesen. Weil ich glaube, worauf sich es immer wieder zurückbezieht,
 
@@ -1711,4 +1711,4 @@ Das Buch: https://novagentica.com/
 
 **[00:58:22]** Wir laden dich wieder ein. Wir freuen uns auf das Buch und an der Stelle. Tschüss, bis bald. Tschüss.
 
-**[00:58:52]** Cardi zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
+**[00:58:52]** KI zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.

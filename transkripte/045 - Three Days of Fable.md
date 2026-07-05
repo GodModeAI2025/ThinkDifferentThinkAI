@@ -45,7 +45,7 @@ Es wird diskutiert, ob professionell dokumentierte Informationen auf das Wesentl
 
 **[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinker.
 
-**[00:00:24]** KD zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
+**[00:00:24]** KI zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
 
 **[00:00:29]** Herzlich willkommen bei Think Different, Think AI.
 
@@ -277,11 +277,11 @@ Es wird diskutiert, ob professionell dokumentierte Informationen auf das Wesentl
 
 **[00:09:10]** oder andere zu über das nicht mehr im Blick. Was damals passiert ist, als sie das Mythos-Modell
 
-**[00:09:15]** angekündigt haben, oder die Mythos-Modellkasse angekündigt haben, da hat Entroffiker entschieden,
+**[00:09:15]** angekündigt haben, oder die Mythos-Modellkasse angekündigt haben, da hat Anthropic entschieden,
 
 **[00:09:21]** dass sie diese Klasse erst mal nur den großen globalen Playern zur Verfügung stellt, also
 
-**[00:09:26]** so einer Amazon, einer Google, einen Co, den großen Pause-Anbieter, also Firefox und so was waren
+**[00:09:26]** so einer Amazon, einer Google, einen Co, den großen Browser-Anbieter, also Firefox und so was waren
 
 **[00:09:31]** dabei. Und Firefox erinnert mich gerade auch als Beispiel. Die haben dann unter anderem,
 
@@ -299,7 +299,7 @@ Es wird diskutiert, ob professionell dokumentierte Informationen auf das Wesentl
 
 **[00:10:05]** extrem stark ist anscheinend, eben solche Sicherheitslücken eben zu entdecken und dementsprechend
 
-**[00:10:12]** war ein Trophic davor sich die vorgegangen und hatte nach der Ankündigung nochmal ganz
+**[00:10:12]** war ein Anthropic davor sich die vorgegangen und hatte nach der Ankündigung nochmal ganz
 
 **[00:10:16]** kurz auch um da nochmal vielleicht ein Konzept zu geben, nach der Ankündigung von da ist
 
@@ -307,7 +307,7 @@ Es wird diskutiert, ob professionell dokumentierte Informationen auf das Wesentl
 
 **[00:10:24]** eigentlich gerne dafür einstellen, dass global die KI ein wenig langsamer entwickelt werden
 
-**[00:10:30]** sollte, haben sie dann jetzt vor kurzem im Prinzip dieses Faber-Modell rausgebracht und
+**[00:10:30]** sollte, haben sie dann jetzt vor kurzem im Prinzip dieses Fable-Modell rausgebracht und
 
 **[00:10:34]** Darum gebe ich dir gerne wieder zurück zu dir, Mark, dass sie dann aber wieder zügig runtergenommen haben.
 
@@ -325,7 +325,7 @@ Es wird diskutiert, ob professionell dokumentierte Informationen auf das Wesentl
 
 **[00:11:00]** Vielleicht ein ganz, ein Bericht, der kam auf Heise, nämlich das Mythos, also nicht
 
-**[00:11:07]** Favel Mythos, ja, also ich sag mal das Original, eine Sicherheitsfirma ist geschafft hat mit
+**[00:11:07]** Fable Mythos, ja, also ich sag mal das Original, eine Sicherheitsfirma ist geschafft hat mit
 
 **[00:11:14]** Mythos einen Exploit zu erstellen, also ein, das Ausnutzen einer Sicherheitslöcke, auf
 
@@ -349,13 +349,13 @@ Es wird diskutiert, ob professionell dokumentierte Informationen auf das Wesentl
 
 **[00:12:15]** guck mal, ist es wirklich so gefährlich. Aber lassen wir mal dahingestellt, es gab
 
-**[00:12:19]** bei dem Fall diesen Vorwurf, dass Table 5 quasi in die Lage versetzt wird, dass es dann
+**[00:12:19]** bei dem Fall diesen Vorwurf, dass Fable 5 quasi in die Lage versetzt wird, dass es dann
 
 **[00:12:27]** doch mehr mit Security macht. Und auf einmal gab es irgendwie eine Aktion, nämlich dahingehend,
 
 **[00:12:35]** dass der Verteidigungsminister oder Kriegsminister, ich will es ja niemanden beleidigen,
 
-**[00:12:41]** Das ist der US-Aurikaner, die ja schon Anthropic als Lieferkettenrisiko ausgewiesen haben.
+**[00:12:41]** Das ist der US-Amerikaner, die ja schon Anthropic als Lieferkettenrisiko ausgewiesen haben.
 
 **[00:12:49]** Das ist auf einmal von der US-Amerikanin heißt, oh, du passt mal obacht.
 
@@ -379,7 +379,7 @@ Es wird diskutiert, ob professionell dokumentierte Informationen auf das Wesentl
 
 **[00:13:31]** damit sie im Notfall mal am längeren Hebel sitzen.
 
-**[00:13:34]** Und ich glaube, dieser längere Hebel jetzt bei dem Thema Entrophic und der US-Regierung sieht man jetzt schon.
+**[00:13:34]** Und ich glaube, dieser längere Hebel jetzt bei dem Thema Anthropic und der US-Regierung sieht man jetzt schon.
 
 **[00:13:42]** Also wenn wir sagen, das vorhandene Sein von mächtigen Modellen ist ein Asset, das in Zukunft immer wichtiger werden wird.
 
@@ -465,7 +465,7 @@ Es wird diskutiert, ob professionell dokumentierte Informationen auf das Wesentl
 
 **[00:17:08]** weil ich mein Wochenlimit aufgebraucht habe. Was ich nie mitgekriegt habe, ist, dass Anthropic
 
-**[00:17:12]** hingegangen ist und gesagt hat, so alle Kunden, die in der Zeit von Table 5 ihr Account abgeschlossen
+**[00:17:12]** hingegangen ist und gesagt hat, so alle Kunden, die in der Zeit von Fable 5 ihr Account abgeschlossen
 
 **[00:17:18]** haben, können ihr Geld zurückkriegen, die, die das Zeitfenster verbraucht haben, kriegen
 
@@ -543,15 +543,15 @@ Es wird diskutiert, ob professionell dokumentierte Informationen auf das Wesentl
 
 **[00:20:34]** auch schon draußen, dass angeblich Open AI das 5.6er-Modell mit 1,5 Millionen Tokenfenster und
 
-**[00:20:41]** Mütos-Niveau für irgendeiners Geld zum Besten geht. Was heißt denn das für diese Kacken-Welt,
+**[00:20:41]** Mythos-Niveau für irgendeiners Geld zum Besten geht. Was heißt denn das für diese Kacken-Welt,
 
 **[00:20:47]** wenn du eigentlich gar keinen Vertrauen darauf haben kannst, dass die Modelle, die du da kriegst,
 
-**[00:20:52]** morgen noch existieren? Ja, ja. Also ich meine, auf der anderen Seite, ich habe auch, also Mütos,
+**[00:20:52]** morgen noch existieren? Ja, ja. Also ich meine, auf der anderen Seite, ich habe auch, also Mythos,
 
-**[00:20:59]** Mütos, Mütos soll auch kommen, hatt ich gehört, na? Sollte eigentlich bis am 30. Juni raus.
+**[00:20:59]** Mythos, Mythos soll auch kommen, hatt ich gehört, na? Sollte eigentlich bis am 30. Juni raus.
 
-**[00:21:04]** Mütos ist aber auch gesperrt. Also auch die Securityforscher, die sich da anmelden
+**[00:21:04]** Mythos ist aber auch gesperrt. Also auch die Securityforscher, die sich da anmelden
 
 **[00:21:08]** wollten, für die ist das auch gesperrt. Also auch Mythos ist offline.
 
@@ -593,7 +593,7 @@ Es wird diskutiert, ob professionell dokumentierte Informationen auf das Wesentl
 
 **[00:22:42]** und Sessions mit einer Fable gemacht und jetzt soll das alte Modell, was irgendwie
 
-**[00:22:46]** gefühlten Monat alt ist, wenn ich mich nicht ganz täusche, U-Bus 4.8, also auch
+**[00:22:46]** gefühlten Monat alt ist, wenn ich mich nicht ganz täusche, Opus 4.8, also auch
 
 **[00:22:50]** noch kein Visenio in dem Sinne ist, sondern gerade mal paar Wochen alt ist,
 
@@ -657,7 +657,7 @@ Es wird diskutiert, ob professionell dokumentierte Informationen auf das Wesentl
 
 **[00:24:59]** im Internet.
 
-**[00:25:00]** Was ich ganz spannend fand, war, wir haben ja mal vor einiger Zeit auch über Hannes
+**[00:25:00]** Was ich ganz spannend fand, war, wir haben ja mal vor einiger Zeit auch über Harness
 
 **[00:25:06]** gesprochen, also da, wo das Modell quasi drinnen läuft, vom Prompt-Engineering,
 
@@ -665,7 +665,7 @@ Es wird diskutiert, ob professionell dokumentierte Informationen auf das Wesentl
 
 **[00:25:15]** Dieser Weggroh, von dem wir eben sprachen, zahlt auch unmittelbar auf dieses ominöse
 
-**[00:25:20]** Harnes Engineering ein, weil am Ende vom Tag willst du ja Modell unabhängig werden.
+**[00:25:20]** Harness Engineering ein, weil am Ende vom Tag willst du ja Modell unabhängig werden.
 
 **[00:25:26]** Du willst ja dann, ihr sagt mal, ist ja schön, wenn wir Anthropic haben, aber stell dir vor,
 
@@ -679,27 +679,27 @@ Es wird diskutiert, ob professionell dokumentierte Informationen auf das Wesentl
 
 **[00:25:53]** Oder für einen anderen Hersteller. Von der Seite ist, glaube ich, etwas, was er mitnehmen kann. Die Frage, die Umgebung, in denen eure KI-Modelle laufen, habt ihr darüber Hoheit oder nicht?
 
-**[00:26:06]** Ja ist das ein Harnis der quasi ich sag jetzt mal von irgendeinem
+**[00:26:06]** Ja ist das ein Harness der quasi ich sag jetzt mal von irgendeinem
 
-**[00:26:10]** Also ich abwerten gemeint ja aber von irgendeinem amerikanischen Konzern oder welchem Konzern immer euch so viel gestellt wird oder habt ihr euch den Harnis
+**[00:26:10]** Also ich abwerten gemeint ja aber von irgendeinem amerikanischen Konzern oder welchem Konzern immer euch so viel gestellt wird oder habt ihr euch den Harness
 
 **[00:26:17]** dahingehend selbst zur Verfügung gestellt damit ihr auch ein bisschen, ich sag mal Tokenoptimierung, bestes Beispiel
 
-**[00:26:23]** wenn ihr zum Beispiel sagt okay du möchtest Claude Coat, Claude Coat wirken müssen
+**[00:26:23]** wenn ihr zum Beispiel sagt okay du möchtest Claude Code, Claude Code wirken müssen
 
-**[00:26:28]** dann gibt es ja Claude Coat in der Edition wie man es als Anwender kennt, da gibt es Enterprise Pläne mit Appos, da gibt es
+**[00:26:28]** dann gibt es ja Claude Code in der Edition wie man es als Anwender kennt, da gibt es Enterprise Pläne mit Appos, da gibt es
 
 **[00:26:34]** wir warten, wenn er mit Apo ist. Aber es gibt ja auch beispielsweise für Firmen die Möglichkeit
 
 **[00:26:39]** zu sagen, ah, ich möchte einen in Europa gehostetes Modell. Das bietet Amazon an,
 
-**[00:26:45]** über die BlackRock-Infrastruktur. Und da kann man auch Cloudco-Work dran tackern,
+**[00:26:45]** über die Bedrock-Infrastruktur. Und da kann man auch Claude Cowork dran tackern,
 
-**[00:26:51]** bietet Anthropic an, irgendwie Cloudco-Work-P3, irgendwie sowas. Und dann stellst du dir aber
+**[00:26:51]** bietet Anthropic an, irgendwie Claude Cowork P3, irgendwie sowas. Und dann stellst du dir aber
 
-**[00:26:59]** trotzdem die Frage, okay, du hast jetzt eine Oberfläche, einen Harnes, den du kennst,
+**[00:26:59]** trotzdem die Frage, okay, du hast jetzt eine Oberfläche, einen Harness, den du kennst,
 
-**[00:27:04]** Aber wie ist denn in diesem Harnis es darum bestellt, wie sich der Agent-Loop verhält?
+**[00:27:04]** Aber wie ist denn in diesem Harness es darum bestellt, wie sich der Agent-Loop verhält?
 
 **[00:27:09]** Wie token-sparsam ist es denn?
 
@@ -707,17 +707,17 @@ Es wird diskutiert, ob professionell dokumentierte Informationen auf das Wesentl
 
 **[00:27:16]** Aber man kann sich ja vorstellen, dass wenn du dir sagst, ich möchte den Tokenverbrauch optimieren,
 
-**[00:27:23]** dann tust du dir natürlich, wenn der Harnis von jemand anderem gestellt wird, schwerer,
+**[00:27:23]** dann tust du dir natürlich, wenn der Harness von jemand anderem gestellt wird, schwerer,
 
 **[00:27:27]** dann musst du diese Caveman-Skills, Headboom-Skills und keine Ahnung, was installieren
 
 **[00:27:32]** und du machst dir dann noch irgendein so ein Craft-Rack, damit das Ding möglichst wenig
 
-**[00:27:38]** Irrläufer hat, wie es sich bewegt. Aber wenn du ein Harnis selbst baust, dann kannst du
+**[00:27:38]** Irrläufer hat, wie es sich bewegt. Aber wenn du ein Harness selbst baust, dann kannst du
 
 **[00:27:44]** natürlich schon sagen, okay gut, ich lasse halt quasi Gemini drin laufen, Open-Eye,
 
-**[00:27:48]** Krok-Lokale-Modelle, Chemica 2 oder Minimax M3, kam jetzt ja raus. Das soll ja auch
+**[00:27:48]** Grok, lokale Modelle, Kimi K2 oder Minimax M3, kam jetzt ja raus. Das soll ja auch
 
 **[00:27:54]** ziemlich gut sein und ist vor allen Dingen für seine Größe auch auf Geräten nutzbar,
 
@@ -727,7 +727,7 @@ Es wird diskutiert, ob professionell dokumentierte Informationen auf das Wesentl
 
 **[00:28:07]** Und ich habe schon widersprechdurchfallig, bitte um Entschuldigung.
 
-**[00:28:11]** Wenn du das jetzt wieder weiterdenkst auch mit dem Thema du hast ein Harnis, dann kannst
+**[00:28:11]** Wenn du das jetzt wieder weiterdenkst auch mit dem Thema du hast ein Harness, dann kannst
 
 **[00:28:16]** du dir den System Prompt anpassen und da stehe sich jetzt der Kreis, weil so wie du mir
 
@@ -759,11 +759,11 @@ Es wird diskutiert, ob professionell dokumentierte Informationen auf das Wesentl
 
 **[00:29:46]** der Schreckgespenst ist aus der Flasche. Es ist schon mal passiert. Es ist nicht, ich warne vor dem Wolf
 
-**[00:29:53]** und es kommt nie. Es war halt jetzt nur das Favel-Modell und ich bin echt gespannt, ob das Modell
+**[00:29:53]** und es kommt nie. Es war halt jetzt nur das Fable-Modell und ich bin echt gespannt, ob das Modell
 
 **[00:30:00]** nochmal das Licht der Welt erblickt, wie Anthropic damit umgeht, weil wir haben ja mal auch gelernt,
 
-**[00:30:05]** Modelle werden nie wieder so schlecht wie heute. Das heißt, Favel ist in dem Blick auf einem halben
+**[00:30:05]** Modelle werden nie wieder so schlecht wie heute. Das heißt, Fable ist in dem Blick auf einem halben
 
 **[00:30:11]** Ja, das schlechteste Modell, dass du dir quasi in deiner H&M Auswahl auswählen kannst.
 
@@ -785,7 +785,7 @@ Es wird diskutiert, ob professionell dokumentierte Informationen auf das Wesentl
 
 **[00:30:54]** das nutzen wir für uns selbst, denn ich meine, du bist ja auch ein Freund von Manus,
 
-**[00:31:00]** es ist Manus kein Open-Right-Modell oder sowas, aber Manus hat ja diesen Verkauf an Meter gehabt,
+**[00:31:00]** es ist Manus kein Open-Right-Modell oder sowas, aber Manus hat ja diesen Verkauf an Meta gehabt,
 
 **[00:31:06]** Das ist ja extra vorher, haben sie ja noch ihr Heimatland verlassen, damit sie das mit dem
 
@@ -797,7 +797,7 @@ Es wird diskutiert, ob professionell dokumentierte Informationen auf das Wesentl
 
 **[00:31:23]** nicht per se automatisch Wahrheit, sind ja auch solche Menschen, die zum Beispiel
 
-**[00:31:28]** bei Deep-Sieg arbeiten, auch davon betroffen, dass wenn sie das Land verlassen wollen,
+**[00:31:28]** bei DeepSeek arbeiten, auch davon betroffen, dass wenn sie das Land verlassen wollen,
 
 **[00:31:33]** sie da für Gründe brauchen, weil man schon der Meinung ist, dass hier nicht irgendwie nach dem Motto
 
@@ -837,11 +837,11 @@ Es wird diskutiert, ob professionell dokumentierte Informationen auf das Wesentl
 
 **[00:33:08]** Firma, dass man im Prinzip dann auch wirklich sagt, das haben manche Programmierer auch gemacht,
 
-**[00:33:11]** die haben gesagt, ich nehme Faber für die Planung und lasse dann einfach den Codex von
+**[00:33:11]** die haben gesagt, ich nehme Fable für die Planung und lasse dann einfach den Codex von
 
 **[00:33:15]** OpenAI programmieren, die die Programmierarbeit einfach machen. Und dann, das ist ja schlau,
 
-**[00:33:21]** Dass wir jetzt anfangen, auch durch diesen Begriff von Faber zu gucken,
+**[00:33:21]** Dass wir jetzt anfangen, auch durch diesen Begriff von Fable zu gucken,
 
 **[00:33:25]** ist es immer klug mit dem dicksten Modell auf den Sparzen zu schießen?
 
@@ -877,7 +877,7 @@ Es wird diskutiert, ob professionell dokumentierte Informationen auf das Wesentl
 
 **[00:34:13]** Modell etwas macht, wird dieses andere Modell also nicht mitbekommen.
 
-**[00:34:16]** Also wenn ich jetzt einen Prompt in Cloud formuliere und sage,
+**[00:34:16]** Also wenn ich jetzt einen Prompt in Claude formuliere und sage,
 
 **[00:34:19]** gib mir mal den Prompt und kopiere dann das in einen Code Agent rein,
 
@@ -953,7 +953,7 @@ Es wird diskutiert, ob professionell dokumentierte Informationen auf das Wesentl
 
 **[00:37:36]** der ganze Kram weg sein. Und wir hatten schon mal einen Erfolg gesagt, so nach dem Motto, wenn
 
-**[00:37:41]** du Agenten erteilen gibst, jetzt hast du vom Second Praying gesprochen, dann werden wir
+**[00:37:41]** du Agenten erteilen gibst, jetzt hast du vom Second Brain gesprochen, dann werden wir
 
 **[00:37:46]** ja mehr von Markdown-Formaten, also von zertextlastigen Formaten, die nicht wert auf Formatierung
 
@@ -989,7 +989,7 @@ Es wird diskutiert, ob professionell dokumentierte Informationen auf das Wesentl
 
 **[00:39:17]** Als auf etwas du hast schon das wortfall gesehen ja da gibt es ein neues makro stürzt ab brauchst du die versionen hast du gesehen ich habe es in der rot markiert das wir vielleicht auch jetzt.
 
-**[00:39:31]** Nicht das abschalten aber dabei trotzdem noch mit dran denkt nicht nur einen harnis sondern auch das ganze thema der.
+**[00:39:31]** Nicht das abschalten aber dabei trotzdem noch mit dran denkt nicht nur einen Harness, sondern auch das ganze thema der.
 
 **[00:39:37]** Wissenstrukturierung der Dokumentation, der Weitergabe von Informationen und der Empfänger
 
@@ -1007,7 +1007,7 @@ Es wird diskutiert, ob professionell dokumentierte Informationen auf das Wesentl
 
 **[00:40:01]** Ich glaube gar nicht, dass es so im Prinzip vorhanden war.
 
-**[00:40:03]** Wir wollen natürlich jetzt nicht dazukommen, dass wir sagen, jeder muss jetzt im Prinzip eine Enzyklopoli mit sich schleppen
+**[00:40:03]** Wir wollen natürlich jetzt nicht dazukommen, dass wir sagen, jeder muss jetzt im Prinzip eine Enzyklopädie mit sich schleppen
 
 **[00:40:10]** und wissen, was auf den verschiedenen Seiten steht. Und es gibt natürlich auch Sinn von
 
@@ -1215,7 +1215,7 @@ Es wird diskutiert, ob professionell dokumentierte Informationen auf das Wesentl
 
 **[00:47:42]** Tschö…
 
-**[00:47:43]** Willkommen bei ThinkDifferent, Think AI, dem Podcast von Mark und Jens Two technologieverliebte
+**[00:47:43]** Willkommen bei ThinkDifferent, Think AI, dem Podcast von Mark und Jens. Zwei technologieverliebte
 
 **[00:47:51]** die nicht nur über künstliche Intelligenz reden, sondern sie leben.
 

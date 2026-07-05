@@ -78,7 +78,7 @@ https://www.oreilly.de/buecher/16447/biologie-der-ki/
 
 **[00:00:14]** Hier gibt es klare Einordnungen, echte Praxiseinblicke und einen frischen Blick auf das, was möglich ist.
 
-**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinker.
+**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinkern.
 
 **[00:00:24]** Hadi zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
 
@@ -370,7 +370,7 @@ https://www.oreilly.de/buecher/16447/biologie-der-ki/
 
 **[00:10:54]** Easter Eggs bleiben aber.
 
-**[00:10:56]** Zum Beispiel, wie wir so ein Ding, keine Ahnung, wie viele Buchstaben hatten, das Wort Storberry.
+**[00:10:56]** Zum Beispiel, wie wir so ein Ding, keine Ahnung, wie viele Buchstaben hatten, das Wort Strawberry.
 
 **[00:11:02]** Also, während ich das mit Leckerstinie vielleicht falsch zähle, hat ja die KI das Problem.
 
@@ -1142,6 +1142,6 @@ https://www.oreilly.de/buecher/16447/biologie-der-ki/
 
 **[00:38:26]** Hier gibt es klare Einordnungen, echte Praxis-Einblicke und einen frischen Blick auf das, was möglich ist.
 
-**[00:38:32]** Verständlich, kritisch und immer mit einem Augenzwinker.
+**[00:38:32]** Verständlich, kritisch und immer mit einem Augenzwinkern.
 
 **[00:38:36]** HI zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.

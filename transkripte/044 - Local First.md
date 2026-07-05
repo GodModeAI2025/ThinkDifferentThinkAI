@@ -51,9 +51,9 @@ https://de.root-nation.com/en/articles-en/analytics-en/en-emergence-ai-experimen
 
 **[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinker.
 
-**[00:00:24]** KD zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
+**[00:00:24]** KI zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
 
-**[00:00:33]** Hallo, herzlich willkommen zu einer neuen Folge von Tinkdüffeln Trinkei.
+**[00:00:33]** Hallo, herzlich willkommen zu einer neuen Folge von Think Different, Think AI.
 
 **[00:00:38]** Heute kündigt hier so langsam der Sommer in Deutschland an.
 
@@ -63,11 +63,11 @@ https://de.root-nation.com/en/articles-en/analytics-en/en-emergence-ai-experimen
 
 **[00:00:49]** Auch in den Urlaub bei Mark ist einer von denjenigen,
 
-**[00:00:52]** der gerne Fingsturlaub machen darf,
+**[00:00:52]** der gerne Pfingsturlaub machen darf,
 
 **[00:00:54]** aufgrund des Bundeslandes, in dem er wohnt.
 
-**[00:00:56]** Ich bin ein bisschen neidisch, weil natürlich diese Fingstzeit eine tolle Zeit ist, hier wohin zu fahren.
+**[00:00:56]** Ich bin ein bisschen neidisch, weil natürlich diese Pfingstzeit eine tolle Zeit ist, hier wohin zu fahren.
 
 **[00:01:01]** Es ist nicht so ganz knalleheiß, es ist nicht so ganz knalleteuer, nicht ganz so knallevoll wie immer im Sommer.
 
@@ -163,7 +163,7 @@ https://de.root-nation.com/en/articles-en/analytics-en/en-emergence-ai-experimen
 
 **[00:04:50]** wenn du sowas an eine lokale KI anschließt, dass sie dir hilft, die Fesseln des Systems
 
-**[00:04:54]** etwas zu lockern, so dass du auch ein Claude Cota drauf zum Laufen kriegst.
+**[00:04:54]** etwas zu lockern, so dass du auch ein Claude Code drauf zum Laufen kriegst.
 
 **[00:04:59]** Aber ich möchte nicht weiter drauf eingehen.
 
@@ -211,9 +211,9 @@ https://de.root-nation.com/en/articles-en/analytics-en/en-emergence-ai-experimen
 
 **[00:06:02]** jeweils sechs Agenten und immer ein Modell, aber das war der Gaggen. Das heißt, einmal waren die sechs
 
-**[00:06:06]** Agenten von Claude, einmal waren die sechs Agenten von Open Eye, also Chatsy Pity, einmal waren die
+**[00:06:06]** Agenten von Claude, einmal waren die sechs Agenten von Open Eye, also ChatGPT, einmal waren die
 
-**[00:06:11]** sechs Agenten von Gemina, einmal waren sie von Grog und so weiter. Und das im Prinzip wurde
+**[00:06:11]** sechs Agenten von Gemini, einmal waren sie von Grok und so weiter. Und das im Prinzip wurde
 
 **[00:06:16]** geguckt, was so passiert nach ein paar Tagen, wenn die so leben in dieser Stadt, das ging
 
@@ -225,15 +225,15 @@ https://de.root-nation.com/en/articles-en/analytics-en/en-emergence-ai-experimen
 
 **[00:06:36]** walten kann. In diesem Fall war es dann relativ friedfertig teilweise. Das war dann so, dass
 
-**[00:06:41]** Glorf sehr ordnungsgemäß war. Da wurden die Gapwelts eingeheirend, niemand wurde überfallen
+**[00:06:41]** Claude sehr ordnungsgemäß war. Da wurden die Gapwelts eingeheirend, niemand wurde überfallen
 
-**[00:06:50]** fallen oder immer was anderes. Das war bei GROC leicht anders. Da gab es dann, glaube ich,
+**[00:06:50]** fallen oder immer was anderes. Das war bei Grok leicht anders. Da gab es dann, glaube ich,
 
 **[00:06:54]** irgendwie relativ zwei Tage.
 
 **[00:06:56]** Und zwar gibt es noch kein Leben denn mehr.
 
-**[00:06:57]** Ja, ja, genau. Aber 103 Grad hat sich verbrechen, das ist schon relativ früh.
+**[00:06:57]** Ja, ja, genau. Aber 183 hat er verbrochen, das ist schon relativ früh.
 
 **[00:07:00]** Und am zweiten Tag waren alle von diesen Agenten tot.
 
@@ -243,7 +243,7 @@ https://de.root-nation.com/en/articles-en/analytics-en/en-emergence-ai-experimen
 
 **[00:07:12]** gemacht haben, ist zu gucken, was würde passieren, wenn wir jetzt eine Stadt
 
-**[00:07:16]** Besiedeln mit unterschiedlichen Modellen, mit diesem ganz lieben Claw-Modell, dass er ganz nett ist und an Gartweils vorbildlich arbeitet.
+**[00:07:16]** Besiedeln mit unterschiedlichen Modellen, mit diesem ganz lieben Claude-Modell, dass er ganz nett ist und an Gartweils vorbildlich arbeitet.
 
 **[00:07:23]** Vorbildlich, ne? Also nicht nur liebere Netze und dann auch visionär.
 
@@ -291,7 +291,7 @@ https://de.root-nation.com/en/articles-en/analytics-en/en-emergence-ai-experimen
 
 **[00:09:01]** verlangsamen, damit wir den Chancen haben da ein bisschen Schritt zu halten. Wenn ich
 
-**[00:09:05]** mir jetzt überlege, dass am Horizont die neuen LGBT-Modelle Mythos soll ja auch irgendwie
+**[00:09:05]** mir jetzt überlege, dass am Horizont die neuen LLM-Modelle Mythos soll ja auch irgendwie
 
 **[00:09:10]** jetzt dann doch demnächst mal jetzt nicht der Welt erblickt, nachdem sie jetzt
 
@@ -321,7 +321,7 @@ https://de.root-nation.com/en/articles-en/analytics-en/en-emergence-ai-experimen
 
 **[00:10:13]** Zumindest ist das ein grobes Gefühl, wo die hingehen wollen und bevor wir auf die einzelnen Firmen und was sie da so machen, durch Rictum eingehen.
 
-**[00:10:21]** Ich fand eine Sache ziemlich beeindruckend oder erschreckend ist, mag im Ohr der Hörer sein, Jason Wang oder wie der immer ausgesprochen wird.
+**[00:10:21]** Ich fand eine Sache ziemlich beeindruckend oder erschreckend ist, mag im Ohr der Hörer sein, Jensen Huang oder wie der immer ausgesprochen wird.
 
 **[00:10:31]** Wir wissen wahrscheinlich alle wen ich mein, der nette Mann mit der Lederjacke von Nvidia, der scheinbar so gefeiert wird in seinen Gefühlen,
 
@@ -341,7 +341,7 @@ https://de.root-nation.com/en/articles-en/analytics-en/en-emergence-ai-experimen
 
 **[00:11:05]** gegen 80
 
-**[00:11:07]** hat hier etwas grafikkarten so ein bisschen irgendwie ein strauch und haben was in video anging
+**[00:11:07]** hat hier etwas grafikkarten so ein bisschen irgendwie ein strauch und haben was NVIDIA anging
 
 **[00:11:12]** Dann haben sie die die kurve gekriegt wir haben große grafikkarten wir haben die gamer scene und dann kam kai und dann
 
@@ -389,7 +389,7 @@ https://de.root-nation.com/en/articles-en/analytics-en/en-emergence-ai-experimen
 
 **[00:12:46]** dann wurde der ganze Kram ja dahin überführt, dass man die Zukunft in der lokalen KI sieht.
 
-**[00:12:52]** Weil sie haben ja die ganze Zeit, ich sag mal, die Server bedient, dann haben sie mit der DJX-Bark
+**[00:12:52]** Weil sie haben ja die ganze Zeit, ich sag mal, die Server bedient, dann haben sie mit der DGX Spark
 
 **[00:12:56]** so einen kleinen Würfel präsentiert, den du dir quasi irgendwo als Büro stellen kannst,
 
@@ -647,7 +647,7 @@ https://de.root-nation.com/en/articles-en/analytics-en/en-emergence-ai-experimen
 
 **[00:22:54]** Da hat man schon wieder vier Monate alt und so was.
 
-**[00:22:56]** Hat der Perplexi jetzt die im Prinzip sofort von Anfang an, war der Modell agnostisch, weil
+**[00:22:56]** Hat der Perplexity jetzt die im Prinzip sofort von Anfang an, war der Modell agnostisch, weil
 
 **[00:23:00]** sie nutzen einfach die Modelle, eine Oberfläche angeboten, die so ein bisschen eine Google-Suche
 
@@ -703,7 +703,7 @@ https://de.root-nation.com/en/articles-en/analytics-en/en-emergence-ai-experimen
 
 **[00:24:48]** nicht so viele Parameter gleichzeitig geladen werden kann, sodass man mal ein kleiner lokaler
 
-**[00:24:52]** Speicher vom 24GB auch mit den Modellen klar kommt. Diesen Ansatz nimmt Perfektität jetzt
+**[00:24:52]** Speicher vom 24GB auch mit den Modellen klar kommt. Diesen Ansatz nimmt Perplexity jetzt
 
 **[00:24:58]** auch auf und deshalb reden wir auch darüber, weil das schön dieses Lokale reinpasst.
 
@@ -715,7 +715,7 @@ https://de.root-nation.com/en/articles-en/analytics-en/en-emergence-ai-experimen
 
 **[00:25:19]** denn wirklich eigentlich an die schnelleren Online-Modelle übergeben werden und A ist
 
-**[00:25:24]** das Rassenschwund und meiner Meinung nach aus der Prophecy-Perspektive auch ein total
+**[00:25:24]** das Rassenschwund und meiner Meinung nach aus der Privacy-Perspektive auch ein total
 
 **[00:25:28]** spannendes Konzept.
 
@@ -841,7 +841,7 @@ https://de.root-nation.com/en/articles-en/analytics-en/en-emergence-ai-experimen
 
 **[00:30:07]** Haben Sie jetzt quasi was angeboten? Und da könnte es ja sein, dass das Gutes.
 
-**[00:30:12]** Wenn ich jetzt aber aus einer Perspektive komme und sage, ich habe ein Hermes-Algen gesehen, ich habe auch ein Chlor gesehen.
+**[00:30:12]** Wenn ich jetzt aber aus einer Perspektive komme und sage, ich habe ein Hermes-Agenten gesehen, ich habe auch ein Claude gesehen.
 
 **[00:30:17]** Ich habe gesehen, womit Nvidia, womit Google, womit Microsoft um die Ecke kommen, dann fühle ich mich mit einem Produkt aus dem Hause Apple,
 
@@ -1099,7 +1099,7 @@ https://de.root-nation.com/en/articles-en/analytics-en/en-emergence-ai-experimen
 
 **[00:40:24]** Und einfach die ist deutlich schneller ist, als die Modelle, die ich vorher hatte.
 
-**[00:40:28]** Das heißt, auch da kann ich schon wieder mehr Themen, die ich bis jetzt immer einem Cloud
+**[00:40:28]** Das heißt, auch da kann ich schon wieder mehr Themen, die ich bis jetzt immer einem Claude
 
 **[00:40:34]** Opus 47 oder wem auch immer gegeben habe, quasi online, um ein schnelles Reasoning zu
 
@@ -1169,9 +1169,9 @@ https://de.root-nation.com/en/articles-en/analytics-en/en-emergence-ai-experimen
 
 **[00:43:09]** nicht nur mit Internet-Search macht, ich habe mir jetzt auch Perplexity als MCP installiert, ja auch das nicht nur macht und mit Notebook LM
 
-**[00:43:16]** aufbereitet, auch mit MCP, sondern auch auf diesen lokalen Prane zugreift und ich muss sagen,
+**[00:43:16]** aufbereitet, auch mit MCP, sondern auch auf diesen lokalen Brain zugreift und ich muss sagen,
 
-**[00:43:23]** dass dieser Prane, der dann aus diesem ganzen Nachrichten kann, irgendwie sagen, wer der gefüttert wird, mir so
+**[00:43:23]** dass dieser Brain, der dann aus diesem ganzen Nachrichten kann, irgendwie sagen, wer der gefüttert wird, mir so
 
 **[00:43:29]** wertvolle Informationen gibt,
 
@@ -1189,11 +1189,11 @@ https://de.root-nation.com/en/articles-en/analytics-en/en-emergence-ai-experimen
 
 **[00:44:03]** mein Sprechdurchfall, an den ich langsam wieder reinkomme, wieder los werde, da hat es mich
 
-**[00:44:08]** irgendwann mal auf die Idee gebracht, so ein Identity-MD-Fall von mir zu erzeugen, das
+**[00:44:08]** irgendwann mal auf die Idee gebracht, so ein Identity-MD-File von mir zu erzeugen, das
 
 **[00:44:12]** finde ich, wenn wen das interessiert auf GIT habe, habe ich mir meine Impressumseite,
 
-**[00:44:16]** da findet man auch im Repository die Identity und die habe ich jetzt Claude MD und allen
+**[00:44:16]** da findet man auch im Repository die Identity und die habe ich jetzt CLAUDE.md und allen
 
 **[00:44:21]** Agenten immer referenziert und gesagt, guck da rein und warum erzähle ich das
 
@@ -1257,7 +1257,7 @@ https://de.root-nation.com/en/articles-en/analytics-en/en-emergence-ai-experimen
 
 **[00:46:51]** Und dementsprechend ist es ja auch zum Beispiel so, deshalb baue ich bei mir dann ja auch extra Wächter, die drauf gucken,
 
-**[00:47:00]** was wird aus dem Vault eigentlich freigegeben? Dann Open Cloud, der dann auch draußen öffentlich
+**[00:47:00]** was wird aus dem Vault eigentlich freigegeben? Dann OpenClaw, der dann auch draußen öffentlich
 
 **[00:47:05]** rumlaufen darf und schnelle Modelle draußen benutzen darf. Welche Informationen gehen aus dem
 

@@ -66,9 +66,9 @@ https://de.wikipedia.org/wiki/Luxo_Jr.
 
 **[00:00:14]** Hier gibt es klare Einordnungen, echte Praxiseinblicke und einen frischen Blick auf das, was möglich ist.
 
-**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinker.
+**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinkern.
 
-**[00:00:24]** Hadi zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
+**[00:00:24]** KI zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
 
 **[00:00:29]** Herzlich willkommen bei Think Different, Think AI.
 
@@ -76,7 +76,7 @@ https://de.wikipedia.org/wiki/Luxo_Jr.
 
 **[00:00:40]** Was ich reimt, ist gut.
 
-**[00:00:42]** Weihnachten war hoffentlich für euch alle ein besinnliches, beschauliches Festseis
+**[00:00:42]** Weihnachten war hoffentlich für euch alle ein besinnliches, beschauliches Fest gewesen
 
 **[00:00:47]** im Umfeld der Leben oder wo auch immer ihr zugegen wart.
 
@@ -132,7 +132,7 @@ https://de.wikipedia.org/wiki/Luxo_Jr.
 
 **[00:03:03]** Warum sage ich näher ins Kästchen legen? Ich war mal so frei und habe mir von dieser
 
-**[00:03:08]** Avengy 2 Brille bestellt, auch wenn sie jetzt nicht mehr in 2025 kommt, so dass
+**[00:03:08]** Even Realities G2-Brille bestellt, auch wenn sie jetzt nicht mehr in 2025 kommt, so dass
 
 **[00:03:15]** wahrscheinlich erst in 2026 zu mehr ausgeliefert wird. Da bin ich mir
 
@@ -140,7 +140,7 @@ https://de.wikipedia.org/wiki/Luxo_Jr.
 
 **[00:03:24]** was die immer gegenwärtige Auswertung deiner Umgebung beziehungsweise. Die
 
-**[00:03:31]** hat ja keine Kameras, die immer gegenwärtige Verfügbarkeit von KI in Form von Variables
+**[00:03:31]** hat ja keine Kameras, die immer gegenwärtige Verfügbarkeit von KI in Form von Wearables
 
 **[00:03:38]** wie zum Beispiel Brillen. Ben haltet. Ja, das glaube ich sehr und ich hoffe es auch, dass
 
@@ -194,7 +194,7 @@ https://de.wikipedia.org/wiki/Luxo_Jr.
 
 **[00:05:39]** Handy gucke und dann im Park über den Aststolper. Das passiert jetzt dann selten.
 
-**[00:05:44]** Und wenn hast du ja ein Variable, das dann um Hilfe ruft, damit du entsprechend versorgt
+**[00:05:44]** Und wenn hast du ja ein Wearable, das dann um Hilfe ruft, damit du entsprechend versorgt
 
 **[00:05:49]** wirst, wo ja auch KI zumindest mal drin ist.
 
@@ -380,7 +380,7 @@ https://de.wikipedia.org/wiki/Luxo_Jr.
 
 **[00:12:12]** das ganze Thema der kleinen Modelle auch noch mal zum Tragen.
 
-**[00:12:15]** Nicht die eine große Künstlikenz, die quasi alle Sensoren bei sich vereinheitlicht.
+**[00:12:15]** Nicht die eine große künstliche Intelligenz, die quasi alle Sensoren bei sich vereinheitlicht.
 
 **[00:12:21]** Und dann, je nachdem, wie der Tänzen sind, irgendwo im Rechenzentrum entscheidet,
 
@@ -444,7 +444,7 @@ https://de.wikipedia.org/wiki/Luxo_Jr.
 
 **[00:14:36]** das fände ich, das fände ich richtig cool. Finde ich, finde ich cool. Ich würde jetzt mal
 
-**[00:14:39]** Orakeln in Deutschland haushalten, wirst du das Maskenhaft noch nicht sehen,
+**[00:14:39]** Orakeln in Deutschland haushalten, wirst du das massenhaft noch nicht sehen,
 
 **[00:14:44]** Humanoide. Roboter in 2026. Also ich glaube in Spielzeugform von er vielleicht, ja,
 
@@ -476,7 +476,7 @@ https://de.wikipedia.org/wiki/Luxo_Jr.
 
 **[00:15:57]** Reiner. Du kennst ihn nicht. Ich geh in der Schulzeit. Er sagt immer zu mir dicken Menschen
 
-**[00:16:01]** am Bauch reiben. Ich mach es bei mir selbst. Wirkenwunder. Von der Seite vielleicht hast
+**[00:16:01]** am Bauch reiben. Ich mach es bei mir selbst. Wirkt Wunder. Von der Seite vielleicht hast
 
 **[00:16:06]** hier das Wunder und dann ist das Reibenschuld gewesen. Vieler, vieler. Darf ich noch
 
@@ -626,7 +626,7 @@ https://de.wikipedia.org/wiki/Luxo_Jr.
 
 **[00:21:45]** auch ganz viele andere uns hören können, würde ich euch empfehlen, sagt Ihnen Bescheid, das
 
-**[00:21:51]** singt different. Sing AI. Euer Begleiter ist auch in 2026 in einer vielleicht lockeren Form die
+**[00:21:51]** ist Think Different, Think AI. Euer Begleiter ist auch in 2026 in einer vielleicht lockeren Form die
 
 **[00:21:59]** Neuigkeiten zu erfahren, die uns alle sicherlich beeinflussen werden. Uns hat, wie gesagt,
 
@@ -702,4 +702,4 @@ https://de.wikipedia.org/wiki/Luxo_Jr.
 
 **[00:24:19]** Genau. Rottguck gut reine. Bis dann. Tschau. Bis dann. Ciao.
 
-**[00:24:49]** Denk zum Schmunzeln und vor allem zum Mitreden.
+**[00:24:49]** KI zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.

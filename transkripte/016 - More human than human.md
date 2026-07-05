@@ -55,9 +55,9 @@ https://de.wikipedia.org/wiki/Neuromancer
 
 **[00:00:14]** Hier gibt es klare Einordnungen, echte Praxiseinblicke und einen frischen Blick auf das, was möglich ist.
 
-**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinker.
+**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinkern.
 
-**[00:00:24]** Hadi zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
+**[00:00:24]** KI zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
 
 **[00:00:34]** So, hallo und herzlich willkommen zu einer neuen Episode von Think Different, Think AI.
 
@@ -95,7 +95,7 @@ https://de.wikipedia.org/wiki/Neuromancer
 
 **[00:01:49]** wo Science-Fiction eigentlich immer eher so glänzend bunt waren. Also damals auch stark aus der alten
 
-**[00:01:55]** Start-Wake-Philosophie getrieben und andere Thematiken eher so, na 70er-Jahre bunt alles und dann kam
+**[00:01:55]** Star-Trek-Philosophie getrieben und andere Thematiken eher so, na 70er-Jahre bunt alles und dann kam
 
 **[00:01:59]** auf einmal Blätwarn haben die Ecke und das regnete ständig und die Leute sind eher so schlecht
 
@@ -135,7 +135,7 @@ https://de.wikipedia.org/wiki/Neuromancer
 
 **[00:03:36]** dass man sie äußerlich kaum unterscheiden kann von echten Menschen. Und da wird
 
-**[00:03:41]** der Void-Fight-Test benutzt. Das ist so ein Test, der beobachtet die äußeren emotionalen
+**[00:03:41]** der Voight-Kampff-Test benutzt. Das ist so ein Test, der beobachtet die äußeren emotionalen
 
 **[00:03:49]** Reaktionen, die ein Replikant dann macht. Das heißt, wenn wir beide uns unterhalten würden
 
@@ -145,7 +145,7 @@ https://de.wikipedia.org/wiki/Neuromancer
 
 **[00:04:05]** noch so bei den Replikanten, die zeigen dann nicht diese menschlichen Reaktionen.
 
-**[00:04:09]** Dadurch kann dieser Volt-Kampf-Test ja da durchgeführt werden, wo auch die Popille unter anderem
+**[00:04:09]** Dadurch kann dieser Voight-Kampff-Test ja da durchgeführt werden, wo auch die Popille unter anderem
 
 **[00:04:13]** nahmen und das Gesicht, alles ein bisschen schräg alles dargestellt in diesem Film.
 
@@ -159,13 +159,13 @@ https://de.wikipedia.org/wiki/Neuromancer
 
 **[00:04:36]** dass das eine Replikante ist.
 
-**[00:04:37]** Das heißt, das ist eigentlich so der Touring-Test-Ondenste-Ruin, wenn du möchtest.
+**[00:04:37]** Das heißt, das ist eigentlich so der Turing-Test-Ondenste-Ruin, wenn du möchtest.
 
-**[00:04:42]** Also das, was der Touring-Test dann so in den 50ern ist, ist, dass da nochmal ein Tacken
+**[00:04:42]** Also das, was der Turing-Test dann so in den 50ern ist, ist, dass da nochmal ein Tacken
 
 **[00:04:46]** weiter draufgelegt.
 
-**[00:04:47]** Touring-Test für den Zuhörer, da geht es drum, Mark, was macht man beim Touring-Test?
+**[00:04:47]** Turing-Test für den Zuhörer, da geht es drum, Mark, was macht man beim Turing-Test?
 
 **[00:04:51]** Wenn die Maschinen nämlich so lange so belügen kann, dass ich nicht erkennen, dass
 
@@ -173,9 +173,9 @@ https://de.wikipedia.org/wiki/Neuromancer
 
 **[00:04:59]** Ja, ja, ist nicht so schlimm.
 
-**[00:05:00]** Prinzipiell würden wir fragen, stellen und wir würden beide uns unterhalten in einem Touring-Test und wenn ich dann hinterher sicher bin, ob du ein Mensch bist oder nicht Mensch bist, dann kann ich irgendwie sagen, okay, du bist halt eine KI oder nicht.
+**[00:05:00]** Prinzipiell würden wir fragen, stellen und wir würden beide uns unterhalten in einem Turing-Test und wenn ich dann hinterher sicher bin, ob du ein Mensch bist oder nicht Mensch bist, dann kann ich irgendwie sagen, okay, du bist halt eine KI oder nicht.
 
-**[00:05:15]** Das ist so ein bisschen, was in dem Touring-Test funktioniert.
+**[00:05:15]** Das ist so ein bisschen, was in dem Turing-Test funktioniert.
 
 **[00:05:17]** Ich habe es halt flapsig ausgetrückt, ne?
 
@@ -205,7 +205,7 @@ https://de.wikipedia.org/wiki/Neuromancer
 
 **[00:06:38]** ich habe ja mal Chechepitilo fragt, ob ich ein Mensch bin oder eine Maschine. Also den
 
-**[00:06:45]** Touring-Test quasi umgedreht, die Maschine mich überprüfen lassen, ob ich ein Mensch bin,
+**[00:06:45]** Turing-Test quasi umgedreht, die Maschine mich überprüfen lassen, ob ich ein Mensch bin,
 
 **[00:06:50]** und sie waren natürlich so, ja, du bist natürlich ganz klar ein Mensch und ich sage,
 
@@ -231,13 +231,13 @@ https://de.wikipedia.org/wiki/Neuromancer
 
 **[00:07:41]** auch nicht. Also das ist schon so ein Ding, wo es wirklich heutzutage eigentlich schon,
 
-**[00:07:47]** wenn man jetzt auf den Touring-Test, auch in beide Richtungen guckt und auch in dem
+**[00:07:47]** wenn man jetzt auf den Turing-Test, auch in beide Richtungen guckt und auch in dem
 
 **[00:07:51]** Spiel. Das ist ein schönes Beispiel. Das Spiel muss man auf jeden Fall beschicken. Das heißt,
 
 **[00:07:54]** wenn ich witzig spiele, auch mal rumgespielen. Ich suche es. Ich suche es mal raus. Und ich glaube,
 
-**[00:07:59]** es gibt seit der GPT-45 Version, da gab es ein Studio, da ist so ein klassischer Touring-Test
+**[00:07:59]** es gibt seit der GPT-45 Version, da gab es ein Studio, da ist so ein klassischer Turing-Test
 
 **[00:08:04]** in so einer drei-personen-Geschichte gemacht. Also das Studio hat überprüft, ich unterhalte mich
 
@@ -355,15 +355,15 @@ https://de.wikipedia.org/wiki/Neuromancer
 
 **[00:13:36]** so besser werden, dass solche Sachen eben auch dann nicht mehr als Merkmal gehen, also dass dann Emotionen,
 
-**[00:13:41]** Also dann auch gespielt werden. Es ist so ähnlich mit diesem, was ich jetzt gerade als Beispiel mit dem mit diesem selbst gemachten Reverse Touring-Test mit der Maschine, wo ich sie ja gesagt habe,
+**[00:13:41]** Also dann auch gespielt werden. Es ist so ähnlich mit diesem, was ich jetzt gerade als Beispiel mit dem mit diesem selbst gemachten Reverse Turing-Test mit der Maschine, wo ich sie ja gesagt habe,
 
 **[00:13:49]** kannst du denn da nicht sicher sein, dass diese emotionale Antwort nicht bewusst von mir als KI gemacht worden ist, um dich quasi reinzutricksen, dass ich doch emotional sein kann.
 
 **[00:13:58]** Also das heißt, dieses Thema Imitation, die Menschlichkeit vorgaukeln kann, das ist ja etwas, das ist, also da sind wir heute.
 
-**[00:14:07]** heute. Das ist der Touring-Test wahrscheinlich schon nicht mehr ausreichen und deshalb ist
+**[00:14:07]** heute. Das ist der Turing-Test wahrscheinlich schon nicht mehr ausreichen und deshalb ist
 
-**[00:14:11]** es ja auch so spannend, wenn wir jetzt auch Blade Runner gucken gegen diesen Boid-Kampf-Test
+**[00:14:11]** es ja auch so spannend, wenn wir jetzt auch Blade Runner gucken gegen diesen Voight-Kampff-Test
 
 **[00:14:15]** heißt. Ich glaube, der, falls er anders heißt, hätten wir etwas zum Fusseln. Also lass es
 
@@ -789,13 +789,13 @@ https://de.wikipedia.org/wiki/Neuromancer
 
 **[00:32:28]** so wie du Ceminal beschreibst. Wenn es ein Video erkennen kann, könntest du natürlich jetzt auch
 
-**[00:32:33]** schon den Void-Test mit mir durchführen und versuchen quasi, nicht nur über den Text zu
+**[00:32:33]** schon den Voight-Kampff-Test mit mir durchführen und versuchen quasi, nicht nur über den Text zu
 
 **[00:32:38]** verstehen, was der Tooling-Test nur könnte, ob ich ein Mensch bin, sondern eben auch mir ins
 
 **[00:32:45]** Gesicht schauen könnte und analysieren könnte, nügt er gegebenenfalls, es ist eine KI oder ist ja
 
-**[00:32:51]** keine KI in dem Moment. Also das ist, tatsächlich ist der Void-Test dann ja mit, also reverse auf jeden
+**[00:32:51]** keine KI in dem Moment. Also das ist, tatsächlich ist der Voight-Kampff-Test dann ja mit, also reverse auf jeden
 
 **[00:32:56]** Fall schon mal möglich. Das heißt, wir können im Prinzip auch jetzt KI unterstützt überprüfen,
 
@@ -849,7 +849,7 @@ https://de.wikipedia.org/wiki/Neuromancer
 
 **[00:34:57]** auf die Zukunft gehen und auch was KI macht und die Roboter und all die Sachen
 
-**[00:35:02]** haben, dass man sich immer mehr die Frage stellen muss, ist eigentlich so ein Tugentest noch
+**[00:35:02]** haben, dass man sich immer mehr die Frage stellen muss, ist eigentlich so ein Turing-Test noch
 
 **[00:35:10]** ausreichend, ist es eher so ein Empathietest, den wir durchführen müssen, um noch zu wissen,
 
@@ -889,7 +889,7 @@ https://de.wikipedia.org/wiki/Neuromancer
 
 **[00:36:40]** Das ist so ein bisschen, ich glaube wirklich dieses Thema
 
-**[00:36:44]** und sagen kann ok so Touring Test und so. Es war irgendwie war mal schön und war der Anfang.
+**[00:36:44]** und sagen kann ok so Turing-Test und so. Es war irgendwie war mal schön und war der Anfang.
 
 **[00:36:49]** Bleibweiner, die Bleibweiner Welt, wie sie wie sonst damals gezeigt worden ist in den 70ern, die ist jetzt glaube ich da.
 
@@ -931,6 +931,6 @@ https://de.wikipedia.org/wiki/Neuromancer
 
 **[00:38:27]** klare Einordnungen, echte Praxis einblicken und einen frischen Blick auf das, was
 
-**[00:38:32]** möglich ist, verständlich, kritisch und immer mit einem Augenzwinker.
+**[00:38:32]** möglich ist, verständlich, kritisch und immer mit einem Augenzwinkern.
 
-**[00:38:37]** H.I. zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
+**[00:38:37]** KI zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.

@@ -280,7 +280,7 @@ https://crea.ai/
 
 **[00:07:31]** Also das ist bei den neuen Artikeln benutze ich das jetzt.
 
-**[00:07:34]** Das ist das neue Cloud Design, man muss ja bei Anthropic zurzeit sagen, die bringen
+**[00:07:34]** Das ist das neue Claude Design, man muss ja bei Anthropic zurzeit sagen, die bringen
 
 **[00:07:41]** mehr Features, Modelle und sonstige Software-Lösungen momentan raus, als andere Leute irgendwie ihre
 
@@ -302,9 +302,9 @@ https://crea.ai/
 
 **[00:08:04]** Was sie jetzt, letzte Woche Freitag, also sprich, hier mitten im April releaset
 
-**[00:08:10]** haben ist das Thema Cloud Design. Das heißt, neben Cloud Work, Claude Code, Cloud Chat, wie
+**[00:08:10]** haben ist das Thema Claude Design. Das heißt, neben Claude Work, Claude Code, Claude Chat, wie
 
-**[00:08:17]** sie alle heißen, gibt es jetzt auch noch Cloud Design. Ich habe es in meiner Applikation
+**[00:08:17]** sie alle heißen, gibt es jetzt auch noch Claude Design. Ich habe es in meiner Applikation
 
 **[00:08:22]** selber noch nicht, die ich als Headline installiert habe, sie runtergelandert auf dem Rechner,
 
@@ -342,7 +342,7 @@ https://crea.ai/
 
 **[00:09:37]** darunter gibt es auch nicht nur die Gratis Subscription, dann hat man dieses
 
-**[00:09:40]** Feature jetzt da, Cloud Design. So wie du es gerade auch schon angedeutet hast,
+**[00:09:40]** Feature jetzt da, Claude Design. So wie du es gerade auch schon angedeutet hast,
 
 **[00:09:44]** das hat direkt bei der Veröffentlichung ein bisschen Wellen geschlagen, da ist es
 
@@ -358,7 +358,7 @@ https://crea.ai/
 
 **[00:10:12]** oder irgendwelche anderen Sachen, da sieht man gerade viele Themen auf und zu kommen und
 
-**[00:10:16]** Cloud Design ist ein weiteres. Wenn man sich die Beispiele einfach anschaut, was man da alles
+**[00:10:16]** Claude Design ist ein weiteres. Wenn man sich die Beispiele einfach anschaut, was man da alles
 
 **[00:10:22]** machen kann, von einem tatsächlich reinen Wireframe Design bis hin zu Prototypen mit Funktionalen,
 
@@ -392,7 +392,7 @@ https://crea.ai/
 
 **[00:11:40]** ganz gut, dann screenshotst du das, nimmst das rüber, kannst es eben reinpasten, hast
 
-**[00:11:44]** im Prinzip das Thema direkt auch innerhalb deines Designsystems oder Cloud in diesem Fall, nimm
+**[00:11:44]** im Prinzip das Thema direkt auch innerhalb deines Designsystems oder Claude in diesem Fall, nimm
 
 **[00:11:49]** das einfach auf und übernimm das.
 
@@ -470,7 +470,7 @@ https://crea.ai/
 
 **[00:14:17]** mit René, wie der Mensch sich auch offenhalten muss auf eine Veränderung von Arbeitswerkzeugen.
 
-**[00:14:27]** Ich meine, das heißt jetzt nicht, es müssen alle automatisch Cloth-Design-Zeug dann verwenden.
+**[00:14:27]** Ich meine, das heißt jetzt nicht, es müssen alle automatisch Claude Design-Zeug dann verwenden.
 
 **[00:14:32]** Ich meine, das wird ja nur eine Frage der Zeit, wann die nächsten wieder aus dem Loch kommen
 
@@ -720,7 +720,7 @@ https://crea.ai/
 
 **[00:24:32]** Frage, weil ich habe im Prinzip in meiner, hat der einen oder andere Zuhörer,
 
-**[00:24:42]** Ich bin ja auch in die OpenCloud-Welt reingegangen und habe in Prinzip so eine Kombination aus
+**[00:24:42]** Ich bin ja auch in die OpenClaw-Welt reingegangen und habe in Prinzip so eine Kombination aus
 
 **[00:24:47]** lokalen Modellen und Online-Modellen, die ich da gerne für unterschiedliche Arbeiten nutze
 
@@ -896,13 +896,13 @@ https://crea.ai/
 
 **[00:31:01]** Weil ich glaube, dieses Vertrauen in das, was bezahle ich da, was kriege ich eigentlich raus,
 
-**[00:31:07]** ist das eine gewisse Konsistenz. Wir hatten das gerade mit Crop Design auch schon gesagt,
+**[00:31:07]** ist das eine gewisse Konsistenz. Wir hatten das gerade mit Claude Design auch schon gesagt,
 
 **[00:31:10]** dass wir sagen, wenn es mir gelingt, über das Designsystem im Coding dann hinterher,
 
 **[00:31:15]** auch immer wieder gleiche Ergebnisse zu bekommen, oder auch eine bei Illustrationen oder Poster,
 
-**[00:31:20]** die ich gestalte, weil ich ein gewisses Designsystem mit Cloud Design in dem Fall angelegt habe,
+**[00:31:20]** die ich gestalte, weil ich ein gewisses Designsystem mit Claude Design in dem Fall angelegt habe,
 
 **[00:31:23]** oder mit Google Stitch in dem Moment angelegt habe, dann sind die Ergebnisse konsistenter für
 
@@ -1032,7 +1032,7 @@ https://crea.ai/
 
 **[00:35:54]** Das hat dann Anthropic initial so ein bisschen unterstützt mit, es gibt verschiedene Parameter,
 
-**[00:35:59]** mit denen du Cloud Coach starten kannst. Die heißen teilweise Dangerous irgendwas,
+**[00:35:59]** mit denen du Claude Code starten kannst. Die heißen teilweise Dangerous irgendwas,
 
 **[00:36:04]** teilweise heißen sie Auto Mode. Was haben die Dinger gemacht? Die haben immer so Ja und
 
@@ -1066,7 +1066,7 @@ https://crea.ai/
 
 **[00:37:11]** den Faden verloren hat. Deshalb habe ich mir so eine Kombination aus Skill und Bash Script gebaut.
 
-**[00:37:17]** Das versucht das zu lösen und das nennt sich Cloud Night Shift bei mir, habe ich als Github-Projekt
+**[00:37:17]** Das versucht das zu lösen und das nennt sich Claude Night Shift bei mir, habe ich als Github-Projekt
 
 **[00:37:22]** veröffentlicht und das erzeugt eine Aufgabenschreibung und ein autonomes Setup.
 
@@ -1082,7 +1082,7 @@ https://crea.ai/
 
 **[00:37:58]** Das abläuft ja nicht voll. Es gibt noch so ein Pre-Tool-Use-Hook. Das heißt, dass
 
-**[00:38:02]** destruktive Befehle, was für ein schweres Wort am späten Abend, klokiert werden,
+**[00:38:02]** destruktive Befehle, was für ein schweres Wort am späten Abend, blockiert werden,
 
 **[00:38:08]** vor sich ausgeführt werden. Das heißt, du kannst ihn auch alleine lassen, weil destruktive
 
@@ -1090,7 +1090,7 @@ https://crea.ai/
 
 **[00:38:18]** noch in einer MacOS-Sendbox eingeschlossen. Das ist zwar irgendwie deprecated, aber du kannst
 
-**[00:38:25]** trotzdem einen Profil definieren und das Hindert-Clawed-of-Colonel-Ebene da dran,
+**[00:38:25]** trotzdem einen Profil definieren und das hindert Claude auf Kernel-Ebene daran,
 
 **[00:38:30]** zum Beispiel seinen Projektordner zu entsperren und ihn zu verlassen. Und zusätzlich gibt es
 
@@ -1114,7 +1114,7 @@ https://crea.ai/
 
 **[00:39:26]** nicht ein Allein lassen kann. Und der Unterschied ist, nicht in Dangerous gibt, Permission Allein
 
-**[00:39:33]** macht Cloud Autonomen, sondern genau dieses Zusammenspiel aus diesem Skript und der Sandbox
+**[00:39:33]** macht Claude autonom, sondern genau dieses Zusammenspiel aus diesem Skript und der Sandbox
 
 **[00:39:40]** ist halt genau das, was an der Stelle dann tatsächlich, wie soll ich sagen, nochmal wichtig
 
@@ -1148,13 +1148,13 @@ https://crea.ai/
 
 **[00:41:06]** das ganze dann so entsprechend anholt dann hat man halt hier an der stelle die
 
-**[00:41:11]** Möglichkeit, das Ding wirklich jetzt nicht wie bei Open Cloud oder so im
+**[00:41:11]** Möglichkeit, das Ding wirklich jetzt nicht wie bei OpenClaw oder so im
 
 **[00:41:16]** Hintergrund laufen zu lassen, sondern dann halt sehr minimalistisch mit den
 
 **[00:41:21]** Tools und Möglichkeiten, die die Kommando-Zeile und die CLI, also das
 
-**[00:41:26]** Terminal Interface von Cloud, einem ermöglicht. Und gerade dieses Cross-Run-Memory,
+**[00:41:26]** Terminal Interface von Claude, einem ermöglicht. Und gerade dieses Cross-Run-Memory,
 
 **[00:41:32]** ja, dass die Decisions festgehalten werden, dass die Loops prüfen, dass
 
@@ -1214,7 +1214,7 @@ https://crea.ai/
 
 **[00:43:54]** Dafür haben wir immer mal auch mal echte Projekte mit uns zu setzen und das ist halt auch so ein schöner Moment jetzt gewesen,
 
-**[00:43:59]** das ist gerade Zeitnot, dass meine Open Cloud Installation mich das fragt.
+**[00:43:59]** das ist gerade Zeitnot, dass meine OpenClaw Installation mich das fragt.
 
 **[00:44:04]** Das macht die, weil ich ja natürlich über die Skripts- und andere Thematiken mitgegeben habe,
 
@@ -1376,13 +1376,13 @@ https://crea.ai/
 
 **[00:49:47]** und Millionen und Milliarden von Tokens würde ich jetzt mal behaupten,
 
-**[00:49:52]** Instantly sparen könnte, wenn man einfach nur die Möglichkeit zulässt, und die sind ja technologisch da, es gibt ja e2a
+**[00:49:52]** Instantly sparen könnte, wenn man einfach nur die Möglichkeit zulässt, und die sind ja technologisch da, es gibt ja A2A
 
 **[00:50:00]** Pipes, es gibt das dem mcp und andere Sachen, die wir eigentlich im Prinzip haben, die auch schon definiert sind, wenn man zulassen würde, dass
 
 **[00:50:06]** in gewissen Situationen
 
-**[00:50:08]** die kis einfach direkt miteinander reden können, dass meine cobald-version jetzt zum beispiel mit deiner cobald-version einfach reden kann
+**[00:50:08]** die kis einfach direkt miteinander reden können, dass meine Claude-Version jetzt zum beispiel mit deiner Claude-Version einfach reden kann
 
 **[00:50:15]** Und nicht wir, wie wir das manchmal auch machen, müssen wir ja zugeben, du mit deiner KI eine
 

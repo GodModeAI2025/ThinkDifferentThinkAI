@@ -70,7 +70,7 @@ https://nordburg.ai/
 
 **[00:00:14]** Hier gibt es klare Einordnungen, echte Praxiseinblicke und einen frischen Blick auf das, was möglich ist.
 
-**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinker.
+**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinkern.
 
 **[00:00:24]** Und heute wieder in neuer Konstellation, weil ich sitze sehr gemütlich an einem schönen
 

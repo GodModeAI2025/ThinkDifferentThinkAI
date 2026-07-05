@@ -61,9 +61,9 @@ https://suno.ai/
 
 **[00:00:14]** Hier gibt es klare Einordnungen, echte Praxiseinblicke und einen frischen Blick auf das, was möglich ist.
 
-**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinker.
+**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinkern.
 
-**[00:00:24]** Hadi zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
+**[00:00:24]** KI zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
 
 **[00:00:34]** Hallo zusammen, es ist wieder soweit.
 
@@ -381,7 +381,7 @@ https://suno.ai/
 
 **[00:12:59]** Ich glaube, das ist auch so ein Ding, wo ich sage, diese Erwartungshaltung, wie wir häufig
 
-**[00:13:05]** drüber gesprochen haben, dass die Erwartungshaltung von vielen Menschen war, wenn sie einen Chatchi-PT-Gemini,
+**[00:13:05]** drüber gesprochen haben, dass die Erwartungshaltung von vielen Menschen war, wenn sie einen ChatGPT, Gemini,
 
 **[00:13:10]** weiß auch immer, Suchschlotz sehen, wo sie das eintippen können, dass sie erst mal
 
@@ -397,7 +397,7 @@ https://suno.ai/
 
 **[00:13:39]** sein wird, damit zu interagieren, ohne gegebenenfalls bei LinkedIn oder jemals anderes
 
-**[00:13:46]** erst einzugeben. Oh, ich muss, ich gebe jetzt Stetschipti als Kommentar ein, damit du mir
+**[00:13:46]** erst einzugeben. Oh, ich muss, ich gebe jetzt ChatGPT als Kommentar ein, damit du mir
 
 **[00:13:51]** die besten zehn Poms schickst, weil das wird es da nicht mehr geben. Da wird es eine ganz
 
@@ -539,7 +539,7 @@ https://suno.ai/
 
 **[00:19:01]** dran bleiben, noch ein bisschen Bonusmaterial anhänge, weil ich ein bisschen herum gespielt
 
-**[00:19:06]** habe mit ZUNU, 11 Labs oder Music GPT zu dem Thema, wie kann man ein KI Begriffe, Begriffswelt,
+**[00:19:06]** habe mit Suno, ElevenLabs oder Music GPT zu dem Thema, wie kann man ein KI Begriffe, Begriffswelt,
 
 **[00:19:15]** KI-Geschichten in weihnachtliche Musik verwandeln und jetzt so erwarte ich nicht, dass man seinen
 
@@ -567,7 +567,7 @@ https://suno.ai/
 
 **[00:20:06]** Aber tatsächlich ist das, ist das eine schöne Idee und man kann da schöne Sachen machen.
 
-**[00:20:10]** Bevor wir vielleicht da noch tiefer reingehen. Es ist auch jetzt schon so, ich hätte eine Statistik gelesen, dass, jetzt mal für einen anderen kleinen Aspekt, ein Drittel der Deutschen, jetzt ist mal die Frage, welche Befragung war das, das war glaube ich irgendwie, ich glaube es war in der Welt, jetzt haben wir mal hingestellt, wie viele sie da erreicht haben, aber ein Drittel der Deutschen, die da befragt worden sind, das muss ich so formulieren, hat angegeben, dass sie schon Chechipiti benutzen oder eine andere Karib benutzen, um tatsächlich Geschenke auszusetzen.
+**[00:20:10]** Bevor wir vielleicht da noch tiefer reingehen. Es ist auch jetzt schon so, ich hätte eine Statistik gelesen, dass, jetzt mal für einen anderen kleinen Aspekt, ein Drittel der Deutschen, jetzt ist mal die Frage, welche Befragung war das, das war glaube ich irgendwie, ich glaube es war in der Welt, jetzt haben wir mal hingestellt, wie viele sie da erreicht haben, aber ein Drittel der Deutschen, die da befragt worden sind, das muss ich so formulieren, hat angegeben, dass sie schon ChatGPT benutzen oder eine andere Karib benutzen, um tatsächlich Geschenke auszusetzen.
 
 **[00:20:40]** zu werden. Also auch das ist ja ein gewisser Aspekt, den man gut machen kann. Also das
 
@@ -707,7 +707,7 @@ https://suno.ai/
 
 **[00:26:02]** da nochmal, auch wenn wir es gerade schon kurz hatten. Aber ich finde so, also ich muss ja
 
-**[00:26:07]** mal wieder sagen, ich habe irgendwie vom Ja ein Song mit Zuno generiert für den Handballverein.
+**[00:26:07]** mal wieder sagen, ich habe irgendwie vom Ja ein Song mit Suno generiert für den Handballverein.
 
 **[00:26:13]** der ist immer noch der Kracher. Ich finde ihn super. Ich höre da gerne rein und wie sagt auch da,
 
@@ -847,6 +847,6 @@ https://suno.ai/
 
 **[00:34:19]** Hier gibt es klare Einordnungen, echte Praxiseinblicke und einen frischen Blick auf das, was möglich
 
-**[00:34:25]** Verständlich, kritisch und immer mit einem Auge zwingt hat.
+**[00:34:25]** Verständlich, kritisch und immer mit einem Augenzwinkern.
 
 **[00:34:29]** KI zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.

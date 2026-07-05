@@ -66,7 +66,7 @@ https://de.wikipedia.org/wiki/Jurassic_Park_(Film)
 
 **[00:00:14]** Hier gibt es klare Einordnungen, echte Praxiseinblicke und einen frischen Blick auf das, was möglich ist.
 
-**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinker.
+**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinkern.
 
 **[00:00:24]** Cardi zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
 
@@ -618,7 +618,7 @@ https://de.wikipedia.org/wiki/Jurassic_Park_(Film)
 
 **[00:20:53]** Also ich hatte nicht Biologie Leistungskurs und, ja, Jens.
 
-**[00:20:58]** Gerne, gerne. Du beziehst dich auf Andre Capati, der Russen programmiert Genieß dieser Welt, der
+**[00:20:58]** Gerne, gerne. Du beziehst dich auf Andrej Karpathy, der Russen programmiert Genieß dieser Welt, der
 
 **[00:21:05]** im Prinzip so diesen deinen Braus gebracht hat. Also, also, da müssen wir da auch das um alles
 
@@ -1104,6 +1104,6 @@ https://de.wikipedia.org/wiki/Jurassic_Park_(Film)
 
 **[00:43:41]** Und ein frischen Blick auf das, was möglich ist.
 
-**[00:44:07]** Verständlich, kritisch und immer mit einem Augenzwinker.
+**[00:44:07]** Verständlich, kritisch und immer mit einem Augenzwinkern.
 
 **[00:44:10]** K.I. zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.

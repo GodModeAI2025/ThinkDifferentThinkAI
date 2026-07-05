@@ -67,9 +67,9 @@ https://de.wikipedia.org/wiki/ELIZA
 
 **[00:00:14]** Hier gibt es klare Einordnungen, echte Praxiseinblicke und einen frischen Blick auf das, was möglich ist.
 
-**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinker.
+**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinkern.
 
-**[00:00:24]** HDI zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
+**[00:00:24]** KI zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
 
 **[00:00:34]** Hallo und herzlich willkommen zu dieser aller aller aller ersten Folge einer neuen Podcast-Serie.
 
@@ -105,7 +105,7 @@ https://de.wikipedia.org/wiki/ELIZA
 
 **[00:01:42]** scheint zu resonieren mit Menschen, dementsprechend freue ich mich, dass wir jetzt auch hier
 
-**[00:01:47]** wir in den Etat hinaus quasi euch versuchen zu erreichen. Und der Mark, der stellt ja gleich
+**[00:01:47]** wir in den Äther hinaus quasi euch versuchen zu erreichen. Und der Mark, der stellt ja gleich
 
 **[00:01:53]** mal das Thema von heute vor. Nachdem wir auf dem Event, von dem wir gesprochen, das ja
 
@@ -181,7 +181,7 @@ https://de.wikipedia.org/wiki/ELIZA
 
 **[00:04:27]** Humscreen-Videos auch mal gezeigt, die wir dann aufgenommen haben, da rekordet haben
 
-**[00:04:31]** bei uns auf den Rechnern, wenn jetzt solche Webseiten wie Interfake AI, die mittlerweile
+**[00:04:31]** bei uns auf den Rechnern, wenn jetzt solche Webseiten wie Interfect AI, die mittlerweile
 
 **[00:04:36]** ich weiß gar nicht, ob die jetzt überhaupt noch funktionieren,
 
@@ -205,7 +205,7 @@ https://de.wikipedia.org/wiki/ELIZA
 
 **[00:05:03]** Ich habe meine Daten aber es hätte tatsächlich eben auch ganz normal einkaufen können auf den einfachen simplen prompt dass er mir eine uhr für unter 100 dollar besorgen soll oder Euro besorgen soll.
 
-**[00:05:15]** Da hat er diese uhr in den barrenkopf geworfen und hat tatsächlich zwar sie im barrenkopf nur noch darauf gewartet dass jetzt meine quiddensche sein würde ich dann auch in den tool eingeben kann und dann speichert das tool das auch ab.
+**[00:05:15]** Da hat er diese Uhr in den Warenkorb geworfen und hat tatsächlich zwar sie im Warenkorb nur noch darauf gewartet dass jetzt meine quiddensche sein würde ich dann auch in den tool eingeben kann und dann speichert das tool das auch ab.
 
 **[00:05:23]** Und da kannst du für immer und ewig das Ding dann eben auch immer so eine Bestellung durchführen lassen oder bei wem auch immer,
 
@@ -1091,7 +1091,7 @@ https://de.wikipedia.org/wiki/ELIZA
 
 **[00:38:36]** Ich habe mal irgendwann ein Praktikum zu, was heißt irgendwann nach der Schule ein Praktikum bei der IBM gemacht.
 
-**[00:38:41]** Und damals gab es noch so Host-Immolation, Host-32-Immolation, du hast einen großen Rechenzentrums-Servant gesprochen,
+**[00:38:41]** Und damals gab es noch so Host-Emulation, Host-3270-Emulation, du hast einen großen Rechenzentrums-Servant gesprochen,
 
 **[00:38:49]** hatte es so ein Text-Fenster, wo du Kommandos reingeschrieben hast, das ist was passiert.
 
@@ -1105,7 +1105,7 @@ https://de.wikipedia.org/wiki/ELIZA
 
 **[00:39:17]** das haben alle Studenten und Praktikanten irgendwie genutzt das Ding. Und am Schluss kam
 
-**[00:39:21]** einer auf die Chlorarchidee und hat sent all. Ich bin jetzt im Urlaub und ist in Urlaub gegangen.
+**[00:39:21]** einer auf die Schnapsidee und hat sent all. Ich bin jetzt im Urlaub und ist in Urlaub gegangen.
 
 **[00:39:28]** Woraufhin die ganzen Elizas geantwortet haben, schön für dich.
 
@@ -1331,7 +1331,7 @@ https://de.wikipedia.org/wiki/ELIZA
 
 **[00:47:55]** so, dass die KI das eher nachahmt, eine Zeitbank. Aber es kann natürlich so ein Moment kommen,
 
-**[00:48:04]** wo ganz neue Sachen daraus entstehen, die viel, viel defizienter sind und vielleicht noch viel
+**[00:48:04]** wo ganz neue Sachen daraus entstehen, die viel, viel effizienter sind und vielleicht noch viel
 
 **[00:48:08]** komplexer sprachen. Das heißt ja nicht nur, weil es jetzt in den Pieps ist, was wir beide nicht mehr
 
@@ -1449,11 +1449,11 @@ https://de.wikipedia.org/wiki/ELIZA
 
 **[00:52:00]** und einen frischen Blick auf das, was möglich ist.
 
-**[00:52:03]** Verständlich, kritisch und immer mit einem Augenzwinker.
+**[00:52:03]** Verständlich, kritisch und immer mit einem Augenzwinkern.
 
-**[00:52:06]** einem Augenzwinker.
+**[00:52:06]** einem Augenzwinkern.
 
-**[00:52:08]** Cardi zum Nachdenken.
+**[00:52:08]** KI zum Nachdenken.
 
 **[00:52:10]** Zum Schmunzeln.
 

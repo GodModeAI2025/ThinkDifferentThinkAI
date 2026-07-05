@@ -75,9 +75,9 @@ https://de.wikipedia.org/wiki/Netscape_Navigator
 
 **[00:00:14]** Hier gibt es klare Einordnungen, echte Praxiseinblicke und einen frischen Blick auf das, was möglich ist.
 
-**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinker.
+**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinkern.
 
-**[00:00:24]** Hadi zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
+**[00:00:24]** KI zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
 
 **[00:00:33]** Herzlich willkommen zu unserer neuen Folge von Think Different, Think AI.
 
@@ -285,7 +285,7 @@ https://de.wikipedia.org/wiki/Netscape_Navigator
 
 **[00:06:27]** Ich muss auch noch fuzzeln, weil ich im Überschwang, den ich letzte Woche auch mit einem Thema
 
-**[00:06:35]** leicht vertan habe, und zwar ist nicht Entroffic, die Firma, die der Klark schnappt, von
+**[00:06:35]** leicht vertan habe, und zwar ist nicht Anthropic, die Firma, die der Klark schnappt, von
 
 **[00:06:43]** Salesforces kauf geworden, sondern Convergents.ai. Das war im Prinzip eine Firma, die eine AI-Modelle
 
@@ -1299,6 +1299,6 @@ https://de.wikipedia.org/wiki/Netscape_Navigator
 
 **[00:39:04]** Hier gibt es klare Einordnungen, echte Praxiseinblicke und einen frischen Blick auf das, was möglich ist.
 
-**[00:39:10]** Verständlich, kritisch und immer mit einem Augenzwinker.
+**[00:39:10]** Verständlich, kritisch und immer mit einem Augenzwinkern.
 
 **[00:39:14]** KI zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.

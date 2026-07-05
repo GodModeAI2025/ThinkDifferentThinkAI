@@ -81,7 +81,7 @@ https://www.cisco.com/c/de_de/index.html
 
 **[00:00:14]** Hier gibt es klare Einordnungen, echte Praxiseinblicke und einen frischen Blick auf das, was möglich ist.
 
-**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinker.
+**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinkern.
 
 **[00:00:24]** Hadi zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
 
@@ -107,7 +107,7 @@ https://www.cisco.com/c/de_de/index.html
 
 **[00:01:25]** verständlich dann in dem Moment war. Und zwar, ich probiere auch beruflich ganz
 
-**[00:01:31]** viel mit Anthropic aus und habe ganz viel mit Claude Co. Das ist ja das
+**[00:01:31]** viel mit Anthropic aus und habe ganz viel mit Claude Code. Das ist ja das
 
 **[00:01:35]** Kommando-Zahlen-Interface von Anthropic, um mit den Modellen zu interagieren.
 
@@ -209,7 +209,7 @@ https://www.cisco.com/c/de_de/index.html
 
 **[00:05:25]** wissen möchte, was da eigentlich passiert im Hintergrund und selber auch noch paar Sachen ausprobiere,
 
-**[00:05:29]** wie so ein Memory da aufgebaut werden kann, wie so ein Second Brain, wie Kapafi,
+**[00:05:29]** wie so ein Memory da aufgebaut werden kann, wie so ein Second Brain, wie Karpathy,
 
 **[00:05:34]** das diese Woche genannt hat, aufgebaut werden kann in so wiki-Style mit so MD-Pfiles. Aber
 
@@ -611,7 +611,7 @@ https://www.cisco.com/c/de_de/index.html
 
 **[00:21:21]** eigentlich so, dass du sagen musst, die sind ja auch jetzt, na also wenn alles so viel schneller
 
-**[00:21:27]** durch KI geht und alles so viel reproduzierbar ist und auch Kepefi hat jetzt auch darüber
+**[00:21:27]** durch KI geht und alles so viel reproduzierbar ist und auch Karpathy hat jetzt auch darüber
 
 **[00:21:32]** geredet, dass er gar nicht mehr, weißte, Kot tatsächlich teilt, sondern vielleicht
 
@@ -1517,6 +1517,6 @@ https://www.cisco.com/c/de_de/index.html
 
 **[00:55:35]** sondern sie lebt. Hier gibt es klare Einordnungen, echte Praxiseinblicke und einen frischen Blick auf das, was möglich ist.
 
-**[00:55:43]** Verständlich, kritisch und immer mit einem Auge zwingt.
+**[00:55:43]** Verständlich, kritisch und immer mit einem Augenzwinkern.
 
 **[00:55:47]** HDI zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.

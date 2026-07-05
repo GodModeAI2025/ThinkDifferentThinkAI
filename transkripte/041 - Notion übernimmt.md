@@ -46,7 +46,7 @@ Das Spannende: Notion verkauft eigentlich Tokens („we sell work"). Mit der Wor
 
 **[00:00:24]** Hadi zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
 
-**[00:00:33]** Herzlich willkommen zu einer neuen Folge von Psyngtiffin Psyng AI.
+**[00:00:33]** Herzlich willkommen zu einer neuen Folge von Think Different, Think AI.
 
 **[00:00:37]** Der Jens wäre so gerne heute dabei, aber er macht irgendwie eine Tradition draus,
 
@@ -72,19 +72,19 @@ Das Spannende: Notion verkauft eigentlich Tokens („we sell work"). Mit der Wor
 
 **[00:01:39]** da mir vorbeigegangen, bis dann, und du hast immer gesagt, mach Notion, du hast immer gesagt, mach Mac,
 
-**[00:01:44]** Ja, mit Mac hab ich damals auch gesagt, hat es da recht, und mit Nautchen dann irgendwie auch.
+**[00:01:44]** Ja, mit Mac hab ich damals auch gesagt, hat es da recht, und mit Notion dann irgendwie auch.
 
 **[00:01:48]** Das war ja dann hier Version 3, ne, als sie dann irgendwie anfingen, ordentliche KI reinzubringen.
 
-**[00:01:53]** Und dann hatten wir uns auch im Podcast darüber unterhalten, was Nautchen bei dir alles so bringt und macht.
+**[00:01:53]** Und dann hatten wir uns auch im Podcast darüber unterhalten, was Notion bei dir alles so bringt und macht.
 
 **[00:01:59]** Und einfach mal um ins kalte Wasser zu springen.
 
-**[00:02:03]** Nautchen hat schon wieder was getan.
+**[00:02:03]** Notion hat schon wieder was getan.
 
 **[00:02:05]** Und da haben wir dann gesagt, lass uns doch mal spontan unterhalten.
 
-**[00:02:08]** Was hat Nautchen denn gemacht?
+**[00:02:08]** Was hat Notion denn gemacht?
 
 **[00:02:11]** Ja, die haben eigentlich etwas gemacht, dass man lange nicht erwartet hätte. Sie haben sich wirklich für Entwickler und Entwicklerinnen geöffnet, haben also eine Notion-Developer-Plattform gelauncht, jetzt vor ein paar Tagen, so ganz im Stil von Apple mit vor-aufgezeichneten Keynote-artigen, also wie Apple der Neustart, wie Apple Leider, wie Apple der Neustart, wir mögen das ja beide nicht, wir wollen ja live was sehen, aber jetzt ist es halt so.
 
@@ -150,7 +150,7 @@ Das Spannende: Notion verkauft eigentlich Tokens („we sell work"). Mit der Wor
 
 **[00:05:10]** wie ein Gefächt drauf geguckt, etwas adressiert, wo ich mich immer gefragt habe, wie
 
-**[00:05:14]** wird Nautchen mit diesen Problemen umgehen und ich möchte kurz ausholen, wenn du
+**[00:05:14]** wird Notion mit diesen Problemen umgehen und ich möchte kurz ausholen, wenn du
 
 **[00:05:18]** auf andere Hasher guckst du aus wie GitHub Co-Pilot und so, also Microsoft, dann erfährst du, dass die
 
@@ -290,7 +290,7 @@ Das Spannende: Notion verkauft eigentlich Tokens („we sell work"). Mit der Wor
 
 **[00:11:13]** bisschen umständlich mit Claude Code im,
 
-**[00:11:15]** also nicht im CLI, sondern eben in diesem, mit dieser App, von Cloud MacOS App,
+**[00:11:15]** also nicht im CLI, sondern eben in diesem, mit dieser App, von Claude MacOS App,
 
 **[00:11:21]** Mistral,
 
@@ -488,7 +488,7 @@ Das Spannende: Notion verkauft eigentlich Tokens („we sell work"). Mit der Wor
 
 **[00:18:56]** deiner Büchse lokal laufen, was natürlich sehr viel günstiger ist, als wenn du das sagst,
 
-**[00:19:01]** zuhause das gegen Cloud-Modelle und war es natürlich jetzt mit so etwas wie Worker dann
+**[00:19:01]** zuhause das gegen Claude-Modelle und war es natürlich jetzt mit so etwas wie Worker dann
 
 **[00:19:06]** auch einfach zu integrieren ist. Also dieses Hacking-Face-Ding, das mir den Podcast generiert,
 
@@ -626,7 +626,7 @@ Das Spannende: Notion verkauft eigentlich Tokens („we sell work"). Mit der Wor
 
 **[00:24:42]** amerikanischen Modelle nutzen müssen, sonst geht es halt nicht so. Sie ergänzen nativ auch immer
 
-**[00:24:47]** mehr, auch kleine Modelle. Ich glaube, Diepsi kann sie jetzt auch irgendeine Version mit drin
+**[00:24:47]** mehr, auch kleine Modelle. Ich glaube, DeepSeek kann sie jetzt auch irgendeine Version mit drin
 
 **[00:24:52]** Und das werden sie auch immer weiter machen, weil die Token kosten natürlich sonst immer
 
@@ -642,7 +642,7 @@ Das Spannende: Notion verkauft eigentlich Tokens („we sell work"). Mit der Wor
 
 **[00:25:13]** immer auch ein bisschen nach Alternativen schielt und nicht immer sagt, okay, Cloud
 
-**[00:25:17]** Code installieren oder Cloud Installieren fertig, obwohl das natürlich irgendwie das
+**[00:25:17]** Code installieren oder Claude installieren fertig, obwohl das natürlich irgendwie das
 
 **[00:25:20]** Du hältst das, was es gerade gibt, aber sie dürfen dann eben nicht oder es ist ihnen zu teuer oder was auch immer für das Direktion.
 
@@ -674,7 +674,7 @@ Das Spannende: Notion verkauft eigentlich Tokens („we sell work"). Mit der Wor
 
 **[00:26:13]** ist, was er der Meinung ist, was da reingerechnet gehört. Also, da sind schon echt tolle Sachen drin.
 
-**[00:26:19]** Und eben, weil du es gesagt hast, hier Claude Cote, wäre so, ich sag mal das maß der Dinge,
+**[00:26:19]** Und eben, weil du es gesagt hast, hier Claude Code, wäre so, ich sag mal das maß der Dinge,
 
 **[00:26:25]** das ist ja auch so ein stetig tränender Kreis. Also es gibt dann Grok und dann gibt es Anthropic und
 
@@ -684,7 +684,7 @@ Das Spannende: Notion verkauft eigentlich Tokens („we sell work"). Mit der Wor
 
 **[00:26:41]** lokal auf deinem rechner modelle installieren sei es mistral sei es quen sei es
 
-**[00:26:48]** gell ja genau genau und du kannst die auch wieder gegen clotcode koppeln also
+**[00:26:48]** gell ja genau genau und du kannst die auch wieder gegen Claude Code koppeln also
 
 **[00:26:55]** gegen dieses cli von anthropic kannst du gehen und sagen okay wir nehmen jetzt
 
@@ -872,17 +872,17 @@ Das Spannende: Notion verkauft eigentlich Tokens („we sell work"). Mit der Wor
 
 **[00:35:24]** also irgendwas, Textarbeit, Bilder, so, also das kann ja Notion nativ. Was ist der Vorteil,
 
-**[00:35:30]** dann einen Cloud-Agenten in der Cloud zu nutzen. Also, was kann das dann anderes, wenn
+**[00:35:30]** dann einen Claude-Agenten in der Cloud zu nutzen. Also, was kann das dann anderes, wenn
 
 **[00:35:39]** man kurz das Teilformat eben weglassen? Weißt du, was ich mein? Also, warum sollte ich dann einen
 
 **[00:35:44]** Agenten extern haben? Ich finde das auch erstmal toll, weil ich denke mir, die Welt nutzt halt
 
-**[00:35:49]** Cloud und auch Notion, aber das kann man jetzt zusammenbringen, das habe ich verstanden. Aber
+**[00:35:49]** Claude und auch Notion, aber das kann man jetzt zusammenbringen, das habe ich verstanden. Aber
 
 **[00:35:53]** warum sollte ich das tun, wenn ich mich entscheiden kann? Gibt es irgendein Vorteil,
 
-**[00:35:57]** das Cloud 4.0, also den Opus oder was auch immer davon, nativ aus Cloud herauszunutzen anstatt
+**[00:35:57]** das Claude 4.0, also den Opus oder was auch immer davon, nativ aus Claude herauszunutzen anstatt
 
 **[00:36:04]** aus Noten.
 
@@ -954,7 +954,7 @@ Das Spannende: Notion verkauft eigentlich Tokens („we sell work"). Mit der Wor
 
 **[00:38:47]** Der ist dann nicht nur auf dich bezogen.
 
-**[00:38:49]** Und diesen Unterschied habe ich noch nicht verstanden, warum man dann den Cloud-Agenten
+**[00:38:49]** Und diesen Unterschied habe ich noch nicht verstanden, warum man dann den Claude-Agenten
 
 **[00:38:54]** nutzen sollte und nicht den Notion-Agent.
 
@@ -1040,9 +1040,9 @@ Das Spannende: Notion verkauft eigentlich Tokens („we sell work"). Mit der Wor
 
 **[00:42:12]** Das letzte Mal ist gut, das ist wahrscheinlich heute immer noch so, aber als ich meine Manage
 
-**[00:42:19]** Agents angelegt habe, hast du in der, es gibt eine Cloud-Konsole, das ist jetzt nicht die
+**[00:42:19]** Agents angelegt habe, hast du in der, es gibt eine Claude-Konsole, das ist jetzt nicht die
 
-**[00:42:24]** Kommando-Zeile, sondern eine Webseite, da kannst du Api-Token, Api-Zugänge zu Cloud holen
+**[00:42:24]** Kommando-Zeile, sondern eine Webseite, da kannst du Api-Token, Api-Zugänge zu Claude holen
 
 **[00:42:30]** und so ein Kram und da gibt es auch Manage Agents und da kannst du durch ein Frage-Antwort-Spiel
 
@@ -1166,7 +1166,7 @@ Das Spannende: Notion verkauft eigentlich Tokens („we sell work"). Mit der Wor
 
 **[00:47:57]** Und dann haben wir gesagt, naja, gut, lass uns doch was mit Markdown-Dateien als Speicherung,
 
-**[00:48:02]** Persistenzschicht bauen, MacOS in X-Code, mit Cloud natürlich, da hatten wir ja auch
+**[00:48:02]** Persistenzschicht bauen, MacOS in X-Code, mit Claude natürlich, da hatten wir ja auch
 
 **[00:48:08]** schon mal drüber gesprochen.
 
@@ -1178,7 +1178,7 @@ Das Spannende: Notion verkauft eigentlich Tokens („we sell work"). Mit der Wor
 
 **[00:48:19]** sind, Alten auch sogar, also nicht ganz Alten, aber so.
 
-**[00:48:22]** Und auf dem läuft dieses Software und ich habe ihm das dann eingerichtet, Cloud
+**[00:48:22]** Und auf dem läuft dieses Software und ich habe ihm das dann eingerichtet, Claude
 
 **[00:48:26]** diese 20-Euro-Version, alles gegeben hat, keine Ahnung, und er macht jetzt genau das, was du sagst,
 
@@ -1350,7 +1350,7 @@ Das Spannende: Notion verkauft eigentlich Tokens („we sell work"). Mit der Wor
 
 **[00:55:01]** aber nicht. Ja, aber mit Notion hast du, glaube ich, ein gutes Fundament, das ist jetzt zumindest
 
-**[00:55:06]** auch in diesem Wandel der Zeit von N8n und Make und dann kam Codex und Cloud und Crock
+**[00:55:06]** auch in diesem Wandel der Zeit von N8n und Make und dann kam Codex und Claude und Grok
 
 **[00:55:14]** und keine Ahnung, was. Ja, eine Basis bietet, auf der du aufsetzen kannst, um weitere
 

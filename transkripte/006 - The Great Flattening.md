@@ -41,7 +41,7 @@ Advisory Board: LinkedIn Post von Mark
 
 **[00:00:14]** Hier gibt es klare Einordnungen, echte Praxiseinblicke und einen frischen Blick auf das, was möglich ist.
 
-**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinker.
+**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinkern.
 
 **[00:00:24]** KI zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
 
@@ -1547,7 +1547,7 @@ Advisory Board: LinkedIn Post von Mark
 
 **[00:57:25]** Verständlich, kritisch
 
-**[00:57:27]** und immer mit einem Augenzwinker.
+**[00:57:27]** und immer mit einem Augenzwinkern.
 
 **[00:57:29]** H.I. zum Nachdenken,
 

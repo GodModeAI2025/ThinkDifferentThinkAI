@@ -61,13 +61,13 @@ https://de.wikipedia.org/wiki/Raumpatrouille%E2%80%93DiephantastischenAbenteuerd
 
 **[00:00:14]** Hier gibt es klare Einordnungen, echte Praxiseinblicke und einen frischen Blick auf das, was möglich ist.
 
-**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinker.
+**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinkern.
 
-**[00:00:24]** Hadi zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
+**[00:00:24]** KI zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
 
 **[00:00:47]** Ich will deine Kleider, deine Stiefel und dein Motorrad.
 
-**[00:00:51]** Hey und herzlich willkommen zu einer neuen Folge von Pink Diffen, Trink A.I.
+**[00:00:51]** Hey und herzlich willkommen zu einer neuen Folge von Think Different, Think AI
 
 **[00:01:00]** Ich bin Jens, mit mir ist mein Co-host, wollte ich fast sagen, aber es ist der Co-host.
 
@@ -567,7 +567,7 @@ https://de.wikipedia.org/wiki/Raumpatrouille%E2%80%93DiephantastischenAbenteuerd
 
 **[00:21:51]** aufgreifen müssen.
 
-**[00:21:52]** Wir sind da jetzt auch wieder durch diesen Schätzreptimoment, weil dieses Thema so
+**[00:21:52]** Wir sind da jetzt auch wieder durch diesen ChatGPT-Moment, weil dieses Thema so
 
 **[00:21:58]** über Sprache und Welt verstehen, weißte, auch die multimedalen KI-Modelle, die
 
@@ -639,7 +639,7 @@ https://de.wikipedia.org/wiki/Raumpatrouille%E2%80%93DiephantastischenAbenteuerd
 
 **[00:24:45]** All diese Sachen sind jetzt durch auch wieder,
 
-**[00:24:48]** ich will es gar nicht den Chessiptimoment nennen,
+**[00:24:48]** ich will es gar nicht den ChatGPT-Moment nennen,
 
 **[00:24:50]** sondern einfach jetzt mal so diese Phase, die wir gerade erreicht haben,
 
@@ -1373,6 +1373,6 @@ https://de.wikipedia.org/wiki/Raumpatrouille%E2%80%93DiephantastischenAbenteuerd
 
 **[00:56:58]** Hier gibt es klare Einordnungen, echte Praxis-Einblicke und einen frischen Blick auf das, was möglich ist.
 
-**[00:57:05]** Verständlich, kritisch und immer mit einem Augenzwinker.
+**[00:57:05]** Verständlich, kritisch und immer mit einem Augenzwinkern.
 
 **[00:57:09]** KI zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.

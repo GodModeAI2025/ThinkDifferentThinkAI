@@ -90,7 +90,7 @@ https://de.wikipedia.org/wiki/Andrew_Ng
 
 **[00:00:14]** Hier gibt es klare Einordnungen, echte Praxiseinblicke und einen frischen Blick auf das, was möglich ist.
 
-**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinker.
+**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinkern.
 
 **[00:00:24]** Hadi zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
 
@@ -1658,6 +1658,6 @@ https://de.wikipedia.org/wiki/Andrew_Ng
 
 **[00:59:06]** Hier gibt es klare Einordnungen, echte Praxiseinblicke und einen frischen Blick auf das,
 
-**[00:59:12]** möglich ist. Verständlich, kritisch und immer mit einem Augenzwinker.
+**[00:59:12]** möglich ist. Verständlich, kritisch und immer mit einem Augenzwinkern.
 
 **[00:59:17]** K.I. zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.

@@ -571,15 +571,15 @@ https://n8n.io/
 
 **[00:17:44]** Also ganz am Anfang war das Reasoning dann, ich weiß gar nicht, ob das von der chinesischen
 
-**[00:17:50]** KI dann zuerst eingeführt worden ist und von CHPT, OpenAI dann kopiert worden ist.
+**[00:17:50]** KI dann zuerst eingeführt worden ist und von ChatGPT, OpenAI dann kopiert worden ist.
 
-**[00:17:54]** Diepsik war das glaube ich, diepsik war als Erste da und die haben im Prinzip immer
+**[00:17:54]** DeepSeek war das glaube ich, DeepSeek war als Erste da und die haben im Prinzip immer
 
 **[00:17:57]** ein sehr langes Reasoning dann angezeigt, das du mitlesen konntest und dann kam
 
 **[00:18:01]** am Ende.
 
-**[00:18:02]** es kam erst Open AI und dann auch einmal dieser große Schock, dass die Psyk rauskommt und
+**[00:18:02]** es kam erst Open AI und dann auch einmal dieser große Schock, dass DeepSeek rauskommt und
 
 **[00:18:06]** die Frage im Raum stand, oh je, wir haben die Chinesen das gemacht, weil die haben ja gar nicht
 
@@ -773,9 +773,9 @@ https://n8n.io/
 
 **[00:25:09]** gemacht habe, sagen wir dahingestellt, aber dass ich irgendwie sagen kann, du pass mal
 
-**[00:25:12]** Ich habe hier ein Konzept, ich habe da einen Kontext, so wie man bei Claude Cote ja auch sagen kann,
+**[00:25:12]** Ich habe hier ein Konzept, ich habe da einen Kontext, so wie man bei Claude Code ja auch sagen kann,
 
-**[00:25:16]** äh Claude Covac meine ich übernimm meine Daten aus JetGPT und man kriegt einen Prompt und man
+**[00:25:16]** äh Claude Code meine ich übernimm meine Daten aus ChatGPT und man kriegt einen Prompt und man
 
 **[00:25:21]** da irgendwie sowas machen könnte, ja das sind so zwei Dinge, die ich total lustig finde und gleich
 
@@ -941,7 +941,7 @@ https://n8n.io/
 
 **[00:31:55]** geben. Aber auch da ist dieser Zeitbegriff hat da noch
 
-**[00:31:59]** keinen Platz drin gefunden. Er ist bei Open Cloud so ein bisschen mit dem Hard Beat.
+**[00:31:59]** keinen Platz drin gefunden. Er ist bei OpenClaw so ein bisschen mit dem Hard Beat.
 
 **[00:32:03]** Also da ist so eine innere Uhr, dass ich mich wieder an etwas erinnere, dass
 

@@ -70,7 +70,7 @@ https://huggingface.co/
 
 **[00:00:14]** Hier gibt es klare Einordnungen, echte Praxiseinblicke und einen frischen Blick auf das, was möglich ist.
 
-**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinker.
+**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinkern.
 
 **[00:00:24]** Hadi zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
 
@@ -206,9 +206,9 @@ https://huggingface.co/
 
 **[00:05:04]** ganz viele Stilblüten gemacht hat. Wie hieß der Kollege, der dieses Auto-Gesetze?
 
-**[00:05:09]** Capati. Auto-Gesetze. Wie heißt er?
+**[00:05:09]** Karpathy. Auto-Gesetze. Wie heißt er?
 
-**[00:05:11]** Capati. Ich denke immer Karate. Das hat ja auch ganz viele Stilblüten getreten. Zum
+**[00:05:11]** Karpathy. Ich denke immer Karpathy. Das hat ja auch ganz viele Stilblüten getreten. Zum
 
 **[00:05:19]** einen ist das Ding ja quasi in der Lage, LM-Systeme dazu zu bringen, selbst zu
 
@@ -938,7 +938,7 @@ https://huggingface.co/
 
 **[00:31:40]** Die haben jetzt ja für all ihre Dienste eine CLI veröffentlicht, also Command Line Interface plus MCP Server plus Guilds.
 
-**[00:31:48]** Das heißt du bist jetzt in der Lage im Grunde mit jedem Agent und auch mit Open Glow und Nano Glow und wie die alle heißen.
+**[00:31:48]** Das heißt du bist jetzt in der Lage im Grunde mit jedem Agent und auch mit OpenClaw und Nano Glow und wie die alle heißen.
 
 **[00:31:54]** Ich meine, es gibt ja ganz viele Derivate auch von anderen Herstellern, aber ich sag mal, mit Nvidia hast ein Stein im Brett, ja, weil die haben ja durchaus auch einen Namen in der Branche und wer kennt sie nicht.
 
@@ -1206,6 +1206,6 @@ https://huggingface.co/
 
 **[00:42:55]** sondern sie lebt. Hier gibt es klare Einordnungen, echte Praxiseinblicke und einen frischen Blick auf das, was möglich ist.
 
-**[00:43:03]** Verständlich, kritisch und immer mit einem Augenzwinker.
+**[00:43:03]** Verständlich, kritisch und immer mit einem Augenzwinkern.
 
 **[00:43:07]** KI zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.

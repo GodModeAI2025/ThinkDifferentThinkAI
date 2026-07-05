@@ -52,11 +52,11 @@ https://www.nvidia.com/de-de/
 
 **[00:00:14]** Hier gibt es klare Einordnungen, echte Praxiseinblicke und einen frischen Blick auf das, was möglich ist.
 
-**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinker.
+**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinkern.
 
-**[00:00:24]** Hadi zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
+**[00:00:24]** KI zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
 
-**[00:00:29]** Herzlich willkommen bei SYNK AI THINK DIFFERENT.
+**[00:00:29]** Herzlich willkommen bei THINK AI, THINK DIFFERENT.
 
 **[00:00:38]** Heute wieder mit dabei ist der Jens.
 
@@ -114,7 +114,7 @@ https://www.nvidia.com/de-de/
 
 **[00:02:38]** saß ich in meiner Werkstatt und ging meine Listen durch. Zweimal, wie immer. Als plötzlich
 
-**[00:02:45]** einer meiner Wichtel, der kleine Albien, ganz aufgeregt mit einem dieser neumodischen Tablets
+**[00:02:45]** einer meiner Wichtel, der kleine Albin, ganz aufgeregt mit einem dieser neumodischen Tablets
 
 **[00:02:51]** in der Hand hereingestürmt kam. Seine Mütze war ihm vor lauter Schreck vom Kopf gerutscht.
 
@@ -140,7 +140,7 @@ https://www.nvidia.com/de-de/
 
 **[00:04:02]** Kiste den Mittelfinger gezeigt hat. Ein unanständiges, aber in diesem Fall verständliches Zeichen seines
 
-**[00:04:08]** Unmuts. Kurz darauf laß ich von einem Mädchen namens Tara aus New York City. Sie hatte die
+**[00:04:08]** Unmuts. Kurz darauf las ich von einem Mädchen namens Tara aus New York City. Sie hatte die
 
 **[00:04:15]** Kiste ebenfalls gefragt, ob ich echt sei. Und die freche kleine Maschine hatte ihr erzählt,
 
@@ -366,7 +366,7 @@ https://www.nvidia.com/de-de/
 
 **[00:13:59]** so weit gesehen werden von anderen. Momentan, ich gucke mal eine Minute rein, ist so ein Thema,
 
-**[00:14:08]** was so rumgeht, dass man von dem großen Beratungsfaser daraus und sowas wird dieses Thema, die Pilotphase
+**[00:14:08]** was so rumgeht, dass man von den großen Beratungshäusern daraus und sowas wird dieses Thema, die Pilotphase
 
 **[00:14:14]** der KI, ist jetzt endlich vorbei. Die Pilotisierungphase ist vorbei und man muss jetzt irgendwie
 
@@ -436,7 +436,7 @@ https://www.nvidia.com/de-de/
 
 **[00:16:59]** sie mehr Geschenke für ihre Kinder kaufen konnten. Sie halfen ihnen Rezepte für
 
-**[00:17:05]** die köstlichsten Weihnachtskegse zu finden, obwohl natürlich keines so
+**[00:17:05]** die köstlichsten Weihnachtskekse zu finden, obwohl natürlich keines so
 
 **[00:17:09]** gut ist wie das geheim Rezept meiner Frau, der Weihnachtsfrau. Sie
 
@@ -484,7 +484,7 @@ https://www.nvidia.com/de-de/
 
 **[00:18:39]** persönlichen privaten Umfeld dieses Gespräch gab und da hatte ich den Austausch mit jemandem
 
-**[00:18:44]** über das Thema nach, welche Rolle spielt ein KI-Beräuch in der Firma. Und die Antwort
+**[00:18:44]** über das Thema nach, welche Rolle spielt ein KI-Bereich in der Firma. Und die Antwort
 
 **[00:18:49]** war, keine. Und das muss man dazu wissen, ist jetzt mal egal, in welchem mit je tätig
 
@@ -492,7 +492,7 @@ https://www.nvidia.com/de-de/
 
 **[00:19:03]** die Antwort keine und aus höchstens so, ja, habt ihr denn gar nichts so? Ja, doch, also wir haben
 
-**[00:19:07]** Kuppelut. Und dann stehst du da und denkst erstmal so, ja, gut, okay, die Reise, diesen
+**[00:19:07]** Copilot. Und dann stehst du da und denkst erstmal so, ja, gut, okay, die Reise, diesen
 
 **[00:19:13]** Jakobsweg beschreite ich ja auch, also beschreiten wir ja alle, ne? Wie fängt alles mal an, so ein
 
@@ -548,9 +548,9 @@ https://www.nvidia.com/de-de/
 
 **[00:21:19]** Agenten laufen lasse, sondern dass tatsächlich anscheinend in Modellen auch unterschiedliche
 
-**[00:21:27]** Rollen dann schon passieren können. Das heißt, auch ein einzelner Modell kann dann in Latents-Face
+**[00:21:27]** Rollen dann schon passieren können. Das heißt, auch ein einzelner Modell kann dann in Latent Space
 
-**[00:21:32]** und da lassen wir uns die Begriffe erst in neun Jahr erklären, um tiefer gehen, also eine
+**[00:21:32]** und da lassen wir uns die Begriffe erst im neuen Jahr erklären, um tiefer gehen, also eine
 
 **[00:21:37]** Vollgut zu machen, ohne dass da Kommunikation stattfinden. Was da gibt es diese Sachen,
 
@@ -626,7 +626,7 @@ https://www.nvidia.com/de-de/
 
 **[00:24:52]** mitten in der Stadt. Aber es war kein gewöhnlicher Laden. In diesem Laden gab
 
-**[00:24:58]** es einen magischen Spiegel, den sie 11.ai nannten. Hohoho, ein Elf in
+**[00:24:58]** es einen magischen Spiegel, den sie Elf.ai nannten. Hohoho, ein Elf in
 
 **[00:25:06]** einer Kiste. Das musste ich mir genauer ansehen. Wenn die Menschen in
 
@@ -718,4 +718,4 @@ https://www.nvidia.com/de-de/
 
 **[00:28:42]** Bis dann, tschau, tschau, tschau.
 
-**[00:29:15]** und vor allem zum Mitdrehen.
+**[00:29:15]** und vor allem zum Mitreden.

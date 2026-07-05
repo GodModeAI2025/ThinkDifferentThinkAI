@@ -33,11 +33,11 @@ Link : https://x.com/michakaufman/status/1909610844008161380?s=46
 
 **[00:00:14]** Hier gibt es klare Einordnungen, echte Praxiseinblicke und einen frischen Blick auf das, was möglich ist.
 
-**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinker.
+**[00:00:20]** Verständlich, kritisch und immer mit einem Augenzwinkern.
 
-**[00:00:24]** Hadi zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
+**[00:00:24]** KI zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
 
-**[00:00:29]** Herzlich Willkommen bei einer neuen Folge von Zink Different Zink AI. Der Jens und ich
+**[00:00:29]** Herzlich Willkommen bei einer neuen Folge von Think Different, Think AI. Der Jens und ich
 
 **[00:00:40]** haben uns ja irgendwie mal angewöhnt den einen euren drin Gast mal einzuladen und
 
@@ -149,7 +149,7 @@ Link : https://x.com/michakaufman/status/1909610844008161380?s=46
 
 **[00:04:42]** KMUs, wer hebe die Hand, okay, die rufen mich halt über TikTok an, weil die setzen abends
 
-**[00:04:47]** genauso vor dem Handy und gucken meinen twirkenden Mädel zu oder hören sich irgendwie meinen
+**[00:04:47]** genauso vor dem Handy und gucken meinen twerkenden Mädel zu oder hören sich irgendwie meinen
 
 **[00:04:51]** Mist an auf der Plattform. Und wenn man es dann nicht mit Werbung übertreibt und
 
@@ -839,7 +839,7 @@ Link : https://x.com/michakaufman/status/1909610844008161380?s=46
 
 **[00:30:08]** mit Neura, ein Metzing oder wo die sind,
 
-**[00:30:11]** Ja, da bin ich, also das finde ich echt interessant, auch die ganze Thematik, dass solche Modelle, die hier Bildgenerierung machen, die du dann vielleicht in Crocs sehst, dass das auch, ich sag mal, aus deutschen Langen kommt.
+**[00:30:11]** Ja, da bin ich, also das finde ich echt interessant, auch die ganze Thematik, dass solche Modelle, die hier Bildgenerierung machen, die du dann vielleicht in Grok sehst, dass das auch, ich sag mal, aus deutschen Landen kommt.
 
 **[00:30:23]** Wir haben ja durchaus viele Diggungen, manchmal ist man sich darüber geschült ja auch gar nicht bewusst.
 
@@ -1459,6 +1459,6 @@ Link : https://x.com/michakaufman/status/1909610844008161380?s=46
 
 **[00:53:31]** Hier gibt es klare Einordnungen, echte Praxis-Einblicke und einen frischen Blick auf das, was möglich ist.
 
-**[00:53:37]** Verständlich, kritisch und immer mit einem Augenzwinker.
+**[00:53:37]** Verständlich, kritisch und immer mit einem Augenzwinkern.
 
-**[00:53:41]** HI zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
+**[00:53:41]** KI zum Nachdenken, zum Schmunzeln und vor allem zum Mitreden.
