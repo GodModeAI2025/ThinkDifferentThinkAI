@@ -1,8 +1,8 @@
 {
   "feedUrl": "https://think-ai.podigee.io/feed/mp3",
   "generatedAt": "",
-  "episodeCount": 46,
-  "availableTranscriptCount": 46,
+  "episodeCount": 47,
+  "availableTranscriptCount": 47,
   "availableEnglishTranscriptCount": 46,
   "episodes": [
     {
@@ -57,7 +57,7 @@
       "index": 3,
       "title": "Hat eine KI eigentlich Urlaub?",
       "published": "Mon, 04 Aug 2025 00:27:00 +0000",
-      "duration": "2409",
+      "duration": "2408",
       "pageUrl": "https://think-ai.podigee.io/3-new-episode",
       "embedUrl": "https://think-ai.podigee.io/3-new-episode/embed?context=external",
       "imageUrl": "https://images.podigee-cdn.net/0x,spyUMoSHcT1CpT_hwhSe1JBG_TQH7W44a-IB05R64yZI=/https://main.podigee-cdn.net/uploads/u73317/a69cb8e6-3d27-4a42-b024-766e700f5d84.png",
@@ -369,7 +369,7 @@
       "index": 16,
       "title": "More human than human.",
       "published": "Mon, 01 Dec 2025 10:59:00 +0000",
-      "duration": "2327",
+      "duration": "2326",
       "pageUrl": "https://think-ai.podigee.io/16-more-human-than-human",
       "embedUrl": "https://think-ai.podigee.io/16-more-human-than-human/embed?context=external",
       "imageUrl": "https://images.podigee-cdn.net/0x,s7AqbXhIhnMmwE13TUCSA9KOgy8H1gbvbZFEo_rzowZQ=/https://main.podigee-cdn.net/uploads/u73317/dd7ff596-38f7-4607-a0a1-a587e1ba40bc.jpg",
@@ -513,7 +513,7 @@
       "index": 22,
       "title": "CES 2026",
       "published": "Mon, 12 Jan 2026 21:37:39 +0000",
-      "duration": "2900",
+      "duration": "2899",
       "pageUrl": "https://think-ai.podigee.io/22-ces-2026",
       "embedUrl": "https://think-ai.podigee.io/22-ces-2026/embed?context=external",
       "imageUrl": "https://images.podigee-cdn.net/0x,s5iHUzdhKv2a9Nz5bIAKU4nA8ReG9rmoep-H9zpZ96_s=/https://main.podigee-cdn.net/uploads/u73317/6841b674-8960-411b-932a-acacb9017a2b.jpg",
@@ -537,7 +537,7 @@
       "index": 23,
       "title": "AGI or NOT",
       "published": "Mon, 19 Jan 2026 21:04:44 +0000",
-      "duration": "2970",
+      "duration": "2969",
       "pageUrl": "https://think-ai.podigee.io/23-agi-or-not",
       "embedUrl": "https://think-ai.podigee.io/23-agi-or-not/embed?context=external",
       "imageUrl": "https://images.podigee-cdn.net/0x,sx0BzQljTEOeNvgd_fn6jA0yGodp-uL4o3O7hnv570YA=/https://main.podigee-cdn.net/uploads/u73317/b641957d-90fe-4b9c-878c-07f17cf231f1.jpg",
@@ -1106,6 +1106,30 @@
         "en": {
           "available": true,
           "path": "transkripte-en/046 - Vibe Consulting & Bonus.md"
+        }
+      }
+    },
+    {
+      "index": 47,
+      "title": "Loop Engineering",
+      "published": "Sun, 05 Jul 2026 00:59:00 +0000",
+      "duration": "2784",
+      "pageUrl": "https://think-ai.podigee.io/47-loop-engineering",
+      "embedUrl": "https://think-ai.podigee.io/47-loop-engineering/embed?context=external",
+      "imageUrl": "https://images.podigee-cdn.net/0x,sd1QFKk7Fz9KwWPl8Fy3WdvfRdh5LNdvp2jIEk-rsEH8=/https://main.podigee-cdn.net/uploads/u73317/cd1c2367-0bc1-4346-afdd-e4039aea950b.jpg",
+      "audioUrl": "https://audio.podigee-cdn.net/2527772-m-38fd8d3f5281b278360e205c1ef2d3e8.mp3?source=feed",
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/047 - Loop Engineering.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/047 - Loop Engineering.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
         }
       }
     }
