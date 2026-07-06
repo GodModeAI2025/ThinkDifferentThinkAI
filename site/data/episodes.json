@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 47,
   "availableTranscriptCount": 47,
-  "availableEnglishTranscriptCount": 46,
+  "availableEnglishTranscriptCount": 47,
   "episodes": [
     {
       "index": 1,
@@ -1120,16 +1120,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2527772-m-38fd8d3f5281b278360e205c1ef2d3e8.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/047 - Loop Engineering.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/047 - Loop Engineering.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/047 - Loop Engineering.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/047 - Loop Engineering.md"
         }
       }
     }
