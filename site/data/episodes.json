@@ -1,8 +1,8 @@
 {
   "feedUrl": "https://think-ai.podigee.io/feed/mp3",
   "generatedAt": "",
-  "episodeCount": 47,
-  "availableTranscriptCount": 47,
+  "episodeCount": 48,
+  "availableTranscriptCount": 48,
   "availableEnglishTranscriptCount": 47,
   "episodes": [
     {
@@ -1130,6 +1130,30 @@
         "en": {
           "available": true,
           "path": "transkripte-en/047 - Loop Engineering.md"
+        }
+      }
+    },
+    {
+      "index": 48,
+      "title": "Speed vs. Safety",
+      "published": "Sun, 12 Jul 2026 20:45:00 +0000",
+      "duration": "1375",
+      "pageUrl": "https://think-ai.podigee.io/48-speed-vs-safety",
+      "embedUrl": "https://think-ai.podigee.io/48-speed-vs-safety/embed?context=external",
+      "imageUrl": "https://images.podigee-cdn.net/0x,ssU3eIDt4PMhj5EhrwWKUk1v5vCaSqSQEYpBnNyOK6lM=/https://main.podigee-cdn.net/uploads/u73317/a0832141-5b78-438a-a0b5-a34268a38a5f.jpg",
+      "audioUrl": "https://audio.podigee-cdn.net/2532882-m-e89974e8241169c3f9d0e6554501c339.mp3?source=feed",
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/048 - Speed vs. Safety.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/048 - Speed vs. Safety.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
         }
       }
     }
