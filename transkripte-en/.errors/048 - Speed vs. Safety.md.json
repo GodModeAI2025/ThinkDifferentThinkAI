@@ -1,5 +1,0 @@
-{
-  "source": "transkripte/048 - Speed vs. Safety.md",
-  "failedAt": "2026-07-18T13:28:09+00:00",
-  "error": "OpenAI HTTP 429: {\n  \"error\": {\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"insufficient_quota\"\n  }\n}"
-}

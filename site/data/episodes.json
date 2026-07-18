@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 48,
   "availableTranscriptCount": 48,
-  "availableEnglishTranscriptCount": 47,
+  "availableEnglishTranscriptCount": 48,
   "episodes": [
     {
       "index": 1,
@@ -1144,16 +1144,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2532882-m-e89974e8241169c3f9d0e6554501c339.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/048 - Speed vs. Safety.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/048 - Speed vs. Safety.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/048 - Speed vs. Safety.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/048 - Speed vs. Safety.md"
         }
       }
     }
