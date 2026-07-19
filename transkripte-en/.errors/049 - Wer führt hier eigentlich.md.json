@@ -1,0 +1,5 @@
+{
+  "source": "transkripte/049 - Wer führt hier eigentlich.md",
+  "failedAt": "2026-07-19T08:26:09+00:00",
+  "error": "OpenAI HTTP 429: {\n  \"error\": {\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"insufficient_quota\"\n  }\n}"
+}
