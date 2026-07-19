@@ -1,8 +1,8 @@
 {
   "feedUrl": "https://think-ai.podigee.io/feed/mp3",
   "generatedAt": "",
-  "episodeCount": 48,
-  "availableTranscriptCount": 48,
+  "episodeCount": 49,
+  "availableTranscriptCount": 49,
   "availableEnglishTranscriptCount": 48,
   "episodes": [
     {
@@ -1154,6 +1154,30 @@
         "en": {
           "available": true,
           "path": "transkripte-en/048 - Speed vs. Safety.md"
+        }
+      }
+    },
+    {
+      "index": 49,
+      "title": "Wer führt hier eigentlich ?",
+      "published": "Sat, 18 Jul 2026 21:27:00 +0000",
+      "duration": "2975",
+      "pageUrl": "https://think-ai.podigee.io/49-wer-fuhrt-hier-eigentlich",
+      "embedUrl": "https://think-ai.podigee.io/49-wer-fuhrt-hier-eigentlich/embed?context=external",
+      "imageUrl": "https://images.podigee-cdn.net/0x,sA1QDuRjt1fWCsI2v5Jzi0eqmnzQjXsXh2qxWD3OEa-0=/https://main.podigee-cdn.net/uploads/u73317/6d214538-6f8a-4e80-bed6-35107be1c0ea.png",
+      "audioUrl": "https://audio.podigee-cdn.net/2545242-m-b6d90b1ed1fbb804ea872bd5793ac965.mp3?source=feed",
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/049 - Wer führt hier eigentlich.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/049 - Wer führt hier eigentlich.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
         }
       }
     }
