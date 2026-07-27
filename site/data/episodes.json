@@ -1,8 +1,8 @@
 {
   "feedUrl": "https://think-ai.podigee.io/feed/mp3",
   "generatedAt": "",
-  "episodeCount": 49,
-  "availableTranscriptCount": 49,
+  "episodeCount": 50,
+  "availableTranscriptCount": 50,
   "availableEnglishTranscriptCount": 49,
   "episodes": [
     {
@@ -1178,6 +1178,30 @@
         "en": {
           "available": true,
           "path": "transkripte-en/049 - Wer führt hier eigentlich.md"
+        }
+      }
+    },
+    {
+      "index": 50,
+      "title": "One Year Later",
+      "published": "Sun, 26 Jul 2026 22:20:00 +0000",
+      "duration": "2745",
+      "pageUrl": "https://think-ai.podigee.io/50-one-year-later",
+      "embedUrl": "https://think-ai.podigee.io/50-one-year-later/embed?context=external",
+      "imageUrl": "https://images.podigee-cdn.net/0x,sM9Oe-httFCV2s-w2we4xjxcrD_sfKlYCxLJE0BcamV0=/https://main.podigee-cdn.net/uploads/u73317/560a14d7-81dd-408f-975a-be906df228e4.jpg",
+      "audioUrl": "https://audio.podigee-cdn.net/2548741-m-adfa3729234fb196a0d239d2bdea42a4.mp3?source=feed",
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/050 - One Year Later.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/050 - One Year Later.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
         }
       }
     }
