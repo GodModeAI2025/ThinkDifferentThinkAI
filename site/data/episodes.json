@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 50,
   "availableTranscriptCount": 50,
-  "availableEnglishTranscriptCount": 49,
+  "availableEnglishTranscriptCount": 50,
   "episodes": [
     {
       "index": 1,
@@ -1192,16 +1192,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2548741-m-adfa3729234fb196a0d239d2bdea42a4.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/050 - One Year Later.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/050 - One Year Later.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/050 - One Year Later.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/050 - One Year Later.md"
         }
       }
     }
