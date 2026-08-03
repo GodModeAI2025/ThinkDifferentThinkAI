@@ -1,0 +1,5 @@
+{
+  "source": "transkripte/051 - China Schock.md",
+  "failedAt": "2026-08-03T09:51:16+00:00",
+  "error": "OpenAI HTTP 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+}
