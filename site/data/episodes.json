@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 51,
   "availableTranscriptCount": 51,
-  "availableEnglishTranscriptCount": 50,
+  "availableEnglishTranscriptCount": 51,
   "episodes": [
     {
       "index": 1,
@@ -1216,16 +1216,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2548954-m-e5f81efdd3bf65b6d89ff827c5843570.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/051 - China Schock.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/051 - China Schock.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/051 - China Schock.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/051 - China Schock.md"
         }
       }
     }
