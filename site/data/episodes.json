@@ -1,8 +1,8 @@
 {
   "feedUrl": "https://think-ai.podigee.io/feed/mp3",
   "generatedAt": "",
-  "episodeCount": 50,
-  "availableTranscriptCount": 50,
+  "episodeCount": 51,
+  "availableTranscriptCount": 51,
   "availableEnglishTranscriptCount": 50,
   "episodes": [
     {
@@ -1202,6 +1202,30 @@
         "en": {
           "available": true,
           "path": "transkripte-en/050 - One Year Later.md"
+        }
+      }
+    },
+    {
+      "index": 51,
+      "title": "China Schock",
+      "published": "Sun, 02 Aug 2026 13:12:00 +0000",
+      "duration": "2201",
+      "pageUrl": "https://think-ai.podigee.io/51-china-schock",
+      "embedUrl": "https://think-ai.podigee.io/51-china-schock/embed?context=external",
+      "imageUrl": "https://images.podigee-cdn.net/0x,sv2fciZLgYDWTZ8gwb_8SBymao_i7OR3FDbyh4PWGAqg=/https://main.podigee-cdn.net/uploads/u73317/5d412608-7095-43c5-ae63-47463e7ce11e.jpeg",
+      "audioUrl": "https://audio.podigee-cdn.net/2548954-m-e5f81efdd3bf65b6d89ff827c5843570.mp3?source=feed",
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/051 - China Schock.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/051 - China Schock.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
         }
       }
     }
