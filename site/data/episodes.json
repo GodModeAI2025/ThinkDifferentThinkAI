@@ -1,8 +1,8 @@
 {
   "feedUrl": "https://think-ai.podigee.io/feed/mp3",
   "generatedAt": "",
-  "episodeCount": 51,
-  "availableTranscriptCount": 51,
+  "episodeCount": 52,
+  "availableTranscriptCount": 52,
   "availableEnglishTranscriptCount": 51,
   "episodes": [
     {
@@ -1226,6 +1226,30 @@
         "en": {
           "available": true,
           "path": "transkripte-en/051 - China Schock.md"
+        }
+      }
+    },
+    {
+      "index": 52,
+      "title": "EXOKORTEX",
+      "published": "Sat, 08 Aug 2026 22:59:00 +0000",
+      "duration": "3279",
+      "pageUrl": "https://think-ai.podigee.io/52-exokortex",
+      "embedUrl": "https://think-ai.podigee.io/52-exokortex/embed?context=external",
+      "imageUrl": "https://images.podigee-cdn.net/0x,ssK-0rGjHRVz4tUGfDI8pXR3Qzcx5FsyYDhqcR72xggY=/https://main.podigee-cdn.net/uploads/u73317/dc2d06c6-1d2e-4442-afff-da8512f7ec06.jpeg",
+      "audioUrl": "https://audio.podigee-cdn.net/2563270-m-cde9bad093da3e513ece7b52b9ebac20.mp3?source=feed",
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/052 - EXOKORTEX.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/052 - EXOKORTEX.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
         }
       }
     }
