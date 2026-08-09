@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 52,
   "availableTranscriptCount": 52,
-  "availableEnglishTranscriptCount": 51,
+  "availableEnglishTranscriptCount": 52,
   "episodes": [
     {
       "index": 1,
@@ -1240,16 +1240,16 @@
       "audioUrl": "https://audio.podigee-cdn.net/2563270-m-cde9bad093da3e513ece7b52b9ebac20.mp3?source=feed",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/052 - EXOKORTEX.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/052 - EXOKORTEX.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/052 - EXOKORTEX.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/052 - EXOKORTEX.md"
         }
       }
     }
