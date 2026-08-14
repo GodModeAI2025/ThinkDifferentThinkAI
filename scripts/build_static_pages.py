@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """Erzeugt statische, indexierbare Seiten je Folge und Sprache.
 
-Die Single-Page-App unter site/index.html bleibt als Such- und Blaetteroberflaeche
+Die Single-Page-App unter docs/index.html bleibt als Such- und Blaetteroberflaeche
 bestehen. Dieses Skript legt daneben fuer jede Folge eine eigene URL an, in der der
 komplette Transkripttext bereits im ausgelieferten HTML steht:
 
-    site/de/<slug>/index.html
-    site/en/<slug>/index.html
-    site/themen/<thema>/index.html
-    site/gaeste/index.html, site/gaeste/<slug>/index.html
-    site/sitemap.xml, site/robots.txt, site/llms.txt
+    docs/de/<slug>/index.html
+    docs/en/<slug>/index.html
+    docs/themen/<thema>/index.html
+    docs/gaeste/index.html, docs/gaeste/<slug>/index.html
+    docs/sitemap.xml, docs/robots.txt, docs/llms.txt
 
 Der Slug stammt aus page_url im Frontmatter und entspricht damit dem Podigee-Slug.
 Die Dateinummer der Transkripte wird bewusst nicht als Folgennummer verwendet,
@@ -660,6 +660,20 @@ def build(site_dir: Path, repo_root: Path, base_url: str) -> dict:
         if target.exists():
             shutil.rmtree(target)
 
+    # Markdown mit ausliefern: die SPA laedt es zur Laufzeit nach, und die
+    # Folgenseiten verlinken darauf. GitHub Pages sieht nur docs/, deshalb muessen
+    # die Dateien hier liegen. Frueher hat das der Workflow kopiert.
+    for src_name, dest_name in (("transkripte", "transkripte"), ("transkripte-en", "transkripte-en")):
+        src = repo_root / src_name
+        dest = site_dir / dest_name
+        if not src.is_dir():
+            continue
+        if dest.exists():
+            shutil.rmtree(dest)
+        dest.mkdir(parents=True, exist_ok=True)
+        for md in src.glob("*.md"):
+            shutil.copy2(md, dest / md.name)
+
     urls = []
     written = 0
 
@@ -844,7 +858,7 @@ def build(site_dir: Path, repo_root: Path, base_url: str) -> dict:
 
 def build_parser():
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument("--site-dir", default="site")
+    p.add_argument("--site-dir", default="docs")
     p.add_argument("--repo-root", default=".")
     p.add_argument("--base-url", default=DEFAULT_BASE_URL)
     return p

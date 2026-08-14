@@ -1,58 +1,77 @@
 # Think Different! Think AI! Podcast Transcripts
 
-Dieses Repository erzeugt Markdown-Transkripte für den Podcast-Feed:
+Dieses Repository enthält die Transkripte zum Podcast-Feed:
 
 https://think-ai.podigee.io/feed/mp3
 
-Die fertigen Dateien landen in `transkripte/` und werden nach Episodennummer und Episodentitel benannt.
+Deutsche Transkripte liegen in `transkripte/`, englische Übersetzungen in `transkripte-en/`,
+jeweils benannt nach Feed-Position und Episodentitel.
 
-Die Landingpage liegt unter GitHub Pages und zeigt verfügbare Transkripte mit Absprung zum Podigee-Webplayer.
+Aus denselben Dateien wird die öffentliche Seite gebaut:
 
-Die Webseite unterstützt Deutsch und Englisch. Deutsche Transkripte liegen in `transkripte/`, englische Übersetzungen in `transkripte-en/`. Wenn noch keine englische Datei für eine Folge existiert, zeigt die Webseite im English-Modus einen entsprechenden Hinweis.
+https://godmodeai2025.github.io/ThinkDifferentThinkAI/
 
-## Remote-Transkription
+## Wie die Seite ausgeliefert wird
 
-Der Workflow **Transcribe podcast** läuft jeden Dienstag um 06:00 UTC automatisch. Er liest den Feed, vergleicht ihn mit den vorhandenen Dateien in `transkripte/`, transkribiert nur fehlende Folgen und schreibt danach alle neuen Markdown-Dateien in einem Commit zurück ins Repository.
+**Es laufen keine GitHub Actions mehr.** GitHub Pages liefert den Ordner `docs/` direkt vom
+Branch `main` aus. Was dort nicht eingecheckt ist, ist online nicht vorhanden. Der Build
+passiert lokal und wird mitcommittet.
 
-Der Workflow kann in GitHub Actions auch manuell gestartet werden.
+Nach jeder Änderung an `transkripte/` oder `transkripte-en/`:
 
-Standardmodell ist `small`. Für einen schnelleren Lauf kann `base` ausgewählt werden; für bessere Qualität `medium`.
-
-## Englische Übersetzungen
-
-Der Workflow **Translate transcripts** läuft jeden Dienstag um 10:00 UTC automatisch und kann manuell gestartet werden. Er übersetzt fehlende deutsche Markdown-Dateien aus `transkripte/` nach `transkripte-en/`.
-
-Wenn im Repository das Secret `OPENAI_API_KEY` gesetzt ist, nutzt der Workflow die OpenAI API und übersetzt alle fehlenden oder zuvor fehlgeschlagenen Dateien erneut. Fehlgeschlagene Übersetzungen werden unter `transkripte-en/.errors/` protokolliert und beim nächsten Lauf automatisch wieder versucht.
-
-Wenn kein `OPENAI_API_KEY` gesetzt ist, nutzt der Workflow als Fallback ein freies Hugging-Face-Modell (`Helsinki-NLP/opus-mt-de-en`) direkt in GitHub Actions. Dafür ist kein OpenAI-, DeepL- oder anderer API-Key nötig. Der Tradeoff ist Laufzeit in GitHub Actions und eine schwächere Qualität als bei einem bezahlten Übersetzungsmodell.
-
-## Landingpage und statische Folgenseiten
-
-Der Workflow **Deploy landing page** baut die Seite unter `site/` und veroeffentlicht sie
-auf GitHub Pages. Zwei Schritte laufen dabei nacheinander:
-
-1. `scripts/build_site_manifest.py` erzeugt `site/data/episodes.json` frisch aus dem RSS-Feed.
-2. `scripts/build_static_pages.py` erzeugt daraus je Folge und Sprache eine eigene, komplett
-   im HTML stehende Seite:
-
-```
-site/de/<podigee-slug>/index.html
-site/en/<podigee-slug>/index.html
-site/themen/<thema>/index.html
-site/gaeste/<name>/index.html
-site/sitemap.xml, site/robots.txt, site/llms.txt
+```bash
+python scripts/build_site_manifest.py    # docs/data/episodes.json frisch aus dem RSS-Feed
+python scripts/build_static_pages.py     # alle Seiten, Sitemap, robots.txt, llms.txt
+git add docs && git commit && git push
 ```
 
-Die Single-Page-App unter `site/index.html` bleibt als Such- und Blaetteroberflaeche
-bestehen; das Skript setzt dort nur die Folgenliste zwischen den `EPISODE-INDEX`-Markern
-ein. Alles andere in dieser Datei wird von Hand gepflegt.
+Lokal ansehen: `cd docs && python -m http.server` und http://localhost:8000 öffnen.
 
-Wichtige Punkte:
+## Was erzeugt wird
+
+`scripts/build_static_pages.py` legt für jede Folge und jede Sprache eine eigene Seite an,
+in der das vollständige Transkript bereits im HTML steht:
+
+```
+docs/de/<podigee-slug>/index.html      docs/themen/<thema>/index.html
+docs/en/<podigee-slug>/index.html      docs/gaeste/<name>/index.html
+docs/sitemap.xml, docs/robots.txt, docs/llms.txt
+```
+
+Je Folgenseite: eigener Title und Meta-Description, Canonical, hreflang-Paar de/en plus
+x-default, Open Graph und Twitter Cards, JSON-LD als `PodcastEpisode` mit Hosts und Gästen
+als `Person`-Entitäten, eine Zeitmarke je Absatz als Anker zum Verlinken einzelner Aussagen
+sowie Blättern zur vorherigen und nächsten Folge.
+
+Die Single-Page-App unter `docs/index.html` bleibt als Such- und Blätteroberfläche bestehen.
+Das Skript setzt dort nur die Folgenliste zwischen den `EPISODE-INDEX`-Markern ein, alles
+andere in dieser Datei wird von Hand gepflegt. Die Markdown-Dateien werden nach
+`docs/transkripte/` und `docs/transkripte-en/` kopiert, weil die SPA sie zur Laufzeit lädt.
+
+Wichtig zu wissen:
 
 - **Der Slug kommt aus `pageUrl` im Manifest, nicht aus der Dateinummer.** Die Nummerierung
-  der Transkriptdateien folgt der Feed-Reihenfolge und weicht von den Podigee-Folgennummern ab.
-- Die erzeugten Ordner sind in `.gitignore` und werden bei jedem Deploy neu gebaut.
-- Gaeste stehen kuratiert in `site/data/guests.json`, ebenfalls nach Podigee-Slug. Nur
-  belegte Namen eintragen; `sameAs` nur setzen, wenn das Profil geprueft ist.
-- Lokal testen: `python scripts/build_static_pages.py` und anschliessend
-  `python -m http.server` im Ordner `site/`.
+  der Transkriptdateien folgt der Feed-Reihenfolge und weicht von den Podigee-Folgennummern
+  ab. Nie über die Dateinummer arbeiten.
+- Gäste stehen kuratiert in `docs/data/guests.json`, ebenfalls nach Podigee-Slug. Nur belegte
+  Namen eintragen, `sameAs` nur setzen, wenn das Profil tatsächlich geprüft ist.
+- Themen werden über Stichwortlisten in `scripts/build_static_pages.py` zugeordnet, maximal
+  drei je Folge.
+
+## Neue Folgen nachziehen
+
+Transkription und Übersetzung laufen ebenfalls lokal:
+
+```bash
+python scripts/plan_transcripts.py                 # Feed gegen transkripte/ vergleichen
+python scripts/transcribe_episode.py --help        # fehlende Folge transkribieren
+python scripts/translate_transcripts.py --provider openai --help
+```
+
+Bei der Übersetzung immer `--provider openai` verwenden. Der Standard ist `local` und nutzt
+`Helsinki-NLP/opus-mt-de-en`; dessen Ergebnisse sind deutlich schwächer und machen unter
+anderem aus dem Podcastnamen „Singdefin, Sing.K.I.". Die englischen Transkripte der Folgen
+048 bis 052 sind auf diesem Weg entstanden und sollten neu übersetzt werden.
+
+Nach dem Nachziehen die beiden Build-Befehle oben laufen lassen, sonst ändert sich online
+nichts.

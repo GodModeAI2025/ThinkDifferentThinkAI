@@ -1,16 +1,12 @@
 .audio-cache/
 .pycache/
 __pycache__/
-site/transkripte/
-site/transkripte-en/
 
-# Von scripts/build_static_pages.py bei jedem Deploy neu erzeugt.
-# site/index.html ist dagegen Quelle: das Skript setzt dort nur die Folgenliste
-# zwischen den EPISODE-INDEX-Markern ein, der Rest wird von Hand gepflegt.
-site/de/
-site/en/
-site/themen/
-site/gaeste/
-site/sitemap.xml
-site/robots.txt
-site/llms.txt
+# docs/ wird vollstaendig eingecheckt.
+# GitHub Pages liefert diesen Ordner direkt vom Branch aus, es gibt keinen
+# Build-Schritt in GitHub Actions mehr. Was hier nicht im Repo liegt, ist online
+# nicht da. Nach jeder Aenderung an transkripte/ also
+#   python scripts/build_site_manifest.py
+#   python scripts/build_static_pages.py
+# laufen lassen und das Ergebnis mitcommitten.
+.DS_Store

@@ -73,7 +73,7 @@ def build_parser():
     parser.add_argument("--feed-url", default=DEFAULT_FEED_URL)
     parser.add_argument("--transcript-dir", default="transkripte")
     parser.add_argument("--english-transcript-dir", default="transkripte-en")
-    parser.add_argument("--output", default="site/data/episodes.json")
+    parser.add_argument("--output", default="docs/data/episodes.json")
     return parser
 
 

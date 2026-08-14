@@ -1,0 +1,68 @@
+# Think Different. Think AI.
+
+> Deutschsprachiger Podcast ueber kuenstliche Intelligenz in der Praxis, von Mark Zimmermann und Jens Scharnetzki. Dieses Archiv enthaelt die vollstaendigen Wortprotokolle aller Folgen auf Deutsch und Englisch.
+
+Folgen: 52 | Sprachen: Deutsch (Original), Englisch (Uebersetzung)
+Feed: https://think-ai.podigee.io/feed/mp3
+Podcast: https://think-ai.podigee.io/
+
+## Hinweise zur Nutzung
+
+- Die Transkripte sind automatisch erstellt und koennen Fehler bei Eigennamen enthalten.
+- Jeder Absatz hat eine Zeitmarke als Anker, zum Beispiel #t-001234 fuer 00:12:34.
+- Beim Zitieren bitte Folgentitel, Datum und Zeitmarke angeben.
+
+## Folgen
+
+- [EXOKORTEX](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/52-exokortex/) — 2026-08-08
+- [China Schock](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/51-china-schock/) — 2026-08-02
+- [One Year Later](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/50-one-year-later/) — 2026-07-26
+- [Wer führt hier eigentlich ?](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/49-wer-fuhrt-hier-eigentlich/) — 2026-07-18
+- [Speed vs. Safety](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/48-speed-vs-safety/) — 2026-07-12
+- [Loop Engineering](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/47-loop-engineering/) — 2026-07-05
+- [Vibe Consulting & Bonus](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/46-vibe-consulting-bonus/) — 2026-06-28
+- [Three Days of Fable](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/45-three-days-of-fable/) — 2026-06-20
+- [Local First](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/44-local-first/) — 2026-06-14
+- [Just vibe IT](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/41-just-vibe-it/) — 2026-06-08
+- [Dark Side of AI](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/42-dark-side-of-ai/) — 2026-06-01
+- [Notion übernimmt](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/43-notion-uebernimmt/) — 2026-05-25
+- [AI und LEGAL](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/40-ai-und-legal/) — 2026-05-18
+- [Temporal UX](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/33-termporal-ux/) — 2026-05-11
+- [PM 2.0](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/39-pm-2-0/) — 2026-05-04
+- [KI schläft nicht !](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/38-ki-schlaeft-nicht/) — 2026-04-27
+- [Das strategische Gold](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/37-das-strategische-gold/) — 2026-04-20
+- [Mythos Anthropic](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/36-mythos-anthropic/) — 2026-04-12
+- [AI Easter Eggs](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/35-ai-easter-eggs/) — 2026-04-06
+- [Agenten, KI und die Zukunft der Softwareentwicklung](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/34-agenten-ki-und-die-zukunft-der-softwareentwicklung/) — 2026-03-30
+- [Warp Speed](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/32-warp-speed/) — 2026-03-23
+- [Anatomie der KI](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/31-anatomie-der-ki/) — 2026-03-16
+- [Krieg der Agenten](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/30-krieg-der-agenten/) — 2026-03-09
+- [Age of Agents](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/29-age-of-empire/) — 2026-03-02
+- [Skills Not Hacks!](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/28-skills-not-hacks/) — 2026-02-23
+- [Wie KI unser Arbeitsleben verändert!](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/27-wie-ki-unser-arbeitsleben-verandert/) — 2026-02-17
+- [OpenClaw](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/26-openclaw-extreme/) — 2026-02-09
+- [TikTok AI Coach](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/25-riverside-backup-video-thinkdifferent/) — 2026-02-02
+- [Clawdbot](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/24-clawdbot/) — 2026-01-26
+- [AGI or NOT](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/23-agi-or-not/) — 2026-01-19
+- [CES 2026](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/22-ces-2026/) — 2026-01-12
+- [KI als Kunde in 2026](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/21-ki-als-kunde-in-2026/) — 2026-01-05
+- [New Year's wishes](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/20-new-year-s-wishes/) — 2025-12-29
+- [Weihnachtsmagie](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/18-weihnachtsmagie/) — 2025-12-22
+- [2025 Wrapped](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/19-2025-wrapped/) — 2025-12-15
+- [AI Toy Wars](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/17-ai-toy-wars/) — 2025-12-08
+- [More human than human.](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/16-more-human-than-human/) — 2025-12-01
+- [The Agentic Enterprise](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/15-the-agentic-enterprise/) — 2025-11-28
+- [Robot Slavery](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/14-riverside-jens-raw-audio-thinkdifferent-0098-bearbeiten/) — 2025-11-10
+- [THE BROWSER STRIKES BACK](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/13-new-episode/) — 2025-11-03
+- [Halloween special: Dystopian AI futures](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/12-block/) — 2025-10-31
+- [KI schreibt Code, Menschen prüfen nach !](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/11-ki-schreibt-code-menschen-prufen-nach/) — 2025-10-26
+- [Automation trifft Organisation: n8n × Notion](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/10-new-episode/) — 2025-10-19
+- [Borg KI und das Ende des Interfaces](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/9-borg-ki-und-das-ende-des-interfaces/) — 2025-10-13
+- [AI ADVISORY BOARD](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/8-ai-advisory-board/) — 2025-09-29
+- [Hinter den Kulissen von Think Different! Think AI!](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/7-neue-episode/) — 2025-09-15
+- [The Great Flattening](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/6-the-great-flattening/) — 2025-09-01
+- [Boss-Level KI](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/5-boss-level-ki/) — 2025-08-28
+- [Von Star Wars zu Toy Wars](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/4-neue-episode/) — 2025-08-18
+- [Hat eine KI eigentlich Urlaub?](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/3-new-episode/) — 2025-08-04
+- [Zwischen Bots, Agenten und 20 Kilo Fleisch](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/2-zwischen-bots-agenten-und-20-kilo-fleisch/) — 2025-07-28
+- [KI als Kunde](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/1-ki-als-kunde/) — 2025-07-21
