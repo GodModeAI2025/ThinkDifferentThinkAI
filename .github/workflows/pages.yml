@@ -43,6 +43,18 @@ jobs:
             find transkripte-en -maxdepth 1 -type f -name '*.md' -exec cp {} site/transkripte-en/ \;
           fi
 
+      - name: Build static episode pages
+        run: python scripts/build_static_pages.py
+
+      - name: Verify static pages
+        run: |
+          pages=$(find site/de site/en -name index.html | wc -l)
+          urls=$(grep -c "<loc>" site/sitemap.xml)
+          echo "Folgenseiten: $pages | URLs in sitemap.xml: $urls"
+          test "$pages" -gt 0 || { echo "Keine Folgenseiten erzeugt"; exit 1; }
+          test -f site/robots.txt || { echo "robots.txt fehlt"; exit 1; }
+          test -f site/llms.txt || { echo "llms.txt fehlt"; exit 1; }
+
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
         with:

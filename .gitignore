@@ -3,3 +3,14 @@
 __pycache__/
 site/transkripte/
 site/transkripte-en/
+
+# Von scripts/build_static_pages.py bei jedem Deploy neu erzeugt.
+# site/index.html ist dagegen Quelle: das Skript setzt dort nur die Folgenliste
+# zwischen den EPISODE-INDEX-Markern ein, der Rest wird von Hand gepflegt.
+site/de/
+site/en/
+site/themen/
+site/gaeste/
+site/sitemap.xml
+site/robots.txt
+site/llms.txt
