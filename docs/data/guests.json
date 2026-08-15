@@ -1,85 +1,143 @@
 {
-  "_comment": "Kuratierte Gaesteliste. Schluessel ist der Podigee-Slug aus pageUrl, nicht die Dateinummer, weil beide Nummerierungen auseinanderfallen. Nur belegte Namen und Zugehoerigkeiten eintragen. sameAs nur setzen, wenn das Profil wirklich geprueft ist.",
+  "_comment": "Kuratierte Gaesteliste. Schluessel ist der Podigee-Slug aus pageUrl, nicht die Dateinummer, weil beide Nummerierungen auseinanderfallen. Nur belegte Namen und Zugehoerigkeiten eintragen. sameAs nur setzen, wenn das Profil wirklich geprueft ist. Namen bevorzugt aus dem Abschnitt '## Beschreibung' nehmen: die Transkripte kommen aus Whisper 'small' und verhauen Eigennamen zuverlaessig (Rodeweg statt Rodewig, Volksbaden statt Volkswagen).",
   "episodes": [
     {
       "episode": "5-boss-level-ki",
       "guests": [
-        { "name": "Dr. René Deist", "affiliation": "CIO und CDO a. D." }
+        {
+          "name": "Dr. René Deist",
+          "affiliation": "CIO und CDO a. D."
+        }
       ]
     },
     {
       "episode": "10-new-episode",
       "guests": [
-        { "name": "Dirk Beckmann", "affiliation": "artundweise, Bremen" }
+        {
+          "name": "Dirk Beckmann",
+          "affiliation": "artundweise, Bremen"
+        }
       ]
     },
     {
       "episode": "11-ki-schreibt-code-menschen-prufen-nach",
       "guests": [
-        { "name": "Klaus Rodewig", "affiliation": "Vorwerk" }
+        {
+          "name": "Klaus Rodewig",
+          "affiliation": "Vorwerk"
+        }
       ]
     },
     {
       "episode": "15-the-agentic-enterprise",
       "guests": [
-        { "name": "Dr. Martin Hofmann", "affiliation": "Group-CIO Volkswagen a. D." }
+        {
+          "name": "Dr. Martin Hofmann",
+          "affiliation": "Group-CIO Volkswagen a. D."
+        }
       ]
     },
     {
       "episode": "25-riverside-backup-video-thinkdifferent",
       "guests": [
-        { "name": "Martin Jäger" }
+        {
+          "name": "Martin Jäger",
+          "affiliation": "KI- und Automatisierungsberater, Huntercoach.de"
+        }
       ]
     },
     {
       "episode": "27-wie-ki-unser-arbeitsleben-verandert",
       "guests": [
-        { "name": "Klaus Rodewig", "affiliation": "Vorwerk" },
-        { "name": "Alexander Heusingfeld", "affiliation": "Vorwerk" }
+        {
+          "name": "Klaus Rodewig",
+          "affiliation": "Vorwerk"
+        },
+        {
+          "name": "Alexander Heusingfeld",
+          "affiliation": "Vorwerk"
+        }
       ]
     },
     {
       "episode": "34-agenten-ki-und-die-zukunft-der-softwareentwicklung",
       "guests": [
-        { "name": "Klaus Rodewig", "affiliation": "Vorwerk" },
-        { "name": "Alexander Heusingfeld", "affiliation": "Vorwerk" }
+        {
+          "name": "Klaus Rodewig",
+          "affiliation": "Vorwerk"
+        },
+        {
+          "name": "Alexander Heusingfeld",
+          "affiliation": "Vorwerk"
+        }
       ]
     },
     {
       "episode": "37-das-strategische-gold",
       "guests": [
-        { "name": "Dr. René Deist", "affiliation": "CIO und CDO a. D." }
+        {
+          "name": "Dr. René Deist",
+          "affiliation": "CIO und CDO a. D."
+        }
       ]
     },
     {
       "episode": "39-pm-2-0",
       "guests": [
-        { "name": "Markus Andrezak" }
+        {
+          "name": "Markus Andrezak",
+          "affiliation": "Überprodukt, Produkt- und Strategieberatung"
+        }
+      ]
+    },
+    {
+      "episode": "40-ai-und-legal",
+      "guests": [
+        {
+          "name": "Maximilian",
+          "affiliation": "Jurist, Schwerpunkt KI- und Datenrecht",
+          "_hinweis": "Nachname im gesamten Projekt nicht belegt. Vor Ergaenzung bei Mark erfragen."
+        }
       ]
     },
     {
       "episode": "42-dark-side-of-ai",
       "guests": [
-        { "name": "Thomas Lang", "affiliation": "IT-Security" }
+        {
+          "name": "Thomas Lang",
+          "affiliation": "IT-Security"
+        }
       ]
     },
     {
       "episode": "43-notion-uebernimmt",
       "guests": [
-        { "name": "Dirk Beckmann", "affiliation": "artundweise, Bremen" }
+        {
+          "name": "Dirk Beckmann",
+          "affiliation": "artundweise, Bremen"
+        }
       ]
     },
     {
       "episode": "46-vibe-consulting-bonus",
       "guests": [
-        { "name": "Prof. Dr. Volker Gruhn", "affiliation": "adesso SE und Universität Duisburg-Essen" },
-        { "name": "Stephan Kempf", "affiliation": "adesso mobile solutions" }
+        {
+          "name": "Prof. Dr. Volker Gruhn",
+          "affiliation": "adesso SE und Universität Duisburg-Essen"
+        },
+        {
+          "name": "Stephan Kempf",
+          "affiliation": "adesso mobile solutions"
+        }
       ]
     },
     {
       "episode": "49-wer-fuhrt-hier-eigentlich",
       "guests": [
-        { "name": "Dr. René Deist", "affiliation": "CIO und CDO a. D." }
+        {
+          "name": "Dr. René Deist",
+          "affiliation": "CIO und CDO a. D."
+        }
       ]
     }
   ]

@@ -1,0 +1,37 @@
+/* Grundlage für alle Seiten: Farbtokens der Marke und der Seitengrund.
+   Loest das fruehere styles.css ab, das zu 90 Prozent aus Regeln der abgeloesten
+   Single-Page-App bestand. Deren Klassennamen kollidierten teilweise mit den neuen
+   (.actions, .eyebrow), was zu schwer auffindbaren Ueberschreibungen gefuehrt haette. */
+
+:root {
+  --bg: #051a7a;
+  --bg-deep: #031052;
+  --panel: #071d8f;
+  --panel-strong: #0927ba;
+  --ink: #d8f8ff;
+  --muted: #83dff4;
+  --line: #34d4ff;
+  --accent: #ffcf24;
+  --accent-hot: #ff7a1a;
+  --accent-ink: #06145f;
+  --warn: #ffd35a;
+  --shadow: 8px 8px 0 rgba(0, 9, 70, 0.9);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    repeating-linear-gradient(0deg, rgba(92, 220, 255, 0.07) 0 2px, transparent 2px 8px),
+    repeating-linear-gradient(90deg, rgba(255, 207, 36, 0.08) 0 2px, transparent 2px 96px),
+    linear-gradient(135deg, #061eb0 0%, var(--bg) 42%, var(--bg-deep) 100%);
+  background-attachment: fixed;
+  color: var(--ink);
+  font-family: "Courier New", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+a { color: inherit; }
+
+img { max-width: 100%; }

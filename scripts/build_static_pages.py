@@ -33,6 +33,7 @@ DEFAULT_BASE_URL = "https://godmodeai2025.github.io/ThinkDifferentThinkAI"
 SERIES_NAME = "Think Different. Think AI."
 SERIES_URL = "https://think-ai.podigee.io/"
 FEED_URL = "https://think-ai.podigee.io/feed/mp3"
+SOURCE_REPO = "https://github.com/GodModeAI2025/ThinkDifferentThinkAI"
 
 HOSTS = [
     {"name": "Mark Zimmermann", "sameAs": "https://www.linkedin.com/in/mark-zimmermann-5a005123/"},
@@ -88,60 +89,73 @@ TOPICS = [
         "name": "KI-Agenten",
         "intro": "Agenten handeln, statt nur zu antworten. Diese Folgen behandeln Agent-Harnesses, "
                  "MCP als Schnittstelle, Multi-Agenten-Setups und die Frage, wer sie eigentlich fuehrt.",
-        "keywords": ["agent", "agentic", "mcp", "harness", "orchestr", "openclaw", "clawdbot", "multiagent"],
+        "keywords": ["agent harness", "harness", "mcp", "multiagent", "multi-agent", "agent client protocol", "openclaw", "clawdbot", "orchestrier", "agentic", "loop engineering", "agentennetz", "kill-switch", "guardrail", "kiagent", "ki-agent"],
     },
     {
         "slug": "ki-sicherheit",
         "name": "KI-Sicherheit",
         "intro": "Prompt Injection, Voice Cloning, Exploits aus Sicherheitspatches: Was passiert, wenn "
                  "man einem Modell Rechte gibt, und wie Angriffe darauf konkret aussehen.",
-        "keywords": ["prompt injection", "sicherheit", "security", "angriff", "exploit", "deepfake",
-                     "malware", "schadsoftware", "cyber", "threat", "phishing", "voice cloning"],
+        "keywords": ["prompt injection", "voice cloning", "deepfake", "exploit", "schadsoftware", "malware", "angriffsflaeche", "angriffsfläche", "ceo-fraud", "social engineering", "darknet", "sandbox", "threat model", "pentest", "backdoor", "sicherheitsluecke", "sicherheitslücke", "phishing", "betrug"],
     },
     {
         "slug": "automatisierung-und-tools",
         "name": "Automatisierung und Tools",
         "intro": "Notion, n8n, Workflows und die Werkzeuge dahinter. Folgen darueber, wie aus einer "
                  "Notiz ein Ticket, eine Folie und ein Post wird.",
-        "keywords": ["notion", "n8n", "workflow", "automatis", "worker", "make ", "zapier", "tool"],
+        "keywords": ["notion", "n8n", "zapier", "workflow", "worker", "trigger", "building block", "automatisierung", "werkzeugkette", "integration"],
     },
     {
         "slug": "recht-und-regulierung",
         "name": "Recht und Regulierung",
         "intro": "AI Act, Datenschutz und Haftung. Wer verantwortet, was ein Agent tut, und was "
                  "Datenschutz tatsaechlich erlaubt.",
-        "keywords": ["ai act", "dsgvo", "datenschutz", "jurist", "haftung", "recht", "compliance", "regulier"],
+        "keywords": ["ai act", "dsgvo", "datenschutz", "jurist", "haftung", "rechtsgut", "compliance", "gesetzgeb", "anwalt", "urteil", "verordnung", "betreiber", "regulierung"],
     },
     {
         "slug": "robotik",
         "name": "Robotik",
         "intro": "KI bekommt einen Koerper. Humanoide, Teleoperation und der Abstand zwischen "
                  "Werbevideo und Wohnzimmer.",
-        "keywords": ["roboter", "robotik", "humanoid", "optimus", "boston dynamics", "atlas", "teleoperation"],
+        "keywords": ["roboter", "robotik", "humanoid", "optimus", "boston dynamics", "teleoperation", "greifer", "saugroboter", "droide"],
     },
     {
         "slug": "wissensmanagement",
         "name": "Wissensmanagement",
         "intro": "Second Brain, RAG, Ontologien und portable Skills. Wie Wissen ausserhalb des "
                  "Modells liegen bleibt und trotzdem auffindbar ist.",
-        "keywords": ["second brain", "obsidian", "rag", "wissensmanagement", "exokortex", "ontologie",
-                     "vault", "skill"],
+        "keywords": ["second brain", "obsidian", "retrieval", "ontologie", "vault", "exokortex", "wissensspeicher", "digest", "kuration", "notizen", "transkript", "skill"],
     },
     {
         "slug": "softwareentwicklung",
         "name": "Softwareentwicklung",
         "intro": "Vibe Coding, Spec-Driven Development und Agenten, die committen. Was sich in der "
                  "taeglichen Entwicklungsarbeit tatsaechlich veraendert hat.",
-        "keywords": ["vibe coding", "claude code", "softwareentwicklung", "entwickler", "coding",
-                     "programmier", "codex", "commit", "spec-driven"],
+        "keywords": ["vibe coding", "claude code", "spec-driven", "refactor", "commit", "pull request", "codebasis", "softwareentwicklung", "entwickler", "testcase", "adr", "programmier", "code"],
+    },
+    {
+        "slug": "modelle-und-anbieter",
+        "name": "Modelle und Anbieter",
+        "intro": "Wer welches Modell baut, was es kostet und wer es benutzen darf. Von offenen "
+                 "Gewichten aus China ueber Tokenrechnungen bis zu dem Tag, an dem ein Modell fuer "
+                 "Nicht-US-Buerger gesperrt wurde und Kanzleien ihre Textanalyse schon darauf "
+                 "gebaut hatten.",
+        "keywords": ["open weights", "offene gewichte", "kimi", "moonshot", "deepseek", "exportkontrolle", "gesperrt", "souveraenitaet", "souveränität", "frontier", "benchmark", "lizenz", "modellauswahl", "destillation", "parameter", "anbieter", "abo"],
+    },
+    {
+        "slug": "interfaces-und-interaktion",
+        "name": "Interfaces und Interaktion",
+        "intro": "Wie man mit etwas arbeitet, das nicht antwortet wie ein Programm. Wartezeit als "
+                 "Designfrage, Sprache statt Bildschirm, Browser als Agent, und die Frage, wie ein "
+                 "Mensch mehrere Agenten gleichzeitig im Blick behaelt.",
+        "keywords": ["interface", "oberflaeche", "oberfläche", "voice first", "sprachsteuerung", "chatfenster", "wartezeit", "ladebalken", "smart glasses", "temporal ux", "bedienkonzept", "usability", "browser", "sprachassistent"],
     },
     {
         "slug": "fuehrung-und-arbeit",
         "name": "Fuehrung und Arbeit",
         "intro": "Was mit Organisationen passiert, wenn Agenten Teil des Teams werden. Hierarchien, "
                  "Verantwortung und die Frage, wo Berufsanfaenger noch lernen.",
-        "keywords": ["fuehrung", "führung", "leadership", "organisation", "arbeitswelt", "hierarchie",
-                     "mitarbeiter", "cio", "management", "new work", "produktmanagement"],
+        "keywords": ["fuehrung", "führung", "hierarchie", "org-chart", "organigramm", "mitarbeitende", "new work", "berufsanfaenger", "berufsanfänger", "teamstruktur", "produktmanagement", "cio", "organisation", "arbeitswelt"],
     },
 ]
 
@@ -337,18 +351,48 @@ def collect_episodes(manifest_path: Path, repo_root: Path) -> list[dict]:
 # --------------------------------------------------------------------------- topics & guests
 
 def assign_topics(episode: dict) -> list[dict]:
-    haystack = " ".join([
-        episode["title"],
-        episode["de"]["description"],
-        " ".join(l["text"] for l in episode["de"]["lines"][:80]),
-    ]).lower()
+    """Themen zuordnen.
+
+    Vier Punkte, an denen die erste Fassung falsch lag:
+
+    1. Ohne Wortgrenzen gesucht. "rag" traf auf Frage, tragen und Auftrag, "recht" auf
+       das Adverb. Wissensmanagement wurde dadurch zum Auffangbecken.
+    2. Nur die ersten 80 Transkriptzeilen gelesen. Folge 012 hat ihre besten
+       Haftungsfaelle bei Minute 7 und 28 und fiel deshalb durch.
+    3. Absolute Trefferzahlen gezaehlt, was lange Folgen bevorzugt. Jetzt Dichte je
+       1000 Woerter, gedeckelt.
+    4. Stichwoerter beschrieben das Vokabular der Sendung statt zu unterscheiden.
+       "agent", "openai" und "token" fallen in fast jeder Folge; damit standen 40 von
+       52 Folgen unter demselben Cluster. Die Listen nennen jetzt nur, was ein Thema
+       tatsaechlich von den anderen abgrenzt.
+
+    Das staerkste Thema bekommt jede Folge, damit keine ohne Einordnung bleibt.
+    Ein zweites oder drittes nur, wenn es mindestens 55 Prozent des Spitzenwerts
+    erreicht.
+    """
+    titel = episode["title"].lower()
+    beschreibung = episode["de"]["description"].lower()
+    volltext = " ".join(l["text"] for l in episode["de"]["lines"]).lower()
+    je_tausend = max(1.0, len(volltext.split()) / 1000)
+
     scored = []
     for topic in TOPICS:
-        score = sum(haystack.count(k) for k in topic["keywords"])
+        im_titel = in_besch = im_text = 0
+        for kw in topic["keywords"]:
+            muster = re.compile(r"(?<!\w)" + re.escape(kw) + r"\w*", re.I) if " " not in kw \
+                else re.compile(re.escape(kw), re.I)
+            im_titel += len(muster.findall(titel))
+            in_besch += len(muster.findall(beschreibung))
+            im_text += len(muster.findall(volltext))
+        score = im_titel * 30 + in_besch * 6 + min(im_text / je_tausend, 25)
         if score:
             scored.append((score, topic))
+
+    if not scored:
+        return []
     scored.sort(key=lambda x: (-x[0], x[1]["slug"]))
-    return [t for _, t in scored[:3]]
+    best = scored[0][0]
+    return [scored[0][1]] + [tp for s, tp in scored[1:3] if s >= 0.55 * best]
 
 
 def load_guests(path: Path) -> dict:
@@ -391,7 +435,7 @@ def page_shell(*, lang: str, title: str, description: str, canonical: str, alter
     <meta name="twitter:title" content="{esc(title)}">
     <meta name="twitter:description" content="{esc(description)}">
     <meta name="twitter:image" content="{esc(image)}">
-    <link rel="stylesheet" href="{up}styles.css">
+    <link rel="stylesheet" href="{up}base.css">
     <link rel="stylesheet" href="{up}transcript.css">
 {ld}
   </head>
@@ -470,9 +514,11 @@ def render_episode_page(episode: dict, lang: str, base_url: str, *, prev_ep, nex
         )
         topic_html = f'<p class="doc-chips"><b>{esc(t["topics"])}</b> {items}</p>'
 
+    # Auf die Quelldatei im Repo verlinken statt auf eine Kopie im Auslieferungsordner.
+    # Das spart rund 6 MB verdoppelte Markdown-Dateien und haelt docs/ frei von Rohmaterial.
     # Die Dateinamen enthalten Leerzeichen, & und ! — ohne Kodierung bricht der Link.
     md_dir = "transkripte" if lang == "de" else "transkripte-en"
-    md_link = f"{up}{md_dir}/{quote(episode['file_stem'] + '.md')}"
+    md_link = f"{SOURCE_REPO}/blob/main/{md_dir}/{quote(episode['file_stem'] + '.md')}"
 
     # --- zitierfaehiger Vorspann
     lead_html = f'<p class="doc-lead">{esc(lead)}</p>' if lead else ""
@@ -660,19 +706,12 @@ def build(site_dir: Path, repo_root: Path, base_url: str) -> dict:
         if target.exists():
             shutil.rmtree(target)
 
-    # Markdown mit ausliefern: die SPA laedt es zur Laufzeit nach, und die
-    # Folgenseiten verlinken darauf. GitHub Pages sieht nur docs/, deshalb muessen
-    # die Dateien hier liegen. Frueher hat das der Workflow kopiert.
-    for src_name, dest_name in (("transkripte", "transkripte"), ("transkripte-en", "transkripte-en")):
-        src = repo_root / src_name
-        dest = site_dir / dest_name
-        if not src.is_dir():
-            continue
-        if dest.exists():
-            shutil.rmtree(dest)
-        dest.mkdir(parents=True, exist_ok=True)
-        for md in src.glob("*.md"):
-            shutil.copy2(md, dest / md.name)
+    # Rohmarkdown wird bewusst NICHT nach docs/ kopiert. Die Folgenseiten verlinken
+    # auf die Quelldatei im Repo. Alte Kopien aus frueheren Staenden aufraeumen.
+    for veraltet in ("transkripte", "transkripte-en"):
+        alt_ordner = site_dir / veraltet
+        if alt_ordner.exists():
+            shutil.rmtree(alt_ordner)
 
     urls = []
     written = 0
@@ -788,28 +827,77 @@ def build(site_dir: Path, repo_root: Path, base_url: str) -> dict:
     written += 1
     urls.append({"loc": canonical, "lastmod": None, "alts": []})
 
-    # ---- Folgenliste in die Startseite einsetzen
+    # ---- Datenblöcke in die Landingpage einsetzen
+    #
+    # Die Landingpage ist ein eigenstaendiges, von Hand gestaltetes Artefakt. Erzeugt
+    # werden hier ausschliesslich die Daten zwischen den Markern, nie die Gestaltung.
     index_path = site_dir / "index.html"
     if index_path.exists():
-        start = "<!-- EPISODE-INDEX:START"
-        end = "<!-- EPISODE-INDEX:END -->"
         text = index_path.read_text(encoding="utf-8")
-        s = text.find(start)
-        e = text.find(end)
-        if s != -1 and e != -1:
-            s_end = text.find("-->", s) + 3
-            items = []
-            for ep in reversed(episodes):
-                date = human_date(ep["published"], "de")
-                en = (f' <a class="alt" href="en/{esc(ep["slug"])}/" '
-                      f'aria-label="{esc(ep["title"])} in English">EN</a>') if ep["en"] else ""
-                items.append(
-                    f'<li><a href="de/{esc(ep["slug"])}/">{esc(ep["title"])}</a>'
-                    f'<span>{esc(date)}</span>{en}</li>'
-                )
-            block = "\n          <ul>\n            " + "\n            ".join(items) + "\n          </ul>\n          "
-            index_path.write_text(text[:s_end] + block + text[e:], encoding="utf-8")
-            written += 1
+
+        # Kennzahlen
+        sekunden = sum(int(float(e["duration"])) for e in episodes if str(e["duration"]).strip().isdigit())
+        woerter = sum(len(l["text"].split()) for e in episodes for l in e["de"]["lines"])
+        volltexte = sum(1 for e in episodes) + sum(1 for e in episodes if e["en"])
+        stats = [
+            (f"{len(episodes)}", "Folgen im Volltext"),
+            (f"{sekunden // 3600}", "Stunden Audio"),
+            (f"{woerter // 1000}.000+", "gesprochene Wörter"),
+            (f"{volltexte}", "Transkripte, DE und EN"),
+        ]
+        stats_html = ("\n          <ul>\n"
+                      + "".join(f"            <li><b>{esc(w)}</b><span>{esc(l)}</span></li>\n"
+                                for w, l in stats)
+                      + "          </ul>\n          ")
+
+        # Folgenliste
+        eintraege = []
+        for ep in reversed(episodes):
+            datum = human_date(ep["published"], "de")
+            dauer = human_duration(ep["duration"], "de")
+            en = (f'<a class="alt" href="en/{esc(ep["slug"])}/">EN</a>') if ep["en"] else ""
+            meta = f'<span class="meta"><span>{esc(datum)}</span><span>{esc(dauer)}</span>{en}</span>'
+            eintraege.append(f'<li><a href="de/{esc(ep["slug"])}/"><b>{esc(ep["title"])}</b>{meta}</a></li>')
+        eps_html = ('\n          <ul class="lp-eps">\n            '
+                    + "\n            ".join(eintraege) + "\n          </ul>\n          ")
+
+        # Themen
+        themen = []
+        for topic in TOPICS:
+            anzahl = sum(1 for e in episodes if any(x["slug"] == topic["slug"] for x in e["topics"]))
+            if not anzahl:
+                continue
+            themen.append(f'<li><a href="themen/{esc(topic["slug"])}/">'
+                          f'<strong>{esc(topic["name"])}</strong>'
+                          f'<span>{esc(topic["intro"])}</span>'
+                          f'<span class="meta">{anzahl} Folgen</span></a></li>')
+        topics_html = ('\n          <ul class="lp-topics">\n            '
+                       + "\n            ".join(themen) + "\n          </ul>\n          ")
+
+        # Gaeste
+        gaeste = {}
+        for ep in episodes:
+            for g in ep["guests"]:
+                gaeste.setdefault(g["slug"], {"name": g["name"], "n": 0})["n"] += 1
+        chips = "".join(
+            f'<li><a href="gaeste/{esc(slug)}/"><strong>{esc(d["name"])}</strong>'
+            f'<span class="meta">{d["n"]} {"Folge" if d["n"] == 1 else "Folgen"}</span></a></li>'
+            for slug, d in sorted(gaeste.items(), key=lambda kv: kv[1]["name"]))
+        guests_html = ('\n          <ul class="lp-topics lp-guests">\n            ' + chips
+                       + '\n          </ul>\n          <p class="prose" style="margin-top:18px">'
+                       + '<a class="lp-btn ghost" href="gaeste/">Alle Gäste</a></p>\n          ')
+
+        for marker, block in (("STATS", stats_html), ("EPISODE-INDEX", eps_html),
+                              ("TOPICS", topics_html), ("GUESTS", guests_html)):
+            start = text.find(f"<!-- {marker}:START")
+            ende = text.find(f"<!-- {marker}:END -->")
+            if start == -1 or ende == -1:
+                continue
+            start_ende = text.find("-->", start) + 3
+            text = text[:start_ende] + block + text[ende:]
+
+        index_path.write_text(text, encoding="utf-8")
+        written += 1
 
     # ---- Startseite in die Sitemap
     urls.insert(0, {"loc": f"{base_url}/", "lastmod": datetime.now(timezone.utc).date().isoformat(), "alts": []})
