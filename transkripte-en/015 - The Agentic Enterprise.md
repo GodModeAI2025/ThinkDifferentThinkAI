@@ -580,15 +580,15 @@ The Book: https://novagentica.com/
 
 **[00:19:01]** I am currently writing in the book and one of my chapters, I love it too,
 
->**[00:19:06]** the Ancient Factory. And that is a concept. The idea is simply to use this curiosity to
+**[00:19:06]** the Ancient Factory. And that is a concept. The idea is simply to use this curiosity to
 
->**[00:19:12]** take employees and assign them the task of designing the agents themselves.
+**[00:19:12]** take employees and assign them the task of designing the agents themselves.
 
->**[00:19:17]** How do I do that? It's a studio. It's a small space, a virtual space.
+**[00:19:17]** How do I do that? It's a studio. It's a small space, a virtual space.
 
->**[00:19:24]** And in there are IT people along with the business people, and I also say to include HR people
+**[00:19:24]** And in there are IT people along with the business people, and I also say to include HR people
 
->**[00:19:29]** as well. And a cross-functional team. And they build the agents themselves. And actually
+**[00:19:29]** as well. And a cross-functional team. And they build the agents themselves. And actually
 
 **[00:19:35]** in the first step, they describe what the agent is supposed to achieve. It should always book the cheapest
  

@@ -23,11 +23,15 @@ import html
 import json
 import re
 import shutil
+import sys
 import unicodedata
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from urllib.parse import quote
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import blog  # noqa: E402  (liegt neben dieser Datei)
 
 DEFAULT_BASE_URL = "https://godmodeai2025.github.io/ThinkDifferentThinkAI"
 SERIES_NAME = "Think Different. Think AI."
@@ -453,12 +457,20 @@ def page_shell(*, lang: str, title: str, description: str, canonical: str, alter
 """
 
 
+# Wird im Build gesetzt: In welchen Sprachen existiert der Blog ueberhaupt.
+# Ohne das verlinkt die Kopfleiste auf eine Seite, die es nicht gibt.
+BLOG_SPRACHEN: set[str] = set()
+
+
 def render_nav(up: str, t: dict, lang: str) -> str:
     """Kopfleiste. Deutsch liegt im Wurzelverzeichnis, Englisch unter en/."""
     wurzel = up if lang == "de" else f"{up}en/"
     home = f"{wurzel}index.html"
     themen = f"{wurzel}{'themen' if lang == 'de' else 'topics'}/index.html"
     gaeste = f"{wurzel}{'gaeste' if lang == 'de' else 'guests'}/index.html"
+    blog_eintrag = (f'        <a href="{wurzel}blog/index.html">'
+                    f"{esc('Fachartikel' if lang == 'de' else 'Articles')}</a>\n"
+                    if lang in BLOG_SPRACHEN else "")
     return f"""    <header class="doc-top">
       <a class="doc-brand" href="{home}">
         <span class="doc-brand-name">{esc(SERIES_NAME)}</span>
@@ -468,7 +480,7 @@ def render_nav(up: str, t: dict, lang: str) -> str:
         <a href="{home}">{esc(t['back'])}</a>
         <a href="{themen}">{esc('Themen' if lang == 'de' else 'Topics')}</a>
         <a href="{gaeste}">{esc('Gäste' if lang == 'de' else 'Guests')}</a>
-        <a href="{esc(SERIES_URL)}" rel="noreferrer">Podcast</a>
+{blog_eintrag}        <a href="{esc(SERIES_URL)}" rel="noreferrer">Podcast</a>
       </nav>
     </header>
 """
@@ -580,6 +592,13 @@ def render_episode_page(episode: dict, lang: str, base_url: str, *, prev_ep, nex
                      f'<span>{esc(t["next"])}</span><b>{esc(next_title)}</b></a>')
     pager_html = f'<nav class="doc-pager">{"".join(pager)}</nav>' if pager else ""
 
+    # Fachartikel zur Folge, sofern es ihn in dieser Sprache gibt
+    artikel_btn = ""
+    if episode.get(f"article_{lang}"):
+        wort = "Fachartikel lesen" if lang == "de" else "Read the article"
+        artikel_btn = (f'<a class="btn art-btn" href="{up}{"blog" if lang == "de" else "en/blog"}'
+                       f'/{esc(episode["slug"])}/">{esc(wort)}</a>')
+
     body = f"""{render_nav(up, t, lang)}
     <main class="doc-main">
       <article>
@@ -604,6 +623,7 @@ def render_episode_page(episode: dict, lang: str, base_url: str, *, prev_ep, nex
           <p class="doc-actions">
             <a class="btn" href="{esc(episode['page_url'])}" rel="noreferrer">{esc(t['listen'])}</a>
             <a class="btn ghost" href="{md_link}">{esc(t['markdown'])}</a>
+            {artikel_btn}
           </p>
         </section>
 
@@ -738,7 +758,24 @@ def build(site_dir: Path, repo_root: Path, base_url: str) -> dict:
         _tp["name_en"] = _u.get("name") or _tp["name"]
         _tp["intro_en"] = _u.get("intro") or _tp["intro"]
 
+    # Fachartikel zur Folge, je Sprache. Der Dateiname ist der Episoden-Slug,
+    # damit Artikel und Folgenseite ohne Umweg zueinander finden.
+    artikel = {"de": {}, "en": {}}
+    for lang, ordner in (("de", "artikel"), ("en", "artikel-en")):
+        quelle = repo_root / ordner
+        if not quelle.exists():
+            continue
+        for datei in sorted(quelle.glob("*.md")):
+            a = blog.parse_article(datei)
+            if a:
+                artikel[lang][a["slug"]] = a
+
+    global BLOG_SPRACHEN
+    BLOG_SPRACHEN = {l for l in ("de", "en") if artikel[l]}
+
     for ep in episodes:
+        for lang in ("de", "en"):
+            ep[f"article_{lang}"] = ep["slug"] in artikel[lang]
         ep["has_video"] = (site_dir / "videos" / f"{ep['slug']}.mp4").exists()
         ep["topics"] = assign_topics(ep)
         entry = guests_map.get(ep["slug"], {})
@@ -749,7 +786,7 @@ def build(site_dir: Path, repo_root: Path, base_url: str) -> dict:
     # Alte generierte Ordner entfernen, damit nichts verwaist stehen bleibt.
     # In en/ liegt aber auch die englische Landingpage, und die ist ein von Hand
     # gepflegtes Artefakt wie die deutsche. Deshalb dort nur die Unterordner raeumen.
-    for folder in ("de", "themen", "gaeste"):
+    for folder in ("de", "themen", "gaeste", "blog"):
         target = site_dir / folder
         if target.exists():
             shutil.rmtree(target)
@@ -787,6 +824,117 @@ def build(site_dir: Path, repo_root: Path, base_url: str) -> dict:
                 "lastmod": (ep["published"].date().isoformat() if ep["published"] else None),
                 "alts": [(l, f"{base_url}/{l}/{ep['slug']}/") for l in ("de", "en") if ep[l] is not None],
             })
+
+    # ---- Blog: die Fachartikel zu den Folgen
+    #
+    # Reihenfolge wie die Folgenliste, also neueste zuerst. Der Slug ist der
+    # Episoden-Slug, damit /blog/<slug>/ und /de/<slug>/ zusammengehoeren und
+    # die hreflang-Paare aufgehen.
+    blog_urls = []
+    for lang in ("de", "en"):
+        vorhanden = [ep for ep in reversed(episodes) if ep[f"article_{lang}"]]
+        if not vorhanden:
+            continue
+        ordner = "blog" if lang == "de" else "en/blog"
+        tiefe = 1 if lang == "de" else 2
+        auf = "../" * tiefe
+        st = blog.STRINGS[lang]
+        nav = render_nav(auf, STRINGS[lang], lang)
+
+        eintraege = []
+        for ep in vorhanden:
+            a = dict(artikel[lang][ep["slug"]])
+            a["datum"] = (ep["published"].strftime("%d.%m.%Y" if lang == "de" else "%d %b %Y")
+                          if ep["published"] else "")
+            a["_ep"] = ep
+            eintraege.append(a)
+
+        # Uebersichtsseite
+        idx_body = blog.index_body(
+            eintraege, lang=lang, nav=nav,
+            bild_pfad=lambda a: (f'{auf}artikelbilder/{a["slug"]}.jpg'
+                                 if (site_dir / "artikelbilder" / f'{a["slug"]}.jpg').exists() else ""),
+            href=lambda a: f'{a["slug"]}/',
+        )
+        idx_can = f"{base_url}/{ordner}/"
+        idx_alts = [(l, f"{base_url}/{'blog' if l == 'de' else 'en/blog'}/")
+                    for l in ("de", "en")
+                    if any(ep[f"article_{l}"] for ep in episodes)]
+        write(site_dir / ordner / "index.html", page_shell(
+            lang=lang, title=f"{st['blog_title']} — {SERIES_NAME}",
+            description=st["blog_intro"], canonical=idx_can, alternates=idx_alts,
+            image=f"{base_url}/artikelbilder/{eintraege[0]['slug']}.jpg",
+            body=idx_body, depth=tiefe, page_type="website",
+            jsonld=[{
+                "@context": "https://schema.org", "@type": "Blog",
+                "name": f"{st['blog_title']} — {SERIES_NAME}",
+                "url": idx_can, "inLanguage": lang,
+                "description": st["blog_intro"],
+                "blogPost": [{"@type": "BlogPosting", "headline": a["titel"],
+                              "url": f"{idx_can}{a['slug']}/"} for a in eintraege[:20]],
+            }],
+        ))
+        written += 1
+        blog_urls.append({"loc": idx_can,
+                          "lastmod": datetime.now(timezone.utc).date().isoformat(),
+                          "alts": idx_alts})
+
+        # Artikelseiten liegen eine Ebene tiefer als die Uebersicht (blog/<slug>/),
+        # brauchen also einen eigenen Weg zum Wurzelverzeichnis.
+        auf_a = "../" * (tiefe + 1)
+        for i, a in enumerate(eintraege):
+            ep = a["_ep"]
+            bild_rel = f'{auf_a}artikelbilder/{a["slug"]}.jpg'
+            hat_bild = (site_dir / "artikelbilder" / f'{a["slug"]}.jpg').exists()
+            andere = "en" if lang == "de" else "de"
+            wechsel = ((blog.STRINGS[lang]["switch"],
+                        f'{auf_a}{"en/blog" if lang == "de" else "blog"}/{a["slug"]}/')
+                       if ep[f"article_{andere}"] else None)
+            vor = eintraege[i - 1] if i > 0 else None
+            nach = eintraege[i + 1] if i + 1 < len(eintraege) else None
+
+            can = f"{base_url}/{ordner}/{a['slug']}/"
+            alts = [(l, f"{base_url}/{'blog' if l == 'de' else 'en/blog'}/{a['slug']}/")
+                    for l in ("de", "en") if ep[f"article_{l}"]]
+            body = blog.artikel_body(
+                a, lang=lang, up=auf_a, nav=render_nav(auf_a, STRINGS[lang], lang),
+                bild=bild_rel if hat_bild else "",
+                folge_href=f'{auf_a}{lang}/{a["slug"]}/',
+                folge_titel=ep["title"] if lang == "de" else ep["en_title"],
+                datum=a["datum"], wechsel=wechsel,
+                prev_a=(vor["titel"], f'../{vor["slug"]}/') if vor else None,
+                next_a=(nach["titel"], f'../{nach["slug"]}/') if nach else None,
+            )
+            write(site_dir / ordner / a["slug"] / "index.html", page_shell(
+                lang=lang, title=f'{a["titel"]} — {SERIES_NAME}',
+                description=meta_description(a["teaser"] or a["titel"]),
+                canonical=can, alternates=alts,
+                image=f'{base_url}/artikelbilder/{a["slug"]}.jpg' if hat_bild else f"{base_url}/",
+                body=body, depth=tiefe + 1, page_type="article",
+                jsonld=[{
+                    "@context": "https://schema.org", "@type": "BlogPosting",
+                    "headline": a["titel"], "description": a["teaser"],
+                    "url": can, "inLanguage": lang,
+                    "datePublished": ep["published"].date().isoformat() if ep["published"] else None,
+                    "wordCount": a["woerter"],
+                    "image": f'{base_url}/artikelbilder/{a["slug"]}.jpg' if hat_bild else None,
+                    "author": [{"@type": "Person", "name": n.strip()}
+                               for n in (a["autor"] or "Mark Zimmermann").replace(" und ", " and ").split(" and ")],
+                    "publisher": {"@type": "Organization", "name": SERIES_NAME},
+                    "isPartOf": {"@type": "Blog", "name": f"{st['blog_title']} — {SERIES_NAME}",
+                                 "url": idx_can},
+                    "about": {"@type": "PodcastEpisode", "name": ep["title"],
+                              "url": f"{base_url}/{lang}/{a['slug']}/"},
+                    "mainEntityOfPage": can,
+                }],
+            ))
+            written += 1
+            blog_urls.append({
+                "loc": can,
+                "lastmod": ep["published"].date().isoformat() if ep["published"] else None,
+                "alts": alts,
+            })
+    urls.extend(blog_urls)
 
     # ---- Themen- und Gaesteseiten, zweisprachig
     #
@@ -1046,7 +1194,31 @@ def build(site_dir: Path, repo_root: Path, base_url: str) -> dict:
         guests_html = ('\n          <ul class="lp-guests">\n            '
                        + "\n            ".join(chips) + "\n          </ul>\n          ")
 
+        # Blog: die sechs neuesten Fachartikel als Kacheln
+        blog_html = ""
+        neueste = [ep for ep in reversed(episodes) if ep[f"article_{L}"]][:6]
+        if neueste:
+            kacheln = []
+            for ep in neueste:
+                a = artikel[L][ep["slug"]]
+                bild = f'{auf}artikelbilder/{ep["slug"]}.jpg'
+                hat = (site_dir / "artikelbilder" / f'{ep["slug"]}.jpg').exists()
+                nr = re.match(r"(\d+)", ep["slug"])
+                wort = "Folge" if L == "de" else "Episode"
+                ziel = f'{auf}{"blog" if L == "de" else "en/blog"}/{esc(ep["slug"])}/'
+                kacheln.append(
+                    f'<li class="ar"><a class="ar-link" href="{ziel}">'
+                    + (f'<img class="ar-img" src="{esc(bild)}" alt="" loading="lazy" '
+                       f'width="1200" height="644">' if hat else "")
+                    + f'<span class="ar-kick">{wort} {esc(nr.group(1) if nr else "")} · '
+                      f'{a["lesezeit"]} {"Min" if L == "de" else "min"}</span>'
+                    + f'<span class="ar-t">{esc(a["titel"])}</span></a></li>')
+            blog_html = ('\n          <ul class="lp-artikel-liste">\n            '
+                         + "\n            ".join(kacheln)
+                         + '\n          </ul>\n          ')
+
         for marker, block in (("STATS", stats_html), ("EPISODE-INDEX", eps_html),
+                              ("BLOG", blog_html),
                               ("TOPICS", topics_html), ("GUESTS", guests_html)):
             s = text.find(f"<!-- {marker}:START")
             e = text.find(f"<!-- {marker}:END -->")
@@ -1098,6 +1270,16 @@ def build(site_dir: Path, repo_root: Path, base_url: str) -> dict:
     for ep in reversed(episodes):
         date = ep["published"].date().isoformat() if ep["published"] else ""
         llms.append(f"- [{ep['title']}]({base_url}/de/{ep['slug']}/) — {date}")
+    # Die Fachartikel sind redaktionelle Texte, keine Transkripte. Ein eigener
+    # Abschnitt, damit ein Modell beides nicht durcheinanderbringt.
+    if artikel["de"]:
+        llms += ["", "## Fachartikel", "",
+                 "Je Folge ein redaktioneller Fachartikel im Stil der Heise-Magazine. "
+                 "Das sind eingeordnete Texte, keine Wortprotokolle.", ""]
+        for ep in reversed(episodes):
+            if ep["article_de"]:
+                a = artikel["de"][ep["slug"]]
+                llms.append(f"- [{a['titel']}]({base_url}/blog/{ep['slug']}/)")
     write(site_dir / "llms.txt", "\n".join(llms) + "\n")
 
     return {"episodes": len(episodes), "pages": written, "urls": len(urls),

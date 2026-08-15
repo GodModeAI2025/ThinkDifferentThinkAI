@@ -550,7 +550,7 @@ https://arxiv.org/abs/2603.01213
 
 **[00:20:42]** the AI agents, gradually contaminating the whole network of AI agents.
 
-**[00:20:47]**
+**[00:20:47]** spoil it.
 
 **[00:20:48]** Yes, that's another topic, which means, how great, you know, last episode,
 
@@ -774,7 +774,7 @@ https://arxiv.org/abs/2603.01213
 
 **[00:29:45]** to discuss with an AI agent first before implementing it into an app ID or something else and then saying how we could now
 
-**[00:29:50]**
+**[00:29:50]** in an app ID or something else, and then to ask, how could we now
 
 **[00:29:54]** for example, automate better?
 
@@ -1422,7 +1422,7 @@ https://arxiv.org/abs/2603.01213
 
 **[00:54:20]** about what will happen this year, what a Plan A could still be this year.
 
-**[00:54:24]**
+**[00:54:24]** can be.
 
 **[00:54:25]** I can really only have as many Plan Bs as possible that don’t hurt when you
 

@@ -695,7 +695,7 @@ https://huggingface.co/
 
 **[00:23:04]** okay, everything has to be tailored specifically to this manufacturer, but instead
 
-**[00:23:10]**
+**[00:23:10]** okay, everything here has to be tailored very specifically to this vendor, but instead
 
 **[00:23:13]** mcp-first, skill databases, Markdown-based documents and not always from Word and
  

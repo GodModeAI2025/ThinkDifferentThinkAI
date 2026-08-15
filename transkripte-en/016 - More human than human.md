@@ -796,7 +796,7 @@ https://de.wikipedia.org/wiki/Neuromancer
 
 **[00:32:33]** already conduct the Void test with me and try not just to understand through the text what the tooling test could indicate, whether I am a human, but also to get into my
 
-**[00:32:38]**
+**[00:32:38]** understand, which the Turing test could only do through the text, whether I'm a human, but also to look me
 
 **[00:32:45]** could look at the face and analyze it, if necessary, whether it's an AI or not
 

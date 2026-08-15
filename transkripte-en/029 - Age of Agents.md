@@ -1318,7 +1318,7 @@ https://x.com/idosal1/status/2021661865588535599?s=46
 
 **[00:49:55]** had to connect two computers with a serial cable, and we played Doom there.
 
-**[00:50:00]**
+**[00:50:00]** we played Doom.
 
 **[00:50:01]** And if you know what Doom is, you look it up on Google, it was cool back then, today you would
 

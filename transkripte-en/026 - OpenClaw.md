@@ -484,9 +484,13 @@ Jens and I talk about how these new agents not only automate tasks but also crea
 
 +**[00:16:52]** so that they can exchange information with each other.
 
+**[00:16:52]** so that they exchange knowledge among themselves.
+
 **[00:16:54]** And that's funny, you know, because I mean, I naturally gave him the
 
 +**[00:16:58]** link. It’s not, let’s say, I want to post how I do privately, in a way. 
+
+**[00:16:58]** give links. It's not, let's say, posting the way I do privately, along the lines of
 
 **[00:17:03]** I have to realize myself here or something. But it's funny to see that
 

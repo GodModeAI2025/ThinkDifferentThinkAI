@@ -211,11 +211,11 @@ Breaks are allowed. Vibe coding has an addictive factor.
  
 **[00:05:27]** addressed, this new model didn’t have a specifically optimized version for programming yet.
  
-**[00:05:32]**
+**[00:05:32]** optimised version.
  
 **[00:05:33]** Long story short, Opus refused to solve my problem for hours.
  
-**[00:05:42]**
+**[00:05:42]** to solve.
  
 **[00:05:43]** I take it personally.
  

@@ -520,6 +520,8 @@ https://de.wikipedia.org/wiki/Raumpatrouille%E2%80%93DiephantastischenAbenteuerd
 
 + **[00:20:12]** who are currently active in fields like healthcare and are doing good things.
 
+**[00:20:12]** who are currently working in areas like healthcare and such, and are doing really good things there.
+
 **[00:20:17]** So yes, they have had something like this for dementia patients for a while, like a little
 
 **[00:20:22]** seal that looks like a seal, a small robot that really helps with loneliness.

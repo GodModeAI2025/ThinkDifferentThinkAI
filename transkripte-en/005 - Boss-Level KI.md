@@ -1477,7 +1477,7 @@ https://de.wikipedia.org/wiki/Andrew_Ng
 
 **[00:52:32]** I just tried to simulate a few personas with AI that then discuss a topic, and basically, what is your opinion, what is your opinion, what is your opinion?
 
-**[00:52:37]**
+**[00:52:37]** discuss a topic and basically, what's your opinion, what's your opinion, what's your opinion
 
 **[00:52:41]** and then again a response from the first one and oh, I can't quite get it acoustically right now
 

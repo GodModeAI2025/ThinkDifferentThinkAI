@@ -397,7 +397,7 @@ https://www.nvidia.com/de-de/
  
 **[00:15:12]** quite optimistic that we will have a lot to talk about and discover next year as well.
  
-**[00:15:15]**
+**[00:15:15]** and to discover.
  
 **[00:15:18]** I'll get back to that, but first let's hear a story.
  

@@ -368,6 +368,8 @@ https://suno.ai/
 
 ]**[00:12:14]** that might be, we often talk about the topic of AI adaptations
 
+**[00:12:14]** that's perhaps also, we often talk about the topic of AI adoption
+
 **[00:12:19]** in the professional environment, in the private environment, that will be the topic of AI adaptation
 
 **[00:12:26]** perhaps drive it forward even faster, especially among this younger target group.

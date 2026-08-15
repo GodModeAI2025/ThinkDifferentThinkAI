@@ -1095,7 +1095,7 @@ https://nordburg.ai/
 
 **[00:38:35]** to get you thinking, and to immerse you even deeper into our world of thoughts regarding AI.
 
-**[00:38:41]**
+**[00:38:41]** to draw you in even deeper.
 
 **[00:38:42]** We already have a cool new episode in mind, which will be online from August 18, 2025.
 

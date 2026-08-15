@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Local First: Warum KI-Rechenleistung zurück auf den eigenen Rechner wandert — Think Different. Think AI.</title>
+    <meta name="description" content="NVIDIA baut Hardware für Agenten, Perplexity schwenkt auf Local First, Microsoft gibt Agenten Schreibrechte. Hinter den Keynotes steht dieselbe Frage: Wo …">
+    <link rel="canonical" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/44-local-first/">
+    <link rel="alternate" hreflang="de" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/44-local-first/">
+    <link rel="alternate" hreflang="en" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/44-local-first/">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Think Different. Think AI.">
+    <meta property="og:locale" content="de_DE">
+    <meta property="og:title" content="Local First: Warum KI-Rechenleistung zurück auf den eigenen Rechner wandert — Think Different. Think AI.">
+    <meta property="og:description" content="NVIDIA baut Hardware für Agenten, Perplexity schwenkt auf Local First, Microsoft gibt Agenten Schreibrechte. Hinter den Keynotes steht dieselbe Frage: Wo …">
+    <meta property="og:url" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/44-local-first/">
+    <meta property="og:image" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/44-local-first.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Local First: Warum KI-Rechenleistung zurück auf den eigenen Rechner wandert — Think Different. Think AI.">
+    <meta name="twitter:description" content="NVIDIA baut Hardware für Agenten, Perplexity schwenkt auf Local First, Microsoft gibt Agenten Schreibrechte. Hinter den Keynotes steht dieselbe Frage: Wo …">
+    <meta name="twitter:image" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/44-local-first.jpg">
+    <link rel="stylesheet" href="../../base.css">
+    <link rel="stylesheet" href="../../transcript.css">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Local First: Warum KI-Rechenleistung zurück auf den eigenen Rechner wandert","description":"NVIDIA baut Hardware für Agenten, Perplexity schwenkt auf Local First, Microsoft gibt Agenten Schreibrechte. Hinter den Keynotes steht dieselbe Frage: Wo soll die Rechenarbeit eigentlich stattfinden.","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/44-local-first/","inLanguage":"de","datePublished":"2026-06-14","wordCount":991,"image":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/44-local-first.jpg","author":[{"@type":"Person","name":"Mark Zimmermann"}],"publisher":{"@type":"Organization","name":"Think Different. Think AI."},"isPartOf":{"@type":"Blog","name":"Fachartikel — Think Different. Think AI.","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/"},"about":{"@type":"PodcastEpisode","name":"Local First","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/44-local-first/"},"mainEntityOfPage":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/44-local-first/"}</script>
+  </head>
+  <body class="doc">
+    <header class="doc-top">
+      <a class="doc-brand" href="../../index.html">
+        <span class="doc-brand-name">Think Different. Think AI.</span>
+        <span class="doc-brand-sub">Transkriptarchiv</span>
+      </a>
+      <nav class="doc-nav" aria-label="Alle Folgen">
+        <a href="../../index.html">Alle Folgen</a>
+        <a href="../../themen/index.html">Themen</a>
+        <a href="../../gaeste/index.html">Gäste</a>
+        <a href="../../blog/index.html">Fachartikel</a>
+        <a href="https://think-ai.podigee.io/" rel="noreferrer">Podcast</a>
+      </nav>
+    </header>
+
+    <main class="doc-main art-page">
+      <article class="art">
+        <header class="art-head">
+          <p class="art-kicker"><b>Folge 44</b> · Fachartikel zur Folge</p>
+          <h1>Local First: Warum KI-Rechenleistung zurück auf den eigenen Rechner wandert</h1>
+          <p class="art-lead">NVIDIA baut Hardware für Agenten, Perplexity schwenkt auf Local First, Microsoft gibt Agenten Schreibrechte. Hinter den Keynotes steht dieselbe Frage: Wo soll die Rechenarbeit eigentlich stattfinden.</p>
+          <p class="art-meta">Von Mark Zimmermann · 14.06.2026 · 5 Minuten Lesezeit · <a class="art-lang" href="../../en/blog/44-local-first/">Read in English</a></p>
+        </header>
+        <img class="art-hero" src="../../artikelbilder/44-local-first.jpg" alt="" width="1200" height="644" loading="eager" decoding="async">
+        <div class="art-body">
+<p>Ein Experiment vorweg, weil es die Diskussion sortiert. Sechs KI-Agenten pro Stadt bekommen die Aufgabe, zusammenzuleben. Unter Claude hält sich die Gesellschaft an die Regeln und floriert. Unter Grok lebt nach zwei Tagen niemand mehr. Mischt man die Modelle, kippt das Zusammenleben, und selbst der zuvor kooperative Agent beginnt, Schutzgeld zu erpressen.</p>
+<p>Der Befund ist für den Betrieb relevanter, als er zunächst klingt. Das Verhalten eines Agenten hängt vom Modell ab und ebenso von der Umgebung, in der er arbeitet. Genau darum geht es bei der Frage nach dem Ausführungsort.</p>
+<aside class="art-facts"><h2>kurz &amp; knapp</h2><ul><li>NVIDIA kündigt an, künftig Hardware für Agenten statt für Menschen zu bauen</li><li>Perplexity schwenkt vom Suchmaschinen-Angreifer auf eine Local-First-Strategie um</li><li>Microsoft gibt Enterprise-Agenten Schreib- und Löschrechte unter Windows</li><li>Speicherpreise ziehen an, sichtbar am Steam Deck: von rund 690 auf 890 Euro</li><li>Font-Injection in PDFs zeigt, dass Maschine und Mensch nicht denselben Text lesen</li></ul></aside>
+<h2>Was die Hardware-Seite ankündigt</h2>
+<p>Jensen Huang hat auf der NVIDIA-Keynote formuliert, künftig Hardware für Agenten zu bauen statt für Menschen. Das ist mehr als eine Formulierung: Ein System, das für einen Menschen ausgelegt ist, optimiert auf Reaktionszeit bei sporadischer Nutzung. Ein System für Agenten optimiert auf Dauerlast und auf Speicherbandbreite, weil dort der Engpass liegt.</p>
+<p>Der DGX Spark und neue KI-Chips für Windows-Rechner zielen in dieselbe Richtung: Rechenleistung zurück auf das Gerät. Parallel dazu steigen Grafikkarten- und Arbeitsspeicherpreise, was sich auch außerhalb des KI-Marktes bemerkbar macht. Das Steam Deck ist von rund 690 auf 890 Euro gesprungen.</p>
+<p>Ob hier eine neue Verkaufswelle vorbereitet wird, ist eine berechtigte Frage. Die Richtung bleibt trotzdem sinnvoll, und zwar aus einem nüchternen Grund: Wer Modelle dauerhaft laufen lässt, zahlt in der Cloud pro Anfrage und lokal einmal für das Gerät.</p>
+<h2>Was Local First praktisch bedeutet</h2>
+<p>Perplexity ist als Angreifer auf die Suchmaschinen gestartet und schwenkt mit dem Perplexity Computer auf eine konsequente Local-First-Strategie. Bei Microsoft geht es um Enterprise-Agenten, die unter Windows schreiben und löschen dürfen, um einen Firmenausweis mit generativer Oberfläche und um Project Solara.</p>
+<p>Der gemeinsame Nenner ist nicht Technikbegeisterung, sondern eine Kostenrechnung. In der Runde fallen die Zahlen, um die es geht: OpenAI mit 900 Millionen Nutzern, und kolportierte 900 Millionen Dollar Server-Miete, die Google an SpaceX zahlen soll. Wer Modelle für jede Interaktion in einem Rechenzentrum ausführt, baut ein Geschäft mit einer Kostenstruktur, die mit der Nutzung wächst.</p>
+<aside class="art-info"><h3>Was für lokale Ausführung spricht, und was dagegen</h3><p><strong>Dafür:</strong> Die Daten verlassen das Gerät nicht, was in regulierten Umgebungen den Unterschied zwischen Einsatz und Verbot ausmacht. Die laufenden Kosten sind nach der Anschaffung nahe null. Es gibt keine Latenz über das Netz und keine Abhängigkeit von der Verfügbarkeit eines Anbieters.</p>
+<p><strong>Dagegen:</strong> Die Modelle sind kleiner und damit schwächer. Aktualisierungen muss jemand verteilen. Die Hardware ist ungleich verteilt, was in Organisationen zu zwei Klassen von Arbeitsplätzen führt. Und die Rechenleistung liegt brach, wenn niemand am Gerät sitzt.</p>
+<p>Praktisch setzt sich eine Zweiteilung durch: Routineaufgaben mit hohem Datenschutzbedarf laufen lokal, aufwendige Einzelfälle gehen in die Cloud. Voraussetzung dafür ist ein Router, der die Entscheidung trifft, ohne dass der Anwender sie treffen muss.</p></aside>
+<p>Ein Nebenbefund aus der Folge gehört zu den nützlichsten: Eine Recherche zu Font-Injection in PDFs zeigt, dass der Text, den ein Mensch sieht, nicht der Text sein muss, den eine Maschine liest. Über manipulierte Schriftzuordnungen lassen sich beide Ebenen auseinanderziehen. Wer automatisierte Vertragsprüfung einsetzt, sollte das wissen, und zwar bevor der erste Vertrag geprüft wird.</p>
+<h2>Apple, kritisch gesehen</h2>
+<p>Die WWDC-Keynote kommt in der Folge schlecht weg, und zwar von einem bekennenden Anhänger der Plattform. Siri AI und der Personal-Context-Ansatz klingen auf dem Papier passend, überzeugen in der Vorführung aber nicht, trotz eines Datenschutzkonzepts, das dem Wettbewerb voraus ist.</p>
+<p>Dagegen steht ein Argument von Benedict Evans, das in dieser Folge zum zweiten Mal auftaucht: Der Markt ist früh und unfertig. In einer solchen Phase ist die zweite Position keine schlechte, weil die Fehler der ersten öffentlich gemacht werden. Ob das eine Analyse ist oder eine nachträgliche Rechtfertigung, entscheidet sich am nächsten Zyklus.</p>
+<h2>Der Vault als Beweisstück</h2>
+<p>Der überzeugendste Teil der Folge ist kein Produkt, sondern ein Aufbau. Ein Wissens-Vault in Obsidian, gespeist aus Nachrichten, wissenschaftlichen Arbeiten, YouTube und Podcasts, dazu ein KI-News-Radar, eine öffentliche Identity-Datei und, als Größenordnung, 19 GByte Mails und 3,9 GByte Notizen, verdichtet zu einem Knowledge Tree und per MCP an Agenten wie Perplexity und NotebookLM angebunden. Ein lokales Modell von Google, das Bilder und Audio versteht, übernimmt dabei nach und nach die Rolle der lokalen Agenten.</p>
+<p>Der Tragfähigkeitsbeweis kommt aus dem Alltag. Ein neuer Hausarzt hat keine alten Blutwerte. Der eigene Vault liefert sie zu Hause in Sekunden, mit korrekter zeitlicher Zuordnung und mit Quellenangabe.</p>
+<p>Das ist die konkrete Form dessen, worüber sonst abstrakt gesprochen wird. Datensouveränität heißt in diesem Fall nicht, dass niemand die Daten bekommt. Sie heißt, dass man sie selbst hat, wenn man sie braucht.</p>
+<h2>Fazit</h2>
+<p>Local First ist keine ideologische Position, sondern eine Antwort auf drei Rechnungen: laufende Kosten, Datenschutz und Verfügbarkeit. Alle drei sprechen für eine Verteilung der Last, und keine spricht für eine vollständige Verlagerung in die eine oder andere Richtung.</p>
+<p>Für die eigene Umgebung folgt daraus eine einfache Sortierung. Klären Sie, welche Aufgaben tatsächlich ein großes Modell brauchen, und lassen Sie den Rest lokal laufen. Prüfen Sie bei jeder automatisierten Dokumentenverarbeitung, ob Mensch und Maschine denselben Text sehen. Und legen Sie Wissen dort ab, wo Sie darauf zugreifen können, wenn der Anbieter gerade nicht will.</p>
+<p>Der Vergleichspunkt für den heutigen Stand ist MS-DOS kurz vor der grafischen Oberfläche: nutzbar, wenn man sich auskennt, und offensichtlich nicht die Endform.</p>
+<aside class="art-next"><h2>The story continues …</h2><p>Zwei Entwicklungen zeichnen sich ab, die weit über die Ausführungsfrage hinausgehen. Voice als Schnittstelle samt Stimmungserkennung, und das absehbare Ende klassischer Office-Dokumente zugunsten reiner Text- und Wissensdateien. Bleibt die Frage, die in der Folge offen bleibt: ob die heutigen KI-Praktiker in zwanzig Jahren die COBOL-Programmierer dieser Ära sind.</p></aside>
+        </div>
+        <footer class="art-foot">
+          <div class="art-ctas"><a class="art-cta" href="../../de/44-local-first/"><span>Volltext-Transkript</span><b>Local First</b></a><a class="art-cta art-cta-alt" href="https://think-ai.podigee.io/44-local-first" rel="noreferrer"><span>Zur Folge</span><b>Folge 44</b></a></div>
+          <nav class="art-blaettern" aria-label="Alle Fachartikel">
+            <a class="art-prev" href="../45-three-days-of-fable/"><span>Neuerer Artikel</span><b>90 Minuten bis zur Abschaltung: Was der Fable-Fall über KI-Souveränität zeigt</b></a><a class="art-next-link" href="../41-just-vibe-it/"><span>Älterer Artikel</span><b>Architecture Decision Records: Der wichtigste Skill beim Vibe Coding</b></a>
+          </nav>
+          <p class="art-back"><a href="../../blog/index.html">Alle Fachartikel</a></p>
+        </footer>
+      </article>
+    </main>
+
+  </body>
+</html>

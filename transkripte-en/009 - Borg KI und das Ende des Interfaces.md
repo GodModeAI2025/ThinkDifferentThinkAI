@@ -44,7 +44,7 @@ Poisoning Attacks on LLMs Require a Near-constant Number of Poison Samples https
 
 **[00:01:01]** So, before we have any more iconic Borg moments that send chills down my spine,
 
-**[00:01:13]**
+**[00:01:13]** run down my spine.
 
 **[00:01:14]** For those who might not know, that was...
 

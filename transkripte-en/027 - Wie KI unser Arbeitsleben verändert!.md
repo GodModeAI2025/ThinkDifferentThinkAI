@@ -1089,7 +1089,7 @@ Conversations about Software Engineering
 
 **[00:43:36]** And the first one is something that I personally had to get face-to-face from dear Klaus.
 
-**[00:43:41]**
+**[00:43:41]** had thrown right in my face first.
 
 **[00:43:44]** Don't assume, dude.
 

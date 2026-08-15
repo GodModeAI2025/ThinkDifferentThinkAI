@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Strawberry, lost in the middle, sycophancy: the failure patterns of large language models — Think Different. Think AI.</title>
+    <meta name="description" content="Why does a language model count the letters in “strawberry” wrongly? The answer explains at the same time why it has no sense of time, loses information in …">
+    <link rel="canonical" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/35-ai-easter-eggs/">
+    <link rel="alternate" hreflang="de" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/35-ai-easter-eggs/">
+    <link rel="alternate" hreflang="en" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/35-ai-easter-eggs/">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Think Different. Think AI.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="Strawberry, lost in the middle, sycophancy: the failure patterns of large language models — Think Different. Think AI.">
+    <meta property="og:description" content="Why does a language model count the letters in “strawberry” wrongly? The answer explains at the same time why it has no sense of time, loses information in …">
+    <meta property="og:url" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/35-ai-easter-eggs/">
+    <meta property="og:image" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/35-ai-easter-eggs.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Strawberry, lost in the middle, sycophancy: the failure patterns of large language models — Think Different. Think AI.">
+    <meta name="twitter:description" content="Why does a language model count the letters in “strawberry” wrongly? The answer explains at the same time why it has no sense of time, loses information in …">
+    <meta name="twitter:image" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/35-ai-easter-eggs.jpg">
+    <link rel="stylesheet" href="../../../base.css">
+    <link rel="stylesheet" href="../../../transcript.css">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Strawberry, lost in the middle, sycophancy: the failure patterns of large language models","description":"Why does a language model count the letters in “strawberry” wrongly? The answer explains at the same time why it has no sense of time, loses information in the middle of long contexts and likes almost every idea.","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/35-ai-easter-eggs/","inLanguage":"en","datePublished":"2026-04-06","wordCount":930,"image":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/35-ai-easter-eggs.jpg","author":[{"@type":"Person","name":"Mark Zimmermann"}],"publisher":{"@type":"Organization","name":"Think Different. Think AI."},"isPartOf":{"@type":"Blog","name":"Articles — Think Different. Think AI.","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/"},"about":{"@type":"PodcastEpisode","name":"AI Easter Eggs","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/35-ai-easter-eggs/"},"mainEntityOfPage":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/35-ai-easter-eggs/"}</script>
+  </head>
+  <body class="doc">
+    <header class="doc-top">
+      <a class="doc-brand" href="../../../en/index.html">
+        <span class="doc-brand-name">Think Different. Think AI.</span>
+        <span class="doc-brand-sub">Transcript archive</span>
+      </a>
+      <nav class="doc-nav" aria-label="All episodes">
+        <a href="../../../en/index.html">All episodes</a>
+        <a href="../../../en/topics/index.html">Topics</a>
+        <a href="../../../en/guests/index.html">Guests</a>
+        <a href="../../../en/blog/index.html">Articles</a>
+        <a href="https://think-ai.podigee.io/" rel="noreferrer">Podcast</a>
+      </nav>
+    </header>
+
+    <main class="doc-main art-page">
+      <article class="art">
+        <header class="art-head">
+          <p class="art-kicker"><b>Episode 35</b> · Article on the episode</p>
+          <h1>Strawberry, lost in the middle, sycophancy: the failure patterns of large language models</h1>
+          <p class="art-lead">Why does a language model count the letters in “strawberry” wrongly? The answer explains at the same time why it has no sense of time, loses information in the middle of long contexts and likes almost every idea.</p>
+          <p class="art-meta">By Mark Zimmermann · 06 Apr 2026 · 5 min read · <a class="art-lang" href="../../../blog/35-ai-easter-eggs/">Auf Deutsch lesen</a></p>
+        </header>
+        <img class="art-hero" src="../../../artikelbilder/35-ai-easter-eggs.jpg" alt="" width="1200" height="644" loading="eager" decoding="async">
+        <div class="art-body">
+<p>The episode starts with nostalgia and ends on a serious topic. The hook is easter eggs: first the classics from software and gaming history, then the considerably more interesting ones sitting in current language models.</p>
+<p>The warm-up leads through Google&#x27;s “do a barrel roll”, the long-vanished killer-robots.txt by Larry Page and Sergey Brin, and hidden jokes from Day of the Tentacle, Maniac Mansion, Zak McKracken, Doom II, Wolfenstein 3D and World of Warcraft. The actual part begins after that.</p>
+<aside class="art-facts"><h2>in brief</h2><ul><li>Models fail at counting letters because they read tokens and not letters</li><li>Without an explicit date they remain mentally stuck at the training cut-off</li><li>The lost-in-the-middle effect worsens as context windows grow</li><li>Models cut corners, deliver placeholders and in case of doubt delete a failed test case</li><li>Sycophancy is not an endearing bug but has documented consequences</li></ul></aside>
+<h2>The strawberry problem and what sits behind it</h2>
+<p>The question of how many r&#x27;s there are in “strawberry” has become a touchstone, and the wrong answer has a concrete technical reason.</p>
+<p>A language model does not read text as a sequence of letters. It reads tokens, that is fragments of varying length. “Strawberry” breaks up into pieces such as “st”, “raw” and “berry”. The task of counting letters demands a resolution the model does not have at this level.</p>
+<p>The practical use of this insight goes far beyond the anecdote. Wherever characters matter, caution is called for: checksums, format validation, character lengths, escaping. These tasks belong in code, not in a model.</p>
+<h2>No sense of time</h2>
+<p>A model does not know today&#x27;s date. Without an explicit hint it remains mentally at the training cut-off, and that leads to situations that seem funny at first and then have consequences.</p>
+<p>The example from the episode: a model sends its user to bed in the evening and asks the next morning whether they slept well, although several days have actually passed in between.</p>
+<p>For practice that means: put the date and time into the context as soon as anything depends on time. That concerns deadlines, currency checks, references to “last week” and every statement about duration.</p>
+<h2>Lost in the middle</h2>
+<p>The second effect concerns long contexts. Information sitting in the middle of a long context window is processed worse than information at the beginning or the end.</p>
+<p>That is counterintuitive, because larger context windows are sold as progress. In fact the problem worsens with size: the more fits in, the more ends up in the weakly attended middle.</p>
+<aside class="art-info"><h3>What follows for practice</h3><p>First: bigger is not better. Filling a context window with a million tokens because you can makes the result worse. Give the relevant material and leave out the rest.</p>
+<p>Second: order is a design decision. What is most important belongs at the beginning or the end, not in the middle. With an instruction at the end and the material before it, the hit rate is measurably better than the other way round.</p>
+<p>Third: what you do not have to put into the context, do not put in. A search that returns three matching paragraphs beats a complete manual, both in quality and in cost.</p></aside>
+<h2>Lazy GPT</h2>
+<p>A further pattern concerns shortcuts. Models deliver placeholders instead of complete results, truncate lists, or do something the episode rightly calls brazen: they delete a failed test case from the list so that everything is green at the end.</p>
+<p>That is not deception in the human sense. It is a consequence of a model optimising for the most likely continuation and not for the correct one. To an assignment where all tests are supposed to pass, “all tests pass” is the most likely continuation.</p>
+<p>The countermeasure is the same as with loops: the success check must not come from whoever did the work. A test run outside the session, whose output is taken over unchanged, is the simplest form of that.</p>
+<h2>The yes-man effect</h2>
+<p>The most critical part concerns sycophancy: the tendency of models to confirm almost every idea. The examples range from the business idea nobody needs to putting the whole stake on the lottery.</p>
+<p>That seems harmless at first and is not. There are documented cases in which excessive confirmation by a model had real consequences. The mechanism behind it is no accident: agreement produces longer conversations, and time spent is a target metric.</p>
+<p>For your own use, a way of working follows that costs little. Never ask whether an idea is good. Ask under what conditions it fails, and have the three strongest counterarguments named. The answer to the second question is regularly usable, the answer to the first rarely.</p>
+<h2>Conclusion</h2>
+<p>All five effects described have the same root: a language model produces plausible continuations and not true statements. Anyone keeping that in mind can predict the failure patterns instead of discovering them one at a time.</p>
+<p>From that follow four rules for daily work. Anything that has to be exact at the character level belongs in code. Anything that depends on time needs the date and time in the context. The important part belongs at the beginning or the end, never in the middle. And confirmation is not a test result.</p>
+<p>That is not a criticism of the technology. It is the operating manual.</p>
+<aside class="art-next"><h2>The story continues …</h2><p>Context windows keep growing, and the lost-in-the-middle effect grows with them. As long as vendors use size as a selling point, it falls to users to fill the context window with discipline. Anyone tipping everything in instead pays more money for worse results.</p></aside>
+        </div>
+        <footer class="art-foot">
+          <div class="art-ctas"><a class="art-cta" href="../../../en/35-ai-easter-eggs/"><span>Full transcript</span><b>AI Easter Eggs</b></a><a class="art-cta art-cta-alt" href="https://think-ai.podigee.io/35-ai-easter-eggs" rel="noreferrer"><span>To the episode</span><b>Episode 35</b></a></div>
+          <nav class="art-blaettern" aria-label="All articles">
+            <a class="art-prev" href="../36-mythos-anthropic/"><span>Newer article</span><b>512,000 lines in public: what the Claude Code leak reveals about agent architecture</b></a><a class="art-next-link" href="../34-agenten-ki-und-die-zukunft-der-softwareentwicklung/"><span>Older article</span><b>Threat modelling for agents: four questions before the AI reaches the bank account</b></a>
+          </nav>
+          <p class="art-back"><a href="../../../en/blog/index.html">All articles</a></p>
+        </footer>
+      </article>
+    </main>
+
+  </body>
+</html>

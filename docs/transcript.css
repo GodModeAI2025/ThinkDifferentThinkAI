@@ -560,3 +560,379 @@
   letter-spacing: 2px;
   color: var(--muted);
 }
+
+/* ==================================================================== Blog
+   Die Fachartikel zu den Folgen. Anders als das Transkript ist das ein Lesetext,
+   deshalb eine schmale Spalte in der Proportionalschrift und viel Weissraum.
+
+   Die fuenf Bausteine des Artikels bekommen bewusst je eine eigene Bauform statt
+   fuenfmal denselben Kasten: „kurz & knapp" gelb und gerastert, Infokasten cyan
+   und ruhig, Grosszitat als Typo ohne Rahmen, Ausblick gruen am Fuss. Wer den
+   Text ueberfliegt, soll an der Form erkennen, was ihn erwartet. */
+
+.art-page { max-width: 1100px; }
+
+.art { --col: 68ch; }
+
+/* ---------------------------------------------------------------- Kopf */
+
+.art-head {
+  max-width: var(--col);
+  margin: 0 auto 26px;
+}
+
+.art-kicker {
+  margin: 0 0 14px;
+  font-family: var(--chrome);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--muted);
+}
+
+.art-kicker b { color: var(--accent); }
+
+.art h1 {
+  margin: 0 0 18px;
+  font-family: var(--chrome);
+  font-size: clamp(1.7rem, 4vw, 2.6rem);
+  line-height: 1.16;
+  font-weight: 800;
+  text-wrap: balance;
+  text-shadow: 3px 3px 0 var(--accent-ink);
+}
+
+.art-lead {
+  margin: 0 0 18px;
+  font-family: var(--read);
+  font-size: clamp(1.05rem, 2vw, 1.28rem);
+  line-height: 1.5;
+  color: #eafcff;
+  border-left: 5px solid var(--accent);
+  padding-left: 16px;
+}
+
+.art-meta {
+  margin: 0;
+  font-family: var(--chrome);
+  font-size: 12.5px;
+  color: var(--muted);
+  letter-spacing: 0.4px;
+}
+
+.art-lang { color: var(--line); }
+.art-lang-off { color: var(--muted); opacity: 0.75; }
+
+.art-hero {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto 34px;
+  border: 4px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+/* ---------------------------------------------------------------- Fliesstext */
+
+.art-body {
+  max-width: var(--col);
+  margin: 0 auto;
+  font-family: var(--read);
+  font-size: 1.06rem;
+  line-height: 1.72;
+}
+
+.art-body > p { margin: 0 0 1.15em; }
+
+.art-body > h2 {
+  margin: 2.2em 0 0.7em;
+  font-family: var(--chrome);
+  font-size: clamp(1.25rem, 2.4vw, 1.55rem);
+  line-height: 1.25;
+  font-weight: 800;
+  color: var(--accent);
+  text-wrap: balance;
+}
+
+.art-body > h2::before {
+  content: "";
+  display: block;
+  width: 54px;
+  height: 5px;
+  margin-bottom: 14px;
+  background: var(--accent);
+}
+
+.art-body strong { color: #fff; font-weight: 700; }
+.art-body em { color: var(--muted); font-style: italic; }
+
+.art-body a {
+  color: var(--line);
+  text-underline-offset: 3px;
+}
+
+.art-body a:hover, .art-body a:focus-visible { color: var(--accent); }
+
+.art-body > ul {
+  margin: 0 0 1.3em;
+  padding-left: 1.2em;
+}
+
+.art-body > ul li { margin-bottom: 0.5em; }
+
+.art-rule {
+  border: 0;
+  border-top: 3px solid rgba(52, 212, 255, 0.3);
+  margin: 2.4em 0;
+}
+
+/* ------------------------------------------------- „kurz & knapp": der Faktenkasten */
+
+.art-facts {
+  margin: 2em 0 2.2em;
+  padding: 22px 24px 8px;
+  background:
+    repeating-linear-gradient(135deg, rgba(255, 207, 36, 0.07) 0 6px, transparent 6px 14px),
+    var(--panel);
+  border: 3px solid var(--accent);
+  box-shadow: 6px 6px 0 rgba(0, 9, 70, 0.75);
+}
+
+.art-facts h2 {
+  margin: 0 0 12px;
+  font-family: var(--chrome);
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  color: var(--accent);
+}
+
+.art-facts ul { margin: 0 0 14px; padding-left: 1.1em; }
+.art-facts li { margin-bottom: 0.55em; }
+.art-facts li::marker { color: var(--accent); }
+
+/* -------------------------------------------------------- Infokasten im Text */
+
+.art-info {
+  margin: 2em 0;
+  padding: 22px 24px 6px;
+  background: rgba(3, 16, 82, 0.6);
+  border: 2px solid rgba(52, 212, 255, 0.42);
+  border-left: 6px solid var(--line);
+}
+
+.art-info h3 {
+  margin: 0 0 12px;
+  font-family: var(--chrome);
+  font-size: 1.02rem;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  color: var(--line);
+}
+
+.art-info p { margin: 0 0 1em; font-size: 0.99rem; }
+
+/* ------------------------------------------------------------------ Grosszitat */
+
+.art-quote {
+  margin: 2.3em 0;
+  padding-left: 26px;
+  border-left: 6px solid var(--accent-hot);
+}
+
+.art-quote blockquote { margin: 0; }
+
+.art-quote blockquote p {
+  margin: 0 0 0.5em;
+  font-family: var(--chrome);
+  font-size: clamp(1.1rem, 2.2vw, 1.42rem);
+  line-height: 1.38;
+  font-weight: 700;
+  color: var(--accent);
+  text-shadow: 2px 2px 0 var(--accent-ink);
+}
+
+.art-quote figcaption {
+  font-family: var(--chrome);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  color: var(--muted);
+}
+
+.art-quote figcaption strong { color: #fff; }
+
+/* ------------------------------------------------------------------ Ausblick */
+
+.art-next {
+  margin: 2.4em 0 0;
+  padding: 22px 24px 8px;
+  background: rgba(3, 16, 82, 0.55);
+  border: 2px dashed rgba(110, 242, 160, 0.55);
+}
+
+.art-next h2 {
+  margin: 0 0 12px;
+  font-family: var(--chrome);
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  color: #6ef2a0;
+}
+
+.art-next p { margin: 0 0 1em; }
+
+/* ------------------------------------------------------------------ Fuss */
+
+.art-foot {
+  max-width: var(--col);
+  margin: 40px auto 0;
+  padding-top: 26px;
+  border-top: 4px solid rgba(52, 212, 255, 0.32);
+}
+
+.art-ctas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 14px;
+}
+
+.art-cta {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 16px 18px;
+  background: var(--panel);
+  border: 3px solid var(--accent);
+  box-shadow: 5px 5px 0 rgba(0, 9, 70, 0.8);
+  text-decoration: none;
+}
+
+.art-cta span {
+  font-family: var(--chrome);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--accent);
+}
+
+.art-cta b { font-family: var(--read); font-size: 1rem; line-height: 1.3; }
+.art-cta:hover, .art-cta:focus-visible { background: var(--panel-strong); }
+.art-cta-alt { border-color: var(--line); }
+.art-cta-alt span { color: var(--line); }
+
+.art-blaettern {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.art-prev, .art-next-link {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 14px 16px;
+  border: 2px solid rgba(52, 212, 255, 0.35);
+  text-decoration: none;
+}
+
+.art-prev span, .art-next-link span {
+  font-family: var(--chrome);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  color: var(--muted);
+}
+
+.art-prev b, .art-next-link b {
+  font-family: var(--read);
+  font-size: 0.95rem;
+  line-height: 1.3;
+  font-weight: 650;
+}
+
+.art-next-link { text-align: right; }
+.art-prev:hover, .art-next-link:hover { border-color: var(--line); }
+
+.art-back {
+  margin: 20px 0 0;
+  font-family: var(--chrome);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.art-back a { color: var(--line); }
+
+.btn.art-btn { border-color: var(--accent); color: var(--accent); }
+
+/* ------------------------------------------------------------ Blog-Uebersicht */
+
+.bl-head { max-width: 68ch; margin: 0 0 30px; }
+
+.bl-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 18px;
+}
+
+.bl-item { margin: 0; }
+
+.bl-link {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 22px;
+  align-items: start;
+  padding: 18px;
+  background: var(--panel);
+  border: 3px solid rgba(52, 212, 255, 0.28);
+  text-decoration: none;
+}
+
+.bl-link:hover, .bl-link:focus-visible {
+  border-color: var(--accent);
+  background: var(--panel-strong);
+}
+
+.bl-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 2px solid rgba(0, 9, 70, 0.7);
+}
+
+.bl-text { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+
+.bl-kicker {
+  font-family: var(--chrome);
+  font-size: 11.5px;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  color: var(--muted);
+}
+
+.bl-kicker b { color: var(--accent); }
+
+.bl-title {
+  font-family: var(--chrome);
+  font-size: clamp(1.05rem, 2vw, 1.32rem);
+  line-height: 1.24;
+  font-weight: 800;
+  text-wrap: balance;
+}
+
+.bl-lead {
+  font-family: var(--read);
+  font-size: 0.98rem;
+  line-height: 1.55;
+  color: var(--muted);
+}
+
+@media (max-width: 720px) {
+  .bl-link { grid-template-columns: 1fr; gap: 14px; }
+  .art-next-link { text-align: left; }
+  .art-quote { padding-left: 16px; }
+}

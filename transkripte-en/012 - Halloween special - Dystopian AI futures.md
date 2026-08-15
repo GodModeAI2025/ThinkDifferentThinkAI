@@ -423,7 +423,7 @@ Original sources:
 
 **[00:14:38]** is of course something that one doesn't really want when working with an AI
 
-**[00:14:43]** 
+**[00:14:43]** working.
 
 **[00:14:44]** And that was often the topic when thinking about AI systems, agentic systems
 

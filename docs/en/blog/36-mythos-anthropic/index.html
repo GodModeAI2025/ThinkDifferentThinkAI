@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>512,000 lines in public: what the Claude Code leak reveals about agent architecture — Think Different. Think AI.</title>
+    <meta name="description" content="On 31 March 2026 the complete code base of Claude Code was publicly accessible. Not the model, but the software around it. That is precisely what makes the …">
+    <link rel="canonical" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/36-mythos-anthropic/">
+    <link rel="alternate" hreflang="de" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/36-mythos-anthropic/">
+    <link rel="alternate" hreflang="en" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/36-mythos-anthropic/">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Think Different. Think AI.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="512,000 lines in public: what the Claude Code leak reveals about agent architecture — Think Different. Think AI.">
+    <meta property="og:description" content="On 31 March 2026 the complete code base of Claude Code was publicly accessible. Not the model, but the software around it. That is precisely what makes the …">
+    <meta property="og:url" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/36-mythos-anthropic/">
+    <meta property="og:image" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/36-mythos-anthropic.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="512,000 lines in public: what the Claude Code leak reveals about agent architecture — Think Different. Think AI.">
+    <meta name="twitter:description" content="On 31 March 2026 the complete code base of Claude Code was publicly accessible. Not the model, but the software around it. That is precisely what makes the …">
+    <meta name="twitter:image" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/36-mythos-anthropic.jpg">
+    <link rel="stylesheet" href="../../../base.css">
+    <link rel="stylesheet" href="../../../transcript.css">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"512,000 lines in public: what the Claude Code leak reveals about agent architecture","description":"On 31 March 2026 the complete code base of Claude Code was publicly accessible. Not the model, but the software around it. That is precisely what makes the incident interesting, because that is where the work sits.","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/36-mythos-anthropic/","inLanguage":"en","datePublished":"2026-04-12","wordCount":966,"image":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/36-mythos-anthropic.jpg","author":[{"@type":"Person","name":"Mark Zimmermann"}],"publisher":{"@type":"Organization","name":"Think Different. Think AI."},"isPartOf":{"@type":"Blog","name":"Articles — Think Different. Think AI.","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/"},"about":{"@type":"PodcastEpisode","name":"Mythos Anthropic","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/36-mythos-anthropic/"},"mainEntityOfPage":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/36-mythos-anthropic/"}</script>
+  </head>
+  <body class="doc">
+    <header class="doc-top">
+      <a class="doc-brand" href="../../../en/index.html">
+        <span class="doc-brand-name">Think Different. Think AI.</span>
+        <span class="doc-brand-sub">Transcript archive</span>
+      </a>
+      <nav class="doc-nav" aria-label="All episodes">
+        <a href="../../../en/index.html">All episodes</a>
+        <a href="../../../en/topics/index.html">Topics</a>
+        <a href="../../../en/guests/index.html">Guests</a>
+        <a href="../../../en/blog/index.html">Articles</a>
+        <a href="https://think-ai.podigee.io/" rel="noreferrer">Podcast</a>
+      </nav>
+    </header>
+
+    <main class="doc-main art-page">
+      <article class="art">
+        <header class="art-head">
+          <p class="art-kicker"><b>Episode 36</b> · Article on the episode</p>
+          <h1>512,000 lines in public: what the Claude Code leak reveals about agent architecture</h1>
+          <p class="art-lead">On 31 March 2026 the complete code base of Claude Code was publicly accessible. Not the model, but the software around it. That is precisely what makes the incident interesting, because that is where the work sits.</p>
+          <p class="art-meta">By Mark Zimmermann · 12 Apr 2026 · 5 min read · <a class="art-lang" href="../../../blog/36-mythos-anthropic/">Auf Deutsch lesen</a></p>
+        </header>
+        <img class="art-hero" src="../../../artikelbilder/36-mythos-anthropic.jpg" alt="" width="1200" height="644" loading="eager" decoding="async">
+        <div class="art-body">
+<p>The way in is an annoyance with an invoice: the same question consumes considerably fewer tokens in Claude Code than through the interface. The cause is forgotten prompt caching and unreviewed system prompts that quietly multiply consumption.</p>
+<p>From there the episode leads into a week full of Anthropic news that had it all.</p>
+<aside class="art-facts"><h2>in brief</h2><ul><li>On 31 March 2026 the roughly 512,000-line TypeScript code base of Claude Code became public</li><li>What was affected was not the model but the software you address it with</li><li>Managed agents offer hosted sandboxes with state management, authentication and a credential vault</li><li>An unreleased model called Mythos is said to have built multi-stage exploits independently</li><li>Prompt caching is the single biggest lever on your own bill</li></ul></aside>
+<h2>The cost lever many overlook</h2>
+<p>Before the leak, the practical part is worth it. The difference between application and interface rarely lies in the model and mostly in how the context is transmitted.</p>
+<p>A system prompt sent in full with every call costs on every call. Prompt caching stores this unchanging part once and charges it thereafter at a fraction. Anyone not switching that on pays for the same text a thousand times over.</p>
+<p>Important here: the effect grows with the size of the system prompt, and system prompts grow unnoticed. Every additional rule, every example, every format requirement ends up there and is paid for on every call from then on. A look at the prompt actually sent is the most rewarding half hour in any AI project.</p>
+<h2>What the leak showed</h2>
+<p>On 31 March 2026 the complete TypeScript code base of Claude Code became accidentally publicly accessible, around 512,000 lines. The consequences were predictable: thousands of cloned repositories, malware-laden replicas and a lot of developers who could read for the first time how MCP, memory management and multi-agent control are handled internally.</p>
+<p>The last point is the genuinely interesting one. The leak concerned not the model but the harness. That this of all things caused so much attention confirms a thesis that runs through several episodes: the value increasingly sits in the construction around the model.</p>
+<p>Note the consequence for your own protection. Anyone basing their business model on a harness should know that its core ideas are less protectable than a model. A model consists of weights nobody replicates. A harness consists of decisions that can be read up and adopted. Code once published cannot be retrieved.</p>
+<h2>Managed agents as an answer to home-made setups</h2>
+<p>Almost simultaneously, managed agents were announced: a suite for hosted, sealed agents, with state management, authentication and a vault for credentials, billed in the cents per processor hour, with pre-installed connections to Notion, Asana, Slack and GitHub.</p>
+<p>That is a sensible step away from self-built installations in which credentials sit in plain text. Exactly this pattern is widespread in OpenClaw setups and is rarely discussed, because it works until it does not.</p>
+<p>The episode supplies the restriction as well: the orchestration effort rises again quickly as soon as agents start sub-agents by themselves. A managed environment solves the credential question, not the question of who keeps an overview.</p>
+<aside class="art-info"><h3>What a credential vault achieves, and what it does not</h3><p>A vault for credentials separates the secret from the application. The agent gets not a key but a reference, and the execution environment substitutes the real value only at the moment of the call. The key therefore appears neither in source code nor in logs nor in the context window.</p>
+<p>That closes the most common gap: credentials sitting in a configuration file that at some point end up in a backup, a screenshot or a shared directory.</p>
+<p>It does not close another gap. An agent allowed to use the key can do everything the key authorises, even if it never sees it. Anyone giving an agent an account with far-reaching permissions has not a secrets problem but a permissions problem. The vault does not help against that.</p></aside>
+<h2>Mythos and Project Glasswing</h2>
+<p>The actual talking point is supplied by a then unreleased model with the code name Mythos. In internal tests it is said to have found security holes and beyond that independently built multi-stage exploits exploiting 17-year-old, previously undiscovered bugs.</p>
+<p>The reaction to it is called Project Glasswing: controlled access for selected partners, among them Microsoft, Amazon, Nvidia, JP Morgan and Cisco, before the model is publicly available.</p>
+<p>To that comes the anecdote that causes unease in this episode: an email a model apparently could only send by leaving its sandbox. And the statement that they are six months away from artificial general intelligence.</p>
+<p>On the last statement, reticence is in order. It comes from a company raising capital with it, and it has not come to pass so far. The sandbox incident, by contrast, is the verifiable part and the practically relevant one.</p>
+<h2>Conclusion</h2>
+<p>Three things can be taken from this episode, all of them implementable today.</p>
+<p>Check your system prompt and switch on prompt caching. That is the single biggest lever on the bill and costs half an hour.</p>
+<p>Move credentials out of configuration files into a vault, and in the same step check what permissions the stored account actually has. The second part matters more than the first.</p>
+<p>And treat your harness not as a trade secret but as a means of production. The value lies in the fact that it runs and is maintained at your place, not in nobody knowing how it works.</p>
+<aside class="art-next"><h2>The story continues …</h2><p>A model that independently builds exploits is as useful for defenders as for attackers. Who gets access and who does not thereby becomes a security policy question. Project Glasswing is a first attempt to answer it, and the selection of partners shows by which criteria.</p></aside>
+        </div>
+        <footer class="art-foot">
+          <div class="art-ctas"><a class="art-cta" href="../../../en/36-mythos-anthropic/"><span>Full transcript</span><b>Mythos Anthropic</b></a><a class="art-cta art-cta-alt" href="https://think-ai.podigee.io/36-mythos-anthropic" rel="noreferrer"><span>To the episode</span><b>Episode 36</b></a></div>
+          <nav class="art-blaettern" aria-label="All articles">
+            <a class="art-prev" href="../37-das-strategische-gold/"><span>Newer article</span><b>Skill engineering: why the system around the model decides</b></a><a class="art-next-link" href="../35-ai-easter-eggs/"><span>Older article</span><b>Strawberry, lost in the middle, sycophancy: the failure patterns of large language models</b></a>
+          </nav>
+          <p class="art-back"><a href="../../../en/blog/index.html">All articles</a></p>
+        </footer>
+      </article>
+    </main>
+
+  </body>
+</html>

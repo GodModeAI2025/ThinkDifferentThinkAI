@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Threat modelling for agents: four questions before the AI reaches the bank account — Think Different. Think AI.</title>
+    <meta name="description" content="An agent is supposed to take over the monthly bookkeeping: invoices from the inbox, bank statement, PDF export. As soon as it reaches bank data, a tooling …">
+    <link rel="canonical" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/34-agenten-ki-und-die-zukunft-der-softwareentwicklung/">
+    <link rel="alternate" hreflang="de" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/34-agenten-ki-und-die-zukunft-der-softwareentwicklung/">
+    <link rel="alternate" hreflang="en" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/34-agenten-ki-und-die-zukunft-der-softwareentwicklung/">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Think Different. Think AI.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="Threat modelling for agents: four questions before the AI reaches the bank account — Think Different. Think AI.">
+    <meta property="og:description" content="An agent is supposed to take over the monthly bookkeeping: invoices from the inbox, bank statement, PDF export. As soon as it reaches bank data, a tooling …">
+    <meta property="og:url" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/34-agenten-ki-und-die-zukunft-der-softwareentwicklung/">
+    <meta property="og:image" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/34-agenten-ki-und-die-zukunft-der-softwareentwicklung.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Threat modelling for agents: four questions before the AI reaches the bank account — Think Different. Think AI.">
+    <meta name="twitter:description" content="An agent is supposed to take over the monthly bookkeeping: invoices from the inbox, bank statement, PDF export. As soon as it reaches bank data, a tooling …">
+    <meta name="twitter:image" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/34-agenten-ki-und-die-zukunft-der-softwareentwicklung.jpg">
+    <link rel="stylesheet" href="../../../base.css">
+    <link rel="stylesheet" href="../../../transcript.css">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Threat modelling for agents: four questions before the AI reaches the bank account","description":"An agent is supposed to take over the monthly bookkeeping: invoices from the inbox, bank statement, PDF export. As soon as it reaches bank data, a tooling question turns into a security question.","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/34-agenten-ki-und-die-zukunft-der-softwareentwicklung/","inLanguage":"en","datePublished":"2026-03-30","wordCount":963,"image":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/34-agenten-ki-und-die-zukunft-der-softwareentwicklung.jpg","author":[{"@type":"Person","name":"Mark Zimmermann"}],"publisher":{"@type":"Organization","name":"Think Different. Think AI."},"isPartOf":{"@type":"Blog","name":"Articles — Think Different. Think AI.","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/"},"about":{"@type":"PodcastEpisode","name":"Agenten, KI und die Zukunft der Softwareentwicklung","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/34-agenten-ki-und-die-zukunft-der-softwareentwicklung/"},"mainEntityOfPage":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/34-agenten-ki-und-die-zukunft-der-softwareentwicklung/"}</script>
+  </head>
+  <body class="doc">
+    <header class="doc-top">
+      <a class="doc-brand" href="../../../en/index.html">
+        <span class="doc-brand-name">Think Different. Think AI.</span>
+        <span class="doc-brand-sub">Transcript archive</span>
+      </a>
+      <nav class="doc-nav" aria-label="All episodes">
+        <a href="../../../en/index.html">All episodes</a>
+        <a href="../../../en/topics/index.html">Topics</a>
+        <a href="../../../en/guests/index.html">Guests</a>
+        <a href="../../../en/blog/index.html">Articles</a>
+        <a href="https://think-ai.podigee.io/" rel="noreferrer">Podcast</a>
+      </nav>
+    </header>
+
+    <main class="doc-main art-page">
+      <article class="art">
+        <header class="art-head">
+          <p class="art-kicker"><b>Episode 34</b> · In conversation with Alex and Klaus</p>
+          <h1>Threat modelling for agents: four questions before the AI reaches the bank account</h1>
+          <p class="art-lead">An agent is supposed to take over the monthly bookkeeping: invoices from the inbox, bank statement, PDF export. As soon as it reaches bank data, a tooling question turns into a security question.</p>
+          <p class="art-meta">By Mark Zimmermann · 30 Mar 2026 · 5 min read · <a class="art-lang" href="../../../blog/34-agenten-ki-und-die-zukunft-der-softwareentwicklung/">Auf Deutsch lesen</a></p>
+        </header>
+        <img class="art-hero" src="../../../artikelbilder/34-agenten-ki-und-die-zukunft-der-softwareentwicklung.jpg" alt="" width="1200" height="644" loading="eager" decoding="async">
+        <div class="art-body">
+<p>This episode is made without Jens for once, but with two recurring guests. The starting point is a use case of the kind found in many small offices: the monthly bookkeeping is to be automated, invoices arrive by email, plus a bank statement and a PDF export. The question is whether OpenClaw or Craft Agents is the right tool for it.</p>
+<p>The answer is a well-founded “it depends”, and the interesting part sits behind it.</p>
+<aside class="art-facts"><h2>in brief</h2><ul><li>Craft Agents is a graphical alternative to Claude Code based on the Claude SDK, without a terminal</li><li>Tasks keep running there even when the application is closed</li><li>Across Claude Code, OpenCode and OpenClaw a common pattern book has established itself: skills, plugins, hooks, evaluations</li><li>Adam Shostack&#x27;s four-question framework can be run as a skill of its own before every commit</li><li>The biggest security risk is that many users do not know what a token is</li></ul></aside>
+<h2>Tool choice without a terminal</h2>
+<p>Craft Agents enters as a graphical alternative to Claude Code, built on the Claude SDK. No terminal, but MCP connections, skills and tasks that keep running when the application is closed.</p>
+<p>This last property is in practice the decisive difference. An agent that only runs while a window is open is fine for interactive work. An agent working through assignments over hours needs execution that is independent of the screen.</p>
+<p>The everyday examples in the episode are tellingly unspectacular: a Notion token that has to be re-authenticated constantly, and an application for audio transcription for colleagues who have nothing to do with IT. Neither is a software project, they are points of friction somebody removes.</p>
+<p>What is remarkable is what has emerged across the tools in the process. Skills, plugins, hooks and evaluations appear in comparable form in Claude Code, OpenCode and OpenClaw. A common pattern book is emerging before there is a standard. Anyone who has understood the terms in one tool finds their way around the others.</p>
+<h2>When the agent reaches the account</h2>
+<p>It gets serious at the point where the agent is to be given access to bank data or the inbox. The panel discusses sandboxing, network segmentation and zero trust principles, and the tone stays pleasantly level-headed.</p>
+<p>The core statement is not a warning about the technology but an observation about the users: many simply do not know what a token is. Precisely that becomes the security risk. Anyone who does not understand that a string in a configuration file carries the same rights as their own password treats it accordingly.</p>
+<aside class="art-info"><h3>Adam Shostack&#x27;s four questions</h3><p>The four-question framework is the shortest usable form of threat modelling and manages without a tool chain:</p>
+<p><strong>What are we building?</strong> A diagram or a list of the components involved and the paths between them. Without this step everyone discusses different systems.</p>
+<p><strong>What can go wrong?</strong> The actual threat analysis. Who might want to achieve what, and via which of the paths drawn.</p>
+<p><strong>What are we doing about it?</strong> For every threat found, a measure or a conscious decision to accept it.</p>
+<p><strong>Did we do a good job?</strong> The review that turns the exercise into a habit.</p>
+<p>Klaus built this as a skill of his own in Craft Agents and has it run automatically before every commit. That is the most effective form: not one workshop a year, but four questions at every change.</p></aside>
+<p>For practice it is worth keeping to the order. Anyone starting at question two collects horror scenarios with no relation to the system. Anyone starting at question three buys measures against threats they do not have.</p>
+<h2>What that does to software architecture</h2>
+<p>The second large block concerns team structures. Klaus reports how his earlier purism has softened: strictly native iOS in Swift, strict Kotlin for Android, no cross-platform. That stance was justified as long as native code was expensive and cross-platform tools forced compromises.</p>
+<p>By now agents produce native code for both platforms, and the team boundary between iOS and Android development is blurring. What originally justified the separation was specialisation in one language and one framework. If that specialisation loses weight, the separation loses its reason too.</p>
+<p>From this arises the further question the episode discusses and does not answer conclusively: does the classic application split into frontend team, backend team and app team still hold at all? It is drawn along technology boundaries, and precisely those boundaries are becoming permeable.</p>
+<p>Note what does not disappear in the process. Knowledge of the platform, its release processes, its peculiarities and its failure patterns remains necessary. Somebody has to be able to assess what an agent produces.</p>
+<h2>Conclusion</h2>
+<p>The episode delivers a practical order of steps for anyone wanting to let an agent near real data.</p>
+<p>Clarify first whether the tool executes tasks without an open window. That determines whether you are automating at all or merely assisting.</p>
+<p>Second, work through the four questions before you store credentials. That takes twenty minutes and is the only step in this list nobody catches up on once they have skipped it.</p>
+<p>And third, make sure everyone working with such tools knows what a token is and what rights hang on it. That is not a training course but a sentence in the induction, and it prevents more damage than any additional software.</p>
+<p>The tone of the episode is the model here: no panic about agents hacking everything, but the sober observation that ignorance is the actual risk.</p>
+<aside class="art-next"><h2>The story continues …</h2><p>If technology boundaries between teams become permeable, the question of the right split arises anew. An obvious option would be a split along domain responsibility instead of along the platform. Anyone seriously attempting that will first notice that career paths in organisations still run along the old boundaries.</p></aside>
+        </div>
+        <footer class="art-foot">
+          <div class="art-ctas"><a class="art-cta" href="../../../en/34-agenten-ki-und-die-zukunft-der-softwareentwicklung/"><span>Full transcript</span><b>Agenten, KI und die Zukunft der Softwareentwicklung</b></a><a class="art-cta art-cta-alt" href="https://think-ai.podigee.io/34-agenten-ki-und-die-zukunft-der-softwareentwicklung" rel="noreferrer"><span>To the episode</span><b>Episode 34</b></a></div>
+          <nav class="art-blaettern" aria-label="All articles">
+            <a class="art-prev" href="../35-ai-easter-eggs/"><span>Newer article</span><b>Strawberry, lost in the middle, sycophancy: the failure patterns of large language models</b></a><a class="art-next-link" href="../32-warp-speed/"><span>Older article</span><b>From hobby project to corporate strategy: what NVIDIA&#x27;s NanoClaw really means</b></a>
+          </nav>
+          <p class="art-back"><a href="../../../en/blog/index.html">All articles</a></p>
+        </footer>
+      </article>
+    </main>
+
+  </body>
+</html>

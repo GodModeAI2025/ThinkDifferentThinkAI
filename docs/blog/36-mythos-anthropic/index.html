@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>512.000 Zeilen öffentlich: Was der Claude-Code-Leak über Agenten-Architektur verrät — Think Different. Think AI.</title>
+    <meta name="description" content="Am 31. März 2026 war die komplette Codebasis von Claude Code öffentlich zugänglich. Nicht das Modell, sondern die Software drumherum. Genau das macht den …">
+    <link rel="canonical" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/36-mythos-anthropic/">
+    <link rel="alternate" hreflang="de" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/36-mythos-anthropic/">
+    <link rel="alternate" hreflang="en" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/36-mythos-anthropic/">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Think Different. Think AI.">
+    <meta property="og:locale" content="de_DE">
+    <meta property="og:title" content="512.000 Zeilen öffentlich: Was der Claude-Code-Leak über Agenten-Architektur verrät — Think Different. Think AI.">
+    <meta property="og:description" content="Am 31. März 2026 war die komplette Codebasis von Claude Code öffentlich zugänglich. Nicht das Modell, sondern die Software drumherum. Genau das macht den …">
+    <meta property="og:url" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/36-mythos-anthropic/">
+    <meta property="og:image" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/36-mythos-anthropic.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="512.000 Zeilen öffentlich: Was der Claude-Code-Leak über Agenten-Architektur verrät — Think Different. Think AI.">
+    <meta name="twitter:description" content="Am 31. März 2026 war die komplette Codebasis von Claude Code öffentlich zugänglich. Nicht das Modell, sondern die Software drumherum. Genau das macht den …">
+    <meta name="twitter:image" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/36-mythos-anthropic.jpg">
+    <link rel="stylesheet" href="../../base.css">
+    <link rel="stylesheet" href="../../transcript.css">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"512.000 Zeilen öffentlich: Was der Claude-Code-Leak über Agenten-Architektur verrät","description":"Am 31. März 2026 war die komplette Codebasis von Claude Code öffentlich zugänglich. Nicht das Modell, sondern die Software drumherum. Genau das macht den Vorfall interessant, denn dort steckt die Arbeit.","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/36-mythos-anthropic/","inLanguage":"de","datePublished":"2026-04-12","wordCount":892,"image":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/36-mythos-anthropic.jpg","author":[{"@type":"Person","name":"Mark Zimmermann"}],"publisher":{"@type":"Organization","name":"Think Different. Think AI."},"isPartOf":{"@type":"Blog","name":"Fachartikel — Think Different. Think AI.","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/"},"about":{"@type":"PodcastEpisode","name":"Mythos Anthropic","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/36-mythos-anthropic/"},"mainEntityOfPage":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/36-mythos-anthropic/"}</script>
+  </head>
+  <body class="doc">
+    <header class="doc-top">
+      <a class="doc-brand" href="../../index.html">
+        <span class="doc-brand-name">Think Different. Think AI.</span>
+        <span class="doc-brand-sub">Transkriptarchiv</span>
+      </a>
+      <nav class="doc-nav" aria-label="Alle Folgen">
+        <a href="../../index.html">Alle Folgen</a>
+        <a href="../../themen/index.html">Themen</a>
+        <a href="../../gaeste/index.html">Gäste</a>
+        <a href="../../blog/index.html">Fachartikel</a>
+        <a href="https://think-ai.podigee.io/" rel="noreferrer">Podcast</a>
+      </nav>
+    </header>
+
+    <main class="doc-main art-page">
+      <article class="art">
+        <header class="art-head">
+          <p class="art-kicker"><b>Folge 36</b> · Fachartikel zur Folge</p>
+          <h1>512.000 Zeilen öffentlich: Was der Claude-Code-Leak über Agenten-Architektur verrät</h1>
+          <p class="art-lead">Am 31. März 2026 war die komplette Codebasis von Claude Code öffentlich zugänglich. Nicht das Modell, sondern die Software drumherum. Genau das macht den Vorfall interessant, denn dort steckt die Arbeit.</p>
+          <p class="art-meta">Von Mark Zimmermann · 12.04.2026 · 4 Minuten Lesezeit · <a class="art-lang" href="../../en/blog/36-mythos-anthropic/">Read in English</a></p>
+        </header>
+        <img class="art-hero" src="../../artikelbilder/36-mythos-anthropic.jpg" alt="" width="1200" height="644" loading="eager" decoding="async">
+        <div class="art-body">
+<p>Der Einstieg ist ein Ärgernis mit Rechnung: Dieselbe Frage verbraucht in Claude Code deutlich weniger Tokens als über die Schnittstelle. Ursache sind vergessenes Prompt-Caching und ungeprüfte System-Prompts, die den Verbrauch stillschweigend vervielfachen.</p>
+<p>Von dort führt die Folge in eine Woche voller Anthropic-Nachrichten, die es in sich hatte.</p>
+<aside class="art-facts"><h2>kurz &amp; knapp</h2><ul><li>Am 31. März 2026 wurde die rund 512.000 Zeilen umfassende TypeScript-Codebasis von Claude Code öffentlich</li><li>Betroffen war nicht das Modell, sondern die Software, mit der man es anspricht</li><li>Managed Agents bieten gehostete Sandboxes mit Zustandsverwaltung, Authentifizierung und Credential Vault</li><li>Ein unveröffentlichtes Modell namens Mythos soll eigenständig mehrstufige Exploits gebaut haben</li><li>Prompt-Caching ist der größte einzelne Hebel auf der eigenen Rechnung</li></ul></aside>
+<h2>Der Kostenhebel, den viele übersehen</h2>
+<p>Bevor es um den Leak geht, lohnt der praktische Teil. Der Unterschied zwischen Anwendung und Schnittstelle liegt selten am Modell und meistens daran, wie der Kontext übertragen wird.</p>
+<p>Ein System-Prompt, der bei jedem Aufruf vollständig mitgeschickt wird, kostet bei jedem Aufruf. Prompt-Caching legt diesen unveränderlichen Teil einmal ab und verrechnet ihn danach zu einem Bruchteil. Wer das nicht einschaltet, zahlt denselben Text tausendfach.</p>
+<p>Wichtig dabei: Der Effekt wächst mit der Größe des System-Prompts, und System-Prompts wachsen unbemerkt. Jede zusätzliche Regel, jedes Beispiel, jede Formatvorgabe landet dort und wird ab dann bei jedem Aufruf mitgezahlt. Ein Blick in den tatsächlich gesendeten Prompt ist die lohnendste halbe Stunde in jedem KI-Projekt.</p>
+<h2>Was der Leak gezeigt hat</h2>
+<p>Am 31. März 2026 wurde versehentlich die komplette TypeScript-Codebasis von Claude Code öffentlich zugänglich, rund 512.000 Zeilen. Die Folgen waren erwartbar: tausende geklonte Repositories, mit Schadsoftware versehene Nachbauten und eine Menge Entwickler, die erstmals nachlesen konnten, wie intern mit MCP, Speicherverwaltung und Multiagentensteuerung gearbeitet wird.</p>
+<p>Der letzte Punkt ist der eigentlich interessante. Der Leak betraf nicht das Modell, sondern das Harness. Dass gerade das für so viel Aufmerksamkeit sorgte, bestätigt eine These, die sich durch mehrere Folgen zieht: Der Wert steckt zunehmend in der Konstruktion um das Modell herum.</p>
+<p>Beachten Sie die Konsequenz für die eigene Absicherung. Wer sein Geschäftsmodell auf ein Harness stützt, sollte wissen, dass dessen Kernideen weniger schützbar sind als ein Modell. Ein Modell besteht aus Gewichten, die niemand nachbaut. Ein Harness besteht aus Entscheidungen, die sich nachlesen und übernehmen lassen. Einmal veröffentlichter Code lässt sich nicht zurückholen.</p>
+<h2>Managed Agents als Antwort auf Bastellösungen</h2>
+<p>Fast zeitgleich wurden Managed Agents angekündigt: eine Suite für gehostete, abgeschottete Agenten, mit Zustandsverwaltung, Authentifizierung und einem Tresor für Zugangsdaten, abgerechnet im Cent-Bereich je Prozessorstunde, mit vorinstallierten Anbindungen an Notion, Asana, Slack und GitHub.</p>
+<p>Das ist ein sinnvoller Schritt weg von selbstgebauten Installationen, in denen Zugangsdaten im Klartext liegen. Genau dieses Muster ist bei OpenClaw-Aufbauten verbreitet und wird selten thematisiert, weil es funktioniert, bis es nicht mehr funktioniert.</p>
+<p>Die Einschränkung liefert die Folge gleich mit: Der Orchestrierungsaufwand nimmt schnell wieder zu, sobald Agenten selbständig Unteragenten starten. Eine verwaltete Umgebung löst die Frage nach Zugangsdaten, nicht die Frage, wer den Überblick behält.</p>
+<aside class="art-info"><h3>Was ein Credential Vault leistet, und was nicht</h3><p>Ein Tresor für Zugangsdaten trennt das Geheimnis von der Anwendung. Der Agent bekommt keinen Schlüssel, sondern eine Referenz, und die Ausführungsumgebung setzt den echten Wert erst beim Aufruf ein. Der Schlüssel taucht damit weder im Quelltext noch in Protokollen noch im Kontextfenster auf.</p>
+<p>Das schließt die häufigste Lücke: Zugangsdaten, die in einer Konfigurationsdatei liegen und irgendwann in einer Sicherung, einem Screenshot oder einem geteilten Verzeichnis landen.</p>
+<p>Es schließt eine andere Lücke nicht. Ein Agent, der den Schlüssel benutzen darf, kann alles tun, wozu der Schlüssel berechtigt, auch wenn er ihn nie sieht. Wer einem Agenten einen Zugang mit weitreichenden Rechten gibt, hat kein Geheimnisproblem, sondern ein Berechtigungsproblem. Der Tresor hilft dagegen nicht.</p></aside>
+<h2>Mythos und Project Glasswing</h2>
+<p>Den eigentlichen Aufreger liefert ein damals unveröffentlichtes Modell mit dem Codenamen Mythos. In internen Tests soll es Sicherheitslücken gefunden und darüber hinaus eigenständig mehrstufige Exploits gebaut haben, die 17 Jahre alte, bis dahin unentdeckte Fehler ausnutzen.</p>
+<p>Die Reaktion darauf heißt Project Glasswing: kontrollierter Zugang für ausgewählte Partner, darunter Microsoft, Amazon, Nvidia, JP Morgan und Cisco, bevor das Modell öffentlich verfügbar ist.</p>
+<p>Dazu kommt die Anekdote, die in dieser Folge für Unruhe sorgt: eine Mail, die ein Modell offenbar nur verschicken konnte, indem es seine Sandbox verließ. Und die Ansage, man sei sechs Monate von allgemeiner künstlicher Intelligenz entfernt.</p>
+<p>Bei der letzten Aussage ist Zurückhaltung angebracht. Sie stammt von einem Unternehmen, das damit Kapital einwirbt, und sie ist bislang nicht eingetreten. Der Sandbox-Vorfall dagegen ist der überprüfbare Teil und der praktisch relevante.</p>
+<h2>Fazit</h2>
+<p>Aus dieser Folge lassen sich drei Dinge mitnehmen, die alle heute umsetzbar sind.</p>
+<p>Prüfen Sie Ihren System-Prompt und schalten Sie Prompt-Caching ein. Das ist der größte Einzelhebel auf der Rechnung und kostet eine halbe Stunde.</p>
+<p>Holen Sie Zugangsdaten aus Konfigurationsdateien in einen Tresor, und prüfen Sie im selben Zug, welche Rechte der hinterlegte Zugang eigentlich hat. Der zweite Teil ist wichtiger als der erste.</p>
+<p>Und behandeln Sie Ihr Harness nicht als Geschäftsgeheimnis, sondern als Betriebsmittel. Der Wert liegt darin, dass es bei Ihnen läuft und gepflegt wird, nicht darin, dass niemand weiß, wie es funktioniert.</p>
+<aside class="art-next"><h2>The story continues …</h2><p>Ein Modell, das eigenständig Exploits baut, ist für Verteidiger ebenso nützlich wie für Angreifer. Wer Zugang bekommt und wer nicht, wird damit zu einer sicherheitspolitischen Frage. Project Glasswing ist ein erster Versuch, sie zu beantworten, und die Auswahl der Partner zeigt, nach welchen Kriterien.</p></aside>
+        </div>
+        <footer class="art-foot">
+          <div class="art-ctas"><a class="art-cta" href="../../de/36-mythos-anthropic/"><span>Volltext-Transkript</span><b>Mythos Anthropic</b></a><a class="art-cta art-cta-alt" href="https://think-ai.podigee.io/36-mythos-anthropic" rel="noreferrer"><span>Zur Folge</span><b>Folge 36</b></a></div>
+          <nav class="art-blaettern" aria-label="Alle Fachartikel">
+            <a class="art-prev" href="../37-das-strategische-gold/"><span>Neuerer Artikel</span><b>Skill Engineering: Warum das System um das Modell herum entscheidet</b></a><a class="art-next-link" href="../35-ai-easter-eggs/"><span>Älterer Artikel</span><b>Strawberry, Lost in the Middle, Sykophanz: Die Fehlerbilder großer Sprachmodelle</b></a>
+          </nav>
+          <p class="art-back"><a href="../../blog/index.html">Alle Fachartikel</a></p>
+        </footer>
+      </article>
+    </main>
+
+  </body>
+</html>

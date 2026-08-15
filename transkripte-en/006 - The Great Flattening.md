@@ -172,11 +172,13 @@ Advisory Board: LinkedIn Post by Mark
 
 **[00:04:53]** family member also likes to share old stories again, from that side, maybe
 
-**[00:04:57]**
+**[00:04:57]** from the family likes to serve up old stories all over again, from that angle, maybe
 
 **[00:05:03]** I've arrived there as well, but I'm trying to do better. You have
 
 + **[00:05:07]** a repeat of a story today with me and our listeners.
+
+**[00:05:07]** to death today a repetition of history, fine by me and towards our listeners
 
 **[00:05:12]** tried, because it's a little better to manage.
 
@@ -195,6 +197,8 @@ Advisory Board: LinkedIn Post by Mark
 **[00:05:38]** From that side, yes, we can always bring that up again,
 
 + **[00:05:41]** not so that we keep repeating ourselves.
+
+**[00:05:41]** so that we don't keep repeating ourselves.
 
 **[00:05:43]** But we actually have an increasing number of listeners,
 
@@ -360,7 +364,7 @@ Advisory Board: LinkedIn Post by Mark
 
 **[00:11:40]** not, it has come to stay, and it won't be any worse than it is today.
 
-**[00:11:44]**
+**[00:11:44]** won't be either.
 
 **[00:11:45]** So I believe if you take a closer look at the numbers, there is everything
 
@@ -920,7 +924,7 @@ Advisory Board: LinkedIn Post by Mark
 
 **[00:33:56]** then rub against their expertise and maybe create something new from it.
 
-**[00:34:01]**
+**[00:34:01]** can then rub up against it again out of their own expertise and perhaps create something new from it.
 
 **[00:34:02]** doesn't mean that AI should take everything away or automate everything, but rather that
 
@@ -982,7 +986,7 @@ Advisory Board: LinkedIn Post by Mark
 
 **[00:36:09]** that went well once, then of course it's the savior, it's not the case at all.
 
-**[00:36:13]**
+**[00:36:13]** it really isn't.
 
 **[00:36:14]** when you look at this in my larger context of companies,
 

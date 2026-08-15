@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Architecture decision records: the most important skill in vibe coding — Think Different. Think AI.</title>
+    <meta name="description" content="An agent reports that all errors have been fixed. They have not. What helps is unspectacular: writing decisions down, in a format the machine can read for …">
+    <link rel="canonical" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/41-just-vibe-it/">
+    <link rel="alternate" hreflang="de" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/41-just-vibe-it/">
+    <link rel="alternate" hreflang="en" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/41-just-vibe-it/">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Think Different. Think AI.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="Architecture decision records: the most important skill in vibe coding — Think Different. Think AI.">
+    <meta property="og:description" content="An agent reports that all errors have been fixed. They have not. What helps is unspectacular: writing decisions down, in a format the machine can read for …">
+    <meta property="og:url" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/41-just-vibe-it/">
+    <meta property="og:image" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/41-just-vibe-it.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Architecture decision records: the most important skill in vibe coding — Think Different. Think AI.">
+    <meta name="twitter:description" content="An agent reports that all errors have been fixed. They have not. What helps is unspectacular: writing decisions down, in a format the machine can read for …">
+    <meta name="twitter:image" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/41-just-vibe-it.jpg">
+    <link rel="stylesheet" href="../../../base.css">
+    <link rel="stylesheet" href="../../../transcript.css">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Architecture decision records: the most important skill in vibe coding","description":"An agent reports that all errors have been fixed. They have not. What helps is unspectacular: writing decisions down, in a format the machine can read for itself later.","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/41-just-vibe-it/","inLanguage":"en","datePublished":"2026-06-08","wordCount":1051,"image":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/41-just-vibe-it.jpg","author":[{"@type":"Person","name":"Mark Zimmermann"}],"publisher":{"@type":"Organization","name":"Think Different. Think AI."},"isPartOf":{"@type":"Blog","name":"Articles — Think Different. Think AI.","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/"},"about":{"@type":"PodcastEpisode","name":"Just vibe IT","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/41-just-vibe-it/"},"mainEntityOfPage":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/41-just-vibe-it/"}</script>
+  </head>
+  <body class="doc">
+    <header class="doc-top">
+      <a class="doc-brand" href="../../../en/index.html">
+        <span class="doc-brand-name">Think Different. Think AI.</span>
+        <span class="doc-brand-sub">Transcript archive</span>
+      </a>
+      <nav class="doc-nav" aria-label="All episodes">
+        <a href="../../../en/index.html">All episodes</a>
+        <a href="../../../en/topics/index.html">Topics</a>
+        <a href="../../../en/guests/index.html">Guests</a>
+        <a href="../../../en/blog/index.html">Articles</a>
+        <a href="https://think-ai.podigee.io/" rel="noreferrer">Podcast</a>
+      </nav>
+    </header>
+
+    <main class="doc-main art-page">
+      <article class="art">
+        <header class="art-head">
+          <p class="art-kicker"><b>Episode 41</b> · Article on the episode</p>
+          <h1>Architecture decision records: the most important skill in vibe coding</h1>
+          <p class="art-lead">An agent reports that all errors have been fixed. They have not. What helps is unspectacular: writing decisions down, in a format the machine can read for itself later.</p>
+          <p class="art-meta">By Mark Zimmermann · 08 Jun 2026 · 5 min read · <a class="art-lang" href="../../../blog/41-just-vibe-it/">Auf Deutsch lesen</a></p>
+        </header>
+        <img class="art-hero" src="../../../artikelbilder/41-just-vibe-it.jpg" alt="" width="1200" height="644" loading="eager" decoding="async">
+        <div class="art-body">
+<p>Andrej Karpathy named vibe coding in February 2025: talking to the machine until runnable software comes out. Vibe engineering lays a layer of context and structure over it. The difference between the two decides whether anyone still understands after three weeks why the system looks the way it does.</p>
+<p>The way into the episode is a case of things not working. Claude Code with an Opus model stubbornly refused to solve a specific problem. Only when Codex from OpenAI was hooked in as a reviewer via a plugin was it done.</p>
+<aside class="art-facts"><h2>in brief</h2><ul><li>A second model as reviewer solves problems the first one gets stuck on</li><li>Architecture decision records belong in markdown, not in Word, so that a model can read them</li><li>“Are all the errors gone?” is reliably followed by a “yes” that is not true</li><li>A pre-mortem skill thinks the project backwards and finds what you otherwise think of too late</li><li>Rate limits are annoying and force breaks nobody takes voluntarily</li></ul></aside>
+<h2>When two models are better than one</h2>
+<p>The case from the opening is more typical than it seems. A model that has proposed a solution sticks with that assumption. It checks its own approach against the same premises the approach came from, and consequently does not find the error.</p>
+<p>A second model brings a different starting point. That is not a quality difference between the vendors but simply a second perspective.</p>
+<p>In passing, the two untangle the naming situation, and it is genuinely confusing: at OpenAI, Codex is sometimes a model, sometimes an application, sometimes a mode, and to that come GPT-5.5, Amazon Bedrock, GitHub Copilot and Azure. Anyone keeping track here has been paying attention.</p>
+<h2>The most important advice in the episode</h2>
+<p>Architecture decision records are the antidote to the main weakness of the method. They record which decision was taken, what alternatives there were and why the choice fell as it did.</p>
+<p>The format is decisive: markdown, not Word. The reason is not taste. A model can read markdown later, check it for contradictions and find duplicates. A Word document with layout is dead weight for these purposes.</p>
+<aside class="art-info"><h3>What belongs in an ADR</h3><p>An architecture decision record is short, usually one page, and follows a fixed structure: <strong>context</strong> (what situation forces the decision), <strong>decision</strong> (what applies now), <strong>status</strong> (proposed, accepted, superseded) and <strong>consequences</strong> (what becomes easier as a result, what harder).</p>
+<p>The value sits in the consequences and in the rejected alternatives. Anyone wanting to know in six months whether a commitment still holds needs the reasoning and not the outcome. The outcome is in the code.</p>
+<p>In combination with agents a second benefit comes along. An agent that has the ADRs in context less often proposes something that runs against a commitment already made. Without these files, every session starts at zero, and you discuss the same question for the fourth time.</p></aside>
+<p>How far agents now go is shown by an anecdote from the weekend. After human and agent could not agree whether an error existed at all, the model requested screen sharing, keyboard access and accessibility permissions on the Mac and then clicked through the interface itself to find its own mistake. Impressive and uneasy at the same time.</p>
+<p>On the other side stands Manus AI, with which an application with text recognition and Google Calendar sign-in was built in two prompts. Functional, but by both their assessments far from ready for release.</p>
+<h2>Dealing with assurances</h2>
+<p>The practically most important warning concerns a phrasing everyone knows. To the question of whether all errors have been fixed follows a yes. Sometimes it is true. Sometimes the error was pushed off to another session.</p>
+<p>That is not malice but a consequence of how these systems answer. They produce the most likely continuation, and the most likely continuation to a success question is a success report.</p>
+<p>A pre-mortem skill serves as the antidote. It thinks a project backwards: it has failed, what was the cause. This reversal systematically surfaces what is otherwise thought of too late, for instance security, sign-in screens and consent.</p>
+<p>The accompanying working rule is simple: at every “that is secure”, follow up critically two or three times until the model also names what it left out the first time. It usually does then.</p>
+<h2>The addictive pull</h2>
+<p>An honest section is devoted to working hours. Vibe coding has addictive potential, because the feedback comes immediately and the next step always seems within reach.</p>
+<p>Rate limits are annoying in this context and useful at the same time, because they force a break. Even the expensive Max plan has one. In one of the installations involved, the system even checks the time of day and sends the user to bed in the evening.</p>
+<p>Connected to this is a second point that counts for organisations: not everyone needs the full chat window with all its power. Anyone building presentations all day does not need an open workbench but a solution tailored to the use case. For getting started, no-code and low-code tools such as Bolt or Lovable are suitable, where the method can be tried out safely.</p>
+<h2>Conclusion</h2>
+<p>Vibe coding works, and it works worse than the first impression suggests. The difference lies not in the model but in three habits.</p>
+<p>Write decisions down, in markdown, in ADR format. That costs ten minutes per decision and saves the discussion next time.</p>
+<p>Have what you did not produce yourself checked, and by something other than the producer. A second model is enough.</p>
+<p>And mistrust success reports. An “everything fixed” is a claim, not a test result.</p>
+<p>Two examples from private life show at the end what the effort is worth: a Philips Hue motion sensor in the cellar got a function through conversation that the manufacturer does not provide, namely light that stays on when somebody walks past again during the wait period. And the podcast website with all transcripts in German and English came about the same way.</p>
+<aside class="art-next"><h2>The story continues …</h2><p>The question of the right tool kit per role remains open. Between full agent access and no access at all lies a broad field most organisations have not yet sorted out. Whoever sorts it decides how much shadow IT arises over the next few years.</p></aside>
+        </div>
+        <footer class="art-foot">
+          <div class="art-ctas"><a class="art-cta" href="../../../en/41-just-vibe-it/"><span>Full transcript</span><b>Just vibe IT</b></a><a class="art-cta art-cta-alt" href="https://think-ai.podigee.io/41-just-vibe-it" rel="noreferrer"><span>To the episode</span><b>Episode 41</b></a></div>
+          <nav class="art-blaettern" aria-label="All articles">
+            <a class="art-prev" href="../44-local-first/"><span>Newer article</span><b>Local first: why AI compute is moving back onto your own machine</b></a><a class="art-next-link" href="../42-dark-side-of-ai/"><span>Older article</span><b>The barrier to entry is gone: what AI changes for attackers and defenders</b></a>
+          </nav>
+          <p class="art-back"><a href="../../../en/blog/index.html">All articles</a></p>
+        </footer>
+      </article>
+    </main>
+
+  </body>
+</html>

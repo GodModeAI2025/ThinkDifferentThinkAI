@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Loop engineering: why the goal has become more important than the prompt — Think Different. Think AI.</title>
+    <meta name="description" content="A loop receives no command but a goal, measurable success criteria and the instruction to check itself. That works, but it has a blind spot: a system that …">
+    <link rel="canonical" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/47-loop-engineering/">
+    <link rel="alternate" hreflang="de" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/47-loop-engineering/">
+    <link rel="alternate" hreflang="en" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/47-loop-engineering/">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Think Different. Think AI.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="Loop engineering: why the goal has become more important than the prompt — Think Different. Think AI.">
+    <meta property="og:description" content="A loop receives no command but a goal, measurable success criteria and the instruction to check itself. That works, but it has a blind spot: a system that …">
+    <meta property="og:url" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/47-loop-engineering/">
+    <meta property="og:image" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/47-loop-engineering.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Loop engineering: why the goal has become more important than the prompt — Think Different. Think AI.">
+    <meta name="twitter:description" content="A loop receives no command but a goal, measurable success criteria and the instruction to check itself. That works, but it has a blind spot: a system that …">
+    <meta name="twitter:image" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/47-loop-engineering.jpg">
+    <link rel="stylesheet" href="../../../base.css">
+    <link rel="stylesheet" href="../../../transcript.css">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Loop engineering: why the goal has become more important than the prompt","description":"A loop receives no command but a goal, measurable success criteria and the instruction to check itself. That works, but it has a blind spot: a system that assesses itself assesses itself well.","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/47-loop-engineering/","inLanguage":"en","datePublished":"2026-07-05","wordCount":979,"image":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/47-loop-engineering.jpg","author":[{"@type":"Person","name":"Mark Zimmermann"}],"publisher":{"@type":"Organization","name":"Think Different. Think AI."},"isPartOf":{"@type":"Blog","name":"Articles — Think Different. Think AI.","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/"},"about":{"@type":"PodcastEpisode","name":"Loop Engineering","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/47-loop-engineering/"},"mainEntityOfPage":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/47-loop-engineering/"}</script>
+  </head>
+  <body class="doc">
+    <header class="doc-top">
+      <a class="doc-brand" href="../../../en/index.html">
+        <span class="doc-brand-name">Think Different. Think AI.</span>
+        <span class="doc-brand-sub">Transcript archive</span>
+      </a>
+      <nav class="doc-nav" aria-label="All episodes">
+        <a href="../../../en/index.html">All episodes</a>
+        <a href="../../../en/topics/index.html">Topics</a>
+        <a href="../../../en/guests/index.html">Guests</a>
+        <a href="../../../en/blog/index.html">Articles</a>
+        <a href="https://think-ai.podigee.io/" rel="noreferrer">Podcast</a>
+      </nav>
+    </header>
+
+    <main class="doc-main art-page">
+      <article class="art">
+        <header class="art-head">
+          <p class="art-kicker"><b>Episode 47</b> · Article on the episode</p>
+          <h1>Loop engineering: why the goal has become more important than the prompt</h1>
+          <p class="art-lead">A loop receives no command but a goal, measurable success criteria and the instruction to check itself. That works, but it has a blind spot: a system that assesses itself assesses itself well.</p>
+          <p class="art-meta">By Mark Zimmermann · 05 Jul 2026 · 5 min read · <a class="art-lang" href="../../../blog/47-loop-engineering/">Auf Deutsch lesen</a></p>
+        </header>
+        <img class="art-hero" src="../../../artikelbilder/47-loop-engineering.jpg" alt="" width="1200" height="644" loading="eager" decoding="async">
+        <div class="art-body">
+<p>Two or three years ago the question was who writes the best prompt. By now it is who builds the best loop. Andrej Karpathy recently made public that he considers loop engineering more important than prompt engineering, and that matches what is happening in practice.</p>
+<p>The route there ran in stages. At the start stood a prompt database in Notion, that is a collection of formulations that had worked once. Then came skills: markdown files with sub-skills and executable Python code that an agent loads when needed. The step to the loop is the third and changes the human role more than the two before it.</p>
+<aside class="art-facts"><h2>in brief</h2><ul><li>A loop receives a goal and success criteria, not a single assignment</li><li>It checks itself and repeats until the criteria are met</li><li>The checking belongs with a different model: whoever assesses themselves confirms themselves</li><li>Run times of 10 to 20 hours for one task have become normal</li><li>With the number of parallel loops, context management becomes the actual bottleneck</li></ul></aside>
+<h2>What separates a loop from a prompt</h2>
+<p>The definition is brief and carries a long way.</p>
+<figure class="art-quote"><blockquote><p>“We define a prompt that instructs the system: what is my goal, what are my very concrete criteria by which I establish that I am reaching my goal. And the system continuously checks whether the goal has been reached, and repeats itself until the goal is reached.”</p></blockquote><figcaption><strong>Mark Zimmermann</strong>, co-host</figcaption></figure>
+<p>The difference lies in the shift of responsibility. With a prompt, the human describes the route and judges the result. With a loop, the human describes the goal and the yardstick, and the machine looks for the route.</p>
+<p>That also shifts the human&#x27;s work. It no longer lies in the formulation but in the question of how you actually recognise success. That is a specification task, and it is more uncomfortable because it permits no vague goals. “Do this well” is not a success criterion. “All ten test cases pass, and the report names each individually with its status” is one.</p>
+<aside class="art-info"><h3>Why loops of all things</h3><p>The term seems surprising at first, because loops are among the oldest constructs in programming. What is new is what sits inside the loop.</p>
+<p>Text generation itself is already a loop: the model predicts a token, appends it and starts again. Loop engineering sits one level above that. There, what sits in the loop is not a token but a complete work step with tool calls, and the stopping condition is not a character limit but a domain criterion.</p>
+<p>In practice such a loop needs three specifications: the goal, the verifiable criteria and an upper bound. Without the upper bound, the loop either runs into a quota or produces side effects nobody ordered.</p></aside>
+<h2>The blind spot: self-assessment</h2>
+<p>The most important warning in the episode concerns the check. Anyone letting a system assess its own work generally gets agreement back.</p>
+<p>That is not malice on the machine&#x27;s part but a consequence of how the assessment comes about. The same model with the same context that produced a solution considers it correct on review, because it brings the same assumptions along. An error that went unnoticed during generation goes unnoticed during checking as well.</p>
+<p>The way out is organisational, not technical: the result is checked by a different model. Peter Steinberger has publicly described the approach along with the token consumption it incurs, and the consumption is the price for it.</p>
+<p>A proven sequence looks like this: first have a plan drawn up, then have the plan checked by a critic skill and a meta-analysis skill, then start the implementation as a goal loop. That such a run takes 10, 12 or 20 hours is not a fault but the operating mode.</p>
+<h2>Harness engineering becomes the bottleneck</h2>
+<p>The more agents and loops work in parallel, the less the model decides and the more the frame decides. Two topics stand out.</p>
+<p>The first is context and memory. A loop running for hours has to know what applied earlier and must not start from scratch at every restart. How quickly context is lost was shown by the short-notice shutdown of a model: what sat in its sessions was gone. Everything that is meant to survive belongs in your own, vendor-independent store.</p>
+<p>The second is governance. As soon as skills contain executable code and agents access company systems, the usual questions arise: who may put a skill into circulation, how is it signed, how can it be traced afterwards what an agent did. These questions are not new, they are known from software distribution. What is new is that they now apply to text files any business unit can write.</p>
+<p>A terminological distinction is worthwhile: a harness is the frame in which agents work, that is tools, context, rules and checking. An agentic OS would be a level above, with resource management and scheduling across competing agents. What is being built today are harnesses.</p>
+<h2>Conclusion</h2>
+<p>Loop engineering is not a new technique but a relocation of care. It moves from the formulation to the specification, and it is better placed there, because specifications survive a model change.</p>
+<p>Three rules are enough to start. Define the goal so that a machine can check whether it has been reached. Have the checking done by something other than what did the work. And set an upper bound before you start the run.</p>
+<p>It is not about impressing with as many tokens as possible. It is about defining a clear goal and leaving the route there to the machine.</p>
+<aside class="art-next"><h2>The story continues …</h2><p>The question of auditability in enterprise use remains open. Signed skills, traceable agent logs and an approval chain for executable instructions are currently largely manual work. Until standards exist for this, the same applies as with macros twenty years ago: whoever collects and checks them has less work later.</p></aside>
+        </div>
+        <footer class="art-foot">
+          <div class="art-ctas"><a class="art-cta" href="../../../en/47-loop-engineering/"><span>Full transcript</span><b>Loop Engineering</b></a><a class="art-cta art-cta-alt" href="https://think-ai.podigee.io/47-loop-engineering" rel="noreferrer"><span>To the episode</span><b>Episode 47</b></a></div>
+          <nav class="art-blaettern" aria-label="All articles">
+            <a class="art-prev" href="../48-speed-vs-safety/"><span>Newer article</span><b>When the model disappears: why agent systems need interchangeability</b></a><a class="art-next-link" href="../46-vibe-consulting-bonus/"><span>Older article</span><b>Vibe coding meets specification: where the shortcut in software development ends</b></a>
+          </nav>
+          <p class="art-back"><a href="../../../en/blog/index.html">All articles</a></p>
+        </footer>
+      </article>
+    </main>
+
+  </body>
+</html>

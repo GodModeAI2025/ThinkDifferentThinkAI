@@ -1102,7 +1102,7 @@ Link description
 
 **[00:41:46]** and then somehow booked the course for 2,977 dollars with him to check that out.
 
-**[00:41:50]**
+**[00:41:50]** to take a look at it.
 
 **[00:41:51]** So, such things can be true, but they can also be not true.
 

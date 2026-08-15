@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Temporal UX: why waiting time with AI agents is a design problem — Think Different. Think AI.</title>
+    <meta name="description" content="An agent works for ten minutes. What happens on the screen during that time decides whether the productivity gain arrives or seeps away in checking glances …">
+    <link rel="canonical" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/33-termporal-ux/">
+    <link rel="alternate" hreflang="de" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/33-termporal-ux/">
+    <link rel="alternate" hreflang="en" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/33-termporal-ux/">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Think Different. Think AI.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="Temporal UX: why waiting time with AI agents is a design problem — Think Different. Think AI.">
+    <meta property="og:description" content="An agent works for ten minutes. What happens on the screen during that time decides whether the productivity gain arrives or seeps away in checking glances …">
+    <meta property="og:url" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/33-termporal-ux/">
+    <meta property="og:image" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/33-termporal-ux.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Temporal UX: why waiting time with AI agents is a design problem — Think Different. Think AI.">
+    <meta name="twitter:description" content="An agent works for ten minutes. What happens on the screen during that time decides whether the productivity gain arrives or seeps away in checking glances …">
+    <meta name="twitter:image" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/33-termporal-ux.jpg">
+    <link rel="stylesheet" href="../../../base.css">
+    <link rel="stylesheet" href="../../../transcript.css">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Temporal UX: why waiting time with AI agents is a design problem","description":"An agent works for ten minutes. What happens on the screen during that time decides whether the productivity gain arrives or seeps away in checking glances. A concept from service design that has barely been thought through in the AI context.","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/33-termporal-ux/","inLanguage":"en","datePublished":"2026-05-11","wordCount":986,"image":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/33-termporal-ux.jpg","author":[{"@type":"Person","name":"Mark Zimmermann"}],"publisher":{"@type":"Organization","name":"Think Different. Think AI."},"isPartOf":{"@type":"Blog","name":"Articles — Think Different. Think AI.","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/"},"about":{"@type":"PodcastEpisode","name":"Temporal UX","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/33-termporal-ux/"},"mainEntityOfPage":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/33-termporal-ux/"}</script>
+  </head>
+  <body class="doc">
+    <header class="doc-top">
+      <a class="doc-brand" href="../../../en/index.html">
+        <span class="doc-brand-name">Think Different. Think AI.</span>
+        <span class="doc-brand-sub">Transcript archive</span>
+      </a>
+      <nav class="doc-nav" aria-label="All episodes">
+        <a href="../../../en/index.html">All episodes</a>
+        <a href="../../../en/topics/index.html">Topics</a>
+        <a href="../../../en/guests/index.html">Guests</a>
+        <a href="../../../en/blog/index.html">Articles</a>
+        <a href="https://think-ai.podigee.io/" rel="noreferrer">Podcast</a>
+      </nav>
+    </header>
+
+    <main class="doc-main art-page">
+      <article class="art">
+        <header class="art-head">
+          <p class="art-kicker"><b>Episode 33</b> · Article on the episode</p>
+          <h1>Temporal UX: why waiting time with AI agents is a design problem</h1>
+          <p class="art-lead">An agent works for ten minutes. What happens on the screen during that time decides whether the productivity gain arrives or seeps away in checking glances. A concept from service design that has barely been thought through in the AI context.</p>
+          <p class="art-meta">By Mark Zimmermann · 11 May 2026 · 5 min read · <a class="art-lang" href="../../../blog/33-termporal-ux/">Auf Deutsch lesen</a></p>
+        </header>
+        <img class="art-hero" src="../../../artikelbilder/33-termporal-ux.jpg" alt="" width="1200" height="644" loading="eager" decoding="async">
+        <div class="art-body">
+<p>Airports offer a well-known example of designed time. If the walk to the baggage belt is deliberately lengthened, travellers experience the waiting time as shorter, although it is the same length or longer. The waiting time was not shortened but filled.</p>
+<p>Precisely this principle is almost entirely missing in work with AI agents. Under the name temporal UX it has been circulating in the service design world for some time; in the AI context it is barely thought through.</p>
+<aside class="art-facts"><h2>in brief</h2><ul><li>Current models have no sense of elapsed time and assert durations that are not true</li><li>From five to six agents running in parallel the error rate rises noticeably, because the overview is lost</li><li>Reasoning models show their thinking process partly because visible progress creates trust</li><li>Timeouts and heartbeats are unresolved as soon as agents talk to each other instead of to humans</li><li>Without deliberate time design, the management load eats up the productivity gain</li></ul></aside>
+<h2>The starting case</h2>
+<p>The occasion is an experience of their own. During joint vibe coding, a task was handed to an agent, implemented with Craft Agents on the basis of an Opus model. The other participants received only sporadic second-hand updates in the meantime.</p>
+<p>The result was a six-point list being worked through. In effect that resembles an installation bar stuck at 98 per cent: there is progress to see, and nobody knows how much longer it will take.</p>
+<p>The analogies in the episode are all older than AI and describe the same problem: swapping floppy disks, loading screens with hidden jokes in old video games, Pong mini-games on Flash websites. All early solutions for making waiting time bearable without lying about its length.</p>
+<h2>Why models show their thinking process</h2>
+<p>One central strand concerns trust. Reasoning models display their train of thought, and the obvious explanation is transparency.</p>
+<p>The second explanation is at least as important: visible progress keeps people engaged. Anyone who sees that something is happening waits longer and mistrusts the result less. That is not manipulation, as long as the steps displayed actually take place. It is, however, a design decision, not a technical necessity.</p>
+<p>Note the flip side. A visible thinking process binds attention. Anyone who stays and watches gains no time. The actual benefit only arises when you can let the agent work and do something else, and for that it takes a reliable notification instead of a captivating screen.</p>
+<h2>The problem with several agents</h2>
+<p>Beyond a certain number of parallel agents, the benefit tips over. In the episode the limit sits at five to six: after that the error rate rises noticeably, because you lose track of who is working on what and where a prompt or a checking step is missing.</p>
+<p>That is not a question of compute but of human management load. Every running agent occupies a slot in working memory, and that slot is limited.</p>
+<p>As a picture of what is wanted, the episode brings in an old Palm Pilot application called Agendus: tasks that travel with you until they are done, plus a simple wrap-up and the ability to merge contexts from different conversations. That is not nostalgia but a precise requirements description that today&#x27;s agent tools do not meet.</p>
+<h2>Models have no sense of time</h2>
+<p>The finding with the greatest practical consequences is also the easiest to overlook. Current models have no sense of elapsed time. Anyone not explicitly supplying the date and time in the prompt gets statements such as “I researched for two hours” while two minutes have actually passed.</p>
+<p>For reports, minutes and anything containing time references that means: supply timestamps explicitly and do not have the model estimate durations.</p>
+<aside class="art-info"><h3>Why timeouts between agents are unresolved</h3><p>As long as a human waits for a model, the matter is simple: the human notices that nothing is happening and breaks off.</p>
+<p>Between agents this instance falls away. If an agent waits for another&#x27;s answer, it needs a time limit after which it treats the attempt as failed. If the limit is too short, it discards results that would have arrived shortly afterwards. If it is too long, it blocks.</p>
+<p>This is aggravated by cascades. If ten thousand agentic systems wait for each other and one does not answer, in the unfavourable case all the others hang idle without an error being reported anywhere. Heartbeat mechanisms, that is regular signs of life independent of the result, are the established answer from distributed systems engineering. In agent tools they are so far the exception.</p></aside>
+<p>How concrete that gets is shown by an anecdote from the episode: a timeout in the frontend swallowed the finished answer of an n8n workflow. The work was done, the result was there, and it never arrived. That is not a model problem and not an automation problem but a time design problem.</p>
+<h2>Conclusion</h2>
+<p>Time design must not be left to chance. It belongs deliberately considered on two levels: in the interface and in the organisation, that is in workflows, notifications and handover points.</p>
+<p>Three practical steps follow for your own environment. Supply models with the date and time instead of believing time statements. Limit the number of agents running simultaneously to what you can keep track of, four rather than eight. And make sure a finished result reaches you even if you have done something else in the meantime.</p>
+<p>Otherwise the paradoxical state the episode describes arises: the machine works faster, and overall performance falls, because managing the waiting time costs more than the work saved.</p>
+<p>A sentence from Benjamin Franklin fits at the end, with which the episode closes: lost time is never found again.</p>
+<aside class="art-next"><h2>The story continues …</h2><p>Agent tools such as n8n or Claude barely consider time design so far. As long as that stays the case, it falls to users to build notifications, time limits and handovers themselves. Anyone doing that today has less to change later.</p></aside>
+        </div>
+        <footer class="art-foot">
+          <div class="art-ctas"><a class="art-cta" href="../../../en/33-termporal-ux/"><span>Full transcript</span><b>Temporal UX</b></a><a class="art-cta art-cta-alt" href="https://think-ai.podigee.io/33-termporal-ux" rel="noreferrer"><span>To the episode</span><b>Episode 33</b></a></div>
+          <nav class="art-blaettern" aria-label="All articles">
+            <a class="art-prev" href="../40-ai-und-legal/"><span>Newer article</span><b>User, operator, provider: what the AI Act actually demands of you</b></a><a class="art-next-link" href="../39-pm-2-0/"><span>Older article</span><b>Context engineering: why the AI-written PRD beats the human under time pressure</b></a>
+          </nav>
+          <p class="art-back"><a href="../../../en/blog/index.html">All articles</a></p>
+        </footer>
+      </article>
+    </main>
+
+  </body>
+</html>

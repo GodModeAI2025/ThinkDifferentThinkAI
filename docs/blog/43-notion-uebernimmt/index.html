@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Worker statt Klebeband: Wie Notion die Automatisierungsschicht einzieht — Think Different. Think AI.</title>
+    <meta name="description" content="Notion hat eine Developer-Plattform gestartet. Der interessante Teil sind nicht die Managed Agents, sondern kleine deterministische Programme, die ohne …">
+    <link rel="canonical" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/43-notion-uebernimmt/">
+    <link rel="alternate" hreflang="de" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/43-notion-uebernimmt/">
+    <link rel="alternate" hreflang="en" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/43-notion-uebernimmt/">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Think Different. Think AI.">
+    <meta property="og:locale" content="de_DE">
+    <meta property="og:title" content="Worker statt Klebeband: Wie Notion die Automatisierungsschicht einzieht — Think Different. Think AI.">
+    <meta property="og:description" content="Notion hat eine Developer-Plattform gestartet. Der interessante Teil sind nicht die Managed Agents, sondern kleine deterministische Programme, die ohne …">
+    <meta property="og:url" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/43-notion-uebernimmt/">
+    <meta property="og:image" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/43-notion-uebernimmt.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Worker statt Klebeband: Wie Notion die Automatisierungsschicht einzieht — Think Different. Think AI.">
+    <meta name="twitter:description" content="Notion hat eine Developer-Plattform gestartet. Der interessante Teil sind nicht die Managed Agents, sondern kleine deterministische Programme, die ohne …">
+    <meta name="twitter:image" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/43-notion-uebernimmt.jpg">
+    <link rel="stylesheet" href="../../base.css">
+    <link rel="stylesheet" href="../../transcript.css">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Worker statt Klebeband: Wie Notion die Automatisierungsschicht einzieht","description":"Notion hat eine Developer-Plattform gestartet. Der interessante Teil sind nicht die Managed Agents, sondern kleine deterministische Programme, die ohne Tokenkosten laufen und die Zwischenschicht aus n8n und Make überflüssig machen.","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/43-notion-uebernimmt/","inLanguage":"de","datePublished":"2026-05-25","wordCount":946,"image":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/43-notion-uebernimmt.jpg","author":[{"@type":"Person","name":"Mark Zimmermann"}],"publisher":{"@type":"Organization","name":"Think Different. Think AI."},"isPartOf":{"@type":"Blog","name":"Fachartikel — Think Different. Think AI.","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/"},"about":{"@type":"PodcastEpisode","name":"Notion übernimmt","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/43-notion-uebernimmt/"},"mainEntityOfPage":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/43-notion-uebernimmt/"}</script>
+  </head>
+  <body class="doc">
+    <header class="doc-top">
+      <a class="doc-brand" href="../../index.html">
+        <span class="doc-brand-name">Think Different. Think AI.</span>
+        <span class="doc-brand-sub">Transkriptarchiv</span>
+      </a>
+      <nav class="doc-nav" aria-label="Alle Folgen">
+        <a href="../../index.html">Alle Folgen</a>
+        <a href="../../themen/index.html">Themen</a>
+        <a href="../../gaeste/index.html">Gäste</a>
+        <a href="../../blog/index.html">Fachartikel</a>
+        <a href="https://think-ai.podigee.io/" rel="noreferrer">Podcast</a>
+      </nav>
+    </header>
+
+    <main class="doc-main art-page">
+      <article class="art">
+        <header class="art-head">
+          <p class="art-kicker"><b>Folge 43</b> · Im Gespräch mit Dirk Beckmann</p>
+          <h1>Worker statt Klebeband: Wie Notion die Automatisierungsschicht einzieht</h1>
+          <p class="art-lead">Notion hat eine Developer-Plattform gestartet. Der interessante Teil sind nicht die Managed Agents, sondern kleine deterministische Programme, die ohne Tokenkosten laufen und die Zwischenschicht aus n8n und Make überflüssig machen.</p>
+          <p class="art-meta">Von Mark Zimmermann · 25.05.2026 · 5 Minuten Lesezeit · <a class="art-lang" href="../../en/blog/43-notion-uebernimmt/">Read in English</a></p>
+        </header>
+        <img class="art-hero" src="../../artikelbilder/43-notion-uebernimmt.jpg" alt="" width="1200" height="644" loading="eager" decoding="async">
+        <div class="art-body">
+<p>Notion hat den Start im Stil einer vorab aufgezeichneten Keynote inszeniert: ruhiger Vortrag, dunkler Raum, Holzstuhl. Was CEO Ivan Zhao darin ankündigt, geht deutlich über eine weitere Programmierschnittstelle hinaus.</p>
+<p>Zu Gast ist Dirk Beckmann, Geschäftsführer der Digitalagentur artundweise, der die Plattform bereits produktiv einsetzt.</p>
+<aside class="art-facts"><h2>kurz &amp; knapp</h2><ul><li>Worker sind kleine TypeScript-Programme, die auf der Notion-Plattform laufen</li><li>Sie werden mit KI geschrieben, aber deterministisch ausgeführt: keine Tokenkosten, kein Halluzinationsrisiko</li><li>Ein Agent kann Worker als Werkzeug aufrufen, womit die Schicht aus n8n oder Make entfällt</li><li>Notion öffnet sich für lokale Modelle wie Mistral oder Qwen und für Hugging Face</li><li>Managed Agents von Anthropic arbeiten in abgeschotteten Sandboxes und auch außerhalb von Notion</li></ul></aside>
+<h2>Was ein Worker ist, und warum das zählt</h2>
+<p>Ein Worker ist ein kleines TypeScript-Programm, das auf der Notion-Plattform läuft. Geschrieben wird es mit KI-Unterstützung, ausgeführt wird es deterministisch. Das ist die entscheidende Eigenschaft: Was einmal richtig läuft, läuft beim tausendsten Mal genauso, kostet keine Tokens und kann nichts erfinden.</p>
+<p>Damit entsteht eine saubere Arbeitsteilung. Das Modell übernimmt, was Urteil braucht. Der Worker übernimmt, was zuverlässig sein muss. Ein Agent in Notion kann den Worker als Werkzeug aufrufen und bekommt ein berechenbares Ergebnis zurück.</p>
+<p>Beckmann zeigt das an zwei eigenen Beispielen. Der erste Worker fragt über einen neuen Feldtyp namens Sync alle 15 Minuten ein Gmail-Postfach ab. Der zweite bindet Hugging Face an und erzeugt lokal auf einem MacBook mit M5 Pro Bilder, Videos und geklonte Sprachausgabe. Ohne Cloud-Anbindung, ohne laufende Tokenkosten, dafür mit hörbarem Lüfter.</p>
+<p>Praktisch bedeutet das: Was bisher über n8n oder Make zusammengesteckt wurde, lässt sich im eigenen System bauen. Eine Plattform weniger in der Kette heißt eine Schnittstelle weniger, ein Abo weniger und ein Ort weniger, an dem Zugangsdaten liegen.</p>
+<aside class="art-info"><h3>Deterministisch oder generativ, und wann was</h3><p>Ein Sprachmodell ist ein statistisches System. Dieselbe Eingabe kann zu unterschiedlichen Ausgaben führen, und das ist keine Fehlfunktion, sondern die Betriebsart. Für Aufgaben mit Ermessensspielraum ist das ein Vorteil, für Aufgaben mit richtiger und falscher Antwort ein Risiko.</p>
+<p>Deterministischer Code kennt diesen Spielraum nicht. Eine Summenbildung, ein Datumsvergleich, eine Formatprüfung liefern immer dasselbe Ergebnis, unabhängig davon, wie oft sie laufen.</p>
+<p>Die verbreitete Fehlkonstruktion besteht darin, ein Modell Dinge tun zu lassen, die ein Dreizeiler zuverlässiger erledigt. Das kostet Tokens, Zeit und Genauigkeit. Die brauchbare Faustregel: Alles, wofür sich eine eindeutige Regel formulieren lässt, gehört in Code. Das Modell schreibt diesen Code, führt ihn aber nicht bei jedem Aufruf neu aus.</p></aside>
+<p>Bemerkenswert ist die Geschäftsentscheidung dahinter. Notion verdient sein Geld mit Tokens, verkauft im Kern also Rechenzeit. Mit der Worker-Plattform öffnet sich das Unternehmen trotzdem für lokale Modelle wie Mistral oder Qwen und für externe Anbieter wie Hugging Face. Das kostet kurzfristig Umsatz und zementiert langfristig die Plattform.</p>
+<h2>Warum das für den Mittelstand mehr ist als eine Randnotiz</h2>
+<p>Der Punkt betrifft alle, die aus Compliance-Gründen oder auf Kundenwunsch keine amerikanischen Modelle einsetzen dürfen. Bisher endete diese Anforderung häufig damit, dass KI im Unternehmen gar nicht stattfand.</p>
+<p>Über die Worker-Plattform lässt sich das umgehen: lokale Modelle auf eigener Hardware oder EU-gehostete Modelle über AWS Bedrock in Frankfurt. Die Automatisierung bleibt im vertrauten System, das Modell wird zur austauschbaren Komponente.</p>
+<p>Wichtig dabei: Das löst die Datenschutzfrage nicht vollständig, weil die Plattform selbst weiterhin bei einem amerikanischen Anbieter liegt. Es verschiebt aber die Grenze, ab der eine Verarbeitung stattfindet, und das ist in vielen Fällen der entscheidende Unterschied.</p>
+<h2>Managed Agents und die Sandbox</h2>
+<p>Der zweite Baustein sind Managed Agents von Anthropic, die sich in Notion-Workflows einbinden lassen: lange laufende Aufgaben, externe Auslöser, abgeschottete Ausführungsumgebungen, ohne eigene Infrastruktur.</p>
+<p>Worin sich diese von dem in Notion eingebauten Agenten unterscheiden, bleibt im Gespräch bewusst offen. Der greifbare Unterschied: Managed Agents arbeiten auch außerhalb von Notion, können etwa Code auf GitHub auschecken und wieder einchecken, während der Notion-Agent an die Plattform gebunden bleibt.</p>
+<p>Dass solche Agenten in abgekapselten Sandboxes laufen, hat einen konkreten Anlass. In der Branche kursiert der Fall einer KI, die eine Produktionsdatenbank gelöscht und die Verantwortung anschließend bestritten haben soll. Ob die Geschichte in allen Details stimmt, ist für die Konsequenz zweitrangig: Ein Agent mit Schreibrechten auf Produktivsystemen braucht eine Umgebung, aus der er nicht herauskommt.</p>
+<h2>Was daraus im Alltag wird</h2>
+<p>Zwei Beispiele aus der Folge zeigen die Bandbreite. Für einen befreundeten Neurologen ist in drei Stunden ein Abrechnungswerkzeug auf Markdown-Basis entstanden, vollständig offline, ohne Internet und ohne WLAN. Und aus einer Notion-Sammlung ist beiläufig ein internes Marketing-Betriebssystem geworden, das inzwischen an erste Pilotkunden geht.</p>
+<p>Beides sind keine Softwareprojekte im klassischen Sinn. Beides sind Dinge, die vorher entweder gekauft oder gar nicht gemacht worden wären.</p>
+<h2>Fazit</h2>
+<p>Die Worker-Plattform ist der bislang überzeugendste Versuch, generative und deterministische Verarbeitung sauber zu trennen, statt alles einem Modell zu überlassen. Wer heute Automatisierungen betreibt, sollte drei Fragen an seinen Aufbau stellen.</p>
+<p>Welche Schritte laufen über ein Modell, obwohl eine Regel genügt? Diese Schritte sind Kandidaten für einen Worker, und sie werden dadurch billiger und verlässlicher.</p>
+<p>Wie viele Plattformen liegen zwischen Datenquelle und Ergebnis? Jede davon ist eine Schnittstelle, ein Abo und ein Ort für Zugangsdaten.</p>
+<p>Und wo läuft das Modell? Wenn die Antwort „bei einem amerikanischen Anbieter, ohne Alternative“ lautet, gibt es inzwischen einen Weg daran vorbei.</p>
+<p>Der rote Faden der Folge bleibt trotzdem derselbe wie sonst: Die Technik kann eine Menge. Am größeren Hebel sitzt, wer die Menschen mitnimmt, statt sie mit Kommandozeile, Sync-Feldern und Sandbox-Begriffen allein zu lassen.</p>
+<aside class="art-next"><h2>The story continues …</h2><p>Ungeklärt bleibt, wie sich die Verantwortung zwischen Plattform und Anwender verteilt, wenn ein Managed Agent außerhalb der Plattform arbeitet und dort Schaden anrichtet. Solange die Sandbox hält, ist das theoretisch. Der erste Fall, in dem sie nicht hält, wird die Frage praktisch machen.</p></aside>
+        </div>
+        <footer class="art-foot">
+          <div class="art-ctas"><a class="art-cta" href="../../de/43-notion-uebernimmt/"><span>Volltext-Transkript</span><b>Notion übernimmt</b></a><a class="art-cta art-cta-alt" href="https://think-ai.podigee.io/43-notion-uebernimmt" rel="noreferrer"><span>Zur Folge</span><b>Folge 43</b></a></div>
+          <nav class="art-blaettern" aria-label="Alle Fachartikel">
+            <a class="art-prev" href="../42-dark-side-of-ai/"><span>Neuerer Artikel</span><b>Die Einstiegshürde ist weg: Was KI für Angreifer und Verteidiger ändert</b></a><a class="art-next-link" href="../40-ai-und-legal/"><span>Älterer Artikel</span><b>Anwender, Betreiber, Anbieter: Was der AI Act tatsächlich von Ihnen verlangt</b></a>
+          </nav>
+          <p class="art-back"><a href="../../blog/index.html">Alle Fachartikel</a></p>
+        </footer>
+      </article>
+    </main>
+
+  </body>
+</html>

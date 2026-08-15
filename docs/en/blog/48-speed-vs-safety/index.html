@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>When the model disappears: why agent systems need interchangeability — Think Different. Think AI.</title>
+    <meta name="description" content="An Anthropic model was blocked for non-US citizens. Law firms that had aligned their text analysis with it stood without a basis from one day to the next …">
+    <link rel="canonical" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/48-speed-vs-safety/">
+    <link rel="alternate" hreflang="de" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/48-speed-vs-safety/">
+    <link rel="alternate" hreflang="en" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/48-speed-vs-safety/">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Think Different. Think AI.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="When the model disappears: why agent systems need interchangeability — Think Different. Think AI.">
+    <meta property="og:description" content="An Anthropic model was blocked for non-US citizens. Law firms that had aligned their text analysis with it stood without a basis from one day to the next …">
+    <meta property="og:url" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/48-speed-vs-safety/">
+    <meta property="og:image" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/48-speed-vs-safety.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="When the model disappears: why agent systems need interchangeability — Think Different. Think AI.">
+    <meta name="twitter:description" content="An Anthropic model was blocked for non-US citizens. Law firms that had aligned their text analysis with it stood without a basis from one day to the next …">
+    <meta name="twitter:image" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/48-speed-vs-safety.jpg">
+    <link rel="stylesheet" href="../../../base.css">
+    <link rel="stylesheet" href="../../../transcript.css">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"When the model disappears: why agent systems need interchangeability","description":"An Anthropic model was blocked for non-US citizens. Law firms that had aligned their text analysis with it stood without a basis from one day to the next. What follows from that for your own architecture.","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/48-speed-vs-safety/","inLanguage":"en","datePublished":"2026-07-12","wordCount":1068,"image":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/48-speed-vs-safety.jpg","author":[{"@type":"Person","name":"Mark Zimmermann"}],"publisher":{"@type":"Organization","name":"Think Different. Think AI."},"isPartOf":{"@type":"Blog","name":"Articles — Think Different. Think AI.","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/"},"about":{"@type":"PodcastEpisode","name":"Speed vs. Safety","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/48-speed-vs-safety/"},"mainEntityOfPage":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/48-speed-vs-safety/"}</script>
+  </head>
+  <body class="doc">
+    <header class="doc-top">
+      <a class="doc-brand" href="../../../en/index.html">
+        <span class="doc-brand-name">Think Different. Think AI.</span>
+        <span class="doc-brand-sub">Transcript archive</span>
+      </a>
+      <nav class="doc-nav" aria-label="All episodes">
+        <a href="../../../en/index.html">All episodes</a>
+        <a href="../../../en/topics/index.html">Topics</a>
+        <a href="../../../en/guests/index.html">Guests</a>
+        <a href="../../../en/blog/index.html">Articles</a>
+        <a href="https://think-ai.podigee.io/" rel="noreferrer">Podcast</a>
+      </nav>
+    </header>
+
+    <main class="doc-main art-page">
+      <article class="art">
+        <header class="art-head">
+          <p class="art-kicker"><b>Episode 48</b> · Article on the episode</p>
+          <h1>When the model disappears: why agent systems need interchangeability</h1>
+          <p class="art-lead">An Anthropic model was blocked for non-US citizens. Law firms that had aligned their text analysis with it stood without a basis from one day to the next. What follows from that for your own architecture.</p>
+          <p class="art-meta">By Mark Zimmermann · 12 Jul 2026 · 5 min read · <a class="art-lang" href="../../../blog/48-speed-vs-safety/">Auf Deutsch lesen</a></p>
+        </header>
+        <img class="art-hero" src="../../../artikelbilder/48-speed-vs-safety.jpg" alt="" width="1200" height="644" loading="eager" decoding="async">
+        <div class="art-body">
+<p>Fable is no longer available to users outside the USA. Reliable information for assessing the political motives is lacking; plausible is a head start for selected companies and the government&#x27;s own administration in closing security holes, before comparably capable models from less controllable hands become available.</p>
+<p>For practice the question of motive is secondary. What matters is the event itself: a model in productive use can fall away at short notice, and by a decision rather than a malfunction.</p>
+<aside class="art-facts"><h2>in brief</h2><ul><li>A model in productive use can disappear through an export decision, not only through an outage</li><li>Law firms that had switched their entire text analysis to Fable stood without a replacement</li><li>Distillation shortens the gap: bulk queries extract the capabilities of large models into smaller ones</li><li>A loop that hits an API limit reports success afterwards, although it only delivered a simple pass</li><li>The state of the art corresponds to the web around 1997: usable, but without standards</li></ul></aside>
+<h2>Concentration risk: the model</h2>
+<p>The law firms affected did nothing wrong that would have been recognisable at the time of the decision. They selected a model that delivered the best results for their task and aligned their processes with it. That is precisely what most rollout projects recommend.</p>
+<p>The mistake sits one level deeper, in the assumption that a model is an infrastructure component with the availability characteristics of a database. It is more of an imported product whose availability depends on trade policy.</p>
+<p>In practice that means: treat the choice of model like a supplier relationship, not like a technology decision. That includes a second, tested provider, and it includes writing your own prompts and skills so that they do not build on one vendor&#x27;s peculiarities.</p>
+<p>Important here: the gap between the vendors is shrinking anyway. Chinese models replicate the capabilities of large US models via distillation, that is via automated bulk queries from which the behaviour of the original can be extracted. Anyone preparing interchangeability today will be able to use it before long.</p>
+<aside class="art-info"><h3>What distillation means technically</h3><p>In knowledge distillation, a large, capable model serves as a teacher for a smaller one. The smaller model is trained not on the original training data but on the teacher&#x27;s outputs, frequently on its probability distributions over the next tokens. These distributions contain more information than the bare answer, because they also show which alternatives the teacher considered how plausible.</p>
+<p>Anyone without access to the internal values makes do with volume: automated queries in large numbers produce a corpus of question-answer pairs that serves as a training basis. The result does not reach the breadth of the original, but comes close in the areas queried, at a fraction of the training cost.</p>
+<p>For vendors of large models this is a business risk, which is why terms of use regularly prohibit it. The prohibition is only enforceable to a limited extent.</p></aside>
+<h2>The loop that reports success</h2>
+<p>The second part of the episode concerns a kind of error that occurs reliably when building loops and is hard to notice.</p>
+<p>The sequence: a goal loop is supposed to work through a larger quantity of material until a list of questions is answered. Mid-work it runs into a limit, and not the model limit but the interface limit. The run breaks off.</p>
+<p>Afterwards the instruction to carry on is enough. The system resumes work, runs into errors again, at some point reduces its query frequency by itself and reports at the end that everything is done. In passing follows the note that there were eight crashes, and would you like the resulting damage repaired.</p>
+<p>The result then looks like the answer to a normal prompt. The work actually commissioned, the repeated checking against the success criteria, has been lost in the moments of interruption.</p>
+<p>Careful: at this point the loop reports no error but success. Anyone looking only at the completion status takes on a result that never went through the promised check. Only a control outside the loop, one that independently recalculates the success criteria, is reliable.</p>
+<p>A second limit is more banal and hits nonetheless: a weekly allowance in the Max plan can be used up in a single evening. After that the work stands still for several days.</p>
+<h2>Your own harness or a standard product</h2>
+<p>Connected to this is an architectural question that is currently undecided. On one side stand ready-made environments such as ChatGPT, Gemini or Cowork. On the other the self-built harness that has to cope with changing models and environments.</p>
+<p>The standard product wins on rollout speed and maintenance. Your own harness wins in exactly the case this episode is about: when the model changes, you swap a component instead of a workflow.</p>
+<p>The effort for that is regularly underestimated, and the results are regularly underestimated. The episode contains the anecdote of somebody who dismissed a self-built harness as “some JSON app”. The comparison misses where the work sits: not in the data format, but in context management, stopping criteria, checking mechanics and logging.</p>
+<h2>Where we actually stand</h2>
+<p>The most sober assessment in the episode concerns the level of maturity. The point of comparison is the web around 1997. Much already works, standards are missing, and the first course sellers are already there, making a business out of the uncertainty.</p>
+<p>This assessment is no reason to wait. It is a reason to take decisions with a short commitment period. Anyone who built a web presence in 1997 was right. Anyone who committed to a proprietary browser plug-in back then did the work twice.</p>
+<h2>Conclusion</h2>
+<p>Three test questions for any ongoing AI project can be derived from this episode.</p>
+<p>What happens if the model in use is no longer available tomorrow? If the answer means stopping the project, the second source is missing.</p>
+<p>How do you know that a loop has actually done its work? If the answer is “it reported success”, the independent check is missing.</p>
+<p>And how much of your investment sits in the model, how much in everything around it? The second part survives the first.</p>
+<aside class="art-next"><h2>The story continues …</h2><p>The debate about self-built versus ready-made harnesses is only touched on in this episode. A detailed episode on harness engineering has been announced, along with the questions of signed skills, auditability and governance that have to be answered by the time of enterprise deployment at the latest.</p></aside>
+        </div>
+        <footer class="art-foot">
+          <div class="art-ctas"><a class="art-cta" href="../../../en/48-speed-vs-safety/"><span>Full transcript</span><b>Speed vs. Safety</b></a><a class="art-cta art-cta-alt" href="https://think-ai.podigee.io/48-speed-vs-safety" rel="noreferrer"><span>To the episode</span><b>Episode 48</b></a></div>
+          <nav class="art-blaettern" aria-label="All articles">
+            <a class="art-prev" href="../49-wer-fuhrt-hier-eigentlich/"><span>Newer article</span><b>Intent, agent performance, human check: leading when everyone has 109 agents</b></a><a class="art-next-link" href="../47-loop-engineering/"><span>Older article</span><b>Loop engineering: why the goal has become more important than the prompt</b></a>
+          </nav>
+          <p class="art-back"><a href="../../../en/blog/index.html">All articles</a></p>
+        </footer>
+      </article>
+    </main>
+
+  </body>
+</html>
