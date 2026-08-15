@@ -4,7 +4,8 @@ import json
 import sys
 from pathlib import Path
 
-from transcribe_episode import DEFAULT_FEED_URL, parse_feed, safe_filename
+from transcribe_episode import (DEFAULT_FEED_URL, clean_html, parse_feed,
+                                safe_filename)
 
 
 def transcript_item(path):
@@ -47,6 +48,12 @@ def build_manifest(feed_url, transcript_dir, english_transcript_dir):
                 "embedUrl": embed_url_for(episode.page_url),
                 "imageUrl": episode.image_url,
                 "audioUrl": episode.audio_url,
+                # Beschreibung frisch aus dem Feed, nicht aus dem Transkript.
+                # Im Transkript steht ein Schnappschuss vom Tag der Transkription;
+                # spaetere Korrekturen bei Podigee kaemen dort nie an. Genau so ist
+                # "Stephane Kempf" auf der Webseite stehen geblieben, obwohl Podigee
+                # laengst "Stephan Kempf" sagt.
+                "description": clean_html(episode.description),
                 "transcriptAvailable": german_transcript["available"],
                 "transcriptPath": german_transcript["path"],
                 "englishTranscriptAvailable": english_transcript["available"],

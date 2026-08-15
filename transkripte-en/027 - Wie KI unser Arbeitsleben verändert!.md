@@ -59,7 +59,7 @@ Conversations about Software Engineering
  
 **[00:01:04]** namely not one guest, but two. One of the guests we've actually had here before.
  
-**[00:01:11]** Klaus Rodeweg is back with us today and he will be joined by Alexander Heusingfeld.
+**[00:01:11]** Klaus Rodewig is back with us today and he will be joined by Alexander Heusingfeld.
 
 **[00:01:19]** And I would simply like to ask you to introduce yourselves briefly, who are you, what do you do, and then
 

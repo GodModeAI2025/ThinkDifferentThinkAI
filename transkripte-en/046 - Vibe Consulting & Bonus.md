@@ -31,7 +31,7 @@ translated_at: "2026-06-29T11:09:17+00:00"
 
 What happens when agents start providing consulting?
 In this special double episode, Mark and Jens talk with two guests directly from the adesso Digital Day 2026:
-Prof. Dr. Volker Gruhn, chairman of the supervisory board of adesso SE and professor of software engineering at the University of Duisburg-Essen, as well as Stephane Kempf, expert in mobile, on-device AI and agent harnessing at adesso mobile solutions and co-author of 'Corporate LLM'.
+Prof. Dr. Volker Gruhn, chairman of the supervisory board of adesso SE and professor of software engineering at the University of Duisburg-Essen, as well as Stephan Kempf, expert in mobile, on-device AI and agent harnessing at adesso mobile solutions and co-author of 'Corporate LLM'.
 
 The focus is on how software development, consulting, and make-or-buy decisions are changing through AI. What does it mean when applications can seemingly be created by prompt today? What are the opportunities of Vibe Coding – and where does the dangerous illusion of simple software development begin?
 
@@ -44,7 +44,7 @@ Guests
 Prof. Dr. Volker Gruhn
 Chairman of the Supervisory Board of adesso SE and Professor of Software Engineering at the University of Duisburg-Essen. He brings the perspective from software engineering, business practice, and research.
 
-Stephane Kempf
+Stephan Kempf
 Mobile × AI at adesso mobile solutions, specialized in on-device AI, agent harnessing, and the practical application of AI in business contexts. Co-author of "Corporate LLM."
 
 ## Transcript

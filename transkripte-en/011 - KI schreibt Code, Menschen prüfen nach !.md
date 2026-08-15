@@ -176,7 +176,7 @@ Guest: Klaus Rodewig
  
 **[00:03:36]** Passport, please. Do you have a criminal past? Not that I know of.
  
-**[00:03:41]** Weren't you the one who just with your end, were interrogating the ends, or that we said that the colleague Rodeweg was allowed to go to the city to shop?
+**[00:03:41]** Weren't you the one who just with your end, were interrogating the ends, or that we said that the colleague Rodewig was allowed to go to the city to shop?
  
 **[00:03:48]** No, no.
  

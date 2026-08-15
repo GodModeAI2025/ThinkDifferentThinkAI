@@ -33,7 +33,7 @@ This episode is an interim episode without a guest – recorded just before the 
 Topics of the episode
 
 Vibe Coding and Vibe Engineering – Andrej Karpathy coined the term in February 2025. Vibe Coding means: talking to the machine, and in the end, usable software comes out. Vibe Engineering adds more context.
-When the large model fails – Marc's experience: Claude Code with Opus refused for hours to solve a specific problem. Plugged in OpenAI's Codex as a reviewer – and suddenly it worked. "Eye-opening moment."
+When the large model fails – Mark's experience: Claude Code with Opus refused for hours to solve a specific problem. Plugged in OpenAI's Codex as a reviewer – and suddenly it worked. "Eye-opening moment."
 
 Name confusion in the model zoo – Codex is sometimes a model, sometimes an app, sometimes a mode at OpenAI. Additionally, there's GPT-5.5, Claude Opus, Bedrock, Copilot, Azure. If you don't get mixed up, you're paying attention.
 Architecture Decision Records (ADRs) – Write down why you decided on something. Not in Word, but in Markdown. The AI can read that later, check for consistency, and find duplicates.

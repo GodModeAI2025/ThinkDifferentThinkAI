@@ -26,7 +26,7 @@ transcribed_at: "2026-06-29T11:08:52+00:00"
 
 Was passiert, wenn Agenten anfangen zu beraten?
 In dieser besonderen Doppelfolge sprechen Mark und Jens mit zwei Gästen direkt vom adesso Digital Day 2026:
-Prof. Dr. Volker Gruhn, Aufsichtsratsvorsitzender der adesso SE und Hochschullehrer für Software Engineering an der Universität Duisburg-Essen, sowie Stephane Kempf, Experte für Mobile, On-Device AI und Agent Harnessing bei adesso mobile solutions sowie Co-Autor von „Corporate LLM“.
+Prof. Dr. Volker Gruhn, Aufsichtsratsvorsitzender der adesso SE und Hochschullehrer für Software Engineering an der Universität Duisburg-Essen, sowie Stephan Kempf, Experte für Mobile, On-Device AI und Agent Harnessing bei adesso mobile solutions sowie Co-Autor von „Corporate LLM“.
 
 Im Mittelpunkt steht die Frage, wie sich Softwareentwicklung, Beratung und Make-or-Buy-Entscheidungen durch KI verändern. Was bedeutet es, wenn Anwendungen heute scheinbar per Prompt entstehen können? Wo liegen die Chancen von Vibe Coding – und wo beginnt die gefährliche Illusion einfacher Softwareentwicklung?
 
@@ -39,7 +39,7 @@ Gäste
 Prof. Dr. Volker Gruhn
 Aufsichtsratsvorsitzender der adesso SE und Professor für Software Engineering an der Universität Duisburg-Essen. Er bringt die Perspektive aus Software Engineering, Unternehmenspraxis und Forschung ein.
 
-Stephane Kempf
+Stephan Kempf
 Mobile × AI bei adesso mobile solutions, spezialisiert auf On-Device AI, Agent Harnessing und den praktischen Einsatz von KI in Unternehmenskontexten. Co-Autor von „Corporate LLM“.
 
 ## Transkript
@@ -64,7 +64,7 @@ Mobile × AI bei adesso mobile solutions, spezialisiert auf On-Device AI, Agent 
 
 **[00:00:45]** Ich durfte den Adesso Digital Day 2026 in Düsseldorf besuchen
 
-**[00:00:52]** und habe die Chancs genutzt, mit Stephane Kempf zusammen eine Live-Folge auszunehmen.
+**[00:00:52]** und habe die Chancs genutzt, mit Stephan Kempf zusammen eine Live-Folge auszunehmen.
 
 **[00:00:59]** Wir reden über Skills, über Agent Harness und über die Frage Make-or-Buy.
 
@@ -1062,7 +1062,7 @@ Mobile × AI bei adesso mobile solutions, spezialisiert auf On-Device AI, Agent 
 
 **[00:37:55]** Ja, wunderschönen guten Tag.
 
-**[00:37:56]** Ich freue mich, heute hier leiden zu dürfen in diesem Podcast, Stephane Kempf, hier bei
+**[00:37:56]** Ich freue mich, heute hier leiden zu dürfen in diesem Podcast, Stephan Kempf, hier bei
 
 **[00:38:00]** der ADESSO jetzt seit anderthalb Jahren als Consultant für Mobile-Lösung und in der
 
@@ -1434,7 +1434,7 @@ Mobile × AI bei adesso mobile solutions, spezialisiert auf On-Device AI, Agent 
 
 **[00:51:13]** Ich finde, das ist also fürstige, hätte man es nicht zu Ende bringen können.
 
-**[00:51:16]** Mark Zimmermann und Stephane Kempf!
+**[00:51:16]** Mark Zimmermann und Stephan Kempf!
 
 **[00:51:28]** von Mark und Jens. Zwei technologieverliebte Köpfe, die nicht nur über künstliche
 

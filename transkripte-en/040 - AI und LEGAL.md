@@ -37,7 +37,7 @@ Topics of the episode
 From blocker to enabler: Why lawyers need to be on the field instead of issuing assessments from an ivory tower. And why a digital mindset is also needed in the legal department.
 
 "It depends": The classic. Hallucinations, liability, and the question of whether an AI output with 70 percent quality might be completely fine in non-critical processes.
-Platitudes and fear – Marc's TikTok anecdote about the lawyer with a fountain pen who mainly warns. Why you shouldn't approach people like this and where skill-building needs to start broadly.
+Platitudes and fear – Mark's TikTok anecdote about the lawyer with a fountain pen who mainly warns. Why you shouldn't approach people like this and where skill-building needs to start broadly.
 
 "Data protection doesn't allow that": The biggest platitude. Data protection is not a sacred cow, but stands equally beside other legal goods. US hosting is also no longer a showstopper.
 Users, operators, providers – Max explains when you slip into which role in the AI Act. Local model with n8n? User. Placing an AI system on the market? Provider with real homework – including user manual, the shape of which no one knows yet.

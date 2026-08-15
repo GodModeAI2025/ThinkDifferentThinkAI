@@ -71,9 +71,9 @@ Das Buch: https://novagentica.com/
 
 **[00:01:00]** Hallo Mark, hallo Jens. Eine Ehre und Freude hier teilzunehmen in diesem Podcast. Wer ich
 
-**[00:01:07]** bin, die Kurzversion, Martin Hofmann, ich war sehr lange bei Volksbaden, 9 Jahre der
+**[00:01:07]** bin, die Kurzversion, Martin Hofmann, ich war sehr lange bei Volkswagen, 9 Jahre der
 
-**[00:01:14]** Grupps-CIO, hab da kennengelernt, wie Großkonzerne funktionieren, wie Transformation funktionieren
+**[00:01:14]** Group-CIO, hab da kennengelernt, wie Großkonzerne funktionieren, wie Transformation funktionieren
 
 **[00:01:21]** und auch nicht funktionieren.
 

@@ -93,14 +93,28 @@ def clean_html(value):
     return value.strip()
 
 
+# Nur Eigennamen. Whisper "small" verhaut sie zuverlaessig, und ein falsch
+# geschriebener Personenname ist schlicht falsch, nicht "originalgetreu".
+# Sonstiges Rauschen im gesprochenen Wort bleibt stehen: Es einzeln zu glaetten
+# wuerde eine Genauigkeit vortaeuschen, die das Transkript nicht hat.
+NAME_CORRECTIONS = (
+    (r"\bMarc\b", "Mark"),
+    (r"\bHäusingfeldt\b", "Heusingfeld"),
+    (r"\bHäusingfeld\b", "Heusingfeld"),
+    (r"\bHaeusingfeldt\b", "Heusingfeld"),
+    (r"\bHaeusingfeld\b", "Heusingfeld"),
+    (r"\bStephane Kempf\b", "Stephan Kempf"),
+    (r"\bStefan Kempf\b", "Stephan Kempf"),
+    (r"\bRodeweg(s?)\b", r"Rodewig\1"),
+    (r"\bVolksbaden\b", "Volkswagen"),
+    (r"\bGrupps-CIO\b", "Group-CIO"),
+    (r"\bMarkus Andra,? ?zack\b", "Markus Andrezak"),
+    (r"\bAndra,? ?zack\b", "Andrezak"),
+)
+
+
 def apply_known_transcript_corrections(value):
-    corrections = (
-        (r"\bMarc\b", "Mark"),
-        (r"\bHäusingfeldt\b", "Heusingfeld"),
-        (r"\bHäusingfeld\b", "Heusingfeld"),
-        (r"\bHaeusingfeldt\b", "Heusingfeld"),
-        (r"\bHaeusingfeld\b", "Heusingfeld"),
-    )
+    corrections = NAME_CORRECTIONS
     for pattern, replacement in corrections:
         value = re.sub(pattern, replacement, value)
     return value

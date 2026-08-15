@@ -54,7 +54,7 @@ Conversations about Software Engineering
 
 **[00:01:04]** nämlich nicht einen Gast, sondern gleich zwei. Den einen Gast, den hatten wir hier tatsächlich schon mal.
 
-**[00:01:11]** Klaus Rodeweg ist nämlich heute wieder mit dabei und er wird begleitet von Alexander Heusingfeld.
+**[00:01:11]** Klaus Rodewig ist nämlich heute wieder mit dabei und er wird begleitet von Alexander Heusingfeld.
 
 **[00:01:19]** Und ich möchte euch einfach bitten, stellt euch kurz vor, wer seid ihr, was macht ihr und dann
 

@@ -171,7 +171,7 @@ Gast : Klaus Rodewig
 
 **[00:03:36]** Passport, please. Haben Sie eine kriminelle Vergangenheit? Nicht, dass ich wüsste.
 
-**[00:03:41]** Waren Sie nicht derjenige, der eben mit Ihrem Ende, seinen Enden nach der Enden verhörgst, oder dass wir gesagt haben, dass der Kollege Rodeweg in die Stadt gehen durfte einkaufen?
+**[00:03:41]** Waren Sie nicht derjenige, der eben mit Ihrem Ende, seinen Enden nach der Enden verhörgst, oder dass wir gesagt haben, dass der Kollege Rodewig in die Stadt gehen durfte einkaufen?
 
 **[00:03:48]** Nee, nee.
 

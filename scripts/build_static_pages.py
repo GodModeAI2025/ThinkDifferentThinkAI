@@ -331,6 +331,7 @@ def collect_episodes(manifest_path: Path, repo_root: Path) -> list[dict]:
 
         episodes.append({
             "slug": slug_from_page_url(item.get("pageUrl", ""), de_path.stem),
+            "feed_description": (item.get("description") or "").strip(),
             "file_stem": de_path.stem,
             "title": title,
             "en_title": en_title,
@@ -476,7 +477,12 @@ def render_episode_page(episode: dict, lang: str, base_url: str, *, prev_ep, nex
         alternates.append(("en", f"{base_url}/en/{episode['slug']}/"))
     alternates.append(("x-default", f"{base_url}/de/{episode['slug']}/"))
 
-    desc_paragraphs = [p.strip() for p in parsed["description"].split("\n") if p.strip()]
+    # Deutsche Seite: Beschreibung aus dem Feed, die ist aktuell. Der Schnappschuss im
+    # Transkript stammt vom Tag der Transkription und faellt bei jeder spaeteren
+    # Korrektur zurueck. Englische Seite: dort gibt es nur die uebersetzte Fassung.
+    quelle = episode["feed_description"] if (lang == "de" and episode.get("feed_description")) \
+        else parsed["description"]
+    desc_paragraphs = [p.strip() for p in quelle.split("\n") if p.strip()]
     lead = desc_paragraphs[0] if desc_paragraphs else ""
     rest = desc_paragraphs[1:]
     description = meta_description(rest[0] if rest else lead)

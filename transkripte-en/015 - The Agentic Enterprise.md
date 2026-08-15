@@ -76,7 +76,7 @@ The Book: https://novagentica.com/
 
 **[00:01:00]** Hello Mark, hello Jens. It’s an honor and a pleasure to participate in this podcast. Who I
 
-**[00:01:07]** am, the short version, Martin Wurzmann, I was with Volksbaden for a long time, 9 years the
+**[00:01:07]** am, the short version, Martin Wurzmann, I was with Volkswagen for a long time, 9 years the
 
 **[00:01:14]** group CIO, I learned there how large corporations function, how transformation works
 
