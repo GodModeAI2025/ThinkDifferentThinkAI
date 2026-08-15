@@ -527,6 +527,20 @@ def render_episode_page(episode: dict, lang: str, base_url: str, *, prev_ep, nex
     # Auf die Quelldatei im Repo verlinken statt auf eine Kopie im Auslieferungsordner.
     # Das spart rund 6 MB verdoppelte Markdown-Dateien und haelt docs/ frei von Rohmaterial.
     # Die Dateinamen enthalten Leerzeichen, & und ! — ohne Kodierung bricht der Link.
+    # 33-Sekunden-Promo als Einstieg. Nur auf den deutschen Seiten, weil die Clips
+    # deutschsprachige Typografie zeigen. preload="none" laedt erst auf Klick,
+    # das Cover dient als Standbild.
+    video_html = ""
+    if lang == "de" and episode.get("has_video"):
+        video_html = (
+            '<section class="doc-video">\n'
+            f'          <video controls preload="none" playsinline '
+            f'poster="{up}covers/{esc(episode["slug"])}.jpg" width="1280" height="720">\n'
+            f'            <source src="{up}videos/{esc(episode["slug"])}.mp4" type="video/mp4">\n'
+            '          </video>\n'
+            '          <p class="doc-video-note">33 Sekunden zur Folge, bevor du liest.</p>\n'
+            '        </section>')
+
     md_dir = "transkripte" if lang == "de" else "transkripte-en"
     md_link = f"{SOURCE_REPO}/blob/main/{md_dir}/{quote(episode['file_stem'] + '.md')}"
 
@@ -560,7 +574,7 @@ def render_episode_page(episode: dict, lang: str, base_url: str, *, prev_ep, nex
     <main class="doc-main">
       <article>
         <div class="doc-head">
-          <img class="doc-cover" src="{esc(episode['image_url'])}" alt="" loading="lazy" width="200" height="200">
+          <img class="doc-cover" src="{up}covers/{esc(episode['slug'])}.jpg" alt="" loading="lazy" width="200" height="200">
           <div class="doc-head-text">
             <h1>{esc(title_text)}</h1>
             <p class="doc-meta">{"".join(meta_bits)}</p>
@@ -570,6 +584,8 @@ def render_episode_page(episode: dict, lang: str, base_url: str, *, prev_ep, nex
 
         {topic_html}
         {guest_html}
+
+        {video_html}
 
         <section class="doc-desc">
           <h2>{esc(t['description_heading'])}</h2>
@@ -704,6 +720,7 @@ def build(site_dir: Path, repo_root: Path, base_url: str) -> dict:
     guests_map = load_guests(site_dir / "data" / "guests.json")
 
     for ep in episodes:
+        ep["has_video"] = (site_dir / "videos" / f"{ep['slug']}.mp4").exists()
         ep["topics"] = assign_topics(ep)
         entry = guests_map.get(ep["slug"], {})
         ep["guests"] = entry.get("guests", [])
@@ -869,42 +886,74 @@ def build(site_dir: Path, repo_root: Path, base_url: str) -> dict:
                                 for w, l in stats)
                       + "          </ul>\n          ")
 
-        # Folgenliste
+        # Folgenliste: nach Jahr gruppiert, mit der Podigee-Nummer als Anker.
+        # 52 gleich aussehende Kacheln kann niemand ueberfliegen; die Nummer links und
+        # die Jahresmarke geben dem Auge zwei Haltepunkte.
         eintraege = []
+        letztes_jahr = None
         for ep in reversed(episodes):
-            datum = human_date(ep["published"], "de")
+            jahr = ep["published"].year if ep["published"] else None
+            if jahr != letztes_jahr:
+                anzahl = sum(1 for e in episodes if e["published"] and e["published"].year == jahr)
+                eintraege.append(f'<li class="ep-jahr" aria-hidden="true"><span>{jahr}</span>'
+                                 f'<span>{anzahl} Folgen</span></li>')
+                letztes_jahr = jahr
+            nummer = re.match(r"(\d+)", ep["slug"])
+            datum = ep["published"].strftime("%d.%m.%Y") if ep["published"] else ""
             dauer = human_duration(ep["duration"], "de")
-            en = (f'<a class="alt" href="en/{esc(ep["slug"])}/">EN</a>') if ep["en"] else ""
-            meta = f'<span class="meta"><span>{esc(datum)}</span><span>{esc(dauer)}</span>{en}</span>'
-            eintraege.append(f'<li><a href="de/{esc(ep["slug"])}/"><b>{esc(ep["title"])}</b>{meta}</a></li>')
-        eps_html = ('\n          <ul class="lp-eps">\n            '
-                    + "\n            ".join(eintraege) + "\n          </ul>\n          ")
+            alt = (f'<a class="ep-alt" href="en/{esc(ep["slug"])}/" '
+                   f'title="{esc(ep["title"])} in English">EN</a>') if ep["en"] else ""
+            eintraege.append(
+                f'<li class="ep">'
+                f'<a class="ep-main" href="de/{esc(ep["slug"])}/">'
+                f'<img class="ep-cover" src="covers/{esc(ep["slug"])}.jpg" alt="" '
+                f'loading="lazy" width="72" height="72">'
+                f'<span class="ep-no">{esc(nummer.group(1) if nummer else "")}</span>'
+                f'<span class="ep-t">{esc(ep["title"])}</span>'
+                f'<span class="ep-meta"><span>{esc(datum)}</span><span>{esc(dauer)}</span></span>'
+                f'</a>{alt}</li>')
+        eps_html = ('\n          <ol class="lp-eps">\n            '
+                    + "\n            ".join(eintraege) + "\n          </ol>\n          ")
 
-        # Themen
+        # Themen: Kachel mit eigener Akzentfarbe und der Anzahl als Blickfang.
+        # Fuenf Farben aus der Markenwelt, bewusst so verteilt, dass benachbarte
+        # Kacheln nie dieselbe haben.
+        FARBEN = ["#34d4ff", "#ffcf24", "#ff7a1a", "#ff5fa8", "#6ef2a0"]
         themen = []
+        i = 0
         for topic in TOPICS:
             anzahl = sum(1 for e in episodes if any(x["slug"] == topic["slug"] for x in e["topics"]))
             if not anzahl:
                 continue
-            themen.append(f'<li><a href="themen/{esc(topic["slug"])}/">'
-                          f'<strong>{esc(topic["name"])}</strong>'
-                          f'<span>{esc(topic["intro"])}</span>'
-                          f'<span class="meta">{anzahl} Folgen</span></a></li>')
+            themen.append(
+                f'<li class="tp" style="--tp:{FARBEN[i % len(FARBEN)]}">'
+                f'<a href="themen/{esc(topic["slug"])}/">'
+                f'<span class="tp-n">{anzahl}</span>'
+                f'<strong>{esc(topic["name"])}</strong>'
+                f'<span class="tp-i">{esc(topic["intro"])}</span></a></li>')
+            i += 1
         topics_html = ('\n          <ul class="lp-topics">\n            '
                        + "\n            ".join(themen) + "\n          </ul>\n          ")
 
-        # Gaeste
+        # Gaeste: kompakte Zeilen mit Monogramm statt weiterer grosser Kacheln.
         gaeste = {}
         for ep in episodes:
             for g in ep["guests"]:
-                gaeste.setdefault(g["slug"], {"name": g["name"], "n": 0})["n"] += 1
-        chips = "".join(
-            f'<li><a href="gaeste/{esc(slug)}/"><strong>{esc(d["name"])}</strong>'
-            f'<span class="meta">{d["n"]} {"Folge" if d["n"] == 1 else "Folgen"}</span></a></li>'
-            for slug, d in sorted(gaeste.items(), key=lambda kv: kv[1]["name"]))
-        guests_html = ('\n          <ul class="lp-topics lp-guests">\n            ' + chips
-                       + '\n          </ul>\n          <p class="prose" style="margin-top:18px">'
-                       + '<a class="lp-btn ghost" href="gaeste/">Alle Gäste</a></p>\n          ')
+                gaeste.setdefault(g["slug"], {"name": g["name"], "n": 0,
+                                              "org": g.get("affiliation", "")})["n"] += 1
+        chips = []
+        for slug, d in sorted(gaeste.items(), key=lambda kv: kv[1]["name"]):
+            teile = [x for x in d["name"].replace("Dr.", "").replace("Prof.", "").split() if x]
+            mono = "".join(x[0] for x in teile[:2]).upper()
+            zusatz = d["org"] or (f'{d["n"]} Folgen' if d["n"] > 1 else "1 Folge")
+            chips.append(
+                f'<li class="gu"><a href="gaeste/{esc(slug)}/">'
+                f'<span class="gu-m" aria-hidden="true">{esc(mono)}</span>'
+                f'<span class="gu-b"><strong>{esc(d["name"])}</strong>'
+                f'<span>{esc(zusatz)}</span></span>'
+                f'<span class="gu-n">{d["n"]}</span></a></li>')
+        guests_html = ('\n          <ul class="lp-guests">\n            '
+                       + "\n            ".join(chips) + "\n          </ul>\n          ")
 
         for marker, block in (("STATS", stats_html), ("EPISODE-INDEX", eps_html),
                               ("TOPICS", topics_html), ("GUESTS", guests_html)):

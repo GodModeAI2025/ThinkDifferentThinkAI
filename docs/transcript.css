@@ -534,3 +534,29 @@
   border: 1px solid var(--muted);
   padding: 1px 5px;
 }
+
+/* ------------------------------------------------------------------ Promo-Video
+
+   33 Sekunden Einstieg vor dem Transkript. preload="none": Die Datei wird erst
+   auf Klick geladen, das Folgencover dient als Standbild. Nur auf den deutschen
+   Seiten, weil die Clips deutschsprachige Typografie zeigen. */
+
+.doc-video { display: flex; flex-direction: column; gap: 10px; }
+
+.doc-video video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 4px solid var(--line);
+  box-shadow: var(--shadow);
+  background: #041052;
+}
+
+.doc-video-note {
+  margin: 0;
+  font-family: var(--chrome);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--muted);
+}

@@ -1,0 +1,145 @@
+{
+  "seite": {
+    "about": {
+      "kicker": "What this is about",
+      "heading": "Worked out, not summarized",
+      "cards": [
+        {
+          "title": "From their own work",
+          "text": "Every episode starts with something the two of them did themselves. An agent that completed AI training courses including the exams without being asked and brought the certificates back. A loop that opened 4,800 windows over one weekend. A knowledge store that pulls up old blood test results in seconds during a doctor's appointment."
+        },
+        {
+          "title": "Including when it goes wrong",
+          "text": "An agent that quietly drops a failed test case and reports that all ten are green. A weekend loop with no stop condition that opens 4,800 windows and in the end says itself that it cannot repair this either. Moments like that do not get cut out, they get taken apart."
+        },
+        {
+          "title": "With numbers instead of adjectives",
+          "text": "What hardware a model with 2.8 trillion parameters needs. What a language model can still manage on an eight-dollar chip. What API costs a simulated strategy workshop runs up. The math is in the episode, not in a marketing text."
+        },
+        {
+          "title": "Seen from here",
+          "text": "The AI Act, GDPR and the question of when you count as a deployer and no longer just a user. What happens when law firms build their text analysis around a model that gets blocked for non-US citizens shortly afterwards. Topics that English-language shows do not cover this way."
+        }
+      ]
+    },
+    "head": {
+      "title": "Think Different. Think AI. — AI in everyday work, including the failures",
+      "metaDescription": "German-language podcast by Mark Zimmermann and Jens Scharnetzki about AI and agents in their own work: what actually works, what fails and what it costs. Every episode in full text, in German and English.",
+      "ogTitle": "Think Different. Think AI. — AI in everyday work, including the failures",
+      "ogDescription": "Two practitioners lay out what AI and agents deliver in their own work and where they fail. Episodes in German, every one in full text in German and English."
+    },
+    "hero": {
+      "kicker": "The German-language podcast by Mark Zimmermann and Jens Scharnetzki",
+      "headline": "AI in everyday work, including the failures.",
+      "sub": "Two practitioners talk through what artificial intelligence and agents actually deliver in their own work and where they fail. For people who build software themselves, advise clients or make the decisions in IT.",
+      "ctaPrimary": "Listen to an episode",
+      "ctaSecondary": "Read all transcripts"
+    },
+    "hosts": [
+      {
+        "name": "Mark Zimmermann",
+        "text": "Builds the things he talks about himself: agent harnesses, portable Skills, a knowledge system that works without a server. Brings the numbers along, including the uncomfortable ones."
+      },
+      {
+        "name": "Jens Scharnetzki",
+        "text": "Comes from the consulting and organization side and keeps asking what a tool really changes in a team's day to day work. His guiding line: believe no one who claims the AI future belongs to them alone."
+      }
+    ],
+    "misc": {
+      "searchPlaceholder": "Search for an episode or keyword",
+      "searchLabel": "Search episodes",
+      "footerLeft": "Think Different. Think AI. — Mark Zimmermann and Jens Scharnetzki",
+      "skipLink": "Skip to content"
+    },
+    "nav": {
+      "episodes": "Episodes",
+      "topics": "Topics",
+      "guests": "Guests",
+      "about": "Who we are",
+      "listen": "Listen"
+    },
+    "quotes": [
+      {
+        "text": "“Honestly, we said 367 times: we have no idea.”",
+        "caption": "Jens Scharnetzki on the review of the year — Episode 50, One Year Later"
+      },
+      {
+        "text": "“It does not say in there: data protection is the sacred cow. It says: it has to be reconciled with other legal interests, which all stand next to each other with equal weight.”",
+        "caption": "Maximilian Hermann, lawyer for AI and data law, as a guest — Episode 40, AI und LEGAL"
+      },
+      {
+        "text": "“The local model delivered a stunning result with 15 seconds of audio.”",
+        "caption": "Mark Zimmermann on voice cloning on his own machine — Episode 42, Dark Side of AI"
+      }
+    ],
+    "sections": {
+      "episodesKicker": "All episodes",
+      "episodesHeading": "Every episode in full text",
+      "episodesIntro": "Every episode is recorded in German and comes with the full transcript, in German and English, with a timestamp on every paragraph. That way a single statement can be linked directly instead of hunting for the spot in the audio.",
+      "topicsKicker": "By topic",
+      "topicsHeading": "Where the episodes converge",
+      "guestsKicker": "Guests",
+      "guestsHeading": "People you rarely get in front of a microphone",
+      "guestsIntro": "A lawyer on the question of when the AI Act makes you a deployer. An information security expert on darknet models sold by monthly subscription. A product manager who simulates strategy workshops before he meets real clients.",
+      "hostsKicker": "Who we are",
+      "hostsHeading": "Mark and Jens",
+      "listenKicker": "Subscribe",
+      "listenHeading": "Where to find the podcast",
+      "listenIntro": "New episodes come out weekly, in German. The WhatsApp channel is the place to hear about them first. And if an episode was worth something: leave a rating on Apple. That decides whether someone new finds the podcast."
+    }
+  },
+  "themen": {
+    "topics": [
+      {
+        "slug": "ki-agenten",
+        "name": "AI Agents",
+        "intro": "Agents act instead of only answering. These episodes cover agent harnesses, MCP as an interface, multi-agent setups and the question of who actually leads them."
+      },
+      {
+        "slug": "ki-sicherheit",
+        "name": "AI Security",
+        "intro": "Prompt Injection, voice cloning, exploits built from security patches: what happens when you give a model permissions, and what attacks on it look like in practice."
+      },
+      {
+        "slug": "automatisierung-und-tools",
+        "name": "Automation and Tools",
+        "intro": "Notion, n8n, workflows and the tools behind them. Episodes about how a note turns into a ticket, a slide and a post."
+      },
+      {
+        "slug": "recht-und-regulierung",
+        "name": "Law and Regulation",
+        "intro": "AI Act, data protection and liability. Who answers for what an agent does, and what data protection actually allows."
+      },
+      {
+        "slug": "robotik",
+        "name": "Robotics",
+        "intro": "AI gets a body. Humanoids, teleoperation and the distance between the promo video and the living room."
+      },
+      {
+        "slug": "wissensmanagement",
+        "name": "Knowledge Management",
+        "intro": "Second Brain, RAG, ontologies and portable Skills. How knowledge stays outside the model and is still findable."
+      },
+      {
+        "slug": "softwareentwicklung",
+        "name": "Software Development",
+        "intro": "Vibe coding, spec-driven development and agents that commit. What has actually changed in day-to-day development work."
+      },
+      {
+        "slug": "modelle-und-anbieter",
+        "name": "Models and Providers",
+        "intro": "Who builds which model, what it costs and who is allowed to use it. From open weights out of China through token bills to the day a model was blocked for non-US citizens and law firms had already built their text analysis on it."
+      },
+      {
+        "slug": "interfaces-und-interaktion",
+        "name": "Interfaces and Interaction",
+        "intro": "How to work with something that does not respond like a program. Waiting time as a design question, voice instead of screen, the browser as an agent, and the question of how one person keeps track of several agents at the same time."
+      },
+      {
+        "slug": "fuehrung-und-arbeit",
+        "name": "Leadership and Work",
+        "intro": "What happens to organizations when agents become part of the team. Hierarchies, responsibility and the question of where people starting their careers still learn."
+      }
+    ]
+  }
+}
