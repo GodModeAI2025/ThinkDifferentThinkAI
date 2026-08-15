@@ -631,3 +631,80 @@
   letter-spacing: 1.5px;
   color: var(--muted);
 }
+
+/* ------------------------------------------------------------------ Belegkarten
+
+   Der Abschnitt "Vorgerechnet statt referiert" bestand aus vier gleichen blauen
+   Kästen. Jetzt trägt jede Karte eine eigene Akzentfarbe, ein Piktogramm und einen
+   herausgestellten Beleg, damit man die vier Aussagen überfliegen kann statt vier
+   Textblöcke lesen zu müssen. Der Beleg ist immer der konkreteste Satz der Karte. */
+
+.lp-split {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 18px;
+  margin-top: 34px;
+}
+
+.lp-card {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 26px 26px 28px;
+  /* Erst der einfache Hintergrund als Rueckfall: Kennt ein Browser color-mix nicht,
+     faellt sonst die ganze Deklaration weg und die Karte haette gar keinen Grund. */
+  background: var(--panel);
+  background:
+    linear-gradient(180deg, color-mix(in srgb, var(--c) 9%, transparent) 0%, transparent 46%),
+    var(--panel);
+  border: 3px solid rgba(52, 212, 255, 0.26);
+  border-top: 6px solid var(--c);
+  box-shadow: var(--drop-sm);
+}
+
+.lp-card-mark {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  width: 46px;
+  height: 46px;
+  color: var(--c);
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.lp-card-mark svg { width: 100%; height: 100%; display: block; }
+
+.lp-card h3 {
+  font-size: 0.85rem;
+  letter-spacing: 2.5px;
+  color: var(--muted);
+  padding-right: 56px;
+}
+
+.lp-card-lead {
+  font-family: var(--read);
+  font-size: 1.2rem;
+  line-height: 1.35;
+  font-weight: 650;
+  color: var(--c);
+  max-width: 26ch;
+  padding-right: 24px;
+}
+
+.lp-card p:not(.lp-card-lead) {
+  font-family: var(--read);
+  font-size: 0.95rem;
+  line-height: 1.62;
+  color: var(--ink);
+  opacity: 0.92;
+}
+
+@media (max-width: 560px) {
+  .lp-card { padding: 22px 20px 24px; }
+  .lp-card-mark { width: 34px; height: 34px; top: 14px; right: 14px; }
+  .lp-card h3 { padding-right: 42px; }
+  .lp-card-lead { font-size: 1.08rem; padding-right: 0; }
+}
