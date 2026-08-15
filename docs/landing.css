@@ -242,39 +242,107 @@
 .lp-card h3 { font-size: 1rem; color: var(--accent); letter-spacing: 2px; }
 .lp-card p { font-size: 0.97rem; color: var(--ink); }
 
-/* ------------------------------------------------------------------ Zitate */
+/* ------------------------------------------------------------------ Zitate
 
-.lp-quotes { border-block: var(--edge); background: rgba(3, 16, 82, 0.55); }
+   Drei gleich große gelbe Blöcke untereinander waren wieder dasselbe Problem wie
+   bei den Karten. Jetzt drei Karten nebeneinander, jede mit eigener Akzentfarbe,
+   einem großen Anführungszeichen und einem Sprecher mit Monogramm. Das Monogramm
+   ist dasselbe Element wie bei den Gästen, damit die Seite eine Formensprache hat
+   und nicht für jeden Abschnitt eine neue erfindet. */
 
-.lp-quotes figure {
-  margin: 0;
-  padding: 26px 0;
-  border-bottom: 2px solid rgba(52, 212, 255, 0.22);
+.lp-quotes {
+  border-block: var(--edge);
+  background:
+    radial-gradient(720px 300px at 50% 0%, rgba(52, 212, 255, 0.1), transparent 70%),
+    #03105c;
 }
 
-.lp-quotes figure:last-child { border-bottom: none; }
+.lp-quotes .inner > .eyebrow { margin-bottom: 4px; }
 
-.lp-quotes blockquote {
+.lp-quotegrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 18px;
+  margin-top: 26px;
+}
+
+.lp-quote {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
   margin: 0;
+  padding: 22px 24px 20px;
+  background: var(--panel);
+  background: linear-gradient(180deg, color-mix(in srgb, var(--c) 10%, transparent), transparent 52%), var(--panel);
+  border: 3px solid rgba(52, 212, 255, 0.24);
+  border-top: 6px solid var(--c);
+  box-shadow: var(--drop-sm);
+}
+
+.lp-quote-mark {
   font-family: var(--chrome);
-  font-size: clamp(1.15rem, 2.5vw, 1.75rem);
-  line-height: 1.32;
+  font-size: 3.4rem;
+  line-height: 0.6;
+  color: var(--c);
+  opacity: 0.55;
+  height: 1.4rem;
+}
+
+.lp-quote blockquote {
+  margin: 0;
+  flex: 1;
+  font-family: var(--chrome);
+  font-size: clamp(1.02rem, 1.5vw, 1.2rem);
+  line-height: 1.42;
   font-weight: 700;
-  color: var(--accent);
-  text-shadow: 3px 3px 0 var(--accent-ink);
-  max-width: 30ch;
+  color: var(--c);
+  text-shadow: 2px 2px 0 var(--accent-ink);
 }
 
-.lp-quotes figcaption {
-  margin-top: 12px;
+.lp-quote figcaption {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-top: 14px;
+  border-top: 2px solid rgba(52, 212, 255, 0.2);
+}
+
+.lp-quote-who { display: flex; align-items: center; gap: 12px; min-width: 0; }
+
+.lp-quote-who .gu-m { background: var(--c); }
+
+.lp-quote-who > span:last-child {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-width: 0;
+}
+
+.lp-quote-who strong { font-family: var(--read); font-size: 0.97rem; font-weight: 650; }
+
+.lp-quote-who em {
   font-family: var(--chrome);
-  font-size: 12px;
+  font-style: normal;
+  font-size: 10.5px;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   color: var(--muted);
 }
 
-.lp-quotes figcaption a { color: var(--line); }
+.lp-quote-ep {
+  align-self: flex-start;
+  font-family: var(--chrome);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--ink);
+  text-decoration: none;
+  padding: 6px 11px;
+  border: 2px solid rgba(52, 212, 255, 0.4);
+}
+
+.lp-quote-ep:hover, .lp-quote-ep:focus-visible { border-color: var(--c); color: var(--c); }
 
 /* ------------------------------------------------------------------ Folgen
 
