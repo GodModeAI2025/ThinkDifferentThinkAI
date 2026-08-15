@@ -159,6 +159,12 @@ TOPICS = [
     },
 ]
 
+def _englisch_laden(site_dir: Path) -> dict:
+    """Englische Seitentexte aus docs/data/i18n-en.json."""
+    f = site_dir / "data" / "i18n-en.json"
+    return json.loads(f.read_text(encoding="utf-8")) if f.exists() else {}
+
+
 TIMESTAMP_RE = re.compile(r"^\*\*\[(\d{2}):(\d{2}):(\d{2})\]\*\*\s*(.*)$")
 
 
@@ -448,7 +454,11 @@ def page_shell(*, lang: str, title: str, description: str, canonical: str, alter
 
 
 def render_nav(up: str, t: dict, lang: str) -> str:
-    home = f"{up}index.html"
+    """Kopfleiste. Deutsch liegt im Wurzelverzeichnis, Englisch unter en/."""
+    wurzel = up if lang == "de" else f"{up}en/"
+    home = f"{wurzel}index.html"
+    themen = f"{wurzel}{'themen' if lang == 'de' else 'topics'}/index.html"
+    gaeste = f"{wurzel}{'gaeste' if lang == 'de' else 'guests'}/index.html"
     return f"""    <header class="doc-top">
       <a class="doc-brand" href="{home}">
         <span class="doc-brand-name">{esc(SERIES_NAME)}</span>
@@ -456,8 +466,8 @@ def render_nav(up: str, t: dict, lang: str) -> str:
       </a>
       <nav class="doc-nav" aria-label="{esc(t['back'])}">
         <a href="{home}">{esc(t['back'])}</a>
-        <a href="{up}themen/index.html">Themen</a>
-        <a href="{up}gaeste/index.html">{esc('Gäste' if lang == 'de' else 'Guests')}</a>
+        <a href="{themen}">{esc('Themen' if lang == 'de' else 'Topics')}</a>
+        <a href="{gaeste}">{esc('Gäste' if lang == 'de' else 'Guests')}</a>
         <a href="{esc(SERIES_URL)}" rel="noreferrer">Podcast</a>
       </nav>
     </header>
@@ -719,6 +729,15 @@ def build(site_dir: Path, repo_root: Path, base_url: str) -> dict:
     episodes = collect_episodes(manifest_path, repo_root)
     guests_map = load_guests(site_dir / "data" / "guests.json")
 
+    # Englische Themennamen an die TOPICS haengen, damit sie auch auf den
+    # Folgenseiten zur Verfuegung stehen und nicht nur auf den Themenseiten.
+    i18n = _englisch_laden(site_dir)
+    _en_themen = {x["slug"]: x for x in (i18n.get("themen", {}).get("topics") or [])}
+    for _tp in TOPICS:
+        _u = _en_themen.get(_tp["slug"], {})
+        _tp["name_en"] = _u.get("name") or _tp["name"]
+        _tp["intro_en"] = _u.get("intro") or _tp["intro"]
+
     for ep in episodes:
         ep["has_video"] = (site_dir / "videos" / f"{ep['slug']}.mp4").exists()
         ep["topics"] = assign_topics(ep)
@@ -727,11 +746,18 @@ def build(site_dir: Path, repo_root: Path, base_url: str) -> dict:
         for g in ep["guests"]:
             g.setdefault("slug", slugify(g["name"]))
 
-    # alte generierte Ordner entfernen, damit nichts verwaist stehen bleibt
-    for folder in ("de", "en", "themen", "gaeste"):
+    # Alte generierte Ordner entfernen, damit nichts verwaist stehen bleibt.
+    # In en/ liegt aber auch die englische Landingpage, und die ist ein von Hand
+    # gepflegtes Artefakt wie die deutsche. Deshalb dort nur die Unterordner raeumen.
+    for folder in ("de", "themen", "gaeste"):
         target = site_dir / folder
         if target.exists():
             shutil.rmtree(target)
+    en_dir = site_dir / "en"
+    if en_dir.exists():
+        for eintrag in en_dir.iterdir():
+            if eintrag.is_dir():
+                shutil.rmtree(eintrag)
 
     # Rohmarkdown wird bewusst NICHT nach docs/ kopiert. Die Folgenseiten verlinken
     # auf die Quelldatei im Repo. Alte Kopien aus frueheren Staenden aufraeumen.
@@ -762,151 +788,211 @@ def build(site_dir: Path, repo_root: Path, base_url: str) -> dict:
                 "alts": [(l, f"{base_url}/{l}/{ep['slug']}/") for l in ("de", "en") if ep[l] is not None],
             })
 
-    # ---- Themenseiten
-    topic_index_entries = []
-    for topic in TOPICS:
-        members = [e for e in episodes if any(t["slug"] == topic["slug"] for t in e["topics"])]
-        if not members:
-            continue
-        entries = [{
-            "href": f"../../de/{e['slug']}/",
-            "title": e["title"],
-            "note": human_date(e["published"], "de"),
-        } for e in reversed(members)]
-        canonical = f"{base_url}/themen/{topic['slug']}/"
-        page = render_list_page(
-            lang="de",
-            title=f"{topic['name']} — Folgen und Transkripte | {SERIES_NAME}",
-            heading=topic["name"], intro=topic["intro"], entries=entries,
-            canonical=canonical, base_url=base_url, depth=2,
-            extra_ld=[{
-                "@context": "https://schema.org", "@type": "CollectionPage",
-                "name": topic["name"], "url": canonical, "description": topic["intro"],
-                "isPartOf": {"@type": "WebSite", "name": SERIES_NAME, "url": f"{base_url}/"},
-            }],
-        )
-        write(site_dir / "themen" / topic["slug"] / "index.html", page)
-        written += 1
-        urls.append({"loc": canonical, "lastmod": None, "alts": []})
-        topic_index_entries.append({
-            "href": f"../themen/{topic['slug']}/",
-            "title": topic["name"],
-            "note": f"{len(members)} Folgen",
-        })
+    # ---- Themen- und Gaesteseiten, zweisprachig
+    #
+    # Deutsch liegt im Wurzelverzeichnis (themen/, gaeste/), Englisch unter en/
+    # (en/topics/, en/guests/). Die Slugs bleiben in beiden Sprachen gleich, damit
+    # bestehende Links gueltig bleiben und die hreflang-Paare sauber aufgehen.
+    themen_en = _en_themen
 
-    canonical = f"{base_url}/themen/"
-    write(site_dir / "themen" / "index.html", render_list_page(
-        lang="de", title=f"Themen | {SERIES_NAME}", heading="Themen",
-        intro="Die Folgen nach Themen sortiert. Jede Seite ordnet das Thema ein und "
-              "verlinkt die zugehoerigen Transkripte.",
-        entries=[{**e, "href": e["href"].replace("../themen/", "")} for e in topic_index_entries],
-        canonical=canonical, base_url=base_url, depth=1,
-    ))
-    written += 1
-    urls.append({"loc": canonical, "lastmod": None, "alts": []})
+    SPRACHEN = [
+        {"lang": "de", "themen": "themen", "gaeste": "gaeste", "praefix": "",
+         "themen_titel": "Themen", "gaeste_titel": "Gäste",
+         "themen_intro": "Die Folgen nach Themen sortiert. Jede Seite ordnet das Thema "
+                         "ein und verlinkt die zugehörigen Transkripte.",
+         "gaeste_intro": "Alle Gäste des Podcasts mit ihren Folgen.",
+         "folgen": lambda n: f"{n} Folge" if n == 1 else f"{n} Folgen"},
+        {"lang": "en", "themen": "topics", "gaeste": "guests", "praefix": "en/",
+         "themen_titel": "Topics", "gaeste_titel": "Guests",
+         "themen_intro": "The episodes sorted by topic. Each page places the topic in "
+                         "context and links the transcripts that belong to it.",
+         "gaeste_intro": "Every guest on the show, with their episodes.",
+         "folgen": lambda n: f"{n} episode" if n == 1 else f"{n} episodes"},
+    ]
 
-    # ---- Gaesteverzeichnis
     by_guest = {}
     for ep in episodes:
         for g in ep["guests"]:
             by_guest.setdefault(g["slug"], {"info": g, "episodes": []})["episodes"].append(ep)
 
-    guest_index_entries = []
-    for slug, data in sorted(by_guest.items(), key=lambda kv: kv[1]["info"]["name"]):
-        info = data["info"]
-        entries = [{
-            "href": f"../../de/{e['slug']}/",
-            "title": e["title"],
-            "note": human_date(e["published"], "de"),
-        } for e in reversed(data["episodes"])]
-        note = info.get("affiliation") or ""
-        intro = (f"{info['name']}" + (f", {note}" if note else "") +
-                 f", war in {len(data['episodes'])} " +
-                 ("Folge" if len(data["episodes"]) == 1 else "Folgen") +
-                 f" von {SERIES_NAME} zu Gast.")
-        canonical = f"{base_url}/gaeste/{slug}/"
-        person_ld = {"@context": "https://schema.org", "@type": "ProfilePage",
-                     "url": canonical,
-                     "mainEntity": {"@type": "Person", "name": info["name"]}}
-        if info.get("sameAs"):
-            person_ld["mainEntity"]["sameAs"] = info["sameAs"]
-        if note:
-            person_ld["mainEntity"]["affiliation"] = {"@type": "Organization", "name": note}
-        write(site_dir / "gaeste" / slug / "index.html", render_list_page(
-            lang="de", title=f"{info['name']} — Folgen | {SERIES_NAME}",
-            heading=info["name"], intro=intro, entries=entries,
-            canonical=canonical, base_url=base_url, depth=2, extra_ld=[person_ld],
+    topic_index_entries = []
+    for S in SPRACHEN:
+        L, P = S["lang"], S["praefix"]
+        tiefe = 2 if L == "de" else 3          # themen/<slug>/ bzw. en/topics/<slug>/
+        tiefe_index = 1 if L == "de" else 2
+        zurueck = "../" * tiefe
+
+        index_eintraege = []
+        for topic in TOPICS:
+            members = [e for e in episodes
+                       if any(x["slug"] == topic["slug"] for x in e["topics"])]
+            if not members:
+                continue
+            uebersetzt = themen_en.get(topic["slug"], {})
+            name = topic["name"] if L == "de" else (uebersetzt.get("name") or topic["name"])
+            intro = topic["intro"] if L == "de" else (uebersetzt.get("intro") or topic["intro"])
+            entries = [{
+                "href": f"{zurueck}{L}/{e['slug']}/",
+                "title": e["title"],
+                "note": human_date(e["published"], L),
+            } for e in reversed(members)]
+            canonical = f"{base_url}/{P}{S['themen']}/{topic['slug']}/"
+            alternates = [("de", f"{base_url}/themen/{topic['slug']}/"),
+                          ("en", f"{base_url}/en/topics/{topic['slug']}/"),
+                          ("x-default", f"{base_url}/themen/{topic['slug']}/")]
+            suffix = "Folgen und Transkripte" if L == "de" else "episodes and transcripts"
+            page = render_list_page(
+                lang=L, title=f"{name} — {suffix} | {SERIES_NAME}",
+                heading=name, intro=intro, entries=entries,
+                canonical=canonical, base_url=base_url, depth=tiefe,
+                alternates=alternates,
+                extra_ld=[{
+                    "@context": "https://schema.org", "@type": "CollectionPage",
+                    "name": name, "url": canonical, "description": intro,
+                    "inLanguage": L,
+                    "isPartOf": {"@type": "WebSite", "name": SERIES_NAME, "url": f"{base_url}/"},
+                }],
+            )
+            write(site_dir / (P + S["themen"]) / topic["slug"] / "index.html", page)
+            written += 1
+            urls.append({"loc": canonical, "lastmod": None,
+                         "alts": [(c, u) for c, u in alternates if c != "x-default"]})
+            index_eintraege.append({"href": f"{topic['slug']}/", "title": name,
+                                    "note": S["folgen"](len(members))})
+            if L == "de":
+                topic_index_entries.append({"slug": topic["slug"], "name": name,
+                                            "intro": intro, "n": len(members)})
+
+        canonical = f"{base_url}/{P}{S['themen']}/"
+        write(site_dir / (P + S["themen"]) / "index.html", render_list_page(
+            lang=L, title=f"{S['themen_titel']} | {SERIES_NAME}",
+            heading=S["themen_titel"], intro=S["themen_intro"],
+            entries=index_eintraege, canonical=canonical, base_url=base_url,
+            depth=tiefe_index,
+            alternates=[("de", f"{base_url}/themen/"), ("en", f"{base_url}/en/topics/"),
+                        ("x-default", f"{base_url}/themen/")],
         ))
         written += 1
-        urls.append({"loc": canonical, "lastmod": None, "alts": []})
-        guest_index_entries.append({
-            "href": f"{slug}/", "title": info["name"],
-            "note": (note + " · " if note else "") + f"{len(data['episodes'])} " +
-                    ("Folge" if len(data["episodes"]) == 1 else "Folgen"),
-        })
+        urls.append({"loc": canonical, "lastmod": None,
+                     "alts": [("de", f"{base_url}/themen/"), ("en", f"{base_url}/en/topics/")]})
 
-    canonical = f"{base_url}/gaeste/"
-    write(site_dir / "gaeste" / "index.html", render_list_page(
-        lang="de", title=f"Gäste | {SERIES_NAME}", heading="Gäste",
-        intro="Alle Gäste des Podcasts mit ihren Folgen.",
-        entries=guest_index_entries, canonical=canonical, base_url=base_url, depth=1,
-    ))
-    written += 1
-    urls.append({"loc": canonical, "lastmod": None, "alts": []})
+        # ---- Gaeste
+        gast_index = []
+        for slug, data in sorted(by_guest.items(), key=lambda kv: kv[1]["info"]["name"]):
+            info = data["info"]
+            n = len(data["episodes"])
+            entries = [{
+                "href": f"{zurueck}{L}/{e['slug']}/",
+                "title": e["title"],
+                "note": human_date(e["published"], L),
+            } for e in reversed(data["episodes"])]
+            org = info.get("affiliation") or ""
+            if L == "de":
+                intro = (f"{info['name']}" + (f", {org}" if org else "")
+                         + f", war in {S['folgen'](n)} von {SERIES_NAME} zu Gast.")
+            else:
+                intro = (f"{info['name']}" + (f", {org}" if org else "")
+                         + f", was a guest on {S['folgen'](n)} of {SERIES_NAME}.")
+            canonical = f"{base_url}/{P}{S['gaeste']}/{slug}/"
+            alternates = [("de", f"{base_url}/gaeste/{slug}/"),
+                          ("en", f"{base_url}/en/guests/{slug}/"),
+                          ("x-default", f"{base_url}/gaeste/{slug}/")]
+            person = {"@type": "Person", "name": info["name"]}
+            if info.get("sameAs"):
+                person["sameAs"] = info["sameAs"]
+            if org:
+                person["affiliation"] = {"@type": "Organization", "name": org}
+            titel_suffix = "Folgen" if L == "de" else "episodes"
+            write(site_dir / (P + S["gaeste"]) / slug / "index.html", render_list_page(
+                lang=L, title=f"{info['name']} — {titel_suffix} | {SERIES_NAME}",
+                heading=info["name"], intro=intro, entries=entries,
+                canonical=canonical, base_url=base_url, depth=tiefe,
+                alternates=alternates,
+                extra_ld=[{"@context": "https://schema.org", "@type": "ProfilePage",
+                           "url": canonical, "inLanguage": L, "mainEntity": person}],
+            ))
+            written += 1
+            urls.append({"loc": canonical, "lastmod": None,
+                         "alts": [(c, u) for c, u in alternates if c != "x-default"]})
+            gast_index.append({"href": f"{slug}/", "title": info["name"],
+                               "note": (org + " · " if org else "") + S["folgen"](n)})
 
-    # ---- Datenblöcke in die Landingpage einsetzen
+        canonical = f"{base_url}/{P}{S['gaeste']}/"
+        write(site_dir / (P + S["gaeste"]) / "index.html", render_list_page(
+            lang=L, title=f"{S['gaeste_titel']} | {SERIES_NAME}",
+            heading=S["gaeste_titel"], intro=S["gaeste_intro"],
+            entries=gast_index, canonical=canonical, base_url=base_url, depth=tiefe_index,
+            alternates=[("de", f"{base_url}/gaeste/"), ("en", f"{base_url}/en/guests/"),
+                        ("x-default", f"{base_url}/gaeste/")],
+        ))
+        written += 1
+        urls.append({"loc": canonical, "lastmod": None,
+                     "alts": [("de", f"{base_url}/gaeste/"), ("en", f"{base_url}/en/guests/")]})
+
+    # ---- Datenblöcke in die Landingpages einsetzen
     #
-    # Die Landingpage ist ein eigenstaendiges, von Hand gestaltetes Artefakt. Erzeugt
+    # Beide Landingpages sind eigenstaendige, von Hand gestaltete Artefakte. Erzeugt
     # werden hier ausschliesslich die Daten zwischen den Markern, nie die Gestaltung.
-    index_path = site_dir / "index.html"
-    if index_path.exists():
+    for L, index_path, praefix in (("de", site_dir / "index.html", ""),
+                                   ("en", site_dir / "en" / "index.html", "../")):
+        if not index_path.exists():
+            continue
         text = index_path.read_text(encoding="utf-8")
+        # Von en/index.html aus liegen Cover und Folgen eine Ebene hoeher
+        auf = praefix
 
         # Kennzahlen
-        sekunden = sum(int(float(e["duration"])) for e in episodes if str(e["duration"]).strip().isdigit())
-        woerter = sum(len(l["text"].split()) for e in episodes for l in e["de"]["lines"])
-        volltexte = sum(1 for e in episodes) + sum(1 for e in episodes if e["en"])
-        # Vier verschiedene Beweisarten statt vier Groessenmasse: Umfang,
-        # Nachpruefbarkeit, Zugang zu Fachleuten, Kontinuitaet. Die Wortzahl misst
-        # dasselbe wie die Stunden und faellt deshalb raus.
+        sekunden = sum(int(float(e["duration"])) for e in episodes
+                       if str(e["duration"]).strip().isdigit())
+        volltexte = len(episodes) + sum(1 for e in episodes if e["en"])
         gaeste_namen = {g["slug"] for e in episodes for g in e["guests"]}
         gastfolgen = sum(1 for e in episodes if e["guests"])
         erste = min((e["published"] for e in episodes if e["published"]), default=None)
-        monate = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli",
-                  "August", "September", "Oktober", "November", "Dezember"]
-        stats = [
+        monate_de = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli",
+                     "August", "September", "Oktober", "November", "Dezember"]
+        monat = (monate_de[erste.month - 1] if L == "de" else erste.strftime("%B")) if erste else ""
+        stats = ([
             (f"{len(episodes)}", f"Folgen, zusammen {sekunden // 3600} Stunden"),
             (f"{volltexte}", "Transkripte, deutsch und englisch"),
             (f"{len(gaeste_namen)}", f"Gäste in {gastfolgen} Folgen"),
-            (f"{monate[erste.month - 1]} {erste.year}" if erste else "seit 2025",
-             "erste Folge, seitdem im Wochenrhythmus"),
-        ]
+            (f"{monat} {erste.year}" if erste else "seit 2025", "erste Folge, seitdem im Wochenrhythmus"),
+        ] if L == "de" else [
+            (f"{len(episodes)}", f"episodes, {sekunden // 3600} hours in total"),
+            (f"{volltexte}", "transcripts, German and English"),
+            (f"{len(gaeste_namen)}", f"guests across {gastfolgen} episodes"),
+            (f"{monat} {erste.year}" if erste else "since 2025", "first episode, weekly ever since"),
+        ])
         stats_html = ("\n          <ul>\n"
                       + "".join(f"            <li><b>{esc(w)}</b><span>{esc(l)}</span></li>\n"
                                 for w, l in stats)
                       + "          </ul>\n          ")
 
         # Folgenliste: nach Jahr gruppiert, mit der Podigee-Nummer als Anker.
-        # 52 gleich aussehende Kacheln kann niemand ueberfliegen; die Nummer links und
-        # die Jahresmarke geben dem Auge zwei Haltepunkte.
+        # 52 gleich aussehende Kacheln kann niemand ueberfliegen; das Cover, die
+        # Nummer und die Jahresmarke geben dem Auge drei Haltepunkte.
         eintraege = []
         letztes_jahr = None
         for ep in reversed(episodes):
             jahr = ep["published"].year if ep["published"] else None
             if jahr != letztes_jahr:
                 anzahl = sum(1 for e in episodes if e["published"] and e["published"].year == jahr)
+                wort = "Folgen" if L == "de" else "episodes"
                 eintraege.append(f'<li class="ep-jahr" aria-hidden="true"><span>{jahr}</span>'
-                                 f'<span>{anzahl} Folgen</span></li>')
+                                 f'<span>{anzahl} {wort}</span></li>')
                 letztes_jahr = jahr
             nummer = re.match(r"(\d+)", ep["slug"])
-            datum = ep["published"].strftime("%d.%m.%Y") if ep["published"] else ""
-            dauer = human_duration(ep["duration"], "de")
-            alt = (f'<a class="ep-alt" href="en/{esc(ep["slug"])}/" '
-                   f'title="{esc(ep["title"])} in English">EN</a>') if ep["en"] else ""
+            datum = ep["published"].strftime("%d.%m.%Y" if L == "de" else "%d %b %Y") \
+                if ep["published"] else ""
+            dauer = human_duration(ep["duration"], L)
+            andere = "en" if L == "de" else "de"
+            marke = "EN" if L == "de" else "DE"
+            hat_andere = ep["en"] if L == "de" else True
+            alt = (f'<a class="ep-alt" href="{auf}{andere}/{esc(ep["slug"])}/" '
+                   f'title="{esc(ep["title"])}">{marke}</a>') if hat_andere else ""
             eintraege.append(
                 f'<li class="ep">'
-                f'<a class="ep-main" href="de/{esc(ep["slug"])}/">'
-                f'<img class="ep-cover" src="covers/{esc(ep["slug"])}.jpg" alt="" '
+                f'<a class="ep-main" href="{auf}{L}/{esc(ep["slug"])}/">'
+                f'<img class="ep-cover" src="{auf}covers/{esc(ep["slug"])}.jpg" alt="" '
                 f'loading="lazy" width="72" height="72">'
                 f'<span class="ep-no">{esc(nummer.group(1) if nummer else "")}</span>'
                 f'<span class="ep-t">{esc(ep["title"])}</span>'
@@ -915,27 +1001,30 @@ def build(site_dir: Path, repo_root: Path, base_url: str) -> dict:
         eps_html = ('\n          <ol class="lp-eps">\n            '
                     + "\n            ".join(eintraege) + "\n          </ol>\n          ")
 
-        # Themen: Kachel mit eigener Akzentfarbe und der Anzahl als Blickfang.
-        # Fuenf Farben aus der Markenwelt, bewusst so verteilt, dass benachbarte
-        # Kacheln nie dieselbe haben.
+        # Themen: eigene Akzentfarbe je Kachel, Anzahl als Blickfang.
         FARBEN = ["#34d4ff", "#ffcf24", "#ff7a1a", "#ff5fa8", "#6ef2a0"]
+        pfad_themen = "themen" if L == "de" else "topics"
         themen = []
         i = 0
         for topic in TOPICS:
-            anzahl = sum(1 for e in episodes if any(x["slug"] == topic["slug"] for x in e["topics"]))
+            anzahl = sum(1 for e in episodes
+                         if any(x["slug"] == topic["slug"] for x in e["topics"]))
             if not anzahl:
                 continue
+            name = topic["name"] if L == "de" else topic.get("name_en", topic["name"])
+            intro = topic["intro"] if L == "de" else topic.get("intro_en", topic["intro"])
             themen.append(
                 f'<li class="tp" style="--tp:{FARBEN[i % len(FARBEN)]}">'
-                f'<a href="themen/{esc(topic["slug"])}/">'
+                f'<a href="{pfad_themen}/{esc(topic["slug"])}/">'
                 f'<span class="tp-n">{anzahl}</span>'
-                f'<strong>{esc(topic["name"])}</strong>'
-                f'<span class="tp-i">{esc(topic["intro"])}</span></a></li>')
+                f'<strong>{esc(name)}</strong>'
+                f'<span class="tp-i">{esc(intro)}</span></a></li>')
             i += 1
         topics_html = ('\n          <ul class="lp-topics">\n            '
                        + "\n            ".join(themen) + "\n          </ul>\n          ")
 
-        # Gaeste: kompakte Zeilen mit Monogramm statt weiterer grosser Kacheln.
+        # Gaeste: kompakte Zeilen mit Monogramm.
+        pfad_gaeste = "gaeste" if L == "de" else "guests"
         gaeste = {}
         for ep in episodes:
             for g in ep["guests"]:
@@ -945,9 +1034,11 @@ def build(site_dir: Path, repo_root: Path, base_url: str) -> dict:
         for slug, d in sorted(gaeste.items(), key=lambda kv: kv[1]["name"]):
             teile = [x for x in d["name"].replace("Dr.", "").replace("Prof.", "").split() if x]
             mono = "".join(x[0] for x in teile[:2]).upper()
-            zusatz = d["org"] or (f'{d["n"]} Folgen' if d["n"] > 1 else "1 Folge")
+            wort = ("Folgen" if d["n"] > 1 else "Folge") if L == "de" \
+                else ("episodes" if d["n"] > 1 else "episode")
+            zusatz = d["org"] or f'{d["n"]} {wort}'
             chips.append(
-                f'<li class="gu"><a href="gaeste/{esc(slug)}/">'
+                f'<li class="gu"><a href="{pfad_gaeste}/{esc(slug)}/">'
                 f'<span class="gu-m" aria-hidden="true">{esc(mono)}</span>'
                 f'<span class="gu-b"><strong>{esc(d["name"])}</strong>'
                 f'<span>{esc(zusatz)}</span></span>'
@@ -957,18 +1048,19 @@ def build(site_dir: Path, repo_root: Path, base_url: str) -> dict:
 
         for marker, block in (("STATS", stats_html), ("EPISODE-INDEX", eps_html),
                               ("TOPICS", topics_html), ("GUESTS", guests_html)):
-            start = text.find(f"<!-- {marker}:START")
-            ende = text.find(f"<!-- {marker}:END -->")
-            if start == -1 or ende == -1:
+            s = text.find(f"<!-- {marker}:START")
+            e = text.find(f"<!-- {marker}:END -->")
+            if s == -1 or e == -1:
                 continue
-            start_ende = text.find("-->", start) + 3
-            text = text[:start_ende] + block + text[ende:]
+            s_ende = text.find("-->", s) + 3
+            text = text[:s_ende] + block + text[e:]
 
         index_path.write_text(text, encoding="utf-8")
         written += 1
+        urls.append({"loc": f"{base_url}/{praefix and 'en/'}",
+                     "lastmod": datetime.now(timezone.utc).date().isoformat(),
+                     "alts": [("de", f"{base_url}/"), ("en", f"{base_url}/en/")]})
 
-    # ---- Startseite in die Sitemap
-    urls.insert(0, {"loc": f"{base_url}/", "lastmod": datetime.now(timezone.utc).date().isoformat(), "alts": []})
 
     # ---- sitemap.xml
     chunks = ['<?xml version="1.0" encoding="UTF-8"?>',
