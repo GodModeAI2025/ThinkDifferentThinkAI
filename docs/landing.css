@@ -47,8 +47,10 @@
 .lp-mark img {
   width: 34px;
   height: 34px;
+  object-fit: cover;
   border: 2px solid var(--line);
-  image-rendering: pixelated;
+  /* Kein image-rendering: pixelated. Das Cover ist Pixel-Art, wird hier aber von
+     500px auf 34px verkleinert, und dabei erzeugt pixelated Treppen statt Schaerfe. */
 }
 
 .lp-top nav {
@@ -168,9 +170,15 @@
 
 .lp-cover {
   width: 100%;
+  /* height: auto ist hier Pflicht: Ohne das bleibt die im HTML gesetzte Hoehe
+     von 500px stehen, waehrend die Breite skaliert, und das quadratische Cover
+     wird laenglich gezogen. aspect-ratio haelt es zusaetzlich quadratisch,
+     auch wenn das Bild mal nicht 1:1 geliefert wird. */
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
   border: var(--edge);
   box-shadow: var(--drop);
-  image-rendering: pixelated;
   display: block;
 }
 
