@@ -839,11 +839,20 @@ def build(site_dir: Path, repo_root: Path, base_url: str) -> dict:
         sekunden = sum(int(float(e["duration"])) for e in episodes if str(e["duration"]).strip().isdigit())
         woerter = sum(len(l["text"].split()) for e in episodes for l in e["de"]["lines"])
         volltexte = sum(1 for e in episodes) + sum(1 for e in episodes if e["en"])
+        # Vier verschiedene Beweisarten statt vier Groessenmasse: Umfang,
+        # Nachpruefbarkeit, Zugang zu Fachleuten, Kontinuitaet. Die Wortzahl misst
+        # dasselbe wie die Stunden und faellt deshalb raus.
+        gaeste_namen = {g["slug"] for e in episodes for g in e["guests"]}
+        gastfolgen = sum(1 for e in episodes if e["guests"])
+        erste = min((e["published"] for e in episodes if e["published"]), default=None)
+        monate = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli",
+                  "August", "September", "Oktober", "November", "Dezember"]
         stats = [
-            (f"{len(episodes)}", "Folgen im Volltext"),
-            (f"{sekunden // 3600}", "Stunden Audio"),
-            (f"{woerter // 1000}.000+", "gesprochene Wörter"),
-            (f"{volltexte}", "Transkripte, DE und EN"),
+            (f"{len(episodes)}", f"Folgen, zusammen {sekunden // 3600} Stunden"),
+            (f"{volltexte}", "Transkripte, deutsch und englisch"),
+            (f"{len(gaeste_namen)}", f"Gäste in {gastfolgen} Folgen"),
+            (f"{monate[erste.month - 1]} {erste.year}" if erste else "seit 2025",
+             "erste Folge, seitdem im Wochenrhythmus"),
         ]
         stats_html = ("\n          <ul>\n"
                       + "".join(f"            <li><b>{esc(w)}</b><span>{esc(l)}</span></li>\n"
