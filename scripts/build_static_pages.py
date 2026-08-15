@@ -48,12 +48,12 @@ STRINGS = {
         "description_heading": "Worum es geht",
         "title_suffix": "Transkript",
         "back": "Alle Folgen",
-        "listen": "Folge anhoeren",
+        "listen": "Folge anhören",
         "markdown": "Als Markdown",
         "prev": "Vorherige Folge",
-        "next": "Naechste Folge",
+        "next": "Nächste Folge",
         "switch": "Read in English",
-        "published": "Veroeffentlicht",
+        "published": "Veröffentlicht",
         "duration": "Dauer",
         "topics": "Themen",
         "guests": "Zu Gast",
@@ -88,7 +88,7 @@ TOPICS = [
         "slug": "ki-agenten",
         "name": "KI-Agenten",
         "intro": "Agenten handeln, statt nur zu antworten. Diese Folgen behandeln Agent-Harnesses, "
-                 "MCP als Schnittstelle, Multi-Agenten-Setups und die Frage, wer sie eigentlich fuehrt.",
+                 "MCP als Schnittstelle, Multi-Agenten-Setups und die Frage, wer sie eigentlich führt.",
         "keywords": ["agent harness", "harness", "mcp", "multiagent", "multi-agent", "agent client protocol", "openclaw", "clawdbot", "orchestrier", "agentic", "loop engineering", "agentennetz", "kill-switch", "guardrail", "kiagent", "ki-agent"],
     },
     {
@@ -101,7 +101,7 @@ TOPICS = [
     {
         "slug": "automatisierung-und-tools",
         "name": "Automatisierung und Tools",
-        "intro": "Notion, n8n, Workflows und die Werkzeuge dahinter. Folgen darueber, wie aus einer "
+        "intro": "Notion, n8n, Workflows und die Werkzeuge dahinter. Folgen darüber, wie aus einer "
                  "Notiz ein Ticket, eine Folie und ein Post wird.",
         "keywords": ["notion", "n8n", "zapier", "workflow", "worker", "trigger", "building block", "automatisierung", "werkzeugkette", "integration"],
     },
@@ -115,14 +115,14 @@ TOPICS = [
     {
         "slug": "robotik",
         "name": "Robotik",
-        "intro": "KI bekommt einen Koerper. Humanoide, Teleoperation und der Abstand zwischen "
+        "intro": "KI bekommt einen Körper. Humanoide, Teleoperation und der Abstand zwischen "
                  "Werbevideo und Wohnzimmer.",
         "keywords": ["roboter", "robotik", "humanoid", "optimus", "boston dynamics", "teleoperation", "greifer", "saugroboter", "droide"],
     },
     {
         "slug": "wissensmanagement",
         "name": "Wissensmanagement",
-        "intro": "Second Brain, RAG, Ontologien und portable Skills. Wie Wissen ausserhalb des "
+        "intro": "Second Brain, RAG, Ontologien und portable Skills. Wie Wissen außerhalb des "
                  "Modells liegen bleibt und trotzdem auffindbar ist.",
         "keywords": ["second brain", "obsidian", "retrieval", "ontologie", "vault", "exokortex", "wissensspeicher", "digest", "kuration", "notizen", "transkript", "skill"],
     },
@@ -130,15 +130,15 @@ TOPICS = [
         "slug": "softwareentwicklung",
         "name": "Softwareentwicklung",
         "intro": "Vibe Coding, Spec-Driven Development und Agenten, die committen. Was sich in der "
-                 "taeglichen Entwicklungsarbeit tatsaechlich veraendert hat.",
+                 "täglichen Entwicklungsarbeit tatsaechlich veraendert hat.",
         "keywords": ["vibe coding", "claude code", "spec-driven", "refactor", "commit", "pull request", "codebasis", "softwareentwicklung", "entwickler", "testcase", "adr", "programmier", "code"],
     },
     {
         "slug": "modelle-und-anbieter",
         "name": "Modelle und Anbieter",
         "intro": "Wer welches Modell baut, was es kostet und wer es benutzen darf. Von offenen "
-                 "Gewichten aus China ueber Tokenrechnungen bis zu dem Tag, an dem ein Modell fuer "
-                 "Nicht-US-Buerger gesperrt wurde und Kanzleien ihre Textanalyse schon darauf "
+                 "Gewichten aus China über Tokenrechnungen bis zu dem Tag, an dem ein Modell fuer "
+                 "Nicht-US-Bürger gesperrt wurde und Kanzleien ihre Textanalyse schon darauf "
                  "gebaut hatten.",
         "keywords": ["open weights", "offene gewichte", "kimi", "moonshot", "deepseek", "exportkontrolle", "gesperrt", "souveraenitaet", "souveränität", "frontier", "benchmark", "lizenz", "modellauswahl", "destillation", "parameter", "anbieter", "abo"],
     },
@@ -152,9 +152,9 @@ TOPICS = [
     },
     {
         "slug": "fuehrung-und-arbeit",
-        "name": "Fuehrung und Arbeit",
+        "name": "Führung und Arbeit",
         "intro": "Was mit Organisationen passiert, wenn Agenten Teil des Teams werden. Hierarchien, "
-                 "Verantwortung und die Frage, wo Berufsanfaenger noch lernen.",
+                 "Verantwortung und die Frage, wo Berufsanfänger noch lernen.",
         "keywords": ["fuehrung", "führung", "hierarchie", "org-chart", "organigramm", "mitarbeitende", "new work", "berufsanfaenger", "berufsanfänger", "teamstruktur", "produktmanagement", "cio", "organisation", "arbeitswelt"],
     },
 ]
@@ -457,7 +457,7 @@ def render_nav(up: str, t: dict, lang: str) -> str:
       <nav class="doc-nav" aria-label="{esc(t['back'])}">
         <a href="{home}">{esc(t['back'])}</a>
         <a href="{up}themen/index.html">Themen</a>
-        <a href="{up}gaeste/index.html">{esc('Gaeste' if lang == 'de' else 'Guests')}</a>
+        <a href="{up}gaeste/index.html">{esc('Gäste' if lang == 'de' else 'Guests')}</a>
         <a href="{esc(SERIES_URL)}" rel="noreferrer">Podcast</a>
       </nav>
     </header>
@@ -482,6 +482,10 @@ def render_episode_page(episode: dict, lang: str, base_url: str, *, prev_ep, nex
     # Korrektur zurueck. Englische Seite: dort gibt es nur die uebersetzte Fassung.
     quelle = episode["feed_description"] if (lang == "de" and episode.get("feed_description")) \
         else parsed["description"]
+    # Der Standard-Abbinder aus der Podigee-Beschreibung wird hier abgeschnitten.
+    # Er gehoert in die Podcast-Apps; die Seite hat einen eigenen Abo-Bereich, und
+    # 52 Mal derselbe Block waere nur Rauschen.
+    quelle = re.split(r"\n\s*—\s*\n(?=Think Different\. Think AI\. mit )", quelle)[0]
     desc_paragraphs = [p.strip() for p in quelle.split("\n") if p.strip()]
     lead = desc_paragraphs[0] if desc_paragraphs else ""
     rest = desc_paragraphs[1:]
@@ -826,8 +830,8 @@ def build(site_dir: Path, repo_root: Path, base_url: str) -> dict:
 
     canonical = f"{base_url}/gaeste/"
     write(site_dir / "gaeste" / "index.html", render_list_page(
-        lang="de", title=f"Gaeste | {SERIES_NAME}", heading="Gaeste",
-        intro="Alle Gaeste des Podcasts mit ihren Folgen.",
+        lang="de", title=f"Gäste | {SERIES_NAME}", heading="Gäste",
+        intro="Alle Gäste des Podcasts mit ihren Folgen.",
         entries=guest_index_entries, canonical=canonical, base_url=base_url, depth=1,
     ))
     written += 1
