@@ -299,7 +299,8 @@ def artikel_body(art: dict, *, lang: str, up: str, nav: str, bild: str,
         blaettern.append(f'<a class="art-next-link" href="{esc(next_a[1])}">'
                          f'<span>{esc(t["next"])}</span><b>{esc(next_a[0])}</b></a>')
 
-    blog_index = f'{up}{"blog" if lang == "de" else "en/blog"}/index.html'
+    blog_wurzel = f'{up}{"blog" if lang == "de" else "en/blog"}/'
+    blog_index = f"{blog_wurzel}index.html"
 
     return f"""{nav}
     <main class="doc-main art-page">
@@ -320,6 +321,7 @@ def artikel_body(art: dict, *, lang: str, up: str, nav: str, bild: str,
             {''.join(blaettern)}
           </nav>
           <p class="art-back"><a href="{blog_index}">{esc(t['all_articles'])}</a></p>
+          <p class="bl-feed"><a href="{blog_wurzel}feed.xml">{esc(t['feed_link'])}</a></p>
         </footer>
       </article>
     </main>

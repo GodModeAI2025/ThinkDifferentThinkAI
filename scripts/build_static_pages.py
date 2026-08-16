@@ -19,6 +19,7 @@ weil beide Nummerierungen auseinanderfallen.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import html
 import json
 import re
@@ -415,6 +416,25 @@ def load_guests(path: Path) -> dict:
 
 # --------------------------------------------------------------------------- rendering
 
+# Ohne Stempel liefert der Browser die alte Datei aus dem Cache weiter, und eine
+# neue CSS-Regel wirkt bei wiederkehrenden Besuchern nicht. Der Stempel ist der
+# Inhalt selbst, nicht das Datum: Er aendert sich genau dann, wenn sich die Datei
+# aendert, und bleibt sonst stehen, statt den Cache grundlos zu verwerfen.
+SITE_DIR = Path("docs")
+_CSS_STEMPEL: dict[str, str] = {}
+
+
+def css_stempel(name: str) -> str:
+    if name not in _CSS_STEMPEL:
+        datei = SITE_DIR / name
+        if datei.exists():
+            kurz = hashlib.md5(datei.read_bytes()).hexdigest()[:8]
+            _CSS_STEMPEL[name] = f"?v={kurz}"
+        else:
+            _CSS_STEMPEL[name] = ""
+    return _CSS_STEMPEL[name]
+
+
 def page_shell(*, lang: str, title: str, description: str, canonical: str, alternates: list[tuple[str, str]],
                image: str, body: str, jsonld: list[dict], depth: int, page_type: str = "article",
                feed: tuple[str, str] | None = None) -> str:
@@ -449,8 +469,8 @@ def page_shell(*, lang: str, title: str, description: str, canonical: str, alter
     <meta name="twitter:title" content="{esc(title)}">
     <meta name="twitter:description" content="{esc(description)}">
     <meta name="twitter:image" content="{esc(image)}">
-    <link rel="stylesheet" href="{up}base.css">
-    <link rel="stylesheet" href="{up}transcript.css">
+    <link rel="stylesheet" href="{up}base.css{css_stempel('base.css')}">
+    <link rel="stylesheet" href="{up}transcript.css{css_stempel('transcript.css')}">
 {ld}
   </head>
   <body class="doc">
@@ -746,6 +766,9 @@ def write(path: Path, text: str) -> None:
 
 
 def build(site_dir: Path, repo_root: Path, base_url: str) -> dict:
+    global SITE_DIR
+    SITE_DIR = site_dir
+    _CSS_STEMPEL.clear()
     manifest_path = site_dir / "data" / "episodes.json"
     if not manifest_path.exists():
         raise SystemExit(f"{manifest_path} fehlt — bitte zuerst scripts/build_site_manifest.py laufen lassen.")
@@ -1245,6 +1268,13 @@ def build(site_dir: Path, repo_root: Path, base_url: str) -> dict:
                 continue
             s_ende = text.find("-->", s) + 3
             text = text[:s_ende] + block + text[e:]
+
+        # Die Startseiten sind von Hand gepflegt, ihr Cache-Stempel war es auch
+        # und stand deshalb schon einmal einen Tag zu alt da: Die CSS-Datei war
+        # neu, der Browser lieferte die alte weiter. Ab hier setzt ihn der Build
+        # aus dem Dateiinhalt, wie bei den erzeugten Seiten.
+        text = re.sub(r'(href="[^"]*?(base|landing)\.css)(\?v=[^"]*)?"',
+                      lambda m: f'{m.group(1)}{css_stempel(m.group(2) + ".css")}"', text)
 
         index_path.write_text(text, encoding="utf-8")
         written += 1

@@ -852,6 +852,25 @@
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px 26px;
+}
+
+/* Der Feed-Knopf steht neben dem Link zur Uebersicht und muss sich davon
+   unterscheiden, sonst liest man zwei gleich aussehende Links. Er braucht
+   die hoehere Spezifitaet, sonst gewinnt der Unterstrich von `.lp-mehr a`. */
+.lp-mehr a.lp-feed {
+  border: 3px solid var(--accent);
+  padding: 9px 15px;
+}
+
+.lp-mehr a.lp-feed:hover,
+.lp-mehr a.lp-feed:focus-visible {
+  background: var(--accent);
+  color: var(--accent-ink);
+  border-color: var(--accent);
 }
 
 .lp-mehr a {
