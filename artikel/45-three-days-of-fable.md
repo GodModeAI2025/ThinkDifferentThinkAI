@@ -12,7 +12,7 @@ podigee: "https://think-ai.podigee.io/45-three-days-of-fable"
 
 Von Mark Zimmermann
 
-Anthropic hat Fable 5 veröffentlicht, ein Modell der sogenannten Mythos-Klasse. Diese Reihe stand zuvor nur großen Anbietern wie Amazon und Google zur Verfügung, weil sie ungewöhnlich gut darin ist, Sicherheitslücken zu finden. Bei Firefox wurden auf diesem Weg an einem Tag Hunderte kritischer Fehler entdeckt und geschlossen. Einem Fachbericht zufolge hat eine Sicherheitsfirma mit Mythos einen Speicherschutz-Exploit auf Apple-M5-Hardware in fünf Tagen geknackt.
+Anthropic hat Fable 5 veröffentlicht, ein Modell der sogenannten Mythos-Klasse. Diese Reihe stand zuvor nur großen Anbietern wie Amazon und Google zur Verfügung, weil sie ungewöhnlich gut darin ist, Sicherheitslücken zu finden. Bei Firefox wurden auf diesem Weg an einem Tag Hunderte kritischer Fehler entdeckt und geschlossen. Laut einem Bericht bei heise online hat eine Sicherheitsfirma mit Mythos einen Speicherschutz-Exploit auf Apple-M5-Hardware in fünf Tagen geknackt.
 
 Drei Tage nach dem Start war das Modell für alle Nutzer außerhalb der USA weg. Dazwischen lagen ein geleakter System-Prompt, eine Anhörung im Weißen Haus und die Einstufung von Anthropic als Lieferkettenrisiko.
 
