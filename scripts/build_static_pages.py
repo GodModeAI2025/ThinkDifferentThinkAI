@@ -416,8 +416,11 @@ def load_guests(path: Path) -> dict:
 # --------------------------------------------------------------------------- rendering
 
 def page_shell(*, lang: str, title: str, description: str, canonical: str, alternates: list[tuple[str, str]],
-               image: str, body: str, jsonld: list[dict], depth: int, page_type: str = "article") -> str:
+               image: str, body: str, jsonld: list[dict], depth: int, page_type: str = "article",
+               feed: tuple[str, str] | None = None) -> str:
     up = "../" * depth
+    feed_tag = (f'\n    <link rel="alternate" type="application/rss+xml" '
+                f'title="{esc(feed[1])}" href="{esc(feed[0])}">') if feed else ""
     alt_tags = "\n".join(
         f'    <link rel="alternate" hreflang="{esc(code)}" href="{esc(url)}">'
         for code, url in alternates
@@ -433,7 +436,7 @@ def page_shell(*, lang: str, title: str, description: str, canonical: str, alter
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{esc(title)}</title>
     <meta name="description" content="{esc(description)}">
-    <link rel="canonical" href="{esc(canonical)}">
+    <link rel="canonical" href="{esc(canonical)}">{feed_tag}
 {alt_tags}
     <meta property="og:type" content="{esc(page_type)}">
     <meta property="og:site_name" content="{esc(SERIES_NAME)}">
@@ -469,7 +472,7 @@ def render_nav(up: str, t: dict, lang: str) -> str:
     themen = f"{wurzel}{'themen' if lang == 'de' else 'topics'}/index.html"
     gaeste = f"{wurzel}{'gaeste' if lang == 'de' else 'guests'}/index.html"
     blog_eintrag = (f'        <a href="{wurzel}blog/index.html">'
-                    f"{esc('Fachartikel' if lang == 'de' else 'Articles')}</a>\n"
+                    f"Blog</a>\n"
                     if lang in BLOG_SPRACHEN else "")
     return f"""    <header class="doc-top">
       <a class="doc-brand" href="{home}">
@@ -860,11 +863,26 @@ def build(site_dir: Path, repo_root: Path, base_url: str) -> dict:
         idx_alts = [(l, f"{base_url}/{'blog' if l == 'de' else 'en/blog'}/")
                     for l in ("de", "en")
                     if any(ep[f"article_{l}"] for ep in episodes)]
+        # RSS je Sprache. Datum kommt aus dem Feed der Folge, nicht aus dem
+        # Dateidatum: Sonst springt jeder Beitrag beim naechsten Build nach oben.
+        def rfc822(a):
+            d = a["_ep"]["published"]
+            return d.strftime("%a, %d %b %Y %H:%M:%S +0000") if d else ""
+        for a in eintraege:
+            b = site_dir / "artikelbilder" / f'{a["slug"]}.jpg'
+            a["bild_url"] = f'{base_url}/artikelbilder/{a["slug"]}.jpg' if b.exists() else ""
+        feed_url = f"{base_url}/{ordner}/feed.xml"
+        write(site_dir / ordner / "feed.xml",
+              blog.rss(eintraege, lang=lang, feed_url=feed_url,
+                       blog_url=f"{base_url}/{ordner}/", base_url=base_url,
+                       rfc822=rfc822, koerper=None))
+
         write(site_dir / ordner / "index.html", page_shell(
             lang=lang, title=f"{st['blog_title']} — {SERIES_NAME}",
             description=st["blog_intro"], canonical=idx_can, alternates=idx_alts,
             image=f"{base_url}/artikelbilder/{eintraege[0]['slug']}.jpg",
             body=idx_body, depth=tiefe, page_type="website",
+            feed=(feed_url, st["feed_title"]),
             jsonld=[{
                 "@context": "https://schema.org", "@type": "Blog",
                 "name": f"{st['blog_title']} — {SERIES_NAME}",
@@ -911,6 +929,7 @@ def build(site_dir: Path, repo_root: Path, base_url: str) -> dict:
                 canonical=can, alternates=alts,
                 image=f'{base_url}/artikelbilder/{a["slug"]}.jpg' if hat_bild else f"{base_url}/",
                 body=body, depth=tiefe + 1, page_type="article",
+                feed=(feed_url, st["feed_title"]),
                 jsonld=[{
                     "@context": "https://schema.org", "@type": "BlogPosting",
                     "headline": a["titel"], "description": a["teaser"],

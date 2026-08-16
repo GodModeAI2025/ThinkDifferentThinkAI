@@ -22,13 +22,17 @@ WPM = 200
 
 STRINGS = {
     "de": {
-        "blog_title": "Fachartikel",
+        "blog_title": "Blog",
+        "feed_title": "Blog — Think Different. Think AI.",
+        "feed_desc": "Zu jeder Folge ein Fachartikel: eingeordnet, belegt und in "
+                     "zehn Minuten gelesen.",
+        "feed_link": "RSS abonnieren",
         "blog_intro": "Zu jeder Folge ein Fachartikel: eingeordnet, belegt und in "
                       "zehn Minuten gelesen. Neueste zuerst.",
         "reading": "Minuten Lesezeit",
         "to_episode": "Zur Folge",
         "to_transcript": "Volltext-Transkript",
-        "all_articles": "Alle Fachartikel",
+        "all_articles": "Alle Beiträge",
         "article_for": "Fachartikel zur Folge",
         "episode": "Folge",
         "switch": "Read in English",
@@ -38,13 +42,17 @@ STRINGS = {
         "by": "Von",
     },
     "en": {
-        "blog_title": "Articles",
+        "blog_title": "Blog",
+        "feed_title": "Blog (English) — Think Different. Think AI.",
+        "feed_desc": "One in-depth article per episode: contextualised, sourced and "
+                     "read in ten minutes.",
+        "feed_link": "Subscribe via RSS",
         "blog_intro": "One in-depth article per episode: contextualised, sourced and "
                       "read in ten minutes. Newest first.",
         "reading": "min read",
         "to_episode": "To the episode",
         "to_transcript": "Full transcript",
-        "all_articles": "All articles",
+        "all_articles": "All posts",
         "article_for": "Article on the episode",
         "episode": "Episode",
         "switch": "Auf Deutsch lesen",
@@ -339,9 +347,65 @@ def index_body(artikel: list[dict], *, lang: str, nav: str, bild_pfad, href) -> 
       <div class="bl-head">
         <h1>{esc(t['blog_title'])}</h1>
         <p class="doc-lead">{esc(t['blog_intro'])}</p>
+        <p class="bl-feed"><a href="feed.xml">{esc(t['feed_link'])}</a></p>
       </div>
       <ol class="bl-list">
           {''.join(karten)}
       </ol>
     </main>
+"""
+
+
+# --------------------------------------------------------------------- RSS
+def rss(artikel: list[dict], *, lang: str, feed_url: str, blog_url: str,
+        base_url: str, rfc822, koerper) -> str:
+    """Ein RSS-Feed je Sprache.
+
+    Der volle Artikeltext steht in content:encoded, nicht nur der Teaser. Ein
+    Feedleser soll den Beitrag lesen koennen, ohne die Seite aufzurufen; wer
+    nur anteasert, zwingt zum Klick und macht den Feed nutzlos.
+
+    Kein Bild-Enclosure: Das Titelbild steht bereits als erstes Element im
+    content:encoded. Ein zusaetzliches Enclosure laden manche Leser als
+    Anhang und zeigen es doppelt.
+    """
+    t = STRINGS[lang]
+    eintraege = []
+    for a in artikel:
+        url = f"{blog_url}{a['slug']}/"
+        bild = (f'<p><img src="{esc(a["bild_url"])}" alt="" width="1200" height="644"></p>'
+                if a.get("bild_url") else "")
+        inhalt = (bild
+                  + (f'<p><em>{inline(a["teaser"])}</em></p>' if a["teaser"] else "")
+                  + render_body(a["rumpf"]))
+        eintraege.append(f"""  <item>
+    <title>{esc(a['titel'])}</title>
+    <link>{esc(url)}</link>
+    <guid isPermaLink="true">{esc(url)}</guid>
+    <pubDate>{esc(rfc822(a))}</pubDate>
+    <dc:creator>{esc(a['autor'] or 'Mark Zimmermann')}</dc:creator>
+    <category>{esc(t['episode'])} {a['folge']}</category>
+    <description>{esc(a['teaser'] or a['titel'])}</description>
+    <content:encoded><![CDATA[{inhalt}]]></content:encoded>
+  </item>""")
+
+    return f"""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+  <title>{esc(t['feed_title'])}</title>
+  <link>{esc(blog_url)}</link>
+  <atom:link href="{esc(feed_url)}" rel="self" type="application/rss+xml"/>
+  <description>{esc(t['feed_desc'])}</description>
+  <language>{esc(lang)}</language>
+  <generator>scripts/build_static_pages.py</generator>
+  <image>
+    <url>{esc(base_url)}/covers/{esc(artikel[0]['slug'])}.jpg</url>
+    <title>{esc(t['feed_title'])}</title>
+    <link>{esc(blog_url)}</link>
+  </image>
+{chr(10).join(eintraege)}
+</channel>
+</rss>
 """

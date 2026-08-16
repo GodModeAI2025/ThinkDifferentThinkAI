@@ -936,3 +936,21 @@
   .art-next-link { text-align: left; }
   .art-quote { padding-left: 16px; }
 }
+
+.bl-feed {
+  margin: 16px 0 0;
+  font-family: var(--chrome);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.bl-feed a {
+  color: var(--accent);
+  text-decoration: none;
+  border: 2px solid var(--accent);
+  padding: 7px 13px;
+  display: inline-block;
+}
+
+.bl-feed a:hover, .bl-feed a:focus-visible { background: var(--accent); color: var(--accent-ink); }
