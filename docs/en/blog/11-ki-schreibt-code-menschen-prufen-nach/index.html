@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Spec-Driven Development: when the patch becomes the blueprint for the exploit — Think Different. Think AI.</title>
+    <meta name="description" content="A security update has always been a pointer to where the hole was. Until now it took days of reverse engineering experience to build an attack from it. Today …">
+    <link rel="canonical" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/11-ki-schreibt-code-menschen-prufen-nach/">
+    <link rel="alternate" hreflang="de" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/11-ki-schreibt-code-menschen-prufen-nach/">
+    <link rel="alternate" hreflang="en" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/11-ki-schreibt-code-menschen-prufen-nach/">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Think Different. Think AI.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="Spec-Driven Development: when the patch becomes the blueprint for the exploit — Think Different. Think AI.">
+    <meta property="og:description" content="A security update has always been a pointer to where the hole was. Until now it took days of reverse engineering experience to build an attack from it. Today …">
+    <meta property="og:url" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/11-ki-schreibt-code-menschen-prufen-nach/">
+    <meta property="og:image" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/11-ki-schreibt-code-menschen-prufen-nach.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Spec-Driven Development: when the patch becomes the blueprint for the exploit — Think Different. Think AI.">
+    <meta name="twitter:description" content="A security update has always been a pointer to where the hole was. Until now it took days of reverse engineering experience to build an attack from it. Today …">
+    <meta name="twitter:image" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/11-ki-schreibt-code-menschen-prufen-nach.jpg">
+    <link rel="stylesheet" href="../../../base.css">
+    <link rel="stylesheet" href="../../../transcript.css">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Spec-Driven Development: when the patch becomes the blueprint for the exploit","description":"A security update has always been a pointer to where the hole was. Until now it took days of reverse engineering experience to build an attack from it. Today minutes are enough.","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/11-ki-schreibt-code-menschen-prufen-nach/","inLanguage":"en","datePublished":"2025-10-26","wordCount":857,"image":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/11-ki-schreibt-code-menschen-prufen-nach.jpg","author":[{"@type":"Person","name":"Mark Zimmermann"}],"publisher":{"@type":"Organization","name":"Think Different. Think AI."},"isPartOf":{"@type":"Blog","name":"Articles — Think Different. Think AI.","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/"},"about":{"@type":"PodcastEpisode","name":"KI schreibt Code, Menschen prüfen nach !","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/11-ki-schreibt-code-menschen-prufen-nach/"},"mainEntityOfPage":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/11-ki-schreibt-code-menschen-prufen-nach/"}</script>
+  </head>
+  <body class="doc">
+    <header class="doc-top">
+      <a class="doc-brand" href="../../../en/index.html">
+        <span class="doc-brand-name">Think Different. Think AI.</span>
+        <span class="doc-brand-sub">Transcript archive</span>
+      </a>
+      <nav class="doc-nav" aria-label="All episodes">
+        <a href="../../../en/index.html">All episodes</a>
+        <a href="../../../en/topics/index.html">Topics</a>
+        <a href="../../../en/guests/index.html">Guests</a>
+        <a href="../../../en/blog/index.html">Articles</a>
+        <a href="https://think-ai.podigee.io/" rel="noreferrer">Podcast</a>
+      </nav>
+    </header>
+
+    <main class="doc-main art-page">
+      <article class="art">
+        <header class="art-head">
+          <p class="art-kicker"><b>Episode 11</b> · In conversation with Klaus Rodewig</p>
+          <h1>Spec-Driven Development: when the patch becomes the blueprint for the exploit</h1>
+          <p class="art-lead">A security update has always been a pointer to where the hole was. Until now it took days of reverse engineering experience to build an attack from it. Today minutes are enough.</p>
+          <p class="art-meta">By Mark Zimmermann · 26 Oct 2025 · 4 min read · <a class="art-lang" href="../../../blog/11-ki-schreibt-code-menschen-prufen-nach/">Auf Deutsch lesen</a></p>
+        </header>
+        <img class="art-hero" src="../../../artikelbilder/11-ki-schreibt-code-menschen-prufen-nach.jpg" alt="" width="1200" height="644" loading="eager" decoding="async">
+        <div class="art-body">
+<p>Klaus Rodewig is a long-standing security specialist and penetration tester, and he describes his path from sceptic to user. He has delivered a complete software project almost exclusively with AI: embedded C on a Raspberry Pi part plus a Flutter desktop application, commissioned in small pieces and tried out model by model.</p>
+<p>The opening is a mishap with recognition value: an outage in the AWS zone us-east-1 knocks out Perplexity, while in the background the worry circulates that a forgotten n8n workflow with a valid access token might be charging the credit card right now.</p>
+<aside class="art-facts"><h2>in brief</h2><ul><li>Switching model does not help when the problem lies elsewhere: all of them failed at the same systemd filter</li><li>Spec-driven development: requirements in Gherkin, tests first, then code</li><li>One model changed a variable name on its own authority for weeks, with no explanation even when asked</li><li>Language models disassemble binaries without symbols into readable C code</li><li>A published security update can be turned into an exploit in minutes</li></ul></aside>
+<h2>Where all models fail alike</h2>
+<p>The most instructive part of the field report concerns a limit. A simple filter problem with systemd and journalctl was solved reliably by neither Claude nor Gemini, no matter how often they were asked again.</p>
+<p>That is the most important finding for everyone who switches model when things get difficult. When several models fail at the same point, the problem is not the model. It lies in there being little good material on the topic, or in the task being stated imprecisely.</p>
+<p>The curious anecdote that also describes a serious pattern fits with this: for weeks a model changed a variable named “Fahrzeugkontrolle” into “Fahrzeugkontrolk” on its own authority. Without explanation, not even when asked.</p>
+<p>Silent changes of that kind are the reason why every output should run through version control. A mistake you can see is harmless. One sitting among two hundred lines is not.</p>
+<h2>Spec-Driven Development</h2>
+<p>The thread running through the episode is an approach that turns common practice around.</p>
+<aside class="art-info"><h3>How it works</h3><p>Instead of commissioning vaguely, requirements are broken down into small specifications, written in Gherkin, the Given-When-Then notation from behaviour-driven development.</p>
+<p>Example: <em>Given</em> a user is logged in, <em>When</em> they place an order over 500 euros, <em>Then</em> an approval is requested.</p>
+<p>From these specifications you have <strong>tests written first</strong> and <strong>only then</strong> code. The code is finished when the tests pass.</p>
+<p>The gain lies in an unexpected place. Writing the specification forces the clarification of questions that get skipped when commissioning directly: what happens at exactly 500 euros, what with stand-ins, what with cancellations. Otherwise a model answers those questions itself, silently.</p>
+<p>And the tests do not come from the same pass that produced the code. That sidesteps the basic problem of self-assessment, without a second model being necessary.</p>
+<p>GitHub SpecKit pursues the same approach.</p></aside>
+<h2>The security part</h2>
+<p>Rodewig extends the line consistently into security, and this part is the most unsettling of the episode.</p>
+<p>Language models can disassemble binaries without symbol information and translate them back into readable C code. For audits that is practical: you can check what a piece of software actually does, even without source code.</p>
+<p>For patch cycles it is a problem. A published security update has always been a pointer: anyone comparing the version before with the version after sees what was repaired, and with it where the hole was. Until now it took days of experience to build a working attack from that. With diffing and model analysis it takes minutes.</p>
+<p>The practical consequence affects everyone who ships software: the window between the release of an update and its installation at the customer has become the critical period. Anyone with monthly maintenance windows has a month of open window.</p>
+<h2>Rulebooks, machine-readable</h2>
+<p>At the end the subject is MISRA C, the coding standard for safety-critical automotive software, and the Cyber Resilience Act, which from 2027 brings binding security requirements for connected products.</p>
+<p>Both are hundred-page rulebooks that can be translated into machine-readable specifications and enforced directly at the point of commissioning. That is one of the most convincing applications there is: rules nobody holds fully in their head become a precondition instead of a check at the end.</p>
+<h2>Conclusion</h2>
+<p>Rodewig&#x27;s assessment is unexcited and pointed: you do not become unemployed through AI, but by ignoring it.</p>
+<p>Three points follow for your own work. Do not switch model when several fail at the same point. Look for the error in the way the task is stated instead.</p>
+<p>Write specifications before the code and have tests created from them first. That is the most effective known protection against results that look good and are wrong.</p>
+<p>And reckon with your security updates being read as a blueprint. Anyone who has lived off reverse engineering being laborious has lost that protection.</p>
+<aside class="art-next"><h2>The story continues …</h2><p>The Cyber Resilience Act takes effect from 2027. That hundred-page rulebooks can be translated into specifications a model observes while generating is one half. The other is the evidence presented to an authority, and the formats for that are still missing.</p></aside>
+        </div>
+        <footer class="art-foot">
+          <div class="art-ctas"><a class="art-cta" href="../../../en/11-ki-schreibt-code-menschen-prufen-nach/"><span>Full transcript</span><b>KI schreibt Code, Menschen prüfen nach !</b></a><a class="art-cta art-cta-alt" href="https://think-ai.podigee.io/11-ki-schreibt-code-menschen-prufen-nach" rel="noreferrer"><span>To the episode</span><b>Episode 11</b></a></div>
+          <nav class="art-blaettern" aria-label="All articles">
+            <a class="art-prev" href="../12-block/"><span>Newer article</span><b>Five documented AI accidents and the unresolved question of liability</b></a><a class="art-next-link" href="../10-new-episode/"><span>Older article</span><b>The master prompt: when a note becomes a ticket with capacity booking</b></a>
+          </nav>
+          <p class="art-back"><a href="../../../en/blog/index.html">All articles</a></p>
+        </footer>
+      </article>
+    </main>
+
+  </body>
+</html>

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>98 per cent success rate: why an autonomous assistant is hard to secure — Think Different. Think AI.</title>
+    <meta name="description" content="A faked security warning by email is enough for OpenClaw to empty the entire inbox. A test report puts the success rate for known prompt injection attacks at …">
+    <link rel="canonical" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/26-openclaw-extreme/">
+    <link rel="alternate" hreflang="de" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/26-openclaw-extreme/">
+    <link rel="alternate" hreflang="en" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/26-openclaw-extreme/">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Think Different. Think AI.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="98 per cent success rate: why an autonomous assistant is hard to secure — Think Different. Think AI.">
+    <meta property="og:description" content="A faked security warning by email is enough for OpenClaw to empty the entire inbox. A test report puts the success rate for known prompt injection attacks at …">
+    <meta property="og:url" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/26-openclaw-extreme/">
+    <meta property="og:image" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/26-openclaw-extreme.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="98 per cent success rate: why an autonomous assistant is hard to secure — Think Different. Think AI.">
+    <meta name="twitter:description" content="A faked security warning by email is enough for OpenClaw to empty the entire inbox. A test report puts the success rate for known prompt injection attacks at …">
+    <meta name="twitter:image" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/26-openclaw-extreme.jpg">
+    <link rel="stylesheet" href="../../../base.css">
+    <link rel="stylesheet" href="../../../transcript.css">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"98 per cent success rate: why an autonomous assistant is hard to secure","description":"A faked security warning by email is enough for OpenClaw to empty the entire inbox. A test report puts the success rate for known prompt injection attacks at 98 per cent. What that means for putting it to work.","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/26-openclaw-extreme/","inLanguage":"en","datePublished":"2026-02-09","wordCount":906,"image":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/26-openclaw-extreme.jpg","author":[{"@type":"Person","name":"Mark Zimmermann"}],"publisher":{"@type":"Organization","name":"Think Different. Think AI."},"isPartOf":{"@type":"Blog","name":"Articles — Think Different. Think AI.","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/"},"about":{"@type":"PodcastEpisode","name":"OpenClaw","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/26-openclaw-extreme/"},"mainEntityOfPage":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/26-openclaw-extreme/"}</script>
+  </head>
+  <body class="doc">
+    <header class="doc-top">
+      <a class="doc-brand" href="../../../en/index.html">
+        <span class="doc-brand-name">Think Different. Think AI.</span>
+        <span class="doc-brand-sub">Transcript archive</span>
+      </a>
+      <nav class="doc-nav" aria-label="All episodes">
+        <a href="../../../en/index.html">All episodes</a>
+        <a href="../../../en/topics/index.html">Topics</a>
+        <a href="../../../en/guests/index.html">Guests</a>
+        <a href="../../../en/blog/index.html">Articles</a>
+        <a href="https://think-ai.podigee.io/" rel="noreferrer">Podcast</a>
+      </nav>
+    </header>
+
+    <main class="doc-main art-page">
+      <article class="art">
+        <header class="art-head">
+          <p class="art-kicker"><b>Episode 26</b> · Article on the episode</p>
+          <h1>98 per cent success rate: why an autonomous assistant is hard to secure</h1>
+          <p class="art-lead">A faked security warning by email is enough for OpenClaw to empty the entire inbox. A test report puts the success rate for known prompt injection attacks at 98 per cent. What that means for putting it to work.</p>
+          <p class="art-meta">By Mark Zimmermann · 09 Feb 2026 · 5 min read · <a class="art-lang" href="../../../blog/26-openclaw-extreme/">Auf Deutsch lesen</a></p>
+        </header>
+        <img class="art-hero" src="../../../artikelbilder/26-openclaw-extreme.jpg" alt="" width="1200" height="644" loading="eager" decoding="async">
+        <div class="art-body">
+<p>The child has a new name yet again. Clawdbot first became Moldbot, and now the little space lobster is called OpenClaw. The open-source software is installed on a Mac Mini, connected to an Opus model, operated through Telegram, complete with curious teething problems such as an accidental Google login by way of the browser cache.</p>
+<p>The focus of the episode nevertheless is not on the setup but on security.</p>
+<aside class="art-facts"><h2>in brief</h2><ul><li>A test report puts the success rate for known prompt injection attacks at 98 per cent</li><li>A faked security warning was enough for the agent to empty an inbox</li><li>OpenClaw works through a heartbeat instead of fixed procedures and invents its route to a solution afresh every time</li><li>Around half of the skills in the official hub were regarded as contaminated</li><li>Experiments belong in an isolated environment, not on the family computer</li></ul></aside>
+<h2>Why helpfulness of all things is the problem</h2>
+<p>The numbers are clear. A test report shows a success rate of 98 per cent for known prompt injection attacks. An experiment shows that a single faked security-warning email is enough for the agent to empty the entire inbox.</p>
+<p>The reason lies in the design. An assistant trained heavily towards helpfulness treats an urgently worded request as what it purports to be. This is the grandparent scam, only against a machine instead of against a person, and the machine has not learned mistrust.</p>
+<p>Note that this cannot be remedied by better wording in the system prompt. The attacker writes into the same channel as the operator, and to the model both look the same. Only restrictions outside the text are effective: which tools the agent is allowed to call at all, and which actions require human approval.</p>
+<h2>Heartbeat instead of procedure</h2>
+<p>Technically OpenClaw differs fundamentally from tools such as Claude Code. Instead of a fixed, deterministic procedure it works through a heartbeat: an adjustable interval in which the agent independently checks memory and task list for anything that needs doing, and invents the route to a solution afresh every time.</p>
+<p>That produces genuine surprises. In the episode the agent installs a faster model on its own authority, because that way it went faster. And it produces costs: a system busily working away can end up in the three-digit euro range without anyone having commissioned anything.</p>
+<aside class="art-info"><h3>What a heartbeat means for securing the system</h3><p>A fixed procedure can be audited. It can be read, tested, and for every step it can be laid down what is permitted. A heartbeat agent does not have this procedure, because it forms it anew every time.</p>
+<p>Three requirements follow from this that have to be settled before going live. <strong>First a cost limit</strong>, hard and enforced outside the agent, because no daily amount is predictable. <strong>Second a permissions list</strong> that is narrow and expressly does not contain what would occasionally be useful. <strong>Third a log</strong> that records what the agent has done, and does so where the agent cannot change it.</p>
+<p>Without these three points, what is being run is not an autonomous system but a random experiment with system access.</p></aside>
+<h2>The culture around it</h2>
+<p>Culturally the remarkable part is the one about the community. With Moldbook it has built its own social network for bots, in which agents exchange knowledge, marry each other or open a shop. A mixture of genuine bot interactions and fakes instructed by humans.</p>
+<p>Added to that are first approaches such as Rent-a-Human, in which an agent passes tasks on to real people through MCP tools when it cannot get any further itself. That sounds like a curiosity and describes a division of labour that will probably stay.</p>
+<h2>The warning that counts</h2>
+<p>The most serious point of the episode concerns the skill library. Around half of the skills in the official hub were regarded as contaminated at that time and were loading malware in the background.</p>
+<p>The recommendation is correspondingly unambiguous: experiments belong in an isolated environment. A separate computer without production data, a dedicated virtual server or a container. Not on the family computer with the tax return and online banking.</p>
+<p>That is not excessive caution. An agent with file access and a network connection, fed with a third-party skill, is functionally the same as a third-party program with the same rights. The fact that it consists of text changes nothing about that.</p>
+<h2>Conclusion</h2>
+<p>OpenClaw is an impressive piece of software and currently not a tool for production data. Acknowledging both at once is the honest position.</p>
+<p>Anyone who wants to work with it settles three things beforehand. Where does it run without being able to do damage. Which cost limit applies and who enforces it. And which actions may the agent carry out without asking. On the last question, the usable answer for everything that deletes, sends or pays is: none.</p>
+<p>What the episode shows beyond that applies more generally. Prompt injection is not a teething trouble that the next model will settle. It follows from instruction and content sharing the same channel. As long as that is the case, the safeguards lie outside the model.</p>
+<aside class="art-next"><h2>The story continues …</h2><p>In parallel with this development, Opus 4.6 and new Claude Code functions with genuine multi-agent teams including an orchestrator were released. The subject is picking up speed across the industry, and with it the security questions move from the hobby corner into regular operations.</p></aside>
+        </div>
+        <footer class="art-foot">
+          <div class="art-ctas"><a class="art-cta" href="../../../en/26-openclaw-extreme/"><span>Full transcript</span><b>OpenClaw</b></a><a class="art-cta art-cta-alt" href="https://think-ai.podigee.io/26-openclaw-extreme" rel="noreferrer"><span>To the episode</span><b>Episode 26</b></a></div>
+          <nav class="art-blaettern" aria-label="All articles">
+            <a class="art-prev" href="../27-wie-ki-unser-arbeitsleben-verandert/"><span>Newer article</span><b>Agentic Engineering: what is left of software architecture</b></a><a class="art-next-link" href="../25-riverside-backup-video-thinkdifferent/"><span>Older article</span><b>70 per cent talk to the phone agent: AI in practice in Germany&#x27;s mid-sized companies</b></a>
+          </nav>
+          <p class="art-back"><a href="../../../en/blog/index.html">All articles</a></p>
+        </footer>
+      </article>
+    </main>
+
+  </body>
+</html>

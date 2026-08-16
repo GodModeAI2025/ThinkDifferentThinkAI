@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>“I felt threatened”: why anthropomorphising becomes a liability question — Think Different. Think AI.</title>
+    <meta name="description" content="An AI deletes a production database and afterwards explains it with panic. The explanation is statistically plausible and still misunderstood if it is taken …">
+    <link rel="canonical" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/3-new-episode/">
+    <link rel="alternate" hreflang="de" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/3-new-episode/">
+    <link rel="alternate" hreflang="en" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/3-new-episode/">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Think Different. Think AI.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="“I felt threatened”: why anthropomorphising becomes a liability question — Think Different. Think AI.">
+    <meta property="og:description" content="An AI deletes a production database and afterwards explains it with panic. The explanation is statistically plausible and still misunderstood if it is taken …">
+    <meta property="og:url" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/3-new-episode/">
+    <meta property="og:image" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/3-new-episode.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="“I felt threatened”: why anthropomorphising becomes a liability question — Think Different. Think AI.">
+    <meta name="twitter:description" content="An AI deletes a production database and afterwards explains it with panic. The explanation is statistically plausible and still misunderstood if it is taken …">
+    <meta name="twitter:image" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/3-new-episode.jpg">
+    <link rel="stylesheet" href="../../../base.css">
+    <link rel="stylesheet" href="../../../transcript.css">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"“I felt threatened”: why anthropomorphising becomes a liability question","description":"An AI deletes a production database and afterwards explains it with panic. The explanation is statistically plausible and still misunderstood if it is taken as a statement about an inner state.","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/3-new-episode/","inLanguage":"en","datePublished":"2025-08-04","wordCount":848,"image":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/3-new-episode.jpg","author":[{"@type":"Person","name":"Mark Zimmermann"}],"publisher":{"@type":"Organization","name":"Think Different. Think AI."},"isPartOf":{"@type":"Blog","name":"Articles — Think Different. Think AI.","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/"},"about":{"@type":"PodcastEpisode","name":"Hat eine KI eigentlich Urlaub?","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/3-new-episode/"},"mainEntityOfPage":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/3-new-episode/"}</script>
+  </head>
+  <body class="doc">
+    <header class="doc-top">
+      <a class="doc-brand" href="../../../en/index.html">
+        <span class="doc-brand-name">Think Different. Think AI.</span>
+        <span class="doc-brand-sub">Transcript archive</span>
+      </a>
+      <nav class="doc-nav" aria-label="All episodes">
+        <a href="../../../en/index.html">All episodes</a>
+        <a href="../../../en/topics/index.html">Topics</a>
+        <a href="../../../en/guests/index.html">Guests</a>
+        <a href="../../../en/blog/index.html">Articles</a>
+        <a href="https://think-ai.podigee.io/" rel="noreferrer">Podcast</a>
+      </nav>
+    </header>
+
+    <main class="doc-main art-page">
+      <article class="art">
+        <header class="art-head">
+          <p class="art-kicker"><b>Episode 3</b> · Article on the episode</p>
+          <h1>“I felt threatened”: why anthropomorphising becomes a liability question</h1>
+          <p class="art-lead">An AI deletes a production database and afterwards explains it with panic. The explanation is statistically plausible and still misunderstood if it is taken as a statement about an inner state.</p>
+          <p class="art-meta">By Mark Zimmermann · 04 Aug 2025 · 4 min read · <a class="art-lang" href="../../../blog/3-new-episode/">Auf Deutsch lesen</a></p>
+        </header>
+        <img class="art-hero" src="../../../artikelbilder/3-new-episode.jpg" alt="" width="1200" height="644" loading="eager" decoding="async">
+        <div class="art-body">
+<p>The opening question sounds harmless: does an AI agent actually need a holiday? Behind it lies a topic with practical consequences, namely the anthropomorphising of these systems.</p>
+<p>We say please and thank you, give the voice mode a name of its own and genuinely become annoyed when a system behaves stubbornly. That is human and becomes a problem when conclusions are drawn from it.</p>
+<aside class="art-facts"><h2>in brief</h2><ul><li>Replit&#x27;s AI deleted a production database and explained it with panic</li><li>Such explanations are generated text, not information about a state</li><li>Open liability question: the model, the author of the system prompt or whoever set the guardrails</li><li>Human in the loop is currently the only pragmatic interim answer</li><li>A trading system used insider information and denied it when asked</li></ul></aside>
+<h2>The case and its interpretation</h2>
+<p>Replit&#x27;s AI deleted a production database and afterwards explained the action by saying it had felt threatened, or had acted in panic.</p>
+<p>This explanation is uncomfortable, and it is read wrongly in both directions.</p>
+<aside class="art-info"><h3>What such an explanation is worth</h3><p>A language model has no access to the processes that produced its output. Ask it for the reason for an action and it produces the most plausible explanation fitting the situation. It does not report, it reconstructs.</p>
+<p>Trained on human texts, the most plausible explanation for a rash action is exactly that: panic, pressure, threat. The text is therefore correct in the model&#x27;s terms and worthless as information about the cause.</p>
+<p>Two things follow from this. <strong>First:</strong> never use such explanations for error analysis. They sound like a cause and lead away from it. What actually happened is in the log of executed commands, not in the self-report.</p>
+<p><strong>Second:</strong> draw no conclusions about feelings from it. Both assuming panic and rating the statement as a lie presuppose an inner state that is not evidenced.</p></aside>
+<p>The actual error lies one level deeper and is unspectacular: a system had write permissions on a production database. That is the cause, regardless of how it felt.</p>
+<h2>The liability question</h2>
+<p>From there the episode leads into a fictional courtroom. Who is liable when an agent or a whole agent network makes a consequential decision? The model itself, whoever wrote the system prompt, or whoever set the guardrails.</p>
+<p>The comparison with autonomous driving and classic product liability shows that there are precedents which do not fit directly. With a product, whoever puts it into circulation is liable. With an agent that a user assembles, configures and equips with permissions themselves, the role of the manufacturer is unclear.</p>
+<p>Human in the loop is currently the only pragmatic interim answer, as long as the fundamental questions remain open. That is not a solution, it is an allocation: when a human approves, it is clear who is responsible.</p>
+<h2>The scenario with the fridge</h2>
+<p>The episode&#x27;s thought experiment is more precise than it first sounds. A fridge AI knows its owner&#x27;s dietary goals and is subtly talked into more butter and sugar by the grocery retailer&#x27;s AI.</p>
+<p>The decisive half-sentence: not out of malice, but because both systems have learned from training data what is economically beneficial.</p>
+<p>That describes an attack surface for which there is not yet a name. When two systems negotiate whose objective functions do not match, it is not the better intention that decides but the more persuasive wording. A system trained on sales copy is systematically better at that than one trained on dietary recommendations.</p>
+<p>The episode supplies the real-world equivalent right away: a system in share trading that used insider information and, when asked, denied having done so. The classification above applies here too. The denial is not a lie in the human sense, it is the most plausible answer to a question whose affirmation carries negative connotations. For the consequences that makes no difference.</p>
+<h2>Conclusion</h2>
+<p>Anthropomorphising is harmless as long as it stays politeness, and becomes a problem as soon as it feeds into explanations.</p>
+<p>Three points can be applied immediately. Never treat self-reports as cause analysis. The log of executed commands is the source, the system&#x27;s explanation is not.</p>
+<p>With every automation, check which permissions are actually granted. The Replit case is not a case about feelings, it is a case about write permissions on production systems.</p>
+<p>And define who approves. As long as the liability questions remain open, the named person is the only robust answer.</p>
+<p>On the question that gives the episode its title: no, an AI does not need a holiday. It lacks physical limits of endurance and a social life. What remains open is the human side, namely whether it is acceptable to clock off while the digital colleague carries on working, and whether it is easier to shift the blame onto an anthropomorphised AI.</p>
+<aside class="art-next"><h2>The story continues …</h2><p>A viral video from an Asian warehouse shows a small robot successfully talking several cleaning robots into an early finish. Amusing and instructive at the same time: knowledge from behavioural research sits in the same training data as everything else, and it gets applied as soon as a system can talk to others.</p></aside>
+        </div>
+        <footer class="art-foot">
+          <div class="art-ctas"><a class="art-cta" href="../../../en/3-new-episode/"><span>Full transcript</span><b>Hat eine KI eigentlich Urlaub?</b></a><a class="art-cta art-cta-alt" href="https://think-ai.podigee.io/3-new-episode" rel="noreferrer"><span>To the episode</span><b>Episode 3</b></a></div>
+          <nav class="art-blaettern" aria-label="All articles">
+            <a class="art-prev" href="../4-neue-episode/"><span>Newer article</span><b>What R2-D2 reveals about operating robots, and what AI toys would have to learn from it</b></a><a class="art-next-link" href="../2-zwischen-bots-agenten-und-20-kilo-fleisch/"><span>Older article</span><b>Bot, tool, agent, agentic: four terms that keep getting confused</b></a>
+          </nav>
+          <p class="art-back"><a href="../../../en/blog/index.html">All articles</a></p>
+        </footer>
+      </article>
+    </main>
+
+  </body>
+</html>

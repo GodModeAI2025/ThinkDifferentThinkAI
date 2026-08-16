@@ -2,7 +2,7 @@
 
 > Deutschsprachiger Podcast ueber kuenstliche Intelligenz in der Praxis, von Mark Zimmermann und Jens Scharnetzki. Dieses Archiv enthaelt die vollstaendigen Wortprotokolle aller Folgen auf Deutsch und Englisch.
 
-Folgen: 52 | Sprachen: Deutsch (Original), Englisch (Uebersetzung)
+Folgen: 53 | Sprachen: Deutsch (Original), Englisch (Uebersetzung)
 Feed: https://think-ai.podigee.io/feed/mp3
 Podcast: https://think-ai.podigee.io/
 
@@ -14,6 +14,7 @@ Podcast: https://think-ai.podigee.io/
 
 ## Folgen
 
+- [Second Brain](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/53-second-brain/) — 2026-08-16
 - [EXOKORTEX](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/52-exokortex/) — 2026-08-08
 - [China Schock](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/51-china-schock/) — 2026-08-02
 - [One Year Later](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/50-one-year-later/) — 2026-07-26
@@ -71,6 +72,7 @@ Podcast: https://think-ai.podigee.io/
 
 Je Folge ein redaktioneller Fachartikel im Stil der Heise-Magazine. Das sind eingeordnete Texte, keine Wortprotokolle.
 
+- [Kuration ist der teure Teil: Was ein Second Brain wirklich leistet](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/53-second-brain/)
 - [Sprachnotizen: Ohne Schnittstelle bleibt das Archiv ein Sumpf](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/52-exokortex/)
 - [Kimi K3 und die Kostenfrage: Der Benchmark entscheidet längst nicht mehr](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/51-china-schock/)
 - [Vom Prompt zum Harness: Was ein Jahr KI-Vokabular über die Praxis verrät](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/50-one-year-later/)

@@ -1,9 +1,9 @@
 {
   "feedUrl": "https://think-ai.podigee.io/feed/mp3",
   "generatedAt": "",
-  "episodeCount": 52,
-  "availableTranscriptCount": 52,
-  "availableEnglishTranscriptCount": 52,
+  "episodeCount": 53,
+  "availableTranscriptCount": 53,
+  "availableEnglishTranscriptCount": 53,
   "episodes": [
     {
       "index": 1,
@@ -1302,6 +1302,31 @@
         "en": {
           "available": true,
           "path": "transkripte-en/052 - EXOKORTEX.md"
+        }
+      }
+    },
+    {
+      "index": 53,
+      "title": "Second Brain",
+      "published": "Sun, 16 Aug 2026 00:59:00 +0000",
+      "duration": "3094",
+      "pageUrl": "https://think-ai.podigee.io/53-second-brain",
+      "embedUrl": "https://think-ai.podigee.io/53-second-brain/embed?context=external",
+      "imageUrl": "https://images.podigee-cdn.net/0x,sUQzwde_A5CfICPRdpgJNmR9Zo5TlE7A2LW9EIn8ESyY=/https://main.podigee-cdn.net/uploads/u73317/cf09e11b-e654-485c-88a8-e5a0d50406a3.jpeg",
+      "audioUrl": "https://audio.podigee-cdn.net/2557749-m-f5080dae2a444439aa17668dc7d146ad.mp3?source=feed",
+      "description": "Personal Knowledge Management mit Auto-Kuration, RAG und portablen Skills\nEin Gast, den Mark sich lange gewünscht hat: Cornelius Illi, Product Cluster Lead für Innovation und GenAI, mit dem er sich nach eigener Aussage immer gerne unterhält und von dem er einiges lernt. Bevor es losgeht, darf Jens noch von seinem Wochenende erzählen, und das passt besser zum Thema, als ihm lieb ist. Er wollte mit seinem Sohn ein altes Computerspiel spielen, das es für den Mac nicht mehr gibt, also hat er Crossover gekauft und Claude Vollzugriff auf seinen Mac Mini gegeben. Das Ding hat die halbe Nacht durchprobiert, tausendmal gestartet, geschaut, ob es zwischen 3D-Animation und Intro-Video abstürzt, eigene Shader gebaut, Software installiert, wieder gelöscht und nebenbei die Festplatte aufgeräumt. Gespielt wurde am Ende auf dem Linux-Rechner des Sohnes. Immerhin hat Claude noch die Support-Mail für die Rückerstattung geschrieben, inklusive Liste aller Versuche, damit niemand mit „haben Sie es schon so probiert\" antwortet.\n\nDann die Freitagabend-Frage, Bier in der Hand, jemand hat den Begriff Second Brain aufgeschnappt: Was ist das eigentlich? Cornelius holt aus. Das Konzept ist älter als die LLM-Debatte, geprägt hat es Tiago Forte mit der CODE-Methode: Capture, Organize, Distill, Express. Alles reinladen, ordnen, den Sinn herausdestillieren, am Ende etwas damit bauen. Neu ist, dass Andrej Karpathy Anfang des Jahres seinen LLM-Wiki-Ansatz vorgestellt hat und viele daraufhin gemerkt haben, dass so ein Speicher vielleicht gar nicht für den Menschen gedacht ist, sondern der perfekte Kontextspeicher für die KI. Cornelius hat genau deshalb das Capture automatisiert: 130 Quellen liefern ihm 400 bis 500 Inhalte pro Woche, die werden gerankt und bewertet, höchstens ein Drittel landet im wöchentlichen Digest, der Rest fliegt als irrelevant oder als bloßes Repackaging raus. Sogar seine LinkedIn-Likes zieht er sich zurück, über eine selbstgeschriebene App und die Betroffenenrechte, die ihm als EU-Bürger zustehen.\n\nUnd dann kommt der ehrlichste Moment der Folge. Cornelius liest seinen eigenen Digest nicht mehr. Zu viel, und es bleibt ja nicht beim Lesen, danach muss man mit der KI darüber diskutieren, um überhaupt Insights zu bekommen. Sein Befund: Kuration ist der eigentlich schwierige Teil, und der Mensch bleibt darin noch lange nötig. Die KI kann erklären, was Harness Engineering ist und wer den Begriff geprägt hat. Was sie nicht liefert, sind Best Current Practices, also die Frage, was in genau dieser Version von Modell und Harness gerade wirklich funktioniert. Wo eine Visualisierung dagegen hilft: beim Aufdecken der eigenen Verzerrung. Cornelius hielt das LLM-Wiki-Thema für riesig und musste feststellen, dass in hundert Tagen nur 23 von 5.000 Inhalten davon handelten. Ein Randthema, das sich in seinem Kopf groß angefühlt hat.\n\nBeim Werkzeug gehen die drei auseinander. Mark hält dagegen, dass Wissen durch Reduktion entsteht, durch Struktur und dadurch, dass ein System auch vergessen kann, und nicht durch das Anhäufen möglichst vieler Dateien. Er selbst nutzt kein Obsidian, sondern packt alles in einen einzigen Skill: zehn Jahre Apple-Entwicklerdokumentation und WWDC-Transkripte, dazu seine eigenen Mobile-Artikel, als Zip ein paar MB, entpackt ein paar hundert. Antwortzeit rund zwei Minuten. Perfekt ist das nicht, ein RAG ist es auch nicht, aber es ist portabel und läuft in jedem Harness, ob Codex, Claude Code oder das eigene System der Firma. Das Ding heißt SkillSafe (godmodeai2025.github.io/SkillSafe), ein lokaler Wissenstresor als portabler Skill: Wissensbausteine im OKF-Format mit Quelle und Fundstelle an jeder Kernaussage, kontrollierte Begriffswelten mit Synonymen statt Vektor-Blackbox, und sechs eiserne Regeln, von denen die erste lautet: Deckt der Bestand eine Frage nicht ab, heißt die Antwort „Nicht im Bestand\". Modellwissen füllt das nie auf. Genau deshalb hat Mark sich überlegt, mit welchen Begriffswelten er überhaupt an seinen Skill herankommt, statt sich auf ein grep zu verlassen. Jens dagegen braucht die Grafik. Über 20.000 Dokumente liegen in seinem Vault, gezielt eine einzelne Markdown-Datei zu suchen ist die Hölle, aber der Blick auf den Graphen gibt ihm ein Gefühl für die Gewichtung. Am Wochenende sah der falsch aus, also läuft jetzt eine neue Logik darüber. Sein Vault liegt bewusst lokal auf einem Mac Mini, mit lokal laufenden Gemma-Modellen, die archivieren und vergessen, einem Advisory Board aus den Autoren, denen er am meisten folgt (Karpathy sitzt mit drin), und einem Wächter, der prüft, was aus dem Vault heraus überhaupt an eine öffentliche API gehen darf.\n\nWeil viele Begriffe durch den Äther gingen, übersetzt Cornelius zwei davon in Normaldeutsch. Ein RAG, Retrieval Augmented Generation, zerlegt Texte in Chunks, wandelt sie in Embeddings und ordnet sie in einem hochdimensionalen Raum an, in dem Nähe Bedeutung heißt. Das klassische Beispiel: König minus Mann plus Frau ergibt Königin. Eine Ontologie kommt aus der Graphentheorie, Knoten und Kanten, und beschreibt, wie Begriffe zusammenhängen, damit sich Pfade entlanghangeln lassen. Warum das zählt, wird beim Teilen klar: Wer ein Wissenssystem selbst gebaut hat, kennt die Begriffe darin. Wer es geerbt bekommt, kann nicht danach suchen, weil ihm das Schlüsselwort fehlt. Ein grep hilft dann nichts, und Brute Force über 200 Treffer kennt keine Relevanzgewichtung. Für die Firma heißt das: Single Source of Truth, oder wie Mark es nennt, ein Knowledge Hive, für Richtlinien, FAQs, Organigramme, Architekturdokumentation, Verträge. Nur eben ohne den nächsten Monolithen zu bauen, für den man erst eine Schulung braucht.\n\nZum Schluss die Empfehlung für alle, die anfangen wollen. Mark sagt: mit Skills starten. Nicht das Monster bauen, sondern sich für eine konkrete Aufgabe überlegen, welche Informationen ein Skill braucht und wie sie strukturiert sein müssen. Ein Skill plus ein paar Dateien im Projektordner ist bereits ein Mini-Second-Brain. Cornelius empfiehlt etwas anderes: den Fokus verschieben, weg von „was könnte ich noch wissen wollen\" hin zu „woran arbeite ich gerade und was will ich erreichen\". Dann braucht es oft gar nicht so viel Wissen, sondern eine gezielte Suche, und das Brain wächst von selbst. Sein Trostpflaster für Perfektionisten: Wenn er 90 Prozent des Zeitaufwands spart und das System 30 Prozent falsch macht, bleibt immer noch ein großer Mehrwert. Jens' Schlusswort ist wie immer einfach machen, und Marks Beobachtung zum Mitnehmen: Wir haben Modelle, die Videos generieren, und speichern unser Wissen in schlichten Textdateien. Schaut euch Markdown an. Enterprise Brains und die Frage, wie tausend Second Brains miteinander reden, bleiben liegen. Dafür gibt es schon die Einladung zur zweiten Folge mit Cornelius.\n\n—\nThink Different. Think AI. mit Mark Zimmermann und Jens Scharnetzki.\n\nHören: Apple, Spotify, YouTube, RSS\nhttps://think-ai.podigee.io\n\nNeue Folge zuerst im WhatsApp-Kanal\nhttps://whatsapp.com/channel/0029VbDJ4ZlGufIrpquad004\n\nWenn euch die Folge was gebracht hat: einmal bei Apple bewerten. Das entscheidet, ob jemand Neues uns findet.\nhttps://podcasts.apple.com/de/podcast/think-different-think-ai/id1828021699\n\nFeedback und Gäste: über die Show-Seite.",
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/053 - Second Brain.md",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/053 - Second Brain.md",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/053 - Second Brain.md"
+        },
+        "en": {
+          "available": true,
+          "path": "transkripte-en/053 - Second Brain.md"
         }
       }
     }

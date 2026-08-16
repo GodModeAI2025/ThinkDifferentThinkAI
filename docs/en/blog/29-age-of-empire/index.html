@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ten agents, ten terminal windows: why the chat interface reaches its limit — Think Different. Think AI.</title>
+    <meta name="description" content="Building simulations have made thousands of units and supply chains manageable for decades. Agents, by contrast, are steered through terminal windows placed …">
+    <link rel="canonical" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/29-age-of-empire/">
+    <link rel="alternate" hreflang="de" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/29-age-of-empire/">
+    <link rel="alternate" hreflang="en" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/29-age-of-empire/">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Think Different. Think AI.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="Ten agents, ten terminal windows: why the chat interface reaches its limit — Think Different. Think AI.">
+    <meta property="og:description" content="Building simulations have made thousands of units and supply chains manageable for decades. Agents, by contrast, are steered through terminal windows placed …">
+    <meta property="og:url" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/29-age-of-empire/">
+    <meta property="og:image" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/29-age-of-empire.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ten agents, ten terminal windows: why the chat interface reaches its limit — Think Different. Think AI.">
+    <meta name="twitter:description" content="Building simulations have made thousands of units and supply chains manageable for decades. Agents, by contrast, are steered through terminal windows placed …">
+    <meta name="twitter:image" content="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/29-age-of-empire.jpg">
+    <link rel="stylesheet" href="../../../base.css">
+    <link rel="stylesheet" href="../../../transcript.css">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Ten agents, ten terminal windows: why the chat interface reaches its limit","description":"Building simulations have made thousands of units and supply chains manageable for decades. Agents, by contrast, are steered through terminal windows placed side by side. That is not a detail, it is the bottleneck.","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/29-age-of-empire/","inLanguage":"en","datePublished":"2026-03-02","wordCount":889,"image":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/29-age-of-empire.jpg","author":[{"@type":"Person","name":"Mark Zimmermann"}],"publisher":{"@type":"Organization","name":"Think Different. Think AI."},"isPartOf":{"@type":"Blog","name":"Articles — Think Different. Think AI.","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/"},"about":{"@type":"PodcastEpisode","name":"Age of Agents","url":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/29-age-of-empire/"},"mainEntityOfPage":"https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/29-age-of-empire/"}</script>
+  </head>
+  <body class="doc">
+    <header class="doc-top">
+      <a class="doc-brand" href="../../../en/index.html">
+        <span class="doc-brand-name">Think Different. Think AI.</span>
+        <span class="doc-brand-sub">Transcript archive</span>
+      </a>
+      <nav class="doc-nav" aria-label="All episodes">
+        <a href="../../../en/index.html">All episodes</a>
+        <a href="../../../en/topics/index.html">Topics</a>
+        <a href="../../../en/guests/index.html">Guests</a>
+        <a href="../../../en/blog/index.html">Articles</a>
+        <a href="https://think-ai.podigee.io/" rel="noreferrer">Podcast</a>
+      </nav>
+    </header>
+
+    <main class="doc-main art-page">
+      <article class="art">
+        <header class="art-head">
+          <p class="art-kicker"><b>Episode 29</b> · Article on the episode</p>
+          <h1>Ten agents, ten terminal windows: why the chat interface reaches its limit</h1>
+          <p class="art-lead">Building simulations have made thousands of units and supply chains manageable for decades. Agents, by contrast, are steered through terminal windows placed side by side. That is not a detail, it is the bottleneck.</p>
+          <p class="art-meta">By Mark Zimmermann · 02 Mar 2026 · 4 min read · <a class="art-lang" href="../../../blog/29-age-of-empire/">Auf Deutsch lesen</a></p>
+        </header>
+        <img class="art-hero" src="../../../artikelbilder/29-age-of-empire.jpg" alt="" width="1200" height="644" loading="eager" decoding="async">
+        <div class="art-body">
+<p>One prompt, one answer: for a conversation with a model that is the right form. For steering several agents working in parallel it is not, as soon as skills, MCP connections, memory files and budget consumption all have to stay in view at the same time.</p>
+<p>The episode&#x27;s title is a bow to Age of Empires, and the analogy carries further than the joke.</p>
+<aside class="art-facts"><h2>in brief</h2><ul><li>The chat interface does not scale beyond a handful of parallel agents</li><li>Building simulations have been solving the same problem visually for decades</li><li>First approaches present agents as figures in a game world, complete with zones for permissions</li><li>Four gradations of human control: in the loop, on the loop, in the lead, out of the loop</li><li>Trust is not decided by control but by comprehensibility</li></ul></aside>
+<h2>Why games can do this better</h2>
+<p>Factory and economic simulations make thousands of units, supply chains and production lines manageable. They do so with means that barely appear in developer tools: an overview map, status colours, warning symbols at the location of the problem, grouping of similar units, and the possibility of switching between overview and detail without giving up one for the other.</p>
+<p>A terminal window can do none of that. It shows one thing, chronologically, and whoever has ten of them open has ten chronicles and no overview.</p>
+<p>First approaches in this direction do exist. Tools such as Agent Craft or the mentioned pixel-agents project present agents as figures in a game world, including safety zones which, through the assignment of permissions, determine where an agent is allowed to walk at all.</p>
+<p>The last point is the most interesting one. Presenting permissions spatially makes them verifiable. Nobody reads a permission matrix. A zone a figure cannot walk into is understood by everyone.</p>
+<h2>Four levels of control</h2>
+<p>A second focus concerns a sharpening of terms that constantly gets muddled in discussions.</p>
+<aside class="art-info"><h3>Human in the loop through to human out of the loop</h3><p><strong>Human in the loop:</strong> the human is part of the process. Nothing happens without their approval. Safe, slow, and beyond a certain number of operations not sustainable, because approval degenerates into a formality.</p>
+<p><strong>Human on the loop:</strong> the process runs on its own, the human observes and can intervene. This is the level most productive systems end up at. It only works if anomalies become visible without anyone having to search for them.</p>
+<p><strong>Human in the lead:</strong> the human sets goals and boundaries, the system finds the way. Control takes place through specifications and checking of results, not through individual steps.</p>
+<p><strong>Human out of the loop:</strong> no human involved. Defensible for narrowly bounded, well understood tasks with limited damage, otherwise not.</p>
+<p>The levels are not maturity grades in which the last one would be the best. They are a selection, and the right choice depends on the possible damage. The most common mistake is to work de facto at level two while formally claiming level one.</p></aside>
+<p>As the number of agents rises, this distinction becomes more important, because the first level simply no longer carries.</p>
+<h2>Gaming experience as a working skill</h2>
+<p>With a wink, but not without substance, the thesis is put forward that experience with real-time strategy and World of Warcraft is becoming a sought-after skill. Delegating to many units acting at the same time and supervising them is exactly what strategy players have been training for years.</p>
+<p>Viewed soberly, this is about the distribution of attention: recognising where something is going wrong right now without observing everything at once. That is a learnable skill and it is barely contained in classic IT training.</p>
+<h2>What happened alongside</h2>
+<p>The news section of the episode contains a remarkable juxtaposition. Anthropic under Dario Amodei turns down a Pentagon contract because mass surveillance and autonomous weapon systems cannot be ruled out. OpenAI signs the same contract shortly afterwards.</p>
+<p>Alongside that, a very practical question: how does one move one&#x27;s AI history between vendors. Via the data export at ChatGPT and a migration prompt at Claude it works in part. That this question comes up at all shows how far everyday work and choice of model have become interwoven by now, and how little scope for switching actually exists.</p>
+<h2>Conclusion</h2>
+<p>The episode ends with a sentence that works as a leitmotif: trust remains the real final challenge to the user interface.</p>
+<p>The point behind it is precise. Whether we trust a system with many autonomous parts is not decided by control but by comprehensibility. A system that shows its processes traceably will be accepted even when not every step is approved. A system that works opaquely does not become trustworthy even with an approval button, because nobody knows what they are approving.</p>
+<p>For your own environment a simple test follows from this. Can you see at a glance how many agents are running, what they are doing and which of them needs attention? If the answer is “I have the windows side by side”, the interface is the bottleneck and not the model.</p>
+<aside class="art-next"><h2>The story continues …</h2><p>Two side topics from this episode deserve their own treatment: the MIT experiment in which AI agents independently developed cultures, currencies and religions in a Minecraft world, and biological neuron chips that play Doom by now. Both sound like curiosities and touch on questions nobody has sorted out yet.</p></aside>
+        </div>
+        <footer class="art-foot">
+          <div class="art-ctas"><a class="art-cta" href="../../../en/29-age-of-empire/"><span>Full transcript</span><b>Age of Agents</b></a><a class="art-cta art-cta-alt" href="https://think-ai.podigee.io/29-age-of-empire" rel="noreferrer"><span>To the episode</span><b>Episode 29</b></a></div>
+          <nav class="art-blaettern" aria-label="All articles">
+            <a class="art-prev" href="../30-krieg-der-agenten/"><span>Newer article</span><b>War of the agents: the best model does not win, the best orchestration does</b></a><a class="art-next-link" href="../28-skills-not-hacks/"><span>Older article</span><b>Skills instead of prompts: why a Markdown file is worth more than any wording</b></a>
+          </nav>
+          <p class="art-back"><a href="../../../en/blog/index.html">All articles</a></p>
+        </footer>
+      </article>
+    </main>
+
+  </body>
+</html>
