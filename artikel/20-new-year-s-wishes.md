@@ -44,7 +44,7 @@ Dazu kommt der Wunsch nach kontextbewusstem, dauerhaft aktivem Verhalten, ohne d
 
 Ab Mitte 2026 greifen weitere Pflichten. Unternehmen müssen nachvollziehbar erklären können, wie ihre Agenten handeln.
 
-Die Einordnung in der Folge ist bemerkenswert unaufgeregt: keine Bremse, sondern eine Chance für gut gestaltete, vertrauenswürdige Systeme. Das ist mehr als Zweckoptimismus. Eine Nachvollziehbarkeitspflicht zwingt zu Protokollierung und klaren Zuständigkeiten, und beides braucht man ohnehin, sobald ein System produktiv läuft.
+Die Einordnung in der Folge ist erstaunlich unaufgeregt: keine Bremse, sondern eine Chance für gut gestaltete, vertrauenswürdige Systeme. Das ist mehr als Zweckoptimismus. Eine Nachvollziehbarkeitspflicht zwingt zu Protokollierung und klaren Zuständigkeiten, und beides braucht man ohnehin, sobald ein System produktiv läuft.
 
 Dazu passt der Ausblick auf das Zusammenspiel kleiner lokaler Modelle mit großen Cloud-Modellen. Was lokal läuft, erzeugt keine Übermittlung und damit weniger Erklärungsbedarf.
 

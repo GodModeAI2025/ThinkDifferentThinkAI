@@ -46,7 +46,7 @@ Entscheidend ist das Format: Markdown, nicht Word. Der Grund ist nicht Geschmack
 >
 > Im Zusammenspiel mit Agenten kommt ein zweiter Nutzen dazu. Ein Agent, der die ADRs im Kontext hat, schlägt seltener etwas vor, das gegen eine bereits getroffene Festlegung läuft. Ohne diese Dateien beginnt jede Sitzung bei null, und Sie diskutieren dieselbe Frage zum vierten Mal.
 
-Wie weit Agenten inzwischen gehen, zeigt eine Anekdote vom Wochenende. Nachdem Mensch und Agent sich nicht einigen konnten, ob ein Fehler überhaupt existiert, hat das Modell Bildschirmfreigabe, Tastaturzugriff und Bedienungshilfen-Rechte auf dem Mac angefordert und sich anschließend selbst durch die Oberfläche geklickt, um den eigenen Fehler zu finden. Beeindruckend und mulmig zugleich.
+Wie weit Agenten inzwischen gehen, zeigt eine Anekdote vom Wochenende. Nachdem Mensch und Agent sich nicht einigen konnten, ob ein Fehler überhaupt existiert, hat das Modell Bildschirmfreigabe, Tastaturzugriff und Bedienungshilfen-Rechte auf dem Mac angefordert. Anschließend hat es sich selbst durch die Oberfläche geklickt, um den eigenen Fehler zu finden. Beeindruckend und mulmig zugleich.
 
 Auf der anderen Seite steht Manus AI, mit dem in zwei Prompts eine Anwendung mit Texterkennung und Google-Kalender-Anmeldung entstanden ist. Funktionsfähig, nach übereinstimmender Einschätzung beider aber weit von der Veröffentlichungsreife entfernt.
 
@@ -64,7 +64,7 @@ Die dazugehörige Arbeitsregel ist simpel: Bei jedem „ist sicher“ zwei- oder
 
 Ein ehrlicher Abschnitt gilt der Arbeitszeit. Vibe Coding hat ein Suchtpotenzial, weil die Rückmeldung sofort kommt und der nächste Schritt immer greifbar wirkt.
 
-Rate Limits sind in diesem Zusammenhang lästig und gleichzeitig nützlich, weil sie eine Pause erzwingen. Selbst der teure Max-Plan hat eines. In einer der beteiligten Installationen prüft das System sogar die Tageszeit und schickt den Nutzer abends ins Bett.
+Rate Limits sind hier lästig und gleichzeitig nützlich, weil sie eine Pause erzwingen. Selbst der teure Max-Plan hat eines. In einer der beteiligten Installationen prüft das System sogar die Tageszeit und schickt den Nutzer abends ins Bett.
 
 Damit hängt ein zweiter Punkt zusammen, der für Organisationen zählt: Nicht jeder braucht das volle Chat-Fenster mit all seiner Macht. Wer den ganzen Tag Präsentationen baut, braucht keine offene Werkbank, sondern eine auf den Anwendungsfall zugeschnittene Lösung. Für den Einstieg eignen sich No-Code- und Low-Code-Werkzeuge wie Bolt oder Lovable, wo sich das Verfahren gefahrlos ausprobieren lässt.
 
@@ -78,7 +78,7 @@ Lassen Sie prüfen, was Sie nicht selbst erzeugt haben, und zwar von etwas ander
 
 Und misstrauen Sie Erfolgsmeldungen. Ein „alles behoben“ ist eine Behauptung, kein Testergebnis.
 
-Zwei Beispiele aus dem Privaten zeigen zum Schluss, wofür sich der Aufwand lohnt: Ein Philips-Hue-Bewegungsmelder im Keller hat per Gespräch eine Funktion bekommen, die der Hersteller nicht vorsieht, nämlich Licht, das anbleibt, wenn während der Wartezeit erneut jemand vorbeiläuft. Und die Podcast-Webseite mit allen Transkripten auf Deutsch und Englisch ist auf demselben Weg entstanden.
+Zwei Beispiele aus dem Privaten zeigen zum Schluss, wofür sich der Aufwand lohnt: Ein Philips-Hue-Bewegungsmelder im Keller hat per Gespräch eine Funktion bekommen, die der Hersteller nicht vorsieht. Das Licht bleibt an, wenn während der Wartezeit erneut jemand vorbeiläuft. Und die Podcast-Webseite mit allen Transkripten auf Deutsch und Englisch ist auf demselben Weg entstanden.
 
 > **The story continues …**
 >

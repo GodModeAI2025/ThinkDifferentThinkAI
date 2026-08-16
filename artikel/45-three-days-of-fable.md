@@ -60,7 +60,7 @@ Die praktische Empfehlung der Folge ist eindeutig.
 >
 > **Mark Zimmermann**, Co-Host
 
-Intelligent heißt in diesem Zusammenhang mehr als eine Konfigurationsvariable. Ein brauchbarer Switcher kennt die Eigenheiten der angebundenen Modelle, weiß, welche Aufgabe welches Modell verträgt, und hat für jede Aufgabe einen geprüften Ersatz. Er ist zugleich der Ort, an dem sich Kostensteuerung unterbringen lässt, weil nicht jede Anfrage das größte Modell braucht.
+Intelligent heißt hier mehr als eine Konfigurationsvariable. Ein brauchbarer Switcher kennt die Eigenheiten der angebundenen Modelle, weiß, welche Aufgabe welches Modell verträgt, und hat für jede Aufgabe einen geprüften Ersatz. Er ist zugleich der Ort, an dem sich Kostensteuerung unterbringen lässt, weil nicht jede Anfrage das größte Modell braucht.
 
 Die ehrliche Einschränkung wird in der Folge mitgeliefert: Beim Wechsel geht Reasoning und Kontext verloren, wenn beides nicht separat gesichert ist. Ein Switcher allein reicht nicht. Er löst das Verfügbarkeitsproblem und nicht das Zustandsproblem.
 

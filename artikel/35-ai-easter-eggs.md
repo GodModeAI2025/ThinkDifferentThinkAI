@@ -48,6 +48,8 @@ Das ist kontraintuitiv, weil größere Kontextfenster als Fortschritt verkauft w
 
 > ### Was daraus für die Praxis folgt
 >
+> Drei Regeln folgen daraus.
+>
 > Erstens: Größer ist nicht besser. Ein Kontextfenster mit einer Million Tokens zu füllen, weil es geht, verschlechtert das Ergebnis. Geben Sie das Relevante und lassen Sie den Rest weg.
 >
 > Zweitens: Reihenfolge ist eine Gestaltungsentscheidung. Was am wichtigsten ist, gehört an den Anfang oder ans Ende, nicht in die Mitte. Bei einer Anweisung am Schluss und dem Material davor ist die Trefferquote messbar besser als umgekehrt.

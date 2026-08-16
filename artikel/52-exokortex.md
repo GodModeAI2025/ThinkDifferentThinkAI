@@ -94,7 +94,7 @@ Die Beobachtung dahinter ist trotzdem bemerkenswert. Ein sichtbar am Revers getr
 >
 > **Mark Zimmermann**, Co-Host
 
-Die Plaud Note hat kein prominentes Aufnahmelicht. Wer damit Gespräche mitschneiden will, braucht die Zustimmung der Beteiligten, und die Erfahrung aus früheren Geräten zeigt, wie leicht das schiefgeht: Ein 3D-gedrucktes Mikrofon an einer Halskette vergisst man auszuschalten, und dann steht im Archiv der halbe Eisladen.
+Die Plaud Note hat kein prominentes Aufnahmelicht. Wer damit Gespräche mitschneiden will, braucht die Zustimmung der Beteiligten. Die Erfahrung aus früheren Geräten zeigt, wie leicht das schiefgeht: Ein 3D-gedrucktes Mikrofon an einer Halskette vergisst man auszuschalten, und dann steht im Archiv der halbe Eisladen.
 
 Die Hoffnung der beiden liegt auf technischen Lösungen statt auf Verzicht. Denkbar wäre ein Signal, das dem Gerät des Gegenübers mitteilt, dass keine Einwilligung vorliegt, etwa über für Menschen unhörbare Töne. Sicher ist nur die Richtung: Mit kleiner werdenden lokalen Modellen werden mehr solcher Geräte um uns herum laufen, nicht weniger.
 

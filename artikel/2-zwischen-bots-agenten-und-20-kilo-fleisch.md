@@ -12,7 +12,7 @@ podigee: "https://think-ai.podigee.io/2-zwischen-bots-agenten-und-20-kilo-fleisc
 
 Von Mark Zimmermann
 
-Diese Folge beginnt mit einer Korrektur zur vorherigen, und das ist erwähnenswert, weil es selten passiert: Nicht Anthropic wurde von Salesforce gekauft, sondern das Startup Convergence.ai, ein Anbieter mit genau der Browser-Steuerungsfähigkeit, die ein Agent braucht.
+Diese Folge beginnt mit einer Korrektur zur vorherigen, und das ist erwähnenswert, weil es selten passiert: Nicht Anthropic wurde von Salesforce gekauft, sondern das Startup Convergence.ai. Der Anbieter bringt genau die Browser-Steuerungsfähigkeit mit, die ein Agent braucht.
 
 Danach folgt eine Begriffsklärung, die auch drei Jahre später noch gebraucht wird.
 

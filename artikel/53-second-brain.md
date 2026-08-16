@@ -74,9 +74,9 @@ Konkret heißt das: ein einziger Skill statt eines Second Brains. Darin zehn Jah
 >
 > Das ist die Umkehrung des üblichen Verhaltens. Ein Sprachmodell antwortet im Zweifel plausibel. Ein Wissenssystem muss im Zweifel schweigen, sonst weiß niemand mehr, was belegt ist und was ergänzt wurde.
 
-Der andere Weg braucht das Bild. Über 20.000 Dokumente liegen in Jens' Vault. Gezielt eine einzelne Markdown-Datei zu suchen ist mühsam, aber der Blick auf den Graphen gibt ein Gefühl für die Gewichtung. Sah er am Wochenende falsch aus, läuft eben eine neue Logik darüber.
+Der andere Weg braucht das Bild. Über 20.000 Dokumente liegen in Jens’ Vault. Gezielt eine einzelne Markdown-Datei zu suchen ist mühsam, aber der Blick auf den Graphen gibt ein Gefühl für die Gewichtung. Sah er am Wochenende falsch aus, läuft eben eine neue Logik darüber.
 
-Der Vault liegt bewusst lokal auf einem Mac Mini, mit lokal laufenden Gemma-Modellen, die archivieren und vergessen, einem Beirat aus den Autoren, denen er am meisten folgt, und einem Wächter, der prüft, was aus dem Vault heraus überhaupt an eine öffentliche Schnittstelle gehen darf.
+Der Vault liegt bewusst lokal auf einem Mac Mini. Dort arbeiten Gemma-Modelle, die archivieren und vergessen, ein Beirat aus den Autoren, denen er am meisten folgt, und ein Wächter, der prüft, was aus dem Vault heraus überhaupt an eine öffentliche Schnittstelle gehen darf.
 
 Dieser Wächter ist der Teil, den die meisten Aufbauten vergessen. Ein Wissensspeicher, der alles enthält, was man weiß, ist genau deshalb heikel: Bei jeder Anfrage an ein fremdes Modell entscheidet sich, welcher Ausschnitt davon das Haus verlässt.
 

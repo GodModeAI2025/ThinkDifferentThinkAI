@@ -14,7 +14,7 @@ Von Mark Zimmermann
 
 Würden Sie einen Haushaltsroboter bestellen, wenn Sie wüssten, dass in den kompliziertesten Momenten kein System, sondern eine Person am anderen Ende der Leitung steuert?
 
-Genau das ist laut einem Test des Wall Street Journal bei 1X Technologies' Neo derzeit der Fall. Praktisch jede komplexere Aufgabe läuft über einen menschlichen Operator.
+Genau das ist laut einem Test des Wall Street Journal bei 1X Technologies’ Neo derzeit der Fall. Praktisch jede komplexere Aufgabe läuft über einen menschlichen Operator.
 
 > **kurz & knapp**
 >

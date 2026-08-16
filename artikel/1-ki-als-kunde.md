@@ -70,7 +70,7 @@ Neu ist der Maßstab. Ein manipulierter Agent trifft eine Kaufentscheidung, und 
 
 ## Fazit
 
-Diese Folge ist der Auftakt einer Reihe und liest sich mit Abstand als bemerkenswert treffsicher. Drei der Punkte sind bis heute ungelöst und alle drei sind praktisch relevant.
+Diese Folge ist der Auftakt einer Reihe und liest sich mit Abstand als überraschend treffsicher. Drei der Punkte sind bis heute ungelöst und alle drei sind praktisch relevant.
 
 Prüfen Sie, was Ihre Zertifikate noch belegen. Wenn die Prüfung unbeaufsichtigt online stattfindet, belegen sie eine Teilnahme.
 

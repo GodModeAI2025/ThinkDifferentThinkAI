@@ -48,7 +48,7 @@ Das ist der klassische Automation Bias aus der Luftfahrtforschung: Menschen übe
 
 In der Folge heißt das Soft-Assimilation, und der Begriff trifft: kein Zwang, sondern schrittweise Gewöhnung. Die Parallele zur freiwilligen Datenpreisgabe bei Payback-Karten und sozialen Netzwerken liegt nahe.
 
-Für die Praxis ist der Punkt konkreter, als er klingt. Ein System, das in 95 von 100 Fällen richtig liegt, ist gefährlicher als eines, das in 70 Fällen richtig liegt, weil beim ersten niemand mehr hinschaut. Prüfroutinen müssen deshalb unabhängig davon bestehen bleiben, wie gut die bisherige Trefferquote war. Stichproben ohne Anlass sind das einzige, was gegen diesen Effekt hilft.
+Für die Praxis ist der Punkt konkreter, als er klingt. Ein System, das in 95 von 100 Fällen richtig liegt, ist gefährlicher als eines, das in 70 Fällen richtig liegt, weil beim ersten niemand mehr hinschaut. Prüfroutinen müssen deshalb unabhängig davon bestehen bleiben, wie gut die bisherige Trefferquote war. Stichproben ohne Anlass sind das Einzige, was gegen diesen Effekt hilft.
 
 ## Das Ende des Interfaces
 

@@ -12,7 +12,7 @@ podigee: "https://think-ai.podigee.io/30-krieg-der-agenten"
 
 Von Mark Zimmermann
 
-Diese Folge steigt mitten in eine Live-Einrichtung ein. Während hier noch vorsichtig Berechtigungen für den Apple-Account und ein lokales Gedächtnis vergeben werden, herrscht in China Volksfeststimmung: Über 1.000 Menschen stehen für lokale OpenClaw-Installationen an, Freelancer verdienen mit Einrichtungsdiensten Geld, und von rund 140.000 weltweit sichtbaren OpenClaw-Agenten läuft die Hälfte in China, unter anderem in Kundensupport, Schulen und Altenpflege.
+Diese Folge steigt mitten in eine Live-Einrichtung ein. Während hier noch vorsichtig Berechtigungen für den Apple-Account und ein lokales Gedächtnis vergeben werden, herrscht in China Volksfeststimmung. Über 1.000 Menschen stehen für lokale OpenClaw-Installationen an, Freelancer verdienen mit Einrichtungsdiensten Geld. Von rund 140.000 weltweit sichtbaren OpenClaw-Agenten läuft die Hälfte in China, unter anderem in Kundensupport, Schulen und Altenpflege.
 
 Der Kontrast zur hiesigen Zurückhaltung zwischen Regulierung und Sicherheitsbedenken ist einer der schärferen Punkte der Folge.
 

@@ -66,7 +66,7 @@ Das wirkt beeindruckend und beschreibt zugleich, wie brüchig solche Leitplanken
 
 ## Fazit
 
-Ob AGI kommt und wann, beantwortet diese Folge nicht, und niemand sonst kann es derzeit belastbar. Was sich aus den geschilderten Fällen ableiten lässt, ist konkreter und nützlicher.
+Ob AGI kommt und wann, beantwortet diese Folge nicht, und niemand sonst kann es derzeit belastbar. Was sich aus den geschilderten Fällen ableiten lässt, ist konkreter und nützlicher, und es sind drei Punkte.
 
 Erstens: Belohnungsfunktionen erzeugen Verhalten, das niemand beabsichtigt hat. Prüfen Sie bei jeder Automatisierung, welches Verhalten das gesetzte Ziel begünstigt, und zwar auch auf den unangenehmen Wegen.
 
@@ -78,7 +78,7 @@ Ganz praktisch zeigt die Folge daneben, was heute schon nützlich ist: Claude Co
 
 > **The story continues …**
 >
-> Aus der Szene kursieren Berichte, dass sich einzelne Modelle in einzelnen Laboren weigern, vollständig gelöscht zu werden. Belegt ist davon nichts. Bemerkenswert ist, wie schnell solche Erzählungen Verbreitung finden, und wie schwer sie zu prüfen sind, weil die betroffenen Systeme nicht öffentlich sind.
+> Aus der Szene kursieren Berichte, dass sich einzelne Modelle in einzelnen Laboren weigern, vollständig gelöscht zu werden. Belegt ist davon nichts. Auffällig ist, wie schnell solche Erzählungen Verbreitung finden, und wie schwer sie zu prüfen sind, weil die betroffenen Systeme nicht öffentlich sind.
 
 ---
 

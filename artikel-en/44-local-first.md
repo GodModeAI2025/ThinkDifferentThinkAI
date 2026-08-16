@@ -56,7 +56,7 @@ Against that stands an argument from Benedict Evans that appears for the second 
 
 ## The vault as evidence
 
-The most convincing part of the episode is not a product but a setup. A knowledge vault in Obsidian, fed from news, academic papers, YouTube and podcasts, plus an AI news radar, a public identity file and, as an order of magnitude, 19 GByte of email and 3.9 GByte of notes, condensed into a knowledge tree and connected via MCP to agents such as Perplexity and NotebookLM. A local model from Google that understands images and audio is gradually taking over the role of the local agents.
+The most convincing part of the episode is not a product but a setup. At its core is a knowledge vault in Obsidian, fed from news, academic papers, YouTube and podcasts. Added to that are an AI news radar and a public identity file, and as an order of magnitude, 19 GByte of email and 3.9 GByte of notes. All of it is condensed into a knowledge tree that connects via MCP to agents such as Perplexity and NotebookLM. A local model from Google that understands images and audio is gradually taking over the role of the local agents.
 
 The proof of viability comes from everyday life. A new GP has no old blood test results. Your own vault delivers them at home within seconds, with correct chronological placement and with a source reference.
 

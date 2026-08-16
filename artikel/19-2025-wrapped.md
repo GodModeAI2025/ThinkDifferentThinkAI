@@ -48,7 +48,7 @@ Für Websitebetreiber ist das eine schlechte Nachricht: Wenn die Antwort direkt 
 
 Die praktische Konsequenz für alle, die Inhalte veröffentlichen, ist unbequem und eindeutig. Wenn Reichweite über Klicks nicht mehr entsteht, muss sie über etwas anderes entstehen: über Inhalte, die zitiert statt zusammengefasst werden, über eigene Kanäle mit direktem Zugang, oder über Angebote, die eine Antwortmaschine nicht ersetzen kann.
 
-Gleichzeitig zeigt Google, wie breit sich der eigene Vorteil ausspielen lässt, mit eigenen Chips, eigener Cloud und eigenen Endgeräten: von Experimenten in Google Labs mit personalisierten Lernmaterialien über NotebookLM bis zum Abkommen, mit dem Apple ein Gemini-Modell einkauft, um eine schlauere Siri zu bauen.
+Gleichzeitig zeigt Google, wie breit sich der eigene Vorteil ausspielen lässt, mit eigenen Chips, eigener Cloud und eigenen Endgeräten. Die Spanne reicht von Experimenten in Google Labs mit personalisierten Lernmaterialien über NotebookLM bis zum Abkommen, mit dem Apple ein Gemini-Modell einkauft, um eine schlauere Siri zu bauen.
 
 ## Die Sprachassistenten und ihre zweite Chance
 

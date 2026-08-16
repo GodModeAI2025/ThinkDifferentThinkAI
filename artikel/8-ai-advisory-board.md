@@ -12,7 +12,7 @@ podigee: "https://think-ai.podigee.io/8-ai-advisory-board"
 
 Von Mark Zimmermann
 
-Der Aufbau ist in einem Urlaub entstanden und ist bemerkenswert gründlich: ein vollständiger KI-Beirat, gebaut mit n8n, dem Automatisierungswerkzeug aus Deutschland, das laut Handelsblatt inzwischen mit 2,4 Milliarden Euro bewertet wird.
+Der Aufbau ist in einem Urlaub entstanden und ist ungewöhnlich gründlich: ein vollständiger KI-Beirat, gebaut mit n8n, dem Automatisierungswerkzeug aus Deutschland, das laut Handelsblatt inzwischen mit 2,4 Milliarden Euro bewertet wird.
 
 Statt eines einzelnen Chatbots stehen dahinter zwanzig System-Prompts, die Agenten in Persönlichkeiten wie Steve Jobs, Angela Merkel, Elon Musk, Jeff Bezos, Tim Cook und Jonathan Ive verwandeln. Acht bis dreizehn DIN-A4-Seiten je Persona, kein „verhalte dich wie“.
 

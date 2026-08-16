@@ -84,7 +84,7 @@ Vor kurzem hieß es noch, Englisch sei die neue Programmiersprache. Fällt auch 
 
 ## Fazit
 
-Der China-Schock ist als Schlagzeile größer als als Sachverhalt. Was tatsächlich passiert ist: Der Vorsprung ist klein geworden, die Preise geraten unter Druck, und die Frage nach dem besten Modell verliert an Bedeutung gegenüber der Frage nach dem passenden.
+Der China-Schock ist als Schlagzeile größer denn als Sachverhalt. Was tatsächlich passiert ist: Der Vorsprung ist klein geworden, die Preise geraten unter Druck, und die Frage nach dem besten Modell verliert an Bedeutung gegenüber der Frage nach dem passenden.
 
 Für die Praxis folgen daraus drei Dinge. Prüfen Sie Ihre Kalkulation gegen einen Preis, der nicht subventioniert ist. Bauen Sie Modellwahl als austauschbare Komponente, nicht als Festlegung. Und beobachten Sie die kleinen Modelle, weil dort entschieden wird, was ohne Netz und ohne laufende Kosten funktioniert.
 

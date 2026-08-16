@@ -78,7 +78,7 @@ Existiert ein Protokoll, aus dem hervorgeht, welche Daten ein Agent gesehen und 
 
 Und wer bewertet die Qualität? Wenn die Antwort „alle schauen mit drauf“ lautet, schaut niemand.
 
-Hofmanns Rat an die nächste Generation passt zum Rest: nicht Sozialwissenschaften, sondern Mathematik, weil Logik und Anpassungsfähigkeit die Kernkompetenzen bleiben in einer Welt, die alle fünf Tage ein neues Modell liefert.
+Hofmanns Rat an die nächste Generation passt zum Rest: nicht Sozialwissenschaften, sondern Mathematik, weil Logik und Anpassungsfähigkeit die Kernkompetenzen bleiben, solange alle fünf Tage ein neues Modell erscheint.
 
 > **The story continues …**
 >

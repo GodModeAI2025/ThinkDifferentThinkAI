@@ -60,7 +60,7 @@ Die verbreitete Erwartung lautet, Automatisierung reduziere den Führungsbedarf.
 
 Dass Automatisierung gleichzeitig heißt, mehr Aufgaben mit weniger Menschen zu erledigen, spricht er offen aus. Beides zusammen ergibt kein bequemes Bild, aber ein ehrliches.
 
-Wie schnell so etwas aus dem Ruder läuft, wenn ein Abbruchkriterium fehlt, zeigt ein Beispiel aus der Folge: Ein über das Wochenende laufender Loop hat 4.800 Electron-Instanzen geöffnet, und der beteiligte Agent kam am Ende zu dem Schluss, das bekomme er auch nicht mehr repariert. Das ist die praktische Seite von Agent Performance ohne Human Check.
+Wie schnell so etwas aus dem Ruder läuft, wenn ein Abbruchkriterium fehlt, zeigt ein Beispiel aus der Folge: Ein über das Wochenende laufender Loop hat 4.800 Electron-Instanzen geöffnet. Der beteiligte Agent kam am Ende zu dem Schluss, das bekomme er auch nicht mehr repariert. Das ist die praktische Seite von Agent Performance ohne Human Check.
 
 ## Prompt Thinking und seine Grenze
 

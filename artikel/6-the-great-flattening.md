@@ -62,7 +62,7 @@ Genau deshalb ist es keine Überraschung, dass diejenigen am besten zurechtkomme
 
 ## Das Beispiel aus der Praxis
 
-Als eigenes Experiment bringt die Folge ein selbstgebautes KI-Beratungsgremium ein: Persona-Prompts, die wie Steve Jobs, Tim Cook oder Angela Merkel diskutieren und am Ende eine Handlungsempfehlung liefern, inklusive Voice Cloning, damit es sich nach einem Gespräch anhört.
+Als eigenes Experiment bringt die Folge ein selbstgebautes KI-Beratungsgremium ein: Persona-Prompts, die wie Steve Jobs, Tim Cook oder Angela Merkel diskutieren und am Ende eine Handlungsempfehlung liefern. Dazu kommt Voice Cloning, damit es sich nach einem Gespräch anhört.
 
 Auf der Alltagsseite steht die Auflösung des Einstiegs: wie Manus ein komplettes Musical-Wochenende samt hundefreundlicher Unterkunft und Ladesäule für das E-Auto organisiert hat.
 

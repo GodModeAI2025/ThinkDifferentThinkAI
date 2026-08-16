@@ -56,7 +56,7 @@ Dagegen steht ein Argument von Benedict Evans, das in dieser Folge zum zweiten M
 
 ## Der Vault als Beweisstück
 
-Der überzeugendste Teil der Folge ist kein Produkt, sondern ein Aufbau. Ein Wissens-Vault in Obsidian, gespeist aus Nachrichten, wissenschaftlichen Arbeiten, YouTube und Podcasts, dazu ein KI-News-Radar, eine öffentliche Identity-Datei und, als Größenordnung, 19 GByte Mails und 3,9 GByte Notizen, verdichtet zu einem Knowledge Tree und per MCP an Agenten wie Perplexity und NotebookLM angebunden. Ein lokales Modell von Google, das Bilder und Audio versteht, übernimmt dabei nach und nach die Rolle der lokalen Agenten.
+Der überzeugendste Teil der Folge ist kein Produkt, sondern ein Aufbau. Den Kern bildet ein Wissens-Vault in Obsidian, gespeist aus Nachrichten, wissenschaftlichen Arbeiten, YouTube und Podcasts. Dazu kommen ein KI-News-Radar und eine öffentliche Identity-Datei, als Größenordnung 19 GByte Mails und 3,9 GByte Notizen. Verdichtet wird das Ganze zu einem Knowledge Tree, der per MCP an Agenten wie Perplexity und NotebookLM hängt. Ein lokales Modell von Google, das Bilder und Audio versteht, übernimmt dabei nach und nach die Rolle der lokalen Agenten.
 
 Der Tragfähigkeitsbeweis kommt aus dem Alltag. Ein neuer Hausarzt hat keine alten Blutwerte. Der eigene Vault liefert sie zu Hause in Sekunden, mit korrekter zeitlicher Zuordnung und mit Quellenangabe.
 
