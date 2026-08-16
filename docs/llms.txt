@@ -70,7 +70,7 @@ Podcast: https://think-ai.podigee.io/
 
 ## Fachartikel
 
-Je Folge ein redaktioneller Fachartikel im Stil der Heise-Magazine. Das sind eingeordnete Texte, keine Wortprotokolle.
+Je Folge ein redaktioneller Fachartikel, sachlich und eingeordnet. Das sind eingeordnete Texte, keine Wortprotokolle.
 
 - [Kuration ist der teure Teil: Was ein Second Brain wirklich leistet](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/53-second-brain/)
 - [Sprachnotizen: Ohne Schnittstelle bleibt das Archiv ein Sumpf](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/52-exokortex/)

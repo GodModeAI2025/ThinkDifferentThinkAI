@@ -1,6 +1,6 @@
 """Blog: die Fachartikel zu den Folgen als Webseiten.
 
-Je Folge ein Artikel im Heise-Stil, geschrieben als LinkedIn-Newsletter und hier
+Je Folge ein Artikel im Fachmagazin-Stil, geschrieben als LinkedIn-Newsletter und hier
 zweitverwertet. Quelle sind `artikel/<slug>.md` (deutsch) und `artikel-en/<slug>.md`
 (englisch), das Titelbild liegt unter `docs/artikelbilder/<slug>.png`.
 

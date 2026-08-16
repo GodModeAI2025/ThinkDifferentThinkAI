@@ -1293,7 +1293,7 @@ def build(site_dir: Path, repo_root: Path, base_url: str) -> dict:
     # Abschnitt, damit ein Modell beides nicht durcheinanderbringt.
     if artikel["de"]:
         llms += ["", "## Fachartikel", "",
-                 "Je Folge ein redaktioneller Fachartikel im Stil der Heise-Magazine. "
+                 "Je Folge ein redaktioneller Fachartikel, sachlich und eingeordnet. "
                  "Das sind eingeordnete Texte, keine Wortprotokolle.", ""]
         for ep in reversed(episodes):
             if ep["article_de"]:
