@@ -2,6 +2,7 @@
 import argparse
 import datetime as dt
 import html
+import json
 import re
 import sys
 import time
@@ -110,6 +111,12 @@ NAME_CORRECTIONS = (
     (r"\bGrupps-CIO\b", "Group-CIO"),
     (r"\bMarkus Andra,? ?zack\b", "Markus Andrezak"),
     (r"\bAndra,? ?zack\b", "Andrezak"),
+    (r"\bAdam Shostek\b", "Adam Shostack"),
+    # Marken- und Firmennamen sind ebenfalls Eigennamen. Der eigene Podcastname
+    # steht in fast jeder Folge im ersten Satz und kam bisher falsch heraus.
+    (r"\bZink[- ]Diffin[- ]Zink[- ]?A\.?I\.?\b", "Think Different. Think AI"),
+    (r"\bSing[- ]?defin,? ?Sing\.?K\.?I\.?\b", "Think Different. Think AI"),
+    (r"\bEnthrophic\b|\bEntroffic\b|\bEntrophic\b|\bAnthrophic\b|\bEntropic\b", "Anthropic"),
 )
 
 
@@ -224,12 +231,30 @@ def write_markdown(episode, transcript_path, segments, info, feed_url, model_siz
 def transcribe_episode(args):
     from faster_whisper import WhisperModel
 
-    episodes = parse_feed(args.feed_url)
-    selected = [episode for episode in episodes if episode.index == args.episode_index]
-    if not selected:
-        raise SystemExit(f"Episode index {args.episode_index} not found in feed with {len(episodes)} episodes")
-
-    episode = selected[0]
+    if args.episode_json:
+        # Quelle ausserhalb des Feeds. Gebraucht fuer geplante Folgen: Die liegen
+        # bei Podigee samt MP3 an der Production, stehen aber noch in keinem Feed.
+        data = json.loads(Path(args.episode_json).read_text(encoding="utf-8"))
+        episode = Episode(
+            index=int(data["index"]),
+            title=data.get("title", ""),
+            page_url=data.get("page_url", ""),
+            image_url=data.get("image_url", ""),
+            pub_date=data.get("pub_date", ""),
+            duration=data.get("duration", ""),
+            description=data.get("description", ""),
+            audio_url=data["audio_url"],
+            guid=data.get("guid", ""),
+            audio_length=int(data.get("audio_length") or 0),
+        )
+    else:
+        if args.episode_index is None:
+            raise SystemExit("Either --episode-index or --episode-json is required")
+        episodes = parse_feed(args.feed_url)
+        selected = [episode for episode in episodes if episode.index == args.episode_index]
+        if not selected:
+            raise SystemExit(f"Episode index {args.episode_index} not found in feed with {len(episodes)} episodes")
+        episode = selected[0]
     transcript_path = Path(args.output_dir) / safe_filename(episode)
     if transcript_path.exists() and not args.force:
         print(f"Transcript already exists: {transcript_path}")
@@ -252,7 +277,8 @@ def transcribe_episode(args):
 def build_parser():
     parser = argparse.ArgumentParser(description="Transcribe one episode from the Think AI podcast feed.")
     parser.add_argument("--feed-url", default=DEFAULT_FEED_URL)
-    parser.add_argument("--episode-index", type=int, required=True)
+    parser.add_argument("--episode-index", type=int)
+    parser.add_argument("--episode-json", help="Episode aus einer JSON-Datei statt aus dem Feed")
     parser.add_argument("--output-dir", default="transkripte")
     parser.add_argument("--audio-dir", default=".audio-cache")
     parser.add_argument("--model-size", default="small")
