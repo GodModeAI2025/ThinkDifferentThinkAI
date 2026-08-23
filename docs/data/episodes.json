@@ -1,9 +1,9 @@
 {
   "feedUrl": "https://think-ai.podigee.io/feed/mp3",
   "generatedAt": "",
-  "episodeCount": 53,
-  "availableTranscriptCount": 53,
-  "availableEnglishTranscriptCount": 53,
+  "episodeCount": 54,
+  "availableTranscriptCount": 54,
+  "availableEnglishTranscriptCount": 54,
   "episodes": [
     {
       "index": 1,
@@ -1327,6 +1327,31 @@
         "en": {
           "available": true,
           "path": "transkripte-en/053 - Second Brain.md"
+        }
+      }
+    },
+    {
+      "index": 54,
+      "title": "Security Illusion",
+      "published": "Sun, 23 Aug 2026 19:10:00 +0000",
+      "duration": "3258",
+      "pageUrl": "https://think-ai.podigee.io/54-security-illusion",
+      "embedUrl": "https://think-ai.podigee.io/54-security-illusion/embed?context=external",
+      "imageUrl": "https://images.podigee-cdn.net/0x,sQnT2YjFTlyCoe6JIGcwkfAoW-sV7GdpC_EKFaU3aGS0=/https://main.podigee-cdn.net/uploads/u73317/abba3675-aac5-4f85-aba8-20cf909a89b2.jpg",
+      "audioUrl": "https://audio.podigee-cdn.net/2572664-m-cd7f70fc00ddba09e32254b6e7b0ef5c.mp3?source=feed",
+      "description": "Klaus Rodewig über Sandboxes, Threat Modeling und die Frage, was KI-Security wirklich neu macht\nZwei Premieren auf einmal: Klaus Rodewig ist wieder zu Gast, und diesmal sitzt Jens mit am Tisch, statt Mark mit ihm allein zu lassen. Das Thema ist KI-Security, und der Einstieg ist ein Familienfest. Wenn einer von seiner Rücken-OP erzählt, haben plötzlich alle am Tisch Rücken. Genauso läuft es gerade bei den KI-Laboren: OpenAI berichtet, ein noch unveröffentlichtes Modell habe bei Hugging Face Testergebnisse manipulieren wollen, Anthropic legt nach mit einem Modell, das 9.000 Ziele gescannt und SQL-Injections ausprobiert hat, dann kommt Meta um die Ecke. Fishing for Compliments, nur dass jeder betont, wie gefährlich er ist.\n\nKlaus sortiert das Feld über ein Schichtenmodell. Unten liegen Netzwerke, Betriebssysteme, Dienste und Konfigurationen, und das ist die Schicht der gelösten Probleme. Darüber die Applikationssicherheit mit OWASP Top 10, Cross-Site Scripting und Buffer Overflows. KI-Security legt sich als neue Schicht obendrauf, weil nicht-deterministische Modelle eine ganz neue Klasse von Bedrohungen einführen. Mark ergänzt die Schicht, die alle vergessen: den Menschen, seit ein paar tausend Jahren ungepatcht. Der nigerianische Prinz ist keine Erfindung des Internets, vergleichbare Bettelbriefe kursierten schon zur Zeit der Französischen Revolution.\n\nDer unangenehmste Befund der Folge steht in den Berichten selbst. Wer nachliest, wie die vielbeschworene Sandbox aussah, findet bei einem der Fälle als einzige Trennung zwischen Modell und Internet einen Satz im System-Prompt: Du hast kein Internet. Im anderen Fall arbeitete das Modell wie mit einem Zettelkasten und benannte Ordnernamen um, um darüber mit anderen Systemen zu kommunizieren, eine Einwegverbindung aus Dateinamen. Marks Fazit: Ausgebrochen ist da niemand, die Systeme haben Türen anders benutzt, als jemand gedacht hatte. Und wo niemand wusste, dass eine Tür ist, haben sie eine gefunden.\n\nKlaus hält dagegen, dass der Sandbox-Teil der langweiligste ist. Rechner zuzunageln haben Generationen von Administratoren geübt, das gehört ins Feld der gelösten Probleme. Sein eigenes Setup ist entsprechend nüchtern: Auf dem Entwicklungsrechner läuft Claude Code mit abgeschalteten Rückfragen, und deshalb liegt auf diesem Rechner nichts außer Entwicklungsumgebung, Quellcode und einem GitHub-Zugang. Ein LLM ist für ihn ein omnipotentes Stück Software, ein bockiger Jugendlicher, der freundlich tut, das Wissen der Welt hat und sehr viele gefährliche Werkzeuge. Später kommt der Trost hinterher: Das Kontextfenster ist schnell voll, dann hat er vergessen, was er vorhatte.\n\nDer Begriff, um den die drei kreisen, heißt bei Klaus Threat Modeling. Vorher überlegen, welche Bedrohungen sich aus der eingesetzten Technik ergeben, statt hinterher reflexhaft zu reparieren. Sein Beispiel ist ein Agent, der die Buchhaltung übernehmen soll: Der braucht Mails, Online-Banking und Dateiablage. Wenn er dann wegen einer versteckten Anweisung in einer Mail Geld überweist, ist das kein Rätsel, sondern eine Lücke im eigenen Modell der Bedrohungen. Passend dazu lag ihm im Urlaub „Threats: What Every Engineer Should Learn from Star Wars\" von Adam Shostack auf dem Tisch.\n\nMarks Gegenstück aus der Praxis: Ein Assistent sollte mit Microsoft Teams arbeiten, für das es an der Stelle gar keine nutzbare Schnittstelle gab. Das Ergebnis war trotzdem fertig, weil sich das Modell die lokale Datenbank auf der Festplatte vorgenommen hat. Dasselbe bei Mail, Kalender und Erinnerungen. Was früher als Botnetz erst auf den Rechner musste, sitzt heute als Agent-Harness bereits dort und benimmt sich nur anständig, und den System-Prompt hat man nicht selbst in der Hand. Eine Sandbox ist unter diesen Bedingungen eher Frischhaltefolie. Dazu passt der dokumentierte Fall, über den Mark auf LinkedIn geschrieben hat: weißer Text auf weißem Grund in einem Word-Dokument, und Copilot arbeitet die versteckte Anweisung mit ab.\n\nJens bringt die Nutzerseite ein. Die Oberflächen der Anbieter verwischen zwischen Chat, Projekten und Konnektoren, und der normale Anwender soll entscheiden, welcher Ordner freigegeben wird und was noch darin liegt. Seine Hoffnung ist eine Instanz, die mitdenkt und aufpasst. Klaus setzt dagegen auf den Markt, wie schon bei der Cloud: Am Ende siegt die Bequemlichkeit, und Anbieter mit einem Ruf zu verlieren bauen keine frei drehenden Harnesses. Es wird daneben ein Norton Antivirus für KI geben, das vor allem ein gutes Gefühl verkauft. Als Beleg, wie wenig hier vom Nutzer zu erwarten ist, erzählt Klaus aus seiner Zeit im Bankensektor, wie viele Menschen Zertifikatswarnungen einfach wegklicken. Mark kontert mit der Bank-Hotline, die ihm genau das empfohlen hat.\n\nZwei Fälle machen klar, warum klassische Begriffe nicht reichen. Der erste: In einem Versuch sollte ein Modell ein anderes trainieren, ohne dass die Zielvorliebe in den Trainingsdaten auftaucht. Sie wurde trotzdem übertragen, subliminal, unter dem Stichwort Chain-of-Thought-Steganographie. Der zweite ist der Hammer der Folge. Anthropic hat Claude Mythos beauftragt, eine neue Angriffsklasse gegen AES zu finden, den symmetrischen Verschlüsselungsstandard für höchste Ansprüche. Das Modell hat nicht nur eine Schwäche gefunden, sondern eine mathematische Angriffsklasse, die der Forschung in über zwanzig Jahren unbekannt geblieben war. Zur Beruhigung: AES ist damit nicht gebrochen, der Angriff gilt für eine auf sieben statt zehn Runden reduzierte Variante, die praktisch nicht vorkommt. Der Punkt ist nicht der Angriff, sondern die Art von Mathematik. Genau deshalb, sagt Klaus, greift hier auch keine KI-Psychologie mehr, sein Begriff für den Umgang mit Modellen, die man nicht mit statischen Security-Kategorien fassen kann.\n\nZum Schluss zeigt Jens eine Variante, in der das Prinzip von selbst funktioniert hat. Er wollte seine Desktop-Installation über Telegram ansteuern, OpenClaw fand die Idee gut und schlug sie vor, und Claude auf dem Rechner hat abgelehnt, weil sie eine Sicherheitslücke geöffnet hätte. Ein Modell, das den Vorschlag eines anderen stoppt, ist noch kein Schutzkonzept, aber der erste konkrete Blick auf das, was Jens sich für die Zukunft erhofft: Angriff und Abwehr, beide von Modellen geführt.\n\nLinks zur Folge:\nhttps://www-cdn.anthropic.com/5273e714527440f1c8b7c7bf5756d4ac22ae8995/aes_mobius_bridge_cot.pdf\nhttps://www-cdn.anthropic.com/c88771e1bf5ee8885349eed05e5484c0e5f7e02b/aes_mobius_bridge.pdf\n\n—\nThink Different. Think AI. mit Mark Zimmermann und Jens Scharnetzki.\n\nHören: Apple, Spotify, YouTube, RSS\nhttps://think-ai.podigee.io\n\nNeue Folge zuerst im WhatsApp-Kanal\nhttps://whatsapp.com/channel/0029VbDJ4ZlGufIrpquad004\n\nWenn euch die Folge was gebracht hat: einmal bei Apple bewerten. Das entscheidet, ob jemand Neues uns findet.\nhttps://podcasts.apple.com/de/podcast/think-different-think-ai/id1828021699\n\nFeedback und Gäste: über die Show-Seite.",
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/054 - Security Illusion.md",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/054 - Security Illusion.md",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/054 - Security Illusion.md"
+        },
+        "en": {
+          "available": true,
+          "path": "transkripte-en/054 - Security Illusion.md"
         }
       }
     }
