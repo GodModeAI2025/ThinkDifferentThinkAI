@@ -115,6 +115,7 @@ NAME_CORRECTIONS = (
     # Marken- und Firmennamen sind ebenfalls Eigennamen. Der eigene Podcastname
     # steht in fast jeder Folge im ersten Satz und kam bisher falsch heraus.
     (r"\bZink[- ]Diffin[- ]Zink[- ]?A\.?I\.?\b", "Think Different. Think AI"),
+    (r"\bThink ?Different,? ?Think ?A\.?I\.?", "Think Different. Think AI."),
     (r"\bSing[- ]?defin,? ?Sing\.?K\.?I\.?\b", "Think Different. Think AI"),
     (r"\bEnthrophic\b|\bEntroffic\b|\bEntrophic\b|\bAnthrophic\b|\bEntropic\b", "Anthropic"),
 )
