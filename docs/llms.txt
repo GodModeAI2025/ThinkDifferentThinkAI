@@ -2,7 +2,7 @@
 
 > Deutschsprachiger Podcast ueber kuenstliche Intelligenz in der Praxis, von Mark Zimmermann und Jens Scharnetzki. Dieses Archiv enthaelt die vollstaendigen Wortprotokolle aller Folgen auf Deutsch und Englisch.
 
-Folgen: 54 | Sprachen: Deutsch (Original), Englisch (Uebersetzung)
+Folgen: 55 | Sprachen: Deutsch (Original), Englisch (Uebersetzung)
 Feed: https://think-ai.podigee.io/feed/mp3
 Podcast: https://think-ai.podigee.io/
 
@@ -14,6 +14,7 @@ Podcast: https://think-ai.podigee.io/
 
 ## Folgen
 
+- [AI SlowDown](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/55-ai-slowdown/) — 2026-08-29
 - [Security Illusion](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/54-security-illusion/) — 2026-08-23
 - [Second Brain](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/53-second-brain/) — 2026-08-16
 - [EXOKORTEX](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/52-exokortex/) — 2026-08-08
@@ -73,6 +74,7 @@ Podcast: https://think-ai.podigee.io/
 
 Je Folge ein redaktioneller Fachartikel, sachlich und eingeordnet. Das sind eingeordnete Texte, keine Wortprotokolle.
 
+- [Die Bremse ist eine Rechnung, keine Einsicht](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/55-ai-slowdown/)
 - [Die Sandbox war ein Satz im System-Prompt](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/54-security-illusion/)
 - [Kuration ist der teure Teil: Was ein Second Brain wirklich leistet](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/53-second-brain/)
 - [Sprachnotizen: Ohne Schnittstelle bleibt das Archiv ein Sumpf](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/52-exokortex/)

@@ -1,9 +1,9 @@
 {
   "feedUrl": "https://think-ai.podigee.io/feed/mp3",
   "generatedAt": "",
-  "episodeCount": 54,
-  "availableTranscriptCount": 54,
-  "availableEnglishTranscriptCount": 54,
+  "episodeCount": 55,
+  "availableTranscriptCount": 55,
+  "availableEnglishTranscriptCount": 55,
   "episodes": [
     {
       "index": 1,
@@ -1352,6 +1352,31 @@
         "en": {
           "available": true,
           "path": "transkripte-en/054 - Security Illusion.md"
+        }
+      }
+    },
+    {
+      "index": 55,
+      "title": "AI SlowDown",
+      "published": "Sat, 29 Aug 2026 18:04:00 +0000",
+      "duration": "3290",
+      "pageUrl": "https://think-ai.podigee.io/55-ai-slowdown",
+      "embedUrl": "https://think-ai.podigee.io/55-ai-slowdown/embed?context=external",
+      "imageUrl": "https://images.podigee-cdn.net/0x,ssTEPwfV9CO09qmbhfl0gLvljxx7ZGO4Jp57PcYpDE10=/https://main.podigee-cdn.net/uploads/u73317/92595979-3c69-45ae-a64d-fc36bc02c2af.jpg",
+      "audioUrl": "https://audio.podigee-cdn.net/2578648-m-32bc6e0a67f72d1958502431540052fa.mp3?source=feed",
+      "description": "Sam Altmans Rückzieher, unzensierte Modelle auf dem eigenen Rechner und die Frage, wofür ein Staat noch Bürger braucht\nKeine Gäste, dafür zwei Hosts mit reichlich Redebedarf. Der Anlass ist ein Interview, das Sam Altman am Aufnahmetag gegeben hat. Darin räumt der OpenAI-Chef ein, dass seine Prognosen aus der Zeit nach GPT-4 zu schnell waren. Der Umbau der Arbeitswelt kommt später als angekündigt. Bemerkenswert ist die Begründung: Schuld sind demnach nicht die Labore, sondern Gesellschaft und Wirtschaft, die sich zu langsam bewegen und zu statisch sind. Im selben Atemzug findet Altman die Verzögerung auch gut, weil Regierungen so mehr Zeit für Regulierung und Fragen wie das bedingungslose Grundeinkommen bekommen.\n\nJens liest das anders. Wenn die Welt die vorhandenen Modelle ohnehin nicht schnell genug in Arbeitsweisen übersetzt, bringt es kein Geld, weitere hinterherzuschieben. Der Rückzieher wäre dann weniger Einsicht als Erwartungsmanagement Richtung Investoren, verpackt als Verantwortungsbewusstsein. Mark steuert eine Beobachtung aus der Smartphone-Welt bei: Beeindruckende Funktionen erscheinen, und drei, vier Jahre später laufen dieselben Menschen mit denselben Geräten herum. Aufmerksamkeit erzeugen neue Emojis. Genau deshalb sind Hersteller dazu übergegangen, wichtige Sicherheitsupdates gemeinsam mit Emoji-Erweiterungen auszuliefern.\n\nAus dieser Beobachtung wird die größere Frage der Folge. Jens hat einen Text gelesen, der nicht fragt, ob der Einzelne mit dem Wandel mitkommt, sondern wofür ein Staat seine Bürger überhaupt noch braucht, wenn Verwaltung, Wirtschaft und Exekutive weitgehend automatisiert laufen. Die Antwort führt in Gebiete, die nach Science-Fiction klingen und es nicht mehr sind. Bewaffnete Robotik ist im Ukraine-Krieg auf beiden Seiten im Einsatz, Polizeidrohnen sind aus China dokumentiert, und die Bewertung des Roboterherstellers Unitree hat gerade neue Höhen erreicht. Mark warnt davor, dabei nur an humanoide Formen zu denken: Die Evolution hat für unterschiedliche Aufgaben unterschiedliche Körper hervorgebracht, und die Fabrik wird auch künftig den Roboterarm behalten statt eines Humanoiden mit Schweißgerät.\n\nDazu kommen Fragen, die sich schlecht wegdelegieren lassen. Das bekannte Gedankenspiel zum autonomen Fahren bekommt eine neue Schärfe, wenn ein System die Social-Media-Profile der Beteiligten in die Abwägung ziehen könnte. In chinesischen Kinderzimmern stehen nach den Zahlen der Folge rund 20 Millionen Gadgets mit KI, und Kinder bauen Beziehungen zu sprechenden Kuscheltieren auf, deren Stecker irgendwann jemand zieht. Für Mark ist der Einschnitt insgesamt größer als der Buchdruck, mit derselben Doppelnatur: Herausforderung und Chance auf wissenschaftliche Ergebnisse, mit denen zu Lebzeiten niemand gerechnet hätte.\n\nIm zweiten Teil wird es konkret. Dass die Entwicklung sich verlangsamt, hält Mark für unwahrscheinlich, und der Grund heißt China. Auf ein Modell, das über ein Terabyte Videospeicher verlangt, folgte kurz darauf ein offenes Modell, das auf gut ausgestatteter Endanwender-Hardware läuft und in Teilen an das Niveau der großen Anbieter heranreicht. Wer so etwas lokal betreiben kann, braucht die teuren Abos nicht mehr zwingend. Aus dieser Lage folgt eine Komplexität, die IT-Abteilungen für Jahre beschäftigen wird: lokale und entfernte Modelle, Router, Agenten, die Frage, wann ein kleiner Workflow, der einen Tag laufen darf, besser ist als eine Antwort in Echtzeit.\n\nZwei Beobachtungen aus der eigenen Praxis zeigen, wohin das führt. Mark saß am Wochenende an einem Projekt, als die Lüfter des Rechners hochdrehten. Codex hatte von sich aus das lokal installierte Ollama gestartet, ein fremdes Modell um eine zweite Meinung gebeten und darüber den Fehler gefunden. Ähnlich in seinem eigenen Aufbau: Nicht er hat entschieden, mehrere kleinere Modelle nebeneinander zu laden statt eines großen, sondern das System selbst, mit der Begründung, unterschiedlich trainierte Modelle liefen nicht in dieselben Fallen. Bei Anthropic lassen sich inzwischen Terminal-Fenster verschränken, sodass ein Fenster als Orchestrator die anderen steuert. Jens hält dagegen, dass daran nichts unheimlich sei, unheimlich sei eher, dass diese Anwendungen so lange nicht miteinander geredet haben. Sein eigentlicher Einwand gilt den Oberflächen: Modellauswahlen, die zwischen schnell, schneller und noch schneller unterscheiden oder zwischen intelligent und intelligenter, helfen niemandem bei der Entscheidung.\n\nDer unangenehmste Teil kommt zum Schluss. Von einem offenen Modell mit 27 Milliarden Parametern kursiert eine Fassung, der die Sicherheitsschranken abtrainiert wurden. In Sicherheitstests, in denen übliche Modelle 98 bis 99 Prozent der kritischen Anfragen abweisen, verweigert diese Fassung 2,7 Prozent. Veröffentlicht mit dem Hinweis, sie sei ausschließlich für Forschung gedacht, und mit der Feststellung, sie eigne sich hervorragend für Missbrauch. Dazu ein Videogenerator, der ohne Rücksicht auf Urheberrechte erzeugt und auf gewöhnlicher Hardware läuft. Marks Punkt ist nicht die Existenz solcher Modelle, sondern die Leichtigkeit des Zugriffs: Zwei Programmnamen und eine Suche genügen, und was vor einem halben Jahr Behörden und Konzerne beschäftigt hat, liegt auf dem eigenen Rechner.\n\nJens widerspricht Sam Altman an genau dieser Stelle. Ausbremsen hilft nicht, weil der Wettlauf sich nicht bremsen lässt: nicht durch Exportbeschränkungen für Chips, nicht durch Absprachen, und schon gar nicht durch Einsicht. Die Gesellschaft müsse im Gegenteil Tempo aufnehmen und ihre Systeme widerstandsfähig machen, und auch das werde nur mit KI gehen. Zum Abschluss noch eine offene Frage: Bei OpenRouter ist ein Modell ohne bekannten Hersteller aufgetaucht, das Aufgaben löst, an denen die großen scheitern, mit einer Million Token Kontext und auffällig günstigen Preisen. Bezahlt wird mit den eigenen Eingaben, das steht in den Bedingungen. Wer dahintersteckt, weiß zum Zeitpunkt der Aufnahme niemand.\n\n—\nThink Different. Think AI. mit Mark Zimmermann und Jens Scharnetzki.\n\nHören: Apple, Spotify, YouTube, RSS\nhttps://think-ai.podigee.io\n\nNeue Folge zuerst im WhatsApp-Kanal\nhttps://whatsapp.com/channel/0029VbDJ4ZlGufIrpquad004\n\nWenn euch die Folge was gebracht hat: einmal bei Apple bewerten. Das entscheidet, ob jemand Neues uns findet.\nhttps://podcasts.apple.com/de/podcast/think-different-think-ai/id1828021699\n\nFeedback und Gäste: über die Show-Seite.",
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/055 - AI SlowDown.md",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/055 - AI SlowDown.md",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/055 - AI SlowDown.md"
+        },
+        "en": {
+          "available": true,
+          "path": "transkripte-en/055 - AI SlowDown.md"
         }
       }
     }
