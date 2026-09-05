@@ -1,9 +1,9 @@
 {
   "feedUrl": "https://think-ai.podigee.io/feed/mp3",
   "generatedAt": "",
-  "episodeCount": 55,
-  "availableTranscriptCount": 55,
-  "availableEnglishTranscriptCount": 55,
+  "episodeCount": 56,
+  "availableTranscriptCount": 56,
+  "availableEnglishTranscriptCount": 56,
   "episodes": [
     {
       "index": 1,
@@ -1377,6 +1377,31 @@
         "en": {
           "available": true,
           "path": "transkripte-en/055 - AI SlowDown.md"
+        }
+      }
+    },
+    {
+      "index": 56,
+      "title": "Personal Assistants",
+      "published": "Sat, 05 Sep 2026 19:22:00 +0000",
+      "duration": "4680",
+      "pageUrl": "https://think-ai.podigee.io/56-personal-assistants",
+      "embedUrl": "https://think-ai.podigee.io/56-personal-assistants/embed?context=external",
+      "imageUrl": "https://images.podigee-cdn.net/0x,sJNlXxM23kG3z3RKhtT-pZ58rtb0LKR2qlGDD8FucQ7I=/https://main.podigee-cdn.net/uploads/u73317/81aba501-88e7-4dc1-94fc-cea47b088174.jpeg",
+      "audioUrl": "https://audio.podigee-cdn.net/2579557-m-bdc7f41d37be8c2da36e92b7b725805d.mp3?source=feed",
+      "description": "Ein Podcast über Routinen, Datengrenzen und die Frage, wer entscheiden darf, wo ein Datum liegen darf\nDiesmal ohne Jens und ohne Klaus, dafür mit Alexander Heusingfeld, der seine eigene Themenliste mitgebracht hat und streckenweise mitmoderiert. Der Anschluss an die Second-Brain-Folgen ist schnell gefunden, nur dreht die Folge das Thema um: Nicht was in den Speicher kommt, sondern wo das Ganze eigentlich liegen darf, wenn daraus Routinen werden. Beim Second Brain entscheidet der Mensch, was hineingeschrieben wird. Eine Routine braucht dagegen eine Regel, die trägt, auch wenn niemand hinschaut.\n\nDer Punkt wird an einem Alltagsfall konkret. Ein persönlicher Assistent für den Arbeitstag soll die Projektliste kennen, Notizen und Mails durchgehen, dazu vielleicht Teams-Nachrichten, und nebenbei merken, dass der Zahnarzttermin nicht mehr zu halten ist. Sobald man das aufschreibt, stehen die unangenehmen Fragen im Raum: Das Dokumentenverzeichnis synchronisiert in die iCloud, und wer hat deren Bedingungen eigentlich akzeptiert, die Privatperson oder der Arbeitgeber? In den Notizen stehen Informationen über Kolleginnen und Kollegen. Was passiert damit?\n\nBeide Hosts dieser Folge haben darauf dieselbe Antwort gefunden, unabhängig voneinander: ein eigener Rechner. Bei Mark ein Mac Mini hinter dem Fernseher, der über 40 Kanäle auswertet, daraus ein tägliches Briefing baut, das Remarkable per MCP versorgt und Sprachnotizen in Aufgaben sortiert, alles auf Basis öffentlich zugänglicher Quellen. Bei Alex ein separates Gerät mit eigener Apple ID, eigener Mailadresse, eigenem WLAN-Segment und Zugriff ausschließlich nach draußen. Sein Begriff dafür sind harte Grenzen: Was sich nicht in allen Szenarien einschätzen lässt, wird per Voreinstellung eingeschränkt, statt es später zu reparieren.\n\nWarum das nötig ist, zeigen zwei Situationen aus der eigenen Praxis. Alex bat sein frisch aufgesetztes System um eine Grafik der eingerichteten Routinen und sah kurz darauf ein Browserfenster mit einem Artefakt in der Cloud, obwohl in der Konfigurationsdatei stand, dass alles lokal bleibt. Die Entschuldigung des Systems kam prompt, die Regel war ihm bekannt. Genau das ist der Grund, aus dem er Rechte im Betriebssystem vergibt und nicht in einer Textdatei: Ein Benutzerkonto ohne Schreibrecht diskutiert nicht. Marks Beispiel geht in dieselbe Richtung. Bei ihm startete ein Assistent unaufgefordert ein lokal installiertes Modell, um eine zweite Meinung einzuholen. Das Ergebnis war richtig, der Vorgang trotzdem heikel, denn hier hat ein System ohne Rückfrage ein anderes System mit fremden Daten versorgt.\n\nDass es nicht bei Anekdoten bleibt, macht der Blick auf die Schnittstellen klar. Wer einen MCP-Server ohne Authentifizierung betreibt, hat einen offenen Dienst auf dem eigenen Rechner, auf den jeder lokale Prozess zugreifen kann. Gleichzeitig bauen immer mehr Produkte solche Server ein, ohne dass sie sich abschalten lassen. Der klassische Perimeterschutz hilft dabei wenig, weil er von einem Menschen an Tastatur und Maus ausgeht, während ein Werkzeug hinter allen Schutzschichten sitzt und inzwischen mit weiteren Sitzungen seiner selbst spricht.\n\nEin eigener Abschnitt gilt den Notizen über Menschen. Die meisten Protokollwerkzeuge wollen zuordnen, wer wann was gesagt hat. In den meisten Fällen ist das gar nicht die interessante Information, wichtig sind das Ergebnis und die Frage, wer etwas übernimmt. Namen stehen ohnehin in Ticketsystemen, Wikis und Repositories, oft samt Mailadresse. Wenn also darüber gestritten wird, ob ein Name in einer Notiz stehen darf, ist das nach Alex' Beobachtung in Wahrheit eine Diskussion darüber, wo diese Notiz gespeichert werden darf. Dazu die Empfehlung, mit dem Betriebsrat über hypothetische Fälle zu sprechen, bevor sie eintreten, gerade weil ein Modell aus verstreuten Daten Schlüsse zieht, die niemand gezogen haben wollte, und weil kein nachgeschalteter Prüfschritt Halluzinationen zu hundert Prozent ausschließt.\n\nPraktisch wird es beim Bauen. Nicht jede Routine braucht ein Modell: Wer alle zehn Sekunden das Postfach prüfen will, nimmt ein Skript und ruft die KI erst, wenn es etwas zu entscheiden gibt. Alex plädiert für saubere Trennung und für Skills, in denen alles Deterministische auch deterministisch abgebildet ist, ohne absolute Pfade. Mark hält dagegen, dass Werkzeuge mit festen Abläufen bei der Verlässlichkeit vorn liegen, Skills aber die niedrigere Hürde und universelle Lauffähigkeit mitbringen. Wie schnell eine unscharfe Regel teuer wird, zeigt Alex' Rechenfehler in einem eigenen Rechercheablauf: Aus den erbetenen fünf Ergebnissen wurden über 500 Einträge in der Datenbank.\n\nZwischendurch geht es um Wissensspeicher im Team. Alex evaluiert gerade Marks Wissenstresor und ist überrascht, wie gut das in einer Firmenumgebung funktioniert, als Skill verteilt, mit einem eigenen Repository je Team und der Frage, wer überhaupt ins gemeinsame Gedächtnis schreiben darf. Ein Detail daran gefällt ihm besonders: Die Sprache der Bedienung und die Sprache der Ablage lassen sich trennen. Jeder arbeitet in seiner Muttersprache, dokumentiert wird trotzdem einheitlich. Und ein Detail hat ihn geärgert: Eine Liste dessen, was nicht in den Speicher darf, ist selbst vertraulich und gehört damit nicht ins Repository. Liegt sie flach für alle Ziele vor, blockiert ein Firmenname darin auch die Übertragung ins Firmenrepository. Die Konfiguration muss also je Ziel gelten.\n\nZum Schluss die Frage, was in den letzten Monaten den größten Unterschied gemacht hat. Alex nennt zwei Dinge: Beziehungen zwischen Wissensbausteinen mit eigener Bedeutung statt bloßer Verlinkung, und dass sich Bewertungskriterien für Abläufe endlich zuverlässig festlegen lassen. Marks Antwort ist unspektakulärer und trifft vermutlich mehr Menschen: die Mächtigkeit der eigenen alten Daten. Sprachnotizen, Notizen, Mails, Screenshots, über Jahre verstreut und praktisch nie wieder angefasst. Über MCP werden sie wieder ansprechbar, und plötzlich beantwortet ein einfacher Zugriff Fragen, für die man früher nicht einmal gewusst hätte, wo man anfangen soll.\n\nGithub:\n\nhttps://github.com/GodModeAI2025/SkillSafe\n\nhttps://github.com/GodModeAI2025/AppleMCP\n\nhttps://github.com/GodModeAI2025/SkillSafeWerkstatt\n\n—\nThink Different. Think AI. mit Mark Zimmermann und Jens Scharnetzki.\n\nHören: Apple, Spotify, YouTube, RSS\nhttps://think-ai.podigee.io\n\nNeue Folge zuerst im WhatsApp-Kanal\nhttps://whatsapp.com/channel/0029VbDJ4ZlGufIrpquad004\n\nWenn euch die Folge was gebracht hat: einmal bei Apple bewerten. Das entscheidet, ob jemand Neues uns findet.\nhttps://podcasts.apple.com/de/podcast/think-different-think-ai/id1828021699\n\nFeedback und Gäste: über die Show-Seite.",
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/056 - Personal Assistants.md",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/056 - Personal Assistants.md",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/056 - Personal Assistants.md"
+        },
+        "en": {
+          "available": true,
+          "path": "transkripte-en/056 - Personal Assistants.md"
         }
       }
     }
