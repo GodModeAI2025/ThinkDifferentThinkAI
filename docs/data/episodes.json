@@ -1,8 +1,8 @@
 {
   "feedUrl": "https://think-ai.podigee.io/feed/mp3",
   "generatedAt": "",
-  "episodeCount": 56,
-  "availableTranscriptCount": 56,
+  "episodeCount": 57,
+  "availableTranscriptCount": 57,
   "availableEnglishTranscriptCount": 56,
   "episodes": [
     {
@@ -1402,6 +1402,31 @@
         "en": {
           "available": true,
           "path": "transkripte-en/056 - Personal Assistants.md"
+        }
+      }
+    },
+    {
+      "index": 57,
+      "title": "gamescom 2026",
+      "published": "Sat, 12 Sep 2026 21:59:00 +0000",
+      "duration": "3008",
+      "pageUrl": "https://think-ai.podigee.io/57-gamescom-2026",
+      "embedUrl": "https://think-ai.podigee.io/57-gamescom-2026/embed?context=external",
+      "imageUrl": "https://images.podigee-cdn.net/0x,swPirf9UTOWKtQ5P0yN50crKOcur0sb7Nl1WUiJN4LC0=/https://main.podigee-cdn.net/uploads/u73317/03164a74-b03f-40f4-84af-ccb788267d70.jpg",
+      "audioUrl": "https://audio.podigee-cdn.net/2584005-m-3ad25965d6f5b749f1f02ea4fb5faac2.mp3?source=feed",
+      "description": "Live von der größten Spielemesse der Welt: Was KI in der Spieleentwicklung wirklich macht, und warum niemand damit wirbt\nZum ersten Mal sitzen Mark und Jens nicht in getrennten Räumen vor Riverside, sondern nebeneinander auf der gamescom in Köln. Für Jens ist die Messe ein jährlicher Termin, seit sie nicht mehr in Leipzig stattfindet, und er beschreibt den Wandel von der reinen Spielemesse zur Influencer-Veranstaltung, ohne dabei den Spaß zu verlieren. Sein Lieblingsort bleibt die Indie-Halle: kurze Schlangen, gute Spiele, und Entwickler, mit denen man direkt reden kann. Rundherum ist die Messe größer als sie selbst, mit Ringfest, Congress und der gamescom Dev als eigener Entwicklerkonferenz. 1.700 Aussteller, über 70 Prozent davon aus dem Ausland.\n\nMark kommt mit seinem Sohn und bringt eine Enttäuschung mit. Am Xbox-Stand läuft ein Gewinnspiel: Wer Spiele testet, sammelt Codes und füllt damit vier Reihen einer Sammelkarte, jede Reihe ein Druck auf den grünen Knopf. Die beiden füllen alle vier, stellen sich zwei Stunden an und erfahren am Ziel, dass nur noch einmal gedrückt werden darf und die eingesammelten Tickets am nächsten Tag ungültig sind. Dass eine Schlange gerecht abgearbeitet werden muss, versteht er sofort. Was ihn stört, sind Regeln, die während des Spiels geändert werden, bei einem Aussteller, der nicht zum ersten Mal auf dieser Messe steht.\n\nDer inhaltliche Teil beginnt mit einem Fehltritt. In der Indie-Halle spricht Mark einen Entwickler auf KI in der Softwareentwicklung an und erntet einen Blick, den er selbst als Entsetzen beschreibt. Das betreffende Spiel wirbt ausdrücklich mit handgemalten Grafiken. Im Nachhinein ist beiden klar, warum: Wer viel Zeit in Handarbeit steckt und sich dann gegen billige Massenware behaupten muss, hat gute Gründe für eine Abgrenzung. Auf den großen Verkaufsplattformen häufen sich Titel, die schnell und ohne Sorgfalt erzeugt wurden, und in dieser Konkurrenz Gehör zu finden, ist für kleine Studios schwer.\n\nInteressant wird es bei der Frage, wie viel KI in Spielen tatsächlich schon steckt. In einem Interview am Rande der Messe erklärt Felix Falk, Geschäftsführer des Branchenverbands game, die Technik sei nichts Neues, die Spieleentwicklung setze sie seit Jahrzehnten ein. Mark hakt nach: Jahrzehnte bedeutet mehr als zehn Jahre, und was genau ist dann gemeint, Codevervollständigung oder generierte Spielwelten? Die Frage bleibt offen und ist typisch für die Debatte. Auffällig ist etwas anderes: Auf keinem Stand wirbt jemand mit dem Begriff. Zu einem großen kommenden Titel gab es die Meldung, es sei gar keine KI im Einsatz. Wo Studios offen damit umgehen, folgt derzeit die Quittung in den Bewertungen, und ein Studio hat einen bereits eingeschlagenen Weg wieder verlassen, nachdem die Kritik zu deutlich wurde.\n\nDass die Ablehnung nicht die ganze Wahrheit ist, zeigen Zahlen, die in der Folge zur Sprache kommen. Bei den 18- bis 24-Jährigen finden nur wenige Prozent KI-gesteuerte Figuren gut, bei den Älteren ab 45 ist die Bereitschaft deutlich höher. Eine Untersuchung der University of Bristol hat 122 Spielsitzungen mit KI-generierten Figuren ausgewertet, und 95 Prozent der Beteiligten empfanden die Interaktion als spaßiger. Der Schluss daraus liegt nahe: Erlebt wird es gern, beworben nicht.\n\nDer zweite Teil dreht sich um das, was solche Figuren möglich machen würden. Mark, dessen Spielzeit in World of Warcraft in Jahren gemessen wird, beschreibt Begleiter, die nicht nur einem Skript folgen, sondern auf das reagieren, was tatsächlich passiert ist. Der Wirt, dem man am Vorabend einen erschlagenen Gegner vor die Tür gelegt hat, begrüßt einen am Morgen nicht mehr fröhlich. Jens ergänzt die Kehrseite: Wie gefestigt muss jemand sein, dessen virtueller Freund immer online ist und ihm nach dem Mund redet? Beide sehen die Grenze der heutigen Spiele dort, wo man sich abseits des Drehbuchs bewegen will, und beide erinnern an Experimente, in denen Agenten in offenen Welten losgelassen wurden und eigene Gesellschaften bildeten. Dass so etwas auch ohne KI aus dem Ruder läuft, zeigt ein Zwischenfall aus der Geschichte von World of Warcraft: Eine Seuche aus einem Endkampf wurde über ein Tier in die Städte getragen und tötete dort Spieler und Figuren gleichermaßen, bis die Betreiber eingriffen.\n\nZum Schluss zwei Gedanken, die über Spiele hinausgehen. Der erste ist eine Warnung vor der Bequemlichkeit: Wer aus einem Satz dreißig Folien erzeugt und weiterreicht, verlagert Arbeit auf andere, und ein gutes Modell ersetzt keine klare Vorstellung davon, was am Ende herauskommen soll. Aus einem geprüften Foliensatz wurden bei einer Gegenkontrolle 38 Folien, von denen 36 Fehler enthielten. Der zweite ist eine Prognose: In ein bis zwei Jahren, so Marks Vermutung, wird es auf dieser Messe eine eigene Kategorie dafür geben, dass Spiele die Oberfläche für KI liefern. Denn was Spieleentwickler beherrschen, ist genau das, woran andere scheitern: komplexe Sachverhalte grafisch verständlich zu machen, und mehrere Menschen darin gemeinsam handeln zu lassen.\n\n—\nThink Different. Think AI. mit Mark Zimmermann und Jens Scharnetzki.\n\nHören: Apple, Spotify, YouTube, RSS\nhttps://think-ai.podigee.io\n\nNeue Folge zuerst im WhatsApp-Kanal\nhttps://whatsapp.com/channel/0029VbDJ4ZlGufIrpquad004\n\nWenn euch die Folge was gebracht hat: einmal bei Apple bewerten. Das entscheidet, ob jemand Neues uns findet.\nhttps://podcasts.apple.com/de/podcast/think-different-think-ai/id1828021699\n\nFeedback und Gäste: über die Show-Seite.",
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/057 - gamescom 2026.md",
+      "englishTranscriptAvailable": false,
+      "englishTranscriptPath": "",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/057 - gamescom 2026.md"
+        },
+        "en": {
+          "available": false,
+          "path": ""
         }
       }
     }
