@@ -76,6 +76,7 @@ Podcast: https://think-ai.podigee.io/
 
 Je Folge ein redaktioneller Fachartikel, sachlich und eingeordnet. Das sind eingeordnete Texte, keine Wortprotokolle.
 
+- [Auf 1.700 Ständen wirbt niemand mit KI](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/57-gamescom-2026/)
 - [Eine Regel in einer Textdatei ist keine Grenze](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/56-personal-assistants/)
 - [Die Bremse ist eine Rechnung, keine Einsicht](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/55-ai-slowdown/)
 - [Die Sandbox war ein Satz im System-Prompt](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/54-security-illusion/)
