@@ -28,6 +28,10 @@ Die Fähigkeit, Code zu erzeugen, ist seit Jahren bekannt. Neu ist, was danach p
 
 Das Gleiche gilt außerhalb der Entwicklung. Das Modell bedient Office-Programme, überträgt Inhalte zwischen Dokumenten, schneidet Videos in Final Cut, entfernt Balken und setzt Übergänge. Aus einem Satellitenbild eines Wohnhauses baut es über eine Schnittstelle zu Blender ein 3D-Modell und bietet an, es für den heimischen Drucker aufzubereiten. Zwischen der ersten Anweisung und dem Ergebnis liegt kein manueller Zwischenschritt mehr, abgesehen von den Zugangsdaten.
 
+> „Ich fühle mich gerade wie allmächtig. Aber gleichzeitig fühle ich mich auch arm wie eine Kirchenmaus.“
+>
+> **Mark Zimmermann**, Co-Host
+
 Der Preis dafür ist real und wird selten genannt. Drei zurückgesetzte Wochenlimits, danach nachgekauftes Guthaben, am Ende vermutlich 2.000 Euro in wenigen Tagen. Wer daraufhin das Abonnement verkleinert, kommt derzeit nicht ohne Weiteres zurück in den größeren Tarif. Für eine Kalkulation heißt das: Die Rechnung eines produktiven Wochenendes hat mit dem Grundpreis wenig zu tun.
 
 ## Die Entscheidung liegt beim Falschen

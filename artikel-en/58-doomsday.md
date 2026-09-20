@@ -28,6 +28,10 @@ The ability to generate code has been known for years. What happens afterwards i
 
 The same holds outside development. The model operates office applications, moves content between documents, edits video in Final Cut, removes letterbox bars and adds transitions. From a satellite image of a house it builds a 3D model through an interface to Blender and offers to prepare it for the printer at home. Between the first instruction and the result, no manual step remains, apart from the credentials.
 
+> "Right now I feel almighty. But at the same time I also feel as poor as a church mouse."
+>
+> **Mark Zimmermann**, co-host
+
 The price is real and rarely mentioned. Three weekly limits reset, then credit topped up, and possibly 2,000 euros gone in a few days. Anyone who reacts by downgrading their subscription currently cannot simply move back up to the larger tier. For a budget calculation this means the bill for one productive weekend has little to do with the base price.
 
 ## The decision sits with the wrong person

@@ -377,7 +377,7 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:11:12]** er das gedruckt hat. Und dann stehst du da und denkst so, ich fühle mich gerade wie prosalmächtig.
 
-**[00:11:16]** Aber gleichzeitig fühle ich mich auch arm wie Kühlchenmaus, weil das ist echt scheiße
+**[00:11:16]** Aber gleichzeitig fühle ich mich auch arm wie eine Kirchenmaus, weil das ist echt scheiße
 
 **[00:11:20]** teuer. Und das ist nur der Anfang. Das greift kurz ein, weil ich will gleich noch
 
