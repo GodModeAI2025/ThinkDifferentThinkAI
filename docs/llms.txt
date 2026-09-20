@@ -2,7 +2,7 @@
 
 > Deutschsprachiger Podcast ueber kuenstliche Intelligenz in der Praxis, von Mark Zimmermann und Jens Scharnetzki. Dieses Archiv enthaelt die vollstaendigen Wortprotokolle aller Folgen auf Deutsch und Englisch.
 
-Folgen: 57 | Sprachen: Deutsch (Original), Englisch (Uebersetzung)
+Folgen: 58 | Sprachen: Deutsch (Original), Englisch (Uebersetzung)
 Feed: https://think-ai.podigee.io/feed/mp3
 Podcast: https://think-ai.podigee.io/
 
@@ -14,6 +14,7 @@ Podcast: https://think-ai.podigee.io/
 
 ## Folgen
 
+- [Doomsday](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/58-doomsday/) — 2026-09-19
 - [gamescom 2026](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/57-gamescom-2026/) — 2026-09-12
 - [Personal Assistants](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/56-personal-assistants/) — 2026-09-05
 - [AI SlowDown](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/55-ai-slowdown/) — 2026-08-29
@@ -76,6 +77,7 @@ Podcast: https://think-ai.podigee.io/
 
 Je Folge ein redaktioneller Fachartikel, sachlich und eingeordnet. Das sind eingeordnete Texte, keine Wortprotokolle.
 
+- [Zehn Prozent Risiko, sechs Aufwandsstufen und keine Baseline](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/58-doomsday/)
 - [Auf 1.700 Ständen wirbt niemand mit KI](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/57-gamescom-2026/)
 - [Eine Regel in einer Textdatei ist keine Grenze](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/56-personal-assistants/)
 - [Die Bremse ist eine Rechnung, keine Einsicht](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/55-ai-slowdown/)

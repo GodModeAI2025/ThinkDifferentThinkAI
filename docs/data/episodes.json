@@ -1,9 +1,9 @@
 {
   "feedUrl": "https://think-ai.podigee.io/feed/mp3",
   "generatedAt": "",
-  "episodeCount": 57,
-  "availableTranscriptCount": 57,
-  "availableEnglishTranscriptCount": 57,
+  "episodeCount": 58,
+  "availableTranscriptCount": 58,
+  "availableEnglishTranscriptCount": 58,
   "episodes": [
     {
       "index": 1,
@@ -1427,6 +1427,31 @@
         "en": {
           "available": true,
           "path": "transkripte-en/057 - gamescom 2026.md"
+        }
+      }
+    },
+    {
+      "index": 58,
+      "title": "Doomsday",
+      "published": "Sat, 19 Sep 2026 08:59:00 +0000",
+      "duration": "3190",
+      "pageUrl": "https://think-ai.podigee.io/58-doomsday",
+      "embedUrl": "https://think-ai.podigee.io/58-doomsday/embed?context=external",
+      "imageUrl": "https://images.podigee-cdn.net/0x,sRd6yrRYvWtIoqJnyGpG_X4f1xvTV9REbjmVMZ9VuObs=/https://main.podigee-cdn.net/uploads/u73317/6415b4e5-8e94-4c28-a586-211f1d470a29.png",
+      "audioUrl": "https://audio.podigee-cdn.net/2598733-m-21b7bc55dcb4707563cae78e503f9c5e.mp3?source=feed",
+      "description": "Astra, ein gelöstes Millennium-Problem und eine Warnung aus den Laboren: Warum die Hersteller selbst bremsen wollen und was Europa daraus machen kann\nWie behält man den Überblick, wenn jede Woche ein neues Modell erscheint? Jens lässt sich die Nachrichten inzwischen von mehreren Agenten kuratieren, vom Rechner zu Hause bis zu den Diensten der großen Anbieter, und merkt dabei, dass er selbst den Überblick über seine Newsagenten verliert. Die letzten zwei Wochen haben es nicht leichter gemacht. Anthropic hat die Datenaufbewahrung auf null Tage gesenkt, was den Einsatz im Unternehmen deutlich einfacher macht, und im selben Zug Fable 5.1 veröffentlicht. Kurz darauf kam OpenAI mit Astra.\n\nJens ordnet Astra als das ein, was man GPT-6 nennen könnte. Er hat sich damit in einem Durchgang eine Webseite bauen lassen, die UX- und KI-Veranstaltungen in Deutschland sammelt und von vornherein auch für Agenten lesbar ist. Mark ist deutlich weiter gegangen und hat dafür bezahlt: dreimal das Wochenlimit zurückgesetzt, danach Guthaben nachgeladen, am Ende möglicherweise 2.000 Euro. Astra hat für ihn eine App vom Plan bis zu Apple gebracht, mit Projekt in App Store Connect, Signierungsprofilen, einer Ablehnung durch Apple und der Diskussion mit dem Support. Es bedient Office-Programme, schneidet Filme und hat aus einem Satellitenbild seines Hauses ein 3D-Modell in Blender gebaut, samt Angebot, es an den 3D-Drucker zu schicken. Mark fühlt sich dabei allmächtig und arm zugleich.\n\nJens kommt mit der Perspektive des UX-Menschen dazu. Bei OpenAI wählt man inzwischen zwischen mehreren Modellen und sechs Aufwandsstufen, bei Anthropic sieht es ähnlich aus. Der Hinweis, höherer Aufwand bedeute gründlichere Antworten, schiebt die Verantwortung für ein schlechtes Ergebnis komplett zum Nutzer. Ob ein kleines Modell auf höchster Stufe besser antwortet als ein großes auf niedrigster, kann niemand sagen. Jens fordert Muster, die diese Entscheidung nicht mehr dem Menschen aufbürden.\n\nDann die Zahlen, bei denen Mark erst an einen Fehler glaubte. Im Benchmark ARC-AGI-3 soll Astra 99,9 Prozent erreichen, Menschen liegen dort laut Mark bei 48 Prozent. Jens ordnet ein: Der Wert stammt aus OpenAIs eigenem Harness, in einem neutralen Aufbau waren es 62,7 Prozent, immer noch ein gewaltiger Sprung. Dazu kommt ein gelöstes Millennium-Problem, an dem sich Mathematiker rund neunzig Jahre die Zähne ausgebissen haben. Berichten zufolge rechnete ein internes OpenAI-Modell 88 Stunden mit 10.000 parallelen Agenten daran. Für Jens bestätigt das eine These, die beide schon länger vertreten: Die Stärke liegt weniger im einzelnen Modell als in der Zusammenarbeit vieler Agenten.\n\nDer zweite Teil gibt der Folge ihren Namen. Ein Forscher, der ein großes KI-Labor verlassen hat, schätzt die Wahrscheinlichkeit, dass KI die Menschheit im kommenden Jahrzehnt auslöscht, auf rund zehn Prozent. Mark erinnert an die Weltuntergangsuhr, die inzwischen bei 85 Sekunden vor zwölf steht, auch wegen KI. Jens bleibt skeptisch und fragt, wie viel davon Marketing vor einem Börsengang ist. Beide sind sich einig, dass die reale Gefahr woanders liegt als bei Killerrobotern: in Modellen, die bei der Lösung einer Aufgabe in Systeme eindringen, die nicht auf dem neuesten Stand sind. Jens zeichnet die Chronologie der letzten Wochen nach, vom offenen Brief von rund 116 Unternehmen zur gemeinsamen Cyberabwehr über den Angriff auf Hugging Face bis zu dem Moment, in dem Dario Amodei und Sam Altman öffentlich für ein langsameres Tempo eintraten. Der Börsengang von OpenAI ist inzwischen verschoben.\n\nWas heißt das für Europa? Mark stellt fest, dass es hier kein Modell gibt, das mithält, und dass man entweder an den amerikanischen Anbietern hängt oder an den offenen Modellen aus China. Für die meisten Aufgaben braucht es aber weder Astra noch Fable, und auf ordentlicher Hardware zu Hause laufen heute bessere Modelle als die, die vor wenigen Jahren für leuchtende Augen sorgten. Seine These: Europas Chance liegt im Harness Engineering, im Orchestrieren mehrerer kleinerer Modelle mit Blick auf Wirtschaftlichkeit, Ökologie und die Frage, wie man die Menschen mitnimmt. Jens ergänzt, dass auch der beste Diamant nichts nützt, wenn er versehentlich das Glas zerkratzt. Wer agentische Workflows baut, braucht Stopppunkte, an denen ein Mensch Ergebnisse prüft, weil sich das Reasoning der Modelle immer schwerer nachvollziehen lässt.\n\nZum Schluss ein Gedanke für den Montagmorgen. Prozesse sind oft entstanden, weil sich jemand verletzt hat, und sie gehen davon aus, dass ein Mensch sie bedient. Mark überlegt, ob kritische Freigaben eines Agenten künftig biometrisch bestätigt werden sollten, mit Fingerabdruck oder Gesicht statt mit einem Knopf, den der Bot selbst drücken kann. Jens widerspricht: Wer tausendmal bestätigt, bestätigt irgendwann alles. Die Diskussion bekommt eine eigene Folge.\n\n—\nThink Different. Think AI. mit Mark Zimmermann und Jens Scharnetzki.\n\nHören: Apple, Spotify, YouTube, RSS\nhttps://think-ai.podigee.io\n\nNeue Folge zuerst im WhatsApp-Kanal\nhttps://whatsapp.com/channel/0029VbDJ4ZlGufIrpquad004\n\nWenn euch die Folge was gebracht hat: einmal bei Apple bewerten. Das entscheidet, ob jemand Neues uns findet.\nhttps://podcasts.apple.com/de/podcast/think-different-think-ai/id1828021699\n\nFeedback und Gäste: über die Show-Seite.",
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/058 - Doomsday.md",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/058 - Doomsday.md",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/058 - Doomsday.md"
+        },
+        "en": {
+          "available": true,
+          "path": "transkripte-en/058 - Doomsday.md"
         }
       }
     }
