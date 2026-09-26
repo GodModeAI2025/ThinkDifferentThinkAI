@@ -1,9 +1,9 @@
 {
   "feedUrl": "https://think-ai.podigee.io/feed/mp3",
   "generatedAt": "",
-  "episodeCount": 58,
-  "availableTranscriptCount": 58,
-  "availableEnglishTranscriptCount": 58,
+  "episodeCount": 59,
+  "availableTranscriptCount": 59,
+  "availableEnglishTranscriptCount": 59,
   "episodes": [
     {
       "index": 1,
@@ -1452,6 +1452,31 @@
         "en": {
           "available": true,
           "path": "transkripte-en/058 - Doomsday.md"
+        }
+      }
+    },
+    {
+      "index": 59,
+      "title": "JEV Moment",
+      "published": "Sat, 26 Sep 2026 15:20:29 +0000",
+      "duration": "3568",
+      "pageUrl": "https://think-ai.podigee.io/60-jev-moment",
+      "embedUrl": "https://think-ai.podigee.io/60-jev-moment/embed?context=external",
+      "imageUrl": "https://images.podigee-cdn.net/0x,se4168Z_oINRjrPEBW-XpyZkD2HNZm20mnmoPNzVxAgk=/https://main.podigee-cdn.net/uploads/u73317/ebf9925b-f3a4-48b6-8de2-e6eada01f19b.jpg",
+      "audioUrl": "https://audio.podigee-cdn.net/2604416-m-1d1f48e44dbcd189f5831ad94c37efa1.mp3?source=feed",
+      "description": "Ein Modell, das kein Wort schreibt, sondern nur entscheidet, und warum das plötzlich alle beschäftigt\nMark steigt mit einer Warnung ein: Heute werde es langweilig, es gehe um Ja oder Nein, Rechnung oder Mahnung. Gemeint ist Klassifizierung, und die kennt er aus seinen ersten Programmierversuchen zu Zeiten von Turbo Pascal, als eine IF-Abfrage. Man hat Schirmchen, und man legt Dinge hinein, wenn sie bestimmten Kriterien entsprechen. Genau dieses alte Thema hat Mitte September ein Beben ausgelöst.\n\nAm 15. September hat die Firma TypeSafe AI ein Modell namens Jev vorgestellt. Es kann keine Texte schreiben, es trifft Entscheidungen. Mark hat das zuerst abgetan. Er stand auf dem Rückweg aus dem Büro in der Straßenbahn, dachte sich, ein Modell, das nicht reden kann, was soll das, und scrollte weiter durch TikTok. Dort ließ ihn das Thema nicht mehr los, weil immer mehr Leute darüber berichteten.\n\nEine Anfrage an Jev besteht aus zwei Teilen: einem State und einer Question. Der State ist ein Satz, ein Absatz oder ein ganzer Text. Die Question zwingt das System zu einer eindeutigen Antwort. Drei Formen gibt es: die klassische Ja-Nein-Aussage, einen Score für Zustände wie Dringlichkeit oder Qualität, und eine Wahrscheinlichkeitsverteilung. Prompten kann man das Ding nicht.\n\nJens fragt dazwischen, was der Vorteil sein soll, wo ein Sprachmodell die Mail doch gleich beantworten könnte. Marks Antwort läuft über die Beispiele. Eine Mail lässt sich einsortieren: Beschwerde, Reklamation, Mahnung. Ein Vertrag lässt sich nach Passagen durchsuchen statt nach Wörtern, etwa nach allem, was mit Konventionalstrafe zu tun hat, ohne jede Schreibvariante vorher zu kennen. Dazu kommen die Zahlen: TypeSafe nennt bis zu 200 Mal schnellere Verarbeitung, und bei 10.000 Support-Tickets standen 0,042 US-Dollar je Million Eingabe-Token gegen 0,2 US-Dollar beim Sprachmodell. Weil das Antwortschema feststeht, ist das System außerdem robuster gegen Halluzination. Irren kann es sich, erfinden kann es nichts.\n\nDann kommt Marks Wochenende. Der Zugang war erst nicht zu bekommen, also hat er sich ein offenes Modell von Hugging Face genommen und ihm mit Apples neuem Framework Core AI, dem Nachfolger von Core ML, das Verhalten beigebracht: nur diese Fragen, nur eine Klassifizierung zurück. Gegen Jev selbst konnte er nicht antreten, gegen andere quelloffene Nachbauten schon, und weil das Framework so gut auf den Mac abgestimmt ist, war seine Lösung sechs- bis zwölfmal schneller. Schnell genug, dass sie Flappy Bird gespielt hat. Drücken oder nicht drücken, auf dem Handy, sofort nach dem Start. Mark beschreibt das als spooky, wie einem Film zuzusehen. Andere haben Tetris angeschlossen, wo die Sprachmodelle früh ausstiegen und die Klassifizierer sehr viel länger durchhielten, und jemand hat ein Browser-Framework damit erweitert, das seitdem schneller klickt, als die Seiten laden.\n\nFür Privatanwender, da ist Mark deutlich, ist das nichts. Es wird keinen Moment wie bei ChatGPT geben, keine Tagesschau, keinen Schulhof. Es wird in die Software wandern und einfach da sein, und was für den Menschen eine Suche ist, ist für das System eine Aneinanderreihung von tausend Klassifizierungen. Jens sieht die Wirkung im Zusammenspiel: Ein schnelles Modell entscheidet vorweg, ein großes wird nur noch gefragt, wenn es wirklich nötig ist. Beide landen bei Kahnemans schnellem und langsamem Denken. Genau deshalb heißt die Gattung bei TypeSafe System One. Und beide halten es für disruptiv, weil sich über Jahre gewachsene Regelwerke in großen IT-Systemen in solche Abfragen überführen lassen, ohne dass jemand über KI-Durchdringung reden muss.\n\nIm letzten Drittel geht es um Meta. Zuckerberg hat eine VR-Brille für rund 1.000 Euro gezeigt, neue KI-Brillen, den geräteübergreifenden Assistenten Muse und ein Gerät im Tamagotchi-Format für den Schlüsselbund, das im Dezember kommen soll. Mark hat sich darüber schlappgelacht und daraus eine Wette gemacht. Dazu Apples neue Funktionen für die Uhr, die den letzten Gesprächsfetzen wiedergeben und abends zusammenfassen, was am Tag gesprochen wurde. In der EU gibt es beides nicht. Marks Sorge gilt nicht dem Mithören allein, sondern dem Abstand, der entsteht, wenn hier über Jahre Funktionen fehlen, die anderswo Alltag sind. Jens hält dagegen: So schwarz sei das Bild nicht, in der Regulierung liege auch eine Chance.\n\nZum Schluss stellt Jens fest, dass Marks Wette schon verloren war, als er sie einging. Das Gerät kommt ja in drei Monaten auf den Markt, es wird also berichtet werden. Einfacher Gewinn.\n\n—\nThink Different. Think AI. mit Mark Zimmermann und Jens Scharnetzki.\n\nHören: Apple, Spotify, YouTube, RSS\nhttps://think-ai.podigee.io\n\nNeue Folge zuerst im WhatsApp-Kanal\nhttps://whatsapp.com/channel/0029VbDJ4ZlGufIrpquad004\n\nWenn euch die Folge was gebracht hat: einmal bei Apple bewerten. Das entscheidet, ob jemand Neues uns findet.\nhttps://podcasts.apple.com/de/podcast/think-different-think-ai/id1828021699\n\nFeedback und Gäste: über die Show-Seite.",
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/059 - JEV Moment.md",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/059 - JEV Moment.md",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/059 - JEV Moment.md"
+        },
+        "en": {
+          "available": true,
+          "path": "transkripte-en/059 - JEV Moment.md"
         }
       }
     }

@@ -697,8 +697,20 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/58-doomsday/"/>
   </url>
   <url>
+    <loc>https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/60-jev-moment/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/60-jev-moment/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/60-jev-moment/"/>
+  </url>
+  <url>
+    <loc>https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/60-jev-moment/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/60-jev-moment/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/60-jev-moment/"/>
+  </url>
+  <url>
     <loc>https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/</loc>
-    <lastmod>2026-09-20</lastmod>
+    <lastmod>2026-09-26</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/"/>
   </url>
@@ -1052,7 +1064,7 @@
   </url>
   <url>
     <loc>https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/</loc>
-    <lastmod>2026-09-20</lastmod>
+    <lastmod>2026-09-26</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/"/>
   </url>
@@ -1636,13 +1648,13 @@
   </url>
   <url>
     <loc>https://godmodeai2025.github.io/ThinkDifferentThinkAI/</loc>
-    <lastmod>2026-09-20</lastmod>
+    <lastmod>2026-09-26</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/"/>
   </url>
   <url>
     <loc>https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/</loc>
-    <lastmod>2026-09-20</lastmod>
+    <lastmod>2026-09-26</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/"/>
   </url>
