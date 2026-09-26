@@ -1,6 +1,6 @@
 ---
 title: "JEV Moment"
-episode_index: 59
+episode_index: 60
 published: "Sat, 26 Sep 2026 15:20:29 +0000"
 duration: "3568"
 page_url: "https://think-ai.podigee.io/60-jev-moment"

@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 import argparse
 import json
+import re
+import unicodedata
 import sys
 from pathlib import Path
 
@@ -16,12 +18,33 @@ def transcript_item(path):
     }
 
 
+def _titelkern(text):
+    """Vergleichsform eines Titels: nur Buchstaben und Ziffern, NFC-normalisiert.
+
+    macOS legt Dateinamen zerlegt ab (u + Trema), der Feed liefert sie zusammen-
+    gesetzt; dazu verliert der Dateiname Zeichen wie ? und !.
+    """
+    text = unicodedata.normalize("NFC", text or "")
+    return re.sub(r"[^0-9a-zà-ÿ]+", "", text.casefold())
+
+
 def transcript_path_for(transcript_dir, episode):
     exact_path = transcript_dir / safe_filename(episode)
     if exact_path.exists():
         return exact_path
-    matches = sorted(transcript_dir.glob(f"{episode.index:03d} - *.md"))
-    return matches[0] if matches else exact_path
+    # Ueber den Titel suchen, nicht ueber die Nummer. Dateinummer und Folgennummer
+    # fallen bei elf Altfaellen auseinander (018/019, 033-039, 041/043); ein Glob auf
+    # die Nummer liefert dort die Datei der *anderen* Folge, und die Folgenseite zeigt
+    # dann ein fremdes Transkript. Der Titel ist eindeutig.
+    if transcript_dir.is_dir():
+        gesucht = _titelkern(episode.title)
+        for kandidat in sorted(transcript_dir.glob("*.md")):
+            if _titelkern(re.sub(r"^\d{3} - ", "", kandidat.stem)) == gesucht:
+                # NFC, denn macOS liefert den Namen zerlegt zurueck, Git haelt ihn
+                # zusammengesetzt. Aus dem Pfad wird der GitHub-Link auf der
+                # Folgenseite gebaut, und die zerlegte Form gibt dort 404.
+                return Path(unicodedata.normalize("NFC", str(kandidat)))
+    return exact_path
 
 
 def embed_url_for(page_url):

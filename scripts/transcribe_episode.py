@@ -41,6 +41,12 @@ def text_of(node, path, default=""):
     return html.unescape(found.text).strip()
 
 
+def slug_nummer(page_url):
+    """Folgennummer aus dem Podigee-Slug, z. B. .../60-jev-moment -> 60."""
+    treffer = re.search(r"/(\d{1,4})-[^/]*/?$", (page_url or "").strip())
+    return int(treffer.group(1)) if treffer else None
+
+
 def fetch_bytes(url, timeout=60):
     request = urllib.request.Request(url, headers={"User-Agent": "ThinkDifferentThinkAI-transcriber/1.0"})
     with urllib.request.urlopen(request, timeout=timeout) as response:
@@ -62,6 +68,12 @@ def parse_feed(feed_url):
         enclosure = item.find("enclosure")
         if enclosure is None or not enclosure.attrib.get("url"):
             continue
+
+        # Die Folgennummer steht im Slug, nicht in der Feed-Reihenfolge. Beides faellt
+        # auseinander, sobald eine Folge nachtraeglich eingeschoben oder umsortiert wird.
+        # Ohne das bekaeme die Datei die Position statt der Nummer, und zwei Folgen
+        # tauschten am Ende ihre Namen (passiert bei 018/019, 033-039, 041/043).
+        index = slug_nummer(text_of(item, "link")) or index
 
         length = enclosure.attrib.get("length", "0")
         item_image = item.find("itunes:image", NS)
