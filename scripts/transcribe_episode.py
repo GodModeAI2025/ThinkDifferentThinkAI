@@ -130,6 +130,15 @@ NAME_CORRECTIONS = (
     (r"\bThink ?Different,? ?Think ?A\.?I\.?", "Think Different. Think AI."),
     (r"\bSing[- ]?defin,? ?Sing\.?K\.?I\.?\b", "Think Different. Think AI"),
     (r"\bEnthrophic\b|\bEntroffic\b|\bEntrophic\b|\bAnthrophic\b|\bEntropic\b", "Anthropic"),
+    (r"\bType[- ]?Safe ?A\.?I\.?\b", "TypeSafe AI"),
+    (r"\bType[- ]Safe\b", "TypeSafe"),
+    # Das Klassifizierungsmodell Jev klingt gesprochen wie "Jeff". Der Lookahead
+    # schuetzt echte Personen: "Jeff Bezos" bleibt stehen, ein alleinstehendes
+    # "Jeff" wird korrigiert. In Folge 60 traf es 56 Stellen, dazu "Chef".
+    # Beim Genitiv braucht es keinen Lookahead: Auf "Jeffs" folgt ein Substantiv,
+    # das im Deutschen ohnehin gross steht, und "Jeffs Bezos" gibt es nicht.
+    (r"\bJeffs\b", "Jevs"),
+    (r"\bJeff\b(?! [A-Z])", "Jev"),
 )
 
 

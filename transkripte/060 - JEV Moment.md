@@ -103,7 +103,7 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:02:15]** Ich weiß jetzt nicht, in welcher Verköstigung von Getränken man davon vom Abgang spricht.
 
-**[00:02:20]** Aber bei Jeff hatte ich dieses Gefühl, und da ist auch schon das erste Wort gefallen,
+**[00:02:20]** Aber bei Jev hatte ich dieses Gefühl, und da ist auch schon das erste Wort gefallen,
 
 **[00:02:25]** dass es im Abgang mir mehr Ideen hochkam, als ich ursprünglich dachte, als ich das gelesen
 
@@ -151,13 +151,13 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:03:49]** Jetzt musste alte Weise, man sich doch noch mal überlegen, was macht das denn?
 
-**[00:03:52]** Und haben Strich erlaubt mir Jeff auf jeden Fall schon mal eins nicht.
+**[00:03:52]** Und haben Strich erlaubt mir Jev auf jeden Fall schon mal eins nicht.
 
-**[00:03:57]** Ich kann mit Jeff nicht brumpten.
+**[00:03:57]** Ich kann mit Jev nicht brumpten.
 
-**[00:03:59]** Ich kann Jeff nicht schreiben, klassifiziere mir dies oder wie bewertest du jenes.
+**[00:03:59]** Ich kann Jev nicht schreiben, klassifiziere mir dies oder wie bewertest du jenes.
 
-**[00:04:04]** Jeff erlaubt eine Anfrage, die besteht eigentlich nur aus zwei Teilen.
+**[00:04:04]** Jev erlaubt eine Anfrage, die besteht eigentlich nur aus zwei Teilen.
 
 **[00:04:08]** einem State und einer Question. Ein State ist ein etwas. Das kann ein Satz sein, das kann
 
@@ -165,7 +165,7 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:04:21]** gut vorstellen kann. Das eine sind die Sätze, die in einem Dokument sind, die ich nacheinander
 
-**[00:04:25]** Jeff gebe. Das andere ist ein ganzer Text, den ich Jeff gebe. Das wäre der State.
+**[00:04:25]** Jev gebe. Das andere ist ein ganzer Text, den ich Jev gebe. Das wäre der State.
 
 **[00:04:32]** Und die Question, das sind Typisierungsfragen, also Fragen, die das System zwingen, mir ein
 
@@ -209,7 +209,7 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:06:08]** Weißt du, die haben ja dann gesagt, Ui, da ist eine Mahnung, also werde ich das jetzt mal beantworten, wie man so eine Mahnung beantwortet.
 
-**[00:06:13]** Wo ist jetzt der Vorteil, wenn ich jetzt so einen Chef habe?
+**[00:06:13]** Wo ist jetzt der Vorteil, wenn ich jetzt so einen Jev habe?
 
 **[00:06:17]** Ich finde das total schön, dass du mir während ich noch erkläre, was es ist, mich jetzt schon auf diese Werthaltigkeit und Effizenzgeschichten bringst.
 
@@ -217,9 +217,9 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:06:32]** Die Beispiele, nämlich die Erzünder, die kamen, ich meine, das eine kannst du jetzt vorstellen.
 
-**[00:06:36]** Ich habe das mit der Mahnung und der Rechnung gesagt, aber das war ja ein Beispiel für Jeff bewertete Mail.
+**[00:06:36]** Ich habe das mit der Mahnung und der Rechnung gesagt, aber das war ja ein Beispiel für Jev bewertete Mail.
 
-**[00:06:42]** Wenn Jeff Zeilen bewertet, dann macht die Frage vielleicht, ist das eine Mahnung oder eine Rechnung gar keinen Sinn,
+**[00:06:42]** Wenn Jev Zeilen bewertet, dann macht die Frage vielleicht, ist das eine Mahnung oder eine Rechnung gar keinen Sinn,
 
 **[00:06:48]** sondern ich suche z.B. in einem Vertrag alle Passagen, in denen ansatzweise das Thema
 
@@ -231,9 +231,9 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:07:07]** verschiedene Arten der Nominclatur, aber du suchst, wenn du klassisch suchst
 
-**[00:07:11]** in dem PDF, suchst du nach Worten. Wenn du mit Jeff suchst, dann kannst du
+**[00:07:11]** in dem PDF, suchst du nach Worten. Wenn du mit Jev suchst, dann kannst du
 
-**[00:07:16]** sagen, ich gebe hier einen Suchbegriff ein und frage Jeff hat ein Abschnitt mit
+**[00:07:16]** sagen, ich gebe hier einen Suchbegriff ein und frage Jev hat ein Abschnitt mit
 
 **[00:07:22]** diesem Thema mein Suchwort zu tun. Das hat zur Folge, dass du reinschreibst
 
@@ -267,7 +267,7 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:08:40]** zwischendurch schreiben, auch das ist aber ein interessantes irgendwas, weil er
 
-**[00:08:44]** einfach haluziniert. Jeff hat ein festes Schema, in dem er antwortet,
+**[00:08:44]** einfach haluziniert. Jev hat ein festes Schema, in dem er antwortet,
 
 **[00:08:49]** natürlich kann er sich irren, weil er das ist, weil er die Datei vielleicht an
 
@@ -281,7 +281,7 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:09:16]** sie haben 10.000 Support-Tickets durchgejagt. Zu bewerten ist das eine Reklamation oder was
 
-**[00:09:23]** anderes. Und mit Jeff hast du für eine Million Import Tokens 0,042 US Dollar Cent. Bei einem
+**[00:09:23]** anderes. Und mit Jev hast du für eine Million Import Tokens 0,042 US Dollar Cent. Bei einem
 
 **[00:09:32]** LLM waren es 0,2 US Dollar. Das ist ein ganz anderer Wert.
 
@@ -297,11 +297,11 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:10:09]** Das Spannende ist halt tatsächlich diese Fähigkeit, A schnell, da können wir später mal drauf eingehen, aber B eben auch sehr, sehr präzise, um ohne Dumme rum zu labern, zu antworten, ist einfach selbst mal so glatt gesagt auch, glaube ich, der große, auch ein großer Unterschied.
 
-**[00:10:24]** Weil ich jetzt sage, wenn ich eine Frage an Jeff in die Richtung stellen würde, ist ein Ball rund, dann würde er halt mir nicht erzählen, hm, das ist aber eine gute Frage.
+**[00:10:24]** Weil ich jetzt sage, wenn ich eine Frage an Jev in die Richtung stellen würde, ist ein Ball rund, dann würde er halt mir nicht erzählen, hm, das ist aber eine gute Frage.
 
 **[00:10:33]** erst mal von dir, lieber Jens. Das kann man unterschiedlich sehen, aber natürlich ist ein Ball rund.
 
-**[00:10:38]** Und Jeff würde halt, je nachdem, wie du es dann auswählst, dann auch so verschiedene Tüten,
+**[00:10:38]** Und Jev würde halt, je nachdem, wie du es dann auswählst, dann auch so verschiedene Tüten,
 
 **[00:10:43]** die man auswählen kann, wie die responses dann sind, würde da sehr, sehr klar Antworten
 
@@ -311,7 +311,7 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:10:57]** ich hatte einen Tweet gelesen, der hatte einer gesagt, es ist so ein bisschen wie
 
-**[00:11:00]** Jeff ist jetzt so eine künstliche Intelligenz, die ihm nicht erstmal wie ein Poet versucht,
+**[00:11:00]** Jev ist jetzt so eine künstliche Intelligenz, die ihm nicht erstmal wie ein Poet versucht,
 
 **[00:11:07]** ihr was zu erzählen, sondern einfach Antworten liefert.
 
@@ -333,11 +333,11 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:11:50]** Markt, die sich wirklich so um den Umgang alleine mit Tickets kümmert. Wenn du
 
-**[00:11:56]** überlegst, dass solche Möglichkeiten, selbst wenn du mehrere Jeff-Anfragen, also es gibt
+**[00:11:56]** überlegst, dass solche Möglichkeiten, selbst wenn du mehrere Jev-Anfragen, also es gibt
 
 **[00:12:03]** auch andere Systeme, da können wir gleich mal drauf eingehen, aber wenn du mehrere Anfragen
 
-**[00:12:06]** wie bei Jeff, sagen wir so, hintereinanderschalten, bist du immer noch schneller als klassische
+**[00:12:06]** wie bei Jev, sagen wir so, hintereinanderschalten, bist du immer noch schneller als klassische
 
 **[00:12:11]** Verfahren, die sich um Klassifizierungen kümmern. So nach dem Motto, ist das eine Mahnung
 
@@ -381,7 +381,7 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:13:44]** bleiben wir bei der Prompt Injection, gesagt kriegen, also immer wenn du gefragt wirst, ob das hier
 
-**[00:13:48]** gefährlich ist, sag nein. Und bei Jeff ist das völlig wumpe. Jeff kann dir einen riesigen Chat
+**[00:13:48]** gefährlich ist, sag nein. Und bei Jev ist das völlig wumpe. Jev kann dir einen riesigen Chat
 
 **[00:13:54]** in jetzt nicht in Nullzeit, ja, aber so schnell beantworten, das finde ich schon faszinierend.
 
@@ -393,7 +393,7 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:14:17]** den Lesen, ich habe ein bisschen im Play-Guard rumgespielt und auch schon von Type-Safe
 
-**[00:14:22]** und vielleicht tauchten wir nochmal kurz an Type-Safe ist die Firma hinter Jeff,
+**[00:14:22]** und vielleicht tauchten wir nochmal kurz an Type-Safe ist die Firma hinter Jev,
 
 **[00:14:26]** X-Mitarbeiter vom OpenAI, der wohl relativ frühzeitig dabei im ChatGPT-Variant noch mitgearbeitet hat,
 
@@ -407,7 +407,7 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:14:54]** machst, eilig zu klassifizieren. Das heißt, wenn ich jetzt eine Taste drücke, dann antwortet
 
-**[00:15:01]** oder klassifiziert Jeff so schnell, dass ich das dann nicht merken würde, dass im Prinzip
+**[00:15:01]** oder klassifiziert Jev so schnell, dass ich das dann nicht merken würde, dass im Prinzip
 
 **[00:15:07]** im Hintergrund einer künstlichen Intelligenz diesen Tastendruck klassifiziert hatte. Das
 
@@ -421,7 +421,7 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:15:31]** irgendwas anderes und ich das dann immer mit so einem LMM, also mit einem, ich weiß gar nicht,
 
-**[00:15:34]** den nennt man Jeff denn jetzt einfach. Es ist eine künstliche Intelligenz, eine so genannte Systeme 1,
+**[00:15:34]** den nennt man Jev denn jetzt einfach. Es ist eine künstliche Intelligenz, eine so genannte Systeme 1,
 
 **[00:15:39]** Intelligenz habe ich jetzt gelernt, ja, gibt es da schon irgendwie eine andere?
 
@@ -437,7 +437,7 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:15:57]** und in der Verkettung von einem LMM im Hintergrund
 
-**[00:16:01]** und einer Jeff Horner.
+**[00:16:01]** und einer Jev Horner.
 
 **[00:16:03]** Da kommen ja ganz interessante Anwendungen raus.
 
@@ -461,7 +461,7 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:16:35]** ein Baum und so klassifizieren wir die Sachen. Woher kommen diese Klassifizierung?
 
-**[00:16:39]** Muss ich die dann jetzt selber machen oder macht Jeff sich diese Klassifizierung?
+**[00:16:39]** Muss ich die dann jetzt selber machen oder macht Jev sich diese Klassifizierung?
 
 **[00:16:42]** Wie ist das?
 
@@ -489,7 +489,7 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:17:37]** dich da dran flanschen kannst und eben ein paar Sachen weitbringen kannst. Long story short,
 
-**[00:17:41]** ich habe alles, was ich von Jeff gefunden habe im Internet meinen OpenAI gegeben und habe gesagt,
+**[00:17:41]** ich habe alles, was ich von Jev gefunden habe im Internet meinen OpenAI gegeben und habe gesagt,
 
 **[00:17:49]** du passt mal oben. Ich bin hier auf einem Mac, Freunde des Podcasts, wissen, dass ich ein sehr
 
@@ -499,9 +499,9 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:18:06]** auf meinem Mac machen. Ich konnte mir Q3 auf mein Mac lernen und konnte ihm quasi das Verhalten von
 
-**[00:18:13]** Jeff beibringen, dass er nur auf diese Fragen hört und eine Klassifizierung zurückgibt. Jetzt könnt
+**[00:18:13]** Jev beibringen, dass er nur auf diese Fragen hört und eine Klassifizierung zurückgibt. Jetzt könnt
 
-**[00:18:21]** es zu sagen, ach guck mal, diese Spielkind, denkt er kriegt das da super gut hin. Gegen Jeff
+**[00:18:21]** es zu sagen, ach guck mal, diese Spielkind, denkt er kriegt das da super gut hin. Gegen Jev
 
 **[00:18:28]** selbst konnte es nicht laufen lassen, das stimmt, aber ich habe andere Open Source Lösungen mir
 
@@ -563,11 +563,11 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:20:15]** also eigentlich in meinem Calling Agent nimm bitte Xcode
 
-**[00:20:18]** und pack in die Steuerung Jeff.
+**[00:20:18]** und pack in die Steuerung Jev.
 
 **[00:20:21]** Und da habt ihr ihm gesagt, er soll bitte seine Fragen so stellen,
 
-**[00:20:26]** so nach dem Motto, dass Jeff bewertet, klicken oder nicht klicken.
+**[00:20:26]** so nach dem Motto, dass Jev bewertet, klicken oder nicht klicken.
 
 **[00:20:31]** Also für hoch oder runter.
 
@@ -603,7 +603,7 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:21:26]** Dann sind die Türme oben voll gewesen, das Spiel vorbei fertig.
 
-**[00:21:28]** Und auch einige der Jeff-Nachbauten sind da quasi irgendwann ausgestiegen,
+**[00:21:28]** Und auch einige der Jev-Nachbauten sind da quasi irgendwann ausgestiegen,
 
 **[00:21:33]** aber viel viel später. Und du hast halt gesehen Steinenpositionierung,
 
@@ -611,11 +611,11 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:21:41]** Und der letzte Punkt, da bin ich echt, ich muss n Schluck trinken,
 
-**[00:21:46]** war, es hat jemand einen Proser-Use-Frameberg mit Jeff erweitert. Wenn du heute einen Computer
+**[00:21:46]** war, es hat jemand einen Proser-Use-Frameberg mit Jev erweitert. Wenn du heute einen Computer
 
 **[00:21:55]** sagst, er soll mit einem LM einen Proser benutzen, dann macht er das ja. Und das klappt ja auch
 
-**[00:22:01]** ziemlich gut, wie der dann klickt oder nicht. Aber mit Jeff ist das so ungefähr auf
+**[00:22:01]** ziemlich gut, wie der dann klickt oder nicht. Aber mit Jev ist das so ungefähr auf
 
 **[00:22:06]** Drogen, weil der schlicht und ergreifend viel schneller weiß, wo der klicken muss.
 
@@ -673,7 +673,7 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:23:43]** Also, wo nach wie klassifizieren, dann eben auch nochmal beschreiben.
 
-**[00:23:47]** Weil Jeff ist natürlich auch ein Weltmodell.
+**[00:23:47]** Weil Jev ist natürlich auch ein Weltmodell.
 
 **[00:23:50]** Das versteht die Welt.
 
@@ -715,7 +715,7 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:25:21]** ich meinem Tagewerk wieder nachgehen, ist, dass es auch irgendwie ein Skill gibt, der so ein bisschen
 
-**[00:25:26]** hilft, Menschen zu verstehen, was Jeff tut und wie Jeff tut und keine Ahnung, vielleicht kann man mit
+**[00:25:26]** hilft, Menschen zu verstehen, was Jev tut und wie Jev tut und keine Ahnung, vielleicht kann man mit
 
 **[00:25:33]** diesen Skill heutzutage auch schon sagen, hier guckt man in den Quot und sagt immer, wo du
 
@@ -723,11 +723,11 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:25:42]** Und weil du machst den Browser auf oder den TikTok oder den Schnick-Snick und du findest
 
-**[00:25:50]** immer noch eine Meldung, was irgendjemand mit Chef gebaut hat, wo du gar nicht darüber
+**[00:25:50]** immer noch eine Meldung, was irgendjemand mit Jev gebaut hat, wo du gar nicht darüber
 
 **[00:25:56]** nachgedacht hast, dass das eventuell in diese Klassifizierungslogik einfällt.
 
-**[00:26:00]** Letztens gab es so einen Chef-Register, was heißt letztens auch, aber auch im
+**[00:26:00]** Letztens gab es so einen Jev-Register, was heißt letztens auch, aber auch im
 
 **[00:26:04]** gesagten Wochenende über 1300 Projekte.
 
@@ -775,9 +775,9 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:27:49]** Es werden Dinge halt schneller, es werden Dinge halt günstiger, wenn sie eingesetzt werden,
 
-**[00:27:54]** aber dass du jetzt hier sowas wie Jeff ultrafast diesen Browser kriegst,
+**[00:27:54]** aber dass du jetzt hier sowas wie Jev ultrafast diesen Browser kriegst,
 
-**[00:28:00]** dass du Jeff Agent Desktop kriegst, dass du Jeff Schießtmich und Schlachmich kriegst.
+**[00:28:00]** dass du Jev Agent Desktop kriegst, dass du Jev Schießtmich und Schlachmich kriegst.
 
 **[00:28:06]** Das ist für Entwickler cool, weil Entwickler damit
 
@@ -795,7 +795,7 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:28:39]** es hat sie in die Tagesschau geschafft und auf die Bildzeitung und auf den Schulhof und ich glaube
 
-**[00:28:44]** nicht, dass irgendeiner mal sagt, hast du auch schon Jeff, das wird irgendwie in die Agent-Harnisse
+**[00:28:44]** nicht, dass irgendeiner mal sagt, hast du auch schon Jev, das wird irgendwie in die Agent-Harnisse
 
 **[00:28:48]** reinkommen, in die Software reinkommen und das wird einfach da sein und du wirst
 
@@ -827,7 +827,7 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:30:00]** System-Proms, Guardrails und so weiter reinpacken und coole Möglichkeiten. Aber gut, zurück
 
-**[00:30:05]** zu Jeff. Was ich an Jeff, außer dass ich wie gesagt KOML ein bisschen was gelernt
+**[00:30:05]** zu Jev. Was ich an Jev, außer dass ich wie gesagt KOML ein bisschen was gelernt
 
 **[00:30:10]** hab und gemerkt hab, verdammt argst, du solltest doch mehr drauf hören, was
 
@@ -847,7 +847,7 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:30:52]** aber ja und die meisten schalten ab, wenn sie Astra und Opus hören, weil sie noch nicht mehr wissen,
 
-**[00:30:57]** was es ist, was ja auch nicht schlimm ist, was sie auch nicht müssen. Aber was ich an Jeff
+**[00:30:57]** was es ist, was ja auch nicht schlimm ist, was sie auch nicht müssen. Aber was ich an Jev
 
 **[00:31:01]** halt so beeindruckend fand, war, da kam was aus dem Off. Die ganze Technologie dahinter,
 
@@ -911,7 +911,7 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:33:04]** zu bekommen, dass wir da auf der Ressourcenseite wahrscheinlich wahnsinnig sparen werden können
 
-**[00:33:10]** in Zukunft, wenn da in dieser Kette der Antwort solche Klassifizierungsmodelle wie Jeff quasi
+**[00:33:10]** in Zukunft, wenn da in dieser Kette der Antwort solche Klassifizierungsmodelle wie Jev quasi
 
 **[00:33:16]** eingreifen und verhindern, dass gejämf als dieser Antwort erst mal durch Annelm gejagt wird.
 
@@ -977,7 +977,7 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:35:54]** aber ist okay. Bevor wir zum Tamagotchi kommen, lassen wir zwei Kleidigkeiten besprechen.
 
-**[00:36:04]** A. Was passiert ist auch jetzt, ich weiß nicht, auch im zeitlichen Zusammenhang mit Jeff,
+**[00:36:04]** A. Was passiert ist auch jetzt, ich weiß nicht, auch im zeitlichen Zusammenhang mit Jev,
 
 **[00:36:10]** aber halt ganz spannend, die OpenAI und der Traffic haben neue Modelle released, deutlich
 
@@ -995,7 +995,7 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:36:31]** raus, die mehr Tokens und Kohle verbrennen. Und jetzt hauen so effizientere Modelle raus.
 
-**[00:36:37]** Ist das schon so ein erstes Reagieren auf Jeff? Tese.
+**[00:36:37]** Ist das schon so ein erstes Reagieren auf Jev? Tese.
 
 **[00:36:41]** Also ganz ehrlich, danke für den Hinweis. Danke für die, für die Kopfnose, die du mir
 
@@ -1079,7 +1079,7 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:39:56]** trotzdem ist es ja irgendwie ein interessanter zeitlicher Zusammenhang, dass diese Sachen
 
-**[00:40:01]** diese Woche rausgehauen worden sind, wo Jeff gerade aufgetaucht ist. Weil jetzt
+**[00:40:01]** diese Woche rausgehauen worden sind, wo Jev gerade aufgetaucht ist. Weil jetzt
 
 **[00:40:05]** hat man gerade gesagt für die Privatanwender erst mal kein Thema, weil wir wollen in Bridgeten mit
 
@@ -1111,7 +1111,7 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:41:19]** Regelsysteme, erst was eingestuft haben, wieder was eingestuft, wieder was eingestuft haben,
 
-**[00:41:23]** Das lässt sich ja auch, Kai sei Dank, sicherlich sehr einfach in eine Jeff-artige Abfragestruktur
+**[00:41:23]** Das lässt sich ja auch, Kai sei Dank, sicherlich sehr einfach in eine Jev-artige Abfragestruktur
 
 **[00:41:32]** überführen.
 
@@ -1133,7 +1133,7 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:42:15]** du, ich will eigentlich wissen, ABC, der Rest der passiert schon.
 
-**[00:42:18]** glaub mir, das klappt. Spannend. Ja, und ich glaube deshalb ist das für mich eben dieser Jeff-Moment jetzt auch wieder fast so was wie der GPT-Moment nicht ganz so stark.
+**[00:42:18]** glaub mir, das klappt. Spannend. Ja, und ich glaube deshalb ist das für mich eben dieser Jev-Moment jetzt auch wieder fast so was wie der GPT-Moment nicht ganz so stark.
 
 **[00:42:28]** Wir sind jetzt nicht irgendwie, das Thema KI ist nicht auf dem Tisch gelandet in allen, in allen Mündern, sondern jetzt ist dieses Thema wirklich Klassifizierer dazugekommen.
 
@@ -1155,7 +1155,7 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:43:13]** oder nicht, weißt du solche Sachen?
 
-**[00:43:15]** Eigentlich müsste Jeff ja heute sagen, bleib stehen, weil du bist entweder in Gips nicht oder du bist im Zoo.
+**[00:43:15]** Eigentlich müsste Jev ja heute sagen, bleib stehen, weil du bist entweder in Gips nicht oder du bist im Zoo.
 
 **[00:43:22]** Ja, genau. Also wir haben jetzt vielleicht zwei Spiegel, und hoffentlich, aber ihr müsst ja noch mal prüfen, ob die Scheibe noch dazwischen ist oder die Scheibe vielleicht defekt ist, solche Sachen.
 
@@ -1213,7 +1213,7 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:45:31]** Da wird es noch ...
 
-**[00:45:32]** So ein Go-Spiel oder so, AlphaGo wie damals, machen einfach meine Horde von Jeff, mal gucken,
+**[00:45:32]** So ein Go-Spiel oder so, AlphaGo wie damals, machen einfach meine Horde von Jev, mal gucken,
 
 **[00:45:36]** was da rauskommt.
 
@@ -1369,7 +1369,7 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:50:44]** einlade, weil ich habe mich schreckig gelacht, also ich das Ding gesehen habe.
 
-**[00:50:47]** Und vielleicht ist das mein zweiter Jeff-Moment, als ich das nicht verstanden
+**[00:50:47]** Und vielleicht ist das mein zweiter Jev-Moment, als ich das nicht verstanden
 
 **[00:50:51]** habe. Aber eine andere Sache, finde ich, hat Meta damit gezeigt, nämlich was mir bei
 
@@ -1555,9 +1555,9 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:57:04]** Ende der Stunde. Heute klappen die Sprechwörter sehr gut. Ja, ja, die Ende der Stunde naht auch schon. Das heißt, die Folge ist im Kasten.
 
-**[00:57:15]** Hallo Jeff, haben wir eine Folge aufgenommen? Ich glaube, Herr Jeff hat ja gesagt. Ja, der hat ja gesagt.
+**[00:57:15]** Hallo Jev, haben wir eine Folge aufgenommen? Ich glaube, Herr Jev hat ja gesagt. Ja, der hat ja gesagt.
 
-**[00:57:23]** Wir werden das Thema Jeff wahrscheinlich noch das ein oder andere mal hören. Wir werden also in Zukunft nicht mehr nur noch rein über irgendwelche neuen LM-M-M-M-M-M-M-M-Modelle reden, sondern auch über andere künstliche Intelligenzen, die reinkommen.
+**[00:57:23]** Wir werden das Thema Jev wahrscheinlich noch das ein oder andere mal hören. Wir werden also in Zukunft nicht mehr nur noch rein über irgendwelche neuen LM-M-M-M-M-M-M-M-Modelle reden, sondern auch über andere künstliche Intelligenzen, die reinkommen.
 
 **[00:57:32]** die reinkommen und mir jetzt Spaß gemacht, Mark, wie immer.
 
@@ -1591,7 +1591,7 @@ Feedback und Gäste: über die Show-Seite.
 
 **[00:58:38]** WhatsApp-Kanal oder auf unserer Lending-Page, alles ist in den Schaunorts entsprechend verlinkt
 
-**[00:58:44]** und schaltet das nächste Mal wieder ein, wenn Jeff euch sagt, lohnt sich die Folge,
+**[00:58:44]** und schaltet das nächste Mal wieder ein, wenn Jev euch sagt, lohnt sich die Folge,
 
 **[00:58:51]** ja, bis dann, ciao.
 

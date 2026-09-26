@@ -78,6 +78,7 @@ Podcast: https://think-ai.podigee.io/
 
 Je Folge ein redaktioneller Fachartikel, sachlich und eingeordnet. Das sind eingeordnete Texte, keine Wortprotokolle.
 
+- [Entscheiden statt schreiben: Die zweite Gattung neben dem Sprachmodell](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/60-jev-moment/)
 - [Zehn Prozent Risiko, sechs Aufwandsstufen und keine Baseline](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/58-doomsday/)
 - [Auf 1.700 Ständen wirbt niemand mit KI](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/57-gamescom-2026/)
 - [Eine Regel in einer Textdatei ist keine Grenze](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/56-personal-assistants/)
