@@ -15,7 +15,7 @@ transcribed_at: "2026-09-26T18:06:30+00:00"
 translated_from_language: "de"
 translation_provider: "claude"
 translation_model: "claude-opus-5-5"
-translated_from_file: "transkripte/059 - JEV Moment.md"
+translated_from_file: "transkripte/060 - JEV Moment.md"
 translated_at: "2026-09-26T18:08:44+00:00"
 ---
 
