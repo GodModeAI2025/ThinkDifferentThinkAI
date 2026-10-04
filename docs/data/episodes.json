@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 60,
   "availableTranscriptCount": 60,
-  "availableEnglishTranscriptCount": 59,
+  "availableEnglishTranscriptCount": 60,
   "episodes": [
     {
       "index": 1,
@@ -1492,16 +1492,16 @@
       "description": "Was KI-Effizienz wirklich kostet: Abnahmekriterien, Gegenkennzahlen und warum die Zeit zwischen den Arbeitsschritten entscheidet\nFirmen werfen 80 Prozent ihrer Leute raus, weil das jetzt die KI macht. Diese Meldung geht seit Monaten durch die Presse, und Alexander Heusingfeld möchte nachrechnen. Wer 80 Prozent entlässt, behauptet damit den Faktor fünf. Klarna hat den Schritt für den Kundenkontakt inzwischen wieder zurückgenommen. Und selbst wenn die Rechnung aufginge, bleibt Alex' eigentliche Frage offen: Woher will jemand vorher wissen, welche 20 Prozent das Skillset haben, der Maschine beizubringen, was am Ende herauskommen soll? Wer selbst noch nicht ausprobiert hat, was möglich ist, kann das nicht beurteilen.\n\nMark dreht die Frage um. Statt „wen brauchen wir nicht mehr\" interessiert ihn, was bisher liegen geblieben ist, weil nie jemand Zeit dafür hatte. Beide landen bei derselben Beobachtung: Regulatorik wie NIS-2 bleibt liegen, weil die Kapazität fehlt, teilweise sogar bei Behörden. Über jedes Stück stupide Arbeit, das eine Maschine übernimmt, kann man sich also erst einmal freuen. Die freigeräumte Zeit ist ein Invest, kein Einsparposten.\n\nDann erzählt Mark, was an einem Wochenende passiert ist, an dem er eigentlich Schränke aufgebaut hat. Auf einem Mac Mini hinter dem Fernseher, ohne Skills, mit nichts als Zugriff auf seine alten Git-Projekte, hat ein Agent sich das Smart Home angesehen und vorgeschlagen, die Lautsprecher im ganzen Haus als Interface zu nehmen. Danach lief die Arbeit über Sprache, während Mark durchs Haus ging. Der Agent hat ein Jahre altes Projekt fertiggestellt, sich Xcode geholt, Bundle Identifier und Signierungszertifikate selbst gebaut und die App am Ende über TestFlight aufs Telefon geliefert. Mark musste nur ein paar Kennwörter eintippen. War das effizient? Er sagt selbst: mehrere Wochenlimits verbrannt, garantiert nicht. War es das wert? Absolut.\n\nAlex hält dagegen und stellt die zwei Fragen, um die es in der Folge geht. Was war der Harness, und welche Rahmenbedingungen hast du mitgegeben? Er selbst hat sich mit einem Agenten über AWS die Steuererklärung vorbereiten lassen: knapp 800 Belege, das Ziel „mindestens 80 Prozent einsortiert und formal richtig\", vier Stunden Rechenzeit, 60 Euro. Zurück kam auch der Hinweis, wo der Steuerberater im Vorjahr etwas anders hätte abrechnen können. Aus dieser Erfahrung wird eine Metrik, die er für die brauchbarste hält: Verifikationsaufwand pro ausgelieferter Änderung. Sinkt sie, waren die Abnahmekriterien besser.\n\nDaraus werden drei Regeln. Nie eine einzelne Kennzahl, weil jede einzelne Zahl gegamed wird, sondern immer ein Faktor aus Kriterien und Rahmenbedingungen. Immer Gegenkennzahlen mitlaufen lassen, Change Fail Rate, das älteste Work in Progress, Developer Experience. Und niemals selbstberichtete Geschwindigkeit: Entwickler geben 25 Prozent Beschleunigung an, gemessen wurden bis zu 20 Prozent Verlangsamung, weil die Zeit in Reviews und Nachbesserungen zurückfließt.\n\nMark ergänzt die Kette drumherum. Wenn einer drei Tage durchlaufen lässt, steht das Team vor einem Pull Request, der aussieht wie ein gefluteter Landstrich, das Backlog ist am dritten Tag eines Zweiwochensprints leer, und die Tester werden überrannt. Codekommentare, früher Pflicht, führen Agenten heute in die Irre, weil sie den Kommentar lesen statt der Routine. Und wer Generierung durch Agenten reviewen lässt, die wieder von Agenten kommentiert werden, verbrennt Tokens für das Gegenteil von Effizienz. Alex bringt dazu eine Untersuchung aus dem Flugzeugbau mit: 8,5 Prozent der Durchlaufzeit sind wertschöpfend, grob zwei Wochen Wartezeit pro Tag Arbeit. Die Antwort auf „effizienter werden durch KI\" ist damit keine Werkzeugeinführung, sondern Flow und Governance. Oder in Alex' Bild: Erst klärt man, ob man Fußball spielt, danach wird das Spiel schnell.\n\nZum Schluss lösen die beiden die Diktiergerät-Geschichte aus der letzten Folge auf, Mark verrät sein Setup, und Alex fasst zusammen. Wer KI nur als Werkzeug kauft, verkürzt einen Arbeitsschritt. Die Effizienz liegt in den Wartezeiten dazwischen. Das richtige Maß an Qualität entscheidet sich gegen die Anforderung, alles andere ist Informatiker-Romantik. Und Marks Zugabe für alle, die zögern: Wer nicht weiß, dass er scheitern könnte, probiert es gar nicht erst.\n\n—\nThink Different. Think AI. mit Mark Zimmermann und Jens Scharnetzki.\n\nHören: Apple, Spotify, YouTube, RSS\nhttps://think-ai.podigee.io\n\nNeue Folge zuerst im WhatsApp-Kanal\nhttps://whatsapp.com/channel/0029VbDJ4ZlGufIrpquad004\n\nWenn euch die Folge was gebracht hat: einmal bei Apple bewerten. Das entscheidet, ob jemand Neues uns findet.\nhttps://podcasts.apple.com/de/podcast/think-different-think-ai/id1828021699\n\nFeedback und Gäste: über die Show-Seite.",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/059 - KI Effizienz.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/059 - KI Effizienz.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/059 - KI Effizienz.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/059 - KI Effizienz.md"
         }
       }
     }
