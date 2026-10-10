@@ -721,10 +721,21 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/59-ki-effizienz/"/>
   </url>
   <url>
+    <loc>https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/61-virtuelle-freunde/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/61-virtuelle-freunde/"/>
+  </url>
+  <url>
     <loc>https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/</loc>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/"/>
+  </url>
+  <url>
+    <loc>https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/61-virtuelle-freunde/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/61-virtuelle-freunde/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/61-virtuelle-freunde/"/>
   </url>
   <url>
     <loc>https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/59-ki-effizienz/</loc>
@@ -1088,9 +1099,15 @@
   </url>
   <url>
     <loc>https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/</loc>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/"/>
+  </url>
+  <url>
+    <loc>https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/61-virtuelle-freunde/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/61-virtuelle-freunde/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/61-virtuelle-freunde/"/>
   </url>
   <url>
     <loc>https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/59-ki-effizienz/</loc>
@@ -1684,13 +1701,13 @@
   </url>
   <url>
     <loc>https://godmodeai2025.github.io/ThinkDifferentThinkAI/</loc>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/"/>
   </url>
   <url>
     <loc>https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/</loc>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/"/>
   </url>

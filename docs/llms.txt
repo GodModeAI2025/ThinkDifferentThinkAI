@@ -2,7 +2,7 @@
 
 > Deutschsprachiger Podcast ueber kuenstliche Intelligenz in der Praxis, von Mark Zimmermann und Jens Scharnetzki. Dieses Archiv enthaelt die vollstaendigen Wortprotokolle aller Folgen auf Deutsch und Englisch.
 
-Folgen: 60 | Sprachen: Deutsch (Original), Englisch (Uebersetzung)
+Folgen: 61 | Sprachen: Deutsch (Original), Englisch (Uebersetzung)
 Feed: https://think-ai.podigee.io/feed/mp3
 Podcast: https://think-ai.podigee.io/
 
@@ -14,6 +14,7 @@ Podcast: https://think-ai.podigee.io/
 
 ## Folgen
 
+- [Virtuelle Freunde](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/61-virtuelle-freunde/) — 2026-10-10
 - [KI Effizienz](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/59-ki-effizienz/) — 2026-10-04
 - [JEV Moment](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/60-jev-moment/) — 2026-09-26
 - [Doomsday](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/58-doomsday/) — 2026-09-19
@@ -79,6 +80,7 @@ Podcast: https://think-ai.podigee.io/
 
 Je Folge ein redaktioneller Fachartikel, sachlich und eingeordnet. Das sind eingeordnete Texte, keine Wortprotokolle.
 
+- [KI mit Gesicht: Warum Metas Muse und OpenAIs Dots mehr sind als Spielerei](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/61-virtuelle-freunde/)
 - [KI-Effizienz messen: Warum die Wartezeit zählt, nicht der Arbeitsschritt](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/59-ki-effizienz/)
 - [Entscheiden statt schreiben: Die zweite Gattung neben dem Sprachmodell](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/60-jev-moment/)
 - [Zehn Prozent Risiko, sechs Aufwandsstufen und keine Baseline](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/58-doomsday/)
