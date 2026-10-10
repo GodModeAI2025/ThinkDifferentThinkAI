@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 61,
   "availableTranscriptCount": 61,
-  "availableEnglishTranscriptCount": 60,
+  "availableEnglishTranscriptCount": 61,
   "episodes": [
     {
       "index": 1,
@@ -1517,16 +1517,16 @@
       "description": "Warum KI ein Gesicht bekommt, und warum Mark dafür ein Essen zahlt\nDiesmal sitzen Mark und Jens nicht über Riverside zusammen, sondern in Karlsruhe am selben Tisch, draußen, mit Burger und Radler. Der Anlass ist eine verlorene Wette. In der vorigen Folge hatte Mark über Metas kleines Gerät für den Schlüsselbund gelacht und versprochen, Jens zum Essen einzuladen, falls darüber bis Weihnachten noch jemand redet. Es hat keine zwei Wochen gedauert.\n\nJens erklärt, was Metas Assistent Muse heute schon kann, auch wenn er bisher nur in den USA und in Kanada verfügbar ist. Muse bekommt eine eigene E-Mail-Adresse und ist auch über WhatsApp erreichbar. Man schickt ihm also Dinge so, wie man sie Freunden schickt, über die normale Teilen-Funktion. Er läuft in der Cloud weiter, wenn der Rechner aus ist, und bringt zum Start rund 1.500 Integrationen mit, Expedia etwa, sodass er auch eine Reise buchen kann. Jens hält es für einen geschickten Zug, die KI aus der Welt der Modellnummern zu holen. Während man bei anderen Anbietern ständig über Versionen redet, bleibt Muse einfach Muse, und die Modelle dahinter dürfen wechseln.\n\nMark rudert an einer Stelle zurück. Den spielerischen Teil findet er weiter albern, die Personifizierung aber nicht. Ein System, das auf Sprache ausgelegt ist statt auf ein Textfeld, verhält sich anders. Das kennt er aus dem eigenen Harness in der Firma: Wer per Sprache arbeitet, bekommt keine Tabellen vorgelesen. Dazu kommt der Fingerabdrucksensor am Gerät, der Käufe bestätigen kann und die Aufnahme erst startet, wenn man ihn berührt. Jens findet das geschickter gelöst als bei Geräten, die versehentlich mithören.\n\nDann wird es verspielt. Füttern heißt beim Tamagotchi von heute vermutlich Abo, und ein Begleiter, der um Aufmerksamkeit kämpft, wird jammern, wenn man ihn liegen lässt. Was passiert, wenn zwei dieser Figuren mit eigener Persönlichkeit nebeneinander liegen? Mark sieht schon die Szene wie aus Toy Story: der Piraten-Muse, der den Feen-Muse über ein Lineal auf die Planke schickt. Jens beobachtet in seinen Feeds, wie viele Leute gerade eigene kleine Geräte mit Avataren bauen. Für ihn ist die Wette damit dreifach gewonnen.\n\nDer zweite Teil gilt OpenAIs Dots, kleinen Figuren, die auf dem Rechner leben und für einzelne Aufgaben entstehen, für eine Fehlermeldung, eine Mail, eine Excel-Datei. Mark erzählt von einer Vorführung am selben Morgen, bei der ein kleiner Avatar während einer Präsentation auf die Folie zeigte, über die gerade gesprochen wurde. Viele kleine Agenten auf dem Bildschirm hält er weiter für einen Fehler, ein orchestrierender Agent sei besser. Die zeigende, unterstützende Funktion aber sei echte Hilfe und keine Spielerei.\n\nJens ordnet das historisch ein. Der Personal Computer war schon der persönliche Zugang zu den großen Rechnern, und die Science-Fiction hatte ihre Assistenten längst: Bit aus Tron, der nur Ja und Nein sagen konnte, Professor Simon bei Captain Future, die Sprachsteuerung bei Star Trek, Data. Und Karl Klammer. Die Idee dahinter sei gut gewesen, nur die Umsetzung nicht. Marks Frage dazu: Wenn auf das komplizierte Word früher Karl Klammer die Antwort war, sind es heute Muse und Dots?\n\nGutes Design lässt die Technik verschwinden, sagt Jens. Ob Text, Sprache oder eine Darstellung gerade passt, soll die KI entscheiden, und der Avatar hat die Chance, zum Hüter dieser Schicht zu werden, egal ob am Telefon, am Rechner oder vor einem großen Display. Mark hält dagegen, dass all das Tokens verbrennt, und fragt, ob Tokens am Ende eine Grundversorgung werden wie Strom, Gas und Wasser. Jens glaubt, dass Avatare erst einmal mehr Verbrauch bringen, weil sie mehr Menschen einen bequemeren Zugang zur KI geben, und dass Kosten und Verbrauch danach über lokale und schnellere Modelle sinken. Am Ende steht sein Bild vom virtuellen Freund, der recherchiert, bestellt, Entscheidungen vorbereitet und die Post vom Anwalt liest. Mark ergänzt die dunklere Fassung gleich mit.\n\nZum Schluss stellt Mark fest, dass sie sich am selben Tisch weniger ins Wort gefallen sind als sonst. Er schiebt es auf Jens' Statur.\n\n—\nThink Different. Think AI. mit Mark Zimmermann und Jens Scharnetzki.\n\nHören: Apple, Spotify, YouTube, RSS\nhttps://think-ai.podigee.io\n\nNeue Folge zuerst im WhatsApp-Kanal\nhttps://whatsapp.com/channel/0029VbDJ4ZlGufIrpquad004\n\nWenn euch die Folge was gebracht hat: einmal bei Apple bewerten. Das entscheidet, ob jemand Neues uns findet.\nhttps://podcasts.apple.com/de/podcast/think-different-think-ai/id1828021699\n\nFeedback und Gäste: über die Show-Seite.",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/061 - Virtuelle Freunde.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/061 - Virtuelle Freunde.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/061 - Virtuelle Freunde.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/061 - Virtuelle Freunde.md"
         }
       }
     }
