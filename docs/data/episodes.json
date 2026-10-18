@@ -1,9 +1,9 @@
 {
   "feedUrl": "https://think-ai.podigee.io/feed/mp3",
   "generatedAt": "",
-  "episodeCount": 61,
-  "availableTranscriptCount": 61,
-  "availableEnglishTranscriptCount": 61,
+  "episodeCount": 62,
+  "availableTranscriptCount": 62,
+  "availableEnglishTranscriptCount": 62,
   "episodes": [
     {
       "index": 1,
@@ -1527,6 +1527,31 @@
         "en": {
           "available": true,
           "path": "transkripte-en/061 - Virtuelle Freunde.md"
+        }
+      }
+    },
+    {
+      "index": 62,
+      "title": "Wissensraum",
+      "published": "Sun, 18 Oct 2026 08:57:40 +0000",
+      "duration": "4864",
+      "pageUrl": "https://think-ai.podigee.io/62-new-episode",
+      "embedUrl": "https://think-ai.podigee.io/62-new-episode/embed?context=external",
+      "imageUrl": "https://images.podigee-cdn.net/0x,sjmFsm-v_dUnwrU5KyOdwW93laYNgw1IMrMqp_mXACqY=/https://main.podigee-cdn.net/uploads/u73317/e2719f1c-086b-4ecf-bed4-c92f86eb0a52.png",
+      "audioUrl": "https://audio.podigee-cdn.net/2615056-m-46dc5d51a89aecb59a7ea4d29ef32216.mp3?source=feed",
+      "description": "Vom Inbox-Ordner zum gemeinsamen Gedächtnis: Wissen so ablegen, dass KI damit arbeiten kann\nAlexander Heusingfeld ist wieder zu Gast, diesmal ohne Jens. Es geht um die Frage, die beide seit Wochen in Sprachnachrichten hin und her schieben: Wie baut man sich einen Wissensraum, mit dem ein KI-System wirklich arbeiten kann? Der Ausgangspunkt ist schlicht. Was ein Agent leistet, hängt nicht nur am Modell und am Harness, sondern am Kontext, den man ihm mitgibt. Mit gutem Kontext reicht ein beiläufig gesprochener Prompt, ohne ihn hilft auch ein langer wenig.\n\nBevor es um Werkzeuge geht, geht es um Daten. Alex hat die neuen Agentenangebote von OpenAI und Metas Assistenten Muse vor Augen und fragt, ob den Leuten klar ist, was mit ihrem kompletten Leben samt Gesundheitsdaten passiert. Beispiele für die Macht verknüpfter Daten gibt es genug, etwa Bewegungsmuster aus Standortdaten, aus denen sich ablesen lässt, wo jemand arbeitet und schläft. Mark sieht das größte Risiko in Firmen in einer neuen Schatten-IT: Sätze und Dokumente landen in KI-Systemen, deren Auftragsdatenverarbeitung niemand geregelt hat. Dazu eine Geschichte aus dem Privaten. Wer den Vertrag der Tierkrankenversicherung zum Auslesen hochlädt, bekommt im ungünstigen Fall eine Fundstelle aus dem Zahnversicherungsvertrag eines fremden Menschen gezeigt, mit Name und Vertragsnummer.\n\nDie Alternative zu den eingebauten Memory-Funktionen der großen Apps beginnt bei Mark mit Chaos. Ein Ordner namens Inbox, darin Mails, Chatnachrichten, PowerPoints, Transkripte. Ein Skill überführt das in Markdown, baut daraus ein Wiki mit Knowledge Graph und eine Datei, die festlegt, wie das System antworten soll: mit Quelle oder ohne, mit Internet oder ohne. So ist SkillSafe entstanden. Das Wissen steckt am Ende in einem Verzeichnis, läuft offline und überall, wo ein Agent Skills lesen kann. Alex hebt hervor, was viele RAG-Systeme nicht können: Beziehungen zwischen Knoten qualifizieren. Ob jemand Partner, Kind oder Kollege ist, kennen wir aus dem Alltag, im Wissensgraphen muss man es erst ausdrücken.\n\nDann wird es praktisch. Mark hat zwei Sachverhalte mit zusammen 28 GB Nutzdaten in je einen SkillSafe gepackt und das System die Unterschiede suchen lassen. Er hat die Vorträge von Apples Entwicklerkonferenz in einen Skill überführt und einen Agenten damit über die eigenen Projekte in Azure DevOps geschickt. Heraus kam eine Liste, was veraltet ist und wo sich neue Funktionen anbieten. Alex bringt die Ebenen ins Spiel: Organisation, Bereich, Team, Person. Und die Versionierung, die im Alltag vertraut ist, ohne dass man sie so nennt. Die Oma kommt nicht am Donnerstag, sondern am Mittwoch, und alle sollen den aktuellen Stand haben.\n\nZwei weitere Bausteine kommen dazu. ContextMe ermittelt nicht Wissen, sondern Relevanz: einmal am Tag über Mails, Teams-Nachrichten und Projekte, was Mark gerade beruflich und privat beschäftigt. Das nutzt eine App, die Mark gerade baut und die im Review liegt. Sie sammelt Screenshots, zerlegt sie mit einem lokalen Modell in Texte, Termine, Links und QR-Codes und meldet sich nur bei dem, was zählt. Das Reitturnier der Tochter braucht keine Push-Nachricht, ein spannendes Git-Repo vielleicht schon.\n\nDer letzte große Block gilt der Zusammenarbeit. Die SkillSafe-Werkstatt hält Wissen lebendig statt eingefroren und muss deshalb Fragen beantworten, die ein einzelner Skill nicht hat: Gilt nur die neue Information oder auch die alte? Wer prüft, ob alles noch konsistent ist? Was passiert, wenn zwei Agenten gleichzeitig schreiben? Alex nutzt sie mit Kollegen über einen gemeinsamen OneDrive-Ordner. Die Werkstatt hat aus importierten Meeting-Transkripten widersprüchliche Entscheidungen herausgefunden, Abstimmungen verlangt, eine Vorlage für Decision Records angelegt und Aufgaben aus Jira herübergeholt. Vieles davon war gar nicht eingebaut.\n\nZum Schluss geht es um das Anfangen. Mark beschreibt, wie er nach einem Wochenende eine brauchbare Lösung hatte, während andere monatelang an Konzepten saßen. Alex, nach eigener Aussage ein Overthinker, wirbt für einen geschützten Rahmen, in dem schlimmstenfalls wenig passiert, und für kleine Experimente. Dazu sein Tipp: Die Kommandozeilen von Claude und Codex sehen inzwischen die anderen Sessions. Wer feststeckt, öffnet ein neues Fenster und lässt sich dort helfen.\n\n—\nThink Different. Think AI. mit Mark Zimmermann und Jens Scharnetzki.\n\nHören: Apple, Spotify, YouTube, RSS\nhttps://think-ai.podigee.io\n\nNeue Folge zuerst im WhatsApp-Kanal\nhttps://whatsapp.com/channel/0029VbDJ4ZlGufIrpquad004\n\nWenn euch die Folge was gebracht hat: einmal bei Apple bewerten. Das entscheidet, ob jemand Neues uns findet.\nhttps://podcasts.apple.com/de/podcast/think-different-think-ai/id1828021699\n\nFeedback und Gäste: über die Show-Seite.",
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/062 - Wissensraum.md",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/062 - Wissensraum.md",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/062 - Wissensraum.md"
+        },
+        "en": {
+          "available": true,
+          "path": "transkripte-en/062 - Wissensraum.md"
         }
       }
     }

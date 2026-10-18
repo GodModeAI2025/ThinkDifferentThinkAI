@@ -2,7 +2,7 @@
 
 > Deutschsprachiger Podcast ueber kuenstliche Intelligenz in der Praxis, von Mark Zimmermann und Jens Scharnetzki. Dieses Archiv enthaelt die vollstaendigen Wortprotokolle aller Folgen auf Deutsch und Englisch.
 
-Folgen: 61 | Sprachen: Deutsch (Original), Englisch (Uebersetzung)
+Folgen: 62 | Sprachen: Deutsch (Original), Englisch (Uebersetzung)
 Feed: https://think-ai.podigee.io/feed/mp3
 Podcast: https://think-ai.podigee.io/
 
@@ -14,6 +14,7 @@ Podcast: https://think-ai.podigee.io/
 
 ## Folgen
 
+- [Wissensraum](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/62-new-episode/) — 2026-10-18
 - [Virtuelle Freunde](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/61-virtuelle-freunde/) — 2026-10-10
 - [KI Effizienz](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/59-ki-effizienz/) — 2026-10-04
 - [JEV Moment](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/60-jev-moment/) — 2026-09-26
