@@ -82,6 +82,7 @@ Podcast: https://think-ai.podigee.io/
 
 Je Folge ein redaktioneller Fachartikel, sachlich und eingeordnet. Das sind eingeordnete Texte, keine Wortprotokolle.
 
+- [Reverse Engineering mit KI: Der Wert wandert vom Produkt zur Dienstleistung](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/63-software-ade/)
 - [KI mit Gesicht: Warum Metas Muse und OpenAIs Dots mehr sind als Spielerei](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/61-virtuelle-freunde/)
 - [KI-Effizienz messen: Warum die Wartezeit zählt, nicht der Arbeitsschritt](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/59-ki-effizienz/)
 - [Entscheiden statt schreiben: Die zweite Gattung neben dem Sprachmodell](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/60-jev-moment/)

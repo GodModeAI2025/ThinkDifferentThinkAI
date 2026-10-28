@@ -3,7 +3,7 @@
   "generatedAt": "",
   "episodeCount": 63,
   "availableTranscriptCount": 63,
-  "availableEnglishTranscriptCount": 62,
+  "availableEnglishTranscriptCount": 63,
   "episodes": [
     {
       "index": 1,
@@ -1567,16 +1567,16 @@
       "description": "Was ist Software noch wert, wenn sich alles nachbauen lässt?\nReverse Engineering war lange eine hohe Kunst. Mit KI wird daraus ein Alltagswerkzeug, und das stellt das Geschäftsmodell vieler Softwarehäuser infrage. Mark und Jens sprechen darüber, was Software noch wert ist, wenn fremde Programme in Stunden nachgebaut werden können. Die Folge beginnt mit Fernsehgewohnheiten aus Marks Kindheit und endet bei Spielideen und einem Ausblick auf eine künftige Folge.\n\nDer Einstieg führt über Spiele, die sich mischen lassen. Mario in Fortnite, Bubble Bobble gekreuzt mit Populous: Wer Figuren und Mechaniken aus fremden Spielen herauslöst, erzeugt Kombinationen, auf die vorher niemand gekommen ist. Ob das legal ist, lassen die beiden offen. Es ist keine Rechtsberatung und keine Aufforderung, sondern eine Beobachtung dessen, was gerade draußen passiert.\n\nBei Grafiksoftware wie Figma stellt sich eine andere Frage als die, ob man sie nachbauen kann. Warum sollte man ein Werkzeug kopieren, das für eine Arbeitsweise von vor 30 Jahren gebaut wurde? Mark beschreibt, wie ein Kollege mit Opus in kurzer Zeit ein interaktives 3D-Modell im Browser gebaut hat, mit Drehreglern, die man selbst bedient. Das Werkzeug ist auf die eigene Arbeit zugeschnitten, statt eine Lizenz für ein allgemeines Programm zu bezahlen.\n\nEin Versuch geht weiter: Eine bestehende App wird so nachgebaut, dass sie als MCP-Server läuft. Eine KI kann dann direkt mit dem Backend sprechen, ohne Oberfläche. Damit wird aus einer Benutzeroberfläche eine Schnittstelle. Wenn Software leicht nachzubauen ist, verliert das fertige Produkt an Wert, und die Dienstleistung drumherum gewinnt. Wartung, Anpassung und die Geschäftsbeziehung bleiben. Für Anbieter heißt das, Lizenzlaufzeiten und Verträge neu zu denken, und vielleicht Beratung statt Paket zu verkaufen. Bestandskunden sind dabei ein Vorteil, den ein frischer Nachbau nicht sofort hat.\n\nAuch alte Hardware fällt darunter. Geräte, für die der Hersteller keine Updates mehr liefert, lassen sich analysieren und neu beleben. Mark nennt eine alte Lautsprecherbox mit leuchtendem Ring, auf der er eine eigene KI-Stimme laufen lassen will.\n\nDie Kehrseite: Wer Zugang zu guten Modellen, zu Tokens und zu Zeit hat, kann das nutzen. Wer nicht, bleibt außen vor. Die Gruppe, die damit tatsächlich Software baut, ist klein. In der Beispielrechnung der Folge kostet eine Agentur für eine kleine App schnell eine fünfstellige Summe, während die Tokens dafür im Bereich weniger Euro liegen. Die beiden sehen darin eher eine Kluft, die KI verkleinern kann, als eine, die sie vergrößert.\n\nZum Schluss wird es spielerisch. Maniac Mansion, Zak McKracken und Manor Lords stehen zur Auswahl. Mark würde das mittelalterliche Aufbauspiel Manor Lords mit einer globalen Simulation kreuzen, die vom Hinterhof bis zum Planeten reicht. Die Idee, Spieloberflächen als Interface für KI-Systeme zu nutzen, kommt ebenfalls auf den Tisch. Für eine künftige Folge schlagen die beiden vor, die Skills im eigenen KI-System zu besprechen.\n\n—\nThink Different. Think AI. mit Mark Zimmermann und Jens Scharnetzki.\n\nHören: Apple, Spotify, YouTube, RSS\nhttps://think-ai.podigee.io\n\nNeue Folge zuerst im WhatsApp-Kanal\nhttps://whatsapp.com/channel/0029VbDJ4ZlGufIrpquad004\n\nWenn euch die Folge was gebracht hat: einmal bei Apple bewerten. Das entscheidet, ob jemand Neues uns findet.\nhttps://podcasts.apple.com/de/podcast/think-different-think-ai/id1828021699\n\nFeedback und Gäste: über die Show-Seite.",
       "transcriptAvailable": true,
       "transcriptPath": "transkripte/063 - Software Ade.md",
-      "englishTranscriptAvailable": false,
-      "englishTranscriptPath": "",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/063 - Software Ade.md",
       "transcripts": {
         "de": {
           "available": true,
           "path": "transkripte/063 - Software Ade.md"
         },
         "en": {
-          "available": false,
-          "path": ""
+          "available": true,
+          "path": "transkripte-en/063 - Software Ade.md"
         }
       }
     }
