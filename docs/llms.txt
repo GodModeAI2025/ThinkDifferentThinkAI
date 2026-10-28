@@ -14,7 +14,7 @@ Podcast: https://think-ai.podigee.io/
 
 ## Folgen
 
-- [Software Ade](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/64-software-ade/) — 2026-10-24
+- [Software Ade](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/63-software-ade/) — 2026-10-24
 - [Wissensraum](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/62-new-episode/) — 2026-10-18
 - [Virtuelle Freunde](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/61-virtuelle-freunde/) — 2026-10-10
 - [KI Effizienz](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/59-ki-effizienz/) — 2026-10-04
@@ -82,7 +82,6 @@ Podcast: https://think-ai.podigee.io/
 
 Je Folge ein redaktioneller Fachartikel, sachlich und eingeordnet. Das sind eingeordnete Texte, keine Wortprotokolle.
 
-- [Vom Produkt zur Dienstleistung: Was Software noch wert ist](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/64-software-ade/)
 - [KI mit Gesicht: Warum Metas Muse und OpenAIs Dots mehr sind als Spielerei](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/61-virtuelle-freunde/)
 - [KI-Effizienz messen: Warum die Wartezeit zählt, nicht der Arbeitsschritt](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/59-ki-effizienz/)
 - [Entscheiden statt schreiben: Die zweite Gattung neben dem Sprachmodell](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/60-jev-moment/)
