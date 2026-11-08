@@ -44,7 +44,7 @@ Die Schatten-IT verschärft das. Mark berichtet von einem Bekannten, der Claude 
 
 Wer haftet, wenn ein Agent Daten verliert oder veröffentlicht? Thomas stellt voran, er sei kein Jurist, und was er wiedergebe, sei keine Rechtsberatung. Er habe sich von einem Juristen sagen lassen, dass es in Deutschland kein Unternehmensstrafrecht gebe, sondern am Ende die Organe haften.
 
-> „Alles, was die KI in deinem Unternehmen macht, geht am ganz langen Ende mit einer Geschäftsführung oder einem Vorstand nach Hause."
+> „Alles, was die KI in deinem Unternehmen macht, geht am ganz langen Ende mit einer Geschäftsführung oder einem Vorstand nach Hause.“
 >
 > **Thomas**, Gast der Folge
 
@@ -72,13 +72,13 @@ Im dritten Teil geht es um Souveränität, und Thomas stellt eine Gegenfrage: Br
 
 Mark ergänzt ein Argument aus dem Betrieb, das seiner Ansicht nach in der Debatte zu kurz kommt. Jede neue Modellversion reagiere ein wenig anders. In einer Automatisierung mit KI-Knoten, etwa in n8n, oder beim Schalten von Betriebszuständen in Rechenzentren könne dieses Anderssein kritisch werden. Lokal sichere man ein Update mit einer großen Zahl an Testfällen ab, Mark nennt als Beispiel 30.000. In der Cloud heiße es dagegen irgendwann, das alte Modell sei weg.
 
-> „Ich finde diese Stabilität und diese Verbindlichkeit bei unverbindlichen Systemen ist auch wichtig."
+> „Ich finde diese Stabilität und diese Verbindlichkeit bei unverbindlichen Systemen ist auch wichtig.“
 >
 > **Mark Zimmermann**, Co-Host
 
-Wie schnell ein Modell danebenliegt, zeigt Mark an der Webseite, die er bei Jimdo betreibt. Zwei Spitzenmodelle sollten dort einen Menüpunkt anlegen. Das erste erledigte es, wenn auch nicht besonders hübsch. Das zweite meldete danach, es sei auf der falschen Seite gewesen und habe dort Texte gelöscht und neue geschrieben, und riet, die Finger davon zu lassen. Der Schaden blieb klein, weil es nicht auf „Speichern" geklickt hatte. Mark stört vor allem, mit welcher Überzeugung das Modell seinen Fehler vortrug.
+Wie schnell ein Modell danebenliegt, zeigt Mark an der Webseite, die er bei Jimdo betreibt. Zwei Spitzenmodelle sollten dort einen Menüpunkt anlegen. Das erste erledigte es, wenn auch nicht besonders hübsch. Das zweite meldete danach, es sei auf der falschen Seite gewesen und habe dort Texte gelöscht und neue geschrieben, und riet, die Finger davon zu lassen. Der Schaden blieb klein, weil es nicht auf „Speichern“ geklickt hatte. Mark stört vor allem, mit welcher Überzeugung das Modell seinen Fehler vortrug.
 
-Thomas setzt ein Beispiel von der anderen Seite dagegen: das Backup. Er sei erstaunt, wie viele Unternehmen kein Backup ihres Microsoft-365-Tenants haben, mit der Begründung, die Daten lägen ja bei Microsoft und gelöschte seien im Papierkorb. Seine Antwort: „Ja, aber das ist kein Backup." Zudem schließe Microsoft laut den Geschäftsbedingungen kein Backup für Kunden ein, und für den Papierkorb gebe es kein Service-Level. Betroffen seien nicht die Mehrheit der Unternehmen, aber auch nennenswert große Mittelständler.
+Thomas setzt ein Beispiel von der anderen Seite dagegen: das Backup. Er sei erstaunt, wie viele Unternehmen kein Backup ihres Microsoft-365-Tenants haben, mit der Begründung, die Daten lägen ja bei Microsoft und gelöschte seien im Papierkorb. Seine Antwort: „Ja, aber das ist kein Backup.“ Zudem schließe Microsoft laut den Geschäftsbedingungen kein Backup für Kunden ein, und für den Papierkorb gebe es kein Service-Level. Betroffen seien nicht die Mehrheit der Unternehmen, aber auch nennenswert große Mittelständler.
 
 ## Fazit
 
