@@ -10,10 +10,38 @@
   <language>en</language>
   <generator>scripts/build_static_pages.py</generator>
   <image>
-    <url>https://godmodeai2025.github.io/ThinkDifferentThinkAI/covers/63-software-ade.jpg</url>
+    <url>https://godmodeai2025.github.io/ThinkDifferentThinkAI/covers/64-organisation-als-harness.jpg</url>
     <title>Blog (English) — Think Different. Think AI.</title>
     <link>https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/</link>
   </image>
+  <item>
+    <title>Organisation as harness: how a company turns AI tools into work</title>
+    <link>https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/64-organisation-als-harness/</link>
+    <guid isPermaLink="true">https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/64-organisation-als-harness/</guid>
+    <pubDate>Sun, 01 Nov 2026 09:43:00 +0000</pubDate>
+    <dc:creator>Mark Zimmermann and Jens Scharnetzki</dc:creator>
+    <category>Episode 64</category>
+    <description>A tool in the software stack does not change roles yet. What matters is how an organisation involves its people when the work changes.</description>
+    <content:encoded><![CDATA[<p><img src="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/64-organisation-als-harness.jpg" alt="" width="1200" height="644"></p><p><em>A tool in the software stack does not change roles yet. What matters is how an organisation involves its people when the work changes.</em></p><p>How do you accompany people on the way into the AI world without leaving anyone behind? Jens opens the episode with this question. He and Mark want to set out their view and explicitly welcome disagreement. The word harness already gives them trouble: for the term the episode uses for the frame of tools, rules and workflows around a model, neither of them can think of a good German equivalent.</p>
+<aside class="art-facts"><h2>In brief</h2><ul><li>The job does not disappear, it changes. An organisation has to say so openly.</li><li>A tool in the software stack does not change roles yet. &quot;Copilot for everyone&quot; is not, for the two of them, an AI strategy.</li><li>Participation is the core concept. Whoever dictates everything creates resistance, and resistance can also simply be a lack of time.</li><li>Time gained only becomes value when it is deliberately channelled into other work.</li></ul></aside>
+<h2>Setting the buzzwords aside</h2>
+<p>Before it gets serious, Mark and Jens clear away the social-media images: the robot sitting in front of a laptop and typing, the &quot;AI Patty Flipper&quot; that after the order only presses continue, and the line that AI will not replace you, but the person who handles AI better will. Mark describes what convinces him that the change is already under way.</p>
+<p>This classification matters because it shifts the view. Anyone who looks only at the individual with the best tool overlooks the organisation around them. The episode therefore starts from the organisation.</p>
+<h2>Saving time does not yet create value</h2>
+<p>Mark doubts statements like &quot;Copilot for everyone&quot; as an AI strategy, and studies in which many people feel more productive. What remains open is what happens to the time gained. Walking to the canteen faster creates no value.</p>
+<p>A tool in the stack also changes no roles. Systems that have not been maintained for years can now be cleaned up. But if the freed-up time is not deliberately steered into other tasks, it is lost again in everyday work. This is where the idea of the harness comes in: an organisation needs a frame of rules, knowledge and workflows in which AI tools have a defined place.</p>
+<h2>The job changes, it does not vanish</h2>
+<p>Both stress that the job changes without disappearing. An organisation has to be honest about that. The episode asks how one brings people to change together with the machine. One answer: involve them. It has something to do with participation, the episode says briefly, meaning that transformation cannot be ordered from above.</p>
+<p>Jens argues for going to the teams, watching their workflows and finding together the places that eat up time. Quick prototypes help, because they show what works before a large rollout begins. Whoever dictates everything creates resistance, and resistance can also simply be a lack of time.</p>
+<figure class="art-quote"><blockquote><p>&quot;We are simply not meant for pigeonholes.&quot;</p></blockquote><figcaption><strong>Jens Scharnetzki</strong>, co-host</figcaption></figure>
+<h2>Roles and boundaries</h2>
+<p>The third part is about roles. People constantly cross the boundaries of their role, says Jens, with AI help even into fields such as law. The decision stays with the specialist. The danger is that one squeezes the AI, which knows all roles, back into artificial roles, as was done to people during industrialisation.</p>
+<p>The episode considers the slogan human in the loop too narrow. What is needed is the team in the loop, not the single expert who could judge everything. In practice such an expert does not exist anyway.</p>
+<h2>Conclusion</h2>
+<p>The episode does not say that jobs disappear. It says that collaboration and entry paths change. The bottleneck lies less in the model than in a company&#x27;s knowledge and in how people are enabled.</p>
+<p>For managers this means: shift the question from the tool to the frame around it. Which rules apply, who decides what, and how do the experiences from the teams flow back into the organisation? A tool without these answers remains just a tool.</p>
+<aside class="art-next"><h2>The story continues …</h2><p>It remains open which German equivalent for harness will hold. The episode has not found one.</p></aside>]]></content:encoded>
+  </item>
   <item>
     <title>Reverse engineering with AI: value shifts from the product to the service</title>
     <link>https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/63-software-ade/</link>
