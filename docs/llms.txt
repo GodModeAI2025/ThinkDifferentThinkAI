@@ -85,6 +85,7 @@ Je Folge ein redaktioneller Fachartikel, sachlich und eingeordnet. Das sind eing
 
 - [Organisation als Harness: Wie ein Unternehmen KI-Werkzeuge in Arbeit übersetzt](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/64-organisation-als-harness/)
 - [Reverse Engineering mit KI: Der Wert wandert vom Produkt zur Dienstleistung](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/63-software-ade/)
+- [Wissensraum statt Chatfenster: Warum Kontext über die Qualität eines Agenten entscheidet](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/62-new-episode/)
 - [KI mit Gesicht: Warum Metas Muse und OpenAIs Dots mehr sind als Spielerei](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/61-virtuelle-freunde/)
 - [KI-Effizienz messen: Warum die Wartezeit zählt, nicht der Arbeitsschritt](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/59-ki-effizienz/)
 - [Entscheiden statt schreiben: Die zweite Gattung neben dem Sprachmodell](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/60-jev-moment/)
