@@ -1,9 +1,9 @@
 {
   "feedUrl": "https://think-ai.podigee.io/feed/mp3",
   "generatedAt": "",
-  "episodeCount": 65,
-  "availableTranscriptCount": 65,
-  "availableEnglishTranscriptCount": 65,
+  "episodeCount": 66,
+  "availableTranscriptCount": 66,
+  "availableEnglishTranscriptCount": 66,
   "episodes": [
     {
       "index": 1,
@@ -1627,6 +1627,31 @@
         "en": {
           "available": true,
           "path": "transkripte-en/065 - Sicherheitsversprechen.md"
+        }
+      }
+    },
+    {
+      "index": 66,
+      "title": "Token Budget",
+      "published": "Sat, 14 Nov 2026 19:55:00 +0000",
+      "duration": "3395",
+      "pageUrl": "https://think-ai.podigee.io/66-token-budget",
+      "embedUrl": "https://think-ai.podigee.io/66-token-budget/embed?context=external",
+      "imageUrl": "https://images.podigee-cdn.net/0x,s356VuCCNzCyW4gogB_5gPw8HwM4HIpqVpJtiqs2Mm-w=/https://main.podigee-cdn.net/uploads/u73317/eacc6c75-6ecd-448f-89d7-d2c27fddaa40.jpg",
+      "audioUrl": "https://audio.podigee-cdn.net/2646571-m-dbf4681966944735c8ea92f0d3280da6.mp3?source=feed",
+      "description": "Abos, API, Budgets und ein Agent auf dem iPhone\nWie viel darf KI kosten, und woran erkennt man, dass sich der Verbrauch lohnt? Mark und Jens sind wieder vollständig am Tisch, Jens ist nach einer Krankheit zurück. Sie sprechen darüber, wie schnell Abo-Kontingente aufgebraucht sind, warum der Umstieg auf die API-Abrechnung teuer werden kann und weshalb der Verbrauch allein noch nichts über die Qualität eines Ergebnisses sagt.\n\nEin Thema ist der Begriff Token Maximizing, mit dem Entwickler am Verbrauch gemessen wurden, und das Wechseln zwischen mehreren Abos, sobald eines leer ist. Berichten zufolge haben manche Konzerne die Tagesbudgets für ihre Entwickler gesenkt. Ist ein Token teurer geworden, oder leisten die Modelle schlicht mehr? Welche Aufgabe braucht wirklich das größte Modell? Schnelle Varianten kosten mehr, und nur weil einem ein Ferrari in die Garage gestellt wird, fährt man nicht effizient.\n\nDer zweite Teil dreht sich um Apple. Mark hat auf seinem iPhone einen eigenen Agenten namens Hermes gebaut, mit einem notizbuchartigen Interface statt eines Chatfensters, Morgenbriefings aus Kalender und Mails und einer Frage an Apples Private Cloud Compute: Wie weit trägt der Datenschutz? Ob die kostenlosen Kontingente bleiben, ist offen.\n\n—\nThink Different. Think AI. mit Mark Zimmermann und Jens Scharnetzki.\n\nHören: Apple, Spotify, YouTube, RSS\nhttps://think-ai.podigee.io\n\nNeue Folge zuerst im WhatsApp-Kanal\nhttps://whatsapp.com/channel/0029VbDJ4ZlGufIrpquad004\n\nWenn euch die Folge was gebracht hat: einmal bei Apple bewerten. Das entscheidet, ob jemand Neues uns findet.\nhttps://podcasts.apple.com/de/podcast/think-different-think-ai/id1828021699\n\nFeedback und Gäste: über die Show-Seite.",
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/066 - Token Budget.md",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/066 - Token Budget.md",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/066 - Token Budget.md"
+        },
+        "en": {
+          "available": true,
+          "path": "transkripte-en/066 - Token Budget.md"
         }
       }
     }

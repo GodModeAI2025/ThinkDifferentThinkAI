@@ -2,7 +2,7 @@
 
 > Deutschsprachiger Podcast ueber kuenstliche Intelligenz in der Praxis, von Mark Zimmermann und Jens Scharnetzki. Dieses Archiv enthaelt die vollstaendigen Wortprotokolle aller Folgen auf Deutsch und Englisch.
 
-Folgen: 65 | Sprachen: Deutsch (Original), Englisch (Uebersetzung)
+Folgen: 66 | Sprachen: Deutsch (Original), Englisch (Uebersetzung)
 Feed: https://think-ai.podigee.io/feed/mp3
 Podcast: https://think-ai.podigee.io/
 
@@ -14,6 +14,7 @@ Podcast: https://think-ai.podigee.io/
 
 ## Folgen
 
+- [Token Budget](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/66-token-budget/) — 2026-11-14
 - [Sicherheitsversprechen](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/65-sicherheitsversprechen/) — 2026-11-08
 - [Organisation als Harness](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/64-organisation-als-harness/) — 2026-11-01
 - [Software Ade](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/63-software-ade/) — 2026-10-24
@@ -84,6 +85,7 @@ Podcast: https://think-ai.podigee.io/
 
 Je Folge ein redaktioneller Fachartikel, sachlich und eingeordnet. Das sind eingeordnete Texte, keine Wortprotokolle.
 
+- [Token-Budgets: Wer viel verbraucht, hat noch nichts geliefert](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/66-token-budget/)
 - [Agenten ohne Besitzer: Warum KI-Sicherheit an alten Aufgaben scheitert](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/65-sicherheitsversprechen/)
 - [Organisation als Harness: Wie ein Unternehmen KI-Werkzeuge in Arbeit übersetzt](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/64-organisation-als-harness/)
 - [Reverse Engineering mit KI: Der Wert wandert vom Produkt zur Dienstleistung](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/63-software-ade/)
