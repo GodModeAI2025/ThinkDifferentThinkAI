@@ -2,7 +2,7 @@
 
 > Deutschsprachiger Podcast ueber kuenstliche Intelligenz in der Praxis, von Mark Zimmermann und Jens Scharnetzki. Dieses Archiv enthaelt die vollstaendigen Wortprotokolle aller Folgen auf Deutsch und Englisch.
 
-Folgen: 66 | Sprachen: Deutsch (Original), Englisch (Uebersetzung)
+Folgen: 67 | Sprachen: Deutsch (Original), Englisch (Uebersetzung)
 Feed: https://think-ai.podigee.io/feed/mp3
 Podcast: https://think-ai.podigee.io/
 
@@ -14,6 +14,7 @@ Podcast: https://think-ai.podigee.io/
 
 ## Folgen
 
+- [KI als Denkpartner](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/67-ki-als-denkpartner/) — 2026-11-21
 - [Token Budget](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/66-token-budget/) — 2026-11-14
 - [Sicherheitsversprechen](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/65-sicherheitsversprechen/) — 2026-11-08
 - [Organisation als Harness](https://godmodeai2025.github.io/ThinkDifferentThinkAI/de/64-organisation-als-harness/) — 2026-11-01
@@ -85,6 +86,7 @@ Podcast: https://think-ai.podigee.io/
 
 Je Folge ein redaktioneller Fachartikel, sachlich und eingeordnet. Das sind eingeordnete Texte, keine Wortprotokolle.
 
+- [KI als Denkpartner: Das Gedächtnis macht aus Vermutungen Fakten](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/67-ki-als-denkpartner/)
 - [Token-Budgets: Wer viel verbraucht, hat noch nichts geliefert](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/66-token-budget/)
 - [Agenten ohne Besitzer: Warum KI-Sicherheit an alten Aufgaben scheitert](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/65-sicherheitsversprechen/)
 - [Organisation als Harness: Wie ein Unternehmen KI-Werkzeuge in Arbeit übersetzt](https://godmodeai2025.github.io/ThinkDifferentThinkAI/blog/64-organisation-als-harness/)

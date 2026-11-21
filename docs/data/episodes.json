@@ -1,9 +1,9 @@
 {
   "feedUrl": "https://think-ai.podigee.io/feed/mp3",
   "generatedAt": "",
-  "episodeCount": 66,
-  "availableTranscriptCount": 66,
-  "availableEnglishTranscriptCount": 66,
+  "episodeCount": 67,
+  "availableTranscriptCount": 67,
+  "availableEnglishTranscriptCount": 67,
   "episodes": [
     {
       "index": 1,
@@ -1652,6 +1652,31 @@
         "en": {
           "available": true,
           "path": "transkripte-en/066 - Token Budget.md"
+        }
+      }
+    },
+    {
+      "index": 67,
+      "title": "KI als Denkpartner",
+      "published": "Sat, 21 Nov 2026 17:20:00 +0000",
+      "duration": "2425",
+      "pageUrl": "https://think-ai.podigee.io/67-ki-als-denkpartner",
+      "embedUrl": "https://think-ai.podigee.io/67-ki-als-denkpartner/embed?context=external",
+      "imageUrl": "https://images.podigee-cdn.net/0x,sK5kuNnFabyIHd-1o9c9V_Gr6y91s4x9ORrmXlwl6fj0=/https://main.podigee-cdn.net/uploads/u73317/0595c1ed-ba22-4443-bfb2-c0b59e373738.jpg",
+      "audioUrl": "https://audio.podigee-cdn.net/2656258-m-74dbe034ee339711ec7550c743c72651.mp3?source=feed",
+      "description": "Zustimmung, Gedächtnis und Entscheidungen: Wie man KI als Gegenüber nutzt, ohne sich selbst zu bestätigen\nEine KI stimmt einem schnell zu. Das fühlt sich gut an und bringt wenig, wenn es ums Denken geht. Mark und Jens sprechen darüber, wie sie KI als Denkpartner einsetzen: als Gegenüber beim Brainstorming, als Prüfer, der Schwachstellen sucht, und als Werkzeug, das Ideen über Nacht sortiert. Am Anfang steht die Frage, warum Ideen in der Gruppe nicht gleich erstickt werden sollten, und wo der Realismus dann wieder einsetzen muss.\n\nDer Schwerpunkt liegt auf dem Gedächtnis. Was eine KI über einen speichert, bleibt oft länger im Kopf als man selbst. Ein Kollege hat ein Dokument mit noch nicht geprüften Kennzahlen abgelegt, ein Assistent hat sie später als Ergebnis zurückgegeben, und zunächst hielt er seine eigene Prognose für bestätigt. Dazu kommen Fragen, die über den Einzelfall hinausgehen: Wer entscheidet, welches Wissen im Gedächtnis höher gewichtet wird? Wie lassen sich Entscheidungen mit Zeitpunkt und Kontext festhalten, damit eine alte Entscheidung nicht ungeprüft wiederholt wird? Und wie erkennt man, dass ein Eintrag veraltet ist?\n\nAuch der Blick auf die eigene Arbeit gehört dazu. Wer mit KI ein Projekt bis zum Ende treibt, verliert leicht das Maß, und ein Abo oder ein Token-Kontingent wird zum Anlass, noch eine Frage zu stellen. Mark und Jens beschreiben, wie sie in Sackgassen vorgehen und warum sie einen Schlaf über Ideen für sinnvoll halten.\n\n—\nThink Different. Think AI. mit Mark Zimmermann und Jens Scharnetzki.\n\nHören: Apple, Spotify, YouTube, RSS\nhttps://think-ai.podigee.io\n\nNeue Folge zuerst im WhatsApp-Kanal\nhttps://whatsapp.com/channel/0029VbDJ4ZlGufIrpquad004\n\nWenn euch die Folge was gebracht hat: einmal bei Apple bewerten. Das entscheidet, ob jemand Neues uns findet.\nhttps://podcasts.apple.com/de/podcast/think-different-think-ai/id1828021699\n\nFeedback und Gäste: über die Show-Seite.",
+      "transcriptAvailable": true,
+      "transcriptPath": "transkripte/067 - KI als Denkpartner.md",
+      "englishTranscriptAvailable": true,
+      "englishTranscriptPath": "transkripte-en/067 - KI als Denkpartner.md",
+      "transcripts": {
+        "de": {
+          "available": true,
+          "path": "transkripte/067 - KI als Denkpartner.md"
+        },
+        "en": {
+          "available": true,
+          "path": "transkripte-en/067 - KI als Denkpartner.md"
         }
       }
     }
