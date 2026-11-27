@@ -3,7 +3,7 @@ title: "Temporal UX"
 episode_index: 39
 published: "Mon, 11 May 2026 02:59:00 +0000"
 duration: "2628"
-page_url: "https://think-ai.podigee.io/33-termporal-ux"
+page_url: "https://think-ai.podigee.io/33-temporal-ux"
 image_url: "https://images.podigee-cdn.net/0x,s5_sIyThXo_mPTaFIixCTs-B4U7VQUvVDj3eyt1lQ4fc=/https://main.podigee-cdn.net/uploads/u73317/0069ccc0-1ba4-42b6-942a-a3cc407eabf4.jpg"
 audio_url: "https://audio.podigee-cdn.net/2405648-m-b259ef21689c59bc2d25589f8a3a1d63.mp3?source=feed"
 guid: "3f359d44182dd86acbd9bd0d99f5695d"
@@ -23,7 +23,7 @@ translated_at: "2026-05-12T08:54:57+00:00"
 
 **Published:** Mon, 11 May 2026 02:59:00 +0000
 **Duration:** 2628
-**Web player:** https://think-ai.podigee.io/33-termporal-ux
+**Web player:** https://think-ai.podigee.io/33-temporal-ux
 **Cover:** https://images.podigee-cdn.net/0x,s5_sIyThXo_mPTaFIixCTs-B4U7VQUvVDj3eyt1lQ4fc=/https://main.podigee-cdn.net/uploads/u73317/0069ccc0-1ba4-42b6-942a-a3cc407eabf4.jpg
 **Audio:** https://audio.podigee-cdn.net/2405648-m-b259ef21689c59bc2d25589f8a3a1d63.mp3?source=feed
 

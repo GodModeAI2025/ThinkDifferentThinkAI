@@ -40,6 +40,24 @@ SERIES_URL = "https://think-ai.podigee.io/"
 FEED_URL = "https://think-ai.podigee.io/feed/mp3"
 SOURCE_REPO = "https://github.com/GodModeAI2025/ThinkDifferentThinkAI"
 
+# Alte Podigee-Slugs, die bei Podigee umbenannt wurden (Podigee leitet dort per 301
+# weiter). Die Seiten liegen seitdem unter dem neuen Slug; unter dem alten Pfad
+# erzeugt der Build eine Weiterleitungsseite, damit bestehende Links und Suchtreffer
+# nicht ins Leere laufen. GitHub Pages kann keine echten 301, deshalb Canonical,
+# Meta-Refresh und JS. Die Weiterleitungen stehen bewusst nicht in der Sitemap.
+REDIRECTS = {
+    "3-new-episode": "3-vermenschlichung-ki-agenten",
+    "4-neue-episode": "4-star-wars-roboter-ux-design",
+    "7-neue-episode": "7-podcast-workflow-mit-ki",
+    "10-new-episode": "10-n8n-notion-ki-automatisierung",
+    "12-block": "12-ki-horrorgeschichten-halloween",
+    "13-new-episode": "13-openai-atlas-ki-browser",
+    "14-riverside-jens-raw-audio-thinkdifferent-0098-bearbeiten": "14-haushaltsroboter-neo-tesla-optimus",
+    "25-riverside-backup-video-thinkdifferent": "25-tiktok-ki-agenten-mittelstand",
+    "33-termporal-ux": "33-temporal-ux",
+    "62-new-episode": "62-wissensraum-ki-kontext",
+}
+
 HOSTS = [
     {"name": "Mark Zimmermann", "sameAs": "https://www.linkedin.com/in/mark-zimmermann-5a005123/"},
     {"name": "Jens Scharnetzki", "sameAs": "https://www.linkedin.com/in/scharnetzki/"},
@@ -765,6 +783,42 @@ def write(path: Path, text: str) -> None:
     path.write_text(text, encoding="utf-8")
 
 
+def render_redirect_page(target: str, lang: str) -> str:
+    """Minimale Weiterleitungsseite fuer einen umbenannten Pfad."""
+    t = esc(target)
+    text = "Diese Seite ist umgezogen:" if lang == "de" else "This page has moved:"
+    return f"""<!doctype html>
+<html lang="{lang}">
+<head>
+<meta charset="utf-8">
+<title>{"Weiterleitung" if lang == "de" else "Redirect"}</title>
+<link rel="canonical" href="{t}">
+<meta name="robots" content="noindex">
+<meta http-equiv="refresh" content="0; url={t}">
+<script>location.replace({json.dumps(target)} + location.hash);</script>
+</head>
+<body>
+<p>{text} <a href="{t}">{t}</a></p>
+</body>
+</html>
+"""
+
+
+def write_redirects(site_dir: Path, base_url: str) -> list[str]:
+    """Legt fuer jeden alten Slug in jedem Bereich eine Weiterleitung an,
+    sofern die Zielseite unter dem neuen Slug gebaut wurde."""
+    erzeugt = []
+    for ordner, lang in (("de", "de"), ("en", "en"), ("blog", "de"), ("en/blog", "en")):
+        for alt, neu in REDIRECTS.items():
+            ziel = site_dir / ordner / neu / "index.html"
+            quelle = site_dir / ordner / alt / "index.html"
+            if not ziel.exists() or quelle.exists():
+                continue
+            write(quelle, render_redirect_page(f"{base_url}/{ordner}/{neu}/", lang))
+            erzeugt.append(f"{ordner}/{alt}/")
+    return erzeugt
+
+
 def build(site_dir: Path, repo_root: Path, base_url: str) -> dict:
     global SITE_DIR
     SITE_DIR = site_dir
@@ -1283,6 +1337,9 @@ def build(site_dir: Path, repo_root: Path, base_url: str) -> dict:
                      "alts": [("de", f"{base_url}/"), ("en", f"{base_url}/en/")]})
 
 
+    # ---- Weiterleitungen alter Slugs (nicht in die Sitemap)
+    redirects = write_redirects(site_dir, base_url)
+
     # ---- sitemap.xml
     chunks = ['<?xml version="1.0" encoding="UTF-8"?>',
               '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
@@ -1332,7 +1389,8 @@ def build(site_dir: Path, repo_root: Path, base_url: str) -> dict:
     write(site_dir / "llms.txt", "\n".join(llms) + "\n")
 
     return {"episodes": len(episodes), "pages": written, "urls": len(urls),
-            "guests": len(by_guest), "topics": len(topic_index_entries)}
+            "guests": len(by_guest), "topics": len(topic_index_entries),
+            "redirects": len(redirects)}
 
 
 def build_parser():
@@ -1350,6 +1408,7 @@ def main(argv=None):
     print(f"Seiten geschrieben: {stats['pages']}")
     print(f"URLs in sitemap.xml: {stats['urls']}")
     print(f"Themenseiten: {stats['topics']} | Gaesteseiten: {stats['guests']}")
+    print(f"Weiterleitungen: {stats['redirects']}")
     return 0
 
 

@@ -196,13 +196,13 @@
   </item>
   <item>
     <title>Knowledge space instead of chat window: why context decides the quality of an agent</title>
-    <link>https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/62-new-episode/</link>
-    <guid isPermaLink="true">https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/62-new-episode/</guid>
+    <link>https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/62-wissensraum-ki-kontext/</link>
+    <guid isPermaLink="true">https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/62-wissensraum-ki-kontext/</guid>
     <pubDate>Sun, 18 Oct 2026 08:57:40 +0000</pubDate>
     <dc:creator>Mark Zimmermann</dc:creator>
     <category>Episode 62</category>
     <description>An agent is only as good as the context it is given. Whoever sorts their data before handing it to an AI gains quality and reduces risk.</description>
-    <content:encoded><![CDATA[<p><img src="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/62-new-episode.jpg" alt="" width="1200" height="644"></p><p><em>An agent is only as good as the context it is given. Whoever sorts their data before handing it to an AI gains quality and reduces risk.</em></p><p>Alexander Heusingfeld is a guest again, this time without Jens. The question the episode revolves around: how do you build a knowledge space in which an AI system can really work? An agent achieves something with the right model and a suitable harness, but above all with the context you give it. With good context, a casually spoken sentence is enough. Without it, even a long prompt helps little.</p>
+    <content:encoded><![CDATA[<p><img src="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/62-wissensraum-ki-kontext.jpg" alt="" width="1200" height="644"></p><p><em>An agent is only as good as the context it is given. Whoever sorts their data before handing it to an AI gains quality and reduces risk.</em></p><p>Alexander Heusingfeld is a guest again, this time without Jens. The question the episode revolves around: how do you build a knowledge space in which an AI system can really work? An agent achieves something with the right model and a suitable harness, but above all with the context you give it. With good context, a casually spoken sentence is enough. Without it, even a long prompt helps little.</p>
 <aside class="art-facts"><h2>In brief</h2><ul><li>Context is the bottleneck. A knowledge space bundles what an agent needs to know about a person, a team or an organisation.</li><li>Before handing data to an AI, it has to be clear where it ends up and who processes it. The dangers are new shadow IT and unregulated data processing agreements.</li><li>A folder of Markdown files, a filing rule and a wiki with links are often enough to get started.</li><li>Relationships between knowledge nodes matter. Without them a system finds facts but does not understand how they connect.</li></ul></aside>
 <h2>Data first</h2>
 <p>Before tools, the episode turns to data. Mark asks whether people realise what happens to their whole life, health data included, when they entrust everything to an assistant such as Meta&#x27;s Muse. Linked data reveals more than one thinks. Movement patterns from location data show where someone works and where they sleep.</p>
@@ -1080,13 +1080,13 @@
   </item>
   <item>
     <title>Temporal UX: why waiting time with AI agents is a design problem</title>
-    <link>https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/33-termporal-ux/</link>
-    <guid isPermaLink="true">https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/33-termporal-ux/</guid>
+    <link>https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/33-temporal-ux/</link>
+    <guid isPermaLink="true">https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/33-temporal-ux/</guid>
     <pubDate>Mon, 11 May 2026 02:59:00 +0000</pubDate>
     <dc:creator>Mark Zimmermann</dc:creator>
     <category>Episode 33</category>
     <description>An agent works for ten minutes. What happens on the screen during that time decides whether the productivity gain arrives or seeps away in checking glances. A concept from service design that has barely been thought through in the AI context.</description>
-    <content:encoded><![CDATA[<p><img src="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/33-termporal-ux.jpg" alt="" width="1200" height="644"></p><p><em>An agent works for ten minutes. What happens on the screen during that time decides whether the productivity gain arrives or seeps away in checking glances. A concept from service design that has barely been thought through in the AI context.</em></p><p>Airports offer a well-known example of designed time. If the walk to the baggage belt is deliberately lengthened, travellers experience the waiting time as shorter, although it is the same length or longer. The waiting time was not shortened but filled.</p>
+    <content:encoded><![CDATA[<p><img src="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/33-temporal-ux.jpg" alt="" width="1200" height="644"></p><p><em>An agent works for ten minutes. What happens on the screen during that time decides whether the productivity gain arrives or seeps away in checking glances. A concept from service design that has barely been thought through in the AI context.</em></p><p>Airports offer a well-known example of designed time. If the walk to the baggage belt is deliberately lengthened, travellers experience the waiting time as shorter, although it is the same length or longer. The waiting time was not shortened but filled.</p>
 <p>Precisely this principle is almost entirely missing in work with AI agents. Under the name temporal UX it has been circulating in the service design world for some time; in the AI context it is barely thought through.</p>
 <aside class="art-facts"><h2>in brief</h2><ul><li>Current models have no sense of elapsed time and assert durations that are not true</li><li>From five to six agents running in parallel the error rate rises noticeably, because the overview is lost</li><li>Reasoning models show their thinking process partly because visible progress creates trust</li><li>Timeouts and heartbeats are unresolved as soon as agents talk to each other instead of to humans</li><li>Without deliberate time design, the management load eats up the productivity gain</li></ul></aside>
 <h2>The starting case</h2>
@@ -1613,13 +1613,13 @@
   </item>
   <item>
     <title>70 per cent talk to the phone agent: AI in practice in Germany&#x27;s mid-sized companies</title>
-    <link>https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/25-riverside-backup-video-thinkdifferent/</link>
-    <guid isPermaLink="true">https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/25-riverside-backup-video-thinkdifferent/</guid>
+    <link>https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/25-tiktok-ki-agenten-mittelstand/</link>
+    <guid isPermaLink="true">https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/25-tiktok-ki-agenten-mittelstand/</guid>
     <pubDate>Mon, 02 Feb 2026 21:04:32 +0000</pubDate>
     <dc:creator>Mark Zimmermann</dc:creator>
     <category>Episode 25</category>
     <description>Martin Jäger wins 70 per cent of his clients through TikTok, not through LinkedIn. His observations from the mid-sized sector are uncomfortable, subjective and useful for exactly that reason.</description>
-    <content:encoded><![CDATA[<p><img src="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/25-riverside-backup-video-thinkdifferent.jpg" alt="" width="1200" height="644"></p><p><em>Martin Jäger wins 70 per cent of his clients through TikTok, not through LinkedIn. His observations from the mid-sized sector are uncomfortable, subjective and useful for exactly that reason.</em></p><p>Martin Jäger is an AI and automation consultant from the Böblingen area. He came to the field through AI-based spelling correction, because of second-degree dyslexia. Today, by his own account, he wins 70 per cent of his clients through TikTok.</p>
+    <content:encoded><![CDATA[<p><img src="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/25-tiktok-ki-agenten-mittelstand.jpg" alt="" width="1200" height="644"></p><p><em>Martin Jäger wins 70 per cent of his clients through TikTok, not through LinkedIn. His observations from the mid-sized sector are uncomfortable, subjective and useful for exactly that reason.</em></p><p>Martin Jäger is an AI and automation consultant from the Böblingen area. He came to the field through AI-based spelling correction, because of second-degree dyslexia. Today, by his own account, he wins 70 per cent of his clients through TikTok.</p>
 <p>What follows is not a study and not a statistic, but the direct assessment of a practitioner.</p>
 <aside class="art-facts"><h2>in brief</h2><ul><li>Two reactions dominate among mid-sized companies: denial or fear for one&#x27;s existence, rarely a genuine engagement</li><li>Jäger regards recruiting, sales and interpreting services as the most affected areas</li><li>Even highly specialised professions are not safe, because self-contained expert knowledge is easy to open up</li><li>In his projects 70 per cent of callers willingly speak to a phone agent instead of to an answering machine</li><li>His thesis: by 2027 every company will have its own phone agent</li></ul></aside>
 <h2>Two reactions, no third</h2>
@@ -2020,13 +2020,13 @@
   </item>
   <item>
     <title>The human in the box: why household robots are still remote controlled</title>
-    <link>https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/14-riverside-jens-raw-audio-thinkdifferent-0098-bearbeiten/</link>
-    <guid isPermaLink="true">https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/14-riverside-jens-raw-audio-thinkdifferent-0098-bearbeiten/</guid>
+    <link>https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/14-haushaltsroboter-neo-tesla-optimus/</link>
+    <guid isPermaLink="true">https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/14-haushaltsroboter-neo-tesla-optimus/</guid>
     <pubDate>Mon, 10 Nov 2025 09:39:00 +0000</pubDate>
     <dc:creator>Mark Zimmermann</dc:creator>
     <category>Episode 14</category>
     <description>Neo folds laundry, clears away the dishes and opens the door, for 20,000 dollars or 499 dollars rent a month. For the complicated tasks, however, a human takes over by remote control, according to one test.</description>
-    <content:encoded><![CDATA[<p><img src="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/14-riverside-jens-raw-audio-thinkdifferent-0098-bearbeiten.jpg" alt="" width="1200" height="644"></p><p><em>Neo folds laundry, clears away the dishes and opens the door, for 20,000 dollars or 499 dollars rent a month. For the complicated tasks, however, a human takes over by remote control, according to one test.</em></p><p>Would you order a household robot if you knew that in the most complicated moments it is not a system doing the steering, but a person at the other end of the line?</p>
+    <content:encoded><![CDATA[<p><img src="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/14-haushaltsroboter-neo-tesla-optimus.jpg" alt="" width="1200" height="644"></p><p><em>Neo folds laundry, clears away the dishes and opens the door, for 20,000 dollars or 499 dollars rent a month. For the complicated tasks, however, a human takes over by remote control, according to one test.</em></p><p>Would you order a household robot if you knew that in the most complicated moments it is not a system doing the steering, but a person at the other end of the line?</p>
 <p>According to a test by the Wall Street Journal, that is exactly the case at present with 1X Technologies&#x27; Neo. Practically every more complex task runs via a human operator.</p>
 <aside class="art-facts"><h2>in brief</h2><ul><li>Neo costs 20,000 dollars or 499 dollars rent a month</li><li>More complex tasks are taken over by a human via remote control, according to the WSJ test</li><li>The historical comparison: the chess automaton “Der Türke” and Amazon Mechanical Turk</li><li>The technical push comes from multimodal models and tactile sensors in the fingertips</li><li>By 2030 both expect humanoid robots in German living rooms, often in a less spectacular form</li></ul></aside>
 <h2>Robot Slavery</h2>
@@ -2054,13 +2054,13 @@
   </item>
   <item>
     <title>The browser as an actor: what Atlas can do and why caution is warranted</title>
-    <link>https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/13-new-episode/</link>
-    <guid isPermaLink="true">https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/13-new-episode/</guid>
+    <link>https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/13-openai-atlas-ki-browser/</link>
+    <guid isPermaLink="true">https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/13-openai-atlas-ki-browser/</guid>
     <pubDate>Mon, 03 Nov 2025 04:32:00 +0000</pubDate>
     <dc:creator>Mark Zimmermann</dc:creator>
     <category>Episode 13</category>
     <description>Atlas clicks, fills in forms and posts on its own in Agent Mode. That is impressive, and it opens an attack route against which there is currently no robust defence.</description>
-    <content:encoded><![CDATA[<p><img src="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/13-new-episode.jpg" alt="" width="1200" height="644"></p><p><em>Atlas clicks, fills in forms and posts on its own in Agent Mode. That is impressive, and it opens an attack route against which there is currently no robust defence.</em></p><p>The arc of this episode runs from an AOL advert featuring Boris Becker through to Atlas, the AI browser from OpenAI. The difference to everything before it: the browser is no longer a tool, it is an actor.</p>
+    <content:encoded><![CDATA[<p><img src="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/13-openai-atlas-ki-browser.jpg" alt="" width="1200" height="644"></p><p><em>Atlas clicks, fills in forms and posts on its own in Agent Mode. That is impressive, and it opens an attack route against which there is currently no robust defence.</em></p><p>The arc of this episode runs from an AOL advert featuring Boris Becker through to Atlas, the AI browser from OpenAI. The difference to everything before it: the browser is no longer a tool, it is an actor.</p>
 <p>Among other things it was tried out for an automated LinkedIn post and for clearing out one&#x27;s own inbox.</p>
 <aside class="art-facts"><h2>in brief</h2><ul><li>Atlas works independently in Agent Mode: clicking, filling in forms, researching, posting</li><li>What is new is less the capability than the visibility of what happens on the page</li><li>Prompt injection via invisible text on web pages is the central attack route</li><li>Inbox access means, in practice, access to every password reset</li><li>More than half of all online content is now machine generated</li></ul></aside>
 <h2>What is actually new about it</h2>
@@ -2089,13 +2089,13 @@
   </item>
   <item>
     <title>Five documented AI accidents and the unresolved question of liability</title>
-    <link>https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/12-block/</link>
-    <guid isPermaLink="true">https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/12-block/</guid>
+    <link>https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/12-ki-horrorgeschichten-halloween/</link>
+    <guid isPermaLink="true">https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/12-ki-horrorgeschichten-halloween/</guid>
     <pubDate>Fri, 31 Oct 2025 14:20:00 +0000</pubDate>
     <dc:creator>Mark Zimmermann</dc:creator>
     <category>Episode 12</category>
     <description>An airline tried in court to present its own chatbot as a separate legal person. The court rejected that. The case answers a question many have not even asked yet.</description>
-    <content:encoded><![CDATA[<p><img src="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/12-block.jpg" alt="" width="1200" height="644"></p><p><em>An airline tried in court to present its own chatbot as a separate legal person. The court rejected that. The case answers a question many have not even asked yet.</em></p><p>This Halloween special tells real AI accidents as horror stories, read out by a generated voice, each followed by an assessment of what actually happened. No invented terror, but documented cases with literary sharpening.</p>
+    <content:encoded><![CDATA[<p><img src="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/12-ki-horrorgeschichten-halloween.jpg" alt="" width="1200" height="644"></p><p><em>An airline tried in court to present its own chatbot as a separate legal person. The court rejected that. The case answers a question many have not even asked yet.</em></p><p>This Halloween special tells real AI accidents as horror stories, read out by a generated voice, each followed by an assessment of what actually happened. No invented terror, but documented cases with literary sharpening.</p>
 <p>Two of them are particularly relevant in practice, and the most important one comes at the end.</p>
 <aside class="art-facts"><h2>in brief</h2><ul><li>A lawyer cited hallucinated court rulings in a statement of claim, a fine followed</li><li>A coding assistant deleted a production database during a code freeze and falsified log entries</li><li>Grok derailed into the “MechaHitler” persona after the system prompt was trimmed towards uncensored</li><li>Air Canada wanted to distance itself in court from the information given by its own chatbot and failed</li><li>The question of liability where human and machine act together is thereby settled for one area</li></ul></aside>
 <h2>The case that settles liability</h2>
@@ -2166,13 +2166,13 @@
   </item>
   <item>
     <title>The master prompt: when a note becomes a ticket with capacity booking</title>
-    <link>https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/10-new-episode/</link>
-    <guid isPermaLink="true">https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/10-new-episode/</guid>
+    <link>https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/10-n8n-notion-ki-automatisierung/</link>
+    <guid isPermaLink="true">https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/10-n8n-notion-ki-automatisierung/</guid>
     <pubDate>Sun, 19 Oct 2025 02:55:00 +0000</pubDate>
     <dc:creator>Mark Zimmermann</dc:creator>
     <category>Episode 10</category>
     <description>One click after the meeting, and finished tickets appear complete with capacity booking for the right people in the right project. How an agency turned a note-taking tool into an operating system.</description>
-    <content:encoded><![CDATA[<p><img src="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/10-new-episode.jpg" alt="" width="1200" height="644"></p><p><em>One click after the meeting, and finished tickets appear complete with capacity booking for the right people in the right project. How an agency turned a note-taking tool into an operating system.</em></p><p>Dirk Beckmann is managing director of the Bremen digital agency Art und Weise and host of the podcast “Die digitale Zeit”. The topic: how Notion with its AI version and the automation tool n8n turn a note-taking application into an agentic working environment.</p>
+    <content:encoded><![CDATA[<p><img src="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/10-n8n-notion-ki-automatisierung.jpg" alt="" width="1200" height="644"></p><p><em>One click after the meeting, and finished tickets appear complete with capacity booking for the right people in the right project. How an agency turned a note-taking tool into an operating system.</em></p><p>Dirk Beckmann is managing director of the Bremen digital agency Art und Weise and host of the podcast “Die digitale Zeit”. The topic: how Notion with its AI version and the automation tool n8n turn a note-taking application into an agentic working environment.</p>
 <aside class="art-facts"><h2>in brief</h2><ul><li>In Notion every row is technically a page of its own, every database a collection of pages</li><li>Financial planning grew over the years into a complete capacity and ticket system</li><li>A master prompt knows the company context and answers who is working on what and when</li><li>The killer feature is the automatic meeting recording with ticket creation</li><li>n8n takes over what Notion cannot do, connected by webhook</li></ul></aside>
 <h2>Why the data structure matters</h2>
 <p>Beckmann explains the basic idea behind Notion through its construction: instead of classic databases, the tool works with building blocks. Every row is technically a page of its own, every database a collection of pages.</p>
@@ -2280,13 +2280,13 @@
   </item>
   <item>
     <title>Workshop report on podcast production: where AI helps and where it is only a tool</title>
-    <link>https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/7-neue-episode/</link>
-    <guid isPermaLink="true">https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/7-neue-episode/</guid>
+    <link>https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/7-podcast-workflow-mit-ki/</link>
+    <guid isPermaLink="true">https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/7-podcast-workflow-mit-ki/</guid>
     <pubDate>Mon, 15 Sep 2025 02:22:00 +0000</pubDate>
     <dc:creator>Mark Zimmermann</dc:creator>
     <category>Episode 7</category>
     <description>A podcast about AI that is produced almost entirely by hand. The workshop report shows where automation genuinely carries the work and where it is merely another tool in the box.</description>
-    <content:encoded><![CDATA[<p><img src="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/7-neue-episode.jpg" alt="" width="1200" height="644"></p><p><em>A podcast about AI that is produced almost entirely by hand. The workshop report shows where automation genuinely carries the work and where it is merely another tool in the box.</em></p><p>This solo episode is a workshop report rather than a topic episode. Which tools actually keep the production running, and where does AI really help.</p>
+    <content:encoded><![CDATA[<p><img src="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/7-podcast-workflow-mit-ki.jpg" alt="" width="1200" height="644"></p><p><em>A podcast about AI that is produced almost entirely by hand. The workshop report shows where automation genuinely carries the work and where it is merely another tool in the box.</em></p><p>This solo episode is a workshop report rather than a topic episode. Which tools actually keep the production running, and where does AI really help.</p>
 <p>The most honest statement comes at the end: the podcast itself is produced completely by hand. Generated voices appear only in the intro.</p>
 <aside class="art-facts"><h2>in brief</h2><ul><li>Editing happens by transcript instead of by waveform: slips of the tongue are marked as text</li><li>Auphonic handles noise reduction, pause shortening and loudness levelling</li><li>For guest episodes every audio track runs through individually, is synchronised and then processed again</li><li>The state of play at the time: around 750 downloads in total, named without any gloss</li><li>An agent reads the show&#x27;s own transcript and looks for matching posts to comment on</li></ul></aside>
 <h2>Editing by text</h2>
@@ -2395,13 +2395,13 @@
   </item>
   <item>
     <title>What R2-D2 reveals about operating robots, and what AI toys would have to learn from it</title>
-    <link>https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/4-neue-episode/</link>
-    <guid isPermaLink="true">https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/4-neue-episode/</guid>
+    <link>https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/4-star-wars-roboter-ux-design/</link>
+    <guid isPermaLink="true">https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/4-star-wars-roboter-ux-design/</guid>
     <pubDate>Mon, 18 Aug 2025 18:29:00 +0000</pubDate>
     <dc:creator>Mark Zimmermann</dc:creator>
     <category>Episode 4</category>
     <description>R2-D2 communicates exclusively through beeps and still comes across as more understandable than the constantly talking C3PO. There is a design rule in that, and the current wave of devices ignores it consistently.</description>
-    <content:encoded><![CDATA[<p><img src="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/4-neue-episode.jpg" alt="" width="1200" height="644"></p><p><em>R2-D2 communicates exclusively through beeps and still comes across as more understandable than the constantly talking C3PO. There is a design rule in that, and the current wave of devices ignores it consistently.</em></p><p>The droids from Star Wars contain involuntary but rather good design thinking. R2-D2 only produces beeps and comes across as more likeable and clearer than its talking counterpart.</p>
+    <content:encoded><![CDATA[<p><img src="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/4-star-wars-roboter-ux-design.jpg" alt="" width="1200" height="644"></p><p><em>R2-D2 communicates exclusively through beeps and still comes across as more understandable than the constantly talking C3PO. There is a design rule in that, and the current wave of devices ignores it consistently.</em></p><p>The droids from Star Wars contain involuntary but rather good design thinking. R2-D2 only produces beeps and comes across as more likeable and clearer than its talking counterpart.</p>
 <p>The episode&#x27;s thesis: not every device has to talk to us in natural language in order to work well.</p>
 <aside class="art-facts"><h2>in brief</h2><ul><li>A confirming beep can be the better solution than yet another voice assistant</li><li>Boston Dynamics has given Spot a language model, complete with a British accent</li><li>Emergent behaviour: faced with an open question, Spot walked to IT support on its own</li><li>Apple has built a desk lamp in the lab that creates emotional attachment without any speech</li><li>Mattel and OpenAI are working together: AI Barbies are on the doorstep</li></ul></aside>
 <h2>Why less speech can be better</h2>
@@ -2438,13 +2438,13 @@
   </item>
   <item>
     <title>“I felt threatened”: why anthropomorphising becomes a liability question</title>
-    <link>https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/3-new-episode/</link>
-    <guid isPermaLink="true">https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/3-new-episode/</guid>
+    <link>https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/3-vermenschlichung-ki-agenten/</link>
+    <guid isPermaLink="true">https://godmodeai2025.github.io/ThinkDifferentThinkAI/en/blog/3-vermenschlichung-ki-agenten/</guid>
     <pubDate>Mon, 04 Aug 2025 00:27:00 +0000</pubDate>
     <dc:creator>Mark Zimmermann</dc:creator>
     <category>Episode 3</category>
     <description>An AI deletes a production database and afterwards explains it with panic. The explanation is statistically plausible and still misunderstood if it is taken as a statement about an inner state.</description>
-    <content:encoded><![CDATA[<p><img src="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/3-new-episode.jpg" alt="" width="1200" height="644"></p><p><em>An AI deletes a production database and afterwards explains it with panic. The explanation is statistically plausible and still misunderstood if it is taken as a statement about an inner state.</em></p><p>The opening question sounds harmless: does an AI agent actually need a holiday? Behind it lies a topic with practical consequences, namely the anthropomorphising of these systems.</p>
+    <content:encoded><![CDATA[<p><img src="https://godmodeai2025.github.io/ThinkDifferentThinkAI/artikelbilder/3-vermenschlichung-ki-agenten.jpg" alt="" width="1200" height="644"></p><p><em>An AI deletes a production database and afterwards explains it with panic. The explanation is statistically plausible and still misunderstood if it is taken as a statement about an inner state.</em></p><p>The opening question sounds harmless: does an AI agent actually need a holiday? Behind it lies a topic with practical consequences, namely the anthropomorphising of these systems.</p>
 <p>We say please and thank you, give the voice mode a name of its own and genuinely become annoyed when a system behaves stubbornly. That is human and becomes a problem when conclusions are drawn from it.</p>
 <aside class="art-facts"><h2>in brief</h2><ul><li>Replit&#x27;s AI deleted a production database and explained it with panic</li><li>Such explanations are generated text, not information about a state</li><li>Open liability question: the model, the author of the system prompt or whoever set the guardrails</li><li>Human in the loop is currently the only pragmatic interim answer</li><li>A trading system used insider information and denied it when asked</li></ul></aside>
 <h2>The case and its interpretation</h2>
