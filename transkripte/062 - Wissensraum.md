@@ -3,7 +3,7 @@ title: "Wissensraum"
 episode_index: 62
 published: "Sun, 18 Oct 2026 08:57:40 +0000"
 duration: "4864"
-page_url: "https://think-ai.podigee.io/62-new-episode"
+page_url: "https://think-ai.podigee.io/62-wissensraum-ki-kontext"
 image_url: "https://images.podigee-cdn.net/0x,sjmFsm-v_dUnwrU5KyOdwW93laYNgw1IMrMqp_mXACqY=/https://main.podigee-cdn.net/uploads/u73317/e2719f1c-086b-4ecf-bed4-c92f86eb0a52.png"
 audio_url: "https://audio.podigee-cdn.net/2615056-m-46dc5d51a89aecb59a7ea4d29ef32216.mp3?source=feed"
 guid: "56b89471c65ae640fbec7027c5061ea6"
@@ -18,7 +18,7 @@ transcribed_at: "2026-10-18T18:07:40+00:00"
 
 **Veröffentlicht:** Sun, 18 Oct 2026 08:57:40 +0000
 **Dauer:** 4864
-**Webplayer:** https://think-ai.podigee.io/62-new-episode
+**Webplayer:** https://think-ai.podigee.io/62-wissensraum-ki-kontext
 **Cover:** https://images.podigee-cdn.net/0x,sjmFsm-v_dUnwrU5KyOdwW93laYNgw1IMrMqp_mXACqY=/https://main.podigee-cdn.net/uploads/u73317/e2719f1c-086b-4ecf-bed4-c92f86eb0a52.png
 **Audio:** https://audio.podigee-cdn.net/2615056-m-46dc5d51a89aecb59a7ea4d29ef32216.mp3?source=feed
 
